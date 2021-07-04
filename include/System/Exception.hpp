@@ -283,253 +283,253 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(Exception), 128 + sizeof(::Array<System::IntPtr>*)> __System_ExceptionSizeCheck;
   static_assert(sizeof(Exception) == 0x88);
-  // Writing MetadataGetter for method: Exception::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*, System::Exception*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*, System::Exception*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::get_Message
-  // Il2CppName: get_Message
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::get_Message)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::get_Data
-  // Il2CppName: get_Data
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (Exception::*)()>(&Exception::get_Data)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::IsImmutableAgileException
-  // Il2CppName: IsImmutableAgileException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&Exception::IsImmutableAgileException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "IsImmutableAgileException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::GetClassName
-  // Il2CppName: GetClassName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::GetClassName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "GetClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::get_InnerException
-  // Il2CppName: get_InnerException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Exception::*)()>(&Exception::get_InnerException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "get_InnerException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::get_StackTrace
-  // Il2CppName: get_StackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::get_StackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::GetStackTrace
-  // Il2CppName: GetStackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)(bool)>(&Exception::GetStackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::SetErrorCode
-  // Il2CppName: SetErrorCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(int)>(&Exception::SetErrorCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "SetErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::get_Source
-  // Il2CppName: get_Source
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::get_Source)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)(bool, bool)>(&Exception::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::GetObjectData
-  // Il2CppName: GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Exception::GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::OnDeserialized
-  // Il2CppName: OnDeserialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::StreamingContext)>(&Exception::OnDeserialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::InternalPreserveStackTrace
-  // Il2CppName: InternalPreserveStackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::InternalPreserveStackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "InternalPreserveStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::StripFileInfo
-  // Il2CppName: StripFileInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)(::Il2CppString*, bool)>(&Exception::StripFileInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "StripFileInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::RestoreExceptionDispatchInfo
-  // Il2CppName: RestoreExceptionDispatchInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&Exception::RestoreExceptionDispatchInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "RestoreExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::get_HResult
-  // Il2CppName: get_HResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Exception::*)()>(&Exception::get_HResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "get_HResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::set_HResult
-  // Il2CppName: set_HResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(int)>(&Exception::set_HResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "set_HResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::GetType
-  // Il2CppName: GetType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Exception::*)()>(&Exception::GetType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::GetMessageFromNativeResources
-  // Il2CppName: GetMessageFromNativeResources
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception::ExceptionMessageKind)>(&Exception::GetMessageFromNativeResources)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "GetMessageFromNativeResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception::ExceptionMessageKind>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::FixRemotingException
-  // Il2CppName: FixRemotingException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Exception::*)()>(&Exception::FixRemotingException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "FixRemotingException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::ReportUnhandledException
-  // Il2CppName: ReportUnhandledException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&Exception::ReportUnhandledException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "ReportUnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Exception::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Exception::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Exception*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
+// Writing MetadataGetter for method: Exception::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*, System::Exception*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(::Il2CppString*, System::Exception*)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::get_Message
+// Il2CppName: get_Message
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::get_Data
+// Il2CppName: get_Data
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (Exception::*)()>(&Exception::get_Data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::IsImmutableAgileException
+// Il2CppName: IsImmutableAgileException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&Exception::IsImmutableAgileException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "IsImmutableAgileException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::GetClassName
+// Il2CppName: GetClassName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::GetClassName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "GetClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::get_InnerException
+// Il2CppName: get_InnerException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Exception::*)()>(&Exception::get_InnerException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "get_InnerException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::get_StackTrace
+// Il2CppName: get_StackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::get_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::GetStackTrace
+// Il2CppName: GetStackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)(bool)>(&Exception::GetStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::SetErrorCode
+// Il2CppName: SetErrorCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(int)>(&Exception::SetErrorCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "SetErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::get_Source
+// Il2CppName: get_Source
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::get_Source)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)(bool, bool)>(&Exception::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::GetObjectData
+// Il2CppName: GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Exception::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::OnDeserialized
+// Il2CppName: OnDeserialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::Serialization::StreamingContext)>(&Exception::OnDeserialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::InternalPreserveStackTrace
+// Il2CppName: InternalPreserveStackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::InternalPreserveStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "InternalPreserveStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::StripFileInfo
+// Il2CppName: StripFileInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)(::Il2CppString*, bool)>(&Exception::StripFileInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "StripFileInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::RestoreExceptionDispatchInfo
+// Il2CppName: RestoreExceptionDispatchInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&Exception::RestoreExceptionDispatchInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "RestoreExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::get_HResult
+// Il2CppName: get_HResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Exception::*)()>(&Exception::get_HResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "get_HResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::set_HResult
+// Il2CppName: set_HResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)(int)>(&Exception::set_HResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "set_HResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::GetType
+// Il2CppName: GetType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Exception::*)()>(&Exception::GetType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::GetMessageFromNativeResources
+// Il2CppName: GetMessageFromNativeResources
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception::ExceptionMessageKind)>(&Exception::GetMessageFromNativeResources)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "GetMessageFromNativeResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception::ExceptionMessageKind>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::FixRemotingException
+// Il2CppName: FixRemotingException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Exception::*)()>(&Exception::FixRemotingException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "FixRemotingException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::ReportUnhandledException
+// Il2CppName: ReportUnhandledException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&Exception::ReportUnhandledException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "ReportUnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: Exception::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Exception::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Exception::*)()>(&Exception::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Exception::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Exception::*)()>(&Exception::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Exception*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -40,22 +40,22 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
     static void RecordPrefixedError(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, ::Il2CppString* error, NUnit::Framework::Interfaces::ResultState* resultState);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestResultExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TestResultExtensions::RecordPrefixedException
-  // Il2CppName: RecordPrefixedException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, System::Exception*, NUnit::Framework::Interfaces::ResultState*)>(&TestResultExtensions::RecordPrefixedException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestResultExtensions*), "RecordPrefixedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestResultExtensions::RecordPrefixedError
-  // Il2CppName: RecordPrefixedError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, ::Il2CppString*, NUnit::Framework::Interfaces::ResultState*)>(&TestResultExtensions::RecordPrefixedError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestResultExtensions*), "RecordPrefixedError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestResultExtensions");
+// Writing MetadataGetter for method: TestResultExtensions::RecordPrefixedException
+// Il2CppName: RecordPrefixedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, System::Exception*, NUnit::Framework::Interfaces::ResultState*)>(&TestResultExtensions::RecordPrefixedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestResultExtensions*), "RecordPrefixedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>()});
+  }
+};
+// Writing MetadataGetter for method: TestResultExtensions::RecordPrefixedError
+// Il2CppName: RecordPrefixedError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, ::Il2CppString*, NUnit::Framework::Interfaces::ResultState*)>(&TestResultExtensions::RecordPrefixedError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestResultExtensions*), "RecordPrefixedError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>()});
+  }
+};

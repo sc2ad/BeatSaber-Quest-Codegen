@@ -50,43 +50,43 @@ namespace Valve::VR {
     void EndInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::IAsyncResult* result);
   }; // Valve.VR.IVRExtendedDisplay/_GetDXGIOutputInfo
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&, System::IAsyncResult*)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo*, "Valve.VR", "IVRExtendedDisplay/_GetDXGIOutputInfo");
+// Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRExtendedDisplay::_GetDXGIOutputInfo::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&, System::IAsyncResult*)>(&IVRExtendedDisplay::_GetDXGIOutputInfo::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRExtendedDisplay::_GetDXGIOutputInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

@@ -60,22 +60,22 @@ namespace UnityEngine::Experimental::Playables {
   #pragma pack(pop)
   static check_size<sizeof(CameraPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Experimental_Playables_CameraPlayableSizeCheck;
   static_assert(sizeof(CameraPlayable) == 0xC);
-  // Writing MetadataGetter for method: CameraPlayable::GetHandle
-  // Il2CppName: GetHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (CameraPlayable::*)()>(&CameraPlayable::GetHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CameraPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CameraPlayable::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CameraPlayable::*)(UnityEngine::Experimental::Playables::CameraPlayable)>(&CameraPlayable::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CameraPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Playables::CameraPlayable>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::CameraPlayable, "UnityEngine.Experimental.Playables", "CameraPlayable");
+// Writing MetadataGetter for method: CameraPlayable::GetHandle
+// Il2CppName: GetHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (CameraPlayable::*)()>(&CameraPlayable::GetHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CameraPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CameraPlayable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CameraPlayable::*)(UnityEngine::Experimental::Playables::CameraPlayable)>(&CameraPlayable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CameraPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Playables::CameraPlayable>()});
+  }
+};

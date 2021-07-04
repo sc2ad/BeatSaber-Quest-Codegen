@@ -51,43 +51,43 @@ namespace Mono::Security::Cryptography {
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::IntPtr)>(&RSAManaged::KeyGeneratedEventHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::IntPtr)>(&RSAManaged::KeyGeneratedEventHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::EventArgs*)>(&RSAManaged::KeyGeneratedEventHandler::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::EventArgs*, System::AsyncCallback*, ::Il2CppObject*)>(&RSAManaged::KeyGeneratedEventHandler::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(System::IAsyncResult*)>(&RSAManaged::KeyGeneratedEventHandler::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*, "Mono.Security.Cryptography", "RSAManaged/KeyGeneratedEventHandler");
+// Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::IntPtr)>(&RSAManaged::KeyGeneratedEventHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::IntPtr)>(&RSAManaged::KeyGeneratedEventHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::EventArgs*)>(&RSAManaged::KeyGeneratedEventHandler::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+  }
+};
+// Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::EventArgs*, System::AsyncCallback*, ::Il2CppObject*)>(&RSAManaged::KeyGeneratedEventHandler::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RSAManaged::KeyGeneratedEventHandler::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::KeyGeneratedEventHandler::*)(System::IAsyncResult*)>(&RSAManaged::KeyGeneratedEventHandler::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAManaged::KeyGeneratedEventHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

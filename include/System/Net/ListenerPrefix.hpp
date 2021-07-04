@@ -109,91 +109,91 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(ListenerPrefix), 56 + sizeof(System::Net::HttpListener*)> __System_Net_ListenerPrefixSizeCheck;
   static_assert(sizeof(ListenerPrefix) == 0x40);
-  // Writing MetadataGetter for method: ListenerPrefix::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerPrefix::*)(::Il2CppString*)>(&ListenerPrefix::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerPrefix::*)(::Il2CppString*)>(&ListenerPrefix::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::get_Secure
-  // Il2CppName: get_Secure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ListenerPrefix::*)()>(&ListenerPrefix::get_Secure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Secure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::get_Host
-  // Il2CppName: get_Host
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ListenerPrefix::*)()>(&ListenerPrefix::get_Host)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::get_Port
-  // Il2CppName: get_Port
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ListenerPrefix::*)()>(&ListenerPrefix::get_Port)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::get_Path
-  // Il2CppName: get_Path
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ListenerPrefix::*)()>(&ListenerPrefix::get_Path)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::Parse
-  // Il2CppName: Parse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerPrefix::*)(::Il2CppString*)>(&ListenerPrefix::Parse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::CheckUri
-  // Il2CppName: CheckUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ListenerPrefix::CheckUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "CheckUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ListenerPrefix::*)()>(&ListenerPrefix::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ListenerPrefix::*)(::Il2CppObject*)>(&ListenerPrefix::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ListenerPrefix::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ListenerPrefix::*)()>(&ListenerPrefix::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerPrefix*, "System.Net", "ListenerPrefix");
+// Writing MetadataGetter for method: ListenerPrefix::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerPrefix::*)(::Il2CppString*)>(&ListenerPrefix::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerPrefix::*)(::Il2CppString*)>(&ListenerPrefix::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::get_Secure
+// Il2CppName: get_Secure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ListenerPrefix::*)()>(&ListenerPrefix::get_Secure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Secure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::get_Host
+// Il2CppName: get_Host
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ListenerPrefix::*)()>(&ListenerPrefix::get_Host)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::get_Port
+// Il2CppName: get_Port
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ListenerPrefix::*)()>(&ListenerPrefix::get_Port)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::get_Path
+// Il2CppName: get_Path
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ListenerPrefix::*)()>(&ListenerPrefix::get_Path)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "get_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerPrefix::*)(::Il2CppString*)>(&ListenerPrefix::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::CheckUri
+// Il2CppName: CheckUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ListenerPrefix::CheckUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "CheckUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ListenerPrefix::*)()>(&ListenerPrefix::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ListenerPrefix::*)(::Il2CppObject*)>(&ListenerPrefix::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ListenerPrefix::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ListenerPrefix::*)()>(&ListenerPrefix::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListenerPrefix*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

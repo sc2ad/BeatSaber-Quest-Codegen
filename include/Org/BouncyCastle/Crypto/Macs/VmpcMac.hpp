@@ -135,75 +135,75 @@ namespace Org::BouncyCastle::Crypto::Macs {
   #pragma pack(pop)
   static check_size<sizeof(VmpcMac), 67 + sizeof(uint8_t)> __Org_BouncyCastle_Crypto_Macs_VmpcMacSizeCheck;
   static_assert(sizeof(VmpcMac) == 0x44);
-  // Writing MetadataGetter for method: VmpcMac::DoFinal
-  // Il2CppName: DoFinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VmpcMac::*)(::Array<uint8_t>*, int)>(&VmpcMac::DoFinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: VmpcMac::GetMacSize
-  // Il2CppName: GetMacSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VmpcMac::*)()>(&VmpcMac::GetMacSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "GetMacSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VmpcMac::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&VmpcMac::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VmpcMac::initKey
-  // Il2CppName: initKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&VmpcMac::initKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "initKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VmpcMac::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)()>(&VmpcMac::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VmpcMac::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(uint8_t)>(&VmpcMac::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: VmpcMac::BlockUpdate
-  // Il2CppName: BlockUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(::Array<uint8_t>*, int, int)>(&VmpcMac::BlockUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: VmpcMac::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)()>(&VmpcMac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)()>(&VmpcMac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VmpcMac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::VmpcMac*, "Org.BouncyCastle.Crypto.Macs", "VmpcMac");
+// Writing MetadataGetter for method: VmpcMac::DoFinal
+// Il2CppName: DoFinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VmpcMac::*)(::Array<uint8_t>*, int)>(&VmpcMac::DoFinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: VmpcMac::GetMacSize
+// Il2CppName: GetMacSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VmpcMac::*)()>(&VmpcMac::GetMacSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "GetMacSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VmpcMac::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&VmpcMac::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: VmpcMac::initKey
+// Il2CppName: initKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&VmpcMac::initKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "initKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: VmpcMac::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)()>(&VmpcMac::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VmpcMac::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(uint8_t)>(&VmpcMac::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: VmpcMac::BlockUpdate
+// Il2CppName: BlockUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)(::Array<uint8_t>*, int, int)>(&VmpcMac::BlockUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: VmpcMac::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)()>(&VmpcMac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcMac::*)()>(&VmpcMac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VmpcMac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

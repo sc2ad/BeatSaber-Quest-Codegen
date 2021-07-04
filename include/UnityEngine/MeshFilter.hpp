@@ -42,46 +42,46 @@ namespace UnityEngine {
     void set_mesh(UnityEngine::Mesh* value);
   }; // UnityEngine.MeshFilter
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MeshFilter::DontStripMeshFilter
-  // Il2CppName: DontStripMeshFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshFilter::*)()>(&MeshFilter::DontStripMeshFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "DontStripMeshFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshFilter::get_sharedMesh
-  // Il2CppName: get_sharedMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshFilter::*)()>(&MeshFilter::get_sharedMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshFilter::set_sharedMesh
-  // Il2CppName: set_sharedMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshFilter::*)(UnityEngine::Mesh*)>(&MeshFilter::set_sharedMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshFilter::get_mesh
-  // Il2CppName: get_mesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshFilter::*)()>(&MeshFilter::get_mesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshFilter::set_mesh
-  // Il2CppName: set_mesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshFilter::*)(UnityEngine::Mesh*)>(&MeshFilter::set_mesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshFilter*, "UnityEngine", "MeshFilter");
+// Writing MetadataGetter for method: MeshFilter::DontStripMeshFilter
+// Il2CppName: DontStripMeshFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshFilter::*)()>(&MeshFilter::DontStripMeshFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "DontStripMeshFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshFilter::get_sharedMesh
+// Il2CppName: get_sharedMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshFilter::*)()>(&MeshFilter::get_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshFilter::set_sharedMesh
+// Il2CppName: set_sharedMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshFilter::*)(UnityEngine::Mesh*)>(&MeshFilter::set_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshFilter::get_mesh
+// Il2CppName: get_mesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshFilter::*)()>(&MeshFilter::get_mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshFilter::set_mesh
+// Il2CppName: set_mesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshFilter::*)(UnityEngine::Mesh*)>(&MeshFilter::set_mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshFilter*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};

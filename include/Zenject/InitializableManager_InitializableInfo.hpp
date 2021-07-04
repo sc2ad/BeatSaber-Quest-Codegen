@@ -50,19 +50,19 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(InitializableManager::InitializableInfo), 24 + sizeof(int)> __Zenject_InitializableManager_InitializableInfoSizeCheck;
   static_assert(sizeof(InitializableManager::InitializableInfo) == 0x1C);
-  // Writing MetadataGetter for method: InitializableManager::InitializableInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::InitializableInfo::*)(Zenject::IInitializable*, int)>(&InitializableManager::InitializableInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializableManager::InitializableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IInitializable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::InitializableInfo::*)(Zenject::IInitializable*, int)>(&InitializableManager::InitializableInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializableManager::InitializableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IInitializable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::InitializableInfo*, "Zenject", "InitializableManager/InitializableInfo");
+// Writing MetadataGetter for method: InitializableManager::InitializableInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::InitializableInfo::*)(Zenject::IInitializable*, int)>(&InitializableManager::InitializableInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializableManager::InitializableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IInitializable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::InitializableInfo::*)(Zenject::IInitializable*, int)>(&InitializableManager::InitializableInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializableManager::InitializableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IInitializable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

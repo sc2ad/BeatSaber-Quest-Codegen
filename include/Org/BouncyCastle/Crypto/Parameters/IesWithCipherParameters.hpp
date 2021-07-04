@@ -33,14 +33,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
   static check_size<sizeof(IesWithCipherParameters), 36 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_IesWithCipherParametersSizeCheck;
   static_assert(sizeof(IesWithCipherParameters) == 0x28);
-  // Writing MetadataGetter for method: IesWithCipherParameters::get_CipherKeySize
-  // Il2CppName: get_CipherKeySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IesWithCipherParameters::*)()>(&IesWithCipherParameters::get_CipherKeySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IesWithCipherParameters*), "get_CipherKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesWithCipherParameters");
+// Writing MetadataGetter for method: IesWithCipherParameters::get_CipherKeySize
+// Il2CppName: get_CipherKeySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IesWithCipherParameters::*)()>(&IesWithCipherParameters::get_CipherKeySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IesWithCipherParameters*), "get_CipherKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

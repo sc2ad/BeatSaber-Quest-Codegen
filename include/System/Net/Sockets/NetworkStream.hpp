@@ -212,201 +212,201 @@ namespace System::Net::Sockets {
   #pragma pack(pop)
   static check_size<sizeof(NetworkStream), 64 + sizeof(int)> __System_Net_Sockets_NetworkStreamSizeCheck;
   static_assert(sizeof(NetworkStream) == 0x44);
-  // Writing MetadataGetter for method: NetworkStream::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*, bool)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*, bool)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_DataAvailable
-  // Il2CppName: get_DataAvailable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_DataAvailable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_DataAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::InitNetworkStream
-  // Il2CppName: InitNetworkStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*, System::IO::FileAccess)>(&NetworkStream::InitNetworkStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "InitNetworkStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_CanRead
-  // Il2CppName: get_CanRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_CanRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_CanSeek
-  // Il2CppName: get_CanSeek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_CanSeek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_CanWrite
-  // Il2CppName: get_CanWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_CanWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_ReadTimeout
-  // Il2CppName: get_ReadTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)()>(&NetworkStream::get_ReadTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_WriteTimeout
-  // Il2CppName: get_WriteTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)()>(&NetworkStream::get_WriteTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_Length
-  // Il2CppName: get_Length
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetworkStream::*)()>(&NetworkStream::get_Length)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::get_Position
-  // Il2CppName: get_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetworkStream::*)()>(&NetworkStream::get_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::set_Position
-  // Il2CppName: set_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(int64_t)>(&NetworkStream::set_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::Seek
-  // Il2CppName: Seek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetworkStream::*)(int64_t, System::IO::SeekOrigin)>(&NetworkStream::Seek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::Read
-  // Il2CppName: Read
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)(::Array<uint8_t>*&, int, int)>(&NetworkStream::Read)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::Write
-  // Il2CppName: Write
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(::Array<uint8_t>*, int, int)>(&NetworkStream::Write)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(bool)>(&NetworkStream::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)()>(&NetworkStream::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::BeginRead
-  // Il2CppName: BeginRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (NetworkStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&NetworkStream::BeginRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::EndRead
-  // Il2CppName: EndRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)(System::IAsyncResult*)>(&NetworkStream::EndRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::BeginWrite
-  // Il2CppName: BeginWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (NetworkStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&NetworkStream::BeginWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::EndWrite
-  // Il2CppName: EndWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::IAsyncResult*)>(&NetworkStream::EndWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::Flush
-  // Il2CppName: Flush
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)()>(&NetworkStream::Flush)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkStream::SetLength
-  // Il2CppName: SetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(int64_t)>(&NetworkStream::SetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::NetworkStream*, "System.Net.Sockets", "NetworkStream");
+// Writing MetadataGetter for method: NetworkStream::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*, bool)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*, bool)>(&NetworkStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_DataAvailable
+// Il2CppName: get_DataAvailable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_DataAvailable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_DataAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::InitNetworkStream
+// Il2CppName: InitNetworkStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::Net::Sockets::Socket*, System::IO::FileAccess)>(&NetworkStream::InitNetworkStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "InitNetworkStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_CanRead
+// Il2CppName: get_CanRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_CanRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_CanSeek
+// Il2CppName: get_CanSeek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_CanSeek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_CanWrite
+// Il2CppName: get_CanWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkStream::*)()>(&NetworkStream::get_CanWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_ReadTimeout
+// Il2CppName: get_ReadTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)()>(&NetworkStream::get_ReadTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_WriteTimeout
+// Il2CppName: get_WriteTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)()>(&NetworkStream::get_WriteTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_Length
+// Il2CppName: get_Length
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetworkStream::*)()>(&NetworkStream::get_Length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::get_Position
+// Il2CppName: get_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetworkStream::*)()>(&NetworkStream::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::set_Position
+// Il2CppName: set_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(int64_t)>(&NetworkStream::set_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::Seek
+// Il2CppName: Seek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetworkStream::*)(int64_t, System::IO::SeekOrigin)>(&NetworkStream::Seek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::Read
+// Il2CppName: Read
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)(::Array<uint8_t>*&, int, int)>(&NetworkStream::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::Write
+// Il2CppName: Write
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(::Array<uint8_t>*, int, int)>(&NetworkStream::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(bool)>(&NetworkStream::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)()>(&NetworkStream::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::BeginRead
+// Il2CppName: BeginRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (NetworkStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&NetworkStream::BeginRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::EndRead
+// Il2CppName: EndRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkStream::*)(System::IAsyncResult*)>(&NetworkStream::EndRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::BeginWrite
+// Il2CppName: BeginWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (NetworkStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&NetworkStream::BeginWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::EndWrite
+// Il2CppName: EndWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(System::IAsyncResult*)>(&NetworkStream::EndWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::Flush
+// Il2CppName: Flush
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)()>(&NetworkStream::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkStream::SetLength
+// Il2CppName: SetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkStream::*)(int64_t)>(&NetworkStream::SetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};

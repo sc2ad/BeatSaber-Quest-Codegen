@@ -102,113 +102,113 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(NetworkCredential), 32 + sizeof(System::Security::SecureString*)> __System_Net_NetworkCredentialSizeCheck;
   static_assert(sizeof(NetworkCredential) == 0x28);
-  // Writing MetadataGetter for method: NetworkCredential::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::get_UserName
-  // Il2CppName: get_UserName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::get_UserName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::set_UserName
-  // Il2CppName: set_UserName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*)>(&NetworkCredential::set_UserName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::get_Password
-  // Il2CppName: get_Password
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::get_Password)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "get_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::set_Password
-  // Il2CppName: set_Password
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*)>(&NetworkCredential::set_Password)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::get_Domain
-  // Il2CppName: get_Domain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::get_Domain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "get_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::set_Domain
-  // Il2CppName: set_Domain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*)>(&NetworkCredential::set_Domain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "set_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::InternalGetUserName
-  // Il2CppName: InternalGetUserName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::InternalGetUserName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "InternalGetUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::InternalGetPassword
-  // Il2CppName: InternalGetPassword
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::InternalGetPassword)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "InternalGetPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::InternalGetDomain
-  // Il2CppName: InternalGetDomain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::InternalGetDomain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "InternalGetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkCredential::GetCredential
-  // Il2CppName: GetCredential
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkCredential* (NetworkCredential::*)(System::Uri*, ::Il2CppString*)>(&NetworkCredential::GetCredential)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "GetCredential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkCredential*, "System.Net", "NetworkCredential");
+// Writing MetadataGetter for method: NetworkCredential::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&NetworkCredential::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::get_UserName
+// Il2CppName: get_UserName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::get_UserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::set_UserName
+// Il2CppName: set_UserName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*)>(&NetworkCredential::set_UserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::get_Password
+// Il2CppName: get_Password
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::get_Password)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "get_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::set_Password
+// Il2CppName: set_Password
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*)>(&NetworkCredential::set_Password)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::get_Domain
+// Il2CppName: get_Domain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::get_Domain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "get_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::set_Domain
+// Il2CppName: set_Domain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkCredential::*)(::Il2CppString*)>(&NetworkCredential::set_Domain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "set_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::InternalGetUserName
+// Il2CppName: InternalGetUserName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::InternalGetUserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "InternalGetUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::InternalGetPassword
+// Il2CppName: InternalGetPassword
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::InternalGetPassword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "InternalGetPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::InternalGetDomain
+// Il2CppName: InternalGetDomain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkCredential::*)()>(&NetworkCredential::InternalGetDomain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "InternalGetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkCredential::GetCredential
+// Il2CppName: GetCredential
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkCredential* (NetworkCredential::*)(System::Uri*, ::Il2CppString*)>(&NetworkCredential::GetCredential)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkCredential*), "GetCredential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

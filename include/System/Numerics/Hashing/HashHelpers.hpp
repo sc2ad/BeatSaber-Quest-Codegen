@@ -26,22 +26,22 @@ namespace System::Numerics::Hashing {
     static void _cctor();
   }; // System.Numerics.Hashing.HashHelpers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: HashHelpers::Combine
-  // Il2CppName: Combine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&HashHelpers::Combine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HashHelpers::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HashHelpers::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
+// Writing MetadataGetter for method: HashHelpers::Combine
+// Il2CppName: Combine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&HashHelpers::Combine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HashHelpers::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HashHelpers::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

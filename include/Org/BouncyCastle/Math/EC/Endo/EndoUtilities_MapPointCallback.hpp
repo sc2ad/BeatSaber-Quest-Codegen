@@ -74,35 +74,35 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   #pragma pack(pop)
   static check_size<sizeof(EndoUtilities::MapPointCallback), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPoint*)> __Org_BouncyCastle_Math_EC_Endo_EndoUtilities_MapPointCallbackSizeCheck;
   static_assert(sizeof(EndoUtilities::MapPointCallback) == 0x20);
-  // Writing MetadataGetter for method: EndoUtilities::MapPointCallback::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::ECPoint*)>(&EndoUtilities::MapPointCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::ECPoint*)>(&EndoUtilities::MapPointCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EndoUtilities::MapPointCallback::Precompute
-  // Il2CppName: Precompute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&EndoUtilities::MapPointCallback::Precompute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EndoUtilities::MapPointCallback::CheckExisting
-  // Il2CppName: CheckExisting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&EndoUtilities::MapPointCallback::CheckExisting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), "CheckExisting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback*, "Org.BouncyCastle.Math.EC.Endo", "EndoUtilities/MapPointCallback");
+// Writing MetadataGetter for method: EndoUtilities::MapPointCallback::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::ECPoint*)>(&EndoUtilities::MapPointCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::ECPoint*)>(&EndoUtilities::MapPointCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: EndoUtilities::MapPointCallback::Precompute
+// Il2CppName: Precompute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&EndoUtilities::MapPointCallback::Precompute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: EndoUtilities::MapPointCallback::CheckExisting
+// Il2CppName: CheckExisting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&EndoUtilities::MapPointCallback::CheckExisting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoUtilities::MapPointCallback*), "CheckExisting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>()});
+  }
+};

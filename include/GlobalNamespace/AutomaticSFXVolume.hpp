@@ -143,67 +143,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AutomaticSFXVolume), 76 + sizeof(float)> __GlobalNamespace_AutomaticSFXVolumeSizeCheck;
   static_assert(sizeof(AutomaticSFXVolume) == 0x50);
-  // Writing MetadataGetter for method: AutomaticSFXVolume::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutomaticSFXVolume::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutomaticSFXVolume::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutomaticSFXVolume::RecalculateParams
-  // Il2CppName: RecalculateParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::RecalculateParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "RecalculateParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutomaticSFXVolume::OnAudioFilterRead
-  // Il2CppName: OnAudioFilterRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)(::Array<float>*, int)>(&AutomaticSFXVolume::OnAudioFilterRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutomaticSFXVolume::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutomaticSFXVolume::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume*, "", "AutomaticSFXVolume");
+// Writing MetadataGetter for method: AutomaticSFXVolume::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutomaticSFXVolume::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutomaticSFXVolume::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutomaticSFXVolume::RecalculateParams
+// Il2CppName: RecalculateParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::RecalculateParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "RecalculateParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutomaticSFXVolume::OnAudioFilterRead
+// Il2CppName: OnAudioFilterRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)(::Array<float>*, int)>(&AutomaticSFXVolume::OnAudioFilterRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AutomaticSFXVolume::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutomaticSFXVolume::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::*)()>(&AutomaticSFXVolume::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

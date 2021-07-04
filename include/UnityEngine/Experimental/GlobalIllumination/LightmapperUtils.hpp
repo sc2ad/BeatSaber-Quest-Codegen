@@ -59,62 +59,62 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::DiscLight& disc);
   }; // UnityEngine.Experimental.GlobalIllumination.LightmapperUtils
   #pragma pack(pop)
-  // Writing MetadataGetter for method: LightmapperUtils::ExtractIndirect
-  // Il2CppName: ExtractIndirect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(UnityEngine::Light*)>(&LightmapperUtils::ExtractIndirect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "ExtractIndirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapperUtils::ExtractInnerCone
-  // Il2CppName: ExtractInnerCone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Light*)>(&LightmapperUtils::ExtractInnerCone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "ExtractInnerCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapperUtils::Extract
-  // Il2CppName: Extract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DirectionalLight&)>(&LightmapperUtils::Extract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DirectionalLight&>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapperUtils::Extract
-  // Il2CppName: Extract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::PointLight&)>(&LightmapperUtils::Extract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::PointLight&>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapperUtils::Extract
-  // Il2CppName: Extract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::SpotLight&)>(&LightmapperUtils::Extract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::SpotLight&>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapperUtils::Extract
-  // Il2CppName: Extract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::RectangleLight&)>(&LightmapperUtils::Extract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::RectangleLight&>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapperUtils::Extract
-  // Il2CppName: Extract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DiscLight&)>(&LightmapperUtils::Extract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DiscLight&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*, "UnityEngine.Experimental.GlobalIllumination", "LightmapperUtils");
+// Writing MetadataGetter for method: LightmapperUtils::ExtractIndirect
+// Il2CppName: ExtractIndirect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(UnityEngine::Light*)>(&LightmapperUtils::ExtractIndirect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "ExtractIndirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapperUtils::ExtractInnerCone
+// Il2CppName: ExtractInnerCone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Light*)>(&LightmapperUtils::ExtractInnerCone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "ExtractInnerCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapperUtils::Extract
+// Il2CppName: Extract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DirectionalLight&)>(&LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DirectionalLight&>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapperUtils::Extract
+// Il2CppName: Extract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::PointLight&)>(&LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::PointLight&>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapperUtils::Extract
+// Il2CppName: Extract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::SpotLight&)>(&LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::SpotLight&>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapperUtils::Extract
+// Il2CppName: Extract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::RectangleLight&)>(&LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::RectangleLight&>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapperUtils::Extract
+// Il2CppName: Extract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DiscLight&)>(&LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DiscLight&>()});
+  }
+};

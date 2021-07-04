@@ -76,67 +76,67 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(BakerMuscle), 32 + sizeof(::Il2CppString*)> __RootMotion_BakerMuscleSizeCheck;
   static_assert(sizeof(BakerMuscle) == 0x28);
-  // Writing MetadataGetter for method: BakerMuscle::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(int)>(&BakerMuscle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(int)>(&BakerMuscle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerMuscle::MuscleNameToPropertyName
-  // Il2CppName: MuscleNameToPropertyName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BakerMuscle::*)(::Il2CppString*)>(&BakerMuscle::MuscleNameToPropertyName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "MuscleNameToPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerMuscle::MultiplyLength
-  // Il2CppName: MultiplyLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(UnityEngine::AnimationCurve*, float)>(&BakerMuscle::MultiplyLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerMuscle::SetCurves
-  // Il2CppName: SetCurves
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(UnityEngine::AnimationClip*&, float, float)>(&BakerMuscle::SetCurves)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerMuscle::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)()>(&BakerMuscle::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakerMuscle::SetKeyframe
-  // Il2CppName: SetKeyframe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(float, ::Array<float>*)>(&BakerMuscle::SetKeyframe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "SetKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerMuscle::SetLoopFrame
-  // Il2CppName: SetLoopFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(float)>(&BakerMuscle::SetLoopFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerMuscle*, "RootMotion", "BakerMuscle");
+// Writing MetadataGetter for method: BakerMuscle::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(int)>(&BakerMuscle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(int)>(&BakerMuscle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: BakerMuscle::MuscleNameToPropertyName
+// Il2CppName: MuscleNameToPropertyName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BakerMuscle::*)(::Il2CppString*)>(&BakerMuscle::MuscleNameToPropertyName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "MuscleNameToPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: BakerMuscle::MultiplyLength
+// Il2CppName: MultiplyLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(UnityEngine::AnimationCurve*, float)>(&BakerMuscle::MultiplyLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BakerMuscle::SetCurves
+// Il2CppName: SetCurves
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(UnityEngine::AnimationClip*&, float, float)>(&BakerMuscle::SetCurves)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BakerMuscle::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)()>(&BakerMuscle::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakerMuscle::SetKeyframe
+// Il2CppName: SetKeyframe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(float, ::Array<float>*)>(&BakerMuscle::SetKeyframe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "SetKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: BakerMuscle::SetLoopFrame
+// Il2CppName: SetLoopFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerMuscle::*)(float)>(&BakerMuscle::SetLoopFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerMuscle*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

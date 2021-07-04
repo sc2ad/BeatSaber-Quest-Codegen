@@ -57,62 +57,62 @@ namespace System::Text {
     static void _cctor();
   }; // System.Text.EncodingProvider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: EncodingProvider::GetEncoding
-  // Il2CppName: GetEncoding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (EncodingProvider::*)(::Il2CppString*)>(&EncodingProvider::GetEncoding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncodingProvider::GetEncoding
-  // Il2CppName: GetEncoding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (EncodingProvider::*)(int)>(&EncodingProvider::GetEncoding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncodingProvider::GetEncoding
-  // Il2CppName: GetEncoding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (EncodingProvider::*)(int, System::Text::EncoderFallback*, System::Text::DecoderFallback*)>(&EncodingProvider::GetEncoding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderFallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::DecoderFallback*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncodingProvider::GetEncodingFromProvider
-  // Il2CppName: GetEncodingFromProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(int)>(&EncodingProvider::GetEncodingFromProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncodingProvider::GetEncodingFromProvider
-  // Il2CppName: GetEncodingFromProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Il2CppString*)>(&EncodingProvider::GetEncodingFromProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncodingProvider::GetEncodingFromProvider
-  // Il2CppName: GetEncodingFromProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(int, System::Text::EncoderFallback*, System::Text::DecoderFallback*)>(&EncodingProvider::GetEncodingFromProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderFallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::DecoderFallback*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncodingProvider::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&EncodingProvider::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingProvider*, "System.Text", "EncodingProvider");
+// Writing MetadataGetter for method: EncodingProvider::GetEncoding
+// Il2CppName: GetEncoding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (EncodingProvider::*)(::Il2CppString*)>(&EncodingProvider::GetEncoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: EncodingProvider::GetEncoding
+// Il2CppName: GetEncoding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (EncodingProvider::*)(int)>(&EncodingProvider::GetEncoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EncodingProvider::GetEncoding
+// Il2CppName: GetEncoding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (EncodingProvider::*)(int, System::Text::EncoderFallback*, System::Text::DecoderFallback*)>(&EncodingProvider::GetEncoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderFallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::DecoderFallback*>()});
+  }
+};
+// Writing MetadataGetter for method: EncodingProvider::GetEncodingFromProvider
+// Il2CppName: GetEncodingFromProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(int)>(&EncodingProvider::GetEncodingFromProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EncodingProvider::GetEncodingFromProvider
+// Il2CppName: GetEncodingFromProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Il2CppString*)>(&EncodingProvider::GetEncodingFromProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: EncodingProvider::GetEncodingFromProvider
+// Il2CppName: GetEncodingFromProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(int, System::Text::EncoderFallback*, System::Text::DecoderFallback*)>(&EncodingProvider::GetEncodingFromProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderFallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::DecoderFallback*>()});
+  }
+};
+// Writing MetadataGetter for method: EncodingProvider::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&EncodingProvider::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncodingProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -45,35 +45,35 @@ namespace Oculus::Platform {
     // Base method: Oculus.Platform.Models.UserList Message::GetUserList()
     Oculus::Platform::Models::UserList* GetUserList();
   }; // Oculus.Platform.MessageWithUserList
-  // Writing MetadataGetter for method: MessageWithUserList::GetDataFromMessage
-  // Il2CppName: GetDataFromMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserList* (MessageWithUserList::*)(System::IntPtr)>(&MessageWithUserList::GetDataFromMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageWithUserList::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserList::*)(System::IntPtr)>(&MessageWithUserList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserList::*)(System::IntPtr)>(&MessageWithUserList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageWithUserList::GetUserList
-  // Il2CppName: GetUserList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserList* (MessageWithUserList::*)()>(&MessageWithUserList::GetUserList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), "GetUserList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserList*, "Oculus.Platform", "MessageWithUserList");
+// Writing MetadataGetter for method: MessageWithUserList::GetDataFromMessage
+// Il2CppName: GetDataFromMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserList* (MessageWithUserList::*)(System::IntPtr)>(&MessageWithUserList::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: MessageWithUserList::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserList::*)(System::IntPtr)>(&MessageWithUserList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserList::*)(System::IntPtr)>(&MessageWithUserList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: MessageWithUserList::GetUserList
+// Il2CppName: GetUserList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserList* (MessageWithUserList::*)()>(&MessageWithUserList::GetUserList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithUserList*), "GetUserList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

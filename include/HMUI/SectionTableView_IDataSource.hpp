@@ -39,46 +39,46 @@ namespace HMUI {
     HMUI::TableCell* CellForRowInSection(int section, int row);
   }; // HMUI.SectionTableView/IDataSource
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SectionTableView::IDataSource::RowHeight
-  // Il2CppName: RowHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SectionTableView::IDataSource::*)()>(&SectionTableView::IDataSource::RowHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "RowHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SectionTableView::IDataSource::NumberOfSections
-  // Il2CppName: NumberOfSections
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SectionTableView::IDataSource::*)()>(&SectionTableView::IDataSource::NumberOfSections)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "NumberOfSections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SectionTableView::IDataSource::NumberOfRowsInSection
-  // Il2CppName: NumberOfRowsInSection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SectionTableView::IDataSource::*)(int)>(&SectionTableView::IDataSource::NumberOfRowsInSection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "NumberOfRowsInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SectionTableView::IDataSource::CellForSectionHeader
-  // Il2CppName: CellForSectionHeader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (SectionTableView::IDataSource::*)(int, bool)>(&SectionTableView::IDataSource::CellForSectionHeader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "CellForSectionHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SectionTableView::IDataSource::CellForRowInSection
-  // Il2CppName: CellForRowInSection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (SectionTableView::IDataSource::*)(int, int)>(&SectionTableView::IDataSource::CellForRowInSection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "CellForRowInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::IDataSource*, "HMUI", "SectionTableView/IDataSource");
+// Writing MetadataGetter for method: SectionTableView::IDataSource::RowHeight
+// Il2CppName: RowHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SectionTableView::IDataSource::*)()>(&SectionTableView::IDataSource::RowHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "RowHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SectionTableView::IDataSource::NumberOfSections
+// Il2CppName: NumberOfSections
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SectionTableView::IDataSource::*)()>(&SectionTableView::IDataSource::NumberOfSections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "NumberOfSections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SectionTableView::IDataSource::NumberOfRowsInSection
+// Il2CppName: NumberOfRowsInSection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SectionTableView::IDataSource::*)(int)>(&SectionTableView::IDataSource::NumberOfRowsInSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "NumberOfRowsInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SectionTableView::IDataSource::CellForSectionHeader
+// Il2CppName: CellForSectionHeader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (SectionTableView::IDataSource::*)(int, bool)>(&SectionTableView::IDataSource::CellForSectionHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "CellForSectionHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SectionTableView::IDataSource::CellForRowInSection
+// Il2CppName: CellForRowInSection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (SectionTableView::IDataSource::*)(int, int)>(&SectionTableView::IDataSource::CellForRowInSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SectionTableView::IDataSource*), "CellForRowInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

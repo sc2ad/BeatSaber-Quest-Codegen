@@ -44,78 +44,78 @@ namespace UnityEngine {
     static void DeleteAll();
   }; // UnityEngine.PlayerPrefs
   #pragma pack(pop)
-  // Writing MetadataGetter for method: PlayerPrefs::TrySetInt
-  // Il2CppName: TrySetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&PlayerPrefs::TrySetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "TrySetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::TrySetSetString
-  // Il2CppName: TrySetSetString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&PlayerPrefs::TrySetSetString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "TrySetSetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::SetInt
-  // Il2CppName: SetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int)>(&PlayerPrefs::SetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::GetInt
-  // Il2CppName: GetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&PlayerPrefs::GetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::GetInt
-  // Il2CppName: GetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&PlayerPrefs::GetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::SetString
-  // Il2CppName: SetString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&PlayerPrefs::SetString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::GetString
-  // Il2CppName: GetString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&PlayerPrefs::GetString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::GetString
-  // Il2CppName: GetString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&PlayerPrefs::GetString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerPrefs::DeleteAll
-  // Il2CppName: DeleteAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayerPrefs::DeleteAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "DeleteAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerPrefs*, "UnityEngine", "PlayerPrefs");
+// Writing MetadataGetter for method: PlayerPrefs::TrySetInt
+// Il2CppName: TrySetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&PlayerPrefs::TrySetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "TrySetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::TrySetSetString
+// Il2CppName: TrySetSetString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&PlayerPrefs::TrySetSetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "TrySetSetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::SetInt
+// Il2CppName: SetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int)>(&PlayerPrefs::SetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::GetInt
+// Il2CppName: GetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&PlayerPrefs::GetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::GetInt
+// Il2CppName: GetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&PlayerPrefs::GetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::SetString
+// Il2CppName: SetString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&PlayerPrefs::SetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::GetString
+// Il2CppName: GetString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&PlayerPrefs::GetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::GetString
+// Il2CppName: GetString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&PlayerPrefs::GetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerPrefs::DeleteAll
+// Il2CppName: DeleteAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayerPrefs::DeleteAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerPrefs*), "DeleteAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

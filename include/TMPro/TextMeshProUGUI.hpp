@@ -505,571 +505,571 @@ namespace TMPro {
     }
   }; // TMPro.TextMeshProUGUI
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetCanvas
-  // Il2CppName: GetCanvas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetCanvas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateEnvMapMatrix
-  // Il2CppName: UpdateEnvMapMatrix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateEnvMapMatrix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateEnvMapMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::EnableMasking
-  // Il2CppName: EnableMasking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::EnableMasking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "EnableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::DisableMasking
-  // Il2CppName: DisableMasking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::DisableMasking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "DisableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateMask
-  // Il2CppName: UpdateMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetPerspectiveCorrection
-  // Il2CppName: SetPerspectiveCorrection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetPerspectiveCorrection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetPerspectiveCorrection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetMeshArrays
-  // Il2CppName: SetMeshArrays
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(int)>(&TextMeshProUGUI::SetMeshArrays)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetMeshArrays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnPreRenderCanvas
-  // Il2CppName: OnPreRenderCanvas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnPreRenderCanvas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnPreRenderCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateSDFScale
-  // Il2CppName: UpdateSDFScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(float)>(&TextMeshProUGUI::UpdateSDFScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateSDFScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::CalculateLayoutInputHorizontal
-  // Il2CppName: CalculateLayoutInputHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::CalculateLayoutInputHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::CalculateLayoutInputVertical
-  // Il2CppName: CalculateLayoutInputVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::CalculateLayoutInputVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateSubObjectPivot
-  // Il2CppName: UpdateSubObjectPivot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateSubObjectPivot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateSubObjectPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::get_maskOffset
-  // Il2CppName: get_maskOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_maskOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::set_maskOffset
-  // Il2CppName: set_maskOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Vector4)>(&TextMeshProUGUI::set_maskOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "set_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateFontAsset
-  // Il2CppName: UpdateFontAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateFontAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::LoadFontAsset
-  // Il2CppName: LoadFontAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::LoadFontAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "LoadFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetMaterial
-  // Il2CppName: GetMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::GetMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetMaterials
-  // Il2CppName: GetMaterials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TextMeshProUGUI::GetMaterials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetSharedMaterial
-  // Il2CppName: SetSharedMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::SetSharedMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetSharedMaterials
-  // Il2CppName: GetSharedMaterials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetSharedMaterials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetSharedMaterials
-  // Il2CppName: SetSharedMaterials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TextMeshProUGUI::SetSharedMaterials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetOutlineThickness
-  // Il2CppName: SetOutlineThickness
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(float)>(&TextMeshProUGUI::SetOutlineThickness)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetOutlineThickness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetFaceColor
-  // Il2CppName: SetFaceColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Color32)>(&TextMeshProUGUI::SetFaceColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetFaceColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetOutlineColor
-  // Il2CppName: SetOutlineColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Color32)>(&TextMeshProUGUI::SetOutlineColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetOutlineColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetShaderDepth
-  // Il2CppName: SetShaderDepth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetShaderDepth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetShaderDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetCulling
-  // Il2CppName: SetCulling
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetCulling)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetPaddingForMaterial
-  // Il2CppName: GetPaddingForMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::GetPaddingForMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetPaddingForMaterial
-  // Il2CppName: GetPaddingForMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetPaddingForMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetArraySizes
-  // Il2CppName: SetArraySizes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextMeshProUGUI::*)(::Array<TMPro::TMP_Text::UnicodeChar>*)>(&TextMeshProUGUI::SetArraySizes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::TMP_Text::UnicodeChar>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::ComputeMarginSize
-  // Il2CppName: ComputeMarginSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::ComputeMarginSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ComputeMarginSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnDidApplyAnimationProperties
-  // Il2CppName: OnDidApplyAnimationProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnDidApplyAnimationProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnCanvasHierarchyChanged
-  // Il2CppName: OnCanvasHierarchyChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnCanvasHierarchyChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnCanvasHierarchyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnTransformParentChanged
-  // Il2CppName: OnTransformParentChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnTransformParentChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::OnRectTransformDimensionsChange
-  // Il2CppName: OnRectTransformDimensionsChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnRectTransformDimensionsChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::InternalUpdate
-  // Il2CppName: InternalUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::InternalUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "InternalUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GenerateTextMesh
-  // Il2CppName: GenerateTextMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GenerateTextMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GenerateTextMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetTextContainerLocalCorners
-  // Il2CppName: GetTextContainerLocalCorners
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetTextContainerLocalCorners)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetTextContainerLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetActiveSubMeshes
-  // Il2CppName: SetActiveSubMeshes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(bool)>(&TextMeshProUGUI::SetActiveSubMeshes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetActiveSubMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetCompoundBounds
-  // Il2CppName: GetCompoundBounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetCompoundBounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetCompoundBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::AdjustLineOffset
-  // Il2CppName: AdjustLineOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(int, int, float)>(&TextMeshProUGUI::AdjustLineOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "AdjustLineOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::get_materialForRendering
-  // Il2CppName: get_materialForRendering
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_materialForRendering)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::get_autoSizeTextContainer
-  // Il2CppName: get_autoSizeTextContainer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_autoSizeTextContainer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::set_autoSizeTextContainer
-  // Il2CppName: set_autoSizeTextContainer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(bool)>(&TextMeshProUGUI::set_autoSizeTextContainer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "set_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::get_mesh
-  // Il2CppName: get_mesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_mesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::get_canvasRenderer
-  // Il2CppName: get_canvasRenderer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_canvasRenderer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetVerticesDirty
-  // Il2CppName: SetVerticesDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetVerticesDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetLayoutDirty
-  // Il2CppName: SetLayoutDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetLayoutDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetMaterialDirty
-  // Il2CppName: SetMaterialDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetMaterialDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::SetAllDirty
-  // Il2CppName: SetAllDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetAllDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::Rebuild
-  // Il2CppName: Rebuild
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::UI::CanvasUpdate)>(&TextMeshProUGUI::Rebuild)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetModifiedMaterial
-  // Il2CppName: GetModifiedMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::GetModifiedMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateMaterial
-  // Il2CppName: UpdateMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::RecalculateClipping
-  // Il2CppName: RecalculateClipping
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::RecalculateClipping)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::RecalculateMasking
-  // Il2CppName: RecalculateMasking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::RecalculateMasking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::Cull
-  // Il2CppName: Cull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Rect, bool)>(&TextMeshProUGUI::Cull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateMeshPadding
-  // Il2CppName: UpdateMeshPadding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateMeshPadding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateMeshPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::InternalCrossFadeColor
-  // Il2CppName: InternalCrossFadeColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Color, float, bool, bool)>(&TextMeshProUGUI::InternalCrossFadeColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "InternalCrossFadeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::InternalCrossFadeAlpha
-  // Il2CppName: InternalCrossFadeAlpha
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(float, float, bool)>(&TextMeshProUGUI::InternalCrossFadeAlpha)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "InternalCrossFadeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::ForceMeshUpdate
-  // Il2CppName: ForceMeshUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::ForceMeshUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::ForceMeshUpdate
-  // Il2CppName: ForceMeshUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(bool)>(&TextMeshProUGUI::ForceMeshUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::GetTextInfo
-  // Il2CppName: GetTextInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextInfo* (TextMeshProUGUI::*)(::Il2CppString*)>(&TextMeshProUGUI::GetTextInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetTextInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::ClearMesh
-  // Il2CppName: ClearMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::ClearMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ClearMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateGeometry
-  // Il2CppName: UpdateGeometry
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Mesh*, int)>(&TextMeshProUGUI::UpdateGeometry)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateVertexData
-  // Il2CppName: UpdateVertexData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(TMPro::TMP_VertexDataUpdateFlags)>(&TextMeshProUGUI::UpdateVertexData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_VertexDataUpdateFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::UpdateVertexData
-  // Il2CppName: UpdateVertexData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateVertexData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProUGUI::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
+// Writing MetadataGetter for method: TextMeshProUGUI::GetCanvas
+// Il2CppName: GetCanvas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateEnvMapMatrix
+// Il2CppName: UpdateEnvMapMatrix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateEnvMapMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateEnvMapMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::EnableMasking
+// Il2CppName: EnableMasking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::EnableMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "EnableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::DisableMasking
+// Il2CppName: DisableMasking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::DisableMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "DisableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateMask
+// Il2CppName: UpdateMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetPerspectiveCorrection
+// Il2CppName: SetPerspectiveCorrection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetPerspectiveCorrection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetPerspectiveCorrection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetMeshArrays
+// Il2CppName: SetMeshArrays
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(int)>(&TextMeshProUGUI::SetMeshArrays)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetMeshArrays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnPreRenderCanvas
+// Il2CppName: OnPreRenderCanvas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnPreRenderCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnPreRenderCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateSDFScale
+// Il2CppName: UpdateSDFScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(float)>(&TextMeshProUGUI::UpdateSDFScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateSDFScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::CalculateLayoutInputHorizontal
+// Il2CppName: CalculateLayoutInputHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::CalculateLayoutInputVertical
+// Il2CppName: CalculateLayoutInputVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateSubObjectPivot
+// Il2CppName: UpdateSubObjectPivot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateSubObjectPivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateSubObjectPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::get_maskOffset
+// Il2CppName: get_maskOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_maskOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::set_maskOffset
+// Il2CppName: set_maskOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Vector4)>(&TextMeshProUGUI::set_maskOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "set_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateFontAsset
+// Il2CppName: UpdateFontAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::LoadFontAsset
+// Il2CppName: LoadFontAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::LoadFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "LoadFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetMaterial
+// Il2CppName: GetMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::GetMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetMaterials
+// Il2CppName: GetMaterials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TextMeshProUGUI::GetMaterials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetSharedMaterial
+// Il2CppName: SetSharedMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::SetSharedMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetSharedMaterials
+// Il2CppName: GetSharedMaterials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetSharedMaterials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetSharedMaterials
+// Il2CppName: SetSharedMaterials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TextMeshProUGUI::SetSharedMaterials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetOutlineThickness
+// Il2CppName: SetOutlineThickness
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(float)>(&TextMeshProUGUI::SetOutlineThickness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetOutlineThickness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetFaceColor
+// Il2CppName: SetFaceColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Color32)>(&TextMeshProUGUI::SetFaceColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetFaceColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetOutlineColor
+// Il2CppName: SetOutlineColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Color32)>(&TextMeshProUGUI::SetOutlineColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetOutlineColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetShaderDepth
+// Il2CppName: SetShaderDepth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetShaderDepth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetShaderDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetCulling
+// Il2CppName: SetCulling
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetCulling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetPaddingForMaterial
+// Il2CppName: GetPaddingForMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::GetPaddingForMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetPaddingForMaterial
+// Il2CppName: GetPaddingForMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetPaddingForMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetArraySizes
+// Il2CppName: SetArraySizes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextMeshProUGUI::*)(::Array<TMPro::TMP_Text::UnicodeChar>*)>(&TextMeshProUGUI::SetArraySizes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::TMP_Text::UnicodeChar>*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::ComputeMarginSize
+// Il2CppName: ComputeMarginSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::ComputeMarginSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ComputeMarginSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnDidApplyAnimationProperties
+// Il2CppName: OnDidApplyAnimationProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnDidApplyAnimationProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnCanvasHierarchyChanged
+// Il2CppName: OnCanvasHierarchyChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnCanvasHierarchyChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnCanvasHierarchyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnTransformParentChanged
+// Il2CppName: OnTransformParentChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnTransformParentChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::OnRectTransformDimensionsChange
+// Il2CppName: OnRectTransformDimensionsChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::InternalUpdate
+// Il2CppName: InternalUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::InternalUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "InternalUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GenerateTextMesh
+// Il2CppName: GenerateTextMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GenerateTextMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GenerateTextMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetTextContainerLocalCorners
+// Il2CppName: GetTextContainerLocalCorners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetTextContainerLocalCorners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetTextContainerLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetActiveSubMeshes
+// Il2CppName: SetActiveSubMeshes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(bool)>(&TextMeshProUGUI::SetActiveSubMeshes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetActiveSubMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetCompoundBounds
+// Il2CppName: GetCompoundBounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (TextMeshProUGUI::*)()>(&TextMeshProUGUI::GetCompoundBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetCompoundBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::AdjustLineOffset
+// Il2CppName: AdjustLineOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(int, int, float)>(&TextMeshProUGUI::AdjustLineOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "AdjustLineOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::get_materialForRendering
+// Il2CppName: get_materialForRendering
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_materialForRendering)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::get_autoSizeTextContainer
+// Il2CppName: get_autoSizeTextContainer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_autoSizeTextContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::set_autoSizeTextContainer
+// Il2CppName: set_autoSizeTextContainer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(bool)>(&TextMeshProUGUI::set_autoSizeTextContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "set_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::get_mesh
+// Il2CppName: get_mesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::get_canvasRenderer
+// Il2CppName: get_canvasRenderer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (TextMeshProUGUI::*)()>(&TextMeshProUGUI::get_canvasRenderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetVerticesDirty
+// Il2CppName: SetVerticesDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetVerticesDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetLayoutDirty
+// Il2CppName: SetLayoutDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetLayoutDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetMaterialDirty
+// Il2CppName: SetMaterialDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetMaterialDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::SetAllDirty
+// Il2CppName: SetAllDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::SetAllDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::Rebuild
+// Il2CppName: Rebuild
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::UI::CanvasUpdate)>(&TextMeshProUGUI::Rebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetModifiedMaterial
+// Il2CppName: GetModifiedMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TextMeshProUGUI::*)(UnityEngine::Material*)>(&TextMeshProUGUI::GetModifiedMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateMaterial
+// Il2CppName: UpdateMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::RecalculateClipping
+// Il2CppName: RecalculateClipping
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::RecalculateClipping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::RecalculateMasking
+// Il2CppName: RecalculateMasking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::RecalculateMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::Cull
+// Il2CppName: Cull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Rect, bool)>(&TextMeshProUGUI::Cull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateMeshPadding
+// Il2CppName: UpdateMeshPadding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateMeshPadding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateMeshPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::InternalCrossFadeColor
+// Il2CppName: InternalCrossFadeColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Color, float, bool, bool)>(&TextMeshProUGUI::InternalCrossFadeColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "InternalCrossFadeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::InternalCrossFadeAlpha
+// Il2CppName: InternalCrossFadeAlpha
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(float, float, bool)>(&TextMeshProUGUI::InternalCrossFadeAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "InternalCrossFadeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::ForceMeshUpdate
+// Il2CppName: ForceMeshUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::ForceMeshUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::ForceMeshUpdate
+// Il2CppName: ForceMeshUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(bool)>(&TextMeshProUGUI::ForceMeshUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::GetTextInfo
+// Il2CppName: GetTextInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextInfo* (TextMeshProUGUI::*)(::Il2CppString*)>(&TextMeshProUGUI::GetTextInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "GetTextInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::ClearMesh
+// Il2CppName: ClearMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::ClearMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "ClearMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateGeometry
+// Il2CppName: UpdateGeometry
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(UnityEngine::Mesh*, int)>(&TextMeshProUGUI::UpdateGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateVertexData
+// Il2CppName: UpdateVertexData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)(TMPro::TMP_VertexDataUpdateFlags)>(&TextMeshProUGUI::UpdateVertexData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_VertexDataUpdateFlags>()});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::UpdateVertexData
+// Il2CppName: UpdateVertexData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::UpdateVertexData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProUGUI::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProUGUI::*)()>(&TextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

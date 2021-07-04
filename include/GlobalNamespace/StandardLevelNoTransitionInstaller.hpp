@@ -156,43 +156,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelNoTransitionInstaller), 104 + sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*)> __GlobalNamespace_StandardLevelNoTransitionInstallerSizeCheck;
   static_assert(sizeof(StandardLevelNoTransitionInstaller) == 0x70);
-  // Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::get_colorScheme
-  // Il2CppName: get_colorScheme
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemeSO* (StandardLevelNoTransitionInstaller::*)()>(&StandardLevelNoTransitionInstaller::get_colorScheme)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), "get_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::set_colorScheme
-  // Il2CppName: set_colorScheme
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)(GlobalNamespace::ColorSchemeSO*)>(&StandardLevelNoTransitionInstaller::set_colorScheme)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)(Zenject::DiContainer*)>(&StandardLevelNoTransitionInstaller::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)()>(&StandardLevelNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)()>(&StandardLevelNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelNoTransitionInstaller*, "", "StandardLevelNoTransitionInstaller");
+// Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::get_colorScheme
+// Il2CppName: get_colorScheme
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemeSO* (StandardLevelNoTransitionInstaller::*)()>(&StandardLevelNoTransitionInstaller::get_colorScheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), "get_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::set_colorScheme
+// Il2CppName: set_colorScheme
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)(GlobalNamespace::ColorSchemeSO*)>(&StandardLevelNoTransitionInstaller::set_colorScheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeSO*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)(Zenject::DiContainer*)>(&StandardLevelNoTransitionInstaller::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelNoTransitionInstaller::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)()>(&StandardLevelNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelNoTransitionInstaller::*)()>(&StandardLevelNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

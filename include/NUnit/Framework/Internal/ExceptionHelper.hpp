@@ -56,46 +56,46 @@ namespace NUnit::Framework::Internal {
     static System::Collections::Generic::List_1<System::Exception*>* FlattenExceptionHierarchy(System::Exception* exception);
   }; // NUnit.Framework.Internal.ExceptionHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ExceptionHelper::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ExceptionHelper::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExceptionHelper::BuildMessage
-  // Il2CppName: BuildMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&ExceptionHelper::BuildMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExceptionHelper::BuildStackTrace
-  // Il2CppName: BuildStackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&ExceptionHelper::BuildStackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "BuildStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExceptionHelper::GetStackTrace
-  // Il2CppName: GetStackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&ExceptionHelper::GetStackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExceptionHelper::FlattenExceptionHierarchy
-  // Il2CppName: FlattenExceptionHierarchy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Exception*>* (*)(System::Exception*)>(&ExceptionHelper::FlattenExceptionHierarchy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "FlattenExceptionHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ExceptionHelper*, "NUnit.Framework.Internal", "ExceptionHelper");
+// Writing MetadataGetter for method: ExceptionHelper::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ExceptionHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExceptionHelper::BuildMessage
+// Il2CppName: BuildMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&ExceptionHelper::BuildMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: ExceptionHelper::BuildStackTrace
+// Il2CppName: BuildStackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&ExceptionHelper::BuildStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "BuildStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: ExceptionHelper::GetStackTrace
+// Il2CppName: GetStackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&ExceptionHelper::GetStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: ExceptionHelper::FlattenExceptionHierarchy
+// Il2CppName: FlattenExceptionHierarchy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Exception*>* (*)(System::Exception*)>(&ExceptionHelper::FlattenExceptionHierarchy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "FlattenExceptionHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};

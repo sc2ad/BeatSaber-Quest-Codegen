@@ -150,163 +150,163 @@ namespace Org::BouncyCastle::Crypto::Engines {
   #pragma pack(pop)
   static check_size<sizeof(HC128Engine), 72 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_HC128EngineSizeCheck;
   static_assert(sizeof(HC128Engine) == 0x4C);
-  // Writing MetadataGetter for method: HC128Engine::F1
-  // Il2CppName: F1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::F1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "F1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::F2
-  // Il2CppName: F2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::F2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "F2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::G1
-  // Il2CppName: G1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint, uint, uint)>(&HC128Engine::G1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "G1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::G2
-  // Il2CppName: G2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint, uint, uint)>(&HC128Engine::G2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "G2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::RotateLeft
-  // Il2CppName: RotateLeft
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, int)>(&HC128Engine::RotateLeft)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::RotateRight
-  // Il2CppName: RotateRight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, int)>(&HC128Engine::RotateRight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::H1
-  // Il2CppName: H1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint)>(&HC128Engine::H1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "H1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::H2
-  // Il2CppName: H2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint)>(&HC128Engine::H2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "H2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::Mod1024
-  // Il2CppName: Mod1024
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::Mod1024)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Mod1024", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::Mod512
-  // Il2CppName: Mod512
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::Mod512)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Mod512", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::Dim
-  // Il2CppName: Dim
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint)>(&HC128Engine::Dim)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Dim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::Step
-  // Il2CppName: Step
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)()>(&HC128Engine::Step)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Step", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::get_AlgorithmName
-  // Il2CppName: get_AlgorithmName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HC128Engine::*)()>(&HC128Engine::get_AlgorithmName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&HC128Engine::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::GetByte
-  // Il2CppName: GetByte
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (HC128Engine::*)()>(&HC128Engine::GetByte)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "GetByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::ProcessBytes
-  // Il2CppName: ProcessBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&HC128Engine::ProcessBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HC128Engine::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HC128Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::HC128Engine*, "Org.BouncyCastle.Crypto.Engines", "HC128Engine");
+// Writing MetadataGetter for method: HC128Engine::F1
+// Il2CppName: F1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::F1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "F1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::F2
+// Il2CppName: F2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::F2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "F2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::G1
+// Il2CppName: G1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint, uint, uint)>(&HC128Engine::G1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "G1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::G2
+// Il2CppName: G2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint, uint, uint)>(&HC128Engine::G2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "G2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::RotateLeft
+// Il2CppName: RotateLeft
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, int)>(&HC128Engine::RotateLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::RotateRight
+// Il2CppName: RotateRight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, int)>(&HC128Engine::RotateRight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::H1
+// Il2CppName: H1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint)>(&HC128Engine::H1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "H1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::H2
+// Il2CppName: H2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)(uint)>(&HC128Engine::H2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "H2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::Mod1024
+// Il2CppName: Mod1024
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::Mod1024)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Mod1024", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::Mod512
+// Il2CppName: Mod512
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&HC128Engine::Mod512)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Mod512", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::Dim
+// Il2CppName: Dim
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint)>(&HC128Engine::Dim)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Dim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::Step
+// Il2CppName: Step
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (HC128Engine::*)()>(&HC128Engine::Step)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Step", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::get_AlgorithmName
+// Il2CppName: get_AlgorithmName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HC128Engine::*)()>(&HC128Engine::get_AlgorithmName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&HC128Engine::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::GetByte
+// Il2CppName: GetByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (HC128Engine::*)()>(&HC128Engine::GetByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "GetByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::ProcessBytes
+// Il2CppName: ProcessBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&HC128Engine::ProcessBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HC128Engine::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HC128Engine::*)()>(&HC128Engine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HC128Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

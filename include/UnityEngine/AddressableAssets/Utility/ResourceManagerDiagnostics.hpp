@@ -78,51 +78,51 @@ namespace UnityEngine::AddressableAssets::Utility {
   #pragma pack(pop)
   static check_size<sizeof(ResourceManagerDiagnostics), 24 + sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*)> __UnityEngine_AddressableAssets_Utility_ResourceManagerDiagnosticsSizeCheck;
   static_assert(sizeof(ResourceManagerDiagnostics) == 0x20);
-  // Writing MetadataGetter for method: ResourceManagerDiagnostics::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::ResourceManager*)>(&ResourceManagerDiagnostics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::ResourceManager*)>(&ResourceManagerDiagnostics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerDiagnostics::SumDependencyNameHashCodes
-  // Il2CppName: SumDependencyNameHashCodes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManagerDiagnostics::SumDependencyNameHashCodes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "SumDependencyNameHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerDiagnostics::CalculateHashCode
-  // Il2CppName: CalculateHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManagerDiagnostics::CalculateHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "CalculateHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerDiagnostics::OnResourceManagerDiagnosticEvent
-  // Il2CppName: OnResourceManagerDiagnosticEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext)>(&ResourceManagerDiagnostics::OnResourceManagerDiagnosticEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "OnResourceManagerDiagnosticEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerDiagnostics::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)()>(&ResourceManagerDiagnostics::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*, "UnityEngine.AddressableAssets.Utility", "ResourceManagerDiagnostics");
+// Writing MetadataGetter for method: ResourceManagerDiagnostics::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::ResourceManager*)>(&ResourceManagerDiagnostics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::ResourceManager*)>(&ResourceManagerDiagnostics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerDiagnostics::SumDependencyNameHashCodes
+// Il2CppName: SumDependencyNameHashCodes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManagerDiagnostics::SumDependencyNameHashCodes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "SumDependencyNameHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerDiagnostics::CalculateHashCode
+// Il2CppName: CalculateHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManagerDiagnostics::CalculateHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "CalculateHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerDiagnostics::OnResourceManagerDiagnosticEvent
+// Il2CppName: OnResourceManagerDiagnosticEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext)>(&ResourceManagerDiagnostics::OnResourceManagerDiagnosticEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "OnResourceManagerDiagnosticEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerDiagnostics::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerDiagnostics::*)()>(&ResourceManagerDiagnostics::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerDiagnostics*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

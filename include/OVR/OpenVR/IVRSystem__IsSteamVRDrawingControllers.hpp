@@ -50,43 +50,43 @@ namespace OVR::OpenVR {
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_IsSteamVRDrawingControllers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_IsSteamVRDrawingControllers::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_IsSteamVRDrawingControllers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_IsSteamVRDrawingControllers::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_IsSteamVRDrawingControllers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRSystem::_IsSteamVRDrawingControllers::*)()>(&IVRSystem::_IsSteamVRDrawingControllers::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_IsSteamVRDrawingControllers::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_IsSteamVRDrawingControllers::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRSystem::_IsSteamVRDrawingControllers::*)(System::IAsyncResult*)>(&IVRSystem::_IsSteamVRDrawingControllers::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers*, "OVR.OpenVR", "IVRSystem/_IsSteamVRDrawingControllers");
+// Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_IsSteamVRDrawingControllers::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_IsSteamVRDrawingControllers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_IsSteamVRDrawingControllers::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_IsSteamVRDrawingControllers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRSystem::_IsSteamVRDrawingControllers::*)()>(&IVRSystem::_IsSteamVRDrawingControllers::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_IsSteamVRDrawingControllers::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_IsSteamVRDrawingControllers::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_IsSteamVRDrawingControllers::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRSystem::_IsSteamVRDrawingControllers::*)(System::IAsyncResult*)>(&IVRSystem::_IsSteamVRDrawingControllers::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_IsSteamVRDrawingControllers*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

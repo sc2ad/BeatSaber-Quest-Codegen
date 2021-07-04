@@ -46,27 +46,27 @@ namespace Org::BouncyCastle::Utilities::Date {
   #pragma pack(pop)
   static check_size<sizeof(DateTimeObject), 16 + sizeof(System::DateTime)> __Org_BouncyCastle_Utilities_Date_DateTimeObjectSizeCheck;
   static_assert(sizeof(DateTimeObject) == 0x18);
-  // Writing MetadataGetter for method: DateTimeObject::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeObject::*)(System::DateTime)>(&DateTimeObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DateTimeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeObject::*)(System::DateTime)>(&DateTimeObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DateTimeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: DateTimeObject::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DateTimeObject::*)()>(&DateTimeObject::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DateTimeObject*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeObject*, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");
+// Writing MetadataGetter for method: DateTimeObject::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeObject::*)(System::DateTime)>(&DateTimeObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DateTimeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeObject::*)(System::DateTime)>(&DateTimeObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DateTimeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: DateTimeObject::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DateTimeObject::*)()>(&DateTimeObject::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DateTimeObject*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

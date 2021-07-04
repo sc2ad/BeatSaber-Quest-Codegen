@@ -87,35 +87,35 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(HitReactionVRIK), 64 + sizeof(::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>*)> __RootMotion_FinalIK_HitReactionVRIKSizeCheck;
   static_assert(sizeof(HitReactionVRIK) == 0x48);
-  // Writing MetadataGetter for method: HitReactionVRIK::Hit
-  // Il2CppName: Hit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)(UnityEngine::Collider*, UnityEngine::Vector3, UnityEngine::Vector3)>(&HitReactionVRIK::Hit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), "Hit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::OnModifyOffset
-  // Il2CppName: OnModifyOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)()>(&HitReactionVRIK::OnModifyOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)()>(&HitReactionVRIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)()>(&HitReactionVRIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK*, "RootMotion.FinalIK", "HitReactionVRIK");
+// Writing MetadataGetter for method: HitReactionVRIK::Hit
+// Il2CppName: Hit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)(UnityEngine::Collider*, UnityEngine::Vector3, UnityEngine::Vector3)>(&HitReactionVRIK::Hit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), "Hit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::OnModifyOffset
+// Il2CppName: OnModifyOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)()>(&HitReactionVRIK::OnModifyOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)()>(&HitReactionVRIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::*)()>(&HitReactionVRIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

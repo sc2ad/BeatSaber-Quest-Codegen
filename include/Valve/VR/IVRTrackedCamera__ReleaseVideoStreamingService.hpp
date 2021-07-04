@@ -55,43 +55,43 @@ namespace Valve::VR {
     Valve::VR::EVRTrackedCameraError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_ReleaseVideoStreamingService
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(uint64_t)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(System::IAsyncResult*)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamingService*, "Valve.VR", "IVRTrackedCamera/_ReleaseVideoStreamingService");
+// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(uint64_t)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamingService::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (IVRTrackedCamera::_ReleaseVideoStreamingService::*)(System::IAsyncResult*)>(&IVRTrackedCamera::_ReleaseVideoStreamingService::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamingService*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

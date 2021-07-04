@@ -91,51 +91,51 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(CurvedCanvasSettingsHelper), 40 + sizeof(bool)> __HMUI_CurvedCanvasSettingsHelperSizeCheck;
   static_assert(sizeof(CurvedCanvasSettingsHelper) == 0x29);
-  // Writing MetadataGetter for method: CurvedCanvasSettingsHelper::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettingsHelper::*)()>(&CurvedCanvasSettingsHelper::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettingsHelper::GetCurvedCanvasSettings
-  // Il2CppName: GetCurvedCanvasSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (CurvedCanvasSettingsHelper::*)(UnityEngine::Canvas*)>(&CurvedCanvasSettingsHelper::GetCurvedCanvasSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas
-  // Il2CppName: GetCurvedCanvasSettingsForCanvas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (*)(UnityEngine::Canvas*)>(&CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettingsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettingsHelper::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CurvedCanvasSettingsHelper::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettingsHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettingsHelper::*)()>(&CurvedCanvasSettingsHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettingsHelper::*)()>(&CurvedCanvasSettingsHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");
+// Writing MetadataGetter for method: CurvedCanvasSettingsHelper::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettingsHelper::*)()>(&CurvedCanvasSettingsHelper::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettingsHelper::GetCurvedCanvasSettings
+// Il2CppName: GetCurvedCanvasSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (CurvedCanvasSettingsHelper::*)(UnityEngine::Canvas*)>(&CurvedCanvasSettingsHelper::GetCurvedCanvasSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas
+// Il2CppName: GetCurvedCanvasSettingsForCanvas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (*)(UnityEngine::Canvas*)>(&CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettingsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettingsHelper::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CurvedCanvasSettingsHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettingsHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettingsHelper::*)()>(&CurvedCanvasSettingsHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettingsHelper::*)()>(&CurvedCanvasSettingsHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettingsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

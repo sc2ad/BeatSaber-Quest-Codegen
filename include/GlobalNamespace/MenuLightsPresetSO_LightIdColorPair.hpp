@@ -69,27 +69,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MenuLightsPresetSO::LightIdColorPair), 32 + sizeof(float)> __GlobalNamespace_MenuLightsPresetSO_LightIdColorPairSizeCheck;
   static_assert(sizeof(MenuLightsPresetSO::LightIdColorPair) == 0x24);
-  // Writing MetadataGetter for method: MenuLightsPresetSO::LightIdColorPair::get_lightColor
-  // Il2CppName: get_lightColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MenuLightsPresetSO::LightIdColorPair::*)()>(&MenuLightsPresetSO::LightIdColorPair::get_lightColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsPresetSO::LightIdColorPair*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsPresetSO::LightIdColorPair::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsPresetSO::LightIdColorPair::*)()>(&MenuLightsPresetSO::LightIdColorPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsPresetSO::LightIdColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsPresetSO::LightIdColorPair::*)()>(&MenuLightsPresetSO::LightIdColorPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsPresetSO::LightIdColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*, "", "MenuLightsPresetSO/LightIdColorPair");
+// Writing MetadataGetter for method: MenuLightsPresetSO::LightIdColorPair::get_lightColor
+// Il2CppName: get_lightColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MenuLightsPresetSO::LightIdColorPair::*)()>(&MenuLightsPresetSO::LightIdColorPair::get_lightColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsPresetSO::LightIdColorPair*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsPresetSO::LightIdColorPair::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsPresetSO::LightIdColorPair::*)()>(&MenuLightsPresetSO::LightIdColorPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsPresetSO::LightIdColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsPresetSO::LightIdColorPair::*)()>(&MenuLightsPresetSO::LightIdColorPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsPresetSO::LightIdColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -156,100 +156,100 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassNonLightPass), 28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)> __GlobalNamespace_BloomPrePassNonLightPassSizeCheck;
   static_assert(sizeof(BloomPrePassNonLightPass) == 0x20);
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::get_executionTimeType
-  // Il2CppName: get_executionTimeType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::get_executionTimeType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "get_executionTimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList
-  // Il2CppName: get_bloomPrePassAfterBlurList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassNonLightPass*>* (*)()>(&BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "get_bloomPrePassAfterBlurList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList
-  // Il2CppName: get_bloomPrePassBeforeBlurList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassNonLightPass*>* (*)()>(&BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "get_bloomPrePassBeforeBlurList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::Register
-  // Il2CppName: Register
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::Register)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::Unregister
-  // Il2CppName: Unregister
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::Unregister)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::Render
-  // Il2CppName: Render
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)(UnityEngine::RenderTexture*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4)>(&BloomPrePassNonLightPass::Render)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassNonLightPass::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BloomPrePassNonLightPass::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass*, "", "BloomPrePassNonLightPass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType, "", "BloomPrePassNonLightPass/ExecutionTimeType");
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::get_executionTimeType
+// Il2CppName: get_executionTimeType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::get_executionTimeType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "get_executionTimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList
+// Il2CppName: get_bloomPrePassAfterBlurList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassNonLightPass*>* (*)()>(&BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "get_bloomPrePassAfterBlurList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList
+// Il2CppName: get_bloomPrePassBeforeBlurList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassNonLightPass*>* (*)()>(&BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "get_bloomPrePassBeforeBlurList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::Register
+// Il2CppName: Register
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::Register)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::Unregister
+// Il2CppName: Unregister
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::Unregister)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::Render
+// Il2CppName: Render
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)(UnityEngine::RenderTexture*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4)>(&BloomPrePassNonLightPass::Render)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassNonLightPass::*)()>(&BloomPrePassNonLightPass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassNonLightPass::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BloomPrePassNonLightPass::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassNonLightPass*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

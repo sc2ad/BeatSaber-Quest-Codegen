@@ -174,200 +174,200 @@ namespace UnityEngine::TextCore::LowLevel {
     static void _cctor();
   }; // UnityEngine.TextCore.LowLevel.FontEngine
   #pragma pack(pop)
-  // Writing MetadataGetter for method: FontEngine::InitializeFontEngine
-  // Il2CppName: InitializeFontEngine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)()>(&FontEngine::InitializeFontEngine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "InitializeFontEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::InitializeFontEngine_Internal
-  // Il2CppName: InitializeFontEngine_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&FontEngine::InitializeFontEngine_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "InitializeFontEngine_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::LoadFontFace
-  // Il2CppName: LoadFontFace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)(UnityEngine::Font*, int)>(&FontEngine::LoadFontFace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "LoadFontFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::LoadFontFace_With_Size_FromFont_Internal
-  // Il2CppName: LoadFontFace_With_Size_FromFont_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Font*, int)>(&FontEngine::LoadFontFace_With_Size_FromFont_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "LoadFontFace_With_Size_FromFont_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::GetFaceInfo
-  // Il2CppName: GetFaceInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::FaceInfo (*)()>(&FontEngine::GetFaceInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetFaceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::GetFaceInfo_Internal
-  // Il2CppName: GetFaceInfo_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TextCore::FaceInfo&)>(&FontEngine::GetFaceInfo_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetFaceInfo_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::FaceInfo&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::GetGlyphIndex
-  // Il2CppName: GetGlyphIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&FontEngine::GetGlyphIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetGlyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryGetGlyphWithUnicodeValue
-  // Il2CppName: TryGetGlyphWithUnicodeValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::Glyph*&)>(&FontEngine::TryGetGlyphWithUnicodeValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithUnicodeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryGetGlyphWithUnicodeValue_Internal
-  // Il2CppName: TryGetGlyphWithUnicodeValue_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&FontEngine::TryGetGlyphWithUnicodeValue_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithUnicodeValue_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryGetGlyphWithIndexValue
-  // Il2CppName: TryGetGlyphWithIndexValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::Glyph*&)>(&FontEngine::TryGetGlyphWithIndexValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithIndexValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryGetGlyphWithIndexValue_Internal
-  // Il2CppName: TryGetGlyphWithIndexValue_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&FontEngine::TryGetGlyphWithIndexValue_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithIndexValue_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryPackGlyphInAtlas
-  // Il2CppName: TryPackGlyphInAtlas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextCore::Glyph*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&FontEngine::TryPackGlyphInAtlas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryPackGlyphInAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryPackGlyphInAtlas_Internal
-  // Il2CppName: TryPackGlyphInAtlas_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&)>(&FontEngine::TryPackGlyphInAtlas_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryPackGlyphInAtlas_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::RenderGlyphsToTexture
-  // Il2CppName: RenderGlyphsToTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&FontEngine::RenderGlyphsToTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "RenderGlyphsToTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::RenderGlyphsToTexture_Internal
-  // Il2CppName: RenderGlyphsToTexture_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&FontEngine::RenderGlyphsToTexture_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "RenderGlyphsToTexture_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryAddGlyphToTexture
-  // Il2CppName: TryAddGlyphToTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, UnityEngine::TextCore::Glyph*&)>(&FontEngine::TryAddGlyphToTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphToTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryAddGlyphToTexture_Internal
-  // Il2CppName: TryAddGlyphToTexture_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&FontEngine::TryAddGlyphToTexture_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphToTexture_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryAddGlyphsToTexture
-  // Il2CppName: TryAddGlyphsToTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ::Array<UnityEngine::TextCore::Glyph*>*&)>(&FontEngine::TryAddGlyphsToTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphsToTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::Glyph*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::TryAddGlyphsToTexture_Internal
-  // Il2CppName: TryAddGlyphsToTexture_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*&, int&)>(&FontEngine::TryAddGlyphsToTexture_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphsToTexture_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::GetGlyphPairAdjustmentTable
-  // Il2CppName: GetGlyphPairAdjustmentTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* (*)(::Array<uint>*)>(&FontEngine::GetGlyphPairAdjustmentTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetGlyphPairAdjustmentTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes
-  // Il2CppName: PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*, int&)>(&FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray
-  // Il2CppName: GetGlyphPairAdjustmentRecordsFromMarshallingArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*&)>(&FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetGlyphPairAdjustmentRecordsFromMarshallingArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::SetMarshallingArraySize
-  // Il2CppName: SetMarshallingArraySize
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FontEngine::ResetAtlasTexture
-  // Il2CppName: ResetAtlasTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture2D*)>(&FontEngine::ResetAtlasTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), "ResetAtlasTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontEngine::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FontEngine::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngine*, "UnityEngine.TextCore.LowLevel", "FontEngine");
+// Writing MetadataGetter for method: FontEngine::InitializeFontEngine
+// Il2CppName: InitializeFontEngine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)()>(&FontEngine::InitializeFontEngine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "InitializeFontEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::InitializeFontEngine_Internal
+// Il2CppName: InitializeFontEngine_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&FontEngine::InitializeFontEngine_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "InitializeFontEngine_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::LoadFontFace
+// Il2CppName: LoadFontFace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)(UnityEngine::Font*, int)>(&FontEngine::LoadFontFace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "LoadFontFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::LoadFontFace_With_Size_FromFont_Internal
+// Il2CppName: LoadFontFace_With_Size_FromFont_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Font*, int)>(&FontEngine::LoadFontFace_With_Size_FromFont_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "LoadFontFace_With_Size_FromFont_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::GetFaceInfo
+// Il2CppName: GetFaceInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::FaceInfo (*)()>(&FontEngine::GetFaceInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetFaceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::GetFaceInfo_Internal
+// Il2CppName: GetFaceInfo_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TextCore::FaceInfo&)>(&FontEngine::GetFaceInfo_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetFaceInfo_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::FaceInfo&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::GetGlyphIndex
+// Il2CppName: GetGlyphIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&FontEngine::GetGlyphIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetGlyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryGetGlyphWithUnicodeValue
+// Il2CppName: TryGetGlyphWithUnicodeValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::Glyph*&)>(&FontEngine::TryGetGlyphWithUnicodeValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithUnicodeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryGetGlyphWithUnicodeValue_Internal
+// Il2CppName: TryGetGlyphWithUnicodeValue_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&FontEngine::TryGetGlyphWithUnicodeValue_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithUnicodeValue_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryGetGlyphWithIndexValue
+// Il2CppName: TryGetGlyphWithIndexValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::Glyph*&)>(&FontEngine::TryGetGlyphWithIndexValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithIndexValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryGetGlyphWithIndexValue_Internal
+// Il2CppName: TryGetGlyphWithIndexValue_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&FontEngine::TryGetGlyphWithIndexValue_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryGetGlyphWithIndexValue_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphLoadFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryPackGlyphInAtlas
+// Il2CppName: TryPackGlyphInAtlas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextCore::Glyph*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&FontEngine::TryPackGlyphInAtlas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryPackGlyphInAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryPackGlyphInAtlas_Internal
+// Il2CppName: TryPackGlyphInAtlas_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&)>(&FontEngine::TryPackGlyphInAtlas_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryPackGlyphInAtlas_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::RenderGlyphsToTexture
+// Il2CppName: RenderGlyphsToTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&FontEngine::RenderGlyphsToTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "RenderGlyphsToTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::RenderGlyphsToTexture_Internal
+// Il2CppName: RenderGlyphsToTexture_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&FontEngine::RenderGlyphsToTexture_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "RenderGlyphsToTexture_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryAddGlyphToTexture
+// Il2CppName: TryAddGlyphToTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, UnityEngine::TextCore::Glyph*&)>(&FontEngine::TryAddGlyphToTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphToTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryAddGlyphToTexture_Internal
+// Il2CppName: TryAddGlyphToTexture_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&FontEngine::TryAddGlyphToTexture_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphToTexture_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryAddGlyphsToTexture
+// Il2CppName: TryAddGlyphsToTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ::Array<UnityEngine::TextCore::Glyph*>*&)>(&FontEngine::TryAddGlyphsToTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphsToTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::Glyph*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::TryAddGlyphsToTexture_Internal
+// Il2CppName: TryAddGlyphsToTexture_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*&, int&)>(&FontEngine::TryAddGlyphsToTexture_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "TryAddGlyphsToTexture_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPackingMode>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::GlyphRect>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::GetGlyphPairAdjustmentTable
+// Il2CppName: GetGlyphPairAdjustmentTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* (*)(::Array<uint>*)>(&FontEngine::GetGlyphPairAdjustmentTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetGlyphPairAdjustmentTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes
+// Il2CppName: PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*, int&)>(&FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray
+// Il2CppName: GetGlyphPairAdjustmentRecordsFromMarshallingArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*&)>(&FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "GetGlyphPairAdjustmentRecordsFromMarshallingArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*&>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::SetMarshallingArraySize
+// Il2CppName: SetMarshallingArraySize
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FontEngine::ResetAtlasTexture
+// Il2CppName: ResetAtlasTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture2D*)>(&FontEngine::ResetAtlasTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), "ResetAtlasTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+  }
+};
+// Writing MetadataGetter for method: FontEngine::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FontEngine::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

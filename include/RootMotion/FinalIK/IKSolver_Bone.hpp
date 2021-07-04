@@ -110,95 +110,95 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolver::Bone), 112 + sizeof(bool)> __RootMotion_FinalIK_IKSolver_BoneSizeCheck;
   static_assert(sizeof(IKSolver::Bone) == 0x71);
-  // Writing MetadataGetter for method: IKSolver::Bone::get_rotationLimit
-  // Il2CppName: get_rotationLimit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::RotationLimit* (IKSolver::Bone::*)()>(&IKSolver::Bone::get_rotationLimit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "get_rotationLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::set_rotationLimit
-  // Il2CppName: set_rotationLimit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(RootMotion::FinalIK::RotationLimit*)>(&IKSolver::Bone::set_rotationLimit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "set_rotationLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::RotationLimit*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::Swing
-  // Il2CppName: Swing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Vector3, float)>(&IKSolver::Bone::Swing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "Swing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::SolverSwing
-  // Il2CppName: SolverSwing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolver::Bone*>*, int, UnityEngine::Vector3, float)>(&IKSolver::Bone::SolverSwing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "SolverSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolver::Bone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::Swing2D
-  // Il2CppName: Swing2D
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Vector3, float)>(&IKSolver::Bone::Swing2D)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "Swing2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::SetToSolverPosition
-  // Il2CppName: SetToSolverPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)()>(&IKSolver::Bone::SetToSolverPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "SetToSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*, float)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*, float)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolver::Bone::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)()>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)()>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Bone*, "RootMotion.FinalIK", "IKSolver/Bone");
+// Writing MetadataGetter for method: IKSolver::Bone::get_rotationLimit
+// Il2CppName: get_rotationLimit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::RotationLimit* (IKSolver::Bone::*)()>(&IKSolver::Bone::get_rotationLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "get_rotationLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::set_rotationLimit
+// Il2CppName: set_rotationLimit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(RootMotion::FinalIK::RotationLimit*)>(&IKSolver::Bone::set_rotationLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "set_rotationLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::RotationLimit*>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::Swing
+// Il2CppName: Swing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Vector3, float)>(&IKSolver::Bone::Swing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "Swing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::SolverSwing
+// Il2CppName: SolverSwing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolver::Bone*>*, int, UnityEngine::Vector3, float)>(&IKSolver::Bone::SolverSwing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "SolverSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolver::Bone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::Swing2D
+// Il2CppName: Swing2D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Vector3, float)>(&IKSolver::Bone::Swing2D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "Swing2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::SetToSolverPosition
+// Il2CppName: SetToSolverPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)()>(&IKSolver::Bone::SetToSolverPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), "SetToSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*, float)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)(UnityEngine::Transform*, float)>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolver::Bone::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)()>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Bone::*)()>(&IKSolver::Bone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolver::Bone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

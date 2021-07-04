@@ -62,27 +62,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::$$c__DisplayClass31_0), 24 + sizeof(System::Action_1<Zenject::DiContainer*>*)> __GlobalNamespace_GameScenesManager_$$c__DisplayClass31_0SizeCheck;
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass31_0) == 0x20);
-  // Writing MetadataGetter for method: GameScenesManager::$$c__DisplayClass31_0::$PopScenes$b__0
-  // Il2CppName: <PopScenes>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::$$c__DisplayClass31_0::*)(Zenject::DiContainer*)>(&GameScenesManager::$$c__DisplayClass31_0::$PopScenes$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::$$c__DisplayClass31_0*), "<PopScenes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameScenesManager::$$c__DisplayClass31_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::$$c__DisplayClass31_0::*)()>(&GameScenesManager::$$c__DisplayClass31_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::$$c__DisplayClass31_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::$$c__DisplayClass31_0::*)()>(&GameScenesManager::$$c__DisplayClass31_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::$$c__DisplayClass31_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$$c__DisplayClass31_0*, "", "GameScenesManager/<>c__DisplayClass31_0");
+// Writing MetadataGetter for method: GameScenesManager::$$c__DisplayClass31_0::$PopScenes$b__0
+// Il2CppName: <PopScenes>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::$$c__DisplayClass31_0::*)(Zenject::DiContainer*)>(&GameScenesManager::$$c__DisplayClass31_0::$PopScenes$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::$$c__DisplayClass31_0*), "<PopScenes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: GameScenesManager::$$c__DisplayClass31_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::$$c__DisplayClass31_0::*)()>(&GameScenesManager::$$c__DisplayClass31_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::$$c__DisplayClass31_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::$$c__DisplayClass31_0::*)()>(&GameScenesManager::$$c__DisplayClass31_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::$$c__DisplayClass31_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

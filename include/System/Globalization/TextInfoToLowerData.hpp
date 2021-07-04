@@ -55,14 +55,14 @@ namespace System::Globalization {
     static void _cctor();
   }; // System.Globalization.TextInfoToLowerData
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TextInfoToLowerData::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TextInfoToLowerData::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextInfoToLowerData*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfoToLowerData*, "System.Globalization", "TextInfoToLowerData");
+// Writing MetadataGetter for method: TextInfoToLowerData::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TextInfoToLowerData::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextInfoToLowerData*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

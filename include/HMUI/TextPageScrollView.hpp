@@ -54,27 +54,27 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(TextPageScrollView), 160 + sizeof(TMPro::TextMeshProUGUI*)> __HMUI_TextPageScrollViewSizeCheck;
   static_assert(sizeof(TextPageScrollView) == 0xA8);
-  // Writing MetadataGetter for method: TextPageScrollView::SetText
-  // Il2CppName: SetText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextPageScrollView::*)(::Il2CppString*)>(&TextPageScrollView::SetText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextPageScrollView*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextPageScrollView::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextPageScrollView::*)()>(&TextPageScrollView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextPageScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextPageScrollView::*)()>(&TextPageScrollView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextPageScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");
+// Writing MetadataGetter for method: TextPageScrollView::SetText
+// Il2CppName: SetText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextPageScrollView::*)(::Il2CppString*)>(&TextPageScrollView::SetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextPageScrollView*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TextPageScrollView::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextPageScrollView::*)()>(&TextPageScrollView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextPageScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextPageScrollView::*)()>(&TextPageScrollView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextPageScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -69,67 +69,67 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ConventionSelectTypesBinder), 16 + sizeof(Zenject::ConventionBindInfo*)> __Zenject_ConventionSelectTypesBinderSizeCheck;
   static_assert(sizeof(ConventionSelectTypesBinder) == 0x18);
-  // Writing MetadataGetter for method: ConventionSelectTypesBinder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionSelectTypesBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionSelectTypesBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionSelectTypesBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionSelectTypesBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionSelectTypesBinder::CreateNextBinder
-  // Il2CppName: CreateNextBinder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::CreateNextBinder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "CreateNextBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionSelectTypesBinder::AllTypes
-  // Il2CppName: AllTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionSelectTypesBinder::AllClasses
-  // Il2CppName: AllClasses
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllClasses)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionSelectTypesBinder::AllNonAbstractClasses
-  // Il2CppName: AllNonAbstractClasses
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllNonAbstractClasses)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllNonAbstractClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionSelectTypesBinder::AllAbstractClasses
-  // Il2CppName: AllAbstractClasses
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllAbstractClasses)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllAbstractClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionSelectTypesBinder::AllInterfaces
-  // Il2CppName: AllInterfaces
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllInterfaces)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionSelectTypesBinder*, "Zenject", "ConventionSelectTypesBinder");
+// Writing MetadataGetter for method: ConventionSelectTypesBinder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionSelectTypesBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionSelectTypesBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionSelectTypesBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionSelectTypesBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionSelectTypesBinder::CreateNextBinder
+// Il2CppName: CreateNextBinder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::CreateNextBinder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "CreateNextBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionSelectTypesBinder::AllTypes
+// Il2CppName: AllTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionSelectTypesBinder::AllClasses
+// Il2CppName: AllClasses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllClasses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionSelectTypesBinder::AllNonAbstractClasses
+// Il2CppName: AllNonAbstractClasses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllNonAbstractClasses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllNonAbstractClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionSelectTypesBinder::AllAbstractClasses
+// Il2CppName: AllAbstractClasses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllAbstractClasses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllAbstractClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionSelectTypesBinder::AllInterfaces
+// Il2CppName: AllInterfaces
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (ConventionSelectTypesBinder::*)()>(&ConventionSelectTypesBinder::AllInterfaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionSelectTypesBinder*), "AllInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

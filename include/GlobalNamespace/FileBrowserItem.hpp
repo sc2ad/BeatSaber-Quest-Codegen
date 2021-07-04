@@ -68,67 +68,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FileBrowserItem), 32 + sizeof(bool)> __GlobalNamespace_FileBrowserItemSizeCheck;
   static_assert(sizeof(FileBrowserItem) == 0x21);
-  // Writing MetadataGetter for method: FileBrowserItem::get_displayName
-  // Il2CppName: get_displayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileBrowserItem::*)()>(&FileBrowserItem::get_displayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "get_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileBrowserItem::set_displayName
-  // Il2CppName: set_displayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*)>(&FileBrowserItem::set_displayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "set_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileBrowserItem::get_fullPath
-  // Il2CppName: get_fullPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileBrowserItem::*)()>(&FileBrowserItem::get_fullPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "get_fullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileBrowserItem::set_fullPath
-  // Il2CppName: set_fullPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*)>(&FileBrowserItem::set_fullPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "set_fullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileBrowserItem::get_isDirectory
-  // Il2CppName: get_isDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileBrowserItem::*)()>(&FileBrowserItem::get_isDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "get_isDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileBrowserItem::set_isDirectory
-  // Il2CppName: set_isDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(bool)>(&FileBrowserItem::set_isDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "set_isDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileBrowserItem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*, ::Il2CppString*, bool)>(&FileBrowserItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*, ::Il2CppString*, bool)>(&FileBrowserItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserItem*, "", "FileBrowserItem");
+// Writing MetadataGetter for method: FileBrowserItem::get_displayName
+// Il2CppName: get_displayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileBrowserItem::*)()>(&FileBrowserItem::get_displayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "get_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileBrowserItem::set_displayName
+// Il2CppName: set_displayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*)>(&FileBrowserItem::set_displayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "set_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileBrowserItem::get_fullPath
+// Il2CppName: get_fullPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileBrowserItem::*)()>(&FileBrowserItem::get_fullPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "get_fullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileBrowserItem::set_fullPath
+// Il2CppName: set_fullPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*)>(&FileBrowserItem::set_fullPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "set_fullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileBrowserItem::get_isDirectory
+// Il2CppName: get_isDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileBrowserItem::*)()>(&FileBrowserItem::get_isDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "get_isDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileBrowserItem::set_isDirectory
+// Il2CppName: set_isDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(bool)>(&FileBrowserItem::set_isDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), "set_isDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FileBrowserItem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*, ::Il2CppString*, bool)>(&FileBrowserItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserItem::*)(::Il2CppString*, ::Il2CppString*, bool)>(&FileBrowserItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBrowserItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

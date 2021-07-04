@@ -45,35 +45,35 @@ namespace Oculus::Platform {
     // Base method: Oculus.Platform.Models.AchievementUpdate Message::GetAchievementUpdate()
     Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
   }; // Oculus.Platform.MessageWithAchievementUpdate
-  // Writing MetadataGetter for method: MessageWithAchievementUpdate::GetDataFromMessage
-  // Il2CppName: GetDataFromMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementUpdate* (MessageWithAchievementUpdate::*)(System::IntPtr)>(&MessageWithAchievementUpdate::GetDataFromMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageWithAchievementUpdate::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAchievementUpdate::*)(System::IntPtr)>(&MessageWithAchievementUpdate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAchievementUpdate::*)(System::IntPtr)>(&MessageWithAchievementUpdate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageWithAchievementUpdate::GetAchievementUpdate
-  // Il2CppName: GetAchievementUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementUpdate* (MessageWithAchievementUpdate::*)()>(&MessageWithAchievementUpdate::GetAchievementUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), "GetAchievementUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAchievementUpdate*, "Oculus.Platform", "MessageWithAchievementUpdate");
+// Writing MetadataGetter for method: MessageWithAchievementUpdate::GetDataFromMessage
+// Il2CppName: GetDataFromMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementUpdate* (MessageWithAchievementUpdate::*)(System::IntPtr)>(&MessageWithAchievementUpdate::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: MessageWithAchievementUpdate::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAchievementUpdate::*)(System::IntPtr)>(&MessageWithAchievementUpdate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAchievementUpdate::*)(System::IntPtr)>(&MessageWithAchievementUpdate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: MessageWithAchievementUpdate::GetAchievementUpdate
+// Il2CppName: GetAchievementUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementUpdate* (MessageWithAchievementUpdate::*)()>(&MessageWithAchievementUpdate::GetAchievementUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithAchievementUpdate*), "GetAchievementUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

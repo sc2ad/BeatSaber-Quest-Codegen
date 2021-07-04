@@ -37,30 +37,30 @@ namespace System::Text {
     static ::Il2CppString* GetStringAndRelease(System::Text::StringBuilder* sb);
   }; // System.Text.StringBuilderCache
   #pragma pack(pop)
-  // Writing MetadataGetter for method: StringBuilderCache::Acquire
-  // Il2CppName: Acquire
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(int)>(&StringBuilderCache::Acquire)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringBuilderCache*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: StringBuilderCache::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*)>(&StringBuilderCache::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringBuilderCache*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StringBuilderCache::GetStringAndRelease
-  // Il2CppName: GetStringAndRelease
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Text::StringBuilder*)>(&StringBuilderCache::GetStringAndRelease)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringBuilderCache*), "GetStringAndRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilderCache*, "System.Text", "StringBuilderCache");
+// Writing MetadataGetter for method: StringBuilderCache::Acquire
+// Il2CppName: Acquire
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(int)>(&StringBuilderCache::Acquire)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringBuilderCache*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: StringBuilderCache::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*)>(&StringBuilderCache::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringBuilderCache*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};
+// Writing MetadataGetter for method: StringBuilderCache::GetStringAndRelease
+// Il2CppName: GetStringAndRelease
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Text::StringBuilder*)>(&StringBuilderCache::GetStringAndRelease)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringBuilderCache*), "GetStringAndRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};

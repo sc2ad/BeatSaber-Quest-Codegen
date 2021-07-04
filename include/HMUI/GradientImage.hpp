@@ -190,155 +190,155 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(GradientImage), 280 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __HMUI_GradientImageSizeCheck;
   static_assert(sizeof(GradientImage) == 0x120);
-  // Writing MetadataGetter for method: GradientImage::get_color0
-  // Il2CppName: get_color0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientImage::*)()>(&GradientImage::get_color0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "get_color0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::set_color0
-  // Il2CppName: set_color0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::Color)>(&GradientImage::set_color0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "set_color0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::get_color1
-  // Il2CppName: get_color1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientImage::*)()>(&GradientImage::get_color1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "get_color1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::set_color1
-  // Il2CppName: set_color1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::Color)>(&GradientImage::set_color1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "set_color1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::GenerateSimpleSprite
-  // Il2CppName: GenerateSimpleSprite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*, bool, float)>(&GradientImage::GenerateSimpleSprite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateSimpleSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::GenerateSlicedSprite
-  // Il2CppName: GenerateSlicedSprite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*, float)>(&GradientImage::GenerateSlicedSprite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateSlicedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::AddQuad
-  // Il2CppName: AddQuad
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, float, float)>(&GradientImage::AddQuad)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::OnPopulateMesh
-  // Il2CppName: OnPopulateMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*)>(&GradientImage::OnPopulateMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::GenerateTiledSprite
-  // Il2CppName: GenerateTiledSprite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*)>(&GradientImage::GenerateTiledSprite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateTiledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::AddQuad
-  // Il2CppName: AddQuad
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::Array<UnityEngine::Vector3>*, UnityEngine::Color32, ::Array<UnityEngine::Vector3>*)>(&GradientImage::AddQuad)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::AddQuad
-  // Il2CppName: AddQuad
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2)>(&GradientImage::AddQuad)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::GetAdjustedBorders
-  // Il2CppName: GetAdjustedBorders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (GradientImage::*)(UnityEngine::Vector4, UnityEngine::Rect)>(&GradientImage::GetAdjustedBorders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GetAdjustedBorders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::GenerateFilledSprite
-  // Il2CppName: GenerateFilledSprite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*, bool)>(&GradientImage::GenerateFilledSprite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateFilledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::RadialCut
-  // Il2CppName: RadialCut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*, float, bool, int)>(&GradientImage::RadialCut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "RadialCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::RadialCut
-  // Il2CppName: RadialCut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector3>*, float, float, bool, int)>(&GradientImage::RadialCut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "RadialCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::GetDrawingDimensions
-  // Il2CppName: GetDrawingDimensions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (GradientImage::*)(bool)>(&GradientImage::GetDrawingDimensions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GetDrawingDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)()>(&GradientImage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)()>(&GradientImage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImage::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GradientImage::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImage*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::GradientImage*, "HMUI", "GradientImage");
+// Writing MetadataGetter for method: GradientImage::get_color0
+// Il2CppName: get_color0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientImage::*)()>(&GradientImage::get_color0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "get_color0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::set_color0
+// Il2CppName: set_color0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::Color)>(&GradientImage::set_color0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "set_color0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::get_color1
+// Il2CppName: get_color1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientImage::*)()>(&GradientImage::get_color1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "get_color1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::set_color1
+// Il2CppName: set_color1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::Color)>(&GradientImage::set_color1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "set_color1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::GenerateSimpleSprite
+// Il2CppName: GenerateSimpleSprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*, bool, float)>(&GradientImage::GenerateSimpleSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateSimpleSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::GenerateSlicedSprite
+// Il2CppName: GenerateSlicedSprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*, float)>(&GradientImage::GenerateSlicedSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateSlicedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::AddQuad
+// Il2CppName: AddQuad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, float, float)>(&GradientImage::AddQuad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::OnPopulateMesh
+// Il2CppName: OnPopulateMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*)>(&GradientImage::OnPopulateMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::GenerateTiledSprite
+// Il2CppName: GenerateTiledSprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*)>(&GradientImage::GenerateTiledSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateTiledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::AddQuad
+// Il2CppName: AddQuad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::Array<UnityEngine::Vector3>*, UnityEngine::Color32, ::Array<UnityEngine::Vector3>*)>(&GradientImage::AddQuad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::AddQuad
+// Il2CppName: AddQuad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2)>(&GradientImage::AddQuad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::GetAdjustedBorders
+// Il2CppName: GetAdjustedBorders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (GradientImage::*)(UnityEngine::Vector4, UnityEngine::Rect)>(&GradientImage::GetAdjustedBorders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GetAdjustedBorders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::GenerateFilledSprite
+// Il2CppName: GenerateFilledSprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)(UnityEngine::UI::VertexHelper*, bool)>(&GradientImage::GenerateFilledSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GenerateFilledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::RadialCut
+// Il2CppName: RadialCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*, float, bool, int)>(&GradientImage::RadialCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "RadialCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::RadialCut
+// Il2CppName: RadialCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector3>*, float, float, bool, int)>(&GradientImage::RadialCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "RadialCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::GetDrawingDimensions
+// Il2CppName: GetDrawingDimensions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (GradientImage::*)(bool)>(&GradientImage::GetDrawingDimensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), "GetDrawingDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)()>(&GradientImage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImage::*)()>(&GradientImage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImage::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GradientImage::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImage*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

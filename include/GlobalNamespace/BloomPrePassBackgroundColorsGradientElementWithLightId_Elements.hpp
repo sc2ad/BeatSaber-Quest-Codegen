@@ -51,19 +51,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements), 24 + sizeof(float)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientElementWithLightId_ElementsSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements) == 0x1C);
-  // Writing MetadataGetter for method: BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::*)()>(&BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::*)()>(&BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId/Elements");
+// Writing MetadataGetter for method: BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::*)()>(&BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::*)()>(&BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

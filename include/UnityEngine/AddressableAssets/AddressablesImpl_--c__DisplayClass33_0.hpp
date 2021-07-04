@@ -48,27 +48,27 @@ namespace UnityEngine::AddressableAssets {
     }
   }; // UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass33_0
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass33_0::$OnSceneUnloaded$b__0
-  // Il2CppName: <OnSceneUnloaded>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass33_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::$$c__DisplayClass33_0::$OnSceneUnloaded$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass33_0*), "<OnSceneUnloaded>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass33_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass33_0::*)()>(&AddressablesImpl::$$c__DisplayClass33_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass33_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass33_0::*)()>(&AddressablesImpl::$$c__DisplayClass33_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass33_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass33_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass33_0");
+// Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass33_0::$OnSceneUnloaded$b__0
+// Il2CppName: <OnSceneUnloaded>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass33_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::$$c__DisplayClass33_0::$OnSceneUnloaded$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass33_0*), "<OnSceneUnloaded>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass33_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass33_0::*)()>(&AddressablesImpl::$$c__DisplayClass33_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass33_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass33_0::*)()>(&AddressablesImpl::$$c__DisplayClass33_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass33_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

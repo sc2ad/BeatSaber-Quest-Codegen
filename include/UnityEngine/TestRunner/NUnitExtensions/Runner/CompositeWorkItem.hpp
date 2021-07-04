@@ -182,147 +182,147 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(CompositeWorkItem), 144 + sizeof(NUnit::Framework::Internal::Execution::CountdownEvent*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
   static_assert(sizeof(CompositeWorkItem) == 0x98);
-  // Writing MetadataGetter for method: CompositeWorkItem::get_Children
-  // Il2CppName: get_Children
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* (CompositeWorkItem::*)()>(&CompositeWorkItem::get_Children)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::set_Children
-  // Il2CppName: set_Children
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*)>(&CompositeWorkItem::set_Children)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "set_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ITestFilter*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&CompositeWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ITestFilter*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&CompositeWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::CheckForCancellation
-  // Il2CppName: CheckForCancellation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeWorkItem::*)()>(&CompositeWorkItem::CheckForCancellation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CheckForCancellation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::InitializeSetUpAndTearDownCommands
-  // Il2CppName: InitializeSetUpAndTearDownCommands
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::InitializeSetUpAndTearDownCommands)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "InitializeSetUpAndTearDownCommands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::PerformOneTimeSetUp
-  // Il2CppName: PerformOneTimeSetUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformOneTimeSetUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformOneTimeSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::RunChildren
-  // Il2CppName: RunChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CompositeWorkItem::*)()>(&CompositeWorkItem::RunChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "RunChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::CreateChildWorkItems
-  // Il2CppName: CreateChildWorkItems
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::CreateChildWorkItems)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CreateChildWorkItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::SortChildren
-  // Il2CppName: SortChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::SortChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SortChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::SkipFixture
-  // Il2CppName: SkipFixture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*, ::Il2CppString*)>(&CompositeWorkItem::SkipFixture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SkipFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::SkipChildren
-  // Il2CppName: SkipChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*)>(&CompositeWorkItem::SkipChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SkipChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::PerformOneTimeTearDown
-  // Il2CppName: PerformOneTimeTearDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformOneTimeTearDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformOneTimeTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::GetSkipReason
-  // Il2CppName: GetSkipReason
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompositeWorkItem::*)()>(&CompositeWorkItem::GetSkipReason)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::GetProviderStackTrace
-  // Il2CppName: GetProviderStackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompositeWorkItem::*)()>(&CompositeWorkItem::GetProviderStackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "GetProviderStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::CountDownChildTest
-  // Il2CppName: CountDownChildTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::CountDownChildTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CountDownChildTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::PerformWork
-  // Il2CppName: PerformWork
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformWork)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::Cancel
-  // Il2CppName: Cancel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(bool)>(&CompositeWorkItem::Cancel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");
+// Writing MetadataGetter for method: CompositeWorkItem::get_Children
+// Il2CppName: get_Children
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* (CompositeWorkItem::*)()>(&CompositeWorkItem::get_Children)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::set_Children
+// Il2CppName: set_Children
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*)>(&CompositeWorkItem::set_Children)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "set_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ITestFilter*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&CompositeWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ITestFilter*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&CompositeWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::CheckForCancellation
+// Il2CppName: CheckForCancellation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeWorkItem::*)()>(&CompositeWorkItem::CheckForCancellation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CheckForCancellation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::InitializeSetUpAndTearDownCommands
+// Il2CppName: InitializeSetUpAndTearDownCommands
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::InitializeSetUpAndTearDownCommands)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "InitializeSetUpAndTearDownCommands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::PerformOneTimeSetUp
+// Il2CppName: PerformOneTimeSetUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformOneTimeSetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformOneTimeSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::RunChildren
+// Il2CppName: RunChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CompositeWorkItem::*)()>(&CompositeWorkItem::RunChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "RunChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::CreateChildWorkItems
+// Il2CppName: CreateChildWorkItems
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::CreateChildWorkItems)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CreateChildWorkItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::SortChildren
+// Il2CppName: SortChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::SortChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SortChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::SkipFixture
+// Il2CppName: SkipFixture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*, ::Il2CppString*)>(&CompositeWorkItem::SkipFixture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SkipFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::SkipChildren
+// Il2CppName: SkipChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*)>(&CompositeWorkItem::SkipChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SkipChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::PerformOneTimeTearDown
+// Il2CppName: PerformOneTimeTearDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformOneTimeTearDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformOneTimeTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::GetSkipReason
+// Il2CppName: GetSkipReason
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompositeWorkItem::*)()>(&CompositeWorkItem::GetSkipReason)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::GetProviderStackTrace
+// Il2CppName: GetProviderStackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompositeWorkItem::*)()>(&CompositeWorkItem::GetProviderStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "GetProviderStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::CountDownChildTest
+// Il2CppName: CountDownChildTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::CountDownChildTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CountDownChildTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::PerformWork
+// Il2CppName: PerformWork
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformWork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::Cancel
+// Il2CppName: Cancel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(bool)>(&CompositeWorkItem::Cancel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

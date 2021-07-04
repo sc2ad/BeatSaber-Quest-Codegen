@@ -328,219 +328,219 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainFlowCoordinator), 328 + sizeof(HMUI::FlowCoordinator*)> __GlobalNamespace_MainFlowCoordinatorSizeCheck;
   static_assert(sizeof(MainFlowCoordinator) == 0x150);
-  // Writing MetadataGetter for method: MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial
-  // Il2CppName: PresentFlowCoordinatorOrAskForTutorial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::FlowCoordinator*)>(&MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "PresentFlowCoordinatorOrAskForTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleMainMenuViewControllerDidFinish
-  // Il2CppName: HandleMainMenuViewControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&MainFlowCoordinator::HandleMainMenuViewControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController::MenuButton>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleOptionsViewControllerDidFinish
-  // Il2CppName: HandleOptionsViewControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::OptionsViewController::OptionsButton)>(&MainFlowCoordinator::HandleOptionsViewControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleOptionsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OptionsViewController::OptionsButton>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandlePlayerOptionsViewControllerDidFinish
-  // Il2CppName: HandlePlayerOptionsViewControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::ViewController*)>(&MainFlowCoordinator::HandlePlayerOptionsViewControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandlePlayerOptionsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleHowToPlayViewControllerDidFinish
-  // Il2CppName: HandleHowToPlayViewControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::HowToPlayViewController::HowToPlayOptions)>(&MainFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleHowToPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleCampaignFlowCoordinatorDidFinish
-  // Il2CppName: HandleCampaignFlowCoordinatorDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::CampaignFlowCoordinator*)>(&MainFlowCoordinator::HandleCampaignFlowCoordinatorDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleCampaignFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CampaignFlowCoordinator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleEditAvatarFlowCoordinatorDidFinish
-  // Il2CppName: HandleEditAvatarFlowCoordinatorDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)>(&MainFlowCoordinator::HandleEditAvatarFlowCoordinatorDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleEditAvatarFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarFlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleSoloFreePlayFlowCoordinatorDidFinish
-  // Il2CppName: HandleSoloFreePlayFlowCoordinatorDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator*)>(&MainFlowCoordinator::HandleSoloFreePlayFlowCoordinatorDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleSoloFreePlayFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandlePartyFreePlayFlowCoordinatorDidFinish
-  // Il2CppName: HandlePartyFreePlayFlowCoordinatorDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator*)>(&MainFlowCoordinator::HandlePartyFreePlayFlowCoordinatorDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandlePartyFreePlayFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleSettingsFlowCoordinatorDidFinish
-  // Il2CppName: HandleSettingsFlowCoordinatorDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction)>(&MainFlowCoordinator::HandleSettingsFlowCoordinatorDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleSettingsFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsFlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsFlowCoordinator::FinishAction>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleMultiplayerModeSelectionFlowCoordinatorDidFinish
-  // Il2CppName: HandleMultiplayerModeSelectionFlowCoordinatorDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*)>(&MainFlowCoordinator::HandleMultiplayerModeSelectionFlowCoordinatorDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleMultiplayerModeSelectionFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::HandleMainMenuViewControllerMusicPackPromoButtonWasPressed
-  // Il2CppName: HandleMainMenuViewControllerMusicPackPromoButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::IBeatmapLevelPack*)>(&MainFlowCoordinator::HandleMainMenuViewControllerMusicPackPromoButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleMainMenuViewControllerMusicPackPromoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::ProcessMenuDestinationRequest
-  // Il2CppName: ProcessMenuDestinationRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::MenuDestination*)>(&MainFlowCoordinator::ProcessMenuDestinationRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "ProcessMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator
-  // Il2CppName: PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::ProcessMenuDestinationRequestAfterFrameCoroutine
-  // Il2CppName: ProcessMenuDestinationRequestAfterFrameCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MainFlowCoordinator::*)(GlobalNamespace::MenuDestination*)>(&MainFlowCoordinator::ProcessMenuDestinationRequestAfterFrameCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "ProcessMenuDestinationRequestAfterFrameCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_0
-  // Il2CppName: <PresentFlowCoordinatorOrAskForTutorial>b__26_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(int)>(&MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<PresentFlowCoordinatorOrAskForTutorial>b__26_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_1
-  // Il2CppName: <PresentFlowCoordinatorOrAskForTutorial>b__26_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<PresentFlowCoordinatorOrAskForTutorial>b__26_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_0
-  // Il2CppName: <HandleMainMenuViewControllerDidFinish>b__27_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<HandleMainMenuViewControllerDidFinish>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_1
-  // Il2CppName: <HandleMainMenuViewControllerDidFinish>b__27_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(int)>(&MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<HandleMainMenuViewControllerDidFinish>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::$PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator$b__39_0
-  // Il2CppName: <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__39_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(int)>(&MainFlowCoordinator::$PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator$b__39_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__39_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(bool, bool, bool)>(&MainFlowCoordinator::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::TopViewControllerWillChange
-  // Il2CppName: TopViewControllerWillChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&MainFlowCoordinator::TopViewControllerWillChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::InitialViewControllerWasPresented
-  // Il2CppName: InitialViewControllerWasPresented
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::InitialViewControllerWasPresented)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "InitialViewControllerWasPresented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(bool, bool)>(&MainFlowCoordinator::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::BackButtonWasPressed
-  // Il2CppName: BackButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::ViewController*)>(&MainFlowCoordinator::BackButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainFlowCoordinator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoordinator");
+// Writing MetadataGetter for method: MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial
+// Il2CppName: PresentFlowCoordinatorOrAskForTutorial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::FlowCoordinator*)>(&MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "PresentFlowCoordinatorOrAskForTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleMainMenuViewControllerDidFinish
+// Il2CppName: HandleMainMenuViewControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&MainFlowCoordinator::HandleMainMenuViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController::MenuButton>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleOptionsViewControllerDidFinish
+// Il2CppName: HandleOptionsViewControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::OptionsViewController::OptionsButton)>(&MainFlowCoordinator::HandleOptionsViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleOptionsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OptionsViewController::OptionsButton>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandlePlayerOptionsViewControllerDidFinish
+// Il2CppName: HandlePlayerOptionsViewControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::ViewController*)>(&MainFlowCoordinator::HandlePlayerOptionsViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandlePlayerOptionsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleHowToPlayViewControllerDidFinish
+// Il2CppName: HandleHowToPlayViewControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::HowToPlayViewController::HowToPlayOptions)>(&MainFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleHowToPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleCampaignFlowCoordinatorDidFinish
+// Il2CppName: HandleCampaignFlowCoordinatorDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::CampaignFlowCoordinator*)>(&MainFlowCoordinator::HandleCampaignFlowCoordinatorDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleCampaignFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CampaignFlowCoordinator*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleEditAvatarFlowCoordinatorDidFinish
+// Il2CppName: HandleEditAvatarFlowCoordinatorDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)>(&MainFlowCoordinator::HandleEditAvatarFlowCoordinatorDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleEditAvatarFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarFlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleSoloFreePlayFlowCoordinatorDidFinish
+// Il2CppName: HandleSoloFreePlayFlowCoordinatorDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator*)>(&MainFlowCoordinator::HandleSoloFreePlayFlowCoordinatorDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleSoloFreePlayFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandlePartyFreePlayFlowCoordinatorDidFinish
+// Il2CppName: HandlePartyFreePlayFlowCoordinatorDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator*)>(&MainFlowCoordinator::HandlePartyFreePlayFlowCoordinatorDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandlePartyFreePlayFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleSettingsFlowCoordinatorDidFinish
+// Il2CppName: HandleSettingsFlowCoordinatorDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction)>(&MainFlowCoordinator::HandleSettingsFlowCoordinatorDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleSettingsFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsFlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsFlowCoordinator::FinishAction>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleMultiplayerModeSelectionFlowCoordinatorDidFinish
+// Il2CppName: HandleMultiplayerModeSelectionFlowCoordinatorDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*)>(&MainFlowCoordinator::HandleMultiplayerModeSelectionFlowCoordinatorDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleMultiplayerModeSelectionFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::HandleMainMenuViewControllerMusicPackPromoButtonWasPressed
+// Il2CppName: HandleMainMenuViewControllerMusicPackPromoButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::IBeatmapLevelPack*)>(&MainFlowCoordinator::HandleMainMenuViewControllerMusicPackPromoButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "HandleMainMenuViewControllerMusicPackPromoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::ProcessMenuDestinationRequest
+// Il2CppName: ProcessMenuDestinationRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(GlobalNamespace::MenuDestination*)>(&MainFlowCoordinator::ProcessMenuDestinationRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "ProcessMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator
+// Il2CppName: PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::ProcessMenuDestinationRequestAfterFrameCoroutine
+// Il2CppName: ProcessMenuDestinationRequestAfterFrameCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MainFlowCoordinator::*)(GlobalNamespace::MenuDestination*)>(&MainFlowCoordinator::ProcessMenuDestinationRequestAfterFrameCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "ProcessMenuDestinationRequestAfterFrameCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_0
+// Il2CppName: <PresentFlowCoordinatorOrAskForTutorial>b__26_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(int)>(&MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<PresentFlowCoordinatorOrAskForTutorial>b__26_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_1
+// Il2CppName: <PresentFlowCoordinatorOrAskForTutorial>b__26_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<PresentFlowCoordinatorOrAskForTutorial>b__26_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_0
+// Il2CppName: <HandleMainMenuViewControllerDidFinish>b__27_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<HandleMainMenuViewControllerDidFinish>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_1
+// Il2CppName: <HandleMainMenuViewControllerDidFinish>b__27_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(int)>(&MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<HandleMainMenuViewControllerDidFinish>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::$PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator$b__39_0
+// Il2CppName: <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__39_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(int)>(&MainFlowCoordinator::$PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator$b__39_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "<PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__39_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(bool, bool, bool)>(&MainFlowCoordinator::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::TopViewControllerWillChange
+// Il2CppName: TopViewControllerWillChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&MainFlowCoordinator::TopViewControllerWillChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::InitialViewControllerWasPresented
+// Il2CppName: InitialViewControllerWasPresented
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::InitialViewControllerWasPresented)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "InitialViewControllerWasPresented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(bool, bool)>(&MainFlowCoordinator::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::BackButtonWasPressed
+// Il2CppName: BackButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)(HMUI::ViewController*)>(&MainFlowCoordinator::BackButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: MainFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainFlowCoordinator::*)()>(&MainFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

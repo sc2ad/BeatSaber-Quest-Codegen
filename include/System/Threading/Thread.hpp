@@ -366,513 +366,513 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(Thread), 72 + sizeof(bool)> __System_Threading_ThreadSizeCheck;
   static_assert(sizeof(Thread) == 0x49);
-  // Writing MetadataGetter for method: Thread::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadStart*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadStart*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ParameterizedThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ParameterizedThreadStart*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ParameterizedThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ParameterizedThreadStart*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(::Il2CppObject*)>(&Thread::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::StackCrawlMark&)>(&Thread::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetExecutionContextReader
-  // Il2CppName: GetExecutionContextReader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext::Reader (Thread::*)()>(&Thread::GetExecutionContextReader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetExecutionContextReader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_ExecutionContextBelongsToCurrentScope
-  // Il2CppName: get_ExecutionContextBelongsToCurrentScope
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)()>(&Thread::get_ExecutionContextBelongsToCurrentScope)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_ExecutionContextBelongsToCurrentScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::set_ExecutionContextBelongsToCurrentScope
-  // Il2CppName: set_ExecutionContextBelongsToCurrentScope
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(bool)>(&Thread::set_ExecutionContextBelongsToCurrentScope)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "set_ExecutionContextBelongsToCurrentScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetMutableExecutionContext
-  // Il2CppName: GetMutableExecutionContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (Thread::*)()>(&Thread::GetMutableExecutionContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetMutableExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SetExecutionContext
-  // Il2CppName: SetExecutionContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ExecutionContext*, bool)>(&Thread::SetExecutionContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SetExecutionContext
-  // Il2CppName: SetExecutionContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ExecutionContext::Reader, bool)>(&Thread::SetExecutionContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext::Reader>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::ResetAbort
-  // Il2CppName: ResetAbort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::ResetAbort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "ResetAbort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::ResetAbortNative
-  // Il2CppName: ResetAbortNative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::ResetAbortNative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "ResetAbortNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::set_Priority
-  // Il2CppName: set_Priority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ThreadPriority)>(&Thread::set_Priority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPriority>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SetPriorityNative
-  // Il2CppName: SetPriorityNative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(int)>(&Thread::SetPriorityNative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SetPriorityNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::JoinInternal
-  // Il2CppName: JoinInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)(int)>(&Thread::JoinInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "JoinInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Join
-  // Il2CppName: Join
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Join)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SleepInternal
-  // Il2CppName: SleepInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Thread::SleepInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SleepInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Sleep
-  // Il2CppName: Sleep
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Thread::Sleep)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Sleep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::YieldInternal
-  // Il2CppName: YieldInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Thread::YieldInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "YieldInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Yield
-  // Il2CppName: Yield
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Thread::Yield)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Yield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SetStartHelper
-  // Il2CppName: SetStartHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Delegate*, int)>(&Thread::SetStartHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SetStartHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_CurrentUICulture
-  // Il2CppName: get_CurrentUICulture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::get_CurrentUICulture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetCurrentUICultureNoAppX
-  // Il2CppName: GetCurrentUICultureNoAppX
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::GetCurrentUICultureNoAppX)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetCurrentUICultureNoAppX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_CurrentCulture
-  // Il2CppName: get_CurrentCulture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::get_CurrentCulture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetCurrentCultureNoAppX
-  // Il2CppName: GetCurrentCultureNoAppX
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::GetCurrentCultureNoAppX)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetCurrentCultureNoAppX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::MemoryBarrier
-  // Il2CppName: MemoryBarrier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::MemoryBarrier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "MemoryBarrier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::ConstructInternalThread
-  // Il2CppName: ConstructInternalThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::ConstructInternalThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "ConstructInternalThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_Internal
-  // Il2CppName: get_Internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::InternalThread* (Thread::*)()>(&Thread::get_Internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_CurrentContext
-  // Il2CppName: get_CurrentContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&Thread::get_CurrentContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::ByteArrayToCurrentDomain
-  // Il2CppName: ByteArrayToCurrentDomain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Thread::ByteArrayToCurrentDomain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "ByteArrayToCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::DeserializePrincipal
-  // Il2CppName: DeserializePrincipal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*)>(&Thread::DeserializePrincipal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "DeserializePrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_CurrentPrincipal
-  // Il2CppName: get_CurrentPrincipal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (*)()>(&Thread::get_CurrentPrincipal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentPrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetCurrentThread
-  // Il2CppName: GetCurrentThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Thread* (*)()>(&Thread::GetCurrentThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetCurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_CurrentThread
-  // Il2CppName: get_CurrentThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Thread* (*)()>(&Thread::get_CurrentThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetDomain
-  // Il2CppName: GetDomain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&Thread::GetDomain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetDomainID
-  // Il2CppName: GetDomainID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Thread::GetDomainID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetDomainID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Thread_internal
-  // Il2CppName: Thread_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Thread::*)(System::MulticastDelegate*)>(&Thread::Thread_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Thread_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MulticastDelegate*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_IsThreadPoolThread
-  // Il2CppName: get_IsThreadPoolThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)()>(&Thread::get_IsThreadPoolThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_IsThreadPoolThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_IsThreadPoolThreadInternal
-  // Il2CppName: get_IsThreadPoolThreadInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)()>(&Thread::get_IsThreadPoolThreadInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_IsThreadPoolThreadInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::set_IsBackground
-  // Il2CppName: set_IsBackground
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(bool)>(&Thread::set_IsBackground)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "set_IsBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SetName_internal
-  // Il2CppName: SetName_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppString*)>(&Thread::SetName_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SetName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::set_Name
-  // Il2CppName: set_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(::Il2CppString*)>(&Thread::set_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_ThreadState
-  // Il2CppName: get_ThreadState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (Thread::*)()>(&Thread::get_ThreadState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_ThreadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Abort_internal
-  // Il2CppName: Abort_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppObject*)>(&Thread::Abort_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Abort_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Abort
-  // Il2CppName: Abort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Abort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::ClearAbortReason
-  // Il2CppName: ClearAbortReason
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::ClearAbortReason)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "ClearAbortReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SpinWait_nop
-  // Il2CppName: SpinWait_nop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::SpinWait_nop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SpinWait_nop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SpinWait
-  // Il2CppName: SpinWait
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Thread::SpinWait)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::StartInternal
-  // Il2CppName: StartInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Security::Principal::IPrincipal*, System::Threading::StackCrawlMark&)>(&Thread::StartInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "StartInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::IPrincipal*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SetState
-  // Il2CppName: SetState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&Thread::SetState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadState>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::ClrState
-  // Il2CppName: ClrState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&Thread::ClrState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "ClrState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadState>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetState
-  // Il2CppName: GetState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (*)(System::Threading::InternalThread*)>(&Thread::GetState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SystemMaxStackStize
-  // Il2CppName: SystemMaxStackStize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Thread::SystemMaxStackStize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SystemMaxStackStize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetProcessDefaultStackSize
-  // Il2CppName: GetProcessDefaultStackSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Thread::GetProcessDefaultStackSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetProcessDefaultStackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::SetStart
-  // Il2CppName: SetStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::MulticastDelegate*, int)>(&Thread::SetStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "SetStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MulticastDelegate*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::get_ManagedThreadId
-  // Il2CppName: get_ManagedThreadId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Thread::*)()>(&Thread::get_ManagedThreadId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "get_ManagedThreadId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::BeginCriticalRegion
-  // Il2CppName: BeginCriticalRegion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::BeginCriticalRegion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "BeginCriticalRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::EndCriticalRegion
-  // Il2CppName: EndCriticalRegion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::EndCriticalRegion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "EndCriticalRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::ValidateThreadState
-  // Il2CppName: ValidateThreadState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (Thread::*)()>(&Thread::ValidateThreadState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "ValidateThreadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Thread::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Thread::*)()>(&Thread::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Thread*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");
+// Writing MetadataGetter for method: Thread::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadStart*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadStart*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ParameterizedThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ParameterizedThreadStart*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ParameterizedThreadStart*)>(&Thread::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ParameterizedThreadStart*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(::Il2CppObject*)>(&Thread::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::StackCrawlMark&)>(&Thread::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetExecutionContextReader
+// Il2CppName: GetExecutionContextReader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext::Reader (Thread::*)()>(&Thread::GetExecutionContextReader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetExecutionContextReader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_ExecutionContextBelongsToCurrentScope
+// Il2CppName: get_ExecutionContextBelongsToCurrentScope
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)()>(&Thread::get_ExecutionContextBelongsToCurrentScope)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_ExecutionContextBelongsToCurrentScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::set_ExecutionContextBelongsToCurrentScope
+// Il2CppName: set_ExecutionContextBelongsToCurrentScope
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(bool)>(&Thread::set_ExecutionContextBelongsToCurrentScope)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "set_ExecutionContextBelongsToCurrentScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetMutableExecutionContext
+// Il2CppName: GetMutableExecutionContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (Thread::*)()>(&Thread::GetMutableExecutionContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetMutableExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::SetExecutionContext
+// Il2CppName: SetExecutionContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ExecutionContext*, bool)>(&Thread::SetExecutionContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::SetExecutionContext
+// Il2CppName: SetExecutionContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ExecutionContext::Reader, bool)>(&Thread::SetExecutionContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext::Reader>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::ResetAbort
+// Il2CppName: ResetAbort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::ResetAbort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "ResetAbort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::ResetAbortNative
+// Il2CppName: ResetAbortNative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::ResetAbortNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "ResetAbortNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::set_Priority
+// Il2CppName: set_Priority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Threading::ThreadPriority)>(&Thread::set_Priority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPriority>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::SetPriorityNative
+// Il2CppName: SetPriorityNative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(int)>(&Thread::SetPriorityNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SetPriorityNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::JoinInternal
+// Il2CppName: JoinInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)(int)>(&Thread::JoinInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "JoinInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::Join
+// Il2CppName: Join
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::SleepInternal
+// Il2CppName: SleepInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Thread::SleepInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SleepInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::Sleep
+// Il2CppName: Sleep
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Thread::Sleep)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Sleep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::YieldInternal
+// Il2CppName: YieldInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Thread::YieldInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "YieldInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::Yield
+// Il2CppName: Yield
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Thread::Yield)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Yield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::SetStartHelper
+// Il2CppName: SetStartHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Delegate*, int)>(&Thread::SetStartHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SetStartHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_CurrentUICulture
+// Il2CppName: get_CurrentUICulture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::get_CurrentUICulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetCurrentUICultureNoAppX
+// Il2CppName: GetCurrentUICultureNoAppX
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::GetCurrentUICultureNoAppX)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetCurrentUICultureNoAppX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_CurrentCulture
+// Il2CppName: get_CurrentCulture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::get_CurrentCulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetCurrentCultureNoAppX
+// Il2CppName: GetCurrentCultureNoAppX
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Thread::*)()>(&Thread::GetCurrentCultureNoAppX)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetCurrentCultureNoAppX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::MemoryBarrier
+// Il2CppName: MemoryBarrier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::MemoryBarrier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "MemoryBarrier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::ConstructInternalThread
+// Il2CppName: ConstructInternalThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::ConstructInternalThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "ConstructInternalThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_Internal
+// Il2CppName: get_Internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::InternalThread* (Thread::*)()>(&Thread::get_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_CurrentContext
+// Il2CppName: get_CurrentContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&Thread::get_CurrentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::ByteArrayToCurrentDomain
+// Il2CppName: ByteArrayToCurrentDomain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Thread::ByteArrayToCurrentDomain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "ByteArrayToCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::DeserializePrincipal
+// Il2CppName: DeserializePrincipal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*)>(&Thread::DeserializePrincipal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "DeserializePrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_CurrentPrincipal
+// Il2CppName: get_CurrentPrincipal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (*)()>(&Thread::get_CurrentPrincipal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentPrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetCurrentThread
+// Il2CppName: GetCurrentThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Thread* (*)()>(&Thread::GetCurrentThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetCurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_CurrentThread
+// Il2CppName: get_CurrentThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Thread* (*)()>(&Thread::get_CurrentThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_CurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetDomain
+// Il2CppName: GetDomain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&Thread::GetDomain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetDomainID
+// Il2CppName: GetDomainID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Thread::GetDomainID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetDomainID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::Thread_internal
+// Il2CppName: Thread_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Thread::*)(System::MulticastDelegate*)>(&Thread::Thread_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Thread_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MulticastDelegate*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_IsThreadPoolThread
+// Il2CppName: get_IsThreadPoolThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)()>(&Thread::get_IsThreadPoolThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_IsThreadPoolThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_IsThreadPoolThreadInternal
+// Il2CppName: get_IsThreadPoolThreadInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Thread::*)()>(&Thread::get_IsThreadPoolThreadInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_IsThreadPoolThreadInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::set_IsBackground
+// Il2CppName: set_IsBackground
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(bool)>(&Thread::set_IsBackground)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "set_IsBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::SetName_internal
+// Il2CppName: SetName_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppString*)>(&Thread::SetName_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SetName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::set_Name
+// Il2CppName: set_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(::Il2CppString*)>(&Thread::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_ThreadState
+// Il2CppName: get_ThreadState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (Thread::*)()>(&Thread::get_ThreadState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_ThreadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::Abort_internal
+// Il2CppName: Abort_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppObject*)>(&Thread::Abort_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Abort_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::Abort
+// Il2CppName: Abort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Abort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::ClearAbortReason
+// Il2CppName: ClearAbortReason
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::ClearAbortReason)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "ClearAbortReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::SpinWait_nop
+// Il2CppName: SpinWait_nop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::SpinWait_nop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SpinWait_nop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::SpinWait
+// Il2CppName: SpinWait
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Thread::SpinWait)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::StartInternal
+// Il2CppName: StartInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::Security::Principal::IPrincipal*, System::Threading::StackCrawlMark&)>(&Thread::StartInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "StartInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::IPrincipal*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::SetState
+// Il2CppName: SetState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&Thread::SetState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadState>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::ClrState
+// Il2CppName: ClrState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&Thread::ClrState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "ClrState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadState>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetState
+// Il2CppName: GetState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (*)(System::Threading::InternalThread*)>(&Thread::GetState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::SystemMaxStackStize
+// Il2CppName: SystemMaxStackStize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Thread::SystemMaxStackStize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SystemMaxStackStize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetProcessDefaultStackSize
+// Il2CppName: GetProcessDefaultStackSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Thread::GetProcessDefaultStackSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetProcessDefaultStackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::SetStart
+// Il2CppName: SetStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)(System::MulticastDelegate*, int)>(&Thread::SetStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "SetStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MulticastDelegate*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Thread::get_ManagedThreadId
+// Il2CppName: get_ManagedThreadId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Thread::*)()>(&Thread::get_ManagedThreadId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "get_ManagedThreadId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::BeginCriticalRegion
+// Il2CppName: BeginCriticalRegion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::BeginCriticalRegion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "BeginCriticalRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::EndCriticalRegion
+// Il2CppName: EndCriticalRegion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Thread::EndCriticalRegion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "EndCriticalRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::ValidateThreadState
+// Il2CppName: ValidateThreadState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (Thread::*)()>(&Thread::ValidateThreadState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "ValidateThreadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Thread::*)()>(&Thread::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Thread::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Thread::*)()>(&Thread::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Thread*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

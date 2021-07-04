@@ -47,54 +47,54 @@ namespace System::Runtime::Serialization {
     ::Il2CppString* ToString(::Il2CppObject* value);
   }; // System.Runtime.Serialization.IFormatterConverter
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IFormatterConverter::Convert
-  // Il2CppName: Convert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IFormatterConverter::*)(::Il2CppObject*, System::Type*)>(&IFormatterConverter::Convert)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IFormatterConverter::ToBoolean
-  // Il2CppName: ToBoolean
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToBoolean)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IFormatterConverter::ToInt32
-  // Il2CppName: ToInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IFormatterConverter::ToInt64
-  // Il2CppName: ToInt64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToInt64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IFormatterConverter::ToSingle
-  // Il2CppName: ToSingle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToSingle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IFormatterConverter::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IFormatterConverter*, "System.Runtime.Serialization", "IFormatterConverter");
+// Writing MetadataGetter for method: IFormatterConverter::Convert
+// Il2CppName: Convert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IFormatterConverter::*)(::Il2CppObject*, System::Type*)>(&IFormatterConverter::Convert)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: IFormatterConverter::ToBoolean
+// Il2CppName: ToBoolean
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToBoolean)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IFormatterConverter::ToInt32
+// Il2CppName: ToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IFormatterConverter::ToInt64
+// Il2CppName: ToInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IFormatterConverter::ToSingle
+// Il2CppName: ToSingle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IFormatterConverter::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IFormatterConverter::*)(::Il2CppObject*)>(&IFormatterConverter::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IFormatterConverter*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

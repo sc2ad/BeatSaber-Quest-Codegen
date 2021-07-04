@@ -79,43 +79,43 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
   static check_size<sizeof(Win32IPInterfaceProperties2), 392 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW)> __System_Net_NetworkInformation_Win32IPInterfaceProperties2SizeCheck;
   static_assert(sizeof(Win32IPInterfaceProperties2) == 0x1F8);
-  // Writing MetadataGetter for method: Win32IPInterfaceProperties2::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPInterfaceProperties2::*)(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, System::Net::NetworkInformation::Win32_MIB_IFROW, System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPInterfaceProperties2::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPInterfaceProperties2::*)(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, System::Net::NetworkInformation::Win32_MIB_IFROW, System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPInterfaceProperties2::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
-    }
-  };
-  // Writing MetadataGetter for method: Win32IPInterfaceProperties2::Win32FromUnicast
-  // Il2CppName: Win32FromUnicast
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (*)(System::IntPtr)>(&Win32IPInterfaceProperties2::Win32FromUnicast)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), "Win32FromUnicast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: Win32IPInterfaceProperties2::get_GatewayAddresses
-  // Il2CppName: get_GatewayAddresses
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (Win32IPInterfaceProperties2::*)()>(&Win32IPInterfaceProperties2::get_GatewayAddresses)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Win32IPInterfaceProperties2::get_UnicastAddresses
-  // Il2CppName: get_UnicastAddresses
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (Win32IPInterfaceProperties2::*)()>(&Win32IPInterfaceProperties2::get_UnicastAddresses)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPInterfaceProperties2*, "System.Net.NetworkInformation", "Win32IPInterfaceProperties2");
+// Writing MetadataGetter for method: Win32IPInterfaceProperties2::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPInterfaceProperties2::*)(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, System::Net::NetworkInformation::Win32_MIB_IFROW, System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPInterfaceProperties2::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPInterfaceProperties2::*)(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, System::Net::NetworkInformation::Win32_MIB_IFROW, System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPInterfaceProperties2::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
+  }
+};
+// Writing MetadataGetter for method: Win32IPInterfaceProperties2::Win32FromUnicast
+// Il2CppName: Win32FromUnicast
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (*)(System::IntPtr)>(&Win32IPInterfaceProperties2::Win32FromUnicast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), "Win32FromUnicast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: Win32IPInterfaceProperties2::get_GatewayAddresses
+// Il2CppName: get_GatewayAddresses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (Win32IPInterfaceProperties2::*)()>(&Win32IPInterfaceProperties2::get_GatewayAddresses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Win32IPInterfaceProperties2::get_UnicastAddresses
+// Il2CppName: get_UnicastAddresses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (Win32IPInterfaceProperties2::*)()>(&Win32IPInterfaceProperties2::get_UnicastAddresses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Win32IPInterfaceProperties2*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -47,27 +47,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_ResultsEnvironmentManager_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0) == 0x18);
-  // Writing MetadataGetter for method: ResultsEnvironmentManager::$$c__DisplayClass3_0::$GetResultEnvironmentControllerForKeyword$b__0
-  // Il2CppName: <GetResultEnvironmentControllerForKeyword>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResultsEnvironmentManager::$$c__DisplayClass3_0::*)(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*)>(&ResultsEnvironmentManager::$$c__DisplayClass3_0::$GetResultEnvironmentControllerForKeyword$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager::$$c__DisplayClass3_0*), "<GetResultEnvironmentControllerForKeyword>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultsEnvironmentManager::$$c__DisplayClass3_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::$$c__DisplayClass3_0::*)()>(&ResultsEnvironmentManager::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::$$c__DisplayClass3_0::*)()>(&ResultsEnvironmentManager::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0*, "", "ResultsEnvironmentManager/<>c__DisplayClass3_0");
+// Writing MetadataGetter for method: ResultsEnvironmentManager::$$c__DisplayClass3_0::$GetResultEnvironmentControllerForKeyword$b__0
+// Il2CppName: <GetResultEnvironmentControllerForKeyword>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResultsEnvironmentManager::$$c__DisplayClass3_0::*)(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*)>(&ResultsEnvironmentManager::$$c__DisplayClass3_0::$GetResultEnvironmentControllerForKeyword$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager::$$c__DisplayClass3_0*), "<GetResultEnvironmentControllerForKeyword>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>()});
+  }
+};
+// Writing MetadataGetter for method: ResultsEnvironmentManager::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::$$c__DisplayClass3_0::*)()>(&ResultsEnvironmentManager::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::$$c__DisplayClass3_0::*)()>(&ResultsEnvironmentManager::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

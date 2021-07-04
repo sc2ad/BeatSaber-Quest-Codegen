@@ -245,317 +245,317 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(InjectContext), 88 + sizeof(Zenject::DiContainer*)> __Zenject_InjectContextSizeCheck;
   static_assert(sizeof(InjectContext) == 0x60);
-  // Writing MetadataGetter for method: InjectContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*, bool)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*, bool)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_BindingId
-  // Il2CppName: get_BindingId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingId (InjectContext::*)()>(&InjectContext::get_BindingId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_BindingId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_ObjectType
-  // Il2CppName: get_ObjectType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (InjectContext::*)()>(&InjectContext::get_ObjectType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_ObjectType
-  // Il2CppName: set_ObjectType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(System::Type*)>(&InjectContext::set_ObjectType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_ParentContext
-  // Il2CppName: get_ParentContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)()>(&InjectContext::get_ParentContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ParentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_ParentContext
-  // Il2CppName: set_ParentContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::InjectContext*)>(&InjectContext::set_ParentContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ParentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_ObjectInstance
-  // Il2CppName: get_ObjectInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_ObjectInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ObjectInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_ObjectInstance
-  // Il2CppName: set_ObjectInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_ObjectInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ObjectInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_Identifier
-  // Il2CppName: get_Identifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_Identifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_Identifier
-  // Il2CppName: set_Identifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_Identifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_MemberName
-  // Il2CppName: get_MemberName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InjectContext::*)()>(&InjectContext::get_MemberName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_MemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_MemberName
-  // Il2CppName: set_MemberName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppString*)>(&InjectContext::set_MemberName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_MemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_MemberType
-  // Il2CppName: get_MemberType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (InjectContext::*)()>(&InjectContext::get_MemberType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_MemberType
-  // Il2CppName: set_MemberType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(System::Type*)>(&InjectContext::set_MemberType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_Optional
-  // Il2CppName: get_Optional
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InjectContext::*)()>(&InjectContext::get_Optional)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_Optional
-  // Il2CppName: set_Optional
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(bool)>(&InjectContext::set_Optional)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_SourceType
-  // Il2CppName: get_SourceType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectSources (InjectContext::*)()>(&InjectContext::get_SourceType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_SourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_SourceType
-  // Il2CppName: set_SourceType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::InjectSources)>(&InjectContext::set_SourceType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_SourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_ConcreteIdentifier
-  // Il2CppName: get_ConcreteIdentifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_ConcreteIdentifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ConcreteIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_ConcreteIdentifier
-  // Il2CppName: set_ConcreteIdentifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_ConcreteIdentifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ConcreteIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_FallBackValue
-  // Il2CppName: get_FallBackValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_FallBackValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_FallBackValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_FallBackValue
-  // Il2CppName: set_FallBackValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_FallBackValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_FallBackValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_Container
-  // Il2CppName: get_Container
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (InjectContext::*)()>(&InjectContext::get_Container)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::set_Container
-  // Il2CppName: set_Container
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*)>(&InjectContext::set_Container)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_ParentContexts
-  // Il2CppName: get_ParentContexts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>* (InjectContext::*)()>(&InjectContext::get_ParentContexts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ParentContexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_ParentContextsAndSelf
-  // Il2CppName: get_ParentContextsAndSelf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>* (InjectContext::*)()>(&InjectContext::get_ParentContextsAndSelf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ParentContextsAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::get_AllObjectTypes
-  // Il2CppName: get_AllObjectTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (InjectContext::*)()>(&InjectContext::get_AllObjectTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_AllObjectTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::CreateSubContext
-  // Il2CppName: CreateSubContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)(System::Type*)>(&InjectContext::CreateSubContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "CreateSubContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::CreateSubContext
-  // Il2CppName: CreateSubContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)(System::Type*, ::Il2CppObject*)>(&InjectContext::CreateSubContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "CreateSubContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::Clone
-  // Il2CppName: Clone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)()>(&InjectContext::Clone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::GetObjectGraphString
-  // Il2CppName: GetObjectGraphString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InjectContext::*)()>(&InjectContext::GetObjectGraphString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), "GetObjectGraphString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InjectContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext*, "Zenject", "InjectContext");
+// Writing MetadataGetter for method: InjectContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*, bool)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*, System::Type*, ::Il2CppObject*, bool)>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_BindingId
+// Il2CppName: get_BindingId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingId (InjectContext::*)()>(&InjectContext::get_BindingId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_BindingId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_ObjectType
+// Il2CppName: get_ObjectType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (InjectContext::*)()>(&InjectContext::get_ObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_ObjectType
+// Il2CppName: set_ObjectType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(System::Type*)>(&InjectContext::set_ObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_ParentContext
+// Il2CppName: get_ParentContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)()>(&InjectContext::get_ParentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ParentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_ParentContext
+// Il2CppName: set_ParentContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::InjectContext*)>(&InjectContext::set_ParentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ParentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_ObjectInstance
+// Il2CppName: get_ObjectInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_ObjectInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ObjectInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_ObjectInstance
+// Il2CppName: set_ObjectInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_ObjectInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ObjectInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_Identifier
+// Il2CppName: get_Identifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_Identifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_Identifier
+// Il2CppName: set_Identifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_Identifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_MemberName
+// Il2CppName: get_MemberName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InjectContext::*)()>(&InjectContext::get_MemberName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_MemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_MemberName
+// Il2CppName: set_MemberName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppString*)>(&InjectContext::set_MemberName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_MemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_MemberType
+// Il2CppName: get_MemberType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (InjectContext::*)()>(&InjectContext::get_MemberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_MemberType
+// Il2CppName: set_MemberType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(System::Type*)>(&InjectContext::set_MemberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_Optional
+// Il2CppName: get_Optional
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InjectContext::*)()>(&InjectContext::get_Optional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_Optional
+// Il2CppName: set_Optional
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(bool)>(&InjectContext::set_Optional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_SourceType
+// Il2CppName: get_SourceType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectSources (InjectContext::*)()>(&InjectContext::get_SourceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_SourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_SourceType
+// Il2CppName: set_SourceType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::InjectSources)>(&InjectContext::set_SourceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_SourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_ConcreteIdentifier
+// Il2CppName: get_ConcreteIdentifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_ConcreteIdentifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ConcreteIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_ConcreteIdentifier
+// Il2CppName: set_ConcreteIdentifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_ConcreteIdentifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_ConcreteIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_FallBackValue
+// Il2CppName: get_FallBackValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::*)()>(&InjectContext::get_FallBackValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_FallBackValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_FallBackValue
+// Il2CppName: set_FallBackValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(::Il2CppObject*)>(&InjectContext::set_FallBackValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_FallBackValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_Container
+// Il2CppName: get_Container
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (InjectContext::*)()>(&InjectContext::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::set_Container
+// Il2CppName: set_Container
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)(Zenject::DiContainer*)>(&InjectContext::set_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "set_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_ParentContexts
+// Il2CppName: get_ParentContexts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>* (InjectContext::*)()>(&InjectContext::get_ParentContexts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ParentContexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_ParentContextsAndSelf
+// Il2CppName: get_ParentContextsAndSelf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>* (InjectContext::*)()>(&InjectContext::get_ParentContextsAndSelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_ParentContextsAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::get_AllObjectTypes
+// Il2CppName: get_AllObjectTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (InjectContext::*)()>(&InjectContext::get_AllObjectTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "get_AllObjectTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::CreateSubContext
+// Il2CppName: CreateSubContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)(System::Type*)>(&InjectContext::CreateSubContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "CreateSubContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::CreateSubContext
+// Il2CppName: CreateSubContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)(System::Type*, ::Il2CppObject*)>(&InjectContext::CreateSubContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "CreateSubContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::Clone
+// Il2CppName: Clone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::*)()>(&InjectContext::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::GetObjectGraphString
+// Il2CppName: GetObjectGraphString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InjectContext::*)()>(&InjectContext::GetObjectGraphString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), "GetObjectGraphString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InjectContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::*)()>(&InjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

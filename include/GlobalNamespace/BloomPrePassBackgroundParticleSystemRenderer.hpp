@@ -71,35 +71,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundParticleSystemRenderer), 56 + sizeof(UnityEngine::Renderer*)> __GlobalNamespace_BloomPrePassBackgroundParticleSystemRendererSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundParticleSystemRenderer) == 0x40);
-  // Writing MetadataGetter for method: BloomPrePassBackgroundParticleSystemRenderer::get_renderer
-  // Il2CppName: get_renderer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::get_renderer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassBackgroundParticleSystemRenderer::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassBackgroundParticleSystemRenderer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer*, "", "BloomPrePassBackgroundParticleSystemRenderer");
+// Writing MetadataGetter for method: BloomPrePassBackgroundParticleSystemRenderer::get_renderer
+// Il2CppName: get_renderer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::get_renderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassBackgroundParticleSystemRenderer::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassBackgroundParticleSystemRenderer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundParticleSystemRenderer::*)()>(&BloomPrePassBackgroundParticleSystemRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundParticleSystemRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

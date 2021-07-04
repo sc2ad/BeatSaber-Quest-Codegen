@@ -69,35 +69,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TextMeshProButton), 32 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_TextMeshProButtonSizeCheck;
   static_assert(sizeof(TextMeshProButton) == 0x28);
-  // Writing MetadataGetter for method: TextMeshProButton::get_text
-  // Il2CppName: get_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextMeshProUGUI* (TextMeshProButton::*)()>(&TextMeshProButton::get_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProButton::get_button
-  // Il2CppName: get_button
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (TextMeshProButton::*)()>(&TextMeshProButton::get_button)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProButton::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProButton::*)()>(&TextMeshProButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProButton::*)()>(&TextMeshProButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProButton*, "", "TextMeshProButton");
+// Writing MetadataGetter for method: TextMeshProButton::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextMeshProUGUI* (TextMeshProButton::*)()>(&TextMeshProButton::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProButton::get_button
+// Il2CppName: get_button
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (TextMeshProButton::*)()>(&TextMeshProButton::get_button)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProButton::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProButton::*)()>(&TextMeshProButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProButton::*)()>(&TextMeshProButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

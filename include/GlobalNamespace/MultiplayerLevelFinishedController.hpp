@@ -166,107 +166,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelFinishedController), 76 + sizeof(float)> __GlobalNamespace_MultiplayerLevelFinishedControllerSizeCheck;
   static_assert(sizeof(MultiplayerLevelFinishedController) == 0x50);
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::add_allResultsCollectedEvent
-  // Il2CppName: add_allResultsCollectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&MultiplayerLevelFinishedController::add_allResultsCollectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "add_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::remove_allResultsCollectedEvent
-  // Il2CppName: remove_allResultsCollectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&MultiplayerLevelFinishedController::remove_allResultsCollectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "remove_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::get_gameResultsReady
-  // Il2CppName: get_gameResultsReady
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::get_gameResultsReady)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "get_gameResultsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::get_otherPlayersCompletionResults
-  // Il2CppName: get_otherPlayersCompletionResults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::get_otherPlayersCompletionResults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "get_otherPlayersCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::get_localPlayerResults
-  // Il2CppName: get_localPlayerResults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLevelCompletionResults* (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::get_localPlayerResults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "get_localPlayerResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::StartLevelFinished
-  // Il2CppName: StartLevelFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLevelFinishedController::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerLevelFinishedController::StartLevelFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "StartLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::HandlePlayerDidFinish
-  // Il2CppName: HandlePlayerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerLevelFinishedController::HandlePlayerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "HandlePlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::HandlePlayerNetworkDidFailed
-  // Il2CppName: HandlePlayerNetworkDidFailed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerLevelFinishedController::HandlePlayerNetworkDidFailed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "HandlePlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::HandleRpcLevelFinished
-  // Il2CppName: HandleRpcLevelFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerLevelFinishedController::HandleRpcLevelFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "HandleRpcLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLevelFinishedController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController*, "", "MultiplayerLevelFinishedController");
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::add_allResultsCollectedEvent
+// Il2CppName: add_allResultsCollectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&MultiplayerLevelFinishedController::add_allResultsCollectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "add_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::remove_allResultsCollectedEvent
+// Il2CppName: remove_allResultsCollectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&MultiplayerLevelFinishedController::remove_allResultsCollectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "remove_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::get_gameResultsReady
+// Il2CppName: get_gameResultsReady
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::get_gameResultsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "get_gameResultsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::get_otherPlayersCompletionResults
+// Il2CppName: get_otherPlayersCompletionResults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::get_otherPlayersCompletionResults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "get_otherPlayersCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::get_localPlayerResults
+// Il2CppName: get_localPlayerResults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLevelCompletionResults* (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::get_localPlayerResults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "get_localPlayerResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::StartLevelFinished
+// Il2CppName: StartLevelFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLevelFinishedController::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerLevelFinishedController::StartLevelFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "StartLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::HandlePlayerDidFinish
+// Il2CppName: HandlePlayerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerLevelFinishedController::HandlePlayerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "HandlePlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::HandlePlayerNetworkDidFailed
+// Il2CppName: HandlePlayerNetworkDidFailed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerLevelFinishedController::HandlePlayerNetworkDidFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "HandlePlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::HandleRpcLevelFinished
+// Il2CppName: HandleRpcLevelFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)(::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerLevelFinishedController::HandleRpcLevelFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), "HandleRpcLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLevelFinishedController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelFinishedController::*)()>(&MultiplayerLevelFinishedController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelFinishedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

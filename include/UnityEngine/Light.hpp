@@ -94,118 +94,118 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(Light), 24 + sizeof(int)> __UnityEngine_LightSizeCheck;
   static_assert(sizeof(Light) == 0x1C);
-  // Writing MetadataGetter for method: Light::get_type
-  // Il2CppName: get_type
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightType (Light::*)()>(&Light::get_type)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Light::get_spotAngle
-  // Il2CppName: get_spotAngle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_spotAngle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_spotAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Light::get_color
-  // Il2CppName: get_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Light::*)()>(&Light::get_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Light::set_color
-  // Il2CppName: set_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Color)>(&Light::set_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: Light::get_intensity
-  // Il2CppName: get_intensity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_intensity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Light::set_intensity
-  // Il2CppName: set_intensity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(float)>(&Light::set_intensity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "set_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Light::get_bounceIntensity
-  // Il2CppName: get_bounceIntensity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_bounceIntensity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_bounceIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Light::get_range
-  // Il2CppName: get_range
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_range)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_range", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Light::get_shadows
-  // Il2CppName: get_shadows
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightShadows (Light::*)()>(&Light::get_shadows)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_shadows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Light::AddCommandBuffer
-  // Il2CppName: AddCommandBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Rendering::LightEvent, UnityEngine::Rendering::CommandBuffer*)>(&Light::AddCommandBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "AddCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Light::AddCommandBuffer
-  // Il2CppName: AddCommandBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Rendering::LightEvent, UnityEngine::Rendering::CommandBuffer*, UnityEngine::Rendering::ShadowMapPass)>(&Light::AddCommandBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "AddCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowMapPass>()});
-    }
-  };
-  // Writing MetadataGetter for method: Light::RemoveCommandBuffer
-  // Il2CppName: RemoveCommandBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Rendering::LightEvent, UnityEngine::Rendering::CommandBuffer*)>(&Light::RemoveCommandBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "RemoveCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Light::get_color_Injected
-  // Il2CppName: get_color_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Color&)>(&Light::get_color_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "get_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Light::set_color_Injected
-  // Il2CppName: set_color_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Color&)>(&Light::set_color_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Light*), "set_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Light*, "UnityEngine", "Light");
+// Writing MetadataGetter for method: Light::get_type
+// Il2CppName: get_type
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightType (Light::*)()>(&Light::get_type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Light::get_spotAngle
+// Il2CppName: get_spotAngle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_spotAngle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_spotAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Light::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Light::*)()>(&Light::get_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Light::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Color)>(&Light::set_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: Light::get_intensity
+// Il2CppName: get_intensity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_intensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Light::set_intensity
+// Il2CppName: set_intensity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(float)>(&Light::set_intensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "set_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Light::get_bounceIntensity
+// Il2CppName: get_bounceIntensity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_bounceIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_bounceIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Light::get_range
+// Il2CppName: get_range
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Light::*)()>(&Light::get_range)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_range", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Light::get_shadows
+// Il2CppName: get_shadows
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightShadows (Light::*)()>(&Light::get_shadows)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_shadows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Light::AddCommandBuffer
+// Il2CppName: AddCommandBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Rendering::LightEvent, UnityEngine::Rendering::CommandBuffer*)>(&Light::AddCommandBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "AddCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
+  }
+};
+// Writing MetadataGetter for method: Light::AddCommandBuffer
+// Il2CppName: AddCommandBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Rendering::LightEvent, UnityEngine::Rendering::CommandBuffer*, UnityEngine::Rendering::ShadowMapPass)>(&Light::AddCommandBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "AddCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowMapPass>()});
+  }
+};
+// Writing MetadataGetter for method: Light::RemoveCommandBuffer
+// Il2CppName: RemoveCommandBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Rendering::LightEvent, UnityEngine::Rendering::CommandBuffer*)>(&Light::RemoveCommandBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "RemoveCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
+  }
+};
+// Writing MetadataGetter for method: Light::get_color_Injected
+// Il2CppName: get_color_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Color&)>(&Light::get_color_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "get_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Light::set_color_Injected
+// Il2CppName: set_color_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Light::*)(UnityEngine::Color&)>(&Light::set_color_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Light*), "set_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+  }
+};

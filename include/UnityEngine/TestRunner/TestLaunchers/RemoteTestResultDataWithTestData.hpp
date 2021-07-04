@@ -52,19 +52,19 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   #pragma pack(pop)
   static check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>*)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
   static_assert(sizeof(RemoteTestResultDataWithTestData) == 0x20);
-  // Writing MetadataGetter for method: RemoteTestResultDataWithTestData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultDataWithTestData::*)()>(&RemoteTestResultDataWithTestData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataWithTestData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultDataWithTestData::*)()>(&RemoteTestResultDataWithTestData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataWithTestData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataWithTestData");
+// Writing MetadataGetter for method: RemoteTestResultDataWithTestData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultDataWithTestData::*)()>(&RemoteTestResultDataWithTestData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataWithTestData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultDataWithTestData::*)()>(&RemoteTestResultDataWithTestData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataWithTestData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

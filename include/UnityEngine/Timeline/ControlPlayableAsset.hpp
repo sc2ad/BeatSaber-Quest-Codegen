@@ -303,222 +303,222 @@ namespace UnityEngine::Timeline {
     static void _cctor();
   }; // UnityEngine.Timeline.ControlPlayableAsset
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: ControlPlayableAsset::get_controllingDirectors
-  // Il2CppName: get_controllingDirectors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_controllingDirectors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::set_controllingDirectors
-  // Il2CppName: set_controllingDirectors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(bool)>(&ControlPlayableAsset::set_controllingDirectors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "set_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::get_controllingParticles
-  // Il2CppName: get_controllingParticles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_controllingParticles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::set_controllingParticles
-  // Il2CppName: set_controllingParticles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(bool)>(&ControlPlayableAsset::set_controllingParticles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "set_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)()>(&ControlPlayableAsset::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::get_clipCaps
-  // Il2CppName: get_clipCaps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_clipCaps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::ConnectPlayablesToMixer
-  // Il2CppName: ConnectPlayablesToMixer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (*)(UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::ConnectPlayablesToMixer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "ConnectPlayablesToMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::CreateActivationPlayable
-  // Il2CppName: CreateActivationPlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(UnityEngine::GameObject*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::CreateActivationPlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "CreateActivationPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem
-  // Il2CppName: SearchHierarchyAndConnectParticleSystem
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "SearchHierarchyAndConnectParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::SearchHierarchyAndConnectDirector
-  // Il2CppName: SearchHierarchyAndConnectDirector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*, bool)>(&ControlPlayableAsset::SearchHierarchyAndConnectDirector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "SearchHierarchyAndConnectDirector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts
-  // Il2CppName: SearchHierarchyAndConnectControlableScripts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "SearchHierarchyAndConnectControlableScripts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::ConnectMixerAndPlayable
-  // Il2CppName: ConnectMixerAndPlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, int)>(&ControlPlayableAsset::ConnectMixerAndPlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "ConnectMixerAndPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::GetComponent
-  // Il2CppName: GetComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ControlPlayableAsset::GetControlableScripts
-  // Il2CppName: GetControlableScripts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>* (*)(UnityEngine::GameObject*)>(&ControlPlayableAsset::GetControlableScripts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GetControlableScripts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::UpdateDurationAndLoopFlag
-  // Il2CppName: UpdateDurationAndLoopFlag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>*, System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::UpdateDurationAndLoopFlag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "UpdateDurationAndLoopFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::GetControllableParticleSystems
-  // Il2CppName: GetControllableParticleSystems
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>* (ControlPlayableAsset::*)(UnityEngine::GameObject*)>(&ControlPlayableAsset::GetControllableParticleSystems)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GetControllableParticleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::GetControllableParticleSystems
-  // Il2CppName: GetControllableParticleSystems
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::GetControllableParticleSystems)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GetControllableParticleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::CacheSubEmitters
-  // Il2CppName: CacheSubEmitters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::CacheSubEmitters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "CacheSubEmitters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::GatherProperties
-  // Il2CppName: GatherProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&ControlPlayableAsset::GatherProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::PreviewParticles
-  // Il2CppName: PreviewParticles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::PreviewParticles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::PreviewActivation
-  // Il2CppName: PreviewActivation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*)>(&ControlPlayableAsset::PreviewActivation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::PreviewTimeControl
-  // Il2CppName: PreviewTimeControl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, UnityEngine::Playables::PlayableDirector*, System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*)>(&ControlPlayableAsset::PreviewTimeControl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewTimeControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::PreviewDirectors
-  // Il2CppName: PreviewDirectors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*)>(&ControlPlayableAsset::PreviewDirectors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::get_duration
-  // Il2CppName: get_duration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_duration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::CreatePlayable
-  // Il2CppName: CreatePlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ControlPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&ControlPlayableAsset::CreatePlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)()>(&ControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)()>(&ControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ControlPlayableAsset::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ControlPlayableAsset::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngine.Timeline", "ControlPlayableAsset");
+// Writing MetadataGetter for method: ControlPlayableAsset::get_controllingDirectors
+// Il2CppName: get_controllingDirectors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_controllingDirectors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::set_controllingDirectors
+// Il2CppName: set_controllingDirectors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(bool)>(&ControlPlayableAsset::set_controllingDirectors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "set_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::get_controllingParticles
+// Il2CppName: get_controllingParticles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_controllingParticles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::set_controllingParticles
+// Il2CppName: set_controllingParticles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(bool)>(&ControlPlayableAsset::set_controllingParticles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "set_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)()>(&ControlPlayableAsset::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::get_clipCaps
+// Il2CppName: get_clipCaps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_clipCaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::ConnectPlayablesToMixer
+// Il2CppName: ConnectPlayablesToMixer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (*)(UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::ConnectPlayablesToMixer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "ConnectPlayablesToMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::CreateActivationPlayable
+// Il2CppName: CreateActivationPlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(UnityEngine::GameObject*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::CreateActivationPlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "CreateActivationPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem
+// Il2CppName: SearchHierarchyAndConnectParticleSystem
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "SearchHierarchyAndConnectParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::SearchHierarchyAndConnectDirector
+// Il2CppName: SearchHierarchyAndConnectDirector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*, bool)>(&ControlPlayableAsset::SearchHierarchyAndConnectDirector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "SearchHierarchyAndConnectDirector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts
+// Il2CppName: SearchHierarchyAndConnectControlableScripts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "SearchHierarchyAndConnectControlableScripts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::ConnectMixerAndPlayable
+// Il2CppName: ConnectMixerAndPlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, int)>(&ControlPlayableAsset::ConnectMixerAndPlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "ConnectMixerAndPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::GetComponent
+// Il2CppName: GetComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ControlPlayableAsset::GetControlableScripts
+// Il2CppName: GetControlableScripts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>* (*)(UnityEngine::GameObject*)>(&ControlPlayableAsset::GetControlableScripts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GetControlableScripts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::UpdateDurationAndLoopFlag
+// Il2CppName: UpdateDurationAndLoopFlag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>*, System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::UpdateDurationAndLoopFlag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "UpdateDurationAndLoopFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::GetControllableParticleSystems
+// Il2CppName: GetControllableParticleSystems
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>* (ControlPlayableAsset::*)(UnityEngine::GameObject*)>(&ControlPlayableAsset::GetControllableParticleSystems)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GetControllableParticleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::GetControllableParticleSystems
+// Il2CppName: GetControllableParticleSystems
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::GetControllableParticleSystems)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GetControllableParticleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::CacheSubEmitters
+// Il2CppName: CacheSubEmitters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::CacheSubEmitters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "CacheSubEmitters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::GatherProperties
+// Il2CppName: GatherProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&ControlPlayableAsset::GatherProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::PreviewParticles
+// Il2CppName: PreviewParticles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*)>(&ControlPlayableAsset::PreviewParticles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::PreviewActivation
+// Il2CppName: PreviewActivation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*)>(&ControlPlayableAsset::PreviewActivation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::PreviewTimeControl
+// Il2CppName: PreviewTimeControl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, UnityEngine::Playables::PlayableDirector*, System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*)>(&ControlPlayableAsset::PreviewTimeControl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewTimeControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::PreviewDirectors
+// Il2CppName: PreviewDirectors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*)>(&ControlPlayableAsset::PreviewDirectors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "PreviewDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::get_duration
+// Il2CppName: get_duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (ControlPlayableAsset::*)()>(&ControlPlayableAsset::get_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::CreatePlayable
+// Il2CppName: CreatePlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ControlPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&ControlPlayableAsset::CreatePlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)()>(&ControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControlPlayableAsset::*)()>(&ControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ControlPlayableAsset::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ControlPlayableAsset::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ControlPlayableAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

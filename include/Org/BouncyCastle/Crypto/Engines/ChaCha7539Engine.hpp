@@ -62,67 +62,67 @@ namespace Org::BouncyCastle::Crypto::Engines {
     void GenerateKeyStream(::Array<uint8_t>* output);
   }; // Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ChaCha7539Engine::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ChaCha7539Engine::get_AlgorithmName
-  // Il2CppName: get_AlgorithmName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ChaCha7539Engine::*)()>(&ChaCha7539Engine::get_AlgorithmName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ChaCha7539Engine::get_NonceSize
-  // Il2CppName: get_NonceSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ChaCha7539Engine::*)()>(&ChaCha7539Engine::get_NonceSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "get_NonceSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ChaCha7539Engine::AdvanceCounter
-  // Il2CppName: AdvanceCounter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::AdvanceCounter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "AdvanceCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ChaCha7539Engine::ResetCounter
-  // Il2CppName: ResetCounter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::ResetCounter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "ResetCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ChaCha7539Engine::SetKey
-  // Il2CppName: SetKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&ChaCha7539Engine::SetKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChaCha7539Engine::GenerateKeyStream
-  // Il2CppName: GenerateKeyStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)(::Array<uint8_t>*)>(&ChaCha7539Engine::GenerateKeyStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "GenerateKeyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*, "Org.BouncyCastle.Crypto.Engines", "ChaCha7539Engine");
+// Writing MetadataGetter for method: ChaCha7539Engine::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ChaCha7539Engine::get_AlgorithmName
+// Il2CppName: get_AlgorithmName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ChaCha7539Engine::*)()>(&ChaCha7539Engine::get_AlgorithmName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ChaCha7539Engine::get_NonceSize
+// Il2CppName: get_NonceSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ChaCha7539Engine::*)()>(&ChaCha7539Engine::get_NonceSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "get_NonceSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ChaCha7539Engine::AdvanceCounter
+// Il2CppName: AdvanceCounter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::AdvanceCounter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "AdvanceCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ChaCha7539Engine::ResetCounter
+// Il2CppName: ResetCounter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)()>(&ChaCha7539Engine::ResetCounter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "ResetCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ChaCha7539Engine::SetKey
+// Il2CppName: SetKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&ChaCha7539Engine::SetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: ChaCha7539Engine::GenerateKeyStream
+// Il2CppName: GenerateKeyStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChaCha7539Engine::*)(::Array<uint8_t>*)>(&ChaCha7539Engine::GenerateKeyStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChaCha7539Engine*), "GenerateKeyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};

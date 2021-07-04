@@ -31,14 +31,14 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Messaging::IMessageSink* GetEnvoySink(System::MarshalByRefObject* obj, System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
   }; // System.Runtime.Remoting.Contexts.IContributeEnvoySink
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IContributeEnvoySink::GetEnvoySink
-  // Il2CppName: GetEnvoySink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (IContributeEnvoySink::*)(System::MarshalByRefObject*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&IContributeEnvoySink::GetEnvoySink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IContributeEnvoySink*), "GetEnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeEnvoySink*, "System.Runtime.Remoting.Contexts", "IContributeEnvoySink");
+// Writing MetadataGetter for method: IContributeEnvoySink::GetEnvoySink
+// Il2CppName: GetEnvoySink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (IContributeEnvoySink::*)(System::MarshalByRefObject*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&IContributeEnvoySink::GetEnvoySink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IContributeEnvoySink*), "GetEnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};

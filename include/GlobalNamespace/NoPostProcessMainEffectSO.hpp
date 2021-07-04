@@ -100,67 +100,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoPostProcessMainEffectSO), 40 + sizeof(UnityEngine::Material*)> __GlobalNamespace_NoPostProcessMainEffectSOSizeCheck;
   static_assert(sizeof(NoPostProcessMainEffectSO) == 0x30);
-  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::DrawFadeQuad
-  // Il2CppName: DrawFadeQuad
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)(float)>(&NoPostProcessMainEffectSO::DrawFadeQuad)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "DrawFadeQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::get_hasPostProcessEffect
-  // Il2CppName: get_hasPostProcessEffect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::get_hasPostProcessEffect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::PreRender
-  // Il2CppName: PreRender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::PreRender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "PreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::PostRender
-  // Il2CppName: PostRender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)(float)>(&NoPostProcessMainEffectSO::PostRender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "PostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO*, "", "NoPostProcessMainEffectSO");
+// Writing MetadataGetter for method: NoPostProcessMainEffectSO::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoPostProcessMainEffectSO::DrawFadeQuad
+// Il2CppName: DrawFadeQuad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)(float)>(&NoPostProcessMainEffectSO::DrawFadeQuad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "DrawFadeQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoPostProcessMainEffectSO::get_hasPostProcessEffect
+// Il2CppName: get_hasPostProcessEffect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::get_hasPostProcessEffect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoPostProcessMainEffectSO::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoPostProcessMainEffectSO::PreRender
+// Il2CppName: PreRender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::PreRender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "PreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoPostProcessMainEffectSO::PostRender
+// Il2CppName: PostRender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)(float)>(&NoPostProcessMainEffectSO::PostRender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "PostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoPostProcessMainEffectSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

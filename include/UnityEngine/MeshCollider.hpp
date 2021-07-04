@@ -37,30 +37,30 @@ namespace UnityEngine {
     void set_convex(bool value);
   }; // UnityEngine.MeshCollider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MeshCollider::get_sharedMesh
-  // Il2CppName: get_sharedMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshCollider::*)()>(&MeshCollider::get_sharedMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshCollider*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshCollider::set_sharedMesh
-  // Il2CppName: set_sharedMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshCollider::*)(UnityEngine::Mesh*)>(&MeshCollider::set_sharedMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshCollider*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshCollider::set_convex
-  // Il2CppName: set_convex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshCollider::*)(bool)>(&MeshCollider::set_convex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshCollider*), "set_convex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshCollider*, "UnityEngine", "MeshCollider");
+// Writing MetadataGetter for method: MeshCollider::get_sharedMesh
+// Il2CppName: get_sharedMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshCollider::*)()>(&MeshCollider::get_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshCollider*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshCollider::set_sharedMesh
+// Il2CppName: set_sharedMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshCollider::*)(UnityEngine::Mesh*)>(&MeshCollider::set_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshCollider*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshCollider::set_convex
+// Il2CppName: set_convex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshCollider::*)(bool)>(&MeshCollider::set_convex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshCollider*), "set_convex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

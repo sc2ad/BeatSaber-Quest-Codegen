@@ -81,73 +81,73 @@ namespace Mono {
   #pragma pack(pop)
   static check_size<sizeof(RuntimeClassHandle), 0 + sizeof(Mono::RuntimeStructs::MonoClass*)> __Mono_RuntimeClassHandleSizeCheck;
   static_assert(sizeof(RuntimeClassHandle) == 0x8);
-  // Writing MetadataGetter for method: RuntimeClassHandle::RuntimeClassHandle
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(Mono::RuntimeStructs::MonoClass*)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeStructs::MonoClass*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(Mono::RuntimeStructs::MonoClass*)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeStructs::MonoClass*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RuntimeClassHandle::RuntimeClassHandle
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(System::IntPtr)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(System::IntPtr)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: RuntimeClassHandle::get_Value
-  // Il2CppName: get_Value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::RuntimeStructs::MonoClass* (RuntimeClassHandle::*)()>(&RuntimeClassHandle::get_Value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RuntimeClassHandle::GetTypeFromClass
-  // Il2CppName: GetTypeFromClass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(Mono::RuntimeStructs::MonoClass*)>(&RuntimeClassHandle::GetTypeFromClass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "GetTypeFromClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeStructs::MonoClass*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RuntimeClassHandle::GetTypeHandle
-  // Il2CppName: GetTypeHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeTypeHandle (RuntimeClassHandle::*)()>(&RuntimeClassHandle::GetTypeHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "GetTypeHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RuntimeClassHandle::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RuntimeClassHandle::*)(::Il2CppObject*)>(&RuntimeClassHandle::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RuntimeClassHandle::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RuntimeClassHandle::*)()>(&RuntimeClassHandle::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");
+// Writing MetadataGetter for method: RuntimeClassHandle::RuntimeClassHandle
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(Mono::RuntimeStructs::MonoClass*)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeStructs::MonoClass*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(Mono::RuntimeStructs::MonoClass*)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeStructs::MonoClass*>()});
+  }
+};
+// Writing MetadataGetter for method: RuntimeClassHandle::RuntimeClassHandle
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(System::IntPtr)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClassHandle::*)(System::IntPtr)>(&RuntimeClassHandle::RuntimeClassHandle<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: RuntimeClassHandle::get_Value
+// Il2CppName: get_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::RuntimeStructs::MonoClass* (RuntimeClassHandle::*)()>(&RuntimeClassHandle::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RuntimeClassHandle::GetTypeFromClass
+// Il2CppName: GetTypeFromClass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(Mono::RuntimeStructs::MonoClass*)>(&RuntimeClassHandle::GetTypeFromClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "GetTypeFromClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeStructs::MonoClass*>()});
+  }
+};
+// Writing MetadataGetter for method: RuntimeClassHandle::GetTypeHandle
+// Il2CppName: GetTypeHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeTypeHandle (RuntimeClassHandle::*)()>(&RuntimeClassHandle::GetTypeHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "GetTypeHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RuntimeClassHandle::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RuntimeClassHandle::*)(::Il2CppObject*)>(&RuntimeClassHandle::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RuntimeClassHandle::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RuntimeClassHandle::*)()>(&RuntimeClassHandle::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeClassHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

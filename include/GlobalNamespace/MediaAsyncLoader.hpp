@@ -77,59 +77,59 @@ namespace GlobalNamespace {
     }
   }; // MediaAsyncLoader
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MediaAsyncLoader::LoadWebpage
-  // Il2CppName: LoadWebpage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadWebpage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadWebpage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaAsyncLoader::LoadAudioClipAsync
-  // Il2CppName: LoadAudioClipAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadAudioClipAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaAsyncLoader::LoadTextureAsync
-  // Il2CppName: LoadTextureAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadTextureAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadTextureAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaAsyncLoader::LoadSpriteAsync
-  // Il2CppName: LoadSpriteAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadSpriteAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadSpriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaAsyncLoader::Log
-  // Il2CppName: Log
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&MediaAsyncLoader::Log)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaAsyncLoader::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaAsyncLoader::*)()>(&MediaAsyncLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaAsyncLoader::*)()>(&MediaAsyncLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MediaAsyncLoader*, "", "MediaAsyncLoader");
+// Writing MetadataGetter for method: MediaAsyncLoader::LoadWebpage
+// Il2CppName: LoadWebpage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadWebpage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadWebpage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MediaAsyncLoader::LoadAudioClipAsync
+// Il2CppName: LoadAudioClipAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadAudioClipAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MediaAsyncLoader::LoadTextureAsync
+// Il2CppName: LoadTextureAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadTextureAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadTextureAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MediaAsyncLoader::LoadSpriteAsync
+// Il2CppName: LoadSpriteAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&MediaAsyncLoader::LoadSpriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "LoadSpriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MediaAsyncLoader::Log
+// Il2CppName: Log
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&MediaAsyncLoader::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MediaAsyncLoader::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaAsyncLoader::*)()>(&MediaAsyncLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaAsyncLoader::*)()>(&MediaAsyncLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaAsyncLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -125,102 +125,102 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ConventionAssemblySelectionBinder), 16 + sizeof(Zenject::ConventionBindInfo*)> __Zenject_ConventionAssemblySelectionBinderSizeCheck;
   static_assert(sizeof(ConventionAssemblySelectionBinder) == 0x18);
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionAssemblySelectionBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionAssemblySelectionBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::get_BindInfo
-  // Il2CppName: get_BindInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionBindInfo* (ConventionAssemblySelectionBinder::*)()>(&ConventionAssemblySelectionBinder::get_BindInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::set_BindInfo
-  // Il2CppName: set_BindInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionAssemblySelectionBinder::set_BindInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAllAssemblies
-  // Il2CppName: FromAllAssemblies
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)()>(&ConventionAssemblySelectionBinder::FromAllAssemblies)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAllAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssemblyContaining
-  // Il2CppName: FromAssemblyContaining
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembliesContaining
-  // Il2CppName: FromAssembliesContaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(::Array<System::Type*>*)>(&ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembliesContaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembliesContaining
-  // Il2CppName: FromAssembliesContaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembliesContaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromThisAssembly
-  // Il2CppName: FromThisAssembly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)()>(&ConventionAssemblySelectionBinder::FromThisAssembly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromThisAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembly
-  // Il2CppName: FromAssembly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Reflection::Assembly*)>(&ConventionAssemblySelectionBinder::FromAssembly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssemblies
-  // Il2CppName: FromAssemblies
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(::Array<System::Reflection::Assembly*>*)>(&ConventionAssemblySelectionBinder::FromAssemblies)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssemblies
-  // Il2CppName: FromAssemblies
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*)>(&ConventionAssemblySelectionBinder::FromAssemblies)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembliesWhere
-  // Il2CppName: FromAssembliesWhere
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Func_2<System::Reflection::Assembly*, bool>*)>(&ConventionAssemblySelectionBinder::FromAssembliesWhere)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembliesWhere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::Assembly*, bool>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder*, "Zenject", "ConventionAssemblySelectionBinder");
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionAssemblySelectionBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionAssemblySelectionBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::get_BindInfo
+// Il2CppName: get_BindInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionBindInfo* (ConventionAssemblySelectionBinder::*)()>(&ConventionAssemblySelectionBinder::get_BindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::set_BindInfo
+// Il2CppName: set_BindInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(Zenject::ConventionBindInfo*)>(&ConventionAssemblySelectionBinder::set_BindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAllAssemblies
+// Il2CppName: FromAllAssemblies
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)()>(&ConventionAssemblySelectionBinder::FromAllAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAllAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssemblyContaining
+// Il2CppName: FromAssemblyContaining
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembliesContaining
+// Il2CppName: FromAssembliesContaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(::Array<System::Type*>*)>(&ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembliesContaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembliesContaining
+// Il2CppName: FromAssembliesContaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembliesContaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromThisAssembly
+// Il2CppName: FromThisAssembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)()>(&ConventionAssemblySelectionBinder::FromThisAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromThisAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembly
+// Il2CppName: FromAssembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Reflection::Assembly*)>(&ConventionAssemblySelectionBinder::FromAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssemblies
+// Il2CppName: FromAssemblies
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(::Array<System::Reflection::Assembly*>*)>(&ConventionAssemblySelectionBinder::FromAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssemblies
+// Il2CppName: FromAssemblies
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*)>(&ConventionAssemblySelectionBinder::FromAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionAssemblySelectionBinder::FromAssembliesWhere
+// Il2CppName: FromAssembliesWhere
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionAssemblySelectionBinder::*)(System::Func_2<System::Reflection::Assembly*, bool>*)>(&ConventionAssemblySelectionBinder::FromAssembliesWhere)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionAssemblySelectionBinder*), "FromAssembliesWhere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::Assembly*, bool>*>()});
+  }
+};

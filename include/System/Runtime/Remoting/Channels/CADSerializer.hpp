@@ -45,46 +45,46 @@ namespace System::Runtime::Remoting::Channels {
     static ::Il2CppObject* DeserializeObject(System::IO::MemoryStream* mem);
   }; // System.Runtime.Remoting.Channels.CADSerializer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CADSerializer::DeserializeMessage
-  // Il2CppName: DeserializeMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::IO::MemoryStream*, System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&CADSerializer::DeserializeMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "DeserializeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CADSerializer::SerializeMessage
-  // Il2CppName: SerializeMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MemoryStream* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&CADSerializer::SerializeMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "SerializeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CADSerializer::DeserializeObjectSafe
-  // Il2CppName: DeserializeObjectSafe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*)>(&CADSerializer::DeserializeObjectSafe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "DeserializeObjectSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CADSerializer::SerializeObject
-  // Il2CppName: SerializeObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MemoryStream* (*)(::Il2CppObject*)>(&CADSerializer::SerializeObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "SerializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CADSerializer::DeserializeObject
-  // Il2CppName: DeserializeObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::IO::MemoryStream*)>(&CADSerializer::DeserializeObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "DeserializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CADSerializer*, "System.Runtime.Remoting.Channels", "CADSerializer");
+// Writing MetadataGetter for method: CADSerializer::DeserializeMessage
+// Il2CppName: DeserializeMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::IO::MemoryStream*, System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&CADSerializer::DeserializeMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "DeserializeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: CADSerializer::SerializeMessage
+// Il2CppName: SerializeMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MemoryStream* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&CADSerializer::SerializeMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "SerializeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: CADSerializer::DeserializeObjectSafe
+// Il2CppName: DeserializeObjectSafe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*)>(&CADSerializer::DeserializeObjectSafe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "DeserializeObjectSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CADSerializer::SerializeObject
+// Il2CppName: SerializeObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MemoryStream* (*)(::Il2CppObject*)>(&CADSerializer::SerializeObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "SerializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CADSerializer::DeserializeObject
+// Il2CppName: DeserializeObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::IO::MemoryStream*)>(&CADSerializer::DeserializeObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CADSerializer*), "DeserializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
+  }
+};

@@ -73,27 +73,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(PoolableManager::$$c__DisplayClass2_0), 24 + sizeof(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)> __Zenject_PoolableManager_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(PoolableManager::$$c__DisplayClass2_0) == 0x20);
-  // Writing MetadataGetter for method: PoolableManager::$$c__DisplayClass2_0::$_ctor$b__0
-  // Il2CppName: <.ctor>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolableManager::PoolableInfo (PoolableManager::$$c__DisplayClass2_0::*)(Zenject::IPoolable*)>(&PoolableManager::$$c__DisplayClass2_0::$_ctor$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PoolableManager::$$c__DisplayClass2_0*), "<.ctor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPoolable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PoolableManager::$$c__DisplayClass2_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolableManager::$$c__DisplayClass2_0::*)()>(&PoolableManager::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PoolableManager::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolableManager::$$c__DisplayClass2_0::*)()>(&PoolableManager::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PoolableManager::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::$$c__DisplayClass2_0*, "Zenject", "PoolableManager/<>c__DisplayClass2_0");
+// Writing MetadataGetter for method: PoolableManager::$$c__DisplayClass2_0::$_ctor$b__0
+// Il2CppName: <.ctor>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolableManager::PoolableInfo (PoolableManager::$$c__DisplayClass2_0::*)(Zenject::IPoolable*)>(&PoolableManager::$$c__DisplayClass2_0::$_ctor$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoolableManager::$$c__DisplayClass2_0*), "<.ctor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPoolable*>()});
+  }
+};
+// Writing MetadataGetter for method: PoolableManager::$$c__DisplayClass2_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolableManager::$$c__DisplayClass2_0::*)()>(&PoolableManager::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoolableManager::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolableManager::$$c__DisplayClass2_0::*)()>(&PoolableManager::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoolableManager::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

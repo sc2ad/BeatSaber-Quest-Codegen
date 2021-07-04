@@ -135,99 +135,99 @@ namespace GlobalNamespace {
     void PauseAllBeatmapObjects(bool pause);
   }; // BasicBeatmapObjectManager
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::BasicBeatmapObjectManager::InitData*, GlobalNamespace::GameNoteController::Pool*, GlobalNamespace::BombNoteController::Pool*, GlobalNamespace::ObstacleController::Pool*)>(&BasicBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BasicBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController::Pool*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::BasicBeatmapObjectManager::InitData*, GlobalNamespace::GameNoteController::Pool*, GlobalNamespace::BombNoteController::Pool*, GlobalNamespace::ObstacleController::Pool*)>(&BasicBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BasicBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController::Pool*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::GetMaxYForRangeInMiddleTwoLanes
-  // Il2CppName: GetMaxYForRangeInMiddleTwoLanes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BasicBeatmapObjectManager::*)(float, float)>(&BasicBeatmapObjectManager::GetMaxYForRangeInMiddleTwoLanes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "GetMaxYForRangeInMiddleTwoLanes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::get_activeObstacleControllers
-  // Il2CppName: get_activeObstacleControllers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (BasicBeatmapObjectManager::*)()>(&BasicBeatmapObjectManager::get_activeObstacleControllers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::SpawnObstacleInternal
-  // Il2CppName: SpawnObstacleInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleController* (BasicBeatmapObjectManager::*)(GlobalNamespace::ObstacleData*, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&BasicBeatmapObjectManager::SpawnObstacleInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "SpawnObstacleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::SpawnBombNoteInternal
-  // Il2CppName: SpawnBombNoteInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (BasicBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&BasicBeatmapObjectManager::SpawnBombNoteInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "SpawnBombNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::SpawnBasicNoteInternal
-  // Il2CppName: SpawnBasicNoteInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (BasicBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&BasicBeatmapObjectManager::SpawnBasicNoteInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "SpawnBasicNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::DespawnInternal
-  // Il2CppName: DespawnInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&BasicBeatmapObjectManager::DespawnInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::DespawnInternal
-  // Il2CppName: DespawnInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&BasicBeatmapObjectManager::DespawnInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::DissolveAllObjects
-  // Il2CppName: DissolveAllObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)()>(&BasicBeatmapObjectManager::DissolveAllObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "DissolveAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::HideAllBeatmapObjects
-  // Il2CppName: HideAllBeatmapObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(bool)>(&BasicBeatmapObjectManager::HideAllBeatmapObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "HideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicBeatmapObjectManager::PauseAllBeatmapObjects
-  // Il2CppName: PauseAllBeatmapObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(bool)>(&BasicBeatmapObjectManager::PauseAllBeatmapObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "PauseAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapObjectManager*, "", "BasicBeatmapObjectManager");
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::BasicBeatmapObjectManager::InitData*, GlobalNamespace::GameNoteController::Pool*, GlobalNamespace::BombNoteController::Pool*, GlobalNamespace::ObstacleController::Pool*)>(&BasicBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BasicBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController::Pool*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::BasicBeatmapObjectManager::InitData*, GlobalNamespace::GameNoteController::Pool*, GlobalNamespace::BombNoteController::Pool*, GlobalNamespace::ObstacleController::Pool*)>(&BasicBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BasicBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController::Pool*>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::GetMaxYForRangeInMiddleTwoLanes
+// Il2CppName: GetMaxYForRangeInMiddleTwoLanes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BasicBeatmapObjectManager::*)(float, float)>(&BasicBeatmapObjectManager::GetMaxYForRangeInMiddleTwoLanes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "GetMaxYForRangeInMiddleTwoLanes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::get_activeObstacleControllers
+// Il2CppName: get_activeObstacleControllers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (BasicBeatmapObjectManager::*)()>(&BasicBeatmapObjectManager::get_activeObstacleControllers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::SpawnObstacleInternal
+// Il2CppName: SpawnObstacleInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleController* (BasicBeatmapObjectManager::*)(GlobalNamespace::ObstacleData*, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&BasicBeatmapObjectManager::SpawnObstacleInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "SpawnObstacleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::SpawnBombNoteInternal
+// Il2CppName: SpawnBombNoteInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (BasicBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&BasicBeatmapObjectManager::SpawnBombNoteInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "SpawnBombNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::SpawnBasicNoteInternal
+// Il2CppName: SpawnBasicNoteInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (BasicBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&BasicBeatmapObjectManager::SpawnBasicNoteInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "SpawnBasicNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::DespawnInternal
+// Il2CppName: DespawnInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&BasicBeatmapObjectManager::DespawnInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::DespawnInternal
+// Il2CppName: DespawnInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&BasicBeatmapObjectManager::DespawnInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::DissolveAllObjects
+// Il2CppName: DissolveAllObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)()>(&BasicBeatmapObjectManager::DissolveAllObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "DissolveAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::HideAllBeatmapObjects
+// Il2CppName: HideAllBeatmapObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(bool)>(&BasicBeatmapObjectManager::HideAllBeatmapObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "HideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: BasicBeatmapObjectManager::PauseAllBeatmapObjects
+// Il2CppName: PauseAllBeatmapObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::*)(bool)>(&BasicBeatmapObjectManager::PauseAllBeatmapObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager*), "PauseAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

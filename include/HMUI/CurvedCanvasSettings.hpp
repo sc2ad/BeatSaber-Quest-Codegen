@@ -97,67 +97,67 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(CurvedCanvasSettings), 144 + sizeof(bool)> __HMUI_CurvedCanvasSettingsSizeCheck;
   static_assert(sizeof(CurvedCanvasSettings) == 0x91);
-  // Writing MetadataGetter for method: CurvedCanvasSettings::get_radius
-  // Il2CppName: get_radius
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::get_radius)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettings::SetRadius
-  // Il2CppName: SetRadius
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)(float)>(&CurvedCanvasSettings::SetRadius)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "SetRadius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettings::TransformPointFromCanvasTo3D
-  // Il2CppName: TransformPointFromCanvasTo3D
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (CurvedCanvasSettings::*)(UnityEngine::Vector2)>(&CurvedCanvasSettings::TransformPointFromCanvasTo3D)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "TransformPointFromCanvasTo3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettings::RebuildAndSetup
-  // Il2CppName: RebuildAndSetup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&CurvedCanvasSettings::RebuildAndSetup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "RebuildAndSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettings::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettings::OnPopulateMesh
-  // Il2CppName: OnPopulateMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)(UnityEngine::UI::VertexHelper*)>(&CurvedCanvasSettings::OnPopulateMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CurvedCanvasSettings::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
+// Writing MetadataGetter for method: CurvedCanvasSettings::get_radius
+// Il2CppName: get_radius
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::get_radius)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettings::SetRadius
+// Il2CppName: SetRadius
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)(float)>(&CurvedCanvasSettings::SetRadius)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "SetRadius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettings::TransformPointFromCanvasTo3D
+// Il2CppName: TransformPointFromCanvasTo3D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (CurvedCanvasSettings::*)(UnityEngine::Vector2)>(&CurvedCanvasSettings::TransformPointFromCanvasTo3D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "TransformPointFromCanvasTo3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettings::RebuildAndSetup
+// Il2CppName: RebuildAndSetup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&CurvedCanvasSettings::RebuildAndSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "RebuildAndSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettings::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettings::OnPopulateMesh
+// Il2CppName: OnPopulateMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)(UnityEngine::UI::VertexHelper*)>(&CurvedCanvasSettings::OnPopulateMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+  }
+};
+// Writing MetadataGetter for method: CurvedCanvasSettings::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CurvedCanvasSettings::*)()>(&CurvedCanvasSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CurvedCanvasSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -183,115 +183,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameServersListTableView), 80 + sizeof(GlobalNamespace::INetworkPlayer*)> __GlobalNamespace_GameServersListTableViewSizeCheck;
   static_assert(sizeof(GameServersListTableView) == 0x58);
-  // Writing MetadataGetter for method: GameServersListTableView::add_joinButtonPressedEvent
-  // Il2CppName: add_joinButtonPressedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GameServersListTableView::add_joinButtonPressedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "add_joinButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::remove_joinButtonPressedEvent
-  // Il2CppName: remove_joinButtonPressedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GameServersListTableView::remove_joinButtonPressedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "remove_joinButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::CellSize
-  // Il2CppName: CellSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameServersListTableView::*)()>(&GameServersListTableView::CellSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::NumberOfCells
-  // Il2CppName: NumberOfCells
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameServersListTableView::*)()>(&GameServersListTableView::NumberOfCells)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::CellForContent
-  // Il2CppName: CellForContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GameServersListTableView::*)(GlobalNamespace::TableViewWithDetailCell*, int, bool)>(&GameServersListTableView::CellForContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "CellForContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::CellForDetail
-  // Il2CppName: CellForDetail
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GameServersListTableView::*)(GlobalNamespace::TableViewWithDetailCell*, int)>(&GameServersListTableView::CellForDetail)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "CellForDetail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::SetData
-  // Il2CppName: SetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, bool)>(&GameServersListTableView::SetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed
-  // Il2CppName: HandleGameServerListDetailTableCellJoinServerButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "HandleGameServerListDetailTableCellJoinServerButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::HandleTableViewDidSelectCellWithIdx
-  // Il2CppName: HandleTableViewDidSelectCellWithIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(HMUI::TableView*, int)>(&GameServersListTableView::HandleTableViewDidSelectCellWithIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "HandleTableViewDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::HandleTableViewDidDeselectCellWithIdx
-  // Il2CppName: HandleTableViewDidDeselectCellWithIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(GlobalNamespace::TableViewWithDetailCell*, int)>(&GameServersListTableView::HandleTableViewDidDeselectCellWithIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "HandleTableViewDidDeselectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersListTableView::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersListTableView*, "", "GameServersListTableView");
+// Writing MetadataGetter for method: GameServersListTableView::add_joinButtonPressedEvent
+// Il2CppName: add_joinButtonPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GameServersListTableView::add_joinButtonPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "add_joinButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::remove_joinButtonPressedEvent
+// Il2CppName: remove_joinButtonPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GameServersListTableView::remove_joinButtonPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "remove_joinButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::CellSize
+// Il2CppName: CellSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameServersListTableView::*)()>(&GameServersListTableView::CellSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::NumberOfCells
+// Il2CppName: NumberOfCells
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameServersListTableView::*)()>(&GameServersListTableView::NumberOfCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::CellForContent
+// Il2CppName: CellForContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GameServersListTableView::*)(GlobalNamespace::TableViewWithDetailCell*, int, bool)>(&GameServersListTableView::CellForContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "CellForContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::CellForDetail
+// Il2CppName: CellForDetail
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GameServersListTableView::*)(GlobalNamespace::TableViewWithDetailCell*, int)>(&GameServersListTableView::CellForDetail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "CellForDetail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::SetData
+// Il2CppName: SetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, bool)>(&GameServersListTableView::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed
+// Il2CppName: HandleGameServerListDetailTableCellJoinServerButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "HandleGameServerListDetailTableCellJoinServerButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::HandleTableViewDidSelectCellWithIdx
+// Il2CppName: HandleTableViewDidSelectCellWithIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(HMUI::TableView*, int)>(&GameServersListTableView::HandleTableViewDidSelectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "HandleTableViewDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::HandleTableViewDidDeselectCellWithIdx
+// Il2CppName: HandleTableViewDidDeselectCellWithIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)(GlobalNamespace::TableViewWithDetailCell*, int)>(&GameServersListTableView::HandleTableViewDidDeselectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "HandleTableViewDidDeselectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameServersListTableView::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersListTableView::*)()>(&GameServersListTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersListTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

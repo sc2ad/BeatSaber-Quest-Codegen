@@ -83,35 +83,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DefaultScenesTransitionsFromInit), 48 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_DefaultScenesTransitionsFromInitSizeCheck;
   static_assert(sizeof(DefaultScenesTransitionsFromInit) == 0x38);
-  // Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData
-  // Il2CppName: get_mainMenuScenesTransitionSetupData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuScenesTransitionSetupDataSO* (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), "get_mainMenuScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::TransitionToNextScene
-  // Il2CppName: TransitionToNextScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)(bool)>(&DefaultScenesTransitionsFromInit::TransitionToNextScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");
+// Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData
+// Il2CppName: get_mainMenuScenesTransitionSetupData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuScenesTransitionSetupDataSO* (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), "get_mainMenuScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::TransitionToNextScene
+// Il2CppName: TransitionToNextScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)(bool)>(&DefaultScenesTransitionsFromInit::TransitionToNextScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -54,19 +54,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TutorialSongController::TutorialObstacleSpawnData), 40 + sizeof(GlobalNamespace::ObstacleType)> __GlobalNamespace_TutorialSongController_TutorialObstacleSpawnDataSizeCheck;
   static_assert(sizeof(TutorialSongController::TutorialObstacleSpawnData) == 0x2C);
-  // Writing MetadataGetter for method: TutorialSongController::TutorialObstacleSpawnData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialObstacleSpawnData::*)(GlobalNamespace::Signal*, int, int, int, int, GlobalNamespace::ObstacleType)>(&TutorialSongController::TutorialObstacleSpawnData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialObstacleSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleType>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialObstacleSpawnData::*)(GlobalNamespace::Signal*, int, int, int, int, GlobalNamespace::ObstacleType)>(&TutorialSongController::TutorialObstacleSpawnData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialObstacleSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleType>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*, "", "TutorialSongController/TutorialObstacleSpawnData");
+// Writing MetadataGetter for method: TutorialSongController::TutorialObstacleSpawnData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialObstacleSpawnData::*)(GlobalNamespace::Signal*, int, int, int, int, GlobalNamespace::ObstacleType)>(&TutorialSongController::TutorialObstacleSpawnData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialObstacleSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleType>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialObstacleSpawnData::*)(GlobalNamespace::Signal*, int, int, int, int, GlobalNamespace::ObstacleType)>(&TutorialSongController::TutorialObstacleSpawnData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialObstacleSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleType>()});
+  }
+};

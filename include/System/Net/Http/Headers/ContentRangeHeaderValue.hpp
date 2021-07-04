@@ -99,115 +99,115 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ContentRangeHeaderValue
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::get_From
-  // Il2CppName: get_From
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_From)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_From", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::set_From
-  // Il2CppName: set_From
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&ContentRangeHeaderValue::set_From)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "set_From", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::get_Length
-  // Il2CppName: get_Length
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_Length)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::set_Length
-  // Il2CppName: set_Length
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&ContentRangeHeaderValue::set_Length)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "set_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::get_To
-  // Il2CppName: get_To
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_To)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::set_To
-  // Il2CppName: set_To
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&ContentRangeHeaderValue::set_To)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "set_To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::get_Unit
-  // Il2CppName: get_Unit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_Unit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_Unit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::System_ICloneable_Clone
-  // Il2CppName: System.ICloneable.Clone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::System_ICloneable_Clone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::TryParse
-  // Il2CppName: TryParse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::ContentRangeHeaderValue*&)>(&ContentRangeHeaderValue::TryParse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentRangeHeaderValue*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ContentRangeHeaderValue::*)(::Il2CppObject*)>(&ContentRangeHeaderValue::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentRangeHeaderValue::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentRangeHeaderValue*, "System.Net.Http.Headers", "ContentRangeHeaderValue");
+// Writing MetadataGetter for method: ContentRangeHeaderValue::get_From
+// Il2CppName: get_From
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_From)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_From", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::set_From
+// Il2CppName: set_From
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&ContentRangeHeaderValue::set_From)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "set_From", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::get_Length
+// Il2CppName: get_Length
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_Length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::set_Length
+// Il2CppName: set_Length
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&ContentRangeHeaderValue::set_Length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "set_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::get_To
+// Il2CppName: get_To
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_To)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::set_To
+// Il2CppName: set_To
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&ContentRangeHeaderValue::set_To)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "set_To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::get_Unit
+// Il2CppName: get_Unit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::get_Unit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "get_Unit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::System_ICloneable_Clone
+// Il2CppName: System.ICloneable.Clone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::System_ICloneable_Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::TryParse
+// Il2CppName: TryParse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::ContentRangeHeaderValue*&)>(&ContentRangeHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentRangeHeaderValue*&>()});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ContentRangeHeaderValue::*)(::Il2CppObject*)>(&ContentRangeHeaderValue::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentRangeHeaderValue::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentRangeHeaderValue::*)()>(&ContentRangeHeaderValue::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentRangeHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -44,14 +44,14 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(CullingGroup), 24 + sizeof(UnityEngine::CullingGroup::StateChanged*)> __UnityEngine_CullingGroupSizeCheck;
   static_assert(sizeof(CullingGroup) == 0x20);
-  // Writing MetadataGetter for method: CullingGroup::SendEvents
-  // Il2CppName: SendEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CullingGroup*, System::IntPtr, int)>(&CullingGroup::SendEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CullingGroup*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroup*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
+// Writing MetadataGetter for method: CullingGroup::SendEvents
+// Il2CppName: SendEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CullingGroup*, System::IntPtr, int)>(&CullingGroup::SendEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CullingGroup*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroup*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

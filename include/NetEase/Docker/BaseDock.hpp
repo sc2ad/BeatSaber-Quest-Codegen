@@ -117,107 +117,107 @@ namespace NetEase::Docker {
   #pragma pack(pop)
   static check_size<sizeof(BaseDock), 40 + sizeof(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)> __NetEase_Docker_BaseDockSizeCheck;
   static_assert(sizeof(BaseDock) == 0x30);
-  // Writing MetadataGetter for method: BaseDock::SetInitializeCallback
-  // Il2CppName: SetInitializeCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&BaseDock::SetInitializeCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::Initialize
-  // Il2CppName: Initialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Initialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::SetLoginCallback
-  // Il2CppName: SetLoginCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::LoginData>*)>(&BaseDock::SetLoginCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::Login
-  // Il2CppName: Login
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Login)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::SetLogoutCallback
-  // Il2CppName: SetLogoutCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&BaseDock::SetLogoutCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::Logout
-  // Il2CppName: Logout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Logout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::UploadScore
-  // Il2CppName: UploadScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(NetEase::Docker::UploadScoreData)>(&BaseDock::UploadScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::WillProvideHighscore
-  // Il2CppName: WillProvideHighscore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseDock::*)()>(&BaseDock::WillProvideHighscore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::SetHighscoreReceivedCallback
-  // Il2CppName: SetHighscoreReceivedCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&BaseDock::SetHighscoreReceivedCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::RequestHighscoreList
-  // Il2CppName: RequestHighscoreList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(NetEase::Docker::RequestHighscoreData)>(&BaseDock::RequestHighscoreList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::UpdateLoop
-  // Il2CppName: UpdateLoop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::UpdateLoop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseDock::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseDock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::BaseDock*, "NetEase.Docker", "BaseDock");
+// Writing MetadataGetter for method: BaseDock::SetInitializeCallback
+// Il2CppName: SetInitializeCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&BaseDock::SetInitializeCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::Initialize
+// Il2CppName: Initialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::SetLoginCallback
+// Il2CppName: SetLoginCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::LoginData>*)>(&BaseDock::SetLoginCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::Login
+// Il2CppName: Login
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Login)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::SetLogoutCallback
+// Il2CppName: SetLogoutCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&BaseDock::SetLogoutCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::Logout
+// Il2CppName: Logout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Logout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::UploadScore
+// Il2CppName: UploadScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(NetEase::Docker::UploadScoreData)>(&BaseDock::UploadScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::WillProvideHighscore
+// Il2CppName: WillProvideHighscore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseDock::*)()>(&BaseDock::WillProvideHighscore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::SetHighscoreReceivedCallback
+// Il2CppName: SetHighscoreReceivedCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&BaseDock::SetHighscoreReceivedCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::RequestHighscoreList
+// Il2CppName: RequestHighscoreList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(NetEase::Docker::RequestHighscoreData)>(&BaseDock::RequestHighscoreList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::UpdateLoop
+// Il2CppName: UpdateLoop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::UpdateLoop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseDock::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseDock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

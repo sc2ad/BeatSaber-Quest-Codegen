@@ -106,83 +106,83 @@ namespace OVRSimpleJSON {
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONArray/<get_Children>d__22
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)(int)>(&JSONArray::$get_Children$d__22::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)(int)>(&JSONArray::$get_Children$d__22::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::$$m__Finally1
-  // Il2CppName: <>m__Finally1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::$$m__Finally1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerable$OVRSimpleJSON_JSONNode$_GetEnumerator
-  // Il2CppName: System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerable$OVRSimpleJSON_JSONNode$_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_IEnumerable_GetEnumerator
-  // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_IEnumerable_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray::$get_Children$d__22*, "OVRSimpleJSON", "JSONArray/<get_Children>d__22");
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)(int)>(&JSONArray::$get_Children$d__22::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)(int)>(&JSONArray::$get_Children$d__22::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::$$m__Finally1
+// Il2CppName: <>m__Finally1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::$$m__Finally1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerable$OVRSimpleJSON_JSONNode$_GetEnumerator
+// Il2CppName: System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerable$OVRSimpleJSON_JSONNode$_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: JSONArray::$get_Children$d__22::System_Collections_IEnumerable_GetEnumerator
+// Il2CppName: System.Collections.IEnumerable.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (JSONArray::$get_Children$d__22::*)()>(&JSONArray::$get_Children$d__22::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JSONArray::$get_Children$d__22*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -94,48 +94,48 @@ namespace UnityEngine::ResourceManagement::Util {
   #pragma pack(pop)
   static check_size<sizeof(ObjectInitializationData), 40 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_Util_ObjectInitializationDataSizeCheck;
   static_assert(sizeof(ObjectInitializationData) == 0x30);
-  // Writing MetadataGetter for method: ObjectInitializationData::get_Id
-  // Il2CppName: get_Id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ObjectInitializationData::*)()>(&ObjectInitializationData::get_Id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectInitializationData::get_ObjectType
-  // Il2CppName: get_ObjectType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::SerializedType (ObjectInitializationData::*)()>(&ObjectInitializationData::get_ObjectType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectInitializationData::get_Data
-  // Il2CppName: get_Data
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ObjectInitializationData::*)()>(&ObjectInitializationData::get_Data)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectInitializationData::CreateInstance
-  // Il2CppName: CreateInstance
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ObjectInitializationData::GetAsyncInitHandle
-  // Il2CppName: GetAsyncInitHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (ObjectInitializationData::*)(UnityEngine::ResourceManagement::ResourceManager*, ::Il2CppString*)>(&ObjectInitializationData::GetAsyncInitHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "GetAsyncInitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectInitializationData::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ObjectInitializationData::*)()>(&ObjectInitializationData::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");
+// Writing MetadataGetter for method: ObjectInitializationData::get_Id
+// Il2CppName: get_Id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ObjectInitializationData::*)()>(&ObjectInitializationData::get_Id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ObjectInitializationData::get_ObjectType
+// Il2CppName: get_ObjectType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::SerializedType (ObjectInitializationData::*)()>(&ObjectInitializationData::get_ObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ObjectInitializationData::get_Data
+// Il2CppName: get_Data
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ObjectInitializationData::*)()>(&ObjectInitializationData::get_Data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ObjectInitializationData::CreateInstance
+// Il2CppName: CreateInstance
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ObjectInitializationData::GetAsyncInitHandle
+// Il2CppName: GetAsyncInitHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (ObjectInitializationData::*)(UnityEngine::ResourceManagement::ResourceManager*, ::Il2CppString*)>(&ObjectInitializationData::GetAsyncInitHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "GetAsyncInitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ObjectInitializationData::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ObjectInitializationData::*)()>(&ObjectInitializationData::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectInitializationData), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

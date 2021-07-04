@@ -327,323 +327,323 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(Cookie), 153 + sizeof(bool)> __System_Net_CookieSizeCheck;
   static_assert(sizeof(Cookie) == 0x9A);
-  // Writing MetadataGetter for method: Cookie::get_Comment
-  // Il2CppName: get_Comment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Comment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Comment
-  // Il2CppName: set_Comment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Comment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_CommentUri
-  // Il2CppName: set_CommentUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(System::Uri*)>(&Cookie::set_CommentUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_CommentUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_HttpOnly
-  // Il2CppName: set_HttpOnly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(bool)>(&Cookie::set_HttpOnly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_HttpOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Discard
-  // Il2CppName: set_Discard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(bool)>(&Cookie::set_Discard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Discard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Domain
-  // Il2CppName: get_Domain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Domain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Domain
-  // Il2CppName: set_Domain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Domain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get__Domain
-  // Il2CppName: get__Domain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Domain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Expired
-  // Il2CppName: get_Expired
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)()>(&Cookie::get_Expired)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Expired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Expires
-  // Il2CppName: set_Expires
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(System::DateTime)>(&Cookie::set_Expires)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Expires", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Name
-  // Il2CppName: get_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Name
-  // Il2CppName: set_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::InternalSetName
-  // Il2CppName: InternalSetName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)(::Il2CppString*)>(&Cookie::InternalSetName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "InternalSetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Path
-  // Il2CppName: get_Path
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Path)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Path
-  // Il2CppName: set_Path
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Path)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get__Path
-  // Il2CppName: get__Path
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Path)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Plain
-  // Il2CppName: get_Plain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)()>(&Cookie::get_Plain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Plain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::IsDomainEqualToHost
-  // Il2CppName: IsDomainEqualToHost
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Cookie::IsDomainEqualToHost)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "IsDomainEqualToHost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::VerifySetDefaults
-  // Il2CppName: VerifySetDefaults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)(System::Net::CookieVariant, System::Uri*, bool, ::Il2CppString*, bool, bool)>(&Cookie::VerifySetDefaults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "VerifySetDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::DomainCharsTest
-  // Il2CppName: DomainCharsTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Cookie::DomainCharsTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "DomainCharsTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Port
-  // Il2CppName: get_Port
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Port)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Port
-  // Il2CppName: set_Port
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Port)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_PortList
-  // Il2CppName: get_PortList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Cookie::*)()>(&Cookie::get_PortList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_PortList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get__Port
-  // Il2CppName: get__Port
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Port)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Secure
-  // Il2CppName: get_Secure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)()>(&Cookie::get_Secure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Secure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Secure
-  // Il2CppName: set_Secure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(bool)>(&Cookie::set_Secure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Secure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Value
-  // Il2CppName: get_Value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Value
-  // Il2CppName: set_Value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Variant
-  // Il2CppName: get_Variant
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieVariant (Cookie::*)()>(&Cookie::get_Variant)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Variant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_DomainKey
-  // Il2CppName: get_DomainKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_DomainKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_DomainKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get_Version
-  // Il2CppName: get_Version
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Cookie::*)()>(&Cookie::get_Version)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::set_Version
-  // Il2CppName: set_Version
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(int)>(&Cookie::set_Version)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::get__Version
-  // Il2CppName: get__Version
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Version)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::GetComparer
-  // Il2CppName: GetComparer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IComparer* (*)()>(&Cookie::GetComparer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "GetComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Cookie::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)()>(&Cookie::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)()>(&Cookie::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)(::Il2CppObject*)>(&Cookie::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Cookie::*)()>(&Cookie::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Cookie::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Cookie*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Cookie*, "System.Net", "Cookie");
+// Writing MetadataGetter for method: Cookie::get_Comment
+// Il2CppName: get_Comment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Comment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Comment
+// Il2CppName: set_Comment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Comment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_CommentUri
+// Il2CppName: set_CommentUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(System::Uri*)>(&Cookie::set_CommentUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_CommentUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_HttpOnly
+// Il2CppName: set_HttpOnly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(bool)>(&Cookie::set_HttpOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_HttpOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Discard
+// Il2CppName: set_Discard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(bool)>(&Cookie::set_Discard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Discard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Domain
+// Il2CppName: get_Domain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Domain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Domain
+// Il2CppName: set_Domain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Domain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get__Domain
+// Il2CppName: get__Domain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Domain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Expired
+// Il2CppName: get_Expired
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)()>(&Cookie::get_Expired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Expired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Expires
+// Il2CppName: set_Expires
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(System::DateTime)>(&Cookie::set_Expires)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Expires", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Name
+// Il2CppName: get_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Name
+// Il2CppName: set_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::InternalSetName
+// Il2CppName: InternalSetName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)(::Il2CppString*)>(&Cookie::InternalSetName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "InternalSetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Path
+// Il2CppName: get_Path
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Path)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Path
+// Il2CppName: set_Path
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Path)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get__Path
+// Il2CppName: get__Path
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Path)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Plain
+// Il2CppName: get_Plain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)()>(&Cookie::get_Plain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Plain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::IsDomainEqualToHost
+// Il2CppName: IsDomainEqualToHost
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Cookie::IsDomainEqualToHost)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "IsDomainEqualToHost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::VerifySetDefaults
+// Il2CppName: VerifySetDefaults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)(System::Net::CookieVariant, System::Uri*, bool, ::Il2CppString*, bool, bool)>(&Cookie::VerifySetDefaults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "VerifySetDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::DomainCharsTest
+// Il2CppName: DomainCharsTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Cookie::DomainCharsTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "DomainCharsTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Port
+// Il2CppName: get_Port
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Port)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Port
+// Il2CppName: set_Port
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Port)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_PortList
+// Il2CppName: get_PortList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Cookie::*)()>(&Cookie::get_PortList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_PortList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get__Port
+// Il2CppName: get__Port
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Port)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Secure
+// Il2CppName: get_Secure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)()>(&Cookie::get_Secure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Secure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Secure
+// Il2CppName: set_Secure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(bool)>(&Cookie::set_Secure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Secure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Value
+// Il2CppName: get_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Value
+// Il2CppName: set_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(::Il2CppString*)>(&Cookie::set_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Variant
+// Il2CppName: get_Variant
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieVariant (Cookie::*)()>(&Cookie::get_Variant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Variant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_DomainKey
+// Il2CppName: get_DomainKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get_DomainKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_DomainKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get_Version
+// Il2CppName: get_Version
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Cookie::*)()>(&Cookie::get_Version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::set_Version
+// Il2CppName: set_Version
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)(int)>(&Cookie::set_Version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "set_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::get__Version
+// Il2CppName: get__Version
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::get__Version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "get__Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::GetComparer
+// Il2CppName: GetComparer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IComparer* (*)()>(&Cookie::GetComparer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "GetComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Cookie::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)()>(&Cookie::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cookie::*)()>(&Cookie::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cookie::*)(::Il2CppObject*)>(&Cookie::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Cookie::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Cookie::*)()>(&Cookie::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Cookie::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cookie::*)()>(&Cookie::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Cookie*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

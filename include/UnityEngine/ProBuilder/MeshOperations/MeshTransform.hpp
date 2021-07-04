@@ -43,38 +43,38 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static void FreezeScaleTransform(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshTransform
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MeshTransform::SetPivot
-  // Il2CppName: SetPivot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::PivotLocation, int)>(&MeshTransform::SetPivot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "SetPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshTransform::CenterPivot
-  // Il2CppName: CenterPivot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*)>(&MeshTransform::CenterPivot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "CenterPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshTransform::SetPivot
-  // Il2CppName: SetPivot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Vector3)>(&MeshTransform::SetPivot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "SetPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshTransform::FreezeScaleTransform
-  // Il2CppName: FreezeScaleTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&MeshTransform::FreezeScaleTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "FreezeScaleTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshTransform*, "UnityEngine.ProBuilder.MeshOperations", "MeshTransform");
+// Writing MetadataGetter for method: MeshTransform::SetPivot
+// Il2CppName: SetPivot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::PivotLocation, int)>(&MeshTransform::SetPivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "SetPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MeshTransform::CenterPivot
+// Il2CppName: CenterPivot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*)>(&MeshTransform::CenterPivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "CenterPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshTransform::SetPivot
+// Il2CppName: SetPivot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Vector3)>(&MeshTransform::SetPivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "SetPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: MeshTransform::FreezeScaleTransform
+// Il2CppName: FreezeScaleTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&MeshTransform::FreezeScaleTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshTransform*), "FreezeScaleTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};

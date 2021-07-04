@@ -74,52 +74,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AveragingValueRecorder::AverageValueData), 4 + sizeof(float)> __GlobalNamespace_AveragingValueRecorder_AverageValueDataSizeCheck;
     static_assert(sizeof(AveragingValueRecorder::AverageValueData) == 0x8);
-    // Writing MetadataGetter for method: AveragingValueRecorder::AverageValueData::get_value
-    // Il2CppName: get_value
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AveragingValueRecorder::AverageValueData::*)()>(&AveragingValueRecorder::AverageValueData::get_value)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder::AverageValueData), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: AveragingValueRecorder::AverageValueData::set_value
-    // Il2CppName: set_value
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::AverageValueData::*)(float)>(&AveragingValueRecorder::AverageValueData::set_value)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder::AverageValueData), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-      }
-    };
-    // Writing MetadataGetter for method: AveragingValueRecorder::AverageValueData::get_time
-    // Il2CppName: get_time
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AveragingValueRecorder::AverageValueData::*)()>(&AveragingValueRecorder::AverageValueData::get_time)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder::AverageValueData), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: AveragingValueRecorder::AverageValueData::set_time
-    // Il2CppName: set_time
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::AverageValueData::*)(float)>(&AveragingValueRecorder::AverageValueData::set_time)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder::AverageValueData), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-      }
-    };
-    // Writing MetadataGetter for method: AveragingValueRecorder::AverageValueData::AverageValueData
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::AverageValueData::*)(float, float)>(&AveragingValueRecorder::AverageValueData::AverageValueData<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder::AverageValueData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::AverageValueData::*)(float, float)>(&AveragingValueRecorder::AverageValueData::AverageValueData<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder::AverageValueData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-      }
-    };
     // private System.Single _averageWindowDuration
     // Size: 0x4
     // Offset: 0x10
@@ -207,52 +161,52 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AveragingValueRecorder), 64 + sizeof(float)> __GlobalNamespace_AveragingValueRecorderSizeCheck;
   static_assert(sizeof(AveragingValueRecorder) == 0x44);
-  // Writing MetadataGetter for method: AveragingValueRecorder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::*)(float, float, float)>(&AveragingValueRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::*)(float, float, float)>(&AveragingValueRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AveragingValueRecorder::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::*)(float, float)>(&AveragingValueRecorder::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AveragingValueRecorder::GetAverageValue
-  // Il2CppName: GetAverageValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AveragingValueRecorder::*)()>(&AveragingValueRecorder::GetAverageValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "GetAverageValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AveragingValueRecorder::GetLastValue
-  // Il2CppName: GetLastValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AveragingValueRecorder::*)()>(&AveragingValueRecorder::GetLastValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "GetLastValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AveragingValueRecorder::GetHistoryValues
-  // Il2CppName: GetHistoryValues
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Queue_1<float>* (AveragingValueRecorder::*)()>(&AveragingValueRecorder::GetHistoryValues)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "GetHistoryValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder*, "", "AveragingValueRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder::AverageValueData, "", "AveragingValueRecorder/AverageValueData");
+// Writing MetadataGetter for method: AveragingValueRecorder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::*)(float, float, float)>(&AveragingValueRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::*)(float, float, float)>(&AveragingValueRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AveragingValueRecorder::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AveragingValueRecorder::*)(float, float)>(&AveragingValueRecorder::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AveragingValueRecorder::GetAverageValue
+// Il2CppName: GetAverageValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AveragingValueRecorder::*)()>(&AveragingValueRecorder::GetAverageValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "GetAverageValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AveragingValueRecorder::GetLastValue
+// Il2CppName: GetLastValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AveragingValueRecorder::*)()>(&AveragingValueRecorder::GetLastValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "GetLastValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AveragingValueRecorder::GetHistoryValues
+// Il2CppName: GetHistoryValues
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Queue_1<float>* (AveragingValueRecorder::*)()>(&AveragingValueRecorder::GetHistoryValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AveragingValueRecorder*), "GetHistoryValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

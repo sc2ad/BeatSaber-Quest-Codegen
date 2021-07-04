@@ -73,59 +73,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::ScenesStackData), 24 + sizeof(Zenject::DiContainer*)> __GlobalNamespace_GameScenesManager_ScenesStackDataSizeCheck;
   static_assert(sizeof(GameScenesManager::ScenesStackData) == 0x20);
-  // Writing MetadataGetter for method: GameScenesManager::ScenesStackData::get_sceneNames
-  // Il2CppName: get_sceneNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GameScenesManager::ScenesStackData::*)()>(&GameScenesManager::ScenesStackData::get_sceneNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "get_sceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameScenesManager::ScenesStackData::set_sceneNames
-  // Il2CppName: set_sceneNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GameScenesManager::ScenesStackData::set_sceneNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "set_sceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameScenesManager::ScenesStackData::get_container
-  // Il2CppName: get_container
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GameScenesManager::ScenesStackData::*)()>(&GameScenesManager::ScenesStackData::get_container)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "get_container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameScenesManager::ScenesStackData::set_container
-  // Il2CppName: set_container
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(Zenject::DiContainer*)>(&GameScenesManager::ScenesStackData::set_container)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "set_container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameScenesManager::ScenesStackData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GameScenesManager::ScenesStackData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GameScenesManager::ScenesStackData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameScenesManager::ScenesStackData::SetDiContainer
-  // Il2CppName: SetDiContainer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(Zenject::DiContainer*)>(&GameScenesManager::ScenesStackData::SetDiContainer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "SetDiContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenesStackData*, "", "GameScenesManager/ScenesStackData");
+// Writing MetadataGetter for method: GameScenesManager::ScenesStackData::get_sceneNames
+// Il2CppName: get_sceneNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GameScenesManager::ScenesStackData::*)()>(&GameScenesManager::ScenesStackData::get_sceneNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "get_sceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameScenesManager::ScenesStackData::set_sceneNames
+// Il2CppName: set_sceneNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GameScenesManager::ScenesStackData::set_sceneNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "set_sceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameScenesManager::ScenesStackData::get_container
+// Il2CppName: get_container
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GameScenesManager::ScenesStackData::*)()>(&GameScenesManager::ScenesStackData::get_container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "get_container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameScenesManager::ScenesStackData::set_container
+// Il2CppName: set_container
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(Zenject::DiContainer*)>(&GameScenesManager::ScenesStackData::set_container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "set_container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: GameScenesManager::ScenesStackData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GameScenesManager::ScenesStackData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GameScenesManager::ScenesStackData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameScenesManager::ScenesStackData::SetDiContainer
+// Il2CppName: SetDiContainer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::ScenesStackData::*)(Zenject::DiContainer*)>(&GameScenesManager::ScenesStackData::SetDiContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameScenesManager::ScenesStackData*), "SetDiContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};

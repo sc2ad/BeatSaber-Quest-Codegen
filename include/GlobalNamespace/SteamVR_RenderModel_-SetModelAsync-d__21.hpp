@@ -107,67 +107,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::$SetModelAsync$d__21) == 0x48);
-  // Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)(int)>(&SteamVR_RenderModel::$SetModelAsync$d__21::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)(int)>(&SteamVR_RenderModel::$SetModelAsync$d__21::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::$$m__Finally1
-  // Il2CppName: <>m__Finally1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::$$m__Finally1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21*, "", "SteamVR_RenderModel/<SetModelAsync>d__21");
+// Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)(int)>(&SteamVR_RenderModel::$SetModelAsync$d__21::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)(int)>(&SteamVR_RenderModel::$SetModelAsync$d__21::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::$$m__Finally1
+// Il2CppName: <>m__Finally1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::$$m__Finally1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SteamVR_RenderModel::$SetModelAsync$d__21::*)()>(&SteamVR_RenderModel::$SetModelAsync$d__21::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::$SetModelAsync$d__21*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

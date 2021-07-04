@@ -76,49 +76,49 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(FBBIKHeadEffector::BendBone), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_FBBIKHeadEffector_BendBoneSizeCheck;
   static_assert(sizeof(FBBIKHeadEffector::BendBone) == 0x2C);
-  // Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)(UnityEngine::Transform*, float)>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)(UnityEngine::Transform*, float)>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::StoreDefaultLocalState
-  // Il2CppName: StoreDefaultLocalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::StoreDefaultLocalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::FixTransforms
-  // Il2CppName: FixTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::FixTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector::BendBone*, "RootMotion.FinalIK", "FBBIKHeadEffector/BendBone");
+// Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)(UnityEngine::Transform*, float)>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)(UnityEngine::Transform*, float)>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::StoreDefaultLocalState
+// Il2CppName: StoreDefaultLocalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::StoreDefaultLocalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::FixTransforms
+// Il2CppName: FixTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::FixTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FBBIKHeadEffector::BendBone::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::BendBone::*)()>(&FBBIKHeadEffector::BendBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector::BendBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

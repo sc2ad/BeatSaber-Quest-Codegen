@@ -104,43 +104,43 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(InteractionObject::AnimatorEvent), 48 + sizeof(bool)> __RootMotion_FinalIK_InteractionObject_AnimatorEventSizeCheck;
   static_assert(sizeof(InteractionObject::AnimatorEvent) == 0x31);
-  // Writing MetadataGetter for method: InteractionObject::AnimatorEvent::Activate
-  // Il2CppName: Activate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)(bool)>(&InteractionObject::AnimatorEvent::Activate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionObject::AnimatorEvent::Activate
-  // Il2CppName: Activate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)(UnityEngine::Animator*)>(&InteractionObject::AnimatorEvent::Activate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionObject::AnimatorEvent::Activate
-  // Il2CppName: Activate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)(UnityEngine::Animation*)>(&InteractionObject::AnimatorEvent::Activate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionObject::AnimatorEvent::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)()>(&InteractionObject::AnimatorEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)()>(&InteractionObject::AnimatorEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::AnimatorEvent*, "RootMotion.FinalIK", "InteractionObject/AnimatorEvent");
+// Writing MetadataGetter for method: InteractionObject::AnimatorEvent::Activate
+// Il2CppName: Activate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)(bool)>(&InteractionObject::AnimatorEvent::Activate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionObject::AnimatorEvent::Activate
+// Il2CppName: Activate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)(UnityEngine::Animator*)>(&InteractionObject::AnimatorEvent::Activate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionObject::AnimatorEvent::Activate
+// Il2CppName: Activate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)(UnityEngine::Animation*)>(&InteractionObject::AnimatorEvent::Activate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animation*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionObject::AnimatorEvent::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)()>(&InteractionObject::AnimatorEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionObject::AnimatorEvent::*)()>(&InteractionObject::AnimatorEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionObject::AnimatorEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

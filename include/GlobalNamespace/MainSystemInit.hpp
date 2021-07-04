@@ -559,75 +559,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainSystemInit), 488 + sizeof(GlobalNamespace::MockPlayersModel*)> __GlobalNamespace_MainSystemInitSizeCheck;
   static_assert(sizeof(MainSystemInit) == 0x1F0);
-  // Writing MetadataGetter for method: MainSystemInit::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSystemInit::PreInstall
-  // Il2CppName: PreInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(GlobalNamespace::MockPlayersModel*)>(&MainSystemInit::PreInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSystemInit::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSystemInit::InstallRichPresence
-  // Il2CppName: InstallRichPresence
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallRichPresence)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSystemInit::InstallOculusDestinationBindings
-  // Il2CppName: InstallOculusDestinationBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallOculusDestinationBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallOculusDestinationBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSystemInit::InstallPlatformLeaderboardsModel
-  // Il2CppName: InstallPlatformLeaderboardsModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallPlatformLeaderboardsModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallPlatformLeaderboardsModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSystemInit::IsRunningFromNUnit
-  // Il2CppName: IsRunningFromNUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSystemInit::*)()>(&MainSystemInit::IsRunningFromNUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "IsRunningFromNUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSystemInit::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");
+// Writing MetadataGetter for method: MainSystemInit::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSystemInit::PreInstall
+// Il2CppName: PreInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(GlobalNamespace::MockPlayersModel*)>(&MainSystemInit::PreInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
+  }
+};
+// Writing MetadataGetter for method: MainSystemInit::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: MainSystemInit::InstallRichPresence
+// Il2CppName: InstallRichPresence
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallRichPresence)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: MainSystemInit::InstallOculusDestinationBindings
+// Il2CppName: InstallOculusDestinationBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallOculusDestinationBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallOculusDestinationBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: MainSystemInit::InstallPlatformLeaderboardsModel
+// Il2CppName: InstallPlatformLeaderboardsModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallPlatformLeaderboardsModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallPlatformLeaderboardsModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: MainSystemInit::IsRunningFromNUnit
+// Il2CppName: IsRunningFromNUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSystemInit::*)()>(&MainSystemInit::IsRunningFromNUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "IsRunningFromNUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSystemInit::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

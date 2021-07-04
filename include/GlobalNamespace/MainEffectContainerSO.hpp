@@ -70,43 +70,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainEffectContainerSO), 32 + sizeof(GlobalNamespace::BoolSO*)> __GlobalNamespace_MainEffectContainerSOSizeCheck;
   static_assert(sizeof(MainEffectContainerSO) == 0x28);
-  // Writing MetadataGetter for method: MainEffectContainerSO::get_mainEffect
-  // Il2CppName: get_mainEffect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MainEffectSO* (MainEffectContainerSO::*)()>(&MainEffectContainerSO::get_mainEffect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), "get_mainEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainEffectContainerSO::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)(GlobalNamespace::MainEffectSO*)>(&MainEffectContainerSO::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainEffectSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainEffectContainerSO::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)()>(&MainEffectContainerSO::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainEffectContainerSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)()>(&MainEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)()>(&MainEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectContainerSO*, "", "MainEffectContainerSO");
+// Writing MetadataGetter for method: MainEffectContainerSO::get_mainEffect
+// Il2CppName: get_mainEffect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MainEffectSO* (MainEffectContainerSO::*)()>(&MainEffectContainerSO::get_mainEffect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), "get_mainEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainEffectContainerSO::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)(GlobalNamespace::MainEffectSO*)>(&MainEffectContainerSO::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainEffectSO*>()});
+  }
+};
+// Writing MetadataGetter for method: MainEffectContainerSO::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)()>(&MainEffectContainerSO::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainEffectContainerSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)()>(&MainEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectContainerSO::*)()>(&MainEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

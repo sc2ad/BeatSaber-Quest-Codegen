@@ -60,51 +60,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_GhostDuplicationEffect_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0) == 0x24);
-  // Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__0
-  // Il2CppName: <Animate>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(float)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__1
-  // Il2CppName: <Animate>b__1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(float)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__2
-  // Il2CppName: <Animate>b__2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(UnityEngine::Vector3)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__3
-  // Il2CppName: <Animate>b__3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(float)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)()>(&GhostDuplicationEffect::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)()>(&GhostDuplicationEffect::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0*, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
+// Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__0
+// Il2CppName: <Animate>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(float)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__1
+// Il2CppName: <Animate>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(float)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__2
+// Il2CppName: <Animate>b__2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(UnityEngine::Vector3)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__3
+// Il2CppName: <Animate>b__3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)(float)>(&GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GhostDuplicationEffect::$$c__DisplayClass7_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)()>(&GhostDuplicationEffect::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::$$c__DisplayClass7_0::*)()>(&GhostDuplicationEffect::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

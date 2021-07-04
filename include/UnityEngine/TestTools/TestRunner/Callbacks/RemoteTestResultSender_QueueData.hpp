@@ -61,51 +61,51 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   #pragma pack(pop)
   static check_size<sizeof(RemoteTestResultSender::QueueData), 32 + sizeof(::Array<uint8_t>*)> __UnityEngine_TestTools_TestRunner_Callbacks_RemoteTestResultSender_QueueDataSizeCheck;
   static_assert(sizeof(RemoteTestResultSender::QueueData) == 0x28);
-  // Writing MetadataGetter for method: RemoteTestResultSender::QueueData::get_id
-  // Il2CppName: get_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::get_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RemoteTestResultSender::QueueData::set_id
-  // Il2CppName: set_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)(System::Guid)>(&RemoteTestResultSender::QueueData::set_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "set_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
-    }
-  };
-  // Writing MetadataGetter for method: RemoteTestResultSender::QueueData::get_data
-  // Il2CppName: get_data
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::get_data)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RemoteTestResultSender::QueueData::set_data
-  // Il2CppName: set_data
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)(::Array<uint8_t>*)>(&RemoteTestResultSender::QueueData::set_data)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "set_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RemoteTestResultSender::QueueData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/QueueData");
+// Writing MetadataGetter for method: RemoteTestResultSender::QueueData::get_id
+// Il2CppName: get_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RemoteTestResultSender::QueueData::set_id
+// Il2CppName: set_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)(System::Guid)>(&RemoteTestResultSender::QueueData::set_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "set_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+  }
+};
+// Writing MetadataGetter for method: RemoteTestResultSender::QueueData::get_data
+// Il2CppName: get_data
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::get_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RemoteTestResultSender::QueueData::set_data
+// Il2CppName: set_data
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)(::Array<uint8_t>*)>(&RemoteTestResultSender::QueueData::set_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), "set_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: RemoteTestResultSender::QueueData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultSender::QueueData::*)()>(&RemoteTestResultSender::QueueData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultSender::QueueData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

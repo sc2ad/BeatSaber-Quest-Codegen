@@ -102,59 +102,59 @@ namespace OnlineServices::API {
   #pragma pack(pop)
   static check_size<sizeof(HTTPAdminLeaderboardsHelper), 24 + sizeof(System::UriBuilder*)> __OnlineServices_API_HTTPAdminLeaderboardsHelperSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper) == 0x20);
-  // Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*)>(&HTTPAdminLeaderboardsHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*)>(&HTTPAdminLeaderboardsHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::ServerStatus
-  // Il2CppName: ServerStatus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (HTTPAdminLeaderboardsHelper::*)(System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::ServerStatus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "ServerStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::LeaderboardsExist
-  // Il2CppName: LeaderboardsExist
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* (HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::LeaderboardsExist)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "LeaderboardsExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards
-  // Il2CppName: CreateOrUpdateLeaderboards
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "CreateOrUpdateLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::SendWebRequestAsync
-  // Il2CppName: SendWebRequestAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::SendWebRequestAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "SendWebRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::SendAndWaitAsync
-  // Il2CppName: SendAndWaitAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HTTPAdminLeaderboardsHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::SendAndWaitAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "SendAndWaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper");
+// Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*)>(&HTTPAdminLeaderboardsHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*)>(&HTTPAdminLeaderboardsHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::ServerStatus
+// Il2CppName: ServerStatus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (HTTPAdminLeaderboardsHelper::*)(System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::ServerStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "ServerStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::LeaderboardsExist
+// Il2CppName: LeaderboardsExist
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* (HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::LeaderboardsExist)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "LeaderboardsExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards
+// Il2CppName: CreateOrUpdateLeaderboards
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "CreateOrUpdateLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::SendWebRequestAsync
+// Il2CppName: SendWebRequestAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::SendWebRequestAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "SendWebRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::SendAndWaitAsync
+// Il2CppName: SendAndWaitAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HTTPAdminLeaderboardsHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&HTTPAdminLeaderboardsHelper::SendAndWaitAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper*), "SendAndWaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};

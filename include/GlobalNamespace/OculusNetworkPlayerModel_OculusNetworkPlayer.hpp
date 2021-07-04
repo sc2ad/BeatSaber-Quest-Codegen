@@ -280,363 +280,363 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusNetworkPlayerModel::OculusNetworkPlayer), 77 + sizeof(bool)> __GlobalNamespace_OculusNetworkPlayerModel_OculusNetworkPlayerSizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel::OculusNetworkPlayer) == 0x4E);
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_id
-  // Il2CppName: get_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_userId
-  // Il2CppName: get_userId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_userId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_userName
-  // Il2CppName: get_userName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_userName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMe
-  // Il2CppName: get_isMe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPartyOwner
-  // Il2CppName: get_isPartyOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPartyOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isRoomOwner
-  // Il2CppName: get_isRoomOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isRoomOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isRoomOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_currentPartySize
-  // Il2CppName: get_currentPartySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_currentPartySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_maxPartySize
-  // Il2CppName: get_maxPartySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_maxPartySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_difficulties
-  // Il2CppName: get_difficulties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_difficulties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_modifiers
-  // Il2CppName: get_modifiers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_modifiers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_songPacks
-  // Il2CppName: get_songPacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_songPacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(GlobalNamespace::OculusNetworkPlayerModel*, uint64_t, ::Il2CppString*, bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(GlobalNamespace::OculusNetworkPlayerModel*, uint64_t, ::Il2CppString*, bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMyPartyOwner
-  // Il2CppName: get_isMyPartyOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMyPartyOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isOpenParty
-  // Il2CppName: get_isOpenParty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isOpenParty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPlayer
-  // Il2CppName: get_isPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isPlayer
-  // Il2CppName: set_isPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isSpectating
-  // Il2CppName: get_isSpectating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isSpectating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isSpectating
-  // Il2CppName: set_isSpectating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isSpectating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isDedicatedServer
-  // Il2CppName: get_isDedicatedServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isDedicatedServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isDedicatedServer
-  // Il2CppName: set_isDedicatedServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isDedicatedServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isConnected
-  // Il2CppName: get_isConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isConnected
-  // Il2CppName: set_isConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canJoin
-  // Il2CppName: get_canJoin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canJoin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Join
-  // Il2CppName: Join
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Join)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_requiresPassword
-  // Il2CppName: get_requiresPassword
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_requiresPassword)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Join
-  // Il2CppName: Join
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(::Il2CppString*)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Join)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnJoin
-  // Il2CppName: get_isWaitingOnJoin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnJoin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnJoin
-  // Il2CppName: set_isWaitingOnJoin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnJoin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canInvite
-  // Il2CppName: get_canInvite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canInvite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Invite
-  // Il2CppName: Invite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Invite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnInvite
-  // Il2CppName: get_isWaitingOnInvite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnInvite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnInvite
-  // Il2CppName: set_isWaitingOnInvite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnInvite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canKick
-  // Il2CppName: get_canKick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canKick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Kick
-  // Il2CppName: Kick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Kick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canLeave
-  // Il2CppName: get_canLeave
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canLeave)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Leave
-  // Il2CppName: Leave
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Leave)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canBlock
-  // Il2CppName: get_canBlock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canBlock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Block
-  // Il2CppName: Block
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Block)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canUnblock
-  // Il2CppName: get_canUnblock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canUnblock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Unblock
-  // Il2CppName: Unblock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Unblock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::SendJoinResponse
-  // Il2CppName: SendJoinResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::SendJoinResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::SendInviteResponse
-  // Il2CppName: SendInviteResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::SendInviteResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::SameRoomAs
-  // Il2CppName: SameRoomAs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::SameRoomAs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "SameRoomAs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::$Join$b__53_0
-  // Il2CppName: <Join>b__53_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::$Join$b__53_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "<Join>b__53_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*, "", "OculusNetworkPlayerModel/OculusNetworkPlayer");
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_id
+// Il2CppName: get_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_userId
+// Il2CppName: get_userId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_userId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_userName
+// Il2CppName: get_userName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_userName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMe
+// Il2CppName: get_isMe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPartyOwner
+// Il2CppName: get_isPartyOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPartyOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isRoomOwner
+// Il2CppName: get_isRoomOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isRoomOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isRoomOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_currentPartySize
+// Il2CppName: get_currentPartySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_currentPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_maxPartySize
+// Il2CppName: get_maxPartySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_maxPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_difficulties
+// Il2CppName: get_difficulties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_difficulties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_modifiers
+// Il2CppName: get_modifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_modifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_songPacks
+// Il2CppName: get_songPacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_songPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(GlobalNamespace::OculusNetworkPlayerModel*, uint64_t, ::Il2CppString*, bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(GlobalNamespace::OculusNetworkPlayerModel*, uint64_t, ::Il2CppString*, bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMyPartyOwner
+// Il2CppName: get_isMyPartyOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isMyPartyOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isOpenParty
+// Il2CppName: get_isOpenParty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isOpenParty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPlayer
+// Il2CppName: get_isPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isPlayer
+// Il2CppName: set_isPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isSpectating
+// Il2CppName: get_isSpectating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isSpectating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isSpectating
+// Il2CppName: set_isSpectating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isSpectating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isDedicatedServer
+// Il2CppName: get_isDedicatedServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isDedicatedServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isDedicatedServer
+// Il2CppName: set_isDedicatedServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isDedicatedServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isConnected
+// Il2CppName: get_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isConnected
+// Il2CppName: set_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canJoin
+// Il2CppName: get_canJoin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canJoin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Join
+// Il2CppName: Join
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_requiresPassword
+// Il2CppName: get_requiresPassword
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_requiresPassword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Join
+// Il2CppName: Join
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(::Il2CppString*)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnJoin
+// Il2CppName: get_isWaitingOnJoin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnJoin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnJoin
+// Il2CppName: set_isWaitingOnJoin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnJoin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canInvite
+// Il2CppName: get_canInvite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canInvite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Invite
+// Il2CppName: Invite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Invite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnInvite
+// Il2CppName: get_isWaitingOnInvite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_isWaitingOnInvite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnInvite
+// Il2CppName: set_isWaitingOnInvite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::set_isWaitingOnInvite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "set_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canKick
+// Il2CppName: get_canKick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canKick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Kick
+// Il2CppName: Kick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Kick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canLeave
+// Il2CppName: get_canLeave
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canLeave)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Leave
+// Il2CppName: Leave
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Leave)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canBlock
+// Il2CppName: get_canBlock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canBlock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Block
+// Il2CppName: Block
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Block)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::get_canUnblock
+// Il2CppName: get_canUnblock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::get_canUnblock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::Unblock
+// Il2CppName: Unblock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&OculusNetworkPlayerModel::OculusNetworkPlayer::Unblock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::SendJoinResponse
+// Il2CppName: SendJoinResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::SendJoinResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::SendInviteResponse
+// Il2CppName: SendInviteResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(bool)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::SendInviteResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::SameRoomAs
+// Il2CppName: SameRoomAs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::SameRoomAs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "SameRoomAs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::OculusNetworkPlayer::$Join$b__53_0
+// Il2CppName: <Join>b__53_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::OculusNetworkPlayer::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*)>(&OculusNetworkPlayerModel::OculusNetworkPlayer::$Join$b__53_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::OculusNetworkPlayer*), "<Join>b__53_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*>()});
+  }
+};

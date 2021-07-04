@@ -120,95 +120,95 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
   static check_size<sizeof(X509KeyUsageExtension), 40 + sizeof(System::Security::Cryptography::AsnDecodeStatus)> __System_Security_Cryptography_X509Certificates_X509KeyUsageExtensionSizeCheck;
   static_assert(sizeof(X509KeyUsageExtension) == 0x2C);
-  // Writing MetadataGetter for method: X509KeyUsageExtension::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::AsnEncodedData*, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::AsnEncodedData*, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::get_KeyUsages
-  // Il2CppName: get_KeyUsages
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::get_KeyUsages)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "get_KeyUsages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::GetValidFlags
-  // Il2CppName: GetValidFlags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags (X509KeyUsageExtension::*)(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags)>(&X509KeyUsageExtension::GetValidFlags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "GetValidFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::Decode
-  // Il2CppName: Decode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (X509KeyUsageExtension::*)(::Array<uint8_t>*)>(&X509KeyUsageExtension::Decode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::Encode
-  // Il2CppName: Encode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::Encode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::CopyFrom
-  // Il2CppName: CopyFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::AsnEncodedData*)>(&X509KeyUsageExtension::CopyFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509KeyUsageExtension::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509KeyUsageExtension::*)(bool)>(&X509KeyUsageExtension::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509KeyUsageExtension*, "System.Security.Cryptography.X509Certificates", "X509KeyUsageExtension");
+// Writing MetadataGetter for method: X509KeyUsageExtension::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::AsnEncodedData*, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::AsnEncodedData*, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags, bool)>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::get_KeyUsages
+// Il2CppName: get_KeyUsages
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::get_KeyUsages)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "get_KeyUsages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::GetValidFlags
+// Il2CppName: GetValidFlags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags (X509KeyUsageExtension::*)(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags)>(&X509KeyUsageExtension::GetValidFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "GetValidFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509KeyUsageFlags>()});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::Decode
+// Il2CppName: Decode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (X509KeyUsageExtension::*)(::Array<uint8_t>*)>(&X509KeyUsageExtension::Decode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::Encode
+// Il2CppName: Encode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::Encode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)()>(&X509KeyUsageExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::CopyFrom
+// Il2CppName: CopyFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509KeyUsageExtension::*)(System::Security::Cryptography::AsnEncodedData*)>(&X509KeyUsageExtension::CopyFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>()});
+  }
+};
+// Writing MetadataGetter for method: X509KeyUsageExtension::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509KeyUsageExtension::*)(bool)>(&X509KeyUsageExtension::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509KeyUsageExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

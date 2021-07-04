@@ -46,27 +46,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentTypeSO), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_EnvironmentTypeSOSizeCheck;
   static_assert(sizeof(EnvironmentTypeSO) == 0x20);
-  // Writing MetadataGetter for method: EnvironmentTypeSO::get_typeNameLocalizationKey
-  // Il2CppName: get_typeNameLocalizationKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (EnvironmentTypeSO::*)()>(&EnvironmentTypeSO::get_typeNameLocalizationKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnvironmentTypeSO*), "get_typeNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnvironmentTypeSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentTypeSO::*)()>(&EnvironmentTypeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnvironmentTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentTypeSO::*)()>(&EnvironmentTypeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnvironmentTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentTypeSO*, "", "EnvironmentTypeSO");
+// Writing MetadataGetter for method: EnvironmentTypeSO::get_typeNameLocalizationKey
+// Il2CppName: get_typeNameLocalizationKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (EnvironmentTypeSO::*)()>(&EnvironmentTypeSO::get_typeNameLocalizationKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnvironmentTypeSO*), "get_typeNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnvironmentTypeSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentTypeSO::*)()>(&EnvironmentTypeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnvironmentTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentTypeSO::*)()>(&EnvironmentTypeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnvironmentTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

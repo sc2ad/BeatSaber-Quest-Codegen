@@ -51,54 +51,54 @@ namespace System {
     static void _cctor();
   }; // System.Console/WindowsConsole
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Console::WindowsConsole::GetConsoleCP
-  // Il2CppName: GetConsoleCP
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetConsoleCP)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetConsoleCP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Console::WindowsConsole::GetConsoleOutputCP
-  // Il2CppName: GetConsoleOutputCP
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetConsoleOutputCP)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetConsoleOutputCP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Console::WindowsConsole::DoWindowsConsoleCancelEvent
-  // Il2CppName: DoWindowsConsoleCancelEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Console::WindowsConsole::DoWindowsConsoleCancelEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "DoWindowsConsoleCancelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Console::WindowsConsole::GetInputCodePage
-  // Il2CppName: GetInputCodePage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetInputCodePage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetInputCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Console::WindowsConsole::GetOutputCodePage
-  // Il2CppName: GetOutputCodePage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetOutputCodePage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetOutputCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Console::WindowsConsole::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Console::WindowsConsole::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Console::WindowsConsole*, "System", "Console/WindowsConsole");
+// Writing MetadataGetter for method: Console::WindowsConsole::GetConsoleCP
+// Il2CppName: GetConsoleCP
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetConsoleCP)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetConsoleCP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Console::WindowsConsole::GetConsoleOutputCP
+// Il2CppName: GetConsoleOutputCP
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetConsoleOutputCP)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetConsoleOutputCP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Console::WindowsConsole::DoWindowsConsoleCancelEvent
+// Il2CppName: DoWindowsConsoleCancelEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Console::WindowsConsole::DoWindowsConsoleCancelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "DoWindowsConsoleCancelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Console::WindowsConsole::GetInputCodePage
+// Il2CppName: GetInputCodePage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetInputCodePage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetInputCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Console::WindowsConsole::GetOutputCodePage
+// Il2CppName: GetOutputCodePage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Console::WindowsConsole::GetOutputCodePage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), "GetOutputCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Console::WindowsConsole::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Console::WindowsConsole::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Console::WindowsConsole*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -94,22 +94,22 @@ namespace GlobalNamespace {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // UserLoginDtoDataSource/<UserAuthenticationDataAsync>d__3
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::*)()>(&UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3, "", "UserLoginDtoDataSource/<UserAuthenticationDataAsync>d__3");
+// Writing MetadataGetter for method: UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::*)()>(&UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

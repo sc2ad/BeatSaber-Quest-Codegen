@@ -198,203 +198,203 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(WaitHandle), 40 + sizeof(bool)> __System_Threading_WaitHandleSizeCheck;
   static_assert(sizeof(WaitHandle) == 0x29);
-  // Writing MetadataGetter for method: WaitHandle::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::set_Handle
-  // Il2CppName: set_Handle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(System::IntPtr)>(&WaitHandle::set_Handle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "set_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::get_SafeWaitHandle
-  // Il2CppName: get_SafeWaitHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeWaitHandle* (WaitHandle::*)()>(&WaitHandle::get_SafeWaitHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "get_SafeWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::set_SafeWaitHandle
-  // Il2CppName: set_SafeWaitHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&WaitHandle::set_SafeWaitHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "set_SafeWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::SetHandleInternal
-  // Il2CppName: SetHandleInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&WaitHandle::SetHandleInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "SetHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitOne
-  // Il2CppName: WaitOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(int, bool)>(&WaitHandle::WaitOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitOne
-  // Il2CppName: WaitOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(System::TimeSpan, bool)>(&WaitHandle::WaitOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitOne
-  // Il2CppName: WaitOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)()>(&WaitHandle::WaitOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitOne
-  // Il2CppName: WaitOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(int)>(&WaitHandle::WaitOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitOne
-  // Il2CppName: WaitOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(System::TimeSpan)>(&WaitHandle::WaitOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitOne
-  // Il2CppName: WaitOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(int64_t, bool)>(&WaitHandle::WaitOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::InternalWaitOne
-  // Il2CppName: InternalWaitOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, bool, bool)>(&WaitHandle::InternalWaitOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "InternalWaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitAny
-  // Il2CppName: WaitAny
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, int, bool)>(&WaitHandle::WaitAny)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitAny
-  // Il2CppName: WaitAny
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, System::TimeSpan, bool)>(&WaitHandle::WaitAny)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::ThrowAbandonedMutexException
-  // Il2CppName: ThrowAbandonedMutexException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WaitHandle::ThrowAbandonedMutexException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "ThrowAbandonedMutexException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::ThrowAbandonedMutexException
-  // Il2CppName: ThrowAbandonedMutexException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Threading::WaitHandle*)>(&WaitHandle::ThrowAbandonedMutexException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "ThrowAbandonedMutexException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::WaitHandle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(bool)>(&WaitHandle::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitMultiple
-  // Il2CppName: WaitMultiple
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, int, bool, bool)>(&WaitHandle::WaitMultiple)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::WaitOneNative
-  // Il2CppName: WaitOneNative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, uint, bool, bool)>(&WaitHandle::WaitOneNative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOneNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::Wait_internal
-  // Il2CppName: Wait_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr*, int, bool, int)>(&WaitHandle::Wait_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Wait_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WaitHandle::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitHandle::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
+// Writing MetadataGetter for method: WaitHandle::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::set_Handle
+// Il2CppName: set_Handle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(System::IntPtr)>(&WaitHandle::set_Handle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "set_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::get_SafeWaitHandle
+// Il2CppName: get_SafeWaitHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeWaitHandle* (WaitHandle::*)()>(&WaitHandle::get_SafeWaitHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "get_SafeWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::set_SafeWaitHandle
+// Il2CppName: set_SafeWaitHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&WaitHandle::set_SafeWaitHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "set_SafeWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::SetHandleInternal
+// Il2CppName: SetHandleInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&WaitHandle::SetHandleInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "SetHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitOne
+// Il2CppName: WaitOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(int, bool)>(&WaitHandle::WaitOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitOne
+// Il2CppName: WaitOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(System::TimeSpan, bool)>(&WaitHandle::WaitOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitOne
+// Il2CppName: WaitOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)()>(&WaitHandle::WaitOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitOne
+// Il2CppName: WaitOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(int)>(&WaitHandle::WaitOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitOne
+// Il2CppName: WaitOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(System::TimeSpan)>(&WaitHandle::WaitOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitOne
+// Il2CppName: WaitOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitHandle::*)(int64_t, bool)>(&WaitHandle::WaitOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::InternalWaitOne
+// Il2CppName: InternalWaitOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, bool, bool)>(&WaitHandle::InternalWaitOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "InternalWaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitAny
+// Il2CppName: WaitAny
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, int, bool)>(&WaitHandle::WaitAny)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitAny
+// Il2CppName: WaitAny
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, System::TimeSpan, bool)>(&WaitHandle::WaitAny)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::ThrowAbandonedMutexException
+// Il2CppName: ThrowAbandonedMutexException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WaitHandle::ThrowAbandonedMutexException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "ThrowAbandonedMutexException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::ThrowAbandonedMutexException
+// Il2CppName: ThrowAbandonedMutexException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Threading::WaitHandle*)>(&WaitHandle::ThrowAbandonedMutexException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "ThrowAbandonedMutexException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::WaitHandle*>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)(bool)>(&WaitHandle::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitMultiple
+// Il2CppName: WaitMultiple
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, int, bool, bool)>(&WaitHandle::WaitMultiple)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::WaitOneNative
+// Il2CppName: WaitOneNative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, uint, bool, bool)>(&WaitHandle::WaitOneNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "WaitOneNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::Wait_internal
+// Il2CppName: Wait_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr*, int, bool, int)>(&WaitHandle::Wait_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), "Wait_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WaitHandle::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitHandle::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitHandle::*)()>(&WaitHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

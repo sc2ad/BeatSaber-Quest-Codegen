@@ -53,38 +53,38 @@ namespace UnityEngine::UI {
     static void _cctor();
   }; // UnityEngine.UI.FontUpdateTracker
   #pragma pack(pop)
-  // Writing MetadataGetter for method: FontUpdateTracker::TrackText
-  // Il2CppName: TrackText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&FontUpdateTracker::TrackText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), "TrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontUpdateTracker::RebuildForFont
-  // Il2CppName: RebuildForFont
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&FontUpdateTracker::RebuildForFont)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), "RebuildForFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontUpdateTracker::UntrackText
-  // Il2CppName: UntrackText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&FontUpdateTracker::UntrackText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), "UntrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FontUpdateTracker::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FontUpdateTracker::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontUpdateTracker*, "UnityEngine.UI", "FontUpdateTracker");
+// Writing MetadataGetter for method: FontUpdateTracker::TrackText
+// Il2CppName: TrackText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&FontUpdateTracker::TrackText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), "TrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
+  }
+};
+// Writing MetadataGetter for method: FontUpdateTracker::RebuildForFont
+// Il2CppName: RebuildForFont
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&FontUpdateTracker::RebuildForFont)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), "RebuildForFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+  }
+};
+// Writing MetadataGetter for method: FontUpdateTracker::UntrackText
+// Il2CppName: UntrackText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&FontUpdateTracker::UntrackText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), "UntrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
+  }
+};
+// Writing MetadataGetter for method: FontUpdateTracker::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FontUpdateTracker::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FontUpdateTracker*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

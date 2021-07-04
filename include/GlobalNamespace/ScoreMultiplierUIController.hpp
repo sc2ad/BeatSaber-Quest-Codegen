@@ -125,75 +125,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ScoreMultiplierUIController), 64 + sizeof(float)> __GlobalNamespace_ScoreMultiplierUIControllerSizeCheck;
   static_assert(sizeof(ScoreMultiplierUIController) == 0x44);
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::RegisterForEvents
-  // Il2CppName: RegisterForEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::RegisterForEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "RegisterForEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::UnregisterFromEvents
-  // Il2CppName: UnregisterFromEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::UnregisterFromEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "UnregisterFromEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::HandleMultiplierDidChange
-  // Il2CppName: HandleMultiplierDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)(int, float)>(&ScoreMultiplierUIController::HandleMultiplierDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "HandleMultiplierDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScoreMultiplierUIController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMultiplierUIController*, "", "ScoreMultiplierUIController");
+// Writing MetadataGetter for method: ScoreMultiplierUIController::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScoreMultiplierUIController::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScoreMultiplierUIController::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScoreMultiplierUIController::RegisterForEvents
+// Il2CppName: RegisterForEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::RegisterForEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "RegisterForEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScoreMultiplierUIController::UnregisterFromEvents
+// Il2CppName: UnregisterFromEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::UnregisterFromEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "UnregisterFromEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScoreMultiplierUIController::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScoreMultiplierUIController::HandleMultiplierDidChange
+// Il2CppName: HandleMultiplierDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)(int, float)>(&ScoreMultiplierUIController::HandleMultiplierDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), "HandleMultiplierDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ScoreMultiplierUIController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMultiplierUIController::*)()>(&ScoreMultiplierUIController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScoreMultiplierUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

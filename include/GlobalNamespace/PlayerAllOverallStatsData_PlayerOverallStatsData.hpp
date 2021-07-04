@@ -201,233 +201,233 @@ namespace GlobalNamespace {
   // static public PlayerAllOverallStatsData/PlayerOverallStatsData op_Addition(PlayerAllOverallStatsData/PlayerOverallStatsData a, PlayerAllOverallStatsData/PlayerOverallStatsData b)
   // Offset: 0x1052F5C
   GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount
-  // Il2CppName: get_goodCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_goodCutsCount
-  // Il2CppName: set_goodCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_goodCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_badCutsCount
-  // Il2CppName: get_badCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_badCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_badCutsCount
-  // Il2CppName: set_badCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_badCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_missedCutsCount
-  // Il2CppName: get_missedCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_missedCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_missedCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_missedCutsCount
-  // Il2CppName: set_missedCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_missedCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_missedCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_totalScore
-  // Il2CppName: get_totalScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_totalScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_totalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_totalScore
-  // Il2CppName: set_totalScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_totalScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_totalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_playedLevelsCount
-  // Il2CppName: get_playedLevelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_playedLevelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_playedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_playedLevelsCount
-  // Il2CppName: set_playedLevelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_playedLevelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_playedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_cleardLevelsCount
-  // Il2CppName: get_cleardLevelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_cleardLevelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_cleardLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_cleardLevelsCount
-  // Il2CppName: set_cleardLevelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_cleardLevelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_cleardLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_failedLevelsCount
-  // Il2CppName: get_failedLevelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_failedLevelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_failedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_failedLevelsCount
-  // Il2CppName: set_failedLevelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_failedLevelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_failedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_fullComboCount
-  // Il2CppName: get_fullComboCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_fullComboCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_fullComboCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_fullComboCount
-  // Il2CppName: set_fullComboCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_fullComboCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_fullComboCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_timePlayed
-  // Il2CppName: get_timePlayed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_timePlayed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_timePlayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_timePlayed
-  // Il2CppName: set_timePlayed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(float)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_timePlayed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_timePlayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_handDistanceTravelled
-  // Il2CppName: get_handDistanceTravelled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_handDistanceTravelled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_handDistanceTravelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_handDistanceTravelled
-  // Il2CppName: set_handDistanceTravelled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_handDistanceTravelled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_handDistanceTravelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_cummulativeCutScoreWithoutMultiplier
-  // Il2CppName: get_cummulativeCutScoreWithoutMultiplier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_cummulativeCutScoreWithoutMultiplier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_cummulativeCutScoreWithoutMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_cummulativeCutScoreWithoutMultiplier
-  // Il2CppName: set_cummulativeCutScoreWithoutMultiplier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_cummulativeCutScoreWithoutMultiplier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_cummulativeCutScoreWithoutMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_averageCutScore
-  // Il2CppName: get_averageCutScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_averageCutScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_averageCutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int, int, int, int64_t, int, int, int, int, float, int, int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int, int, int, int64_t, int, int, int, int, float, int, int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults
-  // Il2CppName: UpdateWithLevelCompletionResults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(GlobalNamespace::LevelCompletionResults*)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "UpdateWithLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::operator+
-  // Il2CppName: op_Addition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData&)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::operator+)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount
+// Il2CppName: get_goodCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_goodCutsCount
+// Il2CppName: set_goodCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_goodCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_badCutsCount
+// Il2CppName: get_badCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_badCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_badCutsCount
+// Il2CppName: set_badCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_badCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_missedCutsCount
+// Il2CppName: get_missedCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_missedCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_missedCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_missedCutsCount
+// Il2CppName: set_missedCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_missedCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_missedCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_totalScore
+// Il2CppName: get_totalScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_totalScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_totalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_totalScore
+// Il2CppName: set_totalScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_totalScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_totalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_playedLevelsCount
+// Il2CppName: get_playedLevelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_playedLevelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_playedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_playedLevelsCount
+// Il2CppName: set_playedLevelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_playedLevelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_playedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_cleardLevelsCount
+// Il2CppName: get_cleardLevelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_cleardLevelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_cleardLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_cleardLevelsCount
+// Il2CppName: set_cleardLevelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_cleardLevelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_cleardLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_failedLevelsCount
+// Il2CppName: get_failedLevelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_failedLevelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_failedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_failedLevelsCount
+// Il2CppName: set_failedLevelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_failedLevelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_failedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_fullComboCount
+// Il2CppName: get_fullComboCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_fullComboCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_fullComboCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_fullComboCount
+// Il2CppName: set_fullComboCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_fullComboCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_fullComboCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_timePlayed
+// Il2CppName: get_timePlayed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_timePlayed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_timePlayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_timePlayed
+// Il2CppName: set_timePlayed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(float)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_timePlayed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_timePlayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_handDistanceTravelled
+// Il2CppName: get_handDistanceTravelled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_handDistanceTravelled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_handDistanceTravelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_handDistanceTravelled
+// Il2CppName: set_handDistanceTravelled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_handDistanceTravelled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_handDistanceTravelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_cummulativeCutScoreWithoutMultiplier
+// Il2CppName: get_cummulativeCutScoreWithoutMultiplier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_cummulativeCutScoreWithoutMultiplier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_cummulativeCutScoreWithoutMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::set_cummulativeCutScoreWithoutMultiplier
+// Il2CppName: set_cummulativeCutScoreWithoutMultiplier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::set_cummulativeCutScoreWithoutMultiplier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_cummulativeCutScoreWithoutMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::get_averageCutScore
+// Il2CppName: get_averageCutScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::get_averageCutScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_averageCutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int, int, int, int64_t, int, int, int, int, float, int, int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int, int, int, int64_t, int, int, int, int, float, int, int64_t)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults
+// Il2CppName: UpdateWithLevelCompletionResults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)(GlobalNamespace::LevelCompletionResults*)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "UpdateWithLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&PlayerAllOverallStatsData::PlayerOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerAllOverallStatsData::PlayerOverallStatsData::operator+
+// Il2CppName: op_Addition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData&)>(&PlayerAllOverallStatsData::PlayerOverallStatsData::operator+)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerAllOverallStatsData::PlayerOverallStatsData*), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData&>()});
+  }
+};

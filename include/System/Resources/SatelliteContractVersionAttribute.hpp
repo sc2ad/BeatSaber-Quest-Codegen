@@ -43,19 +43,19 @@ namespace System::Resources {
   #pragma pack(pop)
   static check_size<sizeof(SatelliteContractVersionAttribute), 16 + sizeof(::Il2CppString*)> __System_Resources_SatelliteContractVersionAttributeSizeCheck;
   static_assert(sizeof(SatelliteContractVersionAttribute) == 0x18);
-  // Writing MetadataGetter for method: SatelliteContractVersionAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SatelliteContractVersionAttribute::*)(::Il2CppString*)>(&SatelliteContractVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SatelliteContractVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SatelliteContractVersionAttribute::*)(::Il2CppString*)>(&SatelliteContractVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SatelliteContractVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");
+// Writing MetadataGetter for method: SatelliteContractVersionAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SatelliteContractVersionAttribute::*)(::Il2CppString*)>(&SatelliteContractVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SatelliteContractVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SatelliteContractVersionAttribute::*)(::Il2CppString*)>(&SatelliteContractVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SatelliteContractVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

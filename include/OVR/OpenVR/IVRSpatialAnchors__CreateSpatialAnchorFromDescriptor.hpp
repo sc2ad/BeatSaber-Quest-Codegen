@@ -55,43 +55,43 @@ namespace OVR::OpenVR {
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(uint& pHandleOut, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSpatialAnchors/_CreateSpatialAnchorFromDescriptor
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppObject*, System::IntPtr)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppObject*, System::IntPtr)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppString*, uint&)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppString*, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(uint&, System::IAsyncResult*)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*, "OVR.OpenVR", "IVRSpatialAnchors/_CreateSpatialAnchorFromDescriptor");
+// Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppObject*, System::IntPtr)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppObject*, System::IntPtr)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppString*, uint&)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppString*, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(uint&, System::IAsyncResult*)>(&IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

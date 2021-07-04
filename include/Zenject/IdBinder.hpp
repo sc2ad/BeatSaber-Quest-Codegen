@@ -50,27 +50,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(IdBinder), 16 + sizeof(Zenject::BindInfo*)> __Zenject_IdBinderSizeCheck;
   static_assert(sizeof(IdBinder) == 0x18);
-  // Writing MetadataGetter for method: IdBinder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IdBinder::*)(Zenject::BindInfo*)>(&IdBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IdBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IdBinder::*)(Zenject::BindInfo*)>(&IdBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IdBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IdBinder::WithId
-  // Il2CppName: WithId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IdBinder::*)(::Il2CppObject*)>(&IdBinder::WithId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IdBinder*), "WithId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IdBinder*, "Zenject", "IdBinder");
+// Writing MetadataGetter for method: IdBinder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IdBinder::*)(Zenject::BindInfo*)>(&IdBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IdBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IdBinder::*)(Zenject::BindInfo*)>(&IdBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IdBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: IdBinder::WithId
+// Il2CppName: WithId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IdBinder::*)(::Il2CppObject*)>(&IdBinder::WithId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IdBinder*), "WithId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

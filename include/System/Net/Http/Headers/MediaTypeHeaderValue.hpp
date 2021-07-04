@@ -114,97 +114,97 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
   static check_size<sizeof(MediaTypeHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_MediaTypeHeaderValueSizeCheck;
   static_assert(sizeof(MediaTypeHeaderValue) == 0x20);
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)(System::Net::Http::Headers::MediaTypeHeaderValue*)>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::MediaTypeHeaderValue*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)(System::Net::Http::Headers::MediaTypeHeaderValue*)>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::MediaTypeHeaderValue*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::get_CharSet
-  // Il2CppName: get_CharSet
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::get_CharSet)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "get_CharSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::get_Parameters
-  // Il2CppName: get_Parameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::get_Parameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::System_ICloneable_Clone
-  // Il2CppName: System.ICloneable.Clone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::System_ICloneable_Clone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::TryParse
-  // Il2CppName: TryParse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::MediaTypeHeaderValue*&)>(&MediaTypeHeaderValue::TryParse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::MediaTypeHeaderValue*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::TryParseMediaType
-  // Il2CppName: TryParseMediaType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::Net::Http::Headers::Token> (*)(System::Net::Http::Headers::Lexer*, ::Il2CppString*&)>(&MediaTypeHeaderValue::TryParseMediaType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "TryParseMediaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MediaTypeHeaderValue::*)(::Il2CppObject*)>(&MediaTypeHeaderValue::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MediaTypeHeaderValue::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::MediaTypeHeaderValue*, "System.Net.Http.Headers", "MediaTypeHeaderValue");
+// Writing MetadataGetter for method: MediaTypeHeaderValue::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)(System::Net::Http::Headers::MediaTypeHeaderValue*)>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::MediaTypeHeaderValue*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)(System::Net::Http::Headers::MediaTypeHeaderValue*)>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::MediaTypeHeaderValue*>()});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::get_CharSet
+// Il2CppName: get_CharSet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::get_CharSet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "get_CharSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::get_Parameters
+// Il2CppName: get_Parameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::get_Parameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::System_ICloneable_Clone
+// Il2CppName: System.ICloneable.Clone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::System_ICloneable_Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::TryParse
+// Il2CppName: TryParse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::MediaTypeHeaderValue*&)>(&MediaTypeHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::MediaTypeHeaderValue*&>()});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::TryParseMediaType
+// Il2CppName: TryParseMediaType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::Net::Http::Headers::Token> (*)(System::Net::Http::Headers::Lexer*, ::Il2CppString*&)>(&MediaTypeHeaderValue::TryParseMediaType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "TryParseMediaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MediaTypeHeaderValue::*)(::Il2CppObject*)>(&MediaTypeHeaderValue::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MediaTypeHeaderValue::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MediaTypeHeaderValue::*)()>(&MediaTypeHeaderValue::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

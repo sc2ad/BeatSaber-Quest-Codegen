@@ -96,67 +96,67 @@ namespace System::Text {
   #pragma pack(pop)
   static check_size<sizeof(InternalDecoderBestFitFallbackBuffer), 48 + sizeof(System::Text::InternalDecoderBestFitFallback*)> __System_Text_InternalDecoderBestFitFallbackBufferSizeCheck;
   static_assert(sizeof(InternalDecoderBestFitFallbackBuffer) == 0x38);
-  // Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::get_InternalSyncObject
-  // Il2CppName: get_InternalSyncObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&InternalDecoderBestFitFallbackBuffer::get_InternalSyncObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "get_InternalSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallbackBuffer::*)(System::Text::InternalDecoderBestFitFallback*)>(&InternalDecoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalDecoderBestFitFallback*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallbackBuffer::*)(System::Text::InternalDecoderBestFitFallback*)>(&InternalDecoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalDecoderBestFitFallback*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::TryBestFit
-  // Il2CppName: TryBestFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalDecoderBestFitFallbackBuffer::*)(::Array<uint8_t>*)>(&InternalDecoderBestFitFallbackBuffer::TryBestFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "TryBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::Fallback
-  // Il2CppName: Fallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalDecoderBestFitFallbackBuffer::*)(::Array<uint8_t>*, int)>(&InternalDecoderBestFitFallbackBuffer::Fallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::GetNextChar
-  // Il2CppName: GetNextChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalDecoderBestFitFallbackBuffer::*)()>(&InternalDecoderBestFitFallbackBuffer::GetNextChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallbackBuffer::*)()>(&InternalDecoderBestFitFallbackBuffer::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::InternalFallback
-  // Il2CppName: InternalFallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalDecoderBestFitFallbackBuffer::*)(::Array<uint8_t>*, uint8_t*)>(&InternalDecoderBestFitFallbackBuffer::InternalFallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "InternalFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallbackBuffer*, "System.Text", "InternalDecoderBestFitFallbackBuffer");
+// Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::get_InternalSyncObject
+// Il2CppName: get_InternalSyncObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&InternalDecoderBestFitFallbackBuffer::get_InternalSyncObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "get_InternalSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallbackBuffer::*)(System::Text::InternalDecoderBestFitFallback*)>(&InternalDecoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalDecoderBestFitFallback*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallbackBuffer::*)(System::Text::InternalDecoderBestFitFallback*)>(&InternalDecoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalDecoderBestFitFallback*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::TryBestFit
+// Il2CppName: TryBestFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalDecoderBestFitFallbackBuffer::*)(::Array<uint8_t>*)>(&InternalDecoderBestFitFallbackBuffer::TryBestFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "TryBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::Fallback
+// Il2CppName: Fallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalDecoderBestFitFallbackBuffer::*)(::Array<uint8_t>*, int)>(&InternalDecoderBestFitFallbackBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::GetNextChar
+// Il2CppName: GetNextChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalDecoderBestFitFallbackBuffer::*)()>(&InternalDecoderBestFitFallbackBuffer::GetNextChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallbackBuffer::*)()>(&InternalDecoderBestFitFallbackBuffer::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalDecoderBestFitFallbackBuffer::InternalFallback
+// Il2CppName: InternalFallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalDecoderBestFitFallbackBuffer::*)(::Array<uint8_t>*, uint8_t*)>(&InternalDecoderBestFitFallbackBuffer::InternalFallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallbackBuffer*), "InternalFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+  }
+};

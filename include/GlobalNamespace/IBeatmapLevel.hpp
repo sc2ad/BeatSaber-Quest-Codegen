@@ -31,14 +31,14 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
   }; // IBeatmapLevel
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IBeatmapLevel::get_beatmapLevelData
-  // Il2CppName: get_beatmapLevelData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelData* (IBeatmapLevel::*)()>(&IBeatmapLevel::get_beatmapLevelData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IBeatmapLevel*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevel*, "", "IBeatmapLevel");
+// Writing MetadataGetter for method: IBeatmapLevel::get_beatmapLevelData
+// Il2CppName: get_beatmapLevelData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelData* (IBeatmapLevel::*)()>(&IBeatmapLevel::get_beatmapLevelData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IBeatmapLevel*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

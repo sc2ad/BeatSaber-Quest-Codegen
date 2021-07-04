@@ -123,75 +123,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient), 56 + sizeof(System::Threading::ManualResetEvent*)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClientSizeCheck;
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpClient) == 0x40);
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::get_connectionState
-  // Il2CppName: get_connectionState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::get_connectionState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "get_connectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::get_Connected
-  // Il2CppName: get_Connected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::get_Connected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::Connect
-  // Il2CppName: Connect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)(int)>(&OVRNetwork::OVRNetworkTcpClient::Connect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::ConnectCallback
-  // Il2CppName: ConnectCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)(System::IAsyncResult*)>(&OVRNetwork::OVRNetworkTcpClient::ConnectCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "ConnectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::Disconnect
-  // Il2CppName: Disconnect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::Disconnect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::Tick
-  // Il2CppName: Tick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::Tick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::OnReadDataCallback
-  // Il2CppName: OnReadDataCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)(System::IAsyncResult*)>(&OVRNetwork::OVRNetworkTcpClient::OnReadDataCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "OnReadDataCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*, "", "OVRNetwork/OVRNetworkTcpClient");
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::get_connectionState
+// Il2CppName: get_connectionState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::get_connectionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "get_connectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::get_Connected
+// Il2CppName: get_Connected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::get_Connected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::Connect
+// Il2CppName: Connect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)(int)>(&OVRNetwork::OVRNetworkTcpClient::Connect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::ConnectCallback
+// Il2CppName: ConnectCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)(System::IAsyncResult*)>(&OVRNetwork::OVRNetworkTcpClient::ConnectCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "ConnectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::Disconnect
+// Il2CppName: Disconnect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::Disconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::Tick
+// Il2CppName: Tick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::Tick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::OnReadDataCallback
+// Il2CppName: OnReadDataCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)(System::IAsyncResult*)>(&OVRNetwork::OVRNetworkTcpClient::OnReadDataCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), "OnReadDataCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRNetwork::OVRNetworkTcpClient::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNetwork::OVRNetworkTcpClient::*)()>(&OVRNetwork::OVRNetworkTcpClient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRNetwork::OVRNetworkTcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -76,59 +76,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer), 32 + sizeof(int)> __GlobalNamespace_OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServerSizeCheck;
   static_assert(sizeof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer) == 0x24);
-  // Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::GatherPerfMetrics
-  // Il2CppName: GatherPerfMetrics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::GatherPerfMetrics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "GatherPerfMetrics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
+// Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::GatherPerfMetrics
+// Il2CppName: GatherPerfMetrics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::GatherPerfMetrics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), "GatherPerfMetrics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -68,35 +68,35 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
   static check_size<sizeof(ECKeyGenerationParameters), 40 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Crypto_Parameters_ECKeyGenerationParametersSizeCheck;
   static_assert(sizeof(ECKeyGenerationParameters) == 0x30);
-  // Writing MetadataGetter for method: ECKeyGenerationParameters::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyGenerationParameters::*)(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, Org::BouncyCastle::Security::SecureRandom*)>(&ECKeyGenerationParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyGenerationParameters::*)(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, Org::BouncyCastle::Security::SecureRandom*)>(&ECKeyGenerationParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECKeyGenerationParameters::get_DomainParameters
-  // Il2CppName: get_DomainParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* (ECKeyGenerationParameters::*)()>(&ECKeyGenerationParameters::get_DomainParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), "get_DomainParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ECKeyGenerationParameters::get_PublicKeyParamSet
-  // Il2CppName: get_PublicKeyParamSet
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (ECKeyGenerationParameters::*)()>(&ECKeyGenerationParameters::get_PublicKeyParamSet)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), "get_PublicKeyParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECKeyGenerationParameters");
+// Writing MetadataGetter for method: ECKeyGenerationParameters::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyGenerationParameters::*)(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, Org::BouncyCastle::Security::SecureRandom*)>(&ECKeyGenerationParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyGenerationParameters::*)(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, Org::BouncyCastle::Security::SecureRandom*)>(&ECKeyGenerationParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+  }
+};
+// Writing MetadataGetter for method: ECKeyGenerationParameters::get_DomainParameters
+// Il2CppName: get_DomainParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* (ECKeyGenerationParameters::*)()>(&ECKeyGenerationParameters::get_DomainParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), "get_DomainParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ECKeyGenerationParameters::get_PublicKeyParamSet
+// Il2CppName: get_PublicKeyParamSet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (ECKeyGenerationParameters::*)()>(&ECKeyGenerationParameters::get_PublicKeyParamSet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECKeyGenerationParameters*), "get_PublicKeyParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

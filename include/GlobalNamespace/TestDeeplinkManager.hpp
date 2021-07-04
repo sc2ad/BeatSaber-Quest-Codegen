@@ -83,59 +83,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TestDeeplinkManager), 24 + sizeof(GlobalNamespace::Deeplink*)> __GlobalNamespace_TestDeeplinkManagerSizeCheck;
   static_assert(sizeof(TestDeeplinkManager) == 0x20);
-  // Writing MetadataGetter for method: TestDeeplinkManager::add_didReceiveDeeplinkEvent
-  // Il2CppName: add_didReceiveDeeplinkEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&TestDeeplinkManager::add_didReceiveDeeplinkEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "add_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestDeeplinkManager::remove_didReceiveDeeplinkEvent
-  // Il2CppName: remove_didReceiveDeeplinkEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&TestDeeplinkManager::remove_didReceiveDeeplinkEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestDeeplinkManager::get_currentDeeplink
-  // Il2CppName: get_currentDeeplink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (TestDeeplinkManager::*)()>(&TestDeeplinkManager::get_currentDeeplink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestDeeplinkManager::set_currentDeeplink
-  // Il2CppName: set_currentDeeplink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)(GlobalNamespace::Deeplink*)>(&TestDeeplinkManager::set_currentDeeplink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "set_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Deeplink*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestDeeplinkManager::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TestDeeplinkManager::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestDeeplinkManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)()>(&TestDeeplinkManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)()>(&TestDeeplinkManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestDeeplinkManager*, "", "TestDeeplinkManager");
+// Writing MetadataGetter for method: TestDeeplinkManager::add_didReceiveDeeplinkEvent
+// Il2CppName: add_didReceiveDeeplinkEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&TestDeeplinkManager::add_didReceiveDeeplinkEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "add_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TestDeeplinkManager::remove_didReceiveDeeplinkEvent
+// Il2CppName: remove_didReceiveDeeplinkEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&TestDeeplinkManager::remove_didReceiveDeeplinkEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TestDeeplinkManager::get_currentDeeplink
+// Il2CppName: get_currentDeeplink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (TestDeeplinkManager::*)()>(&TestDeeplinkManager::get_currentDeeplink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestDeeplinkManager::set_currentDeeplink
+// Il2CppName: set_currentDeeplink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)(GlobalNamespace::Deeplink*)>(&TestDeeplinkManager::set_currentDeeplink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), "set_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Deeplink*>()});
+  }
+};
+// Writing MetadataGetter for method: TestDeeplinkManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TestDeeplinkManager::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestDeeplinkManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)()>(&TestDeeplinkManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestDeeplinkManager::*)()>(&TestDeeplinkManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestDeeplinkManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -108,83 +108,83 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(CompositeWorkItem::$PerformWork$d__12), 48 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItem_$PerformWork$d__12SizeCheck;
   static_assert(sizeof(CompositeWorkItem::$PerformWork$d__12) == 0x38);
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)(int)>(&CompositeWorkItem::$PerformWork$d__12::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)(int)>(&CompositeWorkItem::$PerformWork$d__12::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::$$m__Finally1
-  // Il2CppName: <>m__Finally1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::$$m__Finally1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator
-  // Il2CppName: System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerable_GetEnumerator
-  // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerable_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$PerformWork$d__12*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem/<PerformWork>d__12");
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)(int)>(&CompositeWorkItem::$PerformWork$d__12::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)(int)>(&CompositeWorkItem::$PerformWork$d__12::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::$$m__Finally1
+// Il2CppName: <>m__Finally1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::$$m__Finally1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator
+// Il2CppName: System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerable_GetEnumerator
+// Il2CppName: System.Collections.IEnumerable.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CompositeWorkItem::$PerformWork$d__12::*)()>(&CompositeWorkItem::$PerformWork$d__12::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::$PerformWork$d__12*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

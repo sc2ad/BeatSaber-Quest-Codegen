@@ -504,332 +504,332 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelDetailViewController), 296 + sizeof(bool)> __GlobalNamespace_StandardLevelDetailViewControllerSizeCheck;
   static_assert(sizeof(StandardLevelDetailViewController) == 0x129);
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::add_didPressActionButtonEvent
-  // Il2CppName: add_didPressActionButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*)>(&StandardLevelDetailViewController::add_didPressActionButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didPressActionButtonEvent
-  // Il2CppName: remove_didPressActionButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*)>(&StandardLevelDetailViewController::remove_didPressActionButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::add_didPressOpenLevelPackButtonEvent
-  // Il2CppName: add_didPressOpenLevelPackButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&StandardLevelDetailViewController::add_didPressOpenLevelPackButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didPressOpenLevelPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didPressOpenLevelPackButtonEvent
-  // Il2CppName: remove_didPressOpenLevelPackButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&StandardLevelDetailViewController::remove_didPressOpenLevelPackButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didPressOpenLevelPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent
-  // Il2CppName: add_levelFavoriteStatusDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*)>(&StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_levelFavoriteStatusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent
-  // Il2CppName: remove_levelFavoriteStatusDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*)>(&StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_levelFavoriteStatusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::add_didPressPracticeButtonEvent
-  // Il2CppName: add_didPressPracticeButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*)>(&StandardLevelDetailViewController::add_didPressPracticeButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didPressPracticeButtonEvent
-  // Il2CppName: remove_didPressPracticeButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*)>(&StandardLevelDetailViewController::remove_didPressPracticeButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent
-  // Il2CppName: add_didChangeDifficultyBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent
-  // Il2CppName: remove_didChangeDifficultyBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::add_didChangeContentEvent
-  // Il2CppName: add_didChangeContentEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&StandardLevelDetailViewController::add_didChangeContentEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didChangeContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didChangeContentEvent
-  // Il2CppName: remove_didChangeContentEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&StandardLevelDetailViewController::remove_didChangeContentEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didChangeContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::get_selectedDifficultyBeatmap
-  // Il2CppName: get_selectedDifficultyBeatmap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::get_selectedDifficultyBeatmap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::get_beatmapLevel
-  // Il2CppName: get_beatmapLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::get_beatmapLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "get_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::SetData
-  // Il2CppName: SetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::IPreviewBeatmapLevel*, bool, bool, bool, ::Il2CppString*, GlobalNamespace::BeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&StandardLevelDetailViewController::SetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::SetData
-  // Il2CppName: SetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*, bool, bool, bool, bool, ::Il2CppString*, GlobalNamespace::BeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&StandardLevelDetailViewController::SetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::UpdateActionButtonIntractability
-  // Il2CppName: UpdateActionButtonIntractability
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::UpdateActionButtonIntractability)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "UpdateActionButtonIntractability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::HandleDidPressPracticeButton
-  // Il2CppName: HandleDidPressPracticeButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::HandleDidPressPracticeButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "HandleDidPressPracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::HandleLevelLoadingUpdate
-  // Il2CppName: HandleLevelLoadingUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate)>(&StandardLevelDetailViewController::HandleLevelLoadingUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "HandleLevelLoadingUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::UpdateDownloading
-  // Il2CppName: UpdateDownloading
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(bool, uint, uint)>(&StandardLevelDetailViewController::UpdateDownloading)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "UpdateDownloading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::LoadBeatmapLevelAsync
-  // Il2CppName: LoadBeatmapLevelAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (StandardLevelDetailViewController::*)(System::Threading::CancellationToken)>(&StandardLevelDetailViewController::LoadBeatmapLevelAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "LoadBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::RefreshContentLevelDetailView
-  // Il2CppName: RefreshContentLevelDetailView
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::RefreshContentLevelDetailView)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "RefreshContentLevelDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::ClearSelected
-  // Il2CppName: ClearSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::ClearSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "ClearSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelProductStoreOrShowBuyInfoAsync
-  // Il2CppName: OpenLevelProductStoreOrShowBuyInfoAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelProductStoreOrShowBuyInfoAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelProductStoreOrShowBuyInfoAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::BuyLevelButtonWasPressed
-  // Il2CppName: BuyLevelButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::BuyLevelButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "BuyLevelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelProductStoreAsync
-  // Il2CppName: OpenLevelProductStoreAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelProductStoreAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::BuyPackButtonWasPressed
-  // Il2CppName: BuyPackButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::BuyPackButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "BuyPackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelPackProductStoreAsync
-  // Il2CppName: OpenLevelPackProductStoreAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelPackProductStoreAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelPack
-  // Il2CppName: OpenLevelPack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelPack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::RefreshAvailabilityAsync
-  // Il2CppName: RefreshAvailabilityAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::RefreshAvailabilityAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "RefreshAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::ShowContent
-  // Il2CppName: ShowContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::StandardLevelDetailViewController::ContentType, ::Il2CppString*, float, ::Il2CppString*)>(&StandardLevelDetailViewController::ShowContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "ShowContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController::ContentType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::HandleAdditionalContentModelDidInvalidateData
-  // Il2CppName: HandleAdditionalContentModelDidInvalidateData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::HandleAdditionalContentModelDidInvalidateData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_0
-  // Il2CppName: <DidActivate>b__47_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::$DidActivate$b__47_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_1
-  // Il2CppName: <DidActivate>b__47_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::$DidActivate$b__47_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_4
-  // Il2CppName: <DidActivate>b__47_4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*)>(&StandardLevelDetailViewController::$DidActivate$b__47_4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailView*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_5
-  // Il2CppName: <DidActivate>b__47_5
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*)>(&StandardLevelDetailViewController::$DidActivate$b__47_5)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailView*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(bool, bool, bool)>(&StandardLevelDetailViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(bool, bool)>(&StandardLevelDetailViewController::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StandardLevelDetailViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController*, "", "StandardLevelDetailViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::ContentType, "", "StandardLevelDetailViewController/ContentType");
+// Writing MetadataGetter for method: StandardLevelDetailViewController::add_didPressActionButtonEvent
+// Il2CppName: add_didPressActionButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*)>(&StandardLevelDetailViewController::add_didPressActionButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didPressActionButtonEvent
+// Il2CppName: remove_didPressActionButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*)>(&StandardLevelDetailViewController::remove_didPressActionButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::add_didPressOpenLevelPackButtonEvent
+// Il2CppName: add_didPressOpenLevelPackButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&StandardLevelDetailViewController::add_didPressOpenLevelPackButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didPressOpenLevelPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didPressOpenLevelPackButtonEvent
+// Il2CppName: remove_didPressOpenLevelPackButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&StandardLevelDetailViewController::remove_didPressOpenLevelPackButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didPressOpenLevelPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent
+// Il2CppName: add_levelFavoriteStatusDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*)>(&StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_levelFavoriteStatusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent
+// Il2CppName: remove_levelFavoriteStatusDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*)>(&StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_levelFavoriteStatusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::add_didPressPracticeButtonEvent
+// Il2CppName: add_didPressPracticeButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*)>(&StandardLevelDetailViewController::add_didPressPracticeButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didPressPracticeButtonEvent
+// Il2CppName: remove_didPressPracticeButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*)>(&StandardLevelDetailViewController::remove_didPressPracticeButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent
+// Il2CppName: add_didChangeDifficultyBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent
+// Il2CppName: remove_didChangeDifficultyBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::add_didChangeContentEvent
+// Il2CppName: add_didChangeContentEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&StandardLevelDetailViewController::add_didChangeContentEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "add_didChangeContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::remove_didChangeContentEvent
+// Il2CppName: remove_didChangeContentEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&StandardLevelDetailViewController::remove_didChangeContentEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "remove_didChangeContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::get_selectedDifficultyBeatmap
+// Il2CppName: get_selectedDifficultyBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::get_selectedDifficultyBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::get_beatmapLevel
+// Il2CppName: get_beatmapLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::get_beatmapLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "get_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::SetData
+// Il2CppName: SetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::IPreviewBeatmapLevel*, bool, bool, bool, ::Il2CppString*, GlobalNamespace::BeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&StandardLevelDetailViewController::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::SetData
+// Il2CppName: SetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*, bool, bool, bool, bool, ::Il2CppString*, GlobalNamespace::BeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&StandardLevelDetailViewController::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::UpdateActionButtonIntractability
+// Il2CppName: UpdateActionButtonIntractability
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::UpdateActionButtonIntractability)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "UpdateActionButtonIntractability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::HandleDidPressPracticeButton
+// Il2CppName: HandleDidPressPracticeButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::HandleDidPressPracticeButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "HandleDidPressPracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::HandleLevelLoadingUpdate
+// Il2CppName: HandleLevelLoadingUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate)>(&StandardLevelDetailViewController::HandleLevelLoadingUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "HandleLevelLoadingUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::UpdateDownloading
+// Il2CppName: UpdateDownloading
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(bool, uint, uint)>(&StandardLevelDetailViewController::UpdateDownloading)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "UpdateDownloading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::LoadBeatmapLevelAsync
+// Il2CppName: LoadBeatmapLevelAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (StandardLevelDetailViewController::*)(System::Threading::CancellationToken)>(&StandardLevelDetailViewController::LoadBeatmapLevelAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "LoadBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::RefreshContentLevelDetailView
+// Il2CppName: RefreshContentLevelDetailView
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::RefreshContentLevelDetailView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "RefreshContentLevelDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::ClearSelected
+// Il2CppName: ClearSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::ClearSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "ClearSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelProductStoreOrShowBuyInfoAsync
+// Il2CppName: OpenLevelProductStoreOrShowBuyInfoAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelProductStoreOrShowBuyInfoAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelProductStoreOrShowBuyInfoAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::BuyLevelButtonWasPressed
+// Il2CppName: BuyLevelButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::BuyLevelButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "BuyLevelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelProductStoreAsync
+// Il2CppName: OpenLevelProductStoreAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelProductStoreAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::BuyPackButtonWasPressed
+// Il2CppName: BuyPackButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::BuyPackButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "BuyPackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelPackProductStoreAsync
+// Il2CppName: OpenLevelPackProductStoreAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelPackProductStoreAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::OpenLevelPack
+// Il2CppName: OpenLevelPack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OpenLevelPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OpenLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::RefreshAvailabilityAsync
+// Il2CppName: RefreshAvailabilityAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::RefreshAvailabilityAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "RefreshAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::ShowContent
+// Il2CppName: ShowContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::StandardLevelDetailViewController::ContentType, ::Il2CppString*, float, ::Il2CppString*)>(&StandardLevelDetailViewController::ShowContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "ShowContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController::ContentType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::HandleAdditionalContentModelDidInvalidateData
+// Il2CppName: HandleAdditionalContentModelDidInvalidateData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::HandleAdditionalContentModelDidInvalidateData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_0
+// Il2CppName: <DidActivate>b__47_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::$DidActivate$b__47_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_1
+// Il2CppName: <DidActivate>b__47_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::$DidActivate$b__47_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_4
+// Il2CppName: <DidActivate>b__47_4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*)>(&StandardLevelDetailViewController::$DidActivate$b__47_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailView*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::$DidActivate$b__47_5
+// Il2CppName: <DidActivate>b__47_5
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*)>(&StandardLevelDetailViewController::$DidActivate$b__47_5)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "<DidActivate>b__47_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailView*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(bool, bool, bool)>(&StandardLevelDetailViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)(bool, bool)>(&StandardLevelDetailViewController::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StandardLevelDetailViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::*)()>(&StandardLevelDetailViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

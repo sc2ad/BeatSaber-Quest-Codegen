@@ -77,58 +77,6 @@ namespace System {
     #pragma pack(pop)
     static check_size<sizeof(ParameterizedStrings::FormatParam), 8 + sizeof(::Il2CppString*)> __System_ParameterizedStrings_FormatParamSizeCheck;
     static_assert(sizeof(ParameterizedStrings::FormatParam) == 0x10);
-    // Writing MetadataGetter for method: ParameterizedStrings::FormatParam::FormatParam
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::FormatParam::*)(int)>(&ParameterizedStrings::FormatParam::FormatParam<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::FormatParam), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::FormatParam::*)(int)>(&ParameterizedStrings::FormatParam::FormatParam<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::FormatParam), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-      }
-    };
-    // Writing MetadataGetter for method: ParameterizedStrings::FormatParam::FormatParam
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::FormatParam::*)(int, ::Il2CppString*)>(&ParameterizedStrings::FormatParam::FormatParam<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::FormatParam), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::FormatParam::*)(int, ::Il2CppString*)>(&ParameterizedStrings::FormatParam::FormatParam<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::FormatParam), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    // Writing MetadataGetter for method: ParameterizedStrings::FormatParam::get_Int32
-    // Il2CppName: get_Int32
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ParameterizedStrings::FormatParam::*)()>(&ParameterizedStrings::FormatParam::get_Int32)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::FormatParam), "get_Int32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ParameterizedStrings::FormatParam::get_String
-    // Il2CppName: get_String
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ParameterizedStrings::FormatParam::*)()>(&ParameterizedStrings::FormatParam::get_String)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::FormatParam), "get_String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ParameterizedStrings::FormatParam::get_Object
-    // Il2CppName: get_Object
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ParameterizedStrings::FormatParam::*)()>(&ParameterizedStrings::FormatParam::get_Object)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::FormatParam), "get_Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
     // Creating value type constructor for type: ParameterizedStrings
     ParameterizedStrings() noexcept {}
     // [ThreadStaticAttribute] Offset: 0xD811AC
@@ -172,79 +120,79 @@ namespace System {
     static ::Array<System::ParameterizedStrings::FormatParam>* GetDynamicOrStaticVariables(::Il2CppChar c, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars, int& index);
   }; // System.ParameterizedStrings
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ParameterizedStrings::Evaluate
-  // Il2CppName: Evaluate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<System::ParameterizedStrings::FormatParam>*)>(&ParameterizedStrings::Evaluate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::EvaluateInternal
-  // Il2CppName: EvaluateInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int&, ::Array<System::ParameterizedStrings::FormatParam>*, System::ParameterizedStrings::LowLevelStack*, ::Array<System::ParameterizedStrings::FormatParam>*&, ::Array<System::ParameterizedStrings::FormatParam>*&)>(&ParameterizedStrings::EvaluateInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "EvaluateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*>(), ::il2cpp_utils::ExtractIndependentType<System::ParameterizedStrings::LowLevelStack*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::AsBool
-  // Il2CppName: AsBool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&ParameterizedStrings::AsBool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::AsInt
-  // Il2CppName: AsInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(bool)>(&ParameterizedStrings::AsInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::StringFromAsciiBytes
-  // Il2CppName: StringFromAsciiBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int)>(&ParameterizedStrings::StringFromAsciiBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "StringFromAsciiBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::snprintf
-  // Il2CppName: snprintf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint8_t*, System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&ParameterizedStrings::snprintf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::snprintf
-  // Il2CppName: snprintf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint8_t*, System::IntPtr, ::Il2CppString*, int)>(&ParameterizedStrings::snprintf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::FormatPrintF
-  // Il2CppName: FormatPrintF
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&ParameterizedStrings::FormatPrintF)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "FormatPrintF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterizedStrings::GetDynamicOrStaticVariables
-  // Il2CppName: GetDynamicOrStaticVariables
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::ParameterizedStrings::FormatParam>* (*)(::Il2CppChar, ::Array<System::ParameterizedStrings::FormatParam>*&, ::Array<System::ParameterizedStrings::FormatParam>*&, int&)>(&ParameterizedStrings::GetDynamicOrStaticVariables)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "GetDynamicOrStaticVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings*, "System", "ParameterizedStrings");
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::FormatParam, "System", "ParameterizedStrings/FormatParam");
+// Writing MetadataGetter for method: ParameterizedStrings::Evaluate
+// Il2CppName: Evaluate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<System::ParameterizedStrings::FormatParam>*)>(&ParameterizedStrings::Evaluate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::EvaluateInternal
+// Il2CppName: EvaluateInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int&, ::Array<System::ParameterizedStrings::FormatParam>*, System::ParameterizedStrings::LowLevelStack*, ::Array<System::ParameterizedStrings::FormatParam>*&, ::Array<System::ParameterizedStrings::FormatParam>*&)>(&ParameterizedStrings::EvaluateInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "EvaluateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*>(), ::il2cpp_utils::ExtractIndependentType<System::ParameterizedStrings::LowLevelStack*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::AsBool
+// Il2CppName: AsBool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&ParameterizedStrings::AsBool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::AsInt
+// Il2CppName: AsInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(bool)>(&ParameterizedStrings::AsInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::StringFromAsciiBytes
+// Il2CppName: StringFromAsciiBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int)>(&ParameterizedStrings::StringFromAsciiBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "StringFromAsciiBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::snprintf
+// Il2CppName: snprintf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint8_t*, System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&ParameterizedStrings::snprintf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::snprintf
+// Il2CppName: snprintf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint8_t*, System::IntPtr, ::Il2CppString*, int)>(&ParameterizedStrings::snprintf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::FormatPrintF
+// Il2CppName: FormatPrintF
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&ParameterizedStrings::FormatPrintF)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "FormatPrintF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterizedStrings::GetDynamicOrStaticVariables
+// Il2CppName: GetDynamicOrStaticVariables
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::ParameterizedStrings::FormatParam>* (*)(::Il2CppChar, ::Array<System::ParameterizedStrings::FormatParam>*&, ::Array<System::ParameterizedStrings::FormatParam>*&, int&)>(&ParameterizedStrings::GetDynamicOrStaticVariables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings*), "GetDynamicOrStaticVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};

@@ -108,59 +108,59 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ViewController::$DismissViewControllerCoroutine$d__62), 56 + sizeof(HMUI::ViewController*)> __HMUI_ViewController_$DismissViewControllerCoroutine$d__62SizeCheck;
   static_assert(sizeof(ViewController::$DismissViewControllerCoroutine$d__62) == 0x40);
-  // Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)(int)>(&ViewController::$DismissViewControllerCoroutine$d__62::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)(int)>(&ViewController::$DismissViewControllerCoroutine$d__62::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::$DismissViewControllerCoroutine$d__62*, "HMUI", "ViewController/<DismissViewControllerCoroutine>d__62");
+// Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)(int)>(&ViewController::$DismissViewControllerCoroutine$d__62::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)(int)>(&ViewController::$DismissViewControllerCoroutine$d__62::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewController::$DismissViewControllerCoroutine$d__62::*)()>(&ViewController::$DismissViewControllerCoroutine$d__62::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController::$DismissViewControllerCoroutine$d__62*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

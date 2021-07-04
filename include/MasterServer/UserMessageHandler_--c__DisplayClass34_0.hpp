@@ -166,35 +166,35 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(UserMessageHandler::$$c__DisplayClass34_0), 128 + sizeof(System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>*)> __MasterServer_UserMessageHandler_$$c__DisplayClass34_0SizeCheck;
   static_assert(sizeof(UserMessageHandler::$$c__DisplayClass34_0) == 0x88);
-  // Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__0
-  // Il2CppName: <StartBroadcastingServer>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::*)(GlobalNamespace::ConnectionFailedReason)>(&UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), "<StartBroadcastingServer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__1
-  // Il2CppName: <StartBroadcastingServer>b__1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (UserMessageHandler::$$c__DisplayClass34_0::*)()>(&UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), "<StartBroadcastingServer>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::*)()>(&UserMessageHandler::$$c__DisplayClass34_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::*)()>(&UserMessageHandler::$$c__DisplayClass34_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass34_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass34_0");
+// Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__0
+// Il2CppName: <StartBroadcastingServer>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::*)(GlobalNamespace::ConnectionFailedReason)>(&UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), "<StartBroadcastingServer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
+// Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__1
+// Il2CppName: <StartBroadcastingServer>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (UserMessageHandler::$$c__DisplayClass34_0::*)()>(&UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), "<StartBroadcastingServer>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::*)()>(&UserMessageHandler::$$c__DisplayClass34_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::*)()>(&UserMessageHandler::$$c__DisplayClass34_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

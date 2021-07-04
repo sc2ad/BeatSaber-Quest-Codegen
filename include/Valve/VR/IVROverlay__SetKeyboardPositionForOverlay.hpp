@@ -55,43 +55,43 @@ namespace Valve::VR {
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetKeyboardPositionForOverlay
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_SetKeyboardPositionForOverlay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_SetKeyboardPositionForOverlay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(uint64_t, Valve::VR::HmdRect2_t)>(&IVROverlay::_SetKeyboardPositionForOverlay::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdRect2_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVROverlay::_SetKeyboardPositionForOverlay::*)(uint64_t, Valve::VR::HmdRect2_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVROverlay::_SetKeyboardPositionForOverlay::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdRect2_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(System::IAsyncResult*)>(&IVROverlay::_SetKeyboardPositionForOverlay::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay*, "Valve.VR", "IVROverlay/_SetKeyboardPositionForOverlay");
+// Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_SetKeyboardPositionForOverlay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_SetKeyboardPositionForOverlay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(uint64_t, Valve::VR::HmdRect2_t)>(&IVROverlay::_SetKeyboardPositionForOverlay::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdRect2_t>()});
+  }
+};
+// Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVROverlay::_SetKeyboardPositionForOverlay::*)(uint64_t, Valve::VR::HmdRect2_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVROverlay::_SetKeyboardPositionForOverlay::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdRect2_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVROverlay::_SetKeyboardPositionForOverlay::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_SetKeyboardPositionForOverlay::*)(System::IAsyncResult*)>(&IVROverlay::_SetKeyboardPositionForOverlay::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_SetKeyboardPositionForOverlay*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

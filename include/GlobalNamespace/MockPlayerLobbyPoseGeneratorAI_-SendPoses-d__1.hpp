@@ -160,22 +160,22 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1), 328 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)> __GlobalNamespace_MockPlayerLobbyPoseGeneratorAI_$SendPoses$d__1SizeCheck;
   static_assert(sizeof(MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1) == 0x150);
-  // Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::*)()>(&MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1, "", "MockPlayerLobbyPoseGeneratorAI/<SendPoses>d__1");
+// Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::*)()>(&MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

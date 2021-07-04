@@ -73,51 +73,51 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   #pragma pack(pop)
   static check_size<sizeof(EndoPreCompInfo), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPoint*)> __Org_BouncyCastle_Math_EC_Endo_EndoPreCompInfoSizeCheck;
   static_assert(sizeof(EndoPreCompInfo) == 0x20);
-  // Writing MetadataGetter for method: EndoPreCompInfo::get_Endomorphism
-  // Il2CppName: get_Endomorphism
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* (EndoPreCompInfo::*)()>(&EndoPreCompInfo::get_Endomorphism)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "get_Endomorphism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EndoPreCompInfo::set_Endomorphism
-  // Il2CppName: set_Endomorphism
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&EndoPreCompInfo::set_Endomorphism)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "set_Endomorphism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EndoPreCompInfo::get_MappedPoint
-  // Il2CppName: get_MappedPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (EndoPreCompInfo::*)()>(&EndoPreCompInfo::get_MappedPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "get_MappedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EndoPreCompInfo::set_MappedPoint
-  // Il2CppName: set_MappedPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&EndoPreCompInfo::set_MappedPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "set_MappedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EndoPreCompInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)()>(&EndoPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)()>(&EndoPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, "Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo");
+// Writing MetadataGetter for method: EndoPreCompInfo::get_Endomorphism
+// Il2CppName: get_Endomorphism
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* (EndoPreCompInfo::*)()>(&EndoPreCompInfo::get_Endomorphism)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "get_Endomorphism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EndoPreCompInfo::set_Endomorphism
+// Il2CppName: set_Endomorphism
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&EndoPreCompInfo::set_Endomorphism)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "set_Endomorphism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>()});
+  }
+};
+// Writing MetadataGetter for method: EndoPreCompInfo::get_MappedPoint
+// Il2CppName: get_MappedPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (EndoPreCompInfo::*)()>(&EndoPreCompInfo::get_MappedPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "get_MappedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EndoPreCompInfo::set_MappedPoint
+// Il2CppName: set_MappedPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&EndoPreCompInfo::set_MappedPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), "set_MappedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: EndoPreCompInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)()>(&EndoPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EndoPreCompInfo::*)()>(&EndoPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EndoPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

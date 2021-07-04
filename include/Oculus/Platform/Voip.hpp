@@ -90,126 +90,126 @@ namespace Oculus::Platform {
     static void SetSystemVoipStateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*>::Callback* callback);
   }; // Oculus.Platform.Voip
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Voip::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Voip::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::Accept
-  // Il2CppName: Accept
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Voip::Accept)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::Stop
-  // Il2CppName: Stop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Voip::Stop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::SetMicrophoneFilterCallback
-  // Il2CppName: SetMicrophoneFilterCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::CAPI::FilterCallback*)>(&Voip::SetMicrophoneFilterCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "SetMicrophoneFilterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::FilterCallback*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::SetMicrophoneMuted
-  // Il2CppName: SetMicrophoneMuted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipMuteState)>(&Voip::SetMicrophoneMuted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "SetMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipMuteState>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::GetSystemVoipMicrophoneMuted
-  // Il2CppName: GetSystemVoipMicrophoneMuted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)()>(&Voip::GetSystemVoipMicrophoneMuted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "GetSystemVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::GetSystemVoipStatus
-  // Il2CppName: GetSystemVoipStatus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)()>(&Voip::GetSystemVoipStatus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "GetSystemVoipStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::GetIsConnectionUsingDtx
-  // Il2CppName: GetIsConnectionUsingDtx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipDtxState (*)(uint64_t)>(&Voip::GetIsConnectionUsingDtx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "GetIsConnectionUsingDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::GetLocalBitrate
-  // Il2CppName: GetLocalBitrate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&Voip::GetLocalBitrate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "GetLocalBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::GetRemoteBitrate
-  // Il2CppName: GetRemoteBitrate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&Voip::GetRemoteBitrate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "GetRemoteBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::SetNewConnectionOptions
-  // Il2CppName: SetNewConnectionOptions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipOptions*)>(&Voip::SetNewConnectionOptions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "SetNewConnectionOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipOptions*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::SetSystemVoipSuppressed
-  // Il2CppName: SetSystemVoipSuppressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::SystemVoipState*>* (*)(bool)>(&Voip::SetSystemVoipSuppressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "SetSystemVoipSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::SetVoipConnectRequestCallback
-  // Il2CppName: SetVoipConnectRequestCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Voip::SetVoipConnectRequestCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "SetVoipConnectRequestCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::SetVoipStateChangeCallback
-  // Il2CppName: SetVoipStateChangeCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Voip::SetVoipStateChangeCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "SetVoipStateChangeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Voip::SetSystemVoipStateNotificationCallback
-  // Il2CppName: SetSystemVoipStateNotificationCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*>::Callback*)>(&Voip::SetSystemVoipStateNotificationCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Voip*), "SetSystemVoipStateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*>::Callback*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Voip*, "Oculus.Platform", "Voip");
+// Writing MetadataGetter for method: Voip::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Voip::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::Accept
+// Il2CppName: Accept
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Voip::Accept)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::Stop
+// Il2CppName: Stop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Voip::Stop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::SetMicrophoneFilterCallback
+// Il2CppName: SetMicrophoneFilterCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::CAPI::FilterCallback*)>(&Voip::SetMicrophoneFilterCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "SetMicrophoneFilterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::FilterCallback*>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::SetMicrophoneMuted
+// Il2CppName: SetMicrophoneMuted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipMuteState)>(&Voip::SetMicrophoneMuted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "SetMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipMuteState>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::GetSystemVoipMicrophoneMuted
+// Il2CppName: GetSystemVoipMicrophoneMuted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)()>(&Voip::GetSystemVoipMicrophoneMuted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "GetSystemVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Voip::GetSystemVoipStatus
+// Il2CppName: GetSystemVoipStatus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)()>(&Voip::GetSystemVoipStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "GetSystemVoipStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Voip::GetIsConnectionUsingDtx
+// Il2CppName: GetIsConnectionUsingDtx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipDtxState (*)(uint64_t)>(&Voip::GetIsConnectionUsingDtx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "GetIsConnectionUsingDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::GetLocalBitrate
+// Il2CppName: GetLocalBitrate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&Voip::GetLocalBitrate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "GetLocalBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::GetRemoteBitrate
+// Il2CppName: GetRemoteBitrate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&Voip::GetRemoteBitrate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "GetRemoteBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::SetNewConnectionOptions
+// Il2CppName: SetNewConnectionOptions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipOptions*)>(&Voip::SetNewConnectionOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "SetNewConnectionOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipOptions*>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::SetSystemVoipSuppressed
+// Il2CppName: SetSystemVoipSuppressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::SystemVoipState*>* (*)(bool)>(&Voip::SetSystemVoipSuppressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "SetSystemVoipSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::SetVoipConnectRequestCallback
+// Il2CppName: SetVoipConnectRequestCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Voip::SetVoipConnectRequestCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "SetVoipConnectRequestCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::SetVoipStateChangeCallback
+// Il2CppName: SetVoipStateChangeCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Voip::SetVoipStateChangeCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "SetVoipStateChangeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
+  }
+};
+// Writing MetadataGetter for method: Voip::SetSystemVoipStateNotificationCallback
+// Il2CppName: SetSystemVoipStateNotificationCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*>::Callback*)>(&Voip::SetSystemVoipStateNotificationCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Voip*), "SetSystemVoipStateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*>::Callback*>()});
+  }
+};

@@ -67,51 +67,51 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolverCCD), 136 + sizeof(RootMotion::FinalIK::IKSolver::IterationDelegate*)> __RootMotion_FinalIK_IKSolverCCDSizeCheck;
   static_assert(sizeof(IKSolverCCD) == 0x90);
-  // Writing MetadataGetter for method: IKSolverCCD::FadeOutBoneWeights
-  // Il2CppName: FadeOutBoneWeights
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::FadeOutBoneWeights)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "FadeOutBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverCCD::Solve
-  // Il2CppName: Solve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)(UnityEngine::Vector3)>(&IKSolverCCD::Solve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverCCD::OnInitiate
-  // Il2CppName: OnInitiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::OnInitiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "OnInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverCCD::OnUpdate
-  // Il2CppName: OnUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::OnUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "OnUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverCCD::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverCCD*, "RootMotion.FinalIK", "IKSolverCCD");
+// Writing MetadataGetter for method: IKSolverCCD::FadeOutBoneWeights
+// Il2CppName: FadeOutBoneWeights
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::FadeOutBoneWeights)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "FadeOutBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverCCD::Solve
+// Il2CppName: Solve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)(UnityEngine::Vector3)>(&IKSolverCCD::Solve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverCCD::OnInitiate
+// Il2CppName: OnInitiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::OnInitiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "OnInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverCCD::OnUpdate
+// Il2CppName: OnUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::OnUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), "OnUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverCCD::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverCCD::*)()>(&IKSolverCCD::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverCCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

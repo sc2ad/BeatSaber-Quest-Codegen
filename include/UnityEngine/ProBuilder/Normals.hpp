@@ -52,46 +52,46 @@ namespace UnityEngine::ProBuilder {
     static void _cctor();
   }; // UnityEngine.ProBuilder.Normals
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Normals::ClearIntArray
-  // Il2CppName: ClearIntArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Normals::ClearIntArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normals*), "ClearIntArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normals::CalculateTangents
-  // Il2CppName: CalculateTangents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Normals::CalculateTangents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normals*), "CalculateTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normals::CalculateHardNormals
-  // Il2CppName: CalculateHardNormals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Normals::CalculateHardNormals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normals*), "CalculateHardNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normals::CalculateNormals
-  // Il2CppName: CalculateNormals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Normals::CalculateNormals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normals*), "CalculateNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normals::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Normals::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normals*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normals*, "UnityEngine.ProBuilder", "Normals");
+// Writing MetadataGetter for method: Normals::ClearIntArray
+// Il2CppName: ClearIntArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Normals::ClearIntArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normals*), "ClearIntArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Normals::CalculateTangents
+// Il2CppName: CalculateTangents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Normals::CalculateTangents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normals*), "CalculateTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};
+// Writing MetadataGetter for method: Normals::CalculateHardNormals
+// Il2CppName: CalculateHardNormals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Normals::CalculateHardNormals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normals*), "CalculateHardNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};
+// Writing MetadataGetter for method: Normals::CalculateNormals
+// Il2CppName: CalculateNormals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Normals::CalculateNormals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normals*), "CalculateNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};
+// Writing MetadataGetter for method: Normals::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Normals::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normals*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

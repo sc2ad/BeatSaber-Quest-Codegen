@@ -43,46 +43,46 @@ namespace UnityEngine {
     static UnityEngine::ColorSpace get_activeColorSpace();
   }; // UnityEngine.QualitySettings
   #pragma pack(pop)
-  // Writing MetadataGetter for method: QualitySettings::set_vSyncCount
-  // Il2CppName: set_vSyncCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&QualitySettings::set_vSyncCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "set_vSyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: QualitySettings::get_antiAliasing
-  // Il2CppName: get_antiAliasing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&QualitySettings::get_antiAliasing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "get_antiAliasing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QualitySettings::set_antiAliasing
-  // Il2CppName: set_antiAliasing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&QualitySettings::set_antiAliasing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "set_antiAliasing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: QualitySettings::set_maxQueuedFrames
-  // Il2CppName: set_maxQueuedFrames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&QualitySettings::set_maxQueuedFrames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "set_maxQueuedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: QualitySettings::get_activeColorSpace
-  // Il2CppName: get_activeColorSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ColorSpace (*)()>(&QualitySettings::get_activeColorSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "get_activeColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::QualitySettings*, "UnityEngine", "QualitySettings");
+// Writing MetadataGetter for method: QualitySettings::set_vSyncCount
+// Il2CppName: set_vSyncCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&QualitySettings::set_vSyncCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "set_vSyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: QualitySettings::get_antiAliasing
+// Il2CppName: get_antiAliasing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&QualitySettings::get_antiAliasing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "get_antiAliasing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QualitySettings::set_antiAliasing
+// Il2CppName: set_antiAliasing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&QualitySettings::set_antiAliasing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "set_antiAliasing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: QualitySettings::set_maxQueuedFrames
+// Il2CppName: set_maxQueuedFrames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&QualitySettings::set_maxQueuedFrames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "set_maxQueuedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: QualitySettings::get_activeColorSpace
+// Il2CppName: get_activeColorSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ColorSpace (*)()>(&QualitySettings::get_activeColorSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QualitySettings*), "get_activeColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

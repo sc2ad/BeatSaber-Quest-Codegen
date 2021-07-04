@@ -202,116 +202,116 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(CreateRelayServerResponse), 72 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_CreateRelayServerResponseSizeCheck;
   static_assert(sizeof(CreateRelayServerResponse) == 0x50);
-  // Writing MetadataGetter for method: CreateRelayServerResponse::get_pool
-  // Il2CppName: get_pool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::CreateRelayServerResponse*>* (*)()>(&CreateRelayServerResponse::get_pool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::get_dedicatedServerId
-  // Il2CppName: get_dedicatedServerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_dedicatedServerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::set_dedicatedServerId
-  // Il2CppName: set_dedicatedServerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(::Il2CppString*)>(&CreateRelayServerResponse::set_dedicatedServerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::get_dedicatedServerCreationTime
-  // Il2CppName: get_dedicatedServerCreationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_dedicatedServerCreationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::set_dedicatedServerCreationTime
-  // Il2CppName: set_dedicatedServerCreationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(int64_t)>(&CreateRelayServerResponse::set_dedicatedServerCreationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::InitForFailure
-  // Il2CppName: InitForFailure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateRelayServerResponse* (CreateRelayServerResponse::*)(::Il2CppString*, int64_t, MasterServer::CreateRelayServerResponse::Result)>(&CreateRelayServerResponse::InitForFailure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::CreateRelayServerResponse::Result>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::InitForSuccess
-  // Il2CppName: InitForSuccess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateRelayServerResponse* (CreateRelayServerResponse::*)(::Il2CppString*, int64_t, ::Il2CppString*, int, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&CreateRelayServerResponse::InitForSuccess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::get_resultCode
-  // Il2CppName: get_resultCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_resultCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::get_resultCodeString
-  // Il2CppName: get_resultCodeString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_resultCodeString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&CreateRelayServerResponse::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&CreateRelayServerResponse::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreateRelayServerResponse::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerResponse*, "MasterServer", "CreateRelayServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerResponse::Result, "MasterServer", "CreateRelayServerResponse/Result");
+// Writing MetadataGetter for method: CreateRelayServerResponse::get_pool
+// Il2CppName: get_pool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::CreateRelayServerResponse*>* (*)()>(&CreateRelayServerResponse::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::get_dedicatedServerId
+// Il2CppName: get_dedicatedServerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_dedicatedServerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::set_dedicatedServerId
+// Il2CppName: set_dedicatedServerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(::Il2CppString*)>(&CreateRelayServerResponse::set_dedicatedServerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::get_dedicatedServerCreationTime
+// Il2CppName: get_dedicatedServerCreationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_dedicatedServerCreationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::set_dedicatedServerCreationTime
+// Il2CppName: set_dedicatedServerCreationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(int64_t)>(&CreateRelayServerResponse::set_dedicatedServerCreationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::InitForFailure
+// Il2CppName: InitForFailure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateRelayServerResponse* (CreateRelayServerResponse::*)(::Il2CppString*, int64_t, MasterServer::CreateRelayServerResponse::Result)>(&CreateRelayServerResponse::InitForFailure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::CreateRelayServerResponse::Result>()});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::InitForSuccess
+// Il2CppName: InitForSuccess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateRelayServerResponse* (CreateRelayServerResponse::*)(::Il2CppString*, int64_t, ::Il2CppString*, int, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&CreateRelayServerResponse::InitForSuccess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::get_resultCode
+// Il2CppName: get_resultCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_resultCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::get_resultCodeString
+// Il2CppName: get_resultCodeString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::get_resultCodeString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&CreateRelayServerResponse::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&CreateRelayServerResponse::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreateRelayServerResponse::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerResponse::*)()>(&CreateRelayServerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateRelayServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

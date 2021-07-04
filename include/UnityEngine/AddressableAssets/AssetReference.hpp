@@ -195,218 +195,218 @@ namespace UnityEngine::AddressableAssets {
   #pragma pack(pop)
   static check_size<sizeof(AssetReference), 40 + sizeof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)> __UnityEngine_AddressableAssets_AssetReferenceSizeCheck;
   static_assert(sizeof(AssetReference) == 0x40);
-  // Writing MetadataGetter for method: AssetReference::get_OperationHandle
-  // Il2CppName: get_OperationHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AssetReference::*)()>(&AssetReference::get_OperationHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_OperationHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::get_RuntimeKey
-  // Il2CppName: get_RuntimeKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AssetReference::*)()>(&AssetReference::get_RuntimeKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::get_AssetGUID
-  // Il2CppName: get_AssetGUID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetReference::*)()>(&AssetReference::get_AssetGUID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_AssetGUID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::get_SubObjectName
-  // Il2CppName: get_SubObjectName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetReference::*)()>(&AssetReference::get_SubObjectName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_SubObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::set_SubObjectName
-  // Il2CppName: set_SubObjectName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(::Il2CppString*)>(&AssetReference::set_SubObjectName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "set_SubObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::get_SubOjbectType
-  // Il2CppName: get_SubOjbectType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (AssetReference::*)()>(&AssetReference::get_SubOjbectType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_SubOjbectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::IsValid
-  // Il2CppName: IsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)()>(&AssetReference::IsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::get_IsDone
-  // Il2CppName: get_IsDone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)()>(&AssetReference::get_IsDone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_IsDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(::Il2CppString*)>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(::Il2CppString*)>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::get_Asset
-  // Il2CppName: get_Asset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (AssetReference::*)()>(&AssetReference::get_Asset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_Asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::CreateFailedOperation
-  // Il2CppName: CreateFailedOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AssetReference::LoadAsset
-  // Il2CppName: LoadAsset
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AssetReference::LoadScene
-  // Il2CppName: LoadScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AssetReference::*)()>(&AssetReference::LoadScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::Instantiate
-  // Il2CppName: Instantiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&AssetReference::Instantiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::Instantiate
-  // Il2CppName: Instantiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Transform*, bool)>(&AssetReference::Instantiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::LoadAssetAsync
-  // Il2CppName: LoadAssetAsync
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AssetReference::LoadSceneAsync
-  // Il2CppName: LoadSceneAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AssetReference::*)(UnityEngine::SceneManagement::LoadSceneMode, bool, int)>(&AssetReference::LoadSceneAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::UnLoadScene
-  // Il2CppName: UnLoadScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AssetReference::*)()>(&AssetReference::UnLoadScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "UnLoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&AssetReference::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Transform*, bool)>(&AssetReference::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::RuntimeKeyIsValid
-  // Il2CppName: RuntimeKeyIsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)()>(&AssetReference::RuntimeKeyIsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::ReleaseAsset
-  // Il2CppName: ReleaseAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)()>(&AssetReference::ReleaseAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ReleaseAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::ReleaseInstance
-  // Il2CppName: ReleaseInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(UnityEngine::GameObject*)>(&AssetReference::ReleaseInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ReleaseInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::ValidateAsset
-  // Il2CppName: ValidateAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)(UnityEngine::Object*)>(&AssetReference::ValidateAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::ValidateAsset
-  // Il2CppName: ValidateAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)(::Il2CppString*)>(&AssetReference::ValidateAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)()>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)()>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetReference::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetReference::*)()>(&AssetReference::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReference*, "UnityEngine.AddressableAssets", "AssetReference");
+// Writing MetadataGetter for method: AssetReference::get_OperationHandle
+// Il2CppName: get_OperationHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AssetReference::*)()>(&AssetReference::get_OperationHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_OperationHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::get_RuntimeKey
+// Il2CppName: get_RuntimeKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AssetReference::*)()>(&AssetReference::get_RuntimeKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::get_AssetGUID
+// Il2CppName: get_AssetGUID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetReference::*)()>(&AssetReference::get_AssetGUID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_AssetGUID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::get_SubObjectName
+// Il2CppName: get_SubObjectName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetReference::*)()>(&AssetReference::get_SubObjectName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_SubObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::set_SubObjectName
+// Il2CppName: set_SubObjectName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(::Il2CppString*)>(&AssetReference::set_SubObjectName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "set_SubObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::get_SubOjbectType
+// Il2CppName: get_SubOjbectType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (AssetReference::*)()>(&AssetReference::get_SubOjbectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_SubOjbectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::IsValid
+// Il2CppName: IsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)()>(&AssetReference::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::get_IsDone
+// Il2CppName: get_IsDone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)()>(&AssetReference::get_IsDone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_IsDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(::Il2CppString*)>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(::Il2CppString*)>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::get_Asset
+// Il2CppName: get_Asset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (AssetReference::*)()>(&AssetReference::get_Asset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "get_Asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::CreateFailedOperation
+// Il2CppName: CreateFailedOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AssetReference::LoadAsset
+// Il2CppName: LoadAsset
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AssetReference::LoadScene
+// Il2CppName: LoadScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AssetReference::*)()>(&AssetReference::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::Instantiate
+// Il2CppName: Instantiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&AssetReference::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::Instantiate
+// Il2CppName: Instantiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Transform*, bool)>(&AssetReference::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::LoadAssetAsync
+// Il2CppName: LoadAssetAsync
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AssetReference::LoadSceneAsync
+// Il2CppName: LoadSceneAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AssetReference::*)(UnityEngine::SceneManagement::LoadSceneMode, bool, int)>(&AssetReference::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::UnLoadScene
+// Il2CppName: UnLoadScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AssetReference::*)()>(&AssetReference::UnLoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "UnLoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&AssetReference::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AssetReference::*)(UnityEngine::Transform*, bool)>(&AssetReference::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::RuntimeKeyIsValid
+// Il2CppName: RuntimeKeyIsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)()>(&AssetReference::RuntimeKeyIsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::ReleaseAsset
+// Il2CppName: ReleaseAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)()>(&AssetReference::ReleaseAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ReleaseAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::ReleaseInstance
+// Il2CppName: ReleaseInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)(UnityEngine::GameObject*)>(&AssetReference::ReleaseInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ReleaseInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::ValidateAsset
+// Il2CppName: ValidateAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)(UnityEngine::Object*)>(&AssetReference::ValidateAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::ValidateAsset
+// Il2CppName: ValidateAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReference::*)(::Il2CppString*)>(&AssetReference::ValidateAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)()>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReference::*)()>(&AssetReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetReference::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetReference::*)()>(&AssetReference::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetReference*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

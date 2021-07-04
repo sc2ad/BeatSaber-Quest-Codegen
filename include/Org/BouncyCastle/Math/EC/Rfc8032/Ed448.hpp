@@ -191,278 +191,278 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Ed448::CalculateS
-  // Il2CppName: CalculateS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&Ed448::CalculateS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "CalculateS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::CheckContextVar
-  // Il2CppName: CheckContextVar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*)>(&Ed448::CheckContextVar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "CheckContextVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::CheckPoint
-  // Il2CppName: CheckPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*, ::Array<uint>*)>(&Ed448::CheckPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "CheckPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::CreatePrehash
-  // Il2CppName: CreatePrehash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IXof* (*)()>(&Ed448::CreatePrehash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "CreatePrehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::CreateXof
-  // Il2CppName: CreateXof
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IXof* (*)()>(&Ed448::CreateXof)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "CreateXof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Decode16
-  // Il2CppName: Decode16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Ed448::Decode16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Decode24
-  // Il2CppName: Decode24
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Ed448::Decode24)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Decode32
-  // Il2CppName: Decode32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Ed448::Decode32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Decode32
-  // Il2CppName: Decode32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*, int, int)>(&Ed448::Decode32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::DecodeScalar
-  // Il2CppName: DecodeScalar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*)>(&Ed448::DecodeScalar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "DecodeScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Dom4
-  // Il2CppName: Dom4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IXof*, uint8_t, ::Array<uint8_t>*)>(&Ed448::Dom4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Dom4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IXof*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Encode24
-  // Il2CppName: Encode24
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Ed448::Encode24)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Encode24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Encode32
-  // Il2CppName: Encode32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Ed448::Encode32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Encode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Encode56
-  // Il2CppName: Encode56
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint8_t>*, int)>(&Ed448::Encode56)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Encode56", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::EncodePoint
-  // Il2CppName: EncodePoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, ::Array<uint8_t>*, int)>(&Ed448::EncodePoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "EncodePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::GeneratePublicKey
-  // Il2CppName: GeneratePublicKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Ed448::GeneratePublicKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "GeneratePublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::ImplSign
-  // Il2CppName: ImplSign
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IXof*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Ed448::ImplSign)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "ImplSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IXof*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::ImplSign
-  // Il2CppName: ImplSign
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Ed448::ImplSign)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "ImplSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointAddVar
-  // Il2CppName: PointAddVar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointAddVar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointAddVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointAddPrecomp
-  // Il2CppName: PointAddPrecomp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointAddPrecomp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointAddPrecomp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointCopy
-  // Il2CppName: PointCopy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt* (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointCopy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointDouble
-  // Il2CppName: PointDouble
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointDouble)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointExtendXY
-  // Il2CppName: PointExtendXY
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointExtendXY)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointExtendXY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointLookup
-  // Il2CppName: PointLookup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*)>(&Ed448::PointLookup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointPrecompVar
-  // Il2CppName: PointPrecompVar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>* (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, int)>(&Ed448::PointPrecompVar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointPrecompVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PointSetNeutral
-  // Il2CppName: PointSetNeutral
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointSetNeutral)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointSetNeutral", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Precompute
-  // Il2CppName: Precompute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Ed448::Precompute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::PruneScalar
-  // Il2CppName: PruneScalar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Ed448::PruneScalar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "PruneScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::ReduceScalar
-  // Il2CppName: ReduceScalar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Ed448::ReduceScalar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "ReduceScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::ScalarMultBase
-  // Il2CppName: ScalarMultBase
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::ScalarMultBase)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "ScalarMultBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::ScalarMultBaseEncoded
-  // Il2CppName: ScalarMultBaseEncoded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Ed448::ScalarMultBaseEncoded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "ScalarMultBaseEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::Sign
-  // Il2CppName: Sign
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Ed448::Sign)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "Sign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::SignPrehash
-  // Il2CppName: SignPrehash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Ed448::SignPrehash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), "SignPrehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Ed448::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Ed448::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ed448*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448");
+// Writing MetadataGetter for method: Ed448::CalculateS
+// Il2CppName: CalculateS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&Ed448::CalculateS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "CalculateS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::CheckContextVar
+// Il2CppName: CheckContextVar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*)>(&Ed448::CheckContextVar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "CheckContextVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::CheckPoint
+// Il2CppName: CheckPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*, ::Array<uint>*)>(&Ed448::CheckPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "CheckPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::CreatePrehash
+// Il2CppName: CreatePrehash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IXof* (*)()>(&Ed448::CreatePrehash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "CreatePrehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Ed448::CreateXof
+// Il2CppName: CreateXof
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IXof* (*)()>(&Ed448::CreateXof)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "CreateXof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Decode16
+// Il2CppName: Decode16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Ed448::Decode16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Decode24
+// Il2CppName: Decode24
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Ed448::Decode24)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Decode32
+// Il2CppName: Decode32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Ed448::Decode32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Decode32
+// Il2CppName: Decode32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*, int, int)>(&Ed448::Decode32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Decode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::DecodeScalar
+// Il2CppName: DecodeScalar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*)>(&Ed448::DecodeScalar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "DecodeScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Dom4
+// Il2CppName: Dom4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IXof*, uint8_t, ::Array<uint8_t>*)>(&Ed448::Dom4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Dom4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IXof*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Encode24
+// Il2CppName: Encode24
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Ed448::Encode24)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Encode24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Encode32
+// Il2CppName: Encode32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Ed448::Encode32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Encode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Encode56
+// Il2CppName: Encode56
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint8_t>*, int)>(&Ed448::Encode56)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Encode56", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::EncodePoint
+// Il2CppName: EncodePoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, ::Array<uint8_t>*, int)>(&Ed448::EncodePoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "EncodePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::GeneratePublicKey
+// Il2CppName: GeneratePublicKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Ed448::GeneratePublicKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "GeneratePublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::ImplSign
+// Il2CppName: ImplSign
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IXof*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Ed448::ImplSign)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "ImplSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IXof*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::ImplSign
+// Il2CppName: ImplSign
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Ed448::ImplSign)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "ImplSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointAddVar
+// Il2CppName: PointAddVar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointAddVar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointAddVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointAddPrecomp
+// Il2CppName: PointAddPrecomp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointAddPrecomp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointAddPrecomp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointCopy
+// Il2CppName: PointCopy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt* (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointDouble
+// Il2CppName: PointDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointExtendXY
+// Il2CppName: PointExtendXY
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointExtendXY)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointExtendXY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointLookup
+// Il2CppName: PointLookup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*)>(&Ed448::PointLookup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointPrecompVar
+// Il2CppName: PointPrecompVar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>* (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, int)>(&Ed448::PointPrecompVar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointPrecompVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PointSetNeutral
+// Il2CppName: PointSetNeutral
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::PointSetNeutral)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PointSetNeutral", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Precompute
+// Il2CppName: Precompute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Ed448::Precompute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Ed448::PruneScalar
+// Il2CppName: PruneScalar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Ed448::PruneScalar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "PruneScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::ReduceScalar
+// Il2CppName: ReduceScalar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Ed448::ReduceScalar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "ReduceScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::ScalarMultBase
+// Il2CppName: ScalarMultBase
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*)>(&Ed448::ScalarMultBase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "ScalarMultBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::ScalarMultBaseEncoded
+// Il2CppName: ScalarMultBaseEncoded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Ed448::ScalarMultBaseEncoded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "ScalarMultBaseEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::Sign
+// Il2CppName: Sign
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Ed448::Sign)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "Sign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::SignPrehash
+// Il2CppName: SignPrehash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Ed448::SignPrehash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), "SignPrehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Ed448::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Ed448::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ed448*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

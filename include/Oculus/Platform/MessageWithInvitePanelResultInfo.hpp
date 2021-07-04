@@ -45,35 +45,35 @@ namespace Oculus::Platform {
     // Base method: Oculus.Platform.Models.InvitePanelResultInfo Message::GetInvitePanelResultInfo()
     Oculus::Platform::Models::InvitePanelResultInfo* GetInvitePanelResultInfo();
   }; // Oculus.Platform.MessageWithInvitePanelResultInfo
-  // Writing MetadataGetter for method: MessageWithInvitePanelResultInfo::GetDataFromMessage
-  // Il2CppName: GetDataFromMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo* (MessageWithInvitePanelResultInfo::*)(System::IntPtr)>(&MessageWithInvitePanelResultInfo::GetDataFromMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageWithInvitePanelResultInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithInvitePanelResultInfo::*)(System::IntPtr)>(&MessageWithInvitePanelResultInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithInvitePanelResultInfo::*)(System::IntPtr)>(&MessageWithInvitePanelResultInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo
-  // Il2CppName: GetInvitePanelResultInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo* (MessageWithInvitePanelResultInfo::*)()>(&MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), "GetInvitePanelResultInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithInvitePanelResultInfo*, "Oculus.Platform", "MessageWithInvitePanelResultInfo");
+// Writing MetadataGetter for method: MessageWithInvitePanelResultInfo::GetDataFromMessage
+// Il2CppName: GetDataFromMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo* (MessageWithInvitePanelResultInfo::*)(System::IntPtr)>(&MessageWithInvitePanelResultInfo::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: MessageWithInvitePanelResultInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithInvitePanelResultInfo::*)(System::IntPtr)>(&MessageWithInvitePanelResultInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithInvitePanelResultInfo::*)(System::IntPtr)>(&MessageWithInvitePanelResultInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo
+// Il2CppName: GetInvitePanelResultInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo* (MessageWithInvitePanelResultInfo::*)()>(&MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageWithInvitePanelResultInfo*), "GetInvitePanelResultInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

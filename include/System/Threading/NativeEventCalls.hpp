@@ -46,54 +46,54 @@ namespace System::Threading {
     static void CloseEvent_internal(System::IntPtr handle);
   }; // System.Threading.NativeEventCalls
   #pragma pack(pop)
-  // Writing MetadataGetter for method: NativeEventCalls::CreateEvent_internal
-  // Il2CppName: CreateEvent_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(bool, bool, ::Il2CppString*, int&)>(&NativeEventCalls::CreateEvent_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "CreateEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeEventCalls::SetEvent
-  // Il2CppName: SetEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&NativeEventCalls::SetEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "SetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeEventCalls::SetEvent_internal
-  // Il2CppName: SetEvent_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&NativeEventCalls::SetEvent_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "SetEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeEventCalls::ResetEvent
-  // Il2CppName: ResetEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&NativeEventCalls::ResetEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "ResetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeEventCalls::ResetEvent_internal
-  // Il2CppName: ResetEvent_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&NativeEventCalls::ResetEvent_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "ResetEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeEventCalls::CloseEvent_internal
-  // Il2CppName: CloseEvent_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&NativeEventCalls::CloseEvent_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "CloseEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeEventCalls*, "System.Threading", "NativeEventCalls");
+// Writing MetadataGetter for method: NativeEventCalls::CreateEvent_internal
+// Il2CppName: CreateEvent_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(bool, bool, ::Il2CppString*, int&)>(&NativeEventCalls::CreateEvent_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "CreateEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: NativeEventCalls::SetEvent
+// Il2CppName: SetEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&NativeEventCalls::SetEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "SetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
+  }
+};
+// Writing MetadataGetter for method: NativeEventCalls::SetEvent_internal
+// Il2CppName: SetEvent_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&NativeEventCalls::SetEvent_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "SetEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: NativeEventCalls::ResetEvent
+// Il2CppName: ResetEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&NativeEventCalls::ResetEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "ResetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
+  }
+};
+// Writing MetadataGetter for method: NativeEventCalls::ResetEvent_internal
+// Il2CppName: ResetEvent_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&NativeEventCalls::ResetEvent_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "ResetEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: NativeEventCalls::CloseEvent_internal
+// Il2CppName: CloseEvent_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&NativeEventCalls::CloseEvent_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeEventCalls*), "CloseEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};

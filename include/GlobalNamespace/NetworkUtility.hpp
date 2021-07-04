@@ -47,62 +47,62 @@ namespace GlobalNamespace {
     static ::Il2CppString* GetHashBase64(::Il2CppString* input);
   }; // NetworkUtility
   #pragma pack(pop)
-  // Writing MetadataGetter for method: NetworkUtility::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetworkUtility::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkUtility::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetworkUtility::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkUtility::GetHashedUserId
-  // Il2CppName: GetHashedUserId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, GlobalNamespace::AuthenticationToken::Platform)>(&NetworkUtility::GetHashedUserId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "GetHashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AuthenticationToken::Platform>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkUtility::EncryptName
-  // Il2CppName: EncryptName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NetworkUtility::EncryptName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "EncryptName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkUtility::DecryptName
-  // Il2CppName: DecryptName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NetworkUtility::DecryptName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "DecryptName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkUtility::GenerateId
-  // Il2CppName: GenerateId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&NetworkUtility::GenerateId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "GenerateId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetworkUtility::GetHashBase64
-  // Il2CppName: GetHashBase64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NetworkUtility::GetHashBase64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "GetHashBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkUtility*, "", "NetworkUtility");
+// Writing MetadataGetter for method: NetworkUtility::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetworkUtility::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkUtility::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetworkUtility::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkUtility::GetHashedUserId
+// Il2CppName: GetHashedUserId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, GlobalNamespace::AuthenticationToken::Platform)>(&NetworkUtility::GetHashedUserId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "GetHashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AuthenticationToken::Platform>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkUtility::EncryptName
+// Il2CppName: EncryptName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NetworkUtility::EncryptName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "EncryptName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkUtility::DecryptName
+// Il2CppName: DecryptName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NetworkUtility::DecryptName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "DecryptName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetworkUtility::GenerateId
+// Il2CppName: GenerateId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&NetworkUtility::GenerateId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "GenerateId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetworkUtility::GetHashBase64
+// Il2CppName: GetHashBase64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NetworkUtility::GetHashBase64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetworkUtility*), "GetHashBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

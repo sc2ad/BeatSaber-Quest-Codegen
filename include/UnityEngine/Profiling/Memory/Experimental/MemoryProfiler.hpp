@@ -77,46 +77,46 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     static void SaveScreenshotToDisk(::Il2CppString* path, bool result, System::IntPtr pixelsPtr, int pixelsCount, UnityEngine::TextureFormat format, int width, int height);
   }; // UnityEngine.Profiling.Memory.Experimental.MemoryProfiler
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MemoryProfiler::PrepareMetadata
-  // Il2CppName: PrepareMetadata
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&MemoryProfiler::PrepareMetadata)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "PrepareMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MemoryProfiler::WriteIntToByteArray
-  // Il2CppName: WriteIntToByteArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int)>(&MemoryProfiler::WriteIntToByteArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "WriteIntToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MemoryProfiler::WriteStringToByteArray
-  // Il2CppName: WriteStringToByteArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, ::Il2CppString*)>(&MemoryProfiler::WriteStringToByteArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "WriteStringToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MemoryProfiler::FinalizeSnapshot
-  // Il2CppName: FinalizeSnapshot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool)>(&MemoryProfiler::FinalizeSnapshot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "FinalizeSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MemoryProfiler::SaveScreenshotToDisk
-  // Il2CppName: SaveScreenshotToDisk
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, System::IntPtr, int, UnityEngine::TextureFormat, int, int)>(&MemoryProfiler::SaveScreenshotToDisk)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "SaveScreenshotToDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler*, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");
+// Writing MetadataGetter for method: MemoryProfiler::PrepareMetadata
+// Il2CppName: PrepareMetadata
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&MemoryProfiler::PrepareMetadata)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "PrepareMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MemoryProfiler::WriteIntToByteArray
+// Il2CppName: WriteIntToByteArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int)>(&MemoryProfiler::WriteIntToByteArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "WriteIntToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MemoryProfiler::WriteStringToByteArray
+// Il2CppName: WriteStringToByteArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, ::Il2CppString*)>(&MemoryProfiler::WriteStringToByteArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "WriteStringToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MemoryProfiler::FinalizeSnapshot
+// Il2CppName: FinalizeSnapshot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool)>(&MemoryProfiler::FinalizeSnapshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "FinalizeSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MemoryProfiler::SaveScreenshotToDisk
+// Il2CppName: SaveScreenshotToDisk
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, System::IntPtr, int, UnityEngine::TextureFormat, int, int)>(&MemoryProfiler::SaveScreenshotToDisk)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemoryProfiler*), "SaveScreenshotToDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -268,120 +268,120 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(DisposeBlock), 24 + sizeof(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>*)> __Zenject_DisposeBlockSizeCheck;
   static_assert(sizeof(DisposeBlock) == 0x20);
-  // Writing MetadataGetter for method: DisposeBlock::OnSpawned
-  // Il2CppName: OnSpawned
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&DisposeBlock::OnSpawned)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::OnDespawned
-  // Il2CppName: OnDespawned
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&DisposeBlock::OnDespawned)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::LazyInitializeDisposableList
-  // Il2CppName: LazyInitializeDisposableList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::LazyInitializeDisposableList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "LazyInitializeDisposableList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::AddRange
-  // Il2CppName: AddRange
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)(System::IDisposable*)>(&DisposeBlock::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::Remove
-  // Il2CppName: Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)(System::IDisposable*)>(&DisposeBlock::Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::StoreSpawnedObject
-  // Il2CppName: StoreSpawnedObject
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::SpawnList
-  // Il2CppName: SpawnList
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::SpawnList
-  // Il2CppName: SpawnList
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: DisposeBlock::Spawn
-  // Il2CppName: Spawn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DisposeBlock* (*)()>(&DisposeBlock::Spawn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Spawn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DisposeBlock::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DisposeBlock::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
+// Writing MetadataGetter for method: DisposeBlock::OnSpawned
+// Il2CppName: OnSpawned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&DisposeBlock::OnSpawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::OnDespawned
+// Il2CppName: OnDespawned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&DisposeBlock::OnDespawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::LazyInitializeDisposableList
+// Il2CppName: LazyInitializeDisposableList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::LazyInitializeDisposableList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "LazyInitializeDisposableList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::AddRange
+// Il2CppName: AddRange
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)(System::IDisposable*)>(&DisposeBlock::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::Remove
+// Il2CppName: Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)(System::IDisposable*)>(&DisposeBlock::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::StoreSpawnedObject
+// Il2CppName: StoreSpawnedObject
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::SpawnList
+// Il2CppName: SpawnList
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::SpawnList
+// Il2CppName: SpawnList
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: DisposeBlock::Spawn
+// Il2CppName: Spawn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DisposeBlock* (*)()>(&DisposeBlock::Spawn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Spawn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DisposeBlock::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisposeBlock::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposeBlock::*)()>(&DisposeBlock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisposeBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

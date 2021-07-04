@@ -56,27 +56,27 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(KerningTable::$$c__DisplayClass3_0), 20 + sizeof(uint)> __TMPro_KerningTable_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(KerningTable::$$c__DisplayClass3_0) == 0x18);
-  // Writing MetadataGetter for method: KerningTable::$$c__DisplayClass3_0::$AddKerningPair$b__0
-  // Il2CppName: <AddKerningPair>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KerningTable::$$c__DisplayClass3_0::*)(TMPro::KerningPair*)>(&KerningTable::$$c__DisplayClass3_0::$AddKerningPair$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningTable::$$c__DisplayClass3_0*), "<AddKerningPair>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::KerningPair*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KerningTable::$$c__DisplayClass3_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::$$c__DisplayClass3_0::*)()>(&KerningTable::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningTable::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::$$c__DisplayClass3_0::*)()>(&KerningTable::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningTable::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c__DisplayClass3_0*, "TMPro", "KerningTable/<>c__DisplayClass3_0");
+// Writing MetadataGetter for method: KerningTable::$$c__DisplayClass3_0::$AddKerningPair$b__0
+// Il2CppName: <AddKerningPair>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KerningTable::$$c__DisplayClass3_0::*)(TMPro::KerningPair*)>(&KerningTable::$$c__DisplayClass3_0::$AddKerningPair$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningTable::$$c__DisplayClass3_0*), "<AddKerningPair>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::KerningPair*>()});
+  }
+};
+// Writing MetadataGetter for method: KerningTable::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::$$c__DisplayClass3_0::*)()>(&KerningTable::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningTable::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::$$c__DisplayClass3_0::*)()>(&KerningTable::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningTable::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

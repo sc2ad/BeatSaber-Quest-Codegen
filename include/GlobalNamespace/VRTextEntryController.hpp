@@ -176,155 +176,155 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRTextEntryController), 80 + sizeof(bool)> __GlobalNamespace_VRTextEntryControllerSizeCheck;
   static_assert(sizeof(VRTextEntryController) == 0x51);
-  // Writing MetadataGetter for method: VRTextEntryController::add_textDidChangeEvent
-  // Il2CppName: add_textDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action_1<::Il2CppString*>*)>(&VRTextEntryController::add_textDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "add_textDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::remove_textDidChangeEvent
-  // Il2CppName: remove_textDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action_1<::Il2CppString*>*)>(&VRTextEntryController::remove_textDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "remove_textDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::add_okButtonWasPressedEvent
-  // Il2CppName: add_okButtonWasPressedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::add_okButtonWasPressedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "add_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::remove_okButtonWasPressedEvent
-  // Il2CppName: remove_okButtonWasPressedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::remove_okButtonWasPressedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "remove_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::add_cancelButtonWasPressedEvent
-  // Il2CppName: add_cancelButtonWasPressedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::add_cancelButtonWasPressedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "add_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::remove_cancelButtonWasPressedEvent
-  // Il2CppName: remove_cancelButtonWasPressedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::remove_cancelButtonWasPressedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "remove_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::set_hideCancelButton
-  // Il2CppName: set_hideCancelButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(bool)>(&VRTextEntryController::set_hideCancelButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "set_hideCancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::get_text
-  // Il2CppName: get_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRTextEntryController::*)()>(&VRTextEntryController::get_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::set_text
-  // Il2CppName: set_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(::Il2CppString*)>(&VRTextEntryController::set_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::BlinkCursor
-  // Il2CppName: BlinkCursor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (VRTextEntryController::*)()>(&VRTextEntryController::BlinkCursor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "BlinkCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::HandleUIKeyboardTextKeyWasPressed
-  // Il2CppName: HandleUIKeyboardTextKeyWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(::Il2CppChar)>(&VRTextEntryController::HandleUIKeyboardTextKeyWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "HandleUIKeyboardTextKeyWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::HandleUIKeyboardDeleteButtonWasPressed
-  // Il2CppName: HandleUIKeyboardDeleteButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::HandleUIKeyboardDeleteButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "HandleUIKeyboardDeleteButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::$Awake$b__20_0
-  // Il2CppName: <Awake>b__20_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::$Awake$b__20_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "<Awake>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::$Awake$b__20_1
-  // Il2CppName: <Awake>b__20_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::$Awake$b__20_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "<Awake>b__20_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRTextEntryController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");
+// Writing MetadataGetter for method: VRTextEntryController::add_textDidChangeEvent
+// Il2CppName: add_textDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action_1<::Il2CppString*>*)>(&VRTextEntryController::add_textDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "add_textDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::remove_textDidChangeEvent
+// Il2CppName: remove_textDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action_1<::Il2CppString*>*)>(&VRTextEntryController::remove_textDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "remove_textDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::add_okButtonWasPressedEvent
+// Il2CppName: add_okButtonWasPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::add_okButtonWasPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "add_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::remove_okButtonWasPressedEvent
+// Il2CppName: remove_okButtonWasPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::remove_okButtonWasPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "remove_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::add_cancelButtonWasPressedEvent
+// Il2CppName: add_cancelButtonWasPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::add_cancelButtonWasPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "add_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::remove_cancelButtonWasPressedEvent
+// Il2CppName: remove_cancelButtonWasPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(System::Action*)>(&VRTextEntryController::remove_cancelButtonWasPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "remove_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::set_hideCancelButton
+// Il2CppName: set_hideCancelButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(bool)>(&VRTextEntryController::set_hideCancelButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "set_hideCancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRTextEntryController::*)()>(&VRTextEntryController::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(::Il2CppString*)>(&VRTextEntryController::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::BlinkCursor
+// Il2CppName: BlinkCursor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (VRTextEntryController::*)()>(&VRTextEntryController::BlinkCursor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "BlinkCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::HandleUIKeyboardTextKeyWasPressed
+// Il2CppName: HandleUIKeyboardTextKeyWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)(::Il2CppChar)>(&VRTextEntryController::HandleUIKeyboardTextKeyWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "HandleUIKeyboardTextKeyWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::HandleUIKeyboardDeleteButtonWasPressed
+// Il2CppName: HandleUIKeyboardDeleteButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::HandleUIKeyboardDeleteButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "HandleUIKeyboardDeleteButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::$Awake$b__20_0
+// Il2CppName: <Awake>b__20_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::$Awake$b__20_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "<Awake>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::$Awake$b__20_1
+// Il2CppName: <Awake>b__20_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::$Awake$b__20_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), "<Awake>b__20_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRTextEntryController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTextEntryController::*)()>(&VRTextEntryController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRTextEntryController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

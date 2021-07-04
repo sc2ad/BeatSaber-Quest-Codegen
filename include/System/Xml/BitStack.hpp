@@ -64,59 +64,59 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(BitStack), 28 + sizeof(uint)> __System_Xml_BitStackSizeCheck;
   static_assert(sizeof(BitStack) == 0x20);
-  // Writing MetadataGetter for method: BitStack::PushBit
-  // Il2CppName: PushBit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)(bool)>(&BitStack::PushBit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PushBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: BitStack::PopBit
-  // Il2CppName: PopBit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitStack::*)()>(&BitStack::PopBit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PopBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BitStack::PeekBit
-  // Il2CppName: PeekBit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitStack::*)()>(&BitStack::PeekBit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PeekBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BitStack::PushCurr
-  // Il2CppName: PushCurr
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::PushCurr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PushCurr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BitStack::PopCurr
-  // Il2CppName: PopCurr
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::PopCurr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PopCurr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BitStack::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BitStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BitStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");
+// Writing MetadataGetter for method: BitStack::PushBit
+// Il2CppName: PushBit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)(bool)>(&BitStack::PushBit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BitStack*), "PushBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: BitStack::PopBit
+// Il2CppName: PopBit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitStack::*)()>(&BitStack::PopBit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BitStack*), "PopBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BitStack::PeekBit
+// Il2CppName: PeekBit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitStack::*)()>(&BitStack::PeekBit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BitStack*), "PeekBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BitStack::PushCurr
+// Il2CppName: PushCurr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::PushCurr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BitStack*), "PushCurr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BitStack::PopCurr
+// Il2CppName: PopCurr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::PopCurr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BitStack*), "PopCurr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BitStack::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BitStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BitStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -184,207 +184,207 @@ namespace System::Globalization {
   #pragma pack(pop)
   static check_size<sizeof(RegionInfo), 88 + sizeof(::Il2CppString*)> __System_Globalization_RegionInfoSizeCheck;
   static_assert(sizeof(RegionInfo) == 0x60);
-  // Writing MetadataGetter for method: RegionInfo::get_CurrentRegion
-  // Il2CppName: get_CurrentRegion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::RegionInfo* (*)()>(&RegionInfo::get_CurrentRegion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrentRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(int)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(int)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(::Il2CppString*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(::Il2CppString*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(System::Globalization::CultureInfo*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(System::Globalization::CultureInfo*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::GetByTerritory
-  // Il2CppName: GetByTerritory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)(System::Globalization::CultureInfo*)>(&RegionInfo::GetByTerritory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "GetByTerritory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::construct_internal_region_from_name
-  // Il2CppName: construct_internal_region_from_name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)(::Il2CppString*)>(&RegionInfo::construct_internal_region_from_name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "construct_internal_region_from_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_CurrencyEnglishName
-  // Il2CppName: get_CurrencyEnglishName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_CurrencyEnglishName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrencyEnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_CurrencySymbol
-  // Il2CppName: get_CurrencySymbol
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_CurrencySymbol)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_DisplayName
-  // Il2CppName: get_DisplayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_DisplayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_EnglishName
-  // Il2CppName: get_EnglishName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_EnglishName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_EnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_GeoId
-  // Il2CppName: get_GeoId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegionInfo::*)()>(&RegionInfo::get_GeoId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_GeoId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_IsMetric
-  // Il2CppName: get_IsMetric
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)()>(&RegionInfo::get_IsMetric)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_IsMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_ISOCurrencySymbol
-  // Il2CppName: get_ISOCurrencySymbol
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_ISOCurrencySymbol)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_ISOCurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_NativeName
-  // Il2CppName: get_NativeName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_NativeName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_NativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_CurrencyNativeName
-  // Il2CppName: get_CurrencyNativeName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_CurrencyNativeName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrencyNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_Name
-  // Il2CppName: get_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_ThreeLetterISORegionName
-  // Il2CppName: get_ThreeLetterISORegionName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_ThreeLetterISORegionName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_ThreeLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_ThreeLetterWindowsRegionName
-  // Il2CppName: get_ThreeLetterWindowsRegionName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_ThreeLetterWindowsRegionName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_ThreeLetterWindowsRegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::get_TwoLetterISORegionName
-  // Il2CppName: get_TwoLetterISORegionName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_TwoLetterISORegionName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_TwoLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::ClearCachedData
-  // Il2CppName: ClearCachedData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RegionInfo::ClearCachedData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "ClearCachedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)(::Il2CppObject*)>(&RegionInfo::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegionInfo::*)()>(&RegionInfo::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegionInfo::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
+// Writing MetadataGetter for method: RegionInfo::get_CurrentRegion
+// Il2CppName: get_CurrentRegion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::RegionInfo* (*)()>(&RegionInfo::get_CurrentRegion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrentRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(int)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(int)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(::Il2CppString*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(::Il2CppString*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(System::Globalization::CultureInfo*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegionInfo::*)(System::Globalization::CultureInfo*)>(&RegionInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::GetByTerritory
+// Il2CppName: GetByTerritory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)(System::Globalization::CultureInfo*)>(&RegionInfo::GetByTerritory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "GetByTerritory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::construct_internal_region_from_name
+// Il2CppName: construct_internal_region_from_name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)(::Il2CppString*)>(&RegionInfo::construct_internal_region_from_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "construct_internal_region_from_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_CurrencyEnglishName
+// Il2CppName: get_CurrencyEnglishName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_CurrencyEnglishName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrencyEnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_CurrencySymbol
+// Il2CppName: get_CurrencySymbol
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_CurrencySymbol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_DisplayName
+// Il2CppName: get_DisplayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_DisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_EnglishName
+// Il2CppName: get_EnglishName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_EnglishName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_EnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_GeoId
+// Il2CppName: get_GeoId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegionInfo::*)()>(&RegionInfo::get_GeoId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_GeoId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_IsMetric
+// Il2CppName: get_IsMetric
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)()>(&RegionInfo::get_IsMetric)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_IsMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_ISOCurrencySymbol
+// Il2CppName: get_ISOCurrencySymbol
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_ISOCurrencySymbol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_ISOCurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_NativeName
+// Il2CppName: get_NativeName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_NativeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_NativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_CurrencyNativeName
+// Il2CppName: get_CurrencyNativeName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_CurrencyNativeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_CurrencyNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_Name
+// Il2CppName: get_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_ThreeLetterISORegionName
+// Il2CppName: get_ThreeLetterISORegionName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_ThreeLetterISORegionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_ThreeLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_ThreeLetterWindowsRegionName
+// Il2CppName: get_ThreeLetterWindowsRegionName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_ThreeLetterWindowsRegionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_ThreeLetterWindowsRegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::get_TwoLetterISORegionName
+// Il2CppName: get_TwoLetterISORegionName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::get_TwoLetterISORegionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "get_TwoLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::ClearCachedData
+// Il2CppName: ClearCachedData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RegionInfo::ClearCachedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "ClearCachedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegionInfo::*)(::Il2CppObject*)>(&RegionInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegionInfo::*)()>(&RegionInfo::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegionInfo::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegionInfo::*)()>(&RegionInfo::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegionInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

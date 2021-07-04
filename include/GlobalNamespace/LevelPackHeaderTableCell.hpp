@@ -101,51 +101,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelPackHeaderTableCell), 128 + sizeof(UnityEngine::Color)> __GlobalNamespace_LevelPackHeaderTableCellSizeCheck;
   static_assert(sizeof(LevelPackHeaderTableCell) == 0x90);
-  // Writing MetadataGetter for method: LevelPackHeaderTableCell::SetData
-  // Il2CppName: SetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)(::Il2CppString*)>(&LevelPackHeaderTableCell::SetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelPackHeaderTableCell::RefreshVisuals
-  // Il2CppName: RefreshVisuals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)()>(&LevelPackHeaderTableCell::RefreshVisuals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelPackHeaderTableCell::SelectionDidChange
-  // Il2CppName: SelectionDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)(HMUI::SelectableCell::TransitionType)>(&LevelPackHeaderTableCell::SelectionDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelPackHeaderTableCell::HighlightDidChange
-  // Il2CppName: HighlightDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)(HMUI::SelectableCell::TransitionType)>(&LevelPackHeaderTableCell::HighlightDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelPackHeaderTableCell::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)()>(&LevelPackHeaderTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)()>(&LevelPackHeaderTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackHeaderTableCell*, "", "LevelPackHeaderTableCell");
+// Writing MetadataGetter for method: LevelPackHeaderTableCell::SetData
+// Il2CppName: SetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)(::Il2CppString*)>(&LevelPackHeaderTableCell::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelPackHeaderTableCell::RefreshVisuals
+// Il2CppName: RefreshVisuals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)()>(&LevelPackHeaderTableCell::RefreshVisuals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelPackHeaderTableCell::SelectionDidChange
+// Il2CppName: SelectionDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)(HMUI::SelectableCell::TransitionType)>(&LevelPackHeaderTableCell::SelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: LevelPackHeaderTableCell::HighlightDidChange
+// Il2CppName: HighlightDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)(HMUI::SelectableCell::TransitionType)>(&LevelPackHeaderTableCell::HighlightDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: LevelPackHeaderTableCell::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)()>(&LevelPackHeaderTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackHeaderTableCell::*)()>(&LevelPackHeaderTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackHeaderTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

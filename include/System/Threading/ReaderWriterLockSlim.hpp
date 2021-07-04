@@ -366,395 +366,395 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(ReaderWriterLockSlim), 104 + sizeof(bool)> __System_Threading_ReaderWriterLockSlimSizeCheck;
   static_assert(sizeof(ReaderWriterLockSlim) == 0x69);
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::InitializeThreadCounts
-  // Il2CppName: InitializeThreadCounts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::InitializeThreadCounts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "InitializeThreadCounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(System::Threading::LockRecursionPolicy)>(&ReaderWriterLockSlim::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::LockRecursionPolicy>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(System::Threading::LockRecursionPolicy)>(&ReaderWriterLockSlim::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::LockRecursionPolicy>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::IsRWEntryEmpty
-  // Il2CppName: IsRWEntryEmpty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::ReaderWriterCount*)>(&ReaderWriterLockSlim::IsRWEntryEmpty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "IsRWEntryEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterCount*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::IsRwHashEntryChanged
-  // Il2CppName: IsRwHashEntryChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterCount*)>(&ReaderWriterLockSlim::IsRwHashEntryChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "IsRwHashEntryChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterCount*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::GetThreadRWCount
-  // Il2CppName: GetThreadRWCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ReaderWriterCount* (ReaderWriterLockSlim::*)(bool)>(&ReaderWriterLockSlim::GetThreadRWCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "GetThreadRWCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::EnterReadLock
-  // Il2CppName: EnterReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterReadLock
-  // Il2CppName: TryEnterReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(int)>(&ReaderWriterLockSlim::TryEnterReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterReadLock
-  // Il2CppName: TryEnterReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterReadLockCore
-  // Il2CppName: TryEnterReadLockCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterReadLockCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterReadLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::EnterWriteLock
-  // Il2CppName: EnterWriteLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterWriteLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterWriteLock
-  // Il2CppName: TryEnterWriteLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(int)>(&ReaderWriterLockSlim::TryEnterWriteLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterWriteLock
-  // Il2CppName: TryEnterWriteLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterWriteLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterWriteLockCore
-  // Il2CppName: TryEnterWriteLockCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterWriteLockCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterWriteLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::EnterUpgradeableReadLock
-  // Il2CppName: EnterUpgradeableReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterUpgradeableReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterUpgradeableReadLock
-  // Il2CppName: TryEnterUpgradeableReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(int)>(&ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterUpgradeableReadLock
-  // Il2CppName: TryEnterUpgradeableReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore
-  // Il2CppName: TryEnterUpgradeableReadLockCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterUpgradeableReadLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ExitReadLock
-  // Il2CppName: ExitReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ExitWriteLock
-  // Il2CppName: ExitWriteLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitWriteLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ExitUpgradeableReadLock
-  // Il2CppName: ExitUpgradeableReadLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitUpgradeableReadLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::LazyCreateEvent
-  // Il2CppName: LazyCreateEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(System::Threading::EventWaitHandle*&, bool)>(&ReaderWriterLockSlim::LazyCreateEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "LazyCreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::EventWaitHandle*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::WaitOnEvent
-  // Il2CppName: WaitOnEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::EventWaitHandle*, uint&, System::Threading::ReaderWriterLockSlim::TimeoutTracker, bool)>(&ReaderWriterLockSlim::WaitOnEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "WaitOnEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::EventWaitHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters
-  // Il2CppName: ExitAndWakeUpAppropriateWaiters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters
-  // Il2CppName: ExitAndWakeUpAppropriateWaitersPreferringWriters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateWaitersPreferringWriters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters
-  // Il2CppName: ExitAndWakeUpAppropriateReadWaiters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateReadWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::IsWriterAcquired
-  // Il2CppName: IsWriterAcquired
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::IsWriterAcquired)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "IsWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::SetWriterAcquired
-  // Il2CppName: SetWriterAcquired
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::SetWriterAcquired)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SetWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ClearWriterAcquired
-  // Il2CppName: ClearWriterAcquired
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ClearWriterAcquired)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ClearWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::SetWritersWaiting
-  // Il2CppName: SetWritersWaiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::SetWritersWaiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SetWritersWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ClearWritersWaiting
-  // Il2CppName: ClearWritersWaiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ClearWritersWaiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ClearWritersWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::SetUpgraderWaiting
-  // Il2CppName: SetUpgraderWaiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::SetUpgraderWaiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SetUpgraderWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ClearUpgraderWaiting
-  // Il2CppName: ClearUpgraderWaiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ClearUpgraderWaiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ClearUpgraderWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::GetNumReaders
-  // Il2CppName: GetNumReaders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::GetNumReaders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "GetNumReaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::EnterMyLock
-  // Il2CppName: EnterMyLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterMyLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterMyLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::EnterMyLockSpin
-  // Il2CppName: EnterMyLockSpin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterMyLockSpin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterMyLockSpin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::ExitMyLock
-  // Il2CppName: ExitMyLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitMyLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitMyLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::SpinWait
-  // Il2CppName: SpinWait
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&ReaderWriterLockSlim::SpinWait)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(bool)>(&ReaderWriterLockSlim::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_IsReadLockHeld
-  // Il2CppName: get_IsReadLockHeld
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_IsReadLockHeld)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_IsReadLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld
-  // Il2CppName: get_IsUpgradeableReadLockHeld
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_IsUpgradeableReadLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_IsWriteLockHeld
-  // Il2CppName: get_IsWriteLockHeld
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_IsWriteLockHeld)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_IsWriteLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_RecursiveReadCount
-  // Il2CppName: get_RecursiveReadCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_RecursiveReadCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_RecursiveReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_RecursiveUpgradeCount
-  // Il2CppName: get_RecursiveUpgradeCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_RecursiveUpgradeCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_RecursiveUpgradeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_RecursiveWriteCount
-  // Il2CppName: get_RecursiveWriteCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_RecursiveWriteCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_RecursiveWriteCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_WaitingReadCount
-  // Il2CppName: get_WaitingReadCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_WaitingReadCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_WaitingReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_WaitingUpgradeCount
-  // Il2CppName: get_WaitingUpgradeCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_WaitingUpgradeCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_WaitingUpgradeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReaderWriterLockSlim::get_WaitingWriteCount
-  // Il2CppName: get_WaitingWriteCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_WaitingWriteCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_WaitingWriteCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim*, "System.Threading", "ReaderWriterLockSlim");
+// Writing MetadataGetter for method: ReaderWriterLockSlim::InitializeThreadCounts
+// Il2CppName: InitializeThreadCounts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::InitializeThreadCounts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "InitializeThreadCounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(System::Threading::LockRecursionPolicy)>(&ReaderWriterLockSlim::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::LockRecursionPolicy>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(System::Threading::LockRecursionPolicy)>(&ReaderWriterLockSlim::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::LockRecursionPolicy>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::IsRWEntryEmpty
+// Il2CppName: IsRWEntryEmpty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::ReaderWriterCount*)>(&ReaderWriterLockSlim::IsRWEntryEmpty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "IsRWEntryEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterCount*>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::IsRwHashEntryChanged
+// Il2CppName: IsRwHashEntryChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterCount*)>(&ReaderWriterLockSlim::IsRwHashEntryChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "IsRwHashEntryChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterCount*>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::GetThreadRWCount
+// Il2CppName: GetThreadRWCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ReaderWriterCount* (ReaderWriterLockSlim::*)(bool)>(&ReaderWriterLockSlim::GetThreadRWCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "GetThreadRWCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::EnterReadLock
+// Il2CppName: EnterReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterReadLock
+// Il2CppName: TryEnterReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(int)>(&ReaderWriterLockSlim::TryEnterReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterReadLock
+// Il2CppName: TryEnterReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterReadLockCore
+// Il2CppName: TryEnterReadLockCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterReadLockCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterReadLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::EnterWriteLock
+// Il2CppName: EnterWriteLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterWriteLock
+// Il2CppName: TryEnterWriteLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(int)>(&ReaderWriterLockSlim::TryEnterWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterWriteLock
+// Il2CppName: TryEnterWriteLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterWriteLockCore
+// Il2CppName: TryEnterWriteLockCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterWriteLockCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterWriteLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::EnterUpgradeableReadLock
+// Il2CppName: EnterUpgradeableReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterUpgradeableReadLock
+// Il2CppName: TryEnterUpgradeableReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(int)>(&ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterUpgradeableReadLock
+// Il2CppName: TryEnterUpgradeableReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore
+// Il2CppName: TryEnterUpgradeableReadLockCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "TryEnterUpgradeableReadLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ExitReadLock
+// Il2CppName: ExitReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ExitWriteLock
+// Il2CppName: ExitWriteLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ExitUpgradeableReadLock
+// Il2CppName: ExitUpgradeableReadLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::LazyCreateEvent
+// Il2CppName: LazyCreateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(System::Threading::EventWaitHandle*&, bool)>(&ReaderWriterLockSlim::LazyCreateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "LazyCreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::EventWaitHandle*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::WaitOnEvent
+// Il2CppName: WaitOnEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)(System::Threading::EventWaitHandle*, uint&, System::Threading::ReaderWriterLockSlim::TimeoutTracker, bool)>(&ReaderWriterLockSlim::WaitOnEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "WaitOnEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::EventWaitHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters
+// Il2CppName: ExitAndWakeUpAppropriateWaiters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters
+// Il2CppName: ExitAndWakeUpAppropriateWaitersPreferringWriters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateWaitersPreferringWriters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters
+// Il2CppName: ExitAndWakeUpAppropriateReadWaiters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateReadWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::IsWriterAcquired
+// Il2CppName: IsWriterAcquired
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::IsWriterAcquired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "IsWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::SetWriterAcquired
+// Il2CppName: SetWriterAcquired
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::SetWriterAcquired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SetWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ClearWriterAcquired
+// Il2CppName: ClearWriterAcquired
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ClearWriterAcquired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ClearWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::SetWritersWaiting
+// Il2CppName: SetWritersWaiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::SetWritersWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SetWritersWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ClearWritersWaiting
+// Il2CppName: ClearWritersWaiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ClearWritersWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ClearWritersWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::SetUpgraderWaiting
+// Il2CppName: SetUpgraderWaiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::SetUpgraderWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SetUpgraderWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ClearUpgraderWaiting
+// Il2CppName: ClearUpgraderWaiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ClearUpgraderWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ClearUpgraderWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::GetNumReaders
+// Il2CppName: GetNumReaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::GetNumReaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "GetNumReaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::EnterMyLock
+// Il2CppName: EnterMyLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterMyLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterMyLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::EnterMyLockSpin
+// Il2CppName: EnterMyLockSpin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::EnterMyLockSpin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "EnterMyLockSpin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::ExitMyLock
+// Il2CppName: ExitMyLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::ExitMyLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "ExitMyLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::SpinWait
+// Il2CppName: SpinWait
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&ReaderWriterLockSlim::SpinWait)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::*)(bool)>(&ReaderWriterLockSlim::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_IsReadLockHeld
+// Il2CppName: get_IsReadLockHeld
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_IsReadLockHeld)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_IsReadLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld
+// Il2CppName: get_IsUpgradeableReadLockHeld
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_IsUpgradeableReadLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_IsWriteLockHeld
+// Il2CppName: get_IsWriteLockHeld
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_IsWriteLockHeld)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_IsWriteLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_RecursiveReadCount
+// Il2CppName: get_RecursiveReadCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_RecursiveReadCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_RecursiveReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_RecursiveUpgradeCount
+// Il2CppName: get_RecursiveUpgradeCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_RecursiveUpgradeCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_RecursiveUpgradeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_RecursiveWriteCount
+// Il2CppName: get_RecursiveWriteCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_RecursiveWriteCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_RecursiveWriteCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_WaitingReadCount
+// Il2CppName: get_WaitingReadCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_WaitingReadCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_WaitingReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_WaitingUpgradeCount
+// Il2CppName: get_WaitingUpgradeCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_WaitingUpgradeCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_WaitingUpgradeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReaderWriterLockSlim::get_WaitingWriteCount
+// Il2CppName: get_WaitingWriteCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::*)()>(&ReaderWriterLockSlim::get_WaitingWriteCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim*), "get_WaitingWriteCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

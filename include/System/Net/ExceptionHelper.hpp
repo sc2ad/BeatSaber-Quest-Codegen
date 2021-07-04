@@ -42,38 +42,38 @@ namespace System::Net {
     static System::Net::WebException* get_RequestAbortedException();
   }; // System.Net.ExceptionHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ExceptionHelper::get_MethodNotImplementedException
-  // Il2CppName: get_MethodNotImplementedException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotImplementedException* (*)()>(&ExceptionHelper::get_MethodNotImplementedException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_MethodNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExceptionHelper::get_PropertyNotImplementedException
-  // Il2CppName: get_PropertyNotImplementedException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotImplementedException* (*)()>(&ExceptionHelper::get_PropertyNotImplementedException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_PropertyNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExceptionHelper::get_PropertyNotSupportedException
-  // Il2CppName: get_PropertyNotSupportedException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotSupportedException* (*)()>(&ExceptionHelper::get_PropertyNotSupportedException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_PropertyNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExceptionHelper::get_RequestAbortedException
-  // Il2CppName: get_RequestAbortedException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebException* (*)()>(&ExceptionHelper::get_RequestAbortedException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_RequestAbortedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ExceptionHelper*, "System.Net", "ExceptionHelper");
+// Writing MetadataGetter for method: ExceptionHelper::get_MethodNotImplementedException
+// Il2CppName: get_MethodNotImplementedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotImplementedException* (*)()>(&ExceptionHelper::get_MethodNotImplementedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_MethodNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExceptionHelper::get_PropertyNotImplementedException
+// Il2CppName: get_PropertyNotImplementedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotImplementedException* (*)()>(&ExceptionHelper::get_PropertyNotImplementedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_PropertyNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExceptionHelper::get_PropertyNotSupportedException
+// Il2CppName: get_PropertyNotSupportedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotSupportedException* (*)()>(&ExceptionHelper::get_PropertyNotSupportedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_PropertyNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExceptionHelper::get_RequestAbortedException
+// Il2CppName: get_RequestAbortedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebException* (*)()>(&ExceptionHelper::get_RequestAbortedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExceptionHelper*), "get_RequestAbortedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -95,43 +95,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SaberClashChecker), 48 + sizeof(int)> __GlobalNamespace_SaberClashCheckerSizeCheck;
   static_assert(sizeof(SaberClashChecker) == 0x34);
-  // Writing MetadataGetter for method: SaberClashChecker::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberClashChecker::*)(GlobalNamespace::SaberManager*)>(&SaberClashChecker::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberManager*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SaberClashChecker::AreSabersClashing
-  // Il2CppName: AreSabersClashing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SaberClashChecker::*)(UnityEngine::Vector3&)>(&SaberClashChecker::AreSabersClashing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), "AreSabersClashing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SaberClashChecker::SegmentToSegmentDist
-  // Il2CppName: SegmentToSegmentDist
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberClashChecker::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&SaberClashChecker::SegmentToSegmentDist)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), "SegmentToSegmentDist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SaberClashChecker::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberClashChecker::*)()>(&SaberClashChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberClashChecker::*)()>(&SaberClashChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");
+// Writing MetadataGetter for method: SaberClashChecker::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberClashChecker::*)(GlobalNamespace::SaberManager*)>(&SaberClashChecker::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberManager*>()});
+  }
+};
+// Writing MetadataGetter for method: SaberClashChecker::AreSabersClashing
+// Il2CppName: AreSabersClashing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SaberClashChecker::*)(UnityEngine::Vector3&)>(&SaberClashChecker::AreSabersClashing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), "AreSabersClashing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
+// Writing MetadataGetter for method: SaberClashChecker::SegmentToSegmentDist
+// Il2CppName: SegmentToSegmentDist
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberClashChecker::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&SaberClashChecker::SegmentToSegmentDist)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), "SegmentToSegmentDist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
+// Writing MetadataGetter for method: SaberClashChecker::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberClashChecker::*)()>(&SaberClashChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberClashChecker::*)()>(&SaberClashChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberClashChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

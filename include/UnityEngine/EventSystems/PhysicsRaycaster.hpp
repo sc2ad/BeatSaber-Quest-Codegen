@@ -138,91 +138,91 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
   static check_size<sizeof(PhysicsRaycaster), 56 + sizeof(::Array<UnityEngine::RaycastHit>*)> __UnityEngine_EventSystems_PhysicsRaycasterSizeCheck;
   static_assert(sizeof(PhysicsRaycaster) == 0x40);
-  // Writing MetadataGetter for method: PhysicsRaycaster::get_depth
-  // Il2CppName: get_depth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_depth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::get_finalEventMask
-  // Il2CppName: get_finalEventMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_finalEventMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_finalEventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::get_eventMask
-  // Il2CppName: get_eventMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_eventMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::set_eventMask
-  // Il2CppName: set_eventMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)(UnityEngine::LayerMask)>(&PhysicsRaycaster::set_eventMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "set_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::get_maxRayIntersections
-  // Il2CppName: get_maxRayIntersections
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_maxRayIntersections)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_maxRayIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::set_maxRayIntersections
-  // Il2CppName: set_maxRayIntersections
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)(int)>(&PhysicsRaycaster::set_maxRayIntersections)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "set_maxRayIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::ComputeRayAndDistance
-  // Il2CppName: ComputeRayAndDistance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PhysicsRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Ray&, int&, float&)>(&PhysicsRaycaster::ComputeRayAndDistance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "ComputeRayAndDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)()>(&PhysicsRaycaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)()>(&PhysicsRaycaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::get_eventCamera
-  // Il2CppName: get_eventCamera
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_eventCamera)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::Raycast
-  // Il2CppName: Raycast
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&PhysicsRaycaster::Raycast)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster*, "UnityEngine.EventSystems", "PhysicsRaycaster");
+// Writing MetadataGetter for method: PhysicsRaycaster::get_depth
+// Il2CppName: get_depth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_depth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::get_finalEventMask
+// Il2CppName: get_finalEventMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_finalEventMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_finalEventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::get_eventMask
+// Il2CppName: get_eventMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_eventMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::set_eventMask
+// Il2CppName: set_eventMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)(UnityEngine::LayerMask)>(&PhysicsRaycaster::set_eventMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "set_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::get_maxRayIntersections
+// Il2CppName: get_maxRayIntersections
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_maxRayIntersections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_maxRayIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::set_maxRayIntersections
+// Il2CppName: set_maxRayIntersections
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)(int)>(&PhysicsRaycaster::set_maxRayIntersections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "set_maxRayIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::ComputeRayAndDistance
+// Il2CppName: ComputeRayAndDistance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PhysicsRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Ray&, int&, float&)>(&PhysicsRaycaster::ComputeRayAndDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "ComputeRayAndDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)()>(&PhysicsRaycaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)()>(&PhysicsRaycaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::get_eventCamera
+// Il2CppName: get_eventCamera
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (PhysicsRaycaster::*)()>(&PhysicsRaycaster::get_eventCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::Raycast
+// Il2CppName: Raycast
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&PhysicsRaycaster::Raycast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
+  }
+};

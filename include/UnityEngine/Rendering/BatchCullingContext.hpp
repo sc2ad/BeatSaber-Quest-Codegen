@@ -58,19 +58,19 @@ namespace UnityEngine::Rendering {
     // ABORTED: conflicts with another method.  BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> inCullingPlanes, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility, Unity::Collections::NativeArray_1<int> outVisibleIndices, UnityEngine::Rendering::LODParameters inLodParameters)
   }; // UnityEngine.Rendering.BatchCullingContext
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: BatchCullingContext::BatchCullingContext
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BatchCullingContext::*)(Unity::Collections::NativeArray_1<UnityEngine::Plane>, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>, Unity::Collections::NativeArray_1<int>, UnityEngine::Rendering::LODParameters)>(&BatchCullingContext::BatchCullingContext<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BatchCullingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Plane>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<int>>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BatchCullingContext::*)(Unity::Collections::NativeArray_1<UnityEngine::Plane>, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>, Unity::Collections::NativeArray_1<int>, UnityEngine::Rendering::LODParameters)>(&BatchCullingContext::BatchCullingContext<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BatchCullingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Plane>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<int>>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchCullingContext, "UnityEngine.Rendering", "BatchCullingContext");
+// Writing MetadataGetter for method: BatchCullingContext::BatchCullingContext
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BatchCullingContext::*)(Unity::Collections::NativeArray_1<UnityEngine::Plane>, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>, Unity::Collections::NativeArray_1<int>, UnityEngine::Rendering::LODParameters)>(&BatchCullingContext::BatchCullingContext<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BatchCullingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Plane>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<int>>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BatchCullingContext::*)(Unity::Collections::NativeArray_1<UnityEngine::Plane>, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>, Unity::Collections::NativeArray_1<int>, UnityEngine::Rendering::LODParameters)>(&BatchCullingContext::BatchCullingContext<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BatchCullingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Plane>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility>>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<int>>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters>()});
+  }
+};

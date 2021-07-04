@@ -62,51 +62,51 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   #pragma pack(pop)
   static check_size<sizeof(MemberReference), 16 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_MemberReferenceSizeCheck;
   static_assert(sizeof(MemberReference) == 0x14);
-  // Writing MetadataGetter for method: MemberReference::Set
-  // Il2CppName: Set
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)(int)>(&MemberReference::Set)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MemberReference::Write
-  // Il2CppName: Write
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&MemberReference::Write)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MemberReference::Read
-  // Il2CppName: Read
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&MemberReference::Read)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MemberReference::Dump
-  // Il2CppName: Dump
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)()>(&MemberReference::Dump)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MemberReference::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)()>(&MemberReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemberReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)()>(&MemberReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MemberReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberReference*, "System.Runtime.Serialization.Formatters.Binary", "MemberReference");
+// Writing MetadataGetter for method: MemberReference::Set
+// Il2CppName: Set
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)(int)>(&MemberReference::Set)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MemberReference::Write
+// Il2CppName: Write
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&MemberReference::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: MemberReference::Read
+// Il2CppName: Read
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&MemberReference::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>()});
+  }
+};
+// Writing MetadataGetter for method: MemberReference::Dump
+// Il2CppName: Dump
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)()>(&MemberReference::Dump)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemberReference*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MemberReference::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)()>(&MemberReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemberReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberReference::*)()>(&MemberReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MemberReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

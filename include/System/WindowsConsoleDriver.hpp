@@ -85,59 +85,59 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(WindowsConsoleDriver), 32 + sizeof(int16_t)> __System_WindowsConsoleDriverSizeCheck;
   static_assert(sizeof(WindowsConsoleDriver) == 0x22);
-  // Writing MetadataGetter for method: WindowsConsoleDriver::ReadKey
-  // Il2CppName: ReadKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (WindowsConsoleDriver::*)(bool)>(&WindowsConsoleDriver::ReadKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsConsoleDriver::IsModifierKey
-  // Il2CppName: IsModifierKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int16_t)>(&WindowsConsoleDriver::IsModifierKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "IsModifierKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsConsoleDriver::GetStdHandle
-  // Il2CppName: GetStdHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Handles)>(&WindowsConsoleDriver::GetStdHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "GetStdHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Handles>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsConsoleDriver::GetConsoleScreenBufferInfo
-  // Il2CppName: GetConsoleScreenBufferInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::ConsoleScreenBufferInfo&)>(&WindowsConsoleDriver::GetConsoleScreenBufferInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "GetConsoleScreenBufferInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleScreenBufferInfo&>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsConsoleDriver::ReadConsoleInput
-  // Il2CppName: ReadConsoleInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::InputRecord&, int, int&)>(&WindowsConsoleDriver::ReadConsoleInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "ReadConsoleInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::InputRecord&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsConsoleDriver::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsConsoleDriver::*)()>(&WindowsConsoleDriver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsConsoleDriver::*)()>(&WindowsConsoleDriver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleDriver");
+// Writing MetadataGetter for method: WindowsConsoleDriver::ReadKey
+// Il2CppName: ReadKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (WindowsConsoleDriver::*)(bool)>(&WindowsConsoleDriver::ReadKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsConsoleDriver::IsModifierKey
+// Il2CppName: IsModifierKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int16_t)>(&WindowsConsoleDriver::IsModifierKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "IsModifierKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsConsoleDriver::GetStdHandle
+// Il2CppName: GetStdHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Handles)>(&WindowsConsoleDriver::GetStdHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "GetStdHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Handles>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsConsoleDriver::GetConsoleScreenBufferInfo
+// Il2CppName: GetConsoleScreenBufferInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::ConsoleScreenBufferInfo&)>(&WindowsConsoleDriver::GetConsoleScreenBufferInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "GetConsoleScreenBufferInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleScreenBufferInfo&>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsConsoleDriver::ReadConsoleInput
+// Il2CppName: ReadConsoleInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::InputRecord&, int, int&)>(&WindowsConsoleDriver::ReadConsoleInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), "ReadConsoleInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::InputRecord&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsConsoleDriver::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsConsoleDriver::*)()>(&WindowsConsoleDriver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsConsoleDriver::*)()>(&WindowsConsoleDriver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsConsoleDriver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

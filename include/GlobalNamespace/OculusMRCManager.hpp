@@ -69,27 +69,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusMRCManager), 24 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_OculusMRCManagerSizeCheck;
   static_assert(sizeof(OculusMRCManager) == 0x20);
-  // Writing MetadataGetter for method: OculusMRCManager::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusMRCManager::*)(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*, System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*)>(&OculusMRCManager::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusMRCManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusMRCManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusMRCManager::*)()>(&OculusMRCManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusMRCManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusMRCManager::*)()>(&OculusMRCManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusMRCManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager*, "", "OculusMRCManager");
+// Writing MetadataGetter for method: OculusMRCManager::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusMRCManager::*)(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*, System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*)>(&OculusMRCManager::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusMRCManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusMRCManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusMRCManager::*)()>(&OculusMRCManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusMRCManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusMRCManager::*)()>(&OculusMRCManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusMRCManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -62,35 +62,35 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
   static check_size<sizeof(ExclusiveReference), 32 + sizeof(int)> __System_Text_RegularExpressions_ExclusiveReferenceSizeCheck;
   static_assert(sizeof(ExclusiveReference) == 0x24);
-  // Writing MetadataGetter for method: ExclusiveReference::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ExclusiveReference::*)()>(&ExclusiveReference::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExclusiveReference::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExclusiveReference::*)(::Il2CppObject*)>(&ExclusiveReference::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExclusiveReference::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExclusiveReference::*)()>(&ExclusiveReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExclusiveReference::*)()>(&ExclusiveReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::ExclusiveReference*, "System.Text.RegularExpressions", "ExclusiveReference");
+// Writing MetadataGetter for method: ExclusiveReference::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ExclusiveReference::*)()>(&ExclusiveReference::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExclusiveReference::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExclusiveReference::*)(::Il2CppObject*)>(&ExclusiveReference::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ExclusiveReference::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExclusiveReference::*)()>(&ExclusiveReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExclusiveReference::*)()>(&ExclusiveReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExclusiveReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

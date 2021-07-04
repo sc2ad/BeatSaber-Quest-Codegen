@@ -53,22 +53,22 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
   static check_size<sizeof(ConstraintBuilder), 32 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ConstraintBuilderSizeCheck;
   static_assert(sizeof(ConstraintBuilder) == 0x28);
-  // Writing MetadataGetter for method: ConstraintBuilder::Resolve
-  // Il2CppName: Resolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (ConstraintBuilder::*)()>(&ConstraintBuilder::Resolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConstraintBuilder::get_IsResolvable
-  // Il2CppName: get_IsResolvable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstraintBuilder::*)()>(&ConstraintBuilder::get_IsResolvable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");
+// Writing MetadataGetter for method: ConstraintBuilder::Resolve
+// Il2CppName: Resolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (ConstraintBuilder::*)()>(&ConstraintBuilder::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConstraintBuilder::get_IsResolvable
+// Il2CppName: get_IsResolvable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstraintBuilder::*)()>(&ConstraintBuilder::get_IsResolvable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

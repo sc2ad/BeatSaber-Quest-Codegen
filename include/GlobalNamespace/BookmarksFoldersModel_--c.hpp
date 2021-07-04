@@ -56,35 +56,35 @@ namespace GlobalNamespace {
     }
   }; // BookmarksFoldersModel/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BookmarksFoldersModel::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BookmarksFoldersModel::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0
-  // Il2CppName: <get_bookmarksFolders>b__3_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BookmarksFoldersModel::$$c::*)(System::Environment::SpecialFolder)>(&BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), "<get_bookmarksFolders>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Environment::SpecialFolder>()});
-    }
-  };
-  // Writing MetadataGetter for method: BookmarksFoldersModel::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BookmarksFoldersModel::$$c::*)()>(&BookmarksFoldersModel::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BookmarksFoldersModel::$$c::*)()>(&BookmarksFoldersModel::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel::$$c*, "", "BookmarksFoldersModel/<>c");
+// Writing MetadataGetter for method: BookmarksFoldersModel::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BookmarksFoldersModel::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0
+// Il2CppName: <get_bookmarksFolders>b__3_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BookmarksFoldersModel::$$c::*)(System::Environment::SpecialFolder)>(&BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), "<get_bookmarksFolders>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Environment::SpecialFolder>()});
+  }
+};
+// Writing MetadataGetter for method: BookmarksFoldersModel::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BookmarksFoldersModel::$$c::*)()>(&BookmarksFoldersModel::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BookmarksFoldersModel::$$c::*)()>(&BookmarksFoldersModel::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BookmarksFoldersModel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

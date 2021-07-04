@@ -55,35 +55,35 @@ namespace UnityEngine::Bindings {
   #pragma pack(pop)
   static check_size<sizeof(NativeConditionalAttribute), 24 + sizeof(bool)> __UnityEngine_Bindings_NativeConditionalAttributeSizeCheck;
   static_assert(sizeof(NativeConditionalAttribute) == 0x19);
-  // Writing MetadataGetter for method: NativeConditionalAttribute::set_Condition
-  // Il2CppName: set_Condition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(::Il2CppString*)>(&NativeConditionalAttribute::set_Condition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), "set_Condition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeConditionalAttribute::set_Enabled
-  // Il2CppName: set_Enabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(bool)>(&NativeConditionalAttribute::set_Enabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), "set_Enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeConditionalAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(::Il2CppString*)>(&NativeConditionalAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(::Il2CppString*)>(&NativeConditionalAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
+// Writing MetadataGetter for method: NativeConditionalAttribute::set_Condition
+// Il2CppName: set_Condition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(::Il2CppString*)>(&NativeConditionalAttribute::set_Condition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), "set_Condition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NativeConditionalAttribute::set_Enabled
+// Il2CppName: set_Enabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(bool)>(&NativeConditionalAttribute::set_Enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), "set_Enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NativeConditionalAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(::Il2CppString*)>(&NativeConditionalAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeConditionalAttribute::*)(::Il2CppString*)>(&NativeConditionalAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeConditionalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

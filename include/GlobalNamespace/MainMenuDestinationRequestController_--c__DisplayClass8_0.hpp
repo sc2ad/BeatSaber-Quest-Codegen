@@ -59,27 +59,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainMenuDestinationRequestController::$$c__DisplayClass8_0), 16 + sizeof(GlobalNamespace::MenuDestination*)> __GlobalNamespace_MainMenuDestinationRequestController_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(MainMenuDestinationRequestController::$$c__DisplayClass8_0) == 0x18);
-  // Writing MetadataGetter for method: MainMenuDestinationRequestController::$$c__DisplayClass8_0::$ProcessDestinationRequest$b__0
-  // Il2CppName: <ProcessDestinationRequest>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::$$c__DisplayClass8_0::*)(Zenject::DiContainer*)>(&MainMenuDestinationRequestController::$$c__DisplayClass8_0::$ProcessDestinationRequest$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController::$$c__DisplayClass8_0*), "<ProcessDestinationRequest>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainMenuDestinationRequestController::$$c__DisplayClass8_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::$$c__DisplayClass8_0::*)()>(&MainMenuDestinationRequestController::$$c__DisplayClass8_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController::$$c__DisplayClass8_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::$$c__DisplayClass8_0::*)()>(&MainMenuDestinationRequestController::$$c__DisplayClass8_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController::$$c__DisplayClass8_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0*, "", "MainMenuDestinationRequestController/<>c__DisplayClass8_0");
+// Writing MetadataGetter for method: MainMenuDestinationRequestController::$$c__DisplayClass8_0::$ProcessDestinationRequest$b__0
+// Il2CppName: <ProcessDestinationRequest>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::$$c__DisplayClass8_0::*)(Zenject::DiContainer*)>(&MainMenuDestinationRequestController::$$c__DisplayClass8_0::$ProcessDestinationRequest$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController::$$c__DisplayClass8_0*), "<ProcessDestinationRequest>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: MainMenuDestinationRequestController::$$c__DisplayClass8_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::$$c__DisplayClass8_0::*)()>(&MainMenuDestinationRequestController::$$c__DisplayClass8_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController::$$c__DisplayClass8_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::$$c__DisplayClass8_0::*)()>(&MainMenuDestinationRequestController::$$c__DisplayClass8_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController::$$c__DisplayClass8_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

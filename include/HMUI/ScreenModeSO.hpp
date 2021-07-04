@@ -53,27 +53,27 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ScreenModeSO), 24 + sizeof(HMUI::ScreenModeData*)> __HMUI_ScreenModeSOSizeCheck;
   static_assert(sizeof(ScreenModeSO) == 0x20);
-  // Writing MetadataGetter for method: ScreenModeSO::get_data
-  // Il2CppName: get_data
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ScreenModeData* (ScreenModeSO::*)()>(&ScreenModeSO::get_data)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeSO*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScreenModeSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeSO::*)()>(&ScreenModeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeSO::*)()>(&ScreenModeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeSO*, "HMUI", "ScreenModeSO");
+// Writing MetadataGetter for method: ScreenModeSO::get_data
+// Il2CppName: get_data
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ScreenModeData* (ScreenModeSO::*)()>(&ScreenModeSO::get_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeSO*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenModeSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeSO::*)()>(&ScreenModeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeSO::*)()>(&ScreenModeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

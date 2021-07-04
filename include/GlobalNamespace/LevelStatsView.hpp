@@ -77,35 +77,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelStatsView), 40 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_LevelStatsViewSizeCheck;
   static_assert(sizeof(LevelStatsView) == 0x30);
-  // Writing MetadataGetter for method: LevelStatsView::Hide
-  // Il2CppName: Hide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)()>(&LevelStatsView::Hide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelStatsView::ShowStats
-  // Il2CppName: ShowStats
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::PlayerData*)>(&LevelStatsView::ShowStats)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), "ShowStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelStatsView::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)()>(&LevelStatsView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)()>(&LevelStatsView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelStatsView*, "", "LevelStatsView");
+// Writing MetadataGetter for method: LevelStatsView::Hide
+// Il2CppName: Hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)()>(&LevelStatsView::Hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelStatsView::ShowStats
+// Il2CppName: ShowStats
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::PlayerData*)>(&LevelStatsView::ShowStats)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), "ShowStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerData*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelStatsView::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)()>(&LevelStatsView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelStatsView::*)()>(&LevelStatsView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelStatsView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

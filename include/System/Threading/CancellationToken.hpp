@@ -126,163 +126,163 @@ namespace System::Threading {
   // static public System.Boolean op_Inequality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x18A9024
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
-  // Writing MetadataGetter for method: CancellationToken::get_None
-  // Il2CppName: get_None
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationToken (*)()>(&CancellationToken::get_None)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "get_None", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::get_IsCancellationRequested
-  // Il2CppName: get_IsCancellationRequested
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)()>(&CancellationToken::get_IsCancellationRequested)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "get_IsCancellationRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::get_CanBeCanceled
-  // Il2CppName: get_CanBeCanceled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)()>(&CancellationToken::get_CanBeCanceled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "get_CanBeCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::CancellationToken
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)(System::Threading::CancellationTokenSource*)>(&CancellationToken::CancellationToken<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenSource*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)(System::Threading::CancellationTokenSource*)>(&CancellationToken::CancellationToken<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenSource*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::ActionToActionObjShunt
-  // Il2CppName: ActionToActionObjShunt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&CancellationToken::ActionToActionObjShunt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ActionToActionObjShunt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::Register
-  // Il2CppName: Register
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action*)>(&CancellationToken::Register)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::Register
-  // Il2CppName: Register
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&CancellationToken::Register)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::InternalRegisterWithoutEC
-  // Il2CppName: InternalRegisterWithoutEC
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&CancellationToken::InternalRegisterWithoutEC)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "InternalRegisterWithoutEC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::Register
-  // Il2CppName: Register
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, bool, bool)>(&CancellationToken::Register)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)(System::Threading::CancellationToken)>(&CancellationToken::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::ThrowIfCancellationRequested
-  // Il2CppName: ThrowIfCancellationRequested
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)()>(&CancellationToken::ThrowIfCancellationRequested)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowIfCancellationRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::ThrowIfSourceDisposed
-  // Il2CppName: ThrowIfSourceDisposed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)()>(&CancellationToken::ThrowIfSourceDisposed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowIfSourceDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::ThrowOperationCanceledException
-  // Il2CppName: ThrowOperationCanceledException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)()>(&CancellationToken::ThrowOperationCanceledException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowOperationCanceledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::ThrowObjectDisposedException
-  // Il2CppName: ThrowObjectDisposedException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CancellationToken::ThrowObjectDisposedException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowObjectDisposedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CancellationToken::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)(::Il2CppObject*)>(&CancellationToken::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CancellationToken::*)()>(&CancellationToken::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::operator ==
-  // Il2CppName: op_Equality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Threading::CancellationToken&, const System::Threading::CancellationToken&)>(&CancellationToken::operator ==)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>(), ::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationToken::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Threading::CancellationToken&, const System::Threading::CancellationToken&)>(&CancellationToken::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationToken), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>(), ::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
+// Writing MetadataGetter for method: CancellationToken::get_None
+// Il2CppName: get_None
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationToken (*)()>(&CancellationToken::get_None)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "get_None", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::get_IsCancellationRequested
+// Il2CppName: get_IsCancellationRequested
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)()>(&CancellationToken::get_IsCancellationRequested)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "get_IsCancellationRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::get_CanBeCanceled
+// Il2CppName: get_CanBeCanceled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)()>(&CancellationToken::get_CanBeCanceled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "get_CanBeCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::CancellationToken
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)(System::Threading::CancellationTokenSource*)>(&CancellationToken::CancellationToken<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenSource*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)(System::Threading::CancellationTokenSource*)>(&CancellationToken::CancellationToken<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenSource*>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::ActionToActionObjShunt
+// Il2CppName: ActionToActionObjShunt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&CancellationToken::ActionToActionObjShunt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ActionToActionObjShunt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::Register
+// Il2CppName: Register
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action*)>(&CancellationToken::Register)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::Register
+// Il2CppName: Register
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&CancellationToken::Register)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::InternalRegisterWithoutEC
+// Il2CppName: InternalRegisterWithoutEC
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&CancellationToken::InternalRegisterWithoutEC)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "InternalRegisterWithoutEC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::Register
+// Il2CppName: Register
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, bool, bool)>(&CancellationToken::Register)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)(System::Threading::CancellationToken)>(&CancellationToken::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::ThrowIfCancellationRequested
+// Il2CppName: ThrowIfCancellationRequested
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)()>(&CancellationToken::ThrowIfCancellationRequested)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowIfCancellationRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::ThrowIfSourceDisposed
+// Il2CppName: ThrowIfSourceDisposed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)()>(&CancellationToken::ThrowIfSourceDisposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowIfSourceDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::ThrowOperationCanceledException
+// Il2CppName: ThrowOperationCanceledException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationToken::*)()>(&CancellationToken::ThrowOperationCanceledException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowOperationCanceledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::ThrowObjectDisposedException
+// Il2CppName: ThrowObjectDisposedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CancellationToken::ThrowObjectDisposedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "ThrowObjectDisposedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CancellationToken::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationToken::*)(::Il2CppObject*)>(&CancellationToken::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CancellationToken::*)()>(&CancellationToken::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Threading::CancellationToken&, const System::Threading::CancellationToken&)>(&CancellationToken::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>(), ::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationToken::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Threading::CancellationToken&, const System::Threading::CancellationToken&)>(&CancellationToken::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationToken), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>(), ::il2cpp_utils::ExtractIndependentType<const System::Threading::CancellationToken&>()});
+  }
+};

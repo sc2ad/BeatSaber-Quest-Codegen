@@ -43,19 +43,19 @@ namespace System::Reflection {
   #pragma pack(pop)
   static check_size<sizeof(AssemblyProductAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyProductAttributeSizeCheck;
   static_assert(sizeof(AssemblyProductAttribute) == 0x18);
-  // Writing MetadataGetter for method: AssemblyProductAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyProductAttribute::*)(::Il2CppString*)>(&AssemblyProductAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssemblyProductAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyProductAttribute::*)(::Il2CppString*)>(&AssemblyProductAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssemblyProductAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyProductAttribute*, "System.Reflection", "AssemblyProductAttribute");
+// Writing MetadataGetter for method: AssemblyProductAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyProductAttribute::*)(::Il2CppString*)>(&AssemblyProductAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssemblyProductAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyProductAttribute::*)(::Il2CppString*)>(&AssemblyProductAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssemblyProductAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

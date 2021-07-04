@@ -85,51 +85,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerEnvironmentResizeController::ResizeData), 32 + sizeof(::Array<UnityEngine::Transform*>*)> __GlobalNamespace_MultiplayerEnvironmentResizeController_ResizeDataSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentResizeController::ResizeData) == 0x28);
-  // Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_resizeType
-  // Il2CppName: get_resizeType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_resizeType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_resizeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_offset
-  // Il2CppName: get_offset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_offset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_lights
-  // Il2CppName: get_lights
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::TubeBloomPrePassLight*>* (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_lights)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_lights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms
-  // Il2CppName: get_otherTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_otherTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*, "", "MultiplayerEnvironmentResizeController/ResizeData");
+// Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_resizeType
+// Il2CppName: get_resizeType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_resizeType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_resizeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_offset
+// Il2CppName: get_offset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_offset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_lights
+// Il2CppName: get_lights
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::TubeBloomPrePassLight*>* (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_lights)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_lights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms
+// Il2CppName: get_otherTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), "get_otherTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerEnvironmentResizeController::ResizeData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerEnvironmentResizeController::ResizeData::*)()>(&MultiplayerEnvironmentResizeController::ResizeData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerEnvironmentResizeController::ResizeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

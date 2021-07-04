@@ -442,91 +442,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainSettingsModelSO), 339 + sizeof(bool)> __GlobalNamespace_MainSettingsModelSOSizeCheck;
   static_assert(sizeof(MainSettingsModelSO) == 0x154);
-  // Writing MetadataGetter for method: MainSettingsModelSO::get_createScreenshotDuringTheGame
-  // Il2CppName: get_createScreenshotDuringTheGame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSettingsModelSO::*)()>(&MainSettingsModelSO::get_createScreenshotDuringTheGame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::set_createScreenshotDuringTheGame
-  // Il2CppName: set_createScreenshotDuringTheGame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::set_createScreenshotDuringTheGame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "set_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::get_playingForTheFirstTime
-  // Il2CppName: get_playingForTheFirstTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSettingsModelSO::*)()>(&MainSettingsModelSO::get_playingForTheFirstTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "get_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::set_playingForTheFirstTime
-  // Il2CppName: set_playingForTheFirstTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::set_playingForTheFirstTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "set_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::Save
-  // Il2CppName: Save
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::Save)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::Load
-  // Il2CppName: Load
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::Load)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::__DeleteSettingsFiles
-  // Il2CppName: __DeleteSettingsFiles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::__DeleteSettingsFiles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "__DeleteSettingsFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MainSettingsModelSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");
+// Writing MetadataGetter for method: MainSettingsModelSO::get_createScreenshotDuringTheGame
+// Il2CppName: get_createScreenshotDuringTheGame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSettingsModelSO::*)()>(&MainSettingsModelSO::get_createScreenshotDuringTheGame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::set_createScreenshotDuringTheGame
+// Il2CppName: set_createScreenshotDuringTheGame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::set_createScreenshotDuringTheGame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "set_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::get_playingForTheFirstTime
+// Il2CppName: get_playingForTheFirstTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSettingsModelSO::*)()>(&MainSettingsModelSO::get_playingForTheFirstTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "get_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::set_playingForTheFirstTime
+// Il2CppName: set_playingForTheFirstTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::set_playingForTheFirstTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "set_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::Save
+// Il2CppName: Save
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::Save)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::Load
+// Il2CppName: Load
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::Load)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::__DeleteSettingsFiles
+// Il2CppName: __DeleteSettingsFiles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::__DeleteSettingsFiles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "__DeleteSettingsFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MainSettingsModelSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

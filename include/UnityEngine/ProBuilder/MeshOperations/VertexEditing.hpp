@@ -69,54 +69,54 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static UnityEngine::ProBuilder::Edge AlignEdgeWithDirection(UnityEngine::ProBuilder::EdgeLookup edge, int commonIndex);
   }; // UnityEngine.ProBuilder.MeshOperations.VertexEditing
   #pragma pack(pop)
-  // Writing MetadataGetter for method: VertexEditing::MergeVertices
-  // Il2CppName: MergeVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*, bool)>(&VertexEditing::MergeVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "MergeVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: VertexEditing::SplitVertices
-  // Il2CppName: SplitVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&VertexEditing::SplitVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "SplitVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
-    }
-  };
-  // Writing MetadataGetter for method: VertexEditing::SplitVertices
-  // Il2CppName: SplitVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*)>(&VertexEditing::SplitVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "SplitVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VertexEditing::WeldVertices
-  // Il2CppName: WeldVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, float)>(&VertexEditing::WeldVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "WeldVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: VertexEditing::ExplodeVertex
-  // Il2CppName: ExplodeVertex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>*, float, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*&)>(&VertexEditing::ExplodeVertex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "ExplodeVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: VertexEditing::AlignEdgeWithDirection
-  // Il2CppName: AlignEdgeWithDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::EdgeLookup, int)>(&VertexEditing::AlignEdgeWithDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "AlignEdgeWithDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::VertexEditing*, "UnityEngine.ProBuilder.MeshOperations", "VertexEditing");
+// Writing MetadataGetter for method: VertexEditing::MergeVertices
+// Il2CppName: MergeVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*, bool)>(&VertexEditing::MergeVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "MergeVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: VertexEditing::SplitVertices
+// Il2CppName: SplitVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&VertexEditing::SplitVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "SplitVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+  }
+};
+// Writing MetadataGetter for method: VertexEditing::SplitVertices
+// Il2CppName: SplitVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*)>(&VertexEditing::SplitVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "SplitVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: VertexEditing::WeldVertices
+// Il2CppName: WeldVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, float)>(&VertexEditing::WeldVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "WeldVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: VertexEditing::ExplodeVertex
+// Il2CppName: ExplodeVertex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>*, float, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*&)>(&VertexEditing::ExplodeVertex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "ExplodeVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: VertexEditing::AlignEdgeWithDirection
+// Il2CppName: AlignEdgeWithDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::EdgeLookup, int)>(&VertexEditing::AlignEdgeWithDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VertexEditing*), "AlignEdgeWithDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -191,131 +191,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerGameplayManager), 112 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerGameplayManagerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerGameplayManager) == 0x71);
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::PerformPlayerFail
-  // Il2CppName: PerformPlayerFail
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::PerformPlayerFail)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "PerformPlayerFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::PerformPlayerGivenUp
-  // Il2CppName: PerformPlayerGivenUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::PerformPlayerGivenUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "PerformPlayerGivenUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleGameEnergyDidReach0
-  // Il2CppName: HandleGameEnergyDidReach0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleGameEnergyDidReach0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleGameEnergyDidReach0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerDidGiveUp
-  // Il2CppName: HandleInGameMenuControllerDidGiveUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerDidGiveUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInGameMenuControllerDidGiveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerRequestsDisconnect
-  // Il2CppName: HandleInGameMenuControllerRequestsDisconnect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerRequestsDisconnect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInGameMenuControllerRequestsDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleSongDidFinish
-  // Il2CppName: HandleSongDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleSongDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleSongDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleLevelEndedEarly
-  // Il2CppName: HandleLevelEndedEarly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)(::Il2CppString*)>(&MultiplayerLocalActivePlayerGameplayManager::HandleLevelEndedEarly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleLevelEndedEarly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleHmdUnmounted
-  // Il2CppName: HandleHmdUnmounted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleHmdUnmounted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleHmdUnmounted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleVrFocusWasCapturedEvent
-  // Il2CppName: HandleVrFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleVrFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleVrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusCaptured
-  // Il2CppName: HandleInputFocusCaptured
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusCaptured)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusReleased
-  // Il2CppName: HandleInputFocusReleased
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusReleased)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::OnApplicationFocus
-  // Il2CppName: OnApplicationFocus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)(bool)>(&MultiplayerLocalActivePlayerGameplayManager::OnApplicationFocus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager*, "", "MultiplayerLocalActivePlayerGameplayManager");
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::PerformPlayerFail
+// Il2CppName: PerformPlayerFail
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::PerformPlayerFail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "PerformPlayerFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::PerformPlayerGivenUp
+// Il2CppName: PerformPlayerGivenUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::PerformPlayerGivenUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "PerformPlayerGivenUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleGameEnergyDidReach0
+// Il2CppName: HandleGameEnergyDidReach0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleGameEnergyDidReach0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleGameEnergyDidReach0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerDidGiveUp
+// Il2CppName: HandleInGameMenuControllerDidGiveUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerDidGiveUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInGameMenuControllerDidGiveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerRequestsDisconnect
+// Il2CppName: HandleInGameMenuControllerRequestsDisconnect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInGameMenuControllerRequestsDisconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInGameMenuControllerRequestsDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleSongDidFinish
+// Il2CppName: HandleSongDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleSongDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleSongDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleLevelEndedEarly
+// Il2CppName: HandleLevelEndedEarly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)(::Il2CppString*)>(&MultiplayerLocalActivePlayerGameplayManager::HandleLevelEndedEarly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleLevelEndedEarly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleHmdUnmounted
+// Il2CppName: HandleHmdUnmounted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleHmdUnmounted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleHmdUnmounted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleVrFocusWasCapturedEvent
+// Il2CppName: HandleVrFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleVrFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleVrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusCaptured
+// Il2CppName: HandleInputFocusCaptured
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusCaptured)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusReleased
+// Il2CppName: HandleInputFocusReleased
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::HandleInputFocusReleased)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::OnApplicationFocus
+// Il2CppName: OnApplicationFocus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)(bool)>(&MultiplayerLocalActivePlayerGameplayManager::OnApplicationFocus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::*)()>(&MultiplayerLocalActivePlayerGameplayManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

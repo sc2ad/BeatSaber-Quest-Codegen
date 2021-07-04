@@ -72,43 +72,43 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     }
   }; // UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SurfaceTopology::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SurfaceTopology::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SurfaceTopology::$$c::$ToTriangles$b__0_0
-  // Il2CppName: <ToTriangles>b__0_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (SurfaceTopology::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&SurfaceTopology::$$c::$ToTriangles$b__0_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), "<ToTriangles>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SurfaceTopology::$$c::$GetWindingOrder$b__3_0
-  // Il2CppName: <GetWindingOrder>b__3_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SurfaceTopology::$$c::*)(UnityEngine::ProBuilder::Vertex*)>(&SurfaceTopology::$$c::$GetWindingOrder$b__3_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), "<GetWindingOrder>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vertex*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SurfaceTopology::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SurfaceTopology::$$c::*)()>(&SurfaceTopology::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SurfaceTopology::$$c::*)()>(&SurfaceTopology::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*, "UnityEngine.ProBuilder.MeshOperations", "SurfaceTopology/<>c");
+// Writing MetadataGetter for method: SurfaceTopology::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SurfaceTopology::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SurfaceTopology::$$c::$ToTriangles$b__0_0
+// Il2CppName: <ToTriangles>b__0_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (SurfaceTopology::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&SurfaceTopology::$$c::$ToTriangles$b__0_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), "<ToTriangles>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
+  }
+};
+// Writing MetadataGetter for method: SurfaceTopology::$$c::$GetWindingOrder$b__3_0
+// Il2CppName: <GetWindingOrder>b__3_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SurfaceTopology::$$c::*)(UnityEngine::ProBuilder::Vertex*)>(&SurfaceTopology::$$c::$GetWindingOrder$b__3_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), "<GetWindingOrder>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vertex*>()});
+  }
+};
+// Writing MetadataGetter for method: SurfaceTopology::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SurfaceTopology::$$c::*)()>(&SurfaceTopology::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SurfaceTopology::$$c::*)()>(&SurfaceTopology::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SurfaceTopology::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

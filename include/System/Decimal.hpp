@@ -440,595 +440,595 @@ namespace System {
   // static public System.Boolean op_GreaterThan(System.Decimal d1, System.Decimal d2)
   // Offset: 0x1B04488
   bool operator >(const System::Decimal& d1, const System::Decimal& d2);
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(float)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(float)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(double)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(double)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Array<int>*)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Array<int>*)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::SetBits
-  // Il2CppName: SetBits
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Array<int>*)>(&Decimal::SetBits)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, bool, uint8_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, bool, uint8_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::OnSerializing
-  // Il2CppName: OnSerializing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(System::Runtime::Serialization::StreamingContext)>(&Decimal::OnSerializing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
-  // Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Il2CppObject*)>(&Decimal::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Abs
-  // Il2CppName: Abs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal)>(&Decimal::Abs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::FCallAddSub
-  // Il2CppName: FCallAddSub
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&, System::Decimal&, uint8_t)>(&Decimal::FCallAddSub)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallAddSub", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::FCallCompare
-  // Il2CppName: FCallCompare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal&, System::Decimal&)>(&Decimal::FCallCompare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallCompare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::CompareTo
-  // Il2CppName: CompareTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)(::Il2CppObject*)>(&Decimal::CompareTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::CompareTo
-  // Il2CppName: CompareTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)(System::Decimal)>(&Decimal::CompareTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Decimal::*)(System::Decimal)>(&Decimal::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Decimal::*)(System::IFormatProvider*)>(&Decimal::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Decimal::*)(::Il2CppString*, System::IFormatProvider*)>(&Decimal::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Parse
-  // Il2CppName: Parse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::IFormatProvider*)>(&Decimal::Parse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Parse
-  // Il2CppName: Parse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::Globalization::NumberStyles, System::IFormatProvider*)>(&Decimal::Parse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::GetBits
-  // Il2CppName: GetBits
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(System::Decimal)>(&Decimal::GetBits)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToDecimal
-  // Il2CppName: ToDecimal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Array<uint8_t>*)>(&Decimal::ToDecimal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Round
-  // Il2CppName: Round
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal, int)>(&Decimal::Round)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::FCallRound
-  // Il2CppName: FCallRound
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&, int)>(&Decimal::FCallRound)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallRound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToByte
-  // Il2CppName: ToByte
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::Decimal)>(&Decimal::ToByte)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToSByte
-  // Il2CppName: ToSByte
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::Decimal)>(&Decimal::ToSByte)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToInt16
-  // Il2CppName: ToInt16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::Decimal)>(&Decimal::ToInt16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToDouble
-  // Il2CppName: ToDouble
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::Decimal)>(&Decimal::ToDouble)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::FCallToInt32
-  // Il2CppName: FCallToInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&Decimal::FCallToInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToInt32
-  // Il2CppName: ToInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&Decimal::ToInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToInt64
-  // Il2CppName: ToInt64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Decimal)>(&Decimal::ToInt64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToUInt16
-  // Il2CppName: ToUInt16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(System::Decimal)>(&Decimal::ToUInt16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToUInt32
-  // Il2CppName: ToUInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::Decimal)>(&Decimal::ToUInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToUInt64
-  // Il2CppName: ToUInt64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::Decimal)>(&Decimal::ToUInt64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToSingle
-  // Il2CppName: ToSingle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Decimal)>(&Decimal::ToSingle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::FCallTruncate
-  // Il2CppName: FCallTruncate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&)>(&Decimal::FCallTruncate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallTruncate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: op_Explicit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(float&)>(&Decimal::Decimal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Decimal
-  // Il2CppName: op_Explicit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(double&)>(&Decimal::Decimal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::operator float
-  // Il2CppName: op_Explicit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&Decimal::operator float)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::operator double
-  // Il2CppName: op_Explicit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&Decimal::operator double)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::GetTypeCode
-  // Il2CppName: GetTypeCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (Decimal::*)()>(&Decimal::GetTypeCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToBoolean
-  // Il2CppName: System.IConvertible.ToBoolean
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToBoolean)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToChar
-  // Il2CppName: System.IConvertible.ToChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToSByte
-  // Il2CppName: System.IConvertible.ToSByte
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToSByte)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToByte
-  // Il2CppName: System.IConvertible.ToByte
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToByte)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToInt16
-  // Il2CppName: System.IConvertible.ToInt16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToInt16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToUInt16
-  // Il2CppName: System.IConvertible.ToUInt16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToUInt16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToInt32
-  // Il2CppName: System.IConvertible.ToInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToUInt32
-  // Il2CppName: System.IConvertible.ToUInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToUInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToInt64
-  // Il2CppName: System.IConvertible.ToInt64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToInt64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToUInt64
-  // Il2CppName: System.IConvertible.ToUInt64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToUInt64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToSingle
-  // Il2CppName: System.IConvertible.ToSingle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToSingle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToDouble
-  // Il2CppName: System.IConvertible.ToDouble
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToDouble)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToDecimal
-  // Il2CppName: System.IConvertible.ToDecimal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToDecimal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToDateTime
-  // Il2CppName: System.IConvertible.ToDateTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToDateTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::System_IConvertible_ToType
-  // Il2CppName: System.IConvertible.ToType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Decimal::*)(System::Type*, System::IFormatProvider*)>(&Decimal::System_IConvertible_ToType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Decimal::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Decimal::*)(::Il2CppObject*)>(&Decimal::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)()>(&Decimal::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Decimal::*)()>(&Decimal::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::operator-
-  // Il2CppName: op_Subtraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator-)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::operator ==
-  // Il2CppName: op_Equality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator ==)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::operator <=
-  // Il2CppName: op_LessThanOrEqual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator <=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_LessThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Decimal::operator >
-  // Il2CppName: op_GreaterThan
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator >)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Decimal), "op_GreaterThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(uint64_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(float)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(float)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(double)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(double)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Array<int>*)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Array<int>*)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::SetBits
+// Il2CppName: SetBits
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Array<int>*)>(&Decimal::SetBits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, bool, uint8_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, bool, uint8_t)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::OnSerializing
+// Il2CppName: OnSerializing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(System::Runtime::Serialization::StreamingContext)>(&Decimal::OnSerializing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
+// Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(::Il2CppObject*)>(&Decimal::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Decimal::*)(int, int, int, int)>(&Decimal::Decimal<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Abs
+// Il2CppName: Abs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal)>(&Decimal::Abs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::FCallAddSub
+// Il2CppName: FCallAddSub
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&, System::Decimal&, uint8_t)>(&Decimal::FCallAddSub)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallAddSub", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::FCallCompare
+// Il2CppName: FCallCompare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal&, System::Decimal&)>(&Decimal::FCallCompare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallCompare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::CompareTo
+// Il2CppName: CompareTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)(::Il2CppObject*)>(&Decimal::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::CompareTo
+// Il2CppName: CompareTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)(System::Decimal)>(&Decimal::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Decimal::*)(System::Decimal)>(&Decimal::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Decimal::*)(System::IFormatProvider*)>(&Decimal::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Decimal::*)(::Il2CppString*, System::IFormatProvider*)>(&Decimal::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::IFormatProvider*)>(&Decimal::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::Globalization::NumberStyles, System::IFormatProvider*)>(&Decimal::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::GetBits
+// Il2CppName: GetBits
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(System::Decimal)>(&Decimal::GetBits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToDecimal
+// Il2CppName: ToDecimal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Array<uint8_t>*)>(&Decimal::ToDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Round
+// Il2CppName: Round
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal, int)>(&Decimal::Round)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::FCallRound
+// Il2CppName: FCallRound
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&, int)>(&Decimal::FCallRound)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallRound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToByte
+// Il2CppName: ToByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::Decimal)>(&Decimal::ToByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToSByte
+// Il2CppName: ToSByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::Decimal)>(&Decimal::ToSByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToInt16
+// Il2CppName: ToInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::Decimal)>(&Decimal::ToInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToDouble
+// Il2CppName: ToDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::Decimal)>(&Decimal::ToDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::FCallToInt32
+// Il2CppName: FCallToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&Decimal::FCallToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToInt32
+// Il2CppName: ToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&Decimal::ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToInt64
+// Il2CppName: ToInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Decimal)>(&Decimal::ToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToUInt16
+// Il2CppName: ToUInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(System::Decimal)>(&Decimal::ToUInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToUInt32
+// Il2CppName: ToUInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::Decimal)>(&Decimal::ToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToUInt64
+// Il2CppName: ToUInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::Decimal)>(&Decimal::ToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToSingle
+// Il2CppName: ToSingle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Decimal)>(&Decimal::ToSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::FCallTruncate
+// Il2CppName: FCallTruncate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&)>(&Decimal::FCallTruncate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "FCallTruncate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: op_Explicit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(float&)>(&Decimal::Decimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Decimal
+// Il2CppName: op_Explicit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(double&)>(&Decimal::Decimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::operator float
+// Il2CppName: op_Explicit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&Decimal::operator float)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Decimal::operator double
+// Il2CppName: op_Explicit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&Decimal::operator double)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Decimal::GetTypeCode
+// Il2CppName: GetTypeCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (Decimal::*)()>(&Decimal::GetTypeCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToBoolean
+// Il2CppName: System.IConvertible.ToBoolean
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToBoolean)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToChar
+// Il2CppName: System.IConvertible.ToChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToSByte
+// Il2CppName: System.IConvertible.ToSByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToSByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToByte
+// Il2CppName: System.IConvertible.ToByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToInt16
+// Il2CppName: System.IConvertible.ToInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToUInt16
+// Il2CppName: System.IConvertible.ToUInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToUInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToInt32
+// Il2CppName: System.IConvertible.ToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToUInt32
+// Il2CppName: System.IConvertible.ToUInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToInt64
+// Il2CppName: System.IConvertible.ToInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToUInt64
+// Il2CppName: System.IConvertible.ToUInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToSingle
+// Il2CppName: System.IConvertible.ToSingle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToDouble
+// Il2CppName: System.IConvertible.ToDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToDecimal
+// Il2CppName: System.IConvertible.ToDecimal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToDateTime
+// Il2CppName: System.IConvertible.ToDateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Decimal::*)(System::IFormatProvider*)>(&Decimal::System_IConvertible_ToDateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::System_IConvertible_ToType
+// Il2CppName: System.IConvertible.ToType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Decimal::*)(System::Type*, System::IFormatProvider*)>(&Decimal::System_IConvertible_ToType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Decimal::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Decimal::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Decimal::*)(::Il2CppObject*)>(&Decimal::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Decimal::*)()>(&Decimal::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Decimal::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Decimal::*)()>(&Decimal::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Decimal::operator-
+// Il2CppName: op_Subtraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator-)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::operator <=
+// Il2CppName: op_LessThanOrEqual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator <=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_LessThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
+  }
+};
+// Writing MetadataGetter for method: Decimal::operator >
+// Il2CppName: op_GreaterThan
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::Decimal&, const System::Decimal&)>(&Decimal::operator >)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Decimal), "op_GreaterThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<const System::Decimal&>()});
+  }
+};

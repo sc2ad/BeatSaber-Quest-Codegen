@@ -97,59 +97,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TextOnlyTableCell), 112 + sizeof(HMUI::ImageView*)> __GlobalNamespace_TextOnlyTableCellSizeCheck;
   static_assert(sizeof(TextOnlyTableCell) == 0x78);
-  // Writing MetadataGetter for method: TextOnlyTableCell::get_text
-  // Il2CppName: get_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextOnlyTableCell::*)()>(&TextOnlyTableCell::get_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextOnlyTableCell::set_text
-  // Il2CppName: set_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)(::Il2CppString*)>(&TextOnlyTableCell::set_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextOnlyTableCell::RefreshVisuals
-  // Il2CppName: RefreshVisuals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)()>(&TextOnlyTableCell::RefreshVisuals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextOnlyTableCell::SelectionDidChange
-  // Il2CppName: SelectionDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&TextOnlyTableCell::SelectionDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextOnlyTableCell::HighlightDidChange
-  // Il2CppName: HighlightDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&TextOnlyTableCell::HighlightDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextOnlyTableCell::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)()>(&TextOnlyTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)()>(&TextOnlyTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextOnlyTableCell*, "", "TextOnlyTableCell");
+// Writing MetadataGetter for method: TextOnlyTableCell::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextOnlyTableCell::*)()>(&TextOnlyTableCell::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextOnlyTableCell::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)(::Il2CppString*)>(&TextOnlyTableCell::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TextOnlyTableCell::RefreshVisuals
+// Il2CppName: RefreshVisuals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)()>(&TextOnlyTableCell::RefreshVisuals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextOnlyTableCell::SelectionDidChange
+// Il2CppName: SelectionDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&TextOnlyTableCell::SelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: TextOnlyTableCell::HighlightDidChange
+// Il2CppName: HighlightDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&TextOnlyTableCell::HighlightDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: TextOnlyTableCell::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)()>(&TextOnlyTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextOnlyTableCell::*)()>(&TextOnlyTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextOnlyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -26,14 +26,14 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Messaging::IMessageSink* GetServerContextSink(System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
   }; // System.Runtime.Remoting.Contexts.IContributeServerContextSink
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IContributeServerContextSink::GetServerContextSink
-  // Il2CppName: GetServerContextSink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (IContributeServerContextSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&IContributeServerContextSink::GetServerContextSink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IContributeServerContextSink*), "GetServerContextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeServerContextSink*, "System.Runtime.Remoting.Contexts", "IContributeServerContextSink");
+// Writing MetadataGetter for method: IContributeServerContextSink::GetServerContextSink
+// Il2CppName: GetServerContextSink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (IContributeServerContextSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&IContributeServerContextSink::GetServerContextSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IContributeServerContextSink*), "GetServerContextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};

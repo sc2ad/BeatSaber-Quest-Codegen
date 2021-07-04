@@ -50,43 +50,43 @@ namespace Valve::VR {
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_AcknowledgeQuit_UserPrompt
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)()>(&IVRSystem::_AcknowledgeQuit_UserPrompt::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(System::IAsyncResult*)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*, "Valve.VR", "IVRSystem/_AcknowledgeQuit_UserPrompt");
+// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)()>(&IVRSystem::_AcknowledgeQuit_UserPrompt::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_UserPrompt::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_UserPrompt::*)(System::IAsyncResult*)>(&IVRSystem::_AcknowledgeQuit_UserPrompt::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_UserPrompt*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

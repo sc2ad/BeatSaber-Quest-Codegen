@@ -98,75 +98,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CutoutAnimateEffect), 40 + sizeof(bool)> __GlobalNamespace_CutoutAnimateEffectSizeCheck;
   static_assert(sizeof(CutoutAnimateEffect) == 0x29);
-  // Writing MetadataGetter for method: CutoutAnimateEffect::get_animating
-  // Il2CppName: get_animating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::get_animating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "get_animating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CutoutAnimateEffect::set_animating
-  // Il2CppName: set_animating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)(bool)>(&CutoutAnimateEffect::set_animating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "set_animating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CutoutAnimateEffect::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CutoutAnimateEffect::AnimateToCutoutCoroutine
-  // Il2CppName: AnimateToCutoutCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CutoutAnimateEffect::*)(float, float, float)>(&CutoutAnimateEffect::AnimateToCutoutCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "AnimateToCutoutCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CutoutAnimateEffect::SetCutout
-  // Il2CppName: SetCutout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)(float)>(&CutoutAnimateEffect::SetCutout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "SetCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CutoutAnimateEffect::ResetEffect
-  // Il2CppName: ResetEffect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::ResetEffect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "ResetEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CutoutAnimateEffect::AnimateCutout
-  // Il2CppName: AnimateCutout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)(float, float, float)>(&CutoutAnimateEffect::AnimateCutout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "AnimateCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CutoutAnimateEffect::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect*, "", "CutoutAnimateEffect");
+// Writing MetadataGetter for method: CutoutAnimateEffect::get_animating
+// Il2CppName: get_animating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::get_animating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "get_animating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CutoutAnimateEffect::set_animating
+// Il2CppName: set_animating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)(bool)>(&CutoutAnimateEffect::set_animating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "set_animating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CutoutAnimateEffect::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CutoutAnimateEffect::AnimateToCutoutCoroutine
+// Il2CppName: AnimateToCutoutCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CutoutAnimateEffect::*)(float, float, float)>(&CutoutAnimateEffect::AnimateToCutoutCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "AnimateToCutoutCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CutoutAnimateEffect::SetCutout
+// Il2CppName: SetCutout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)(float)>(&CutoutAnimateEffect::SetCutout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "SetCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CutoutAnimateEffect::ResetEffect
+// Il2CppName: ResetEffect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::ResetEffect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "ResetEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CutoutAnimateEffect::AnimateCutout
+// Il2CppName: AnimateCutout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)(float, float, float)>(&CutoutAnimateEffect::AnimateCutout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), "AnimateCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CutoutAnimateEffect::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutoutAnimateEffect::*)()>(&CutoutAnimateEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CutoutAnimateEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

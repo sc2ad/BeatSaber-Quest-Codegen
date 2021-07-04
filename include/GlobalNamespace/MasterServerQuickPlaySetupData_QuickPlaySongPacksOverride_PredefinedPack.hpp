@@ -47,19 +47,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_PredefinedPackSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack) == 0x20);
-  // Writing MetadataGetter for method: MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*, "", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack");
+// Writing MetadataGetter for method: MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

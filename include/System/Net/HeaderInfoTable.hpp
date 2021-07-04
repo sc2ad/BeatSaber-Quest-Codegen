@@ -72,51 +72,51 @@ namespace System::Net {
     }
   }; // System.Net.HeaderInfoTable
   #pragma pack(pop)
-  // Writing MetadataGetter for method: HeaderInfoTable::ParseSingleValue
-  // Il2CppName: ParseSingleValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&HeaderInfoTable::ParseSingleValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), "ParseSingleValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HeaderInfoTable::ParseMultiValue
-  // Il2CppName: ParseMultiValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&HeaderInfoTable::ParseMultiValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), "ParseMultiValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HeaderInfoTable::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HeaderInfoTable::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HeaderInfoTable::get_Item
-  // Il2CppName: get_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HeaderInfo* (HeaderInfoTable::*)(::Il2CppString*)>(&HeaderInfoTable::get_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HeaderInfoTable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderInfoTable::*)()>(&HeaderInfoTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderInfoTable::*)()>(&HeaderInfoTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfoTable*, "System.Net", "HeaderInfoTable");
+// Writing MetadataGetter for method: HeaderInfoTable::ParseSingleValue
+// Il2CppName: ParseSingleValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&HeaderInfoTable::ParseSingleValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), "ParseSingleValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HeaderInfoTable::ParseMultiValue
+// Il2CppName: ParseMultiValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&HeaderInfoTable::ParseMultiValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), "ParseMultiValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HeaderInfoTable::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HeaderInfoTable::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HeaderInfoTable::get_Item
+// Il2CppName: get_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HeaderInfo* (HeaderInfoTable::*)(::Il2CppString*)>(&HeaderInfoTable::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HeaderInfoTable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderInfoTable::*)()>(&HeaderInfoTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderInfoTable::*)()>(&HeaderInfoTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HeaderInfoTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

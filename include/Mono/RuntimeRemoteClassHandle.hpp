@@ -47,14 +47,14 @@ namespace Mono {
   #pragma pack(pop)
   static check_size<sizeof(RuntimeRemoteClassHandle), 0 + sizeof(Mono::RuntimeStructs::RemoteClass*)> __Mono_RuntimeRemoteClassHandleSizeCheck;
   static_assert(sizeof(RuntimeRemoteClassHandle) == 0x8);
-  // Writing MetadataGetter for method: RuntimeRemoteClassHandle::get_ProxyClass
-  // Il2CppName: get_ProxyClass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::RuntimeClassHandle (RuntimeRemoteClassHandle::*)()>(&RuntimeRemoteClassHandle::get_ProxyClass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeRemoteClassHandle), "get_ProxyClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
+// Writing MetadataGetter for method: RuntimeRemoteClassHandle::get_ProxyClass
+// Il2CppName: get_ProxyClass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::RuntimeClassHandle (RuntimeRemoteClassHandle::*)()>(&RuntimeRemoteClassHandle::get_ProxyClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeRemoteClassHandle), "get_ProxyClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

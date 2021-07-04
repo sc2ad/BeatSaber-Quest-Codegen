@@ -88,35 +88,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameServersFilterText), 40 + sizeof(System::Text::StringBuilder*)> __GlobalNamespace_GameServersFilterTextSizeCheck;
   static_assert(sizeof(GameServersFilterText) == 0x30);
-  // Writing MetadataGetter for method: GameServersFilterText::Setup
-  // Il2CppName: Setup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)(GlobalNamespace::GameServersFilter*)>(&GameServersFilterText::Setup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameServersFilter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersFilterText::Setup
-  // Il2CppName: Setup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::SongPackMask)>(&GameServersFilterText::Setup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameServersFilterText::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)()>(&GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)()>(&GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterText*, "", "GameServersFilterText");
+// Writing MetadataGetter for method: GameServersFilterText::Setup
+// Il2CppName: Setup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)(GlobalNamespace::GameServersFilter*)>(&GameServersFilterText::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameServersFilter*>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersFilterText::Setup
+// Il2CppName: Setup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::SongPackMask)>(&GameServersFilterText::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+  }
+};
+// Writing MetadataGetter for method: GameServersFilterText::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)()>(&GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)()>(&GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

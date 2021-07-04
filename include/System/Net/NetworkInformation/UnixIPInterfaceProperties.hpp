@@ -84,35 +84,35 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
   static check_size<sizeof(UnixIPInterfaceProperties), 24 + sizeof(System::Collections::Generic::List_1<System::Net::IPAddress*>*)> __System_Net_NetworkInformation_UnixIPInterfacePropertiesSizeCheck;
   static_assert(sizeof(UnixIPInterfaceProperties) == 0x20);
-  // Writing MetadataGetter for method: UnixIPInterfaceProperties::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixIPInterfaceProperties::*)(System::Net::NetworkInformation::UnixNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&UnixIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnixNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixIPInterfaceProperties::*)(System::Net::NetworkInformation::UnixNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&UnixIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnixNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnixIPInterfaceProperties::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnixIPInterfaceProperties::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnixIPInterfaceProperties::get_UnicastAddresses
-  // Il2CppName: get_UnicastAddresses
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (UnixIPInterfaceProperties::*)()>(&UnixIPInterfaceProperties::get_UnicastAddresses)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixIPInterfaceProperties*, "System.Net.NetworkInformation", "UnixIPInterfaceProperties");
+// Writing MetadataGetter for method: UnixIPInterfaceProperties::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixIPInterfaceProperties::*)(System::Net::NetworkInformation::UnixNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&UnixIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnixNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixIPInterfaceProperties::*)(System::Net::NetworkInformation::UnixNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&UnixIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnixNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnixIPInterfaceProperties::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnixIPInterfaceProperties::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnixIPInterfaceProperties::get_UnicastAddresses
+// Il2CppName: get_UnicastAddresses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (UnixIPInterfaceProperties::*)()>(&UnixIPInterfaceProperties::get_UnicastAddresses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnixIPInterfaceProperties*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

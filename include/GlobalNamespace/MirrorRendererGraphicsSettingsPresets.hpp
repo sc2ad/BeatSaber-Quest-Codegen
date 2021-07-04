@@ -62,35 +62,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MirrorRendererGraphicsSettingsPresets), 24 + sizeof(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>*)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresetsSizeCheck;
   static_assert(sizeof(MirrorRendererGraphicsSettingsPresets) == 0x20);
-  // Writing MetadataGetter for method: MirrorRendererGraphicsSettingsPresets::get_presets
-  // Il2CppName: get_presets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::get_presets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), "get_presets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MirrorRendererGraphicsSettingsPresets::get_namedPresets
-  // Il2CppName: get_namedPresets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::get_namedPresets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MirrorRendererGraphicsSettingsPresets::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, "", "MirrorRendererGraphicsSettingsPresets");
+// Writing MetadataGetter for method: MirrorRendererGraphicsSettingsPresets::get_presets
+// Il2CppName: get_presets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::get_presets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), "get_presets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MirrorRendererGraphicsSettingsPresets::get_namedPresets
+// Il2CppName: get_namedPresets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::get_namedPresets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MirrorRendererGraphicsSettingsPresets::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererGraphicsSettingsPresets::*)()>(&MirrorRendererGraphicsSettingsPresets::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MirrorRendererGraphicsSettingsPresets*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

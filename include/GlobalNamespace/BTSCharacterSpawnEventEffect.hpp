@@ -207,91 +207,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnEventEffect), 120 + sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)> __GlobalNamespace_BTSCharacterSpawnEventEffectSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnEventEffect) == 0x80);
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent
-  // Il2CppName: add_startCharacterAnimationEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "add_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BTSCharacter*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent
-  // Il2CppName: remove_startCharacterAnimationEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "remove_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BTSCharacter*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::get_isInitialized
-  // Il2CppName: get_isInitialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::get_isInitialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::LoadAddressables
-  // Il2CppName: LoadAddressables
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::LoadAddressables)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "LoadAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::CleanupAddressables
-  // Il2CppName: CleanupAddressables
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::CleanupAddressables)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "CleanupAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-  // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&BTSCharacterSpawnEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip
-  // Il2CppName: GetCharacterWithAnimationClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_2<GlobalNamespace::BTSCharacter*, UnityEngine::AnimationClip*>* (*)(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*, int, int)>(&BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "GetCharacterWithAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect*, "", "BTSCharacterSpawnEventEffect");
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent
+// Il2CppName: add_startCharacterAnimationEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "add_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BTSCharacter*>*>()});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent
+// Il2CppName: remove_startCharacterAnimationEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "remove_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BTSCharacter*>*>()});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::get_isInitialized
+// Il2CppName: get_isInitialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::get_isInitialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::LoadAddressables
+// Il2CppName: LoadAddressables
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::LoadAddressables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "LoadAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::CleanupAddressables
+// Il2CppName: CleanupAddressables
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::CleanupAddressables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "CleanupAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+// Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&BTSCharacterSpawnEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip
+// Il2CppName: GetCharacterWithAnimationClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_2<GlobalNamespace::BTSCharacter*, UnityEngine::AnimationClip*>* (*)(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*, int, int)>(&BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), "GetCharacterWithAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacterSpawnEventEffect::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnEventEffect::*)()>(&BTSCharacterSpawnEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

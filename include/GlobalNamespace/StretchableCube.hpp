@@ -184,67 +184,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StretchableCube), 32 + sizeof(UnityEngine::Mesh*)> __GlobalNamespace_StretchableCubeSizeCheck;
   static_assert(sizeof(StretchableCube) == 0x28);
-  // Writing MetadataGetter for method: StretchableCube::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StretchableCube::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StretchableCube::CreateBox
-  // Il2CppName: CreateBox
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (StretchableCube::*)()>(&StretchableCube::CreateBox)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "CreateBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StretchableCube::RecalculateUVs
-  // Il2CppName: RecalculateUVs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)(::Array<UnityEngine::Vector2>*)>(&StretchableCube::RecalculateUVs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "RecalculateUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector2>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StretchableCube::RefreshUVs
-  // Il2CppName: RefreshUVs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::RefreshUVs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "RefreshUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StretchableCube::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StretchableCube::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StretchableCube::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StretchableCube*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableCube*, "", "StretchableCube");
+// Writing MetadataGetter for method: StretchableCube::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StretchableCube::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StretchableCube::CreateBox
+// Il2CppName: CreateBox
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (StretchableCube::*)()>(&StretchableCube::CreateBox)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "CreateBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StretchableCube::RecalculateUVs
+// Il2CppName: RecalculateUVs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)(::Array<UnityEngine::Vector2>*)>(&StretchableCube::RecalculateUVs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "RecalculateUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector2>*>()});
+  }
+};
+// Writing MetadataGetter for method: StretchableCube::RefreshUVs
+// Il2CppName: RefreshUVs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::RefreshUVs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), "RefreshUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StretchableCube::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StretchableCube::*)()>(&StretchableCube::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StretchableCube::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StretchableCube::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StretchableCube*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

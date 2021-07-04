@@ -53,11 +53,11 @@ namespace GlobalNamespace {
     }
   }; // HashSetExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: HashSetExtensions::SetCapacity
-  // Il2CppName: SetCapacity
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: HashSetExtensions::GetHashSet
-  // Il2CppName: GetHashSet
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HashSetExtensions*, "", "HashSetExtensions");
+// Writing MetadataGetter for method: HashSetExtensions::SetCapacity
+// Il2CppName: SetCapacity
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: HashSetExtensions::GetHashSet
+// Il2CppName: GetHashSet
+// Cannot write MetadataGetter for generic methods!

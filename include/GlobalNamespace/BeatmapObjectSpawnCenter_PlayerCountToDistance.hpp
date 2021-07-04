@@ -51,35 +51,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance), 20 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnCenter_PlayerCountToDistanceSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance) == 0x18);
-  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount
-  // Il2CppName: get_playerCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), "get_playerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::PlayerCountToDistance::get_distance
-  // Il2CppName: get_distance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::get_distance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), "get_distance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::PlayerCountToDistance::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");
+// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount
+// Il2CppName: get_playerCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), "get_playerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::PlayerCountToDistance::get_distance
+// Il2CppName: get_distance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::get_distance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), "get_distance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::PlayerCountToDistance::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&BeatmapObjectSpawnCenter::PlayerCountToDistance::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter::PlayerCountToDistance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

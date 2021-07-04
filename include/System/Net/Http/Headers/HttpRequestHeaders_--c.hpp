@@ -80,59 +80,59 @@ namespace System::Net::Http::Headers {
     }
   }; // System.Net.Http.Headers.HttpRequestHeaders/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: HttpRequestHeaders::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HttpRequestHeaders::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0
-  // Il2CppName: <get_ConnectionClose>b__19_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_ConnectionClose>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_ConnectionKeepAlive$b__22_0
-  // Il2CppName: <get_ConnectionKeepAlive>b__22_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&HttpRequestHeaders::$$c::$get_ConnectionKeepAlive$b__22_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_ConnectionKeepAlive>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0
-  // Il2CppName: <get_ExpectContinue>b__29_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_ExpectContinue>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingHeaderValue*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0
-  // Il2CppName: <get_TransferEncodingChunked>b__71_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_TransferEncodingChunked>b__71_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingHeaderValue*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpRequestHeaders::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpRequestHeaders::$$c::*)()>(&HttpRequestHeaders::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpRequestHeaders::$$c::*)()>(&HttpRequestHeaders::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpRequestHeaders::$$c*, "System.Net.Http.Headers", "HttpRequestHeaders/<>c");
+// Writing MetadataGetter for method: HttpRequestHeaders::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HttpRequestHeaders::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0
+// Il2CppName: <get_ConnectionClose>b__19_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_ConnectionClose>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_ConnectionKeepAlive$b__22_0
+// Il2CppName: <get_ConnectionKeepAlive>b__22_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&HttpRequestHeaders::$$c::$get_ConnectionKeepAlive$b__22_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_ConnectionKeepAlive>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0
+// Il2CppName: <get_ExpectContinue>b__29_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_ExpectContinue>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingHeaderValue*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0
+// Il2CppName: <get_TransferEncodingChunked>b__71_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), "<get_TransferEncodingChunked>b__71_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingHeaderValue*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpRequestHeaders::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpRequestHeaders::$$c::*)()>(&HttpRequestHeaders::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpRequestHeaders::$$c::*)()>(&HttpRequestHeaders::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpRequestHeaders::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

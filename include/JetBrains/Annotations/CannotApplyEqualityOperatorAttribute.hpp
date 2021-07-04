@@ -33,19 +33,19 @@ namespace JetBrains::Annotations {
     }
   }; // JetBrains.Annotations.CannotApplyEqualityOperatorAttribute
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CannotApplyEqualityOperatorAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CannotApplyEqualityOperatorAttribute::*)()>(&CannotApplyEqualityOperatorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CannotApplyEqualityOperatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CannotApplyEqualityOperatorAttribute::*)()>(&CannotApplyEqualityOperatorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CannotApplyEqualityOperatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CannotApplyEqualityOperatorAttribute*, "JetBrains.Annotations", "CannotApplyEqualityOperatorAttribute");
+// Writing MetadataGetter for method: CannotApplyEqualityOperatorAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CannotApplyEqualityOperatorAttribute::*)()>(&CannotApplyEqualityOperatorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CannotApplyEqualityOperatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CannotApplyEqualityOperatorAttribute::*)()>(&CannotApplyEqualityOperatorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CannotApplyEqualityOperatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -162,139 +162,139 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerSpectatingSpot), 72 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerSpectatingSpotSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerSpectatingSpot) == 0x49);
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::add_hasBeenRemovedEvent
-  // Il2CppName: add_hasBeenRemovedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&MultiplayerConnectedPlayerSpectatingSpot::add_hasBeenRemovedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "add_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::remove_hasBeenRemovedEvent
-  // Il2CppName: remove_hasBeenRemovedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&MultiplayerConnectedPlayerSpectatingSpot::remove_hasBeenRemovedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "remove_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::add_isObservedChangedEvent
-  // Il2CppName: add_isObservedChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<bool>*)>(&MultiplayerConnectedPlayerSpectatingSpot::add_isObservedChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "add_isObservedChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::remove_isObservedChangedEvent
-  // Il2CppName: remove_isObservedChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<bool>*)>(&MultiplayerConnectedPlayerSpectatingSpot::remove_isObservedChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "remove_isObservedChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::get_observable
-  // Il2CppName: get_observable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerObservable* (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::get_observable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "get_observable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::set_observable
-  // Il2CppName: set_observable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IMultiplayerObservable*)>(&MultiplayerConnectedPlayerSpectatingSpot::set_observable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "set_observable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerObservable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::get_spotName
-  // Il2CppName: get_spotName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::get_spotName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "get_spotName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::get_isMain
-  // Il2CppName: get_isMain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::get_isMain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "get_isMain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::SetIsObserved
-  // Il2CppName: SetIsObserved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(bool)>(&MultiplayerConnectedPlayerSpectatingSpot::SetIsObserved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "SetIsObserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::ReloadBasedOnPlayerCurrentState
-  // Il2CppName: ReloadBasedOnPlayerCurrentState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerSpectatingSpot::ReloadBasedOnPlayerCurrentState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "ReloadBasedOnPlayerCurrentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerStateChanged
-  // Il2CppName: HandlePlayerStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "HandlePlayerStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerDisconnected
-  // Il2CppName: HandlePlayerDisconnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerDisconnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "HandlePlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::IMultiplayerSpectatingSpot_get_transform
-  // Il2CppName: IMultiplayerSpectatingSpot.get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "IMultiplayerSpectatingSpot.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*, "", "MultiplayerConnectedPlayerSpectatingSpot");
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::add_hasBeenRemovedEvent
+// Il2CppName: add_hasBeenRemovedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&MultiplayerConnectedPlayerSpectatingSpot::add_hasBeenRemovedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "add_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::remove_hasBeenRemovedEvent
+// Il2CppName: remove_hasBeenRemovedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&MultiplayerConnectedPlayerSpectatingSpot::remove_hasBeenRemovedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "remove_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::add_isObservedChangedEvent
+// Il2CppName: add_isObservedChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<bool>*)>(&MultiplayerConnectedPlayerSpectatingSpot::add_isObservedChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "add_isObservedChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::remove_isObservedChangedEvent
+// Il2CppName: remove_isObservedChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(System::Action_1<bool>*)>(&MultiplayerConnectedPlayerSpectatingSpot::remove_isObservedChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "remove_isObservedChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::get_observable
+// Il2CppName: get_observable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerObservable* (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::get_observable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "get_observable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::set_observable
+// Il2CppName: set_observable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IMultiplayerObservable*)>(&MultiplayerConnectedPlayerSpectatingSpot::set_observable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "set_observable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerObservable*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::get_spotName
+// Il2CppName: get_spotName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::get_spotName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "get_spotName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::get_isMain
+// Il2CppName: get_isMain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::get_isMain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "get_isMain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::SetIsObserved
+// Il2CppName: SetIsObserved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(bool)>(&MultiplayerConnectedPlayerSpectatingSpot::SetIsObserved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "SetIsObserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::ReloadBasedOnPlayerCurrentState
+// Il2CppName: ReloadBasedOnPlayerCurrentState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerSpectatingSpot::ReloadBasedOnPlayerCurrentState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "ReloadBasedOnPlayerCurrentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerStateChanged
+// Il2CppName: HandlePlayerStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "HandlePlayerStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerDisconnected
+// Il2CppName: HandlePlayerDisconnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerDisconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "HandlePlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::IMultiplayerSpectatingSpot_get_transform
+// Il2CppName: IMultiplayerSpectatingSpot.get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), "IMultiplayerSpectatingSpot.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerSpectatingSpot::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSpectatingSpot::*)()>(&MultiplayerConnectedPlayerSpectatingSpot::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSpectatingSpot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

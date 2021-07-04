@@ -60,30 +60,30 @@ namespace UnityEngine {
     static void RemoteSettingsUpdateCompleted(bool wasLastUpdatedFromServer, bool settingsChanged, int response);
   }; // UnityEngine.RemoteSettings
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RemoteSettings::RemoteSettingsUpdated
-  // Il2CppName: RemoteSettingsUpdated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&RemoteSettings::RemoteSettingsUpdated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RemoteSettings::RemoteSettingsBeforeFetchFromServer
-  // Il2CppName: RemoteSettingsBeforeFetchFromServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RemoteSettings::RemoteSettingsBeforeFetchFromServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsBeforeFetchFromServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RemoteSettings::RemoteSettingsUpdateCompleted
-  // Il2CppName: RemoteSettingsUpdateCompleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, int)>(&RemoteSettings::RemoteSettingsUpdateCompleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsUpdateCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteSettings*, "UnityEngine", "RemoteSettings");
+// Writing MetadataGetter for method: RemoteSettings::RemoteSettingsUpdated
+// Il2CppName: RemoteSettingsUpdated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&RemoteSettings::RemoteSettingsUpdated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RemoteSettings::RemoteSettingsBeforeFetchFromServer
+// Il2CppName: RemoteSettingsBeforeFetchFromServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RemoteSettings::RemoteSettingsBeforeFetchFromServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsBeforeFetchFromServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RemoteSettings::RemoteSettingsUpdateCompleted
+// Il2CppName: RemoteSettingsUpdateCompleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, int)>(&RemoteSettings::RemoteSettingsUpdateCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsUpdateCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

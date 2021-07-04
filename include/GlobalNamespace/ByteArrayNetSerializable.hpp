@@ -98,73 +98,73 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ByteArrayNetSerializable), 40 + sizeof(int)> __GlobalNamespace_ByteArrayNetSerializableSizeCheck;
   static_assert(sizeof(ByteArrayNetSerializable) == 0x2C);
-  // Writing MetadataGetter for method: ByteArrayNetSerializable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ByteArrayNetSerializable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ByteArrayNetSerializable::get_data
-  // Il2CppName: get_data
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (ByteArrayNetSerializable::*)()>(&ByteArrayNetSerializable::get_data)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ByteArrayNetSerializable::set_data
-  // Il2CppName: set_data
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Array<uint8_t>*)>(&ByteArrayNetSerializable::set_data)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "set_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ByteArrayNetSerializable::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&ByteArrayNetSerializable::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ByteArrayNetSerializable::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&ByteArrayNetSerializable::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ByteArrayNetSerializable::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)()>(&ByteArrayNetSerializable::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ByteArrayNetSerializable*, "", "ByteArrayNetSerializable");
+// Writing MetadataGetter for method: ByteArrayNetSerializable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ByteArrayNetSerializable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Il2CppString*, int, bool)>(&ByteArrayNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ByteArrayNetSerializable::get_data
+// Il2CppName: get_data
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (ByteArrayNetSerializable::*)()>(&ByteArrayNetSerializable::get_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ByteArrayNetSerializable::set_data
+// Il2CppName: set_data
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(::Array<uint8_t>*)>(&ByteArrayNetSerializable::set_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "set_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: ByteArrayNetSerializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&ByteArrayNetSerializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: ByteArrayNetSerializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&ByteArrayNetSerializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: ByteArrayNetSerializable::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteArrayNetSerializable::*)()>(&ByteArrayNetSerializable::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ByteArrayNetSerializable*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

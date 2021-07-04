@@ -99,99 +99,99 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.StringWithQualityHeaderValue
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::get_Quality
-  // Il2CppName: get_Quality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<double> (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::get_Quality)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "get_Quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::set_Quality
-  // Il2CppName: set_Quality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)(System::Nullable_1<double>)>(&StringWithQualityHeaderValue::set_Quality)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "set_Quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<double>>()});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::get_Value
-  // Il2CppName: get_Value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::get_Value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::set_Value
-  // Il2CppName: set_Value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)(::Il2CppString*)>(&StringWithQualityHeaderValue::set_Value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::System_ICloneable_Clone
-  // Il2CppName: System.ICloneable.Clone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::System_ICloneable_Clone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::TryParse
-  // Il2CppName: TryParse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::StringWithQualityHeaderValue*>*&)>(&StringWithQualityHeaderValue::TryParse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::StringWithQualityHeaderValue*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::TryParseElement
-  // Il2CppName: TryParseElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::StringWithQualityHeaderValue*&, System::Net::Http::Headers::Token&)>(&StringWithQualityHeaderValue::TryParseElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::StringWithQualityHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StringWithQualityHeaderValue::*)(::Il2CppObject*)>(&StringWithQualityHeaderValue::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StringWithQualityHeaderValue::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::StringWithQualityHeaderValue*, "System.Net.Http.Headers", "StringWithQualityHeaderValue");
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::get_Quality
+// Il2CppName: get_Quality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<double> (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::get_Quality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "get_Quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::set_Quality
+// Il2CppName: set_Quality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)(System::Nullable_1<double>)>(&StringWithQualityHeaderValue::set_Quality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "set_Quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<double>>()});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::get_Value
+// Il2CppName: get_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::set_Value
+// Il2CppName: set_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)(::Il2CppString*)>(&StringWithQualityHeaderValue::set_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::System_ICloneable_Clone
+// Il2CppName: System.ICloneable.Clone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::System_ICloneable_Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::TryParse
+// Il2CppName: TryParse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::StringWithQualityHeaderValue*>*&)>(&StringWithQualityHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::StringWithQualityHeaderValue*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::TryParseElement
+// Il2CppName: TryParseElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::StringWithQualityHeaderValue*&, System::Net::Http::Headers::Token&)>(&StringWithQualityHeaderValue::TryParseElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::StringWithQualityHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StringWithQualityHeaderValue::*)(::Il2CppObject*)>(&StringWithQualityHeaderValue::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StringWithQualityHeaderValue::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringWithQualityHeaderValue::*)()>(&StringWithQualityHeaderValue::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StringWithQualityHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

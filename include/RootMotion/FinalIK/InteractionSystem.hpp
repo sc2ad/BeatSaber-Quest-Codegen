@@ -417,475 +417,475 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(InteractionSystem), 232 + sizeof(UnityEngine::Collider*)> __RootMotion_FinalIK_InteractionSystemSizeCheck;
   static_assert(sizeof(InteractionSystem) == 0xF0);
-  // Writing MetadataGetter for method: InteractionSystem::OpenUserManual
-  // Il2CppName: OpenUserManual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenUserManual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OpenScriptReference
-  // Il2CppName: OpenScriptReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenScriptReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OpenTutorial1
-  // Il2CppName: OpenTutorial1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OpenTutorial2
-  // Il2CppName: OpenTutorial2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OpenTutorial3
-  // Il2CppName: OpenTutorial3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OpenTutorial4
-  // Il2CppName: OpenTutorial4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::SupportGroup
-  // Il2CppName: SupportGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::SupportGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::ASThread
-  // Il2CppName: ASThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::ASThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::get_inInteraction
-  // Il2CppName: get_inInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)()>(&InteractionSystem::get_inInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "get_inInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::IsInInteraction
-  // Il2CppName: IsInInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::IsInInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsInInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::IsPaused
-  // Il2CppName: IsPaused
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::IsPaused)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::IsPaused
-  // Il2CppName: IsPaused
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)()>(&InteractionSystem::IsPaused)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::IsInSync
-  // Il2CppName: IsInSync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)()>(&InteractionSystem::IsInSync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsInSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::StartInteraction
-  // Il2CppName: StartInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*, bool)>(&InteractionSystem::StartInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "StartInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::PauseInteraction
-  // Il2CppName: PauseInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::PauseInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "PauseInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::ResumeInteraction
-  // Il2CppName: ResumeInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::ResumeInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ResumeInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::StopInteraction
-  // Il2CppName: StopInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::StopInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "StopInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::PauseAll
-  // Il2CppName: PauseAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::PauseAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "PauseAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::ResumeAll
-  // Il2CppName: ResumeAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::ResumeAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ResumeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::StopAll
-  // Il2CppName: StopAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::StopAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "StopAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetInteractionObject
-  // Il2CppName: GetInteractionObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionObject* (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::GetInteractionObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetInteractionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetProgress
-  // Il2CppName: GetProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::GetProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetMinActiveProgress
-  // Il2CppName: GetMinActiveProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InteractionSystem::*)()>(&InteractionSystem::GetMinActiveProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetMinActiveProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::TriggerInteraction
-  // Il2CppName: TriggerInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, bool)>(&InteractionSystem::TriggerInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::TriggerInteraction
-  // Il2CppName: TriggerInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, bool, RootMotion::FinalIK::InteractionObject*&)>(&InteractionSystem::TriggerInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::TriggerInteraction
-  // Il2CppName: TriggerInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, bool, RootMotion::FinalIK::InteractionTarget*&)>(&InteractionSystem::TriggerInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionTarget*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionRange
-  // Il2CppName: GetClosestInteractionRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTrigger::Range* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionObjectInRange
-  // Il2CppName: GetClosestInteractionObjectInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionObject* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionObjectInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionObjectInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionTargetInRange
-  // Il2CppName: GetClosestInteractionTargetInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTarget* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionTargetInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionTargetInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionObjectsInRange
-  // Il2CppName: GetClosestInteractionObjectsInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::InteractionObject*>* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionObjectsInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionObjectsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionTargetsInRange
-  // Il2CppName: GetClosestInteractionTargetsInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::InteractionTarget*>* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionTargetsInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionTargetsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::TriggerEffectorsReady
-  // Il2CppName: TriggerEffectorsReady
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int)>(&InteractionSystem::TriggerEffectorsReady)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerEffectorsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetTriggerRange
-  // Il2CppName: GetTriggerRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTrigger::Range* (InteractionSystem::*)(int)>(&InteractionSystem::GetTriggerRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetTriggerRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::GetClosestTriggerIndex
-  // Il2CppName: GetClosestTriggerIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InteractionSystem::*)()>(&InteractionSystem::GetClosestTriggerIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestTriggerIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::get_ik
-  // Il2CppName: get_ik
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FullBodyBipedIK* (InteractionSystem::*)()>(&InteractionSystem::get_ik)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "get_ik", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::set_ik
-  // Il2CppName: set_ik
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedIK*)>(&InteractionSystem::set_ik)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "set_ik", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedIK*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::get_triggersInRange
-  // Il2CppName: get_triggersInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* (InteractionSystem::*)()>(&InteractionSystem::get_triggersInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "get_triggersInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::set_triggersInRange
-  // Il2CppName: set_triggersInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*)>(&InteractionSystem::set_triggersInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "set_triggersInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::InteractionPause
-  // Il2CppName: InteractionPause
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::InteractionPause)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "InteractionPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::InteractionResume
-  // Il2CppName: InteractionResume
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::InteractionResume)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "InteractionResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::InteractionStop
-  // Il2CppName: InteractionStop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::InteractionStop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "InteractionStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::LookAtInteraction
-  // Il2CppName: LookAtInteraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::LookAtInteraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "LookAtInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OnTriggerEnter
-  // Il2CppName: OnTriggerEnter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(UnityEngine::Collider*)>(&InteractionSystem::OnTriggerEnter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OnTriggerExit
-  // Il2CppName: OnTriggerExit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(UnityEngine::Collider*)>(&InteractionSystem::OnTriggerExit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::ContactIsInRange
-  // Il2CppName: ContactIsInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, int&)>(&InteractionSystem::ContactIsInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ContactIsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OnDrawGizmosSelected
-  // Il2CppName: OnDrawGizmosSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnDrawGizmosSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::Raycasting
-  // Il2CppName: Raycasting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::Raycasting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "Raycasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::UpdateTriggerEventBroadcasting
-  // Il2CppName: UpdateTriggerEventBroadcasting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::UpdateTriggerEventBroadcasting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "UpdateTriggerEventBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::UpdateEffectors
-  // Il2CppName: UpdateEffectors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::UpdateEffectors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "UpdateEffectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OnPreFBBIK
-  // Il2CppName: OnPreFBBIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnPreFBBIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnPreFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OnPostFBBIK
-  // Il2CppName: OnPostFBBIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnPostFBBIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnPostFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OnFixTransforms
-  // Il2CppName: OnFixTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnFixTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnFixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::IsValid
-  // Il2CppName: IsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(bool)>(&InteractionSystem::IsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::TriggerIndexIsValid
-  // Il2CppName: TriggerIndexIsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int)>(&InteractionSystem::TriggerIndexIsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerIndexIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InteractionSystem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem*, "RootMotion.FinalIK", "InteractionSystem");
+// Writing MetadataGetter for method: InteractionSystem::OpenUserManual
+// Il2CppName: OpenUserManual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenUserManual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OpenScriptReference
+// Il2CppName: OpenScriptReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenScriptReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OpenTutorial1
+// Il2CppName: OpenTutorial1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OpenTutorial2
+// Il2CppName: OpenTutorial2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OpenTutorial3
+// Il2CppName: OpenTutorial3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OpenTutorial4
+// Il2CppName: OpenTutorial4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OpenTutorial4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OpenTutorial4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::SupportGroup
+// Il2CppName: SupportGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::SupportGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::ASThread
+// Il2CppName: ASThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::ASThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::get_inInteraction
+// Il2CppName: get_inInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)()>(&InteractionSystem::get_inInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "get_inInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::IsInInteraction
+// Il2CppName: IsInInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::IsInInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsInInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::IsPaused
+// Il2CppName: IsPaused
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::IsPaused)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::IsPaused
+// Il2CppName: IsPaused
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)()>(&InteractionSystem::IsPaused)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::IsInSync
+// Il2CppName: IsInSync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)()>(&InteractionSystem::IsInSync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsInSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::StartInteraction
+// Il2CppName: StartInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*, bool)>(&InteractionSystem::StartInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "StartInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::PauseInteraction
+// Il2CppName: PauseInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::PauseInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "PauseInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::ResumeInteraction
+// Il2CppName: ResumeInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::ResumeInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ResumeInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::StopInteraction
+// Il2CppName: StopInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::StopInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "StopInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::PauseAll
+// Il2CppName: PauseAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::PauseAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "PauseAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::ResumeAll
+// Il2CppName: ResumeAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::ResumeAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ResumeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::StopAll
+// Il2CppName: StopAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::StopAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "StopAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetInteractionObject
+// Il2CppName: GetInteractionObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionObject* (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::GetInteractionObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetInteractionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetProgress
+// Il2CppName: GetProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&InteractionSystem::GetProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetMinActiveProgress
+// Il2CppName: GetMinActiveProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InteractionSystem::*)()>(&InteractionSystem::GetMinActiveProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetMinActiveProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::TriggerInteraction
+// Il2CppName: TriggerInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, bool)>(&InteractionSystem::TriggerInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::TriggerInteraction
+// Il2CppName: TriggerInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, bool, RootMotion::FinalIK::InteractionObject*&)>(&InteractionSystem::TriggerInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*&>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::TriggerInteraction
+// Il2CppName: TriggerInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, bool, RootMotion::FinalIK::InteractionTarget*&)>(&InteractionSystem::TriggerInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionTarget*&>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionRange
+// Il2CppName: GetClosestInteractionRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTrigger::Range* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionObjectInRange
+// Il2CppName: GetClosestInteractionObjectInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionObject* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionObjectInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionObjectInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionTargetInRange
+// Il2CppName: GetClosestInteractionTargetInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTarget* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionTargetInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionTargetInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionObjectsInRange
+// Il2CppName: GetClosestInteractionObjectsInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::InteractionObject*>* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionObjectsInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionObjectsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetClosestInteractionTargetsInRange
+// Il2CppName: GetClosestInteractionTargetsInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::InteractionTarget*>* (InteractionSystem::*)()>(&InteractionSystem::GetClosestInteractionTargetsInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestInteractionTargetsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::TriggerEffectorsReady
+// Il2CppName: TriggerEffectorsReady
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int)>(&InteractionSystem::TriggerEffectorsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerEffectorsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetTriggerRange
+// Il2CppName: GetTriggerRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTrigger::Range* (InteractionSystem::*)(int)>(&InteractionSystem::GetTriggerRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetTriggerRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::GetClosestTriggerIndex
+// Il2CppName: GetClosestTriggerIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InteractionSystem::*)()>(&InteractionSystem::GetClosestTriggerIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "GetClosestTriggerIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::get_ik
+// Il2CppName: get_ik
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FullBodyBipedIK* (InteractionSystem::*)()>(&InteractionSystem::get_ik)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "get_ik", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::set_ik
+// Il2CppName: set_ik
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedIK*)>(&InteractionSystem::set_ik)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "set_ik", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedIK*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::get_triggersInRange
+// Il2CppName: get_triggersInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* (InteractionSystem::*)()>(&InteractionSystem::get_triggersInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "get_triggersInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::set_triggersInRange
+// Il2CppName: set_triggersInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*)>(&InteractionSystem::set_triggersInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "set_triggersInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::InteractionPause
+// Il2CppName: InteractionPause
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::InteractionPause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "InteractionPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::InteractionResume
+// Il2CppName: InteractionResume
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::InteractionResume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "InteractionResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::InteractionStop
+// Il2CppName: InteractionStop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::InteractionStop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "InteractionStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::LookAtInteraction
+// Il2CppName: LookAtInteraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&InteractionSystem::LookAtInteraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "LookAtInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OnTriggerEnter
+// Il2CppName: OnTriggerEnter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(UnityEngine::Collider*)>(&InteractionSystem::OnTriggerEnter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OnTriggerExit
+// Il2CppName: OnTriggerExit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)(UnityEngine::Collider*)>(&InteractionSystem::OnTriggerExit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::ContactIsInRange
+// Il2CppName: ContactIsInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int, int&)>(&InteractionSystem::ContactIsInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "ContactIsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OnDrawGizmosSelected
+// Il2CppName: OnDrawGizmosSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnDrawGizmosSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::Raycasting
+// Il2CppName: Raycasting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::Raycasting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "Raycasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::UpdateTriggerEventBroadcasting
+// Il2CppName: UpdateTriggerEventBroadcasting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::UpdateTriggerEventBroadcasting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "UpdateTriggerEventBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::UpdateEffectors
+// Il2CppName: UpdateEffectors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::UpdateEffectors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "UpdateEffectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OnPreFBBIK
+// Il2CppName: OnPreFBBIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnPreFBBIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnPreFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OnPostFBBIK
+// Il2CppName: OnPostFBBIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnPostFBBIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnPostFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OnFixTransforms
+// Il2CppName: OnFixTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnFixTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnFixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::IsValid
+// Il2CppName: IsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(bool)>(&InteractionSystem::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::TriggerIndexIsValid
+// Il2CppName: TriggerIndexIsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionSystem::*)(int)>(&InteractionSystem::TriggerIndexIsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), "TriggerIndexIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InteractionSystem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionSystem::*)()>(&InteractionSystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

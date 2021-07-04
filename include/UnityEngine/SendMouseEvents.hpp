@@ -60,22 +60,6 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(SendMouseEvents::HitInfo), 8 + sizeof(UnityEngine::Camera*)> __UnityEngine_SendMouseEvents_HitInfoSizeCheck;
     static_assert(sizeof(SendMouseEvents::HitInfo) == 0x10);
-    // Writing MetadataGetter for method: SendMouseEvents::HitInfo::SendMessage
-    // Il2CppName: SendMessage
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SendMouseEvents::HitInfo::*)(::Il2CppString*)>(&SendMouseEvents::HitInfo::SendMessage)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(SendMouseEvents::HitInfo), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    // Writing MetadataGetter for method: SendMouseEvents::HitInfo::Compare
-    // Il2CppName: Compare
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::SendMouseEvents::HitInfo, UnityEngine::SendMouseEvents::HitInfo)>(&SendMouseEvents::HitInfo::Compare)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(SendMouseEvents::HitInfo), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMouseEvents::HitInfo>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMouseEvents::HitInfo>()});
-      }
-    };
     // Creating value type constructor for type: SendMouseEvents
     SendMouseEvents() noexcept {}
     // Get static field: static private System.Boolean s_MouseUsed
@@ -112,39 +96,39 @@ namespace UnityEngine {
     static void _cctor();
   }; // UnityEngine.SendMouseEvents
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SendMouseEvents::SetMouseMoved
-  // Il2CppName: SetMouseMoved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SendMouseEvents::SetMouseMoved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), "SetMouseMoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SendMouseEvents::DoSendMouseEvents
-  // Il2CppName: DoSendMouseEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&SendMouseEvents::DoSendMouseEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), "DoSendMouseEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SendMouseEvents::SendEvents
-  // Il2CppName: SendEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::SendMouseEvents::HitInfo)>(&SendMouseEvents::SendEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMouseEvents::HitInfo>()});
-    }
-  };
-  // Writing MetadataGetter for method: SendMouseEvents::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SendMouseEvents::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents*, "UnityEngine", "SendMouseEvents");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");
+// Writing MetadataGetter for method: SendMouseEvents::SetMouseMoved
+// Il2CppName: SetMouseMoved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SendMouseEvents::SetMouseMoved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), "SetMouseMoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SendMouseEvents::DoSendMouseEvents
+// Il2CppName: DoSendMouseEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&SendMouseEvents::DoSendMouseEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), "DoSendMouseEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SendMouseEvents::SendEvents
+// Il2CppName: SendEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::SendMouseEvents::HitInfo)>(&SendMouseEvents::SendEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMouseEvents::HitInfo>()});
+  }
+};
+// Writing MetadataGetter for method: SendMouseEvents::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SendMouseEvents::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SendMouseEvents*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

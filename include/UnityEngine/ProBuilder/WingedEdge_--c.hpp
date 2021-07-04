@@ -63,43 +63,43 @@ namespace UnityEngine::ProBuilder {
     }
   }; // UnityEngine.ProBuilder.WingedEdge/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: WingedEdge::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WingedEdge::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_1
-  // Il2CppName: <SortCommonIndexesByAdjacency>b__32_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (WingedEdge::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), "<SortCommonIndexesByAdjacency>b__32_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_2
-  // Il2CppName: <SortCommonIndexesByAdjacency>b__32_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WingedEdge::$$c::*)(UnityEngine::ProBuilder::Edge)>(&WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), "<SortCommonIndexesByAdjacency>b__32_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
-    }
-  };
-  // Writing MetadataGetter for method: WingedEdge::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::$$c::*)()>(&WingedEdge::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::$$c::*)()>(&WingedEdge::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge::$$c*, "UnityEngine.ProBuilder", "WingedEdge/<>c");
+// Writing MetadataGetter for method: WingedEdge::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WingedEdge::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_1
+// Il2CppName: <SortCommonIndexesByAdjacency>b__32_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (WingedEdge::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), "<SortCommonIndexesByAdjacency>b__32_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+  }
+};
+// Writing MetadataGetter for method: WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_2
+// Il2CppName: <SortCommonIndexesByAdjacency>b__32_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WingedEdge::$$c::*)(UnityEngine::ProBuilder::Edge)>(&WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), "<SortCommonIndexesByAdjacency>b__32_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+  }
+};
+// Writing MetadataGetter for method: WingedEdge::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::$$c::*)()>(&WingedEdge::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::$$c::*)()>(&WingedEdge::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WingedEdge::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

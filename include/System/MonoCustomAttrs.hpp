@@ -117,142 +117,142 @@ namespace System {
     static void _cctor();
   }; // System.MonoCustomAttrs
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MonoCustomAttrs::IsUserCattrProvider
-  // Il2CppName: IsUserCattrProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&MonoCustomAttrs::IsUserCattrProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "IsUserCattrProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesInternal
-  // Il2CppName: GetCustomAttributesInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::GetCustomAttributesInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetPseudoCustomAttributes
-  // Il2CppName: GetPseudoCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*)>(&MonoCustomAttrs::GetPseudoCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetPseudoCustomAttributes
-  // Il2CppName: GetPseudoCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Type*)>(&MonoCustomAttrs::GetPseudoCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesBase
-  // Il2CppName: GetCustomAttributesBase
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::GetCustomAttributesBase)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::GetCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, bool)>(&MonoCustomAttrs::GetCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesDataInternal
-  // Il2CppName: GetCustomAttributesDataInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::ICustomAttributeProvider*)>(&MonoCustomAttrs::GetCustomAttributesDataInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesData
-  // Il2CppName: GetCustomAttributesData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::ICustomAttributeProvider*)>(&MonoCustomAttrs::GetCustomAttributesData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::IsDefined
-  // Il2CppName: IsDefined
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::IsDefined)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::IsDefinedInternal
-  // Il2CppName: IsDefinedInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ICustomAttributeProvider*, System::Type*)>(&MonoCustomAttrs::IsDefinedInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "IsDefinedInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetBasePropertyDefinition
-  // Il2CppName: GetBasePropertyDefinition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (*)(System::Reflection::MonoProperty*)>(&MonoCustomAttrs::GetBasePropertyDefinition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetBasePropertyDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetBaseEventDefinition
-  // Il2CppName: GetBaseEventDefinition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (*)(System::Reflection::MonoEvent*)>(&MonoCustomAttrs::GetBaseEventDefinition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetBaseEventDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::GetBase
-  // Il2CppName: GetBase
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ICustomAttributeProvider* (*)(System::Reflection::ICustomAttributeProvider*)>(&MonoCustomAttrs::GetBase)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::RetrieveAttributeUsageNoCache
-  // Il2CppName: RetrieveAttributeUsageNoCache
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AttributeUsageAttribute* (*)(System::Type*)>(&MonoCustomAttrs::RetrieveAttributeUsageNoCache)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "RetrieveAttributeUsageNoCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::RetrieveAttributeUsage
-  // Il2CppName: RetrieveAttributeUsage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AttributeUsageAttribute* (*)(System::Type*)>(&MonoCustomAttrs::RetrieveAttributeUsage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "RetrieveAttributeUsage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoCustomAttrs::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoCustomAttrs::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs*, "System", "MonoCustomAttrs");
+// Writing MetadataGetter for method: MonoCustomAttrs::IsUserCattrProvider
+// Il2CppName: IsUserCattrProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&MonoCustomAttrs::IsUserCattrProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "IsUserCattrProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesInternal
+// Il2CppName: GetCustomAttributesInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::GetCustomAttributesInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetPseudoCustomAttributes
+// Il2CppName: GetPseudoCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*)>(&MonoCustomAttrs::GetPseudoCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetPseudoCustomAttributes
+// Il2CppName: GetPseudoCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Type*)>(&MonoCustomAttrs::GetPseudoCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesBase
+// Il2CppName: GetCustomAttributesBase
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::GetCustomAttributesBase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(System::Reflection::ICustomAttributeProvider*, bool)>(&MonoCustomAttrs::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesDataInternal
+// Il2CppName: GetCustomAttributesDataInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::ICustomAttributeProvider*)>(&MonoCustomAttrs::GetCustomAttributesDataInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetCustomAttributesData
+// Il2CppName: GetCustomAttributesData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::ICustomAttributeProvider*)>(&MonoCustomAttrs::GetCustomAttributesData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetCustomAttributesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::IsDefined
+// Il2CppName: IsDefined
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&MonoCustomAttrs::IsDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::IsDefinedInternal
+// Il2CppName: IsDefinedInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ICustomAttributeProvider*, System::Type*)>(&MonoCustomAttrs::IsDefinedInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "IsDefinedInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetBasePropertyDefinition
+// Il2CppName: GetBasePropertyDefinition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (*)(System::Reflection::MonoProperty*)>(&MonoCustomAttrs::GetBasePropertyDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetBasePropertyDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetBaseEventDefinition
+// Il2CppName: GetBaseEventDefinition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (*)(System::Reflection::MonoEvent*)>(&MonoCustomAttrs::GetBaseEventDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetBaseEventDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::GetBase
+// Il2CppName: GetBase
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ICustomAttributeProvider* (*)(System::Reflection::ICustomAttributeProvider*)>(&MonoCustomAttrs::GetBase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "GetBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::RetrieveAttributeUsageNoCache
+// Il2CppName: RetrieveAttributeUsageNoCache
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AttributeUsageAttribute* (*)(System::Type*)>(&MonoCustomAttrs::RetrieveAttributeUsageNoCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "RetrieveAttributeUsageNoCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::RetrieveAttributeUsage
+// Il2CppName: RetrieveAttributeUsage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AttributeUsageAttribute* (*)(System::Type*)>(&MonoCustomAttrs::RetrieveAttributeUsage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), "RetrieveAttributeUsage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoCustomAttrs::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoCustomAttrs::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

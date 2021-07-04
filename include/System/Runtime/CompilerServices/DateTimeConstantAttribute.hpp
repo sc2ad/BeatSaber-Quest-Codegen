@@ -39,14 +39,14 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
   static check_size<sizeof(DateTimeConstantAttribute), 16 + sizeof(System::DateTime)> __System_Runtime_CompilerServices_DateTimeConstantAttributeSizeCheck;
   static_assert(sizeof(DateTimeConstantAttribute) == 0x18);
-  // Writing MetadataGetter for method: DateTimeConstantAttribute::get_Value
-  // Il2CppName: get_Value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DateTimeConstantAttribute::*)()>(&DateTimeConstantAttribute::get_Value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DateTimeConstantAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DateTimeConstantAttribute*, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");
+// Writing MetadataGetter for method: DateTimeConstantAttribute::get_Value
+// Il2CppName: get_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DateTimeConstantAttribute::*)()>(&DateTimeConstantAttribute::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DateTimeConstantAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -28,38 +28,38 @@ namespace Org::BouncyCastle::Utilities {
     static uint RotateLeft(uint i, int distance);
   }; // Org.BouncyCastle.Utilities.Integers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Integers::NumberOfLeadingZeros
-  // Il2CppName: NumberOfLeadingZeros
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Integers::NumberOfLeadingZeros)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Integers*), "NumberOfLeadingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Integers::NumberOfTrailingZeros
-  // Il2CppName: NumberOfTrailingZeros
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Integers::NumberOfTrailingZeros)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Integers*), "NumberOfTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Integers::RotateLeft
-  // Il2CppName: RotateLeft
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&Integers::RotateLeft)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Integers*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Integers::RotateLeft
-  // Il2CppName: RotateLeft
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, int)>(&Integers::RotateLeft)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Integers*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Integers*, "Org.BouncyCastle.Utilities", "Integers");
+// Writing MetadataGetter for method: Integers::NumberOfLeadingZeros
+// Il2CppName: NumberOfLeadingZeros
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Integers::NumberOfLeadingZeros)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Integers*), "NumberOfLeadingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Integers::NumberOfTrailingZeros
+// Il2CppName: NumberOfTrailingZeros
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Integers::NumberOfTrailingZeros)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Integers*), "NumberOfTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Integers::RotateLeft
+// Il2CppName: RotateLeft
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&Integers::RotateLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Integers*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Integers::RotateLeft
+// Il2CppName: RotateLeft
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, int)>(&Integers::RotateLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Integers*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

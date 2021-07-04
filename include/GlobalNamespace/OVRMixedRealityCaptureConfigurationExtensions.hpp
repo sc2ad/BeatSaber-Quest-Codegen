@@ -30,22 +30,22 @@ namespace GlobalNamespace {
     static void ReadFrom(GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
   }; // OVRMixedRealityCaptureConfigurationExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: OVRMixedRealityCaptureConfigurationExtensions::ApplyTo
-  // Il2CppName: ApplyTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&OVRMixedRealityCaptureConfigurationExtensions::ApplyTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureConfigurationExtensions*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRMixedRealityCaptureConfigurationExtensions::ReadFrom
-  // Il2CppName: ReadFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&OVRMixedRealityCaptureConfigurationExtensions::ReadFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureConfigurationExtensions*), "ReadFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions*, "", "OVRMixedRealityCaptureConfigurationExtensions");
+// Writing MetadataGetter for method: OVRMixedRealityCaptureConfigurationExtensions::ApplyTo
+// Il2CppName: ApplyTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&OVRMixedRealityCaptureConfigurationExtensions::ApplyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureConfigurationExtensions*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRMixedRealityCaptureConfigurationExtensions::ReadFrom
+// Il2CppName: ReadFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&OVRMixedRealityCaptureConfigurationExtensions::ReadFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureConfigurationExtensions*), "ReadFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>()});
+  }
+};

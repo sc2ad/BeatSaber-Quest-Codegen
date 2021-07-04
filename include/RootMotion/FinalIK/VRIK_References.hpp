@@ -196,51 +196,51 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(VRIK::References), 184 + sizeof(UnityEngine::Transform*)> __RootMotion_FinalIK_VRIK_ReferencesSizeCheck;
   static_assert(sizeof(VRIK::References) == 0xC0);
-  // Writing MetadataGetter for method: VRIK::References::GetTransforms
-  // Il2CppName: GetTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (VRIK::References::*)()>(&VRIK::References::GetTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "GetTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRIK::References::get_isFilled
-  // Il2CppName: get_isFilled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRIK::References::*)()>(&VRIK::References::get_isFilled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "get_isFilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRIK::References::get_isEmpty
-  // Il2CppName: get_isEmpty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRIK::References::*)()>(&VRIK::References::get_isEmpty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRIK::References::AutoDetectReferences
-  // Il2CppName: AutoDetectReferences
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::FinalIK::VRIK::References*&)>(&VRIK::References::AutoDetectReferences)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK::References*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRIK::References::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIK::References::*)()>(&VRIK::References::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIK::References::*)()>(&VRIK::References::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.FinalIK", "VRIK/References");
+// Writing MetadataGetter for method: VRIK::References::GetTransforms
+// Il2CppName: GetTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (VRIK::References::*)()>(&VRIK::References::GetTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "GetTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRIK::References::get_isFilled
+// Il2CppName: get_isFilled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRIK::References::*)()>(&VRIK::References::get_isFilled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "get_isFilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRIK::References::get_isEmpty
+// Il2CppName: get_isEmpty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRIK::References::*)()>(&VRIK::References::get_isEmpty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRIK::References::AutoDetectReferences
+// Il2CppName: AutoDetectReferences
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::FinalIK::VRIK::References*&)>(&VRIK::References::AutoDetectReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK::References*&>()});
+  }
+};
+// Writing MetadataGetter for method: VRIK::References::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIK::References::*)()>(&VRIK::References::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIK::References*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIK::References::*)()>(&VRIK::References::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIK::References*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

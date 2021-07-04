@@ -135,243 +135,243 @@ namespace UnityEngine {
     }
   }; // UnityEngine.MonoBehaviour
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MonoBehaviour::IsInvoking
-  // Il2CppName: IsInvoking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoBehaviour::*)()>(&MonoBehaviour::IsInvoking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsInvoking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::CancelInvoke
-  // Il2CppName: CancelInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::CancelInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "CancelInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*, float)>(&MonoBehaviour::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::InvokeRepeating
-  // Il2CppName: InvokeRepeating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*, float, float)>(&MonoBehaviour::InvokeRepeating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "InvokeRepeating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::CancelInvoke
-  // Il2CppName: CancelInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::CancelInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "CancelInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::IsInvoking
-  // Il2CppName: IsInvoking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::IsInvoking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsInvoking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StartCoroutine
-  // Il2CppName: StartCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::StartCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StartCoroutine
-  // Il2CppName: StartCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(::Il2CppString*, ::Il2CppObject*)>(&MonoBehaviour::StartCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StartCoroutine
-  // Il2CppName: StartCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StartCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StartCoroutine_Auto
-  // Il2CppName: StartCoroutine_Auto
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StartCoroutine_Auto)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine_Auto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StopCoroutine
-  // Il2CppName: StopCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StopCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StopCoroutine
-  // Il2CppName: StopCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(UnityEngine::Coroutine*)>(&MonoBehaviour::StopCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Coroutine*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StopCoroutine
-  // Il2CppName: StopCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::StopCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StopAllCoroutines
-  // Il2CppName: StopAllCoroutines
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::StopAllCoroutines)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopAllCoroutines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::get_useGUILayout
-  // Il2CppName: get_useGUILayout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoBehaviour::*)()>(&MonoBehaviour::get_useGUILayout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "get_useGUILayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::set_useGUILayout
-  // Il2CppName: set_useGUILayout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(bool)>(&MonoBehaviour::set_useGUILayout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "set_useGUILayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::print
-  // Il2CppName: print
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&MonoBehaviour::print)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "print", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::Internal_CancelInvokeAll
-  // Il2CppName: Internal_CancelInvokeAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*)>(&MonoBehaviour::Internal_CancelInvokeAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "Internal_CancelInvokeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::Internal_IsInvokingAll
-  // Il2CppName: Internal_IsInvokingAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MonoBehaviour*)>(&MonoBehaviour::Internal_IsInvokingAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "Internal_IsInvokingAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::InvokeDelayed
-  // Il2CppName: InvokeDelayed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*, float, float)>(&MonoBehaviour::InvokeDelayed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "InvokeDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::CancelInvoke
-  // Il2CppName: CancelInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*)>(&MonoBehaviour::CancelInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "CancelInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::IsInvoking
-  // Il2CppName: IsInvoking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*)>(&MonoBehaviour::IsInvoking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsInvoking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::IsObjectMonoBehaviour
-  // Il2CppName: IsObjectMonoBehaviour
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Object*)>(&MonoBehaviour::IsObjectMonoBehaviour)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsObjectMonoBehaviour", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StartCoroutineManaged
-  // Il2CppName: StartCoroutineManaged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(::Il2CppString*, ::Il2CppObject*)>(&MonoBehaviour::StartCoroutineManaged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutineManaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StartCoroutineManaged2
-  // Il2CppName: StartCoroutineManaged2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StartCoroutineManaged2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutineManaged2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StopCoroutineManaged
-  // Il2CppName: StopCoroutineManaged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(UnityEngine::Coroutine*)>(&MonoBehaviour::StopCoroutineManaged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutineManaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Coroutine*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::StopCoroutineFromEnumeratorManaged
-  // Il2CppName: StopCoroutineFromEnumeratorManaged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StopCoroutineFromEnumeratorManaged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutineFromEnumeratorManaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::GetScriptClassName
-  // Il2CppName: GetScriptClassName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MonoBehaviour::*)()>(&MonoBehaviour::GetScriptClassName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "GetScriptClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoBehaviour::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MonoBehaviour*, "UnityEngine", "MonoBehaviour");
+// Writing MetadataGetter for method: MonoBehaviour::IsInvoking
+// Il2CppName: IsInvoking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoBehaviour::*)()>(&MonoBehaviour::IsInvoking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsInvoking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::CancelInvoke
+// Il2CppName: CancelInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::CancelInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "CancelInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*, float)>(&MonoBehaviour::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::InvokeRepeating
+// Il2CppName: InvokeRepeating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*, float, float)>(&MonoBehaviour::InvokeRepeating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "InvokeRepeating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::CancelInvoke
+// Il2CppName: CancelInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::CancelInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "CancelInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::IsInvoking
+// Il2CppName: IsInvoking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::IsInvoking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsInvoking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StartCoroutine
+// Il2CppName: StartCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::StartCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StartCoroutine
+// Il2CppName: StartCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(::Il2CppString*, ::Il2CppObject*)>(&MonoBehaviour::StartCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StartCoroutine
+// Il2CppName: StartCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StartCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StartCoroutine_Auto
+// Il2CppName: StartCoroutine_Auto
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StartCoroutine_Auto)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutine_Auto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StopCoroutine
+// Il2CppName: StopCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StopCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StopCoroutine
+// Il2CppName: StopCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(UnityEngine::Coroutine*)>(&MonoBehaviour::StopCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Coroutine*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StopCoroutine
+// Il2CppName: StopCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(::Il2CppString*)>(&MonoBehaviour::StopCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StopAllCoroutines
+// Il2CppName: StopAllCoroutines
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::StopAllCoroutines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopAllCoroutines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::get_useGUILayout
+// Il2CppName: get_useGUILayout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoBehaviour::*)()>(&MonoBehaviour::get_useGUILayout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "get_useGUILayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::set_useGUILayout
+// Il2CppName: set_useGUILayout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(bool)>(&MonoBehaviour::set_useGUILayout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "set_useGUILayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::print
+// Il2CppName: print
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&MonoBehaviour::print)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "print", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::Internal_CancelInvokeAll
+// Il2CppName: Internal_CancelInvokeAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*)>(&MonoBehaviour::Internal_CancelInvokeAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "Internal_CancelInvokeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::Internal_IsInvokingAll
+// Il2CppName: Internal_IsInvokingAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MonoBehaviour*)>(&MonoBehaviour::Internal_IsInvokingAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "Internal_IsInvokingAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::InvokeDelayed
+// Il2CppName: InvokeDelayed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*, float, float)>(&MonoBehaviour::InvokeDelayed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "InvokeDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::CancelInvoke
+// Il2CppName: CancelInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*)>(&MonoBehaviour::CancelInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "CancelInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::IsInvoking
+// Il2CppName: IsInvoking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*)>(&MonoBehaviour::IsInvoking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsInvoking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::IsObjectMonoBehaviour
+// Il2CppName: IsObjectMonoBehaviour
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Object*)>(&MonoBehaviour::IsObjectMonoBehaviour)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "IsObjectMonoBehaviour", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StartCoroutineManaged
+// Il2CppName: StartCoroutineManaged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(::Il2CppString*, ::Il2CppObject*)>(&MonoBehaviour::StartCoroutineManaged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutineManaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StartCoroutineManaged2
+// Il2CppName: StartCoroutineManaged2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StartCoroutineManaged2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StartCoroutineManaged2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StopCoroutineManaged
+// Il2CppName: StopCoroutineManaged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(UnityEngine::Coroutine*)>(&MonoBehaviour::StopCoroutineManaged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutineManaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Coroutine*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::StopCoroutineFromEnumeratorManaged
+// Il2CppName: StopCoroutineFromEnumeratorManaged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)(System::Collections::IEnumerator*)>(&MonoBehaviour::StopCoroutineFromEnumeratorManaged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "StopCoroutineFromEnumeratorManaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::GetScriptClassName
+// Il2CppName: GetScriptClassName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MonoBehaviour::*)()>(&MonoBehaviour::GetScriptClassName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), "GetScriptClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoBehaviour::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviour::*)()>(&MonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -79,54 +79,54 @@ namespace GlobalNamespace {
     static ::Il2CppString* QuantizedVectorComponentToString(int v);
   }; // QuantizedMathf
   #pragma pack(pop)
-  // Writing MetadataGetter for method: QuantizedMathf::Approximately
-  // Il2CppName: Approximately
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&QuantizedMathf::Approximately)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuantizedMathf::Approximately
-  // Il2CppName: Approximately
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, float)>(&QuantizedMathf::Approximately)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuantizedMathf::Approximately
-  // Il2CppName: Approximately
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, int)>(&QuantizedMathf::Approximately)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuantizedMathf::Approximately
-  // Il2CppName: Approximately
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&QuantizedMathf::Approximately)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuantizedMathf::Approximately
-  // Il2CppName: Approximately
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Pose, UnityEngine::Pose)>(&QuantizedMathf::Approximately)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuantizedMathf::QuantizedVectorComponentToString
-  // Il2CppName: QuantizedVectorComponentToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&QuantizedMathf::QuantizedVectorComponentToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "QuantizedVectorComponentToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuantizedMathf*, "", "QuantizedMathf");
+// Writing MetadataGetter for method: QuantizedMathf::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&QuantizedMathf::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: QuantizedMathf::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, float)>(&QuantizedMathf::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: QuantizedMathf::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, int)>(&QuantizedMathf::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: QuantizedMathf::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&QuantizedMathf::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: QuantizedMathf::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Pose, UnityEngine::Pose)>(&QuantizedMathf::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>()});
+  }
+};
+// Writing MetadataGetter for method: QuantizedMathf::QuantizedVectorComponentToString
+// Il2CppName: QuantizedVectorComponentToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&QuantizedMathf::QuantizedVectorComponentToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuantizedMathf*), "QuantizedVectorComponentToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

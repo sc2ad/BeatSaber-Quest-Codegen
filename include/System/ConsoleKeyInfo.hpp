@@ -80,59 +80,59 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(ConsoleKeyInfo), 8 + sizeof(System::ConsoleModifiers)> __System_ConsoleKeyInfoSizeCheck;
   static_assert(sizeof(ConsoleKeyInfo) == 0xC);
-  // Writing MetadataGetter for method: ConsoleKeyInfo::ConsoleKeyInfo
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConsoleKeyInfo::*)(::Il2CppChar, System::ConsoleKey, bool, bool, bool)>(&ConsoleKeyInfo::ConsoleKeyInfo<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleKey>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConsoleKeyInfo::*)(::Il2CppChar, System::ConsoleKey, bool, bool, bool)>(&ConsoleKeyInfo::ConsoleKeyInfo<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleKey>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConsoleKeyInfo::get_KeyChar
-  // Il2CppName: get_KeyChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (ConsoleKeyInfo::*)()>(&ConsoleKeyInfo::get_KeyChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "get_KeyChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConsoleKeyInfo::get_Key
-  // Il2CppName: get_Key
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKey (ConsoleKeyInfo::*)()>(&ConsoleKeyInfo::get_Key)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConsoleKeyInfo::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConsoleKeyInfo::*)(System::ConsoleKeyInfo)>(&ConsoleKeyInfo::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConsoleKeyInfo::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConsoleKeyInfo::*)(::Il2CppObject*)>(&ConsoleKeyInfo::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConsoleKeyInfo::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ConsoleKeyInfo::*)()>(&ConsoleKeyInfo::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
+// Writing MetadataGetter for method: ConsoleKeyInfo::ConsoleKeyInfo
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConsoleKeyInfo::*)(::Il2CppChar, System::ConsoleKey, bool, bool, bool)>(&ConsoleKeyInfo::ConsoleKeyInfo<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleKey>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConsoleKeyInfo::*)(::Il2CppChar, System::ConsoleKey, bool, bool, bool)>(&ConsoleKeyInfo::ConsoleKeyInfo<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleKey>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ConsoleKeyInfo::get_KeyChar
+// Il2CppName: get_KeyChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (ConsoleKeyInfo::*)()>(&ConsoleKeyInfo::get_KeyChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "get_KeyChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConsoleKeyInfo::get_Key
+// Il2CppName: get_Key
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKey (ConsoleKeyInfo::*)()>(&ConsoleKeyInfo::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConsoleKeyInfo::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConsoleKeyInfo::*)(System::ConsoleKeyInfo)>(&ConsoleKeyInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
+  }
+};
+// Writing MetadataGetter for method: ConsoleKeyInfo::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConsoleKeyInfo::*)(::Il2CppObject*)>(&ConsoleKeyInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ConsoleKeyInfo::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ConsoleKeyInfo::*)()>(&ConsoleKeyInfo::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConsoleKeyInfo), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

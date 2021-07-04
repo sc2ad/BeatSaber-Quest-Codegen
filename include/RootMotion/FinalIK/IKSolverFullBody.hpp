@@ -211,147 +211,147 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolverFullBody), 200 + sizeof(RootMotion::FinalIK::IKSolver::UpdateDelegate*)> __RootMotion_FinalIK_IKSolverFullBodySizeCheck;
   static_assert(sizeof(IKSolverFullBody) == 0xD0);
-  // Writing MetadataGetter for method: IKSolverFullBody::GetEffector
-  // Il2CppName: GetEffector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetEffector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::GetChain
-  // Il2CppName: GetChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::GetChainIndex
-  // Il2CppName: GetChainIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetChainIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetChainIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::GetNode
-  // Il2CppName: GetNode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Node* (IKSolverFullBody::*)(int, int)>(&IKSolverFullBody::GetNode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::GetChainAndNodeIndexes
-  // Il2CppName: GetChainAndNodeIndexes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)(UnityEngine::Transform*, int&, int&)>(&IKSolverFullBody::GetChainAndNodeIndexes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetChainAndNodeIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::ReadPose
-  // Il2CppName: ReadPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::ReadPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "ReadPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::Solve
-  // Il2CppName: Solve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::Solve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::ApplyBendConstraints
-  // Il2CppName: ApplyBendConstraints
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::ApplyBendConstraints)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "ApplyBendConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::WritePose
-  // Il2CppName: WritePose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::WritePose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "WritePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::GetPoints
-  // Il2CppName: GetPoints
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (IKSolverFullBody::*)()>(&IKSolverFullBody::GetPoints)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::GetPoint
-  // Il2CppName: GetPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Point* (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::IsValid
-  // Il2CppName: IsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverFullBody::*)(::Il2CppString*&)>(&IKSolverFullBody::IsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::StoreDefaultLocalState
-  // Il2CppName: StoreDefaultLocalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::StoreDefaultLocalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::FixTransforms
-  // Il2CppName: FixTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::FixTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::OnInitiate
-  // Il2CppName: OnInitiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::OnInitiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "OnInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::OnUpdate
-  // Il2CppName: OnUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::OnUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "OnUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverFullBody::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFullBody*, "RootMotion.FinalIK", "IKSolverFullBody");
+// Writing MetadataGetter for method: IKSolverFullBody::GetEffector
+// Il2CppName: GetEffector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::GetChain
+// Il2CppName: GetChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::GetChainIndex
+// Il2CppName: GetChainIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetChainIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetChainIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::GetNode
+// Il2CppName: GetNode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Node* (IKSolverFullBody::*)(int, int)>(&IKSolverFullBody::GetNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::GetChainAndNodeIndexes
+// Il2CppName: GetChainAndNodeIndexes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)(UnityEngine::Transform*, int&, int&)>(&IKSolverFullBody::GetChainAndNodeIndexes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetChainAndNodeIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::ReadPose
+// Il2CppName: ReadPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::ReadPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "ReadPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::Solve
+// Il2CppName: Solve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::Solve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::ApplyBendConstraints
+// Il2CppName: ApplyBendConstraints
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::ApplyBendConstraints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "ApplyBendConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::WritePose
+// Il2CppName: WritePose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::WritePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "WritePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::GetPoints
+// Il2CppName: GetPoints
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (IKSolverFullBody::*)()>(&IKSolverFullBody::GetPoints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::GetPoint
+// Il2CppName: GetPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Point* (IKSolverFullBody::*)(UnityEngine::Transform*)>(&IKSolverFullBody::GetPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::IsValid
+// Il2CppName: IsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverFullBody::*)(::Il2CppString*&)>(&IKSolverFullBody::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::StoreDefaultLocalState
+// Il2CppName: StoreDefaultLocalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::StoreDefaultLocalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::FixTransforms
+// Il2CppName: FixTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::FixTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::OnInitiate
+// Il2CppName: OnInitiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::OnInitiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "OnInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::OnUpdate
+// Il2CppName: OnUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::OnUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), "OnUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverFullBody::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverFullBody::*)()>(&IKSolverFullBody::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverFullBody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

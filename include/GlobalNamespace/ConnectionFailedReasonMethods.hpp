@@ -112,22 +112,22 @@ namespace GlobalNamespace {
     static ::Il2CppString* ErrorCode(GlobalNamespace::ConnectionFailedReason connectionFailedReason);
   }; // ConnectionFailedReasonMethods
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ConnectionFailedReasonMethods::LocalizedKey
-  // Il2CppName: LocalizedKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::ConnectionFailedReason)>(&ConnectionFailedReasonMethods::LocalizedKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionFailedReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionFailedReasonMethods::ErrorCode
-  // Il2CppName: ErrorCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::ConnectionFailedReason)>(&ConnectionFailedReasonMethods::ErrorCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionFailedReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionFailedReasonMethods*, "", "ConnectionFailedReasonMethods");
+// Writing MetadataGetter for method: ConnectionFailedReasonMethods::LocalizedKey
+// Il2CppName: LocalizedKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::ConnectionFailedReason)>(&ConnectionFailedReasonMethods::LocalizedKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionFailedReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionFailedReasonMethods::ErrorCode
+// Il2CppName: ErrorCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::ConnectionFailedReason)>(&ConnectionFailedReasonMethods::ErrorCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionFailedReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};

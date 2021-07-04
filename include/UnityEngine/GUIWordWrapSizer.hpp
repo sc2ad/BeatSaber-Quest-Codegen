@@ -70,35 +70,35 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(GUIWordWrapSizer), 84 + sizeof(float)> __UnityEngine_GUIWordWrapSizerSizeCheck;
   static_assert(sizeof(GUIWordWrapSizer) == 0x58);
-  // Writing MetadataGetter for method: GUIWordWrapSizer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)(UnityEngine::GUIStyle*, UnityEngine::GUIContent*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUIWordWrapSizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)(UnityEngine::GUIStyle*, UnityEngine::GUIContent*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUIWordWrapSizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUIWordWrapSizer::CalcWidth
-  // Il2CppName: CalcWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)()>(&GUIWordWrapSizer::CalcWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), "CalcWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUIWordWrapSizer::CalcHeight
-  // Il2CppName: CalcHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)()>(&GUIWordWrapSizer::CalcHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIWordWrapSizer*, "UnityEngine", "GUIWordWrapSizer");
+// Writing MetadataGetter for method: GUIWordWrapSizer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)(UnityEngine::GUIStyle*, UnityEngine::GUIContent*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUIWordWrapSizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)(UnityEngine::GUIStyle*, UnityEngine::GUIContent*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUIWordWrapSizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GUIWordWrapSizer::CalcWidth
+// Il2CppName: CalcWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)()>(&GUIWordWrapSizer::CalcWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), "CalcWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUIWordWrapSizer::CalcHeight
+// Il2CppName: CalcHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIWordWrapSizer::*)()>(&GUIWordWrapSizer::CalcHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIWordWrapSizer*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

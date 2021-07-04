@@ -164,115 +164,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CreditsContent), 104 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_CreditsContentSizeCheck;
   static_assert(sizeof(CreditsContent) == 0x70);
-  // Writing MetadataGetter for method: CreditsContent::get_normalTextPrefab
-  // Il2CppName: get_normalTextPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_normalTextPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_normalTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_normalLocalizedTextPrefab
-  // Il2CppName: get_normalLocalizedTextPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_normalLocalizedTextPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_normalLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_titleTextPrefab
-  // Il2CppName: get_titleTextPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_titleTextPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_titleTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_titleLocalizedTextPrefab
-  // Il2CppName: get_titleLocalizedTextPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_titleLocalizedTextPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_titleLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_headerTextPrefab
-  // Il2CppName: get_headerTextPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_headerTextPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_headerTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_headerLocalizedTextPrefab
-  // Il2CppName: get_headerLocalizedTextPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_headerLocalizedTextPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_headerLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_columnCount
-  // Il2CppName: get_columnCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CreditsContent::*)()>(&CreditsContent::get_columnCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_columnCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_spaceHeight
-  // Il2CppName: get_spaceHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CreditsContent::*)()>(&CreditsContent::get_spaceHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_spaceHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_titleHeight
-  // Il2CppName: get_titleHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CreditsContent::*)()>(&CreditsContent::get_titleHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_titleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_contentRoot
-  // Il2CppName: get_contentRoot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (CreditsContent::*)()>(&CreditsContent::get_contentRoot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_contentRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_rootRectTransform
-  // Il2CppName: get_rootRectTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (CreditsContent::*)()>(&CreditsContent::get_rootRectTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_rootRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::get_creditsContentTextAsset
-  // Il2CppName: get_creditsContentTextAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (CreditsContent::*)()>(&CreditsContent::get_creditsContentTextAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_creditsContentTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsContent::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsContent::*)()>(&CreditsContent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsContent::*)()>(&CreditsContent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsContent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsContent*, "", "CreditsContent");
+// Writing MetadataGetter for method: CreditsContent::get_normalTextPrefab
+// Il2CppName: get_normalTextPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_normalTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_normalTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_normalLocalizedTextPrefab
+// Il2CppName: get_normalLocalizedTextPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_normalLocalizedTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_normalLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_titleTextPrefab
+// Il2CppName: get_titleTextPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_titleTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_titleTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_titleLocalizedTextPrefab
+// Il2CppName: get_titleLocalizedTextPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_titleLocalizedTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_titleLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_headerTextPrefab
+// Il2CppName: get_headerTextPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_headerTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_headerTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_headerLocalizedTextPrefab
+// Il2CppName: get_headerLocalizedTextPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (CreditsContent::*)()>(&CreditsContent::get_headerLocalizedTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_headerLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_columnCount
+// Il2CppName: get_columnCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CreditsContent::*)()>(&CreditsContent::get_columnCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_columnCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_spaceHeight
+// Il2CppName: get_spaceHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CreditsContent::*)()>(&CreditsContent::get_spaceHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_spaceHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_titleHeight
+// Il2CppName: get_titleHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CreditsContent::*)()>(&CreditsContent::get_titleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_titleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_contentRoot
+// Il2CppName: get_contentRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (CreditsContent::*)()>(&CreditsContent::get_contentRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_contentRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_rootRectTransform
+// Il2CppName: get_rootRectTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (CreditsContent::*)()>(&CreditsContent::get_rootRectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_rootRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::get_creditsContentTextAsset
+// Il2CppName: get_creditsContentTextAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (CreditsContent::*)()>(&CreditsContent::get_creditsContentTextAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), "get_creditsContentTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsContent::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsContent::*)()>(&CreditsContent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsContent::*)()>(&CreditsContent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsContent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

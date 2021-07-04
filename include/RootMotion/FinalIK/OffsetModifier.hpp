@@ -98,75 +98,75 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(OffsetModifier), 40 + sizeof(float)> __RootMotion_FinalIK_OffsetModifierSizeCheck;
   static_assert(sizeof(OffsetModifier) == 0x2C);
-  // Writing MetadataGetter for method: OffsetModifier::get_deltaTime
-  // Il2CppName: get_deltaTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OffsetModifier::*)()>(&OffsetModifier::get_deltaTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OffsetModifier::OnModifyOffset
-  // Il2CppName: OnModifyOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::OnModifyOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OffsetModifier::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OffsetModifier::Initiate
-  // Il2CppName: Initiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (OffsetModifier::*)()>(&OffsetModifier::Initiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OffsetModifier::ModifyOffset
-  // Il2CppName: ModifyOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::ModifyOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "ModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OffsetModifier::ApplyLimits
-  // Il2CppName: ApplyLimits
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*)>(&OffsetModifier::ApplyLimits)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "ApplyLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OffsetModifier::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OffsetModifier::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier*, "RootMotion.FinalIK", "OffsetModifier");
+// Writing MetadataGetter for method: OffsetModifier::get_deltaTime
+// Il2CppName: get_deltaTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OffsetModifier::*)()>(&OffsetModifier::get_deltaTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OffsetModifier::OnModifyOffset
+// Il2CppName: OnModifyOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::OnModifyOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OffsetModifier::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OffsetModifier::Initiate
+// Il2CppName: Initiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (OffsetModifier::*)()>(&OffsetModifier::Initiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OffsetModifier::ModifyOffset
+// Il2CppName: ModifyOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::ModifyOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "ModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OffsetModifier::ApplyLimits
+// Il2CppName: ApplyLimits
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*)>(&OffsetModifier::ApplyLimits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "ApplyLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*>()});
+  }
+};
+// Writing MetadataGetter for method: OffsetModifier::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OffsetModifier::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::*)()>(&OffsetModifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OffsetModifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

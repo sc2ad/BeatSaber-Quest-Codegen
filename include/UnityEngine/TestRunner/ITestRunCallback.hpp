@@ -36,38 +36,38 @@ namespace UnityEngine::TestRunner {
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.ITestRunCallback
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ITestRunCallback::RunStarted
-  // Il2CppName: RunStarted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&ITestRunCallback::RunStarted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "RunStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ITestRunCallback::RunFinished
-  // Il2CppName: RunFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&ITestRunCallback::RunFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "RunFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ITestRunCallback::TestStarted
-  // Il2CppName: TestStarted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&ITestRunCallback::TestStarted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ITestRunCallback::TestFinished
-  // Il2CppName: TestFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&ITestRunCallback::TestFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::ITestRunCallback*, "UnityEngine.TestRunner", "ITestRunCallback");
+// Writing MetadataGetter for method: ITestRunCallback::RunStarted
+// Il2CppName: RunStarted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&ITestRunCallback::RunStarted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "RunStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: ITestRunCallback::RunFinished
+// Il2CppName: RunFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&ITestRunCallback::RunFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "RunFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+  }
+};
+// Writing MetadataGetter for method: ITestRunCallback::TestStarted
+// Il2CppName: TestStarted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&ITestRunCallback::TestStarted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: ITestRunCallback::TestFinished
+// Il2CppName: TestFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestRunCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&ITestRunCallback::TestFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ITestRunCallback*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+  }
+};

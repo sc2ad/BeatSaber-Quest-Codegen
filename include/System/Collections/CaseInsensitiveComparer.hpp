@@ -70,49 +70,49 @@ namespace System::Collections {
   #pragma pack(pop)
   static check_size<sizeof(CaseInsensitiveComparer), 16 + sizeof(System::Globalization::CompareInfo*)> __System_Collections_CaseInsensitiveComparerSizeCheck;
   static_assert(sizeof(CaseInsensitiveComparer) == 0x18);
-  // Writing MetadataGetter for method: CaseInsensitiveComparer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)(System::Globalization::CultureInfo*)>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)(System::Globalization::CultureInfo*)>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CaseInsensitiveComparer::get_Default
-  // Il2CppName: get_Default
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::CaseInsensitiveComparer* (*)()>(&CaseInsensitiveComparer::get_Default)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CaseInsensitiveComparer::Compare
-  // Il2CppName: Compare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CaseInsensitiveComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&CaseInsensitiveComparer::Compare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CaseInsensitiveComparer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)()>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)()>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveComparer*, "System.Collections", "CaseInsensitiveComparer");
+// Writing MetadataGetter for method: CaseInsensitiveComparer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)(System::Globalization::CultureInfo*)>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)(System::Globalization::CultureInfo*)>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: CaseInsensitiveComparer::get_Default
+// Il2CppName: get_Default
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::CaseInsensitiveComparer* (*)()>(&CaseInsensitiveComparer::get_Default)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CaseInsensitiveComparer::Compare
+// Il2CppName: Compare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CaseInsensitiveComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&CaseInsensitiveComparer::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CaseInsensitiveComparer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)()>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveComparer::*)()>(&CaseInsensitiveComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

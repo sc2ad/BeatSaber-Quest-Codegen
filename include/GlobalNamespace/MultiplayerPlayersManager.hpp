@@ -341,211 +341,211 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerPlayersManager), 216 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_MultiplayerPlayersManagerSizeCheck;
   static_assert(sizeof(MultiplayerPlayersManager) == 0xE0);
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_playerSpawningFinished
-  // Il2CppName: get_playerSpawningFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_playerSpawningFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_playerSpawningFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::set_playerSpawningFinished
-  // Il2CppName: set_playerSpawningFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(bool)>(&MultiplayerPlayersManager::set_playerSpawningFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "set_playerSpawningFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_allActiveAtGameStartPlayers
-  // Il2CppName: get_allActiveAtGameStartPlayers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_allActiveAtGameStartPlayers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_allActiveAtGameStartPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_localPlayerStartSeekSongController
-  // Il2CppName: get_localPlayerStartSeekSongController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IStartSeekSongControllerProvider* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_localPlayerStartSeekSongController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_localPlayerStartSeekSongController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_activeLocalPlayerFacade
-  // Il2CppName: get_activeLocalPlayerFacade
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLocalActivePlayerFacade* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_activeLocalPlayerFacade)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_activeLocalPlayerFacade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_inactivePlayerFacade
-  // Il2CppName: get_inactivePlayerFacade
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLocalInactivePlayerFacade* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_inactivePlayerFacade)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_inactivePlayerFacade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_localPlayerTransform
-  // Il2CppName: get_localPlayerTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_localPlayerTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_localPlayerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerSpawningDidFinishEvent
-  // Il2CppName: add_playerSpawningDidFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::add_playerSpawningDidFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerSpawningDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerSpawningDidFinishEvent
-  // Il2CppName: remove_playerSpawningDidFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::remove_playerSpawningDidFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerSpawningDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_didSwitchPlayerToInactiveEvent
-  // Il2CppName: add_didSwitchPlayerToInactiveEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::add_didSwitchPlayerToInactiveEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_didSwitchPlayerToInactiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_didSwitchPlayerToInactiveEvent
-  // Il2CppName: remove_didSwitchPlayerToInactiveEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::remove_didSwitchPlayerToInactiveEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_didSwitchPlayerToInactiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerDidFinishEvent
-  // Il2CppName: add_playerDidFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&MultiplayerPlayersManager::add_playerDidFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerDidFinishEvent
-  // Il2CppName: remove_playerDidFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&MultiplayerPlayersManager::remove_playerDidFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerNetworkDidFailedEvent
-  // Il2CppName: add_playerNetworkDidFailedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&MultiplayerPlayersManager::add_playerNetworkDidFailedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerNetworkDidFailedEvent
-  // Il2CppName: remove_playerNetworkDidFailedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&MultiplayerPlayersManager::remove_playerNetworkDidFailedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::SpawnPlayers
-  // Il2CppName: SpawnPlayers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerPlayerStartState, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)>(&MultiplayerPlayersManager::SpawnPlayers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SpawnPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerStartState>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::TryGetConnectedPlayerController
-  // Il2CppName: TryGetConnectedPlayerController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*&)>(&MultiplayerPlayersManager::TryGetConnectedPlayerController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "TryGetConnectedPlayerController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerFacade*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation
-  // Il2CppName: TryGetConnectedCenterFacingRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)(::Il2CppString*, float&)>(&MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "TryGetConnectedCenterFacingRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::SwitchLocalPlayerToInactive
-  // Il2CppName: SwitchLocalPlayerToInactive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::SwitchLocalPlayerToInactive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SwitchLocalPlayerToInactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::ReportLocalPlayerNetworkDidFailed
-  // Il2CppName: ReportLocalPlayerNetworkDidFailed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerPlayersManager::ReportLocalPlayerNetworkDidFailed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "ReportLocalPlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::SwitchLocalPlayerToInactiveCoroutine
-  // Il2CppName: SwitchLocalPlayerToInactiveCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::SwitchLocalPlayerToInactiveCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SwitchLocalPlayerToInactiveCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::BindPlayerFactories
-  // Il2CppName: BindPlayerFactories
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerPlayerLayout)>(&MultiplayerPlayersManager::BindPlayerFactories)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "BindPlayerFactories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerLayout>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::HandlePlayerDidFinish
-  // Il2CppName: HandlePlayerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerPlayersManager::HandlePlayerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "HandlePlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::HandlePlayerNetworkDidFailed
-  // Il2CppName: HandlePlayerNetworkDidFailed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerPlayersManager::HandlePlayerNetworkDidFailed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "HandlePlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerPlayersManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayersManager*, "", "MultiplayerPlayersManager");
+// Writing MetadataGetter for method: MultiplayerPlayersManager::get_playerSpawningFinished
+// Il2CppName: get_playerSpawningFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_playerSpawningFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_playerSpawningFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::set_playerSpawningFinished
+// Il2CppName: set_playerSpawningFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(bool)>(&MultiplayerPlayersManager::set_playerSpawningFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "set_playerSpawningFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::get_allActiveAtGameStartPlayers
+// Il2CppName: get_allActiveAtGameStartPlayers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_allActiveAtGameStartPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_allActiveAtGameStartPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::get_localPlayerStartSeekSongController
+// Il2CppName: get_localPlayerStartSeekSongController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IStartSeekSongControllerProvider* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_localPlayerStartSeekSongController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_localPlayerStartSeekSongController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::get_activeLocalPlayerFacade
+// Il2CppName: get_activeLocalPlayerFacade
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLocalActivePlayerFacade* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_activeLocalPlayerFacade)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_activeLocalPlayerFacade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::get_inactivePlayerFacade
+// Il2CppName: get_inactivePlayerFacade
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLocalInactivePlayerFacade* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_inactivePlayerFacade)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_inactivePlayerFacade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::get_localPlayerTransform
+// Il2CppName: get_localPlayerTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_localPlayerTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_localPlayerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerSpawningDidFinishEvent
+// Il2CppName: add_playerSpawningDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::add_playerSpawningDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerSpawningDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerSpawningDidFinishEvent
+// Il2CppName: remove_playerSpawningDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::remove_playerSpawningDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerSpawningDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::add_didSwitchPlayerToInactiveEvent
+// Il2CppName: add_didSwitchPlayerToInactiveEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::add_didSwitchPlayerToInactiveEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_didSwitchPlayerToInactiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::remove_didSwitchPlayerToInactiveEvent
+// Il2CppName: remove_didSwitchPlayerToInactiveEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::remove_didSwitchPlayerToInactiveEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_didSwitchPlayerToInactiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerDidFinishEvent
+// Il2CppName: add_playerDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&MultiplayerPlayersManager::add_playerDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerDidFinishEvent
+// Il2CppName: remove_playerDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&MultiplayerPlayersManager::remove_playerDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerNetworkDidFailedEvent
+// Il2CppName: add_playerNetworkDidFailedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&MultiplayerPlayersManager::add_playerNetworkDidFailedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerNetworkDidFailedEvent
+// Il2CppName: remove_playerNetworkDidFailedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&MultiplayerPlayersManager::remove_playerNetworkDidFailedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::SpawnPlayers
+// Il2CppName: SpawnPlayers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerPlayerStartState, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)>(&MultiplayerPlayersManager::SpawnPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SpawnPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerStartState>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::TryGetConnectedPlayerController
+// Il2CppName: TryGetConnectedPlayerController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*&)>(&MultiplayerPlayersManager::TryGetConnectedPlayerController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "TryGetConnectedPlayerController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerFacade*&>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation
+// Il2CppName: TryGetConnectedCenterFacingRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)(::Il2CppString*, float&)>(&MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "TryGetConnectedCenterFacingRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::SwitchLocalPlayerToInactive
+// Il2CppName: SwitchLocalPlayerToInactive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::SwitchLocalPlayerToInactive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SwitchLocalPlayerToInactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::ReportLocalPlayerNetworkDidFailed
+// Il2CppName: ReportLocalPlayerNetworkDidFailed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerPlayersManager::ReportLocalPlayerNetworkDidFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "ReportLocalPlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::SwitchLocalPlayerToInactiveCoroutine
+// Il2CppName: SwitchLocalPlayerToInactiveCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::SwitchLocalPlayerToInactiveCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SwitchLocalPlayerToInactiveCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::BindPlayerFactories
+// Il2CppName: BindPlayerFactories
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerPlayerLayout)>(&MultiplayerPlayersManager::BindPlayerFactories)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "BindPlayerFactories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerLayout>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::HandlePlayerDidFinish
+// Il2CppName: HandlePlayerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerPlayersManager::HandlePlayerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "HandlePlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::HandlePlayerNetworkDidFailed
+// Il2CppName: HandlePlayerNetworkDidFailed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerPlayersManager::HandlePlayerNetworkDidFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "HandlePlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerPlayersManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

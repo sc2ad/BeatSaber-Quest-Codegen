@@ -45,38 +45,38 @@ namespace UnityEngine::EventSystems {
     static void _cctor();
   }; // UnityEngine.EventSystems.RaycasterManager
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RaycasterManager::AddRaycaster
-  // Il2CppName: AddRaycaster
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&RaycasterManager::AddRaycaster)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), "AddRaycaster", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseRaycaster*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RaycasterManager::GetRaycasters
-  // Il2CppName: GetRaycasters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* (*)()>(&RaycasterManager::GetRaycasters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), "GetRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RaycasterManager::RemoveRaycasters
-  // Il2CppName: RemoveRaycasters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&RaycasterManager::RemoveRaycasters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), "RemoveRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseRaycaster*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RaycasterManager::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RaycasterManager::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycasterManager*, "UnityEngine.EventSystems", "RaycasterManager");
+// Writing MetadataGetter for method: RaycasterManager::AddRaycaster
+// Il2CppName: AddRaycaster
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&RaycasterManager::AddRaycaster)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), "AddRaycaster", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseRaycaster*>()});
+  }
+};
+// Writing MetadataGetter for method: RaycasterManager::GetRaycasters
+// Il2CppName: GetRaycasters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* (*)()>(&RaycasterManager::GetRaycasters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), "GetRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RaycasterManager::RemoveRaycasters
+// Il2CppName: RemoveRaycasters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&RaycasterManager::RemoveRaycasters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), "RemoveRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseRaycaster*>()});
+  }
+};
+// Writing MetadataGetter for method: RaycasterManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RaycasterManager::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycasterManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

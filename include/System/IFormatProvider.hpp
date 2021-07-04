@@ -29,14 +29,14 @@ namespace System {
     ::Il2CppObject* GetFormat(System::Type* formatType);
   }; // System.IFormatProvider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IFormatProvider::GetFormat
-  // Il2CppName: GetFormat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IFormatProvider::*)(System::Type*)>(&IFormatProvider::GetFormat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IFormatProvider*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IFormatProvider*, "System", "IFormatProvider");
+// Writing MetadataGetter for method: IFormatProvider::GetFormat
+// Il2CppName: GetFormat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IFormatProvider::*)(System::Type*)>(&IFormatProvider::GetFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IFormatProvider*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

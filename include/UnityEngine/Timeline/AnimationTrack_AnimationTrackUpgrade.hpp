@@ -27,30 +27,30 @@ namespace UnityEngine::Timeline {
     static void ConvertInfiniteTrack(UnityEngine::Timeline::AnimationTrack* track);
   }; // UnityEngine.Timeline.AnimationTrack/AnimationTrackUpgrade
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AnimationTrack::AnimationTrackUpgrade::ConvertRotationsToEuler
-  // Il2CppName: ConvertRotationsToEuler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationTrack*)>(&AnimationTrack::AnimationTrackUpgrade::ConvertRotationsToEuler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack::AnimationTrackUpgrade*), "ConvertRotationsToEuler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::AnimationTrackUpgrade::ConvertRootMotion
-  // Il2CppName: ConvertRootMotion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationTrack*)>(&AnimationTrack::AnimationTrackUpgrade::ConvertRootMotion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack::AnimationTrackUpgrade*), "ConvertRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::AnimationTrackUpgrade::ConvertInfiniteTrack
-  // Il2CppName: ConvertInfiniteTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationTrack*)>(&AnimationTrack::AnimationTrackUpgrade::ConvertInfiniteTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack::AnimationTrackUpgrade*), "ConvertInfiniteTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack::AnimationTrackUpgrade*, "UnityEngine.Timeline", "AnimationTrack/AnimationTrackUpgrade");
+// Writing MetadataGetter for method: AnimationTrack::AnimationTrackUpgrade::ConvertRotationsToEuler
+// Il2CppName: ConvertRotationsToEuler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationTrack*)>(&AnimationTrack::AnimationTrackUpgrade::ConvertRotationsToEuler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack::AnimationTrackUpgrade*), "ConvertRotationsToEuler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::AnimationTrackUpgrade::ConvertRootMotion
+// Il2CppName: ConvertRootMotion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationTrack*)>(&AnimationTrack::AnimationTrackUpgrade::ConvertRootMotion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack::AnimationTrackUpgrade*), "ConvertRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::AnimationTrackUpgrade::ConvertInfiniteTrack
+// Il2CppName: ConvertInfiniteTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationTrack*)>(&AnimationTrack::AnimationTrackUpgrade::ConvertInfiniteTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack::AnimationTrackUpgrade*), "ConvertInfiniteTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>()});
+  }
+};

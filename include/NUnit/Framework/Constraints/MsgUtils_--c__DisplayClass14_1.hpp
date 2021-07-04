@@ -54,27 +54,27 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
   static check_size<sizeof(MsgUtils::$$c__DisplayClass14_1), 16 + sizeof(NUnit::Framework::Constraints::ValueFormatter*)> __NUnit_Framework_Constraints_MsgUtils_$$c__DisplayClass14_1SizeCheck;
   static_assert(sizeof(MsgUtils::$$c__DisplayClass14_1) == 0x18);
-  // Writing MetadataGetter for method: MsgUtils::$$c__DisplayClass14_1::$_cctor$b__12
-  // Il2CppName: <.cctor>b__12
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MsgUtils::$$c__DisplayClass14_1::*)(::Il2CppObject*)>(&MsgUtils::$$c__DisplayClass14_1::$_cctor$b__12)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MsgUtils::$$c__DisplayClass14_1*), "<.cctor>b__12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MsgUtils::$$c__DisplayClass14_1::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MsgUtils::$$c__DisplayClass14_1::*)()>(&MsgUtils::$$c__DisplayClass14_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MsgUtils::$$c__DisplayClass14_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MsgUtils::$$c__DisplayClass14_1::*)()>(&MsgUtils::$$c__DisplayClass14_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MsgUtils::$$c__DisplayClass14_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_1*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass14_1");
+// Writing MetadataGetter for method: MsgUtils::$$c__DisplayClass14_1::$_cctor$b__12
+// Il2CppName: <.cctor>b__12
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MsgUtils::$$c__DisplayClass14_1::*)(::Il2CppObject*)>(&MsgUtils::$$c__DisplayClass14_1::$_cctor$b__12)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MsgUtils::$$c__DisplayClass14_1*), "<.cctor>b__12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MsgUtils::$$c__DisplayClass14_1::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MsgUtils::$$c__DisplayClass14_1::*)()>(&MsgUtils::$$c__DisplayClass14_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MsgUtils::$$c__DisplayClass14_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MsgUtils::$$c__DisplayClass14_1::*)()>(&MsgUtils::$$c__DisplayClass14_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MsgUtils::$$c__DisplayClass14_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

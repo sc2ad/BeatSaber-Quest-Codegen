@@ -217,83 +217,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AvatarVisualController), 184 + sizeof(GlobalNamespace::AvatarVisualController::HighlighterDelegate*)> __GlobalNamespace_AvatarVisualControllerSizeCheck;
   static_assert(sizeof(AvatarVisualController) == 0xC0);
-  // Writing MetadataGetter for method: AvatarVisualController::get_lightColor
-  // Il2CppName: get_lightColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarVisualController::*)()>(&AvatarVisualController::get_lightColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::UpdateAvatarVisual
-  // Il2CppName: UpdateAvatarVisual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(GlobalNamespace::AvatarData*)>(&AvatarVisualController::UpdateAvatarVisual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "UpdateAvatarVisual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::SetLightColor
-  // Il2CppName: SetLightColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(UnityEngine::Color)>(&AvatarVisualController::SetLightColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "SetLightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::UpdateAvatarColors
-  // Il2CppName: UpdateAvatarColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::UpdateAvatarColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "UpdateAvatarColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::HighlightEditedPart
-  // Il2CppName: HighlightEditedPart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&AvatarVisualController::HighlightEditedPart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "HighlightEditedPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::DisableEditedPartHighlight
-  // Il2CppName: DisableEditedPartHighlight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::DisableEditedPartHighlight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "DisableEditedPartHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::SetHandsHighlight
-  // Il2CppName: SetHandsHighlight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(bool, int)>(&AvatarVisualController::SetHandsHighlight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "SetHandsHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarVisualController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarVisualController*, "", "AvatarVisualController");
+// Writing MetadataGetter for method: AvatarVisualController::get_lightColor
+// Il2CppName: get_lightColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarVisualController::*)()>(&AvatarVisualController::get_lightColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::UpdateAvatarVisual
+// Il2CppName: UpdateAvatarVisual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(GlobalNamespace::AvatarData*)>(&AvatarVisualController::UpdateAvatarVisual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "UpdateAvatarVisual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>()});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::SetLightColor
+// Il2CppName: SetLightColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(UnityEngine::Color)>(&AvatarVisualController::SetLightColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "SetLightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::UpdateAvatarColors
+// Il2CppName: UpdateAvatarColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::UpdateAvatarColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "UpdateAvatarColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::HighlightEditedPart
+// Il2CppName: HighlightEditedPart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&AvatarVisualController::HighlightEditedPart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "HighlightEditedPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::DisableEditedPartHighlight
+// Il2CppName: DisableEditedPartHighlight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::DisableEditedPartHighlight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "DisableEditedPartHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::SetHandsHighlight
+// Il2CppName: SetHandsHighlight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)(bool, int)>(&AvatarVisualController::SetHandsHighlight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), "SetHandsHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AvatarVisualController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarVisualController::*)()>(&AvatarVisualController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarVisualController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

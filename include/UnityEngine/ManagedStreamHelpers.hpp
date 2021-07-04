@@ -40,38 +40,38 @@ namespace UnityEngine {
     static void ManagedStreamLength(System::IO::Stream* stream, System::IntPtr returnValueAddress);
   }; // UnityEngine.ManagedStreamHelpers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ManagedStreamHelpers::ValidateLoadFromStream
-  // Il2CppName: ValidateLoadFromStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*)>(&ManagedStreamHelpers::ValidateLoadFromStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ValidateLoadFromStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ManagedStreamHelpers::ManagedStreamRead
-  // Il2CppName: ManagedStreamRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, System::IO::Stream*, System::IntPtr)>(&ManagedStreamHelpers::ManagedStreamRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ManagedStreamRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: ManagedStreamHelpers::ManagedStreamSeek
-  // Il2CppName: ManagedStreamSeek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, uint, System::IO::Stream*, System::IntPtr)>(&ManagedStreamHelpers::ManagedStreamSeek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ManagedStreamSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: ManagedStreamHelpers::ManagedStreamLength
-  // Il2CppName: ManagedStreamLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*, System::IntPtr)>(&ManagedStreamHelpers::ManagedStreamLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ManagedStreamLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ManagedStreamHelpers*, "UnityEngine", "ManagedStreamHelpers");
+// Writing MetadataGetter for method: ManagedStreamHelpers::ValidateLoadFromStream
+// Il2CppName: ValidateLoadFromStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*)>(&ManagedStreamHelpers::ValidateLoadFromStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ValidateLoadFromStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: ManagedStreamHelpers::ManagedStreamRead
+// Il2CppName: ManagedStreamRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, System::IO::Stream*, System::IntPtr)>(&ManagedStreamHelpers::ManagedStreamRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ManagedStreamRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: ManagedStreamHelpers::ManagedStreamSeek
+// Il2CppName: ManagedStreamSeek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, uint, System::IO::Stream*, System::IntPtr)>(&ManagedStreamHelpers::ManagedStreamSeek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ManagedStreamSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: ManagedStreamHelpers::ManagedStreamLength
+// Il2CppName: ManagedStreamLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*, System::IntPtr)>(&ManagedStreamHelpers::ManagedStreamLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManagedStreamHelpers*), "ManagedStreamLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};

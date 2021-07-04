@@ -110,67 +110,67 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(HoverHintPanel), 56 + sizeof(bool)> __HMUI_HoverHintPanelSizeCheck;
   static_assert(sizeof(HoverHintPanel) == 0x39);
-  // Writing MetadataGetter for method: HoverHintPanel::get_isShown
-  // Il2CppName: get_isShown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoverHintPanel::*)()>(&HoverHintPanel::get_isShown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "get_isShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HoverHintPanel::set_isShown
-  // Il2CppName: set_isShown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)(bool)>(&HoverHintPanel::set_isShown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "set_isShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: HoverHintPanel::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HoverHintPanel::Show
-  // Il2CppName: Show
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)(::Il2CppString*, UnityEngine::Transform*, UnityEngine::Vector2, UnityEngine::Rect)>(&HoverHintPanel::Show)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
-    }
-  };
-  // Writing MetadataGetter for method: HoverHintPanel::Hide
-  // Il2CppName: Hide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::Hide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HoverHintPanel::CalculatePanelPosition
-  // Il2CppName: CalculatePanelPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HoverHintPanel::*)(UnityEngine::Vector2, UnityEngine::Rect, UnityEngine::Vector2)>(&HoverHintPanel::CalculatePanelPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "CalculatePanelPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: HoverHintPanel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintPanel*, "HMUI", "HoverHintPanel");
+// Writing MetadataGetter for method: HoverHintPanel::get_isShown
+// Il2CppName: get_isShown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoverHintPanel::*)()>(&HoverHintPanel::get_isShown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "get_isShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HoverHintPanel::set_isShown
+// Il2CppName: set_isShown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)(bool)>(&HoverHintPanel::set_isShown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "set_isShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: HoverHintPanel::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HoverHintPanel::Show
+// Il2CppName: Show
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)(::Il2CppString*, UnityEngine::Transform*, UnityEngine::Vector2, UnityEngine::Rect)>(&HoverHintPanel::Show)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+  }
+};
+// Writing MetadataGetter for method: HoverHintPanel::Hide
+// Il2CppName: Hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::Hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HoverHintPanel::CalculatePanelPosition
+// Il2CppName: CalculatePanelPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HoverHintPanel::*)(UnityEngine::Vector2, UnityEngine::Rect, UnityEngine::Vector2)>(&HoverHintPanel::CalculatePanelPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), "CalculatePanelPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: HoverHintPanel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHintPanel::*)()>(&HoverHintPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HoverHintPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

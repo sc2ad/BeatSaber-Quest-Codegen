@@ -73,27 +73,27 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0), 56 + sizeof(::Array<uint8_t>*)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0) == 0x40);
-  // Writing MetadataGetter for method: BaseClientMessageHandler::$$c__DisplayClass32_0::$VerifySignature$b__0
-  // Il2CppName: <VerifySignature>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseClientMessageHandler::$$c__DisplayClass32_0::*)()>(&BaseClientMessageHandler::$$c__DisplayClass32_0::$VerifySignature$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$$c__DisplayClass32_0*), "<VerifySignature>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseClientMessageHandler::$$c__DisplayClass32_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$$c__DisplayClass32_0::*)()>(&BaseClientMessageHandler::$$c__DisplayClass32_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$$c__DisplayClass32_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$$c__DisplayClass32_0::*)()>(&BaseClientMessageHandler::$$c__DisplayClass32_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$$c__DisplayClass32_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass32_0");
+// Writing MetadataGetter for method: BaseClientMessageHandler::$$c__DisplayClass32_0::$VerifySignature$b__0
+// Il2CppName: <VerifySignature>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseClientMessageHandler::$$c__DisplayClass32_0::*)()>(&BaseClientMessageHandler::$$c__DisplayClass32_0::$VerifySignature$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$$c__DisplayClass32_0*), "<VerifySignature>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseClientMessageHandler::$$c__DisplayClass32_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$$c__DisplayClass32_0::*)()>(&BaseClientMessageHandler::$$c__DisplayClass32_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$$c__DisplayClass32_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$$c__DisplayClass32_0::*)()>(&BaseClientMessageHandler::$$c__DisplayClass32_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$$c__DisplayClass32_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

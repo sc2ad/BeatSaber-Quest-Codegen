@@ -131,113 +131,113 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
   static check_size<sizeof(UnwrapParameters), 28 + sizeof(float)> __UnityEngine_ProBuilder_UnwrapParametersSizeCheck;
   static_assert(sizeof(UnwrapParameters) == 0x20);
-  // Writing MetadataGetter for method: UnwrapParameters::get_hardAngle
-  // Il2CppName: get_hardAngle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_hardAngle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_hardAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::set_hardAngle
-  // Il2CppName: set_hardAngle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_hardAngle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_hardAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::get_packMargin
-  // Il2CppName: get_packMargin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_packMargin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_packMargin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::set_packMargin
-  // Il2CppName: set_packMargin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_packMargin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_packMargin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::get_angleError
-  // Il2CppName: get_angleError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_angleError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_angleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::set_angleError
-  // Il2CppName: set_angleError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_angleError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_angleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::get_areaError
-  // Il2CppName: get_areaError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_areaError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_areaError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::set_areaError
-  // Il2CppName: set_areaError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_areaError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_areaError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(UnityEngine::ProBuilder::UnwrapParameters*)>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::UnwrapParameters*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(UnityEngine::ProBuilder::UnwrapParameters*)>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::UnwrapParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)()>(&UnwrapParameters::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)()>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)()>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnwrapParameters::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnwrapParameters::*)()>(&UnwrapParameters::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters*, "UnityEngine.ProBuilder", "UnwrapParameters");
+// Writing MetadataGetter for method: UnwrapParameters::get_hardAngle
+// Il2CppName: get_hardAngle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_hardAngle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_hardAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::set_hardAngle
+// Il2CppName: set_hardAngle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_hardAngle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_hardAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::get_packMargin
+// Il2CppName: get_packMargin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_packMargin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_packMargin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::set_packMargin
+// Il2CppName: set_packMargin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_packMargin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_packMargin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::get_angleError
+// Il2CppName: get_angleError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_angleError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_angleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::set_angleError
+// Il2CppName: set_angleError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_angleError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_angleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::get_areaError
+// Il2CppName: get_areaError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnwrapParameters::*)()>(&UnwrapParameters::get_areaError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "get_areaError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::set_areaError
+// Il2CppName: set_areaError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(float)>(&UnwrapParameters::set_areaError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "set_areaError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(UnityEngine::ProBuilder::UnwrapParameters*)>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::UnwrapParameters*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)(UnityEngine::ProBuilder::UnwrapParameters*)>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::UnwrapParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)()>(&UnwrapParameters::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)()>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnwrapParameters::*)()>(&UnwrapParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnwrapParameters::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnwrapParameters::*)()>(&UnwrapParameters::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnwrapParameters*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -109,115 +109,115 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(GenericMethodHelper), 40 + sizeof(::Array<System::Type*>*)> __NUnit_Framework_Internal_GenericMethodHelperSizeCheck;
   static_assert(sizeof(GenericMethodHelper) == 0x30);
-  // Writing MetadataGetter for method: GenericMethodHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Reflection::MethodInfo*)>(&GenericMethodHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Reflection::MethodInfo*)>(&GenericMethodHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::get_Method
-  // Il2CppName: get_Method
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_Method)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::set_Method
-  // Il2CppName: set_Method
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Reflection::MethodInfo*)>(&GenericMethodHelper::set_Method)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::get_TypeParms
-  // Il2CppName: get_TypeParms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_TypeParms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_TypeParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::set_TypeParms
-  // Il2CppName: set_TypeParms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(::Array<System::Type*>*)>(&GenericMethodHelper::set_TypeParms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_TypeParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::get_TypeArgs
-  // Il2CppName: get_TypeArgs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_TypeArgs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::set_TypeArgs
-  // Il2CppName: set_TypeArgs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(::Array<System::Type*>*)>(&GenericMethodHelper::set_TypeArgs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::get_ParmTypes
-  // Il2CppName: get_ParmTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_ParmTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_ParmTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::set_ParmTypes
-  // Il2CppName: set_ParmTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(::Array<System::Type*>*)>(&GenericMethodHelper::set_ParmTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_ParmTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::GetTypeArguments
-  // Il2CppName: GetTypeArguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)(::Array<::Il2CppObject*>*)>(&GenericMethodHelper::GetTypeArguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "GetTypeArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::TryApplyArgType
-  // Il2CppName: TryApplyArgType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Type*, System::Type*)>(&GenericMethodHelper::TryApplyArgType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "TryApplyArgType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::ApplyArgType
-  // Il2CppName: ApplyArgType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Type*, System::Type*)>(&GenericMethodHelper::ApplyArgType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "ApplyArgType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericMethodHelper::IsAssignableToGenericType
-  // Il2CppName: IsAssignableToGenericType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GenericMethodHelper::*)(System::Type*, System::Type*)>(&GenericMethodHelper::IsAssignableToGenericType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "IsAssignableToGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::GenericMethodHelper*, "NUnit.Framework.Internal", "GenericMethodHelper");
+// Writing MetadataGetter for method: GenericMethodHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Reflection::MethodInfo*)>(&GenericMethodHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Reflection::MethodInfo*)>(&GenericMethodHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::get_Method
+// Il2CppName: get_Method
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_Method)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::set_Method
+// Il2CppName: set_Method
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Reflection::MethodInfo*)>(&GenericMethodHelper::set_Method)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::get_TypeParms
+// Il2CppName: get_TypeParms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_TypeParms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_TypeParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::set_TypeParms
+// Il2CppName: set_TypeParms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(::Array<System::Type*>*)>(&GenericMethodHelper::set_TypeParms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_TypeParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::get_TypeArgs
+// Il2CppName: get_TypeArgs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_TypeArgs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::set_TypeArgs
+// Il2CppName: set_TypeArgs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(::Array<System::Type*>*)>(&GenericMethodHelper::set_TypeArgs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::get_ParmTypes
+// Il2CppName: get_ParmTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)()>(&GenericMethodHelper::get_ParmTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "get_ParmTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::set_ParmTypes
+// Il2CppName: set_ParmTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(::Array<System::Type*>*)>(&GenericMethodHelper::set_ParmTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "set_ParmTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::GetTypeArguments
+// Il2CppName: GetTypeArguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (GenericMethodHelper::*)(::Array<::Il2CppObject*>*)>(&GenericMethodHelper::GetTypeArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "GetTypeArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::TryApplyArgType
+// Il2CppName: TryApplyArgType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Type*, System::Type*)>(&GenericMethodHelper::TryApplyArgType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "TryApplyArgType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::ApplyArgType
+// Il2CppName: ApplyArgType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericMethodHelper::*)(System::Type*, System::Type*)>(&GenericMethodHelper::ApplyArgType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "ApplyArgType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericMethodHelper::IsAssignableToGenericType
+// Il2CppName: IsAssignableToGenericType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GenericMethodHelper::*)(System::Type*, System::Type*)>(&GenericMethodHelper::IsAssignableToGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericMethodHelper*), "IsAssignableToGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

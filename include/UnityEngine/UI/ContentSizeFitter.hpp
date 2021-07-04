@@ -170,116 +170,116 @@ namespace UnityEngine::UI {
     void OnRectTransformDimensionsChange();
   }; // UnityEngine.UI.ContentSizeFitter
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: ContentSizeFitter::get_horizontalFit
-  // Il2CppName: get_horizontalFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ContentSizeFitter::FitMode (ContentSizeFitter::*)()>(&ContentSizeFitter::get_horizontalFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "get_horizontalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::set_horizontalFit
-  // Il2CppName: set_horizontalFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)(UnityEngine::UI::ContentSizeFitter::FitMode)>(&ContentSizeFitter::set_horizontalFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "set_horizontalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ContentSizeFitter::FitMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::get_verticalFit
-  // Il2CppName: get_verticalFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ContentSizeFitter::FitMode (ContentSizeFitter::*)()>(&ContentSizeFitter::get_verticalFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "get_verticalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::set_verticalFit
-  // Il2CppName: set_verticalFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)(UnityEngine::UI::ContentSizeFitter::FitMode)>(&ContentSizeFitter::set_verticalFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "set_verticalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ContentSizeFitter::FitMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::get_rectTransform
-  // Il2CppName: get_rectTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (ContentSizeFitter::*)()>(&ContentSizeFitter::get_rectTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::HandleSelfFittingAlongAxis
-  // Il2CppName: HandleSelfFittingAlongAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)(int)>(&ContentSizeFitter::HandleSelfFittingAlongAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "HandleSelfFittingAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::SetLayoutHorizontal
-  // Il2CppName: SetLayoutHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::SetLayoutHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::SetLayoutVertical
-  // Il2CppName: SetLayoutVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::SetLayoutVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::SetDirty
-  // Il2CppName: SetDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::SetDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ContentSizeFitter::OnRectTransformDimensionsChange
-  // Il2CppName: OnRectTransformDimensionsChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::OnRectTransformDimensionsChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter*, "UnityEngine.UI", "ContentSizeFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter::FitMode, "UnityEngine.UI", "ContentSizeFitter/FitMode");
+// Writing MetadataGetter for method: ContentSizeFitter::get_horizontalFit
+// Il2CppName: get_horizontalFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ContentSizeFitter::FitMode (ContentSizeFitter::*)()>(&ContentSizeFitter::get_horizontalFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "get_horizontalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::set_horizontalFit
+// Il2CppName: set_horizontalFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)(UnityEngine::UI::ContentSizeFitter::FitMode)>(&ContentSizeFitter::set_horizontalFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "set_horizontalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ContentSizeFitter::FitMode>()});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::get_verticalFit
+// Il2CppName: get_verticalFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ContentSizeFitter::FitMode (ContentSizeFitter::*)()>(&ContentSizeFitter::get_verticalFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "get_verticalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::set_verticalFit
+// Il2CppName: set_verticalFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)(UnityEngine::UI::ContentSizeFitter::FitMode)>(&ContentSizeFitter::set_verticalFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "set_verticalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ContentSizeFitter::FitMode>()});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::get_rectTransform
+// Il2CppName: get_rectTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (ContentSizeFitter::*)()>(&ContentSizeFitter::get_rectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::HandleSelfFittingAlongAxis
+// Il2CppName: HandleSelfFittingAlongAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)(int)>(&ContentSizeFitter::HandleSelfFittingAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "HandleSelfFittingAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::SetLayoutHorizontal
+// Il2CppName: SetLayoutHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::SetLayoutVertical
+// Il2CppName: SetLayoutVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::SetDirty
+// Il2CppName: SetDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::SetDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ContentSizeFitter::OnRectTransformDimensionsChange
+// Il2CppName: OnRectTransformDimensionsChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentSizeFitter::*)()>(&ContentSizeFitter::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ContentSizeFitter*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

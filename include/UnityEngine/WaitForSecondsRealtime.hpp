@@ -56,43 +56,43 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(WaitForSecondsRealtime), 20 + sizeof(float)> __UnityEngine_WaitForSecondsRealtimeSizeCheck;
   static_assert(sizeof(WaitForSecondsRealtime) == 0x18);
-  // Writing MetadataGetter for method: WaitForSecondsRealtime::get_waitTime
-  // Il2CppName: get_waitTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (WaitForSecondsRealtime::*)()>(&WaitForSecondsRealtime::get_waitTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), "get_waitTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaitForSecondsRealtime::set_waitTime
-  // Il2CppName: set_waitTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForSecondsRealtime::*)(float)>(&WaitForSecondsRealtime::set_waitTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), "set_waitTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitForSecondsRealtime::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForSecondsRealtime::*)(float)>(&WaitForSecondsRealtime::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForSecondsRealtime::*)(float)>(&WaitForSecondsRealtime::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitForSecondsRealtime::get_keepWaiting
-  // Il2CppName: get_keepWaiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitForSecondsRealtime::*)()>(&WaitForSecondsRealtime::get_keepWaiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), "get_keepWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");
+// Writing MetadataGetter for method: WaitForSecondsRealtime::get_waitTime
+// Il2CppName: get_waitTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (WaitForSecondsRealtime::*)()>(&WaitForSecondsRealtime::get_waitTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), "get_waitTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaitForSecondsRealtime::set_waitTime
+// Il2CppName: set_waitTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForSecondsRealtime::*)(float)>(&WaitForSecondsRealtime::set_waitTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), "set_waitTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: WaitForSecondsRealtime::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForSecondsRealtime::*)(float)>(&WaitForSecondsRealtime::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForSecondsRealtime::*)(float)>(&WaitForSecondsRealtime::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: WaitForSecondsRealtime::get_keepWaiting
+// Il2CppName: get_keepWaiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitForSecondsRealtime::*)()>(&WaitForSecondsRealtime::get_keepWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForSecondsRealtime*), "get_keepWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

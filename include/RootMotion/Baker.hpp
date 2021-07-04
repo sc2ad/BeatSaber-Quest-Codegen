@@ -268,164 +268,164 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(Baker), 112 + sizeof(float)> __RootMotion_BakerSizeCheck;
   static_assert(sizeof(Baker) == 0x74);
-  // Writing MetadataGetter for method: Baker::OpenUserManual
-  // Il2CppName: OpenUserManual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::OpenUserManual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::OpenScriptReference
-  // Il2CppName: OpenScriptReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::OpenScriptReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::SupportGroup
-  // Il2CppName: SupportGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::SupportGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::ASThread
-  // Il2CppName: ASThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::ASThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::get_isBaking
-  // Il2CppName: get_isBaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Baker::*)()>(&Baker::get_isBaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "get_isBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::set_isBaking
-  // Il2CppName: set_isBaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(bool)>(&Baker::set_isBaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "set_isBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::get_bakingProgress
-  // Il2CppName: get_bakingProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Baker::*)()>(&Baker::get_bakingProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "get_bakingProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::set_bakingProgress
-  // Il2CppName: set_bakingProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float)>(&Baker::set_bakingProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "set_bakingProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::GetCharacterRoot
-  // Il2CppName: GetCharacterRoot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Baker::*)()>(&Baker::GetCharacterRoot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "GetCharacterRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::OnStartBaking
-  // Il2CppName: OnStartBaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::OnStartBaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "OnStartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::OnSetLoopFrame
-  // Il2CppName: OnSetLoopFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float)>(&Baker::OnSetLoopFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "OnSetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::OnSetCurves
-  // Il2CppName: OnSetCurves
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(UnityEngine::AnimationClip*&)>(&Baker::OnSetCurves)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "OnSetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::OnSetKeyframes
-  // Il2CppName: OnSetKeyframes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float, bool)>(&Baker::OnSetKeyframes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "OnSetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::get_clipLength
-  // Il2CppName: get_clipLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Baker::*)()>(&Baker::get_clipLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "get_clipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::set_clipLength
-  // Il2CppName: set_clipLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float)>(&Baker::set_clipLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "set_clipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::BakeClip
-  // Il2CppName: BakeClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::BakeClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "BakeClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::StartBaking
-  // Il2CppName: StartBaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::StartBaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "StartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::StopBaking
-  // Il2CppName: StopBaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::StopBaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), "StopBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Baker::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Baker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker*, "RootMotion", "Baker");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker::Mode, "RootMotion", "Baker/Mode");
+// Writing MetadataGetter for method: Baker::OpenUserManual
+// Il2CppName: OpenUserManual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::OpenUserManual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::OpenScriptReference
+// Il2CppName: OpenScriptReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::OpenScriptReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::SupportGroup
+// Il2CppName: SupportGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::SupportGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::ASThread
+// Il2CppName: ASThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::ASThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::get_isBaking
+// Il2CppName: get_isBaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Baker::*)()>(&Baker::get_isBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "get_isBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::set_isBaking
+// Il2CppName: set_isBaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(bool)>(&Baker::set_isBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "set_isBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Baker::get_bakingProgress
+// Il2CppName: get_bakingProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Baker::*)()>(&Baker::get_bakingProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "get_bakingProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::set_bakingProgress
+// Il2CppName: set_bakingProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float)>(&Baker::set_bakingProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "set_bakingProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Baker::GetCharacterRoot
+// Il2CppName: GetCharacterRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Baker::*)()>(&Baker::GetCharacterRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "GetCharacterRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::OnStartBaking
+// Il2CppName: OnStartBaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::OnStartBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "OnStartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::OnSetLoopFrame
+// Il2CppName: OnSetLoopFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float)>(&Baker::OnSetLoopFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "OnSetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Baker::OnSetCurves
+// Il2CppName: OnSetCurves
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(UnityEngine::AnimationClip*&)>(&Baker::OnSetCurves)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "OnSetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
+  }
+};
+// Writing MetadataGetter for method: Baker::OnSetKeyframes
+// Il2CppName: OnSetKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float, bool)>(&Baker::OnSetKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "OnSetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Baker::get_clipLength
+// Il2CppName: get_clipLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Baker::*)()>(&Baker::get_clipLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "get_clipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::set_clipLength
+// Il2CppName: set_clipLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)(float)>(&Baker::set_clipLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "set_clipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Baker::BakeClip
+// Il2CppName: BakeClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::BakeClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "BakeClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::StartBaking
+// Il2CppName: StartBaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::StartBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "StartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::StopBaking
+// Il2CppName: StopBaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::StopBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), "StopBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Baker::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Baker::*)()>(&Baker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Baker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

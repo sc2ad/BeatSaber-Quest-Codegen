@@ -155,163 +155,163 @@ namespace UnityEngine::Networking::PlayerConnection {
   #pragma pack(pop)
   static check_size<sizeof(PlayerConnection), 40 + sizeof(bool)> __UnityEngine_Networking_PlayerConnection_PlayerConnectionSizeCheck;
   static_assert(sizeof(PlayerConnection) == 0x29);
-  // Writing MetadataGetter for method: PlayerConnection::get_instance
-  // Il2CppName: get_instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::PlayerConnection::PlayerConnection* (*)()>(&PlayerConnection::get_instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::get_isConnected
-  // Il2CppName: get_isConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnection::*)()>(&PlayerConnection::get_isConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::CreateInstance
-  // Il2CppName: CreateInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::PlayerConnection::PlayerConnection* (*)()>(&PlayerConnection::CreateInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::GetConnectionNativeApi
-  // Il2CppName: GetConnectionNativeApi
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IPlayerEditorConnectionNative* (PlayerConnection::*)()>(&PlayerConnection::GetConnectionNativeApi)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "GetConnectionNativeApi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::Register
-  // Il2CppName: Register
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(System::Guid, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*)>(&PlayerConnection::Register)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::Unregister
-  // Il2CppName: Unregister
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(System::Guid, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*)>(&PlayerConnection::Unregister)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::RegisterConnection
-  // Il2CppName: RegisterConnection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::RegisterConnection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "RegisterConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::RegisterDisconnection
-  // Il2CppName: RegisterDisconnection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::RegisterDisconnection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "RegisterDisconnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::UnregisterConnection
-  // Il2CppName: UnregisterConnection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::UnregisterConnection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "UnregisterConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::UnregisterDisconnection
-  // Il2CppName: UnregisterDisconnection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::UnregisterDisconnection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "UnregisterDisconnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::Send
-  // Il2CppName: Send
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(System::Guid, ::Array<uint8_t>*)>(&PlayerConnection::Send)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::TrySend
-  // Il2CppName: TrySend
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnection::*)(System::Guid, ::Array<uint8_t>*)>(&PlayerConnection::TrySend)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "TrySend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::BlockUntilRecvMsg
-  // Il2CppName: BlockUntilRecvMsg
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnection::*)(System::Guid, int)>(&PlayerConnection::BlockUntilRecvMsg)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "BlockUntilRecvMsg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::DisconnectAll
-  // Il2CppName: DisconnectAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::DisconnectAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::MessageCallbackInternal
-  // Il2CppName: MessageCallbackInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t, uint64_t, ::Il2CppString*)>(&PlayerConnection::MessageCallbackInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "MessageCallbackInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::ConnectedCallbackInternal
-  // Il2CppName: ConnectedCallbackInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&PlayerConnection::ConnectedCallbackInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "ConnectedCallbackInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::DisconnectedCallback
-  // Il2CppName: DisconnectedCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&PlayerConnection::DisconnectedCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "DisconnectedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnection::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection");
+// Writing MetadataGetter for method: PlayerConnection::get_instance
+// Il2CppName: get_instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::PlayerConnection::PlayerConnection* (*)()>(&PlayerConnection::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::get_isConnected
+// Il2CppName: get_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnection::*)()>(&PlayerConnection::get_isConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::CreateInstance
+// Il2CppName: CreateInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::PlayerConnection::PlayerConnection* (*)()>(&PlayerConnection::CreateInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::GetConnectionNativeApi
+// Il2CppName: GetConnectionNativeApi
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IPlayerEditorConnectionNative* (PlayerConnection::*)()>(&PlayerConnection::GetConnectionNativeApi)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "GetConnectionNativeApi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::Register
+// Il2CppName: Register
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(System::Guid, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*)>(&PlayerConnection::Register)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::Unregister
+// Il2CppName: Unregister
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(System::Guid, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*)>(&PlayerConnection::Unregister)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::RegisterConnection
+// Il2CppName: RegisterConnection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::RegisterConnection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "RegisterConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::RegisterDisconnection
+// Il2CppName: RegisterDisconnection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::RegisterDisconnection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "RegisterDisconnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::UnregisterConnection
+// Il2CppName: UnregisterConnection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::UnregisterConnection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "UnregisterConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::UnregisterDisconnection
+// Il2CppName: UnregisterDisconnection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(UnityEngine::Events::UnityAction_1<int>*)>(&PlayerConnection::UnregisterDisconnection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "UnregisterDisconnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::Send
+// Il2CppName: Send
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)(System::Guid, ::Array<uint8_t>*)>(&PlayerConnection::Send)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::TrySend
+// Il2CppName: TrySend
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnection::*)(System::Guid, ::Array<uint8_t>*)>(&PlayerConnection::TrySend)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "TrySend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::BlockUntilRecvMsg
+// Il2CppName: BlockUntilRecvMsg
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnection::*)(System::Guid, int)>(&PlayerConnection::BlockUntilRecvMsg)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "BlockUntilRecvMsg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::DisconnectAll
+// Il2CppName: DisconnectAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::DisconnectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::MessageCallbackInternal
+// Il2CppName: MessageCallbackInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t, uint64_t, ::Il2CppString*)>(&PlayerConnection::MessageCallbackInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "MessageCallbackInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::ConnectedCallbackInternal
+// Il2CppName: ConnectedCallbackInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&PlayerConnection::ConnectedCallbackInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "ConnectedCallbackInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::DisconnectedCallback
+// Il2CppName: DisconnectedCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&PlayerConnection::DisconnectedCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), "DisconnectedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnection::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnection::*)()>(&PlayerConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

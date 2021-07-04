@@ -115,62 +115,62 @@ namespace System::Runtime::CompilerServices {
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::AsyncTaskMethodBuilder (*)()>(&AsyncTaskMethodBuilder::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::Start
-  // Il2CppName: Start
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncTaskMethodBuilder::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncTaskMethodBuilder::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::AwaitOnCompleted
-  // Il2CppName: AwaitOnCompleted
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted
-  // Il2CppName: AwaitUnsafeOnCompleted
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::get_Task
-  // Il2CppName: get_Task
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (AsyncTaskMethodBuilder::*)()>(&AsyncTaskMethodBuilder::get_Task)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "get_Task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::SetResult
-  // Il2CppName: SetResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncTaskMethodBuilder::*)()>(&AsyncTaskMethodBuilder::SetResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "SetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::SetException
-  // Il2CppName: SetException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncTaskMethodBuilder::*)(System::Exception*)>(&AsyncTaskMethodBuilder::SetException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "SetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncTaskMethodBuilder::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncTaskMethodBuilder::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder");
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::AsyncTaskMethodBuilder (*)()>(&AsyncTaskMethodBuilder::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::Start
+// Il2CppName: Start
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncTaskMethodBuilder::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncTaskMethodBuilder::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::AwaitOnCompleted
+// Il2CppName: AwaitOnCompleted
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted
+// Il2CppName: AwaitUnsafeOnCompleted
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::get_Task
+// Il2CppName: get_Task
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (AsyncTaskMethodBuilder::*)()>(&AsyncTaskMethodBuilder::get_Task)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "get_Task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::SetResult
+// Il2CppName: SetResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncTaskMethodBuilder::*)()>(&AsyncTaskMethodBuilder::SetResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "SetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::SetException
+// Il2CppName: SetException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncTaskMethodBuilder::*)(System::Exception*)>(&AsyncTaskMethodBuilder::SetException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), "SetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncTaskMethodBuilder::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncTaskMethodBuilder::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskMethodBuilder), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

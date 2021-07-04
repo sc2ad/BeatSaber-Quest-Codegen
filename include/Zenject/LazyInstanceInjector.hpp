@@ -73,59 +73,59 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(LazyInstanceInjector), 24 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)> __Zenject_LazyInstanceInjectorSizeCheck;
   static_assert(sizeof(LazyInstanceInjector) == 0x20);
-  // Writing MetadataGetter for method: LazyInstanceInjector::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(Zenject::DiContainer*)>(&LazyInstanceInjector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(Zenject::DiContainer*)>(&LazyInstanceInjector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LazyInstanceInjector::get_Instances
-  // Il2CppName: get_Instances
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (LazyInstanceInjector::*)()>(&LazyInstanceInjector::get_Instances)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "get_Instances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LazyInstanceInjector::AddInstance
-  // Il2CppName: AddInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(::Il2CppObject*)>(&LazyInstanceInjector::AddInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "AddInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LazyInstanceInjector::AddInstances
-  // Il2CppName: AddInstances
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&LazyInstanceInjector::AddInstances)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "AddInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LazyInstanceInjector::LazyInject
-  // Il2CppName: LazyInject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(::Il2CppObject*)>(&LazyInstanceInjector::LazyInject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "LazyInject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LazyInstanceInjector::LazyInjectAll
-  // Il2CppName: LazyInjectAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)()>(&LazyInstanceInjector::LazyInjectAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "LazyInjectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceInjector");
+// Writing MetadataGetter for method: LazyInstanceInjector::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(Zenject::DiContainer*)>(&LazyInstanceInjector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(Zenject::DiContainer*)>(&LazyInstanceInjector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: LazyInstanceInjector::get_Instances
+// Il2CppName: get_Instances
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (LazyInstanceInjector::*)()>(&LazyInstanceInjector::get_Instances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "get_Instances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LazyInstanceInjector::AddInstance
+// Il2CppName: AddInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(::Il2CppObject*)>(&LazyInstanceInjector::AddInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "AddInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: LazyInstanceInjector::AddInstances
+// Il2CppName: AddInstances
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&LazyInstanceInjector::AddInstances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "AddInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LazyInstanceInjector::LazyInject
+// Il2CppName: LazyInject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)(::Il2CppObject*)>(&LazyInstanceInjector::LazyInject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "LazyInject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: LazyInstanceInjector::LazyInjectAll
+// Il2CppName: LazyInjectAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyInstanceInjector::*)()>(&LazyInstanceInjector::LazyInjectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LazyInstanceInjector*), "LazyInjectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

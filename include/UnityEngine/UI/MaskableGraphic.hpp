@@ -217,187 +217,187 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(MaskableGraphic), 184 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_UI_MaskableGraphicSizeCheck;
   static_assert(sizeof(MaskableGraphic) == 0xC0);
-  // Writing MetadataGetter for method: MaskableGraphic::get_onCullStateChanged
-  // Il2CppName: get_onCullStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* (MaskableGraphic::*)()>(&MaskableGraphic::get_onCullStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_onCullStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::set_onCullStateChanged
-  // Il2CppName: set_onCullStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*)>(&MaskableGraphic::set_onCullStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "set_onCullStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::get_maskable
-  // Il2CppName: get_maskable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaskableGraphic::*)()>(&MaskableGraphic::get_maskable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_maskable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::set_maskable
-  // Il2CppName: set_maskable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(bool)>(&MaskableGraphic::set_maskable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "set_maskable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::get_isMaskingGraphic
-  // Il2CppName: get_isMaskingGraphic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaskableGraphic::*)()>(&MaskableGraphic::get_isMaskingGraphic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_isMaskingGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::set_isMaskingGraphic
-  // Il2CppName: set_isMaskingGraphic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(bool)>(&MaskableGraphic::set_isMaskingGraphic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "set_isMaskingGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::GetModifiedMaterial
-  // Il2CppName: GetModifiedMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (MaskableGraphic::*)(UnityEngine::Material*)>(&MaskableGraphic::GetModifiedMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::Cull
-  // Il2CppName: Cull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::Rect, bool)>(&MaskableGraphic::Cull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::UpdateCull
-  // Il2CppName: UpdateCull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(bool)>(&MaskableGraphic::UpdateCull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "UpdateCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::SetClipRect
-  // Il2CppName: SetClipRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::Rect, bool)>(&MaskableGraphic::SetClipRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "SetClipRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::SetClipSoftness
-  // Il2CppName: SetClipSoftness
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::Vector2)>(&MaskableGraphic::SetClipSoftness)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "SetClipSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::ParentMaskStateChanged
-  // Il2CppName: ParentMaskStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::ParentMaskStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "ParentMaskStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::get_rootCanvasRect
-  // Il2CppName: get_rootCanvasRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (MaskableGraphic::*)()>(&MaskableGraphic::get_rootCanvasRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_rootCanvasRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::UpdateClipParent
-  // Il2CppName: UpdateClipParent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::UpdateClipParent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "UpdateClipParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::RecalculateClipping
-  // Il2CppName: RecalculateClipping
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::RecalculateClipping)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::RecalculateMasking
-  // Il2CppName: RecalculateMasking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::RecalculateMasking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject
-  // Il2CppName: UnityEngine.UI.IClippable.get_gameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MaskableGraphic::*)()>(&MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "UnityEngine.UI.IClippable.get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::OnTransformParentChanged
-  // Il2CppName: OnTransformParentChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnTransformParentChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::OnCanvasHierarchyChanged
-  // Il2CppName: OnCanvasHierarchyChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnCanvasHierarchyChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnCanvasHierarchyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaskableGraphic::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic*, "UnityEngine.UI", "MaskableGraphic");
+// Writing MetadataGetter for method: MaskableGraphic::get_onCullStateChanged
+// Il2CppName: get_onCullStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* (MaskableGraphic::*)()>(&MaskableGraphic::get_onCullStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_onCullStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::set_onCullStateChanged
+// Il2CppName: set_onCullStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*)>(&MaskableGraphic::set_onCullStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "set_onCullStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::get_maskable
+// Il2CppName: get_maskable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaskableGraphic::*)()>(&MaskableGraphic::get_maskable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_maskable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::set_maskable
+// Il2CppName: set_maskable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(bool)>(&MaskableGraphic::set_maskable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "set_maskable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::get_isMaskingGraphic
+// Il2CppName: get_isMaskingGraphic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaskableGraphic::*)()>(&MaskableGraphic::get_isMaskingGraphic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_isMaskingGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::set_isMaskingGraphic
+// Il2CppName: set_isMaskingGraphic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(bool)>(&MaskableGraphic::set_isMaskingGraphic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "set_isMaskingGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::GetModifiedMaterial
+// Il2CppName: GetModifiedMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (MaskableGraphic::*)(UnityEngine::Material*)>(&MaskableGraphic::GetModifiedMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::Cull
+// Il2CppName: Cull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::Rect, bool)>(&MaskableGraphic::Cull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::UpdateCull
+// Il2CppName: UpdateCull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(bool)>(&MaskableGraphic::UpdateCull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "UpdateCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::SetClipRect
+// Il2CppName: SetClipRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::Rect, bool)>(&MaskableGraphic::SetClipRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "SetClipRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::SetClipSoftness
+// Il2CppName: SetClipSoftness
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)(UnityEngine::Vector2)>(&MaskableGraphic::SetClipSoftness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "SetClipSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::ParentMaskStateChanged
+// Il2CppName: ParentMaskStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::ParentMaskStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "ParentMaskStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::get_rootCanvasRect
+// Il2CppName: get_rootCanvasRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (MaskableGraphic::*)()>(&MaskableGraphic::get_rootCanvasRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "get_rootCanvasRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::UpdateClipParent
+// Il2CppName: UpdateClipParent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::UpdateClipParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "UpdateClipParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::RecalculateClipping
+// Il2CppName: RecalculateClipping
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::RecalculateClipping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::RecalculateMasking
+// Il2CppName: RecalculateMasking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::RecalculateMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject
+// Il2CppName: UnityEngine.UI.IClippable.get_gameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MaskableGraphic::*)()>(&MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "UnityEngine.UI.IClippable.get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::OnTransformParentChanged
+// Il2CppName: OnTransformParentChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnTransformParentChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::OnCanvasHierarchyChanged
+// Il2CppName: OnCanvasHierarchyChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::OnCanvasHierarchyChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), "OnCanvasHierarchyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaskableGraphic::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaskableGraphic::*)()>(&MaskableGraphic::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaskableGraphic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -67,59 +67,59 @@ namespace System::Security::Cryptography {
     void GenerateIV();
   }; // System.Security.Cryptography.RijndaelManaged
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RijndaelManaged::NewEncryptor
-  // Il2CppName: NewEncryptor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RijndaelManaged::*)(::Array<uint8_t>*, System::Security::Cryptography::CipherMode, ::Array<uint8_t>*, int, System::Security::Cryptography::RijndaelManagedTransformMode)>(&RijndaelManaged::NewEncryptor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "NewEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CipherMode>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RijndaelManagedTransformMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: RijndaelManaged::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RijndaelManaged::CreateEncryptor
-  // Il2CppName: CreateEncryptor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RijndaelManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&RijndaelManaged::CreateEncryptor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RijndaelManaged::CreateDecryptor
-  // Il2CppName: CreateDecryptor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RijndaelManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&RijndaelManaged::CreateDecryptor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RijndaelManaged::GenerateKey
-  // Il2CppName: GenerateKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::GenerateKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RijndaelManaged::GenerateIV
-  // Il2CppName: GenerateIV
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::GenerateIV)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManaged*, "System.Security.Cryptography", "RijndaelManaged");
+// Writing MetadataGetter for method: RijndaelManaged::NewEncryptor
+// Il2CppName: NewEncryptor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RijndaelManaged::*)(::Array<uint8_t>*, System::Security::Cryptography::CipherMode, ::Array<uint8_t>*, int, System::Security::Cryptography::RijndaelManagedTransformMode)>(&RijndaelManaged::NewEncryptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "NewEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CipherMode>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RijndaelManagedTransformMode>()});
+  }
+};
+// Writing MetadataGetter for method: RijndaelManaged::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RijndaelManaged::CreateEncryptor
+// Il2CppName: CreateEncryptor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RijndaelManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&RijndaelManaged::CreateEncryptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: RijndaelManaged::CreateDecryptor
+// Il2CppName: CreateDecryptor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RijndaelManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&RijndaelManaged::CreateDecryptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: RijndaelManaged::GenerateKey
+// Il2CppName: GenerateKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::GenerateKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RijndaelManaged::GenerateIV
+// Il2CppName: GenerateIV
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RijndaelManaged::*)()>(&RijndaelManaged::GenerateIV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RijndaelManaged*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

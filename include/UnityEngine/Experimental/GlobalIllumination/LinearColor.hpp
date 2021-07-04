@@ -61,22 +61,22 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   #pragma pack(pop)
   static check_size<sizeof(LinearColor), 12 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_LinearColorSizeCheck;
   static_assert(sizeof(LinearColor) == 0x10);
-  // Writing MetadataGetter for method: LinearColor::Convert
-  // Il2CppName: Convert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(UnityEngine::Color, float)>(&LinearColor::Convert)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LinearColor), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LinearColor::Black
-  // Il2CppName: Black
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)()>(&LinearColor::Black)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LinearColor), "Black", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
+// Writing MetadataGetter for method: LinearColor::Convert
+// Il2CppName: Convert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(UnityEngine::Color, float)>(&LinearColor::Convert)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LinearColor), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LinearColor::Black
+// Il2CppName: Black
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)()>(&LinearColor::Black)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LinearColor), "Black", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

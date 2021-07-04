@@ -56,19 +56,19 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(InteractionTrigger::Range::Interaction), 24 + sizeof(::Array<RootMotion::FinalIK::FullBodyBipedEffector>*)> __RootMotion_FinalIK_InteractionTrigger_Range_InteractionSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range::Interaction) == 0x20);
-  // Writing MetadataGetter for method: InteractionTrigger::Range::Interaction::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::Range::Interaction::*)()>(&InteractionTrigger::Range::Interaction::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::Range::Interaction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::Range::Interaction::*)()>(&InteractionTrigger::Range::Interaction::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::Range::Interaction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range::Interaction*, "RootMotion.FinalIK", "InteractionTrigger/Range/Interaction");
+// Writing MetadataGetter for method: InteractionTrigger::Range::Interaction::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::Range::Interaction::*)()>(&InteractionTrigger::Range::Interaction::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::Range::Interaction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::Range::Interaction::*)()>(&InteractionTrigger::Range::Interaction::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::Range::Interaction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

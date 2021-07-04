@@ -103,67 +103,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionHelpViewController), 136 + sizeof(GlobalNamespace::MissionHelpSO*)> __GlobalNamespace_MissionHelpViewControllerSizeCheck;
   static_assert(sizeof(MissionHelpViewController) == 0x90);
-  // Writing MetadataGetter for method: MissionHelpViewController::add_didFinishEvent
-  // Il2CppName: add_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(System::Action_1<GlobalNamespace::MissionHelpViewController*>*)>(&MissionHelpViewController::add_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionHelpViewController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionHelpViewController::remove_didFinishEvent
-  // Il2CppName: remove_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(System::Action_1<GlobalNamespace::MissionHelpViewController*>*)>(&MissionHelpViewController::remove_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionHelpViewController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionHelpViewController::Setup
-  // Il2CppName: Setup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(GlobalNamespace::MissionHelpSO*)>(&MissionHelpViewController::Setup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionHelpSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionHelpViewController::RefreshContent
-  // Il2CppName: RefreshContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::RefreshContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionHelpViewController::OkButtonPressed
-  // Il2CppName: OkButtonPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::OkButtonPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "OkButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionHelpViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(bool, bool, bool)>(&MissionHelpViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionHelpViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController*, "", "MissionHelpViewController");
+// Writing MetadataGetter for method: MissionHelpViewController::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(System::Action_1<GlobalNamespace::MissionHelpViewController*>*)>(&MissionHelpViewController::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionHelpViewController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionHelpViewController::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(System::Action_1<GlobalNamespace::MissionHelpViewController*>*)>(&MissionHelpViewController::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionHelpViewController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionHelpViewController::Setup
+// Il2CppName: Setup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(GlobalNamespace::MissionHelpSO*)>(&MissionHelpViewController::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionHelpSO*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionHelpViewController::RefreshContent
+// Il2CppName: RefreshContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::RefreshContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionHelpViewController::OkButtonPressed
+// Il2CppName: OkButtonPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::OkButtonPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "OkButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionHelpViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)(bool, bool, bool)>(&MissionHelpViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MissionHelpViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::*)()>(&MissionHelpViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

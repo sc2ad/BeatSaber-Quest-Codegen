@@ -69,35 +69,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0), 24 + sizeof(GlobalNamespace::UnifiedNetworkPlayerModel*)> __GlobalNamespace_UnifiedNetworkPlayerModel_$$c__DisplayClass94_0SizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0) == 0x20);
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__0
-  // Il2CppName: <Refresh>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*)>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), "<Refresh>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__1
-  // Il2CppName: <Refresh>b__1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)(GlobalNamespace::ConnectionFailedReason)>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), "<Refresh>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)()>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)()>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*, "", "UnifiedNetworkPlayerModel/<>c__DisplayClass94_0");
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__0
+// Il2CppName: <Refresh>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*)>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), "<Refresh>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__1
+// Il2CppName: <Refresh>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)(GlobalNamespace::ConnectionFailedReason)>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), "<Refresh>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)()>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)()>(&UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

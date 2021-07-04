@@ -47,22 +47,22 @@ namespace UnityEngine::TextCore::LowLevel {
   #pragma pack(pop)
   static check_size<sizeof(GlyphAdjustmentRecord), 4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord)> __UnityEngine_TextCore_LowLevel_GlyphAdjustmentRecordSizeCheck;
   static_assert(sizeof(GlyphAdjustmentRecord) == 0x14);
-  // Writing MetadataGetter for method: GlyphAdjustmentRecord::get_glyphIndex
-  // Il2CppName: get_glyphIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlyphAdjustmentRecord::*)()>(&GlyphAdjustmentRecord::get_glyphIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlyphAdjustmentRecord), "get_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GlyphAdjustmentRecord::get_glyphValueRecord
-  // Il2CppName: get_glyphValueRecord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphValueRecord (GlyphAdjustmentRecord::*)()>(&GlyphAdjustmentRecord::get_glyphValueRecord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlyphAdjustmentRecord), "get_glyphValueRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");
+// Writing MetadataGetter for method: GlyphAdjustmentRecord::get_glyphIndex
+// Il2CppName: get_glyphIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlyphAdjustmentRecord::*)()>(&GlyphAdjustmentRecord::get_glyphIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlyphAdjustmentRecord), "get_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlyphAdjustmentRecord::get_glyphValueRecord
+// Il2CppName: get_glyphValueRecord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphValueRecord (GlyphAdjustmentRecord::*)()>(&GlyphAdjustmentRecord::get_glyphValueRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlyphAdjustmentRecord), "get_glyphValueRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -301,191 +301,191 @@ namespace Zenject {
     UnityEngine::GameObject* CreateEmptyGameObject(::Il2CppString* name);
   }; // Zenject.IInstantiator
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IInstantiator::Instantiate
-  // Il2CppName: Instantiate
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::Instantiate
-  // Il2CppName: Instantiate
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::Instantiate
-  // Il2CppName: Instantiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*)>(&IInstantiator::Instantiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::Instantiate
-  // Il2CppName: Instantiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::Instantiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponent
-  // Il2CppName: InstantiateComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponent
-  // Il2CppName: InstantiateComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponent
-  // Il2CppName: InstantiateComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (IInstantiator::*)(System::Type*, UnityEngine::GameObject*)>(&IInstantiator::InstantiateComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponent
-  // Il2CppName: InstantiateComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (IInstantiator::*)(System::Type*, UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiateComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
-  // Il2CppName: InstantiateComponentOnNewGameObject
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
-  // Il2CppName: InstantiateComponentOnNewGameObject
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
-  // Il2CppName: InstantiateComponentOnNewGameObject
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
-  // Il2CppName: InstantiateComponentOnNewGameObject
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefab
-  // Il2CppName: InstantiatePrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(UnityEngine::Object*)>(&IInstantiator::InstantiatePrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefab
-  // Il2CppName: InstantiatePrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(UnityEngine::Object*, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefab
-  // Il2CppName: InstantiatePrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResource
-  // Il2CppName: InstantiatePrefabResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*)>(&IInstantiator::InstantiatePrefabResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResource
-  // Il2CppName: InstantiatePrefabResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefabResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResource
-  // Il2CppName: InstantiatePrefabResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefabResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
-  // Il2CppName: InstantiatePrefabForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
-  // Il2CppName: InstantiatePrefabForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
-  // Il2CppName: InstantiatePrefabForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
-  // Il2CppName: InstantiatePrefabForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
-  // Il2CppName: InstantiatePrefabForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
-  // Il2CppName: InstantiatePrefabForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
-  // Il2CppName: InstantiatePrefabForComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, UnityEngine::Object*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiatePrefabForComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
-  // Il2CppName: InstantiatePrefabResourceForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
-  // Il2CppName: InstantiatePrefabResourceForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
-  // Il2CppName: InstantiatePrefabResourceForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
-  // Il2CppName: InstantiatePrefabResourceForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
-  // Il2CppName: InstantiatePrefabResourceForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
-  // Il2CppName: InstantiatePrefabResourceForComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
-  // Il2CppName: InstantiatePrefabResourceForComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, ::Il2CppString*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiatePrefabResourceForComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
-  // Il2CppName: InstantiateScriptableObjectResource
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
-  // Il2CppName: InstantiateScriptableObjectResource
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
-  // Il2CppName: InstantiateScriptableObjectResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, ::Il2CppString*)>(&IInstantiator::InstantiateScriptableObjectResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
-  // Il2CppName: InstantiateScriptableObjectResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiateScriptableObjectResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IInstantiator::CreateEmptyGameObject
-  // Il2CppName: CreateEmptyGameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*)>(&IInstantiator::CreateEmptyGameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "CreateEmptyGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IInstantiator*, "Zenject", "IInstantiator");
+// Writing MetadataGetter for method: IInstantiator::Instantiate
+// Il2CppName: Instantiate
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::Instantiate
+// Il2CppName: Instantiate
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::Instantiate
+// Il2CppName: Instantiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*)>(&IInstantiator::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::Instantiate
+// Il2CppName: Instantiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponent
+// Il2CppName: InstantiateComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponent
+// Il2CppName: InstantiateComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponent
+// Il2CppName: InstantiateComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (IInstantiator::*)(System::Type*, UnityEngine::GameObject*)>(&IInstantiator::InstantiateComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponent
+// Il2CppName: InstantiateComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (IInstantiator::*)(System::Type*, UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiateComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
+// Il2CppName: InstantiateComponentOnNewGameObject
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
+// Il2CppName: InstantiateComponentOnNewGameObject
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
+// Il2CppName: InstantiateComponentOnNewGameObject
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiateComponentOnNewGameObject
+// Il2CppName: InstantiateComponentOnNewGameObject
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefab
+// Il2CppName: InstantiatePrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(UnityEngine::Object*)>(&IInstantiator::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefab
+// Il2CppName: InstantiatePrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(UnityEngine::Object*, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefab
+// Il2CppName: InstantiatePrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResource
+// Il2CppName: InstantiatePrefabResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*)>(&IInstantiator::InstantiatePrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResource
+// Il2CppName: InstantiatePrefabResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResource
+// Il2CppName: InstantiatePrefabResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&IInstantiator::InstantiatePrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
+// Il2CppName: InstantiatePrefabForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
+// Il2CppName: InstantiatePrefabForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
+// Il2CppName: InstantiatePrefabForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
+// Il2CppName: InstantiatePrefabForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
+// Il2CppName: InstantiatePrefabForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
+// Il2CppName: InstantiatePrefabForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabForComponent
+// Il2CppName: InstantiatePrefabForComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, UnityEngine::Object*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiatePrefabForComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
+// Il2CppName: InstantiatePrefabResourceForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
+// Il2CppName: InstantiatePrefabResourceForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
+// Il2CppName: InstantiatePrefabResourceForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
+// Il2CppName: InstantiatePrefabResourceForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
+// Il2CppName: InstantiatePrefabResourceForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
+// Il2CppName: InstantiatePrefabResourceForComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiatePrefabResourceForComponent
+// Il2CppName: InstantiatePrefabResourceForComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, ::Il2CppString*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiatePrefabResourceForComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
+// Il2CppName: InstantiateScriptableObjectResource
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
+// Il2CppName: InstantiateScriptableObjectResource
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
+// Il2CppName: InstantiateScriptableObjectResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, ::Il2CppString*)>(&IInstantiator::InstantiateScriptableObjectResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::InstantiateScriptableObjectResource
+// Il2CppName: InstantiateScriptableObjectResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IInstantiator::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&IInstantiator::InstantiateScriptableObjectResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IInstantiator::CreateEmptyGameObject
+// Il2CppName: CreateEmptyGameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IInstantiator::*)(::Il2CppString*)>(&IInstantiator::CreateEmptyGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IInstantiator*), "CreateEmptyGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

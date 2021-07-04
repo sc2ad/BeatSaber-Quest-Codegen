@@ -83,75 +83,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLayoutProvider), 24 + sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)> __GlobalNamespace_MultiplayerLayoutProviderSizeCheck;
   static_assert(sizeof(MultiplayerLayoutProvider) == 0x20);
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::get_layout
-  // Il2CppName: get_layout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerLayout (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::get_layout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "get_layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::set_layout
-  // Il2CppName: set_layout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(GlobalNamespace::MultiplayerPlayerLayout)>(&MultiplayerLayoutProvider::set_layout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "set_layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerLayout>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::get_activePlayerSpotsCount
-  // Il2CppName: get_activePlayerSpotsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::get_activePlayerSpotsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "get_activePlayerSpotsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::set_activePlayerSpotsCount
-  // Il2CppName: set_activePlayerSpotsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(int)>(&MultiplayerLayoutProvider::set_activePlayerSpotsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "set_activePlayerSpotsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent
-  // Il2CppName: add_playersLayoutWasCalculatedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "add_playersLayoutWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent
-  // Il2CppName: remove_playersLayoutWasCalculatedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "remove_playersLayoutWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::CalculateLayout
-  // Il2CppName: CalculateLayout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerLayout (MultiplayerLayoutProvider::*)(int)>(&MultiplayerLayoutProvider::CalculateLayout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "CalculateLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLayoutProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLayoutProvider*, "", "MultiplayerLayoutProvider");
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::get_layout
+// Il2CppName: get_layout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerLayout (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::get_layout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "get_layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::set_layout
+// Il2CppName: set_layout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(GlobalNamespace::MultiplayerPlayerLayout)>(&MultiplayerLayoutProvider::set_layout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "set_layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerLayout>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::get_activePlayerSpotsCount
+// Il2CppName: get_activePlayerSpotsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::get_activePlayerSpotsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "get_activePlayerSpotsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::set_activePlayerSpotsCount
+// Il2CppName: set_activePlayerSpotsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(int)>(&MultiplayerLayoutProvider::set_activePlayerSpotsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "set_activePlayerSpotsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent
+// Il2CppName: add_playersLayoutWasCalculatedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "add_playersLayoutWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent
+// Il2CppName: remove_playersLayoutWasCalculatedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "remove_playersLayoutWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::CalculateLayout
+// Il2CppName: CalculateLayout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerLayout (MultiplayerLayoutProvider::*)(int)>(&MultiplayerLayoutProvider::CalculateLayout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), "CalculateLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLayoutProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLayoutProvider::*)()>(&MultiplayerLayoutProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLayoutProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

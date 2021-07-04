@@ -223,172 +223,172 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(SelectableCell), 57 + sizeof(bool)> __HMUI_SelectableCellSizeCheck;
   static_assert(sizeof(SelectableCell) == 0x3A);
-  // Writing MetadataGetter for method: SelectableCell::add_selectionDidChangeEvent
-  // Il2CppName: add_selectionDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*)>(&SelectableCell::add_selectionDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "add_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::remove_selectionDidChangeEvent
-  // Il2CppName: remove_selectionDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*)>(&SelectableCell::remove_selectionDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "remove_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::add_highlightDidChangeEvent
-  // Il2CppName: add_highlightDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*)>(&SelectableCell::add_highlightDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "add_highlightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::remove_highlightDidChangeEvent
-  // Il2CppName: remove_highlightDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*)>(&SelectableCell::remove_highlightDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "remove_highlightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::get_highlighted
-  // Il2CppName: get_highlighted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SelectableCell::*)()>(&SelectableCell::get_highlighted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "get_highlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::set_highlighted
-  // Il2CppName: set_highlighted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool)>(&SelectableCell::set_highlighted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "set_highlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::get_selected
-  // Il2CppName: get_selected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SelectableCell::*)()>(&SelectableCell::get_selected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "get_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::set_selected
-  // Il2CppName: set_selected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool)>(&SelectableCell::set_selected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "set_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::SetSelected
-  // Il2CppName: SetSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool, HMUI::SelectableCell::TransitionType, ::Il2CppObject*, bool)>(&SelectableCell::SetSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "SetSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::ClearHighlight
-  // Il2CppName: ClearHighlight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(HMUI::SelectableCell::TransitionType)>(&SelectableCell::ClearHighlight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "ClearHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::SetHighlight
-  // Il2CppName: SetHighlight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool, HMUI::SelectableCell::TransitionType, bool)>(&SelectableCell::SetHighlight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "SetHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::InternalToggle
-  // Il2CppName: InternalToggle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::InternalToggle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::SelectionDidChange
-  // Il2CppName: SelectionDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(HMUI::SelectableCell::TransitionType)>(&SelectableCell::SelectionDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::HighlightDidChange
-  // Il2CppName: HighlightDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(HMUI::SelectableCell::TransitionType)>(&SelectableCell::HighlightDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::OnPointerClick
-  // Il2CppName: OnPointerClick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::PointerEventData*)>(&SelectableCell::OnPointerClick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::OnSubmit
-  // Il2CppName: OnSubmit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::BaseEventData*)>(&SelectableCell::OnSubmit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::OnPointerEnter
-  // Il2CppName: OnPointerEnter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::PointerEventData*)>(&SelectableCell::OnPointerEnter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::OnPointerExit
-  // Il2CppName: OnPointerExit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::PointerEventData*)>(&SelectableCell::OnPointerExit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectableCell::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell*, "HMUI", "SelectableCell");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell::TransitionType, "HMUI", "SelectableCell/TransitionType");
+// Writing MetadataGetter for method: SelectableCell::add_selectionDidChangeEvent
+// Il2CppName: add_selectionDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*)>(&SelectableCell::add_selectionDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "add_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::remove_selectionDidChangeEvent
+// Il2CppName: remove_selectionDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*)>(&SelectableCell::remove_selectionDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "remove_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::add_highlightDidChangeEvent
+// Il2CppName: add_highlightDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*)>(&SelectableCell::add_highlightDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "add_highlightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::remove_highlightDidChangeEvent
+// Il2CppName: remove_highlightDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*)>(&SelectableCell::remove_highlightDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "remove_highlightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType>*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::get_highlighted
+// Il2CppName: get_highlighted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SelectableCell::*)()>(&SelectableCell::get_highlighted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "get_highlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::set_highlighted
+// Il2CppName: set_highlighted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool)>(&SelectableCell::set_highlighted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "set_highlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::get_selected
+// Il2CppName: get_selected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SelectableCell::*)()>(&SelectableCell::get_selected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "get_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::set_selected
+// Il2CppName: set_selected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool)>(&SelectableCell::set_selected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "set_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::SetSelected
+// Il2CppName: SetSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool, HMUI::SelectableCell::TransitionType, ::Il2CppObject*, bool)>(&SelectableCell::SetSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "SetSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::ClearHighlight
+// Il2CppName: ClearHighlight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(HMUI::SelectableCell::TransitionType)>(&SelectableCell::ClearHighlight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "ClearHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::SetHighlight
+// Il2CppName: SetHighlight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(bool, HMUI::SelectableCell::TransitionType, bool)>(&SelectableCell::SetHighlight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "SetHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::InternalToggle
+// Il2CppName: InternalToggle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::InternalToggle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::SelectionDidChange
+// Il2CppName: SelectionDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(HMUI::SelectableCell::TransitionType)>(&SelectableCell::SelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::HighlightDidChange
+// Il2CppName: HighlightDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(HMUI::SelectableCell::TransitionType)>(&SelectableCell::HighlightDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::OnPointerClick
+// Il2CppName: OnPointerClick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::PointerEventData*)>(&SelectableCell::OnPointerClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::OnSubmit
+// Il2CppName: OnSubmit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::BaseEventData*)>(&SelectableCell::OnSubmit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::OnPointerEnter
+// Il2CppName: OnPointerEnter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::PointerEventData*)>(&SelectableCell::OnPointerEnter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::OnPointerExit
+// Il2CppName: OnPointerExit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)(UnityEngine::EventSystems::PointerEventData*)>(&SelectableCell::OnPointerExit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectableCell::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCell::*)()>(&SelectableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

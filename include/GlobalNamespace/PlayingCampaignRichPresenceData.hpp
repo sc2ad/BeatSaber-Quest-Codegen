@@ -71,43 +71,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayingCampaignRichPresenceData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingCampaignRichPresenceDataSizeCheck;
   static_assert(sizeof(PlayingCampaignRichPresenceData) == 0x18);
-  // Writing MetadataGetter for method: PlayingCampaignRichPresenceData::get_apiName
-  // Il2CppName: get_apiName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::get_apiName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingCampaignRichPresenceData::get_localizedDescription
-  // Il2CppName: get_localizedDescription
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::get_localizedDescription)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingCampaignRichPresenceData::set_localizedDescription
-  // Il2CppName: set_localizedDescription
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingCampaignRichPresenceData::*)(::Il2CppString*)>(&PlayingCampaignRichPresenceData::set_localizedDescription)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingCampaignRichPresenceData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingCampaignRichPresenceData*, "", "PlayingCampaignRichPresenceData");
+// Writing MetadataGetter for method: PlayingCampaignRichPresenceData::get_apiName
+// Il2CppName: get_apiName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::get_apiName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayingCampaignRichPresenceData::get_localizedDescription
+// Il2CppName: get_localizedDescription
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::get_localizedDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayingCampaignRichPresenceData::set_localizedDescription
+// Il2CppName: set_localizedDescription
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingCampaignRichPresenceData::*)(::Il2CppString*)>(&PlayingCampaignRichPresenceData::set_localizedDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayingCampaignRichPresenceData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingCampaignRichPresenceData::*)()>(&PlayingCampaignRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingCampaignRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

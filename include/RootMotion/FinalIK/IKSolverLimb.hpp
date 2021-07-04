@@ -130,20 +130,6 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(IKSolverLimb::AxisDirection), 24 + sizeof(float)> __RootMotion_FinalIK_IKSolverLimb_AxisDirectionSizeCheck;
     static_assert(sizeof(IKSolverLimb::AxisDirection) == 0x1C);
-    // Writing MetadataGetter for method: IKSolverLimb::AxisDirection::AxisDirection
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::AxisDirection::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&IKSolverLimb::AxisDirection::AxisDirection<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(IKSolverLimb::AxisDirection), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::AxisDirection::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&IKSolverLimb::AxisDirection::AxisDirection<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(IKSolverLimb::AxisDirection), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-      }
-    };
     // public UnityEngine.AvatarIKGoal goal
     // Size: 0x4
     // Offset: 0xA8
@@ -300,99 +286,99 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolverLimb), 312 + sizeof(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*)> __RootMotion_FinalIK_IKSolverLimbSizeCheck;
   static_assert(sizeof(IKSolverLimb) == 0x140);
-  // Writing MetadataGetter for method: IKSolverLimb::MaintainRotation
-  // Il2CppName: MaintainRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::MaintainRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "MaintainRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::MaintainBend
-  // Il2CppName: MaintainBend
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::MaintainBend)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "MaintainBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)(UnityEngine::AvatarIKGoal)>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)(UnityEngine::AvatarIKGoal)>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::get_axisDirections
-  // Il2CppName: get_axisDirections
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* (IKSolverLimb::*)()>(&IKSolverLimb::get_axisDirections)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "get_axisDirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::StoreAxisDirections
-  // Il2CppName: StoreAxisDirections
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*&)>(&IKSolverLimb::StoreAxisDirections)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "StoreAxisDirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::GetModifiedBendNormal
-  // Il2CppName: GetModifiedBendNormal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKSolverLimb::*)()>(&IKSolverLimb::GetModifiedBendNormal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "GetModifiedBendNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::OnInitiateVirtual
-  // Il2CppName: OnInitiateVirtual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::OnInitiateVirtual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "OnInitiateVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::OnUpdateVirtual
-  // Il2CppName: OnUpdateVirtual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::OnUpdateVirtual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "OnUpdateVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::OnPostSolveVirtual
-  // Il2CppName: OnPostSolveVirtual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::OnPostSolveVirtual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "OnPostSolveVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKSolverLimb::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb*, "RootMotion.FinalIK", "IKSolverLimb");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::BendModifier, "RootMotion.FinalIK", "IKSolverLimb/BendModifier");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::AxisDirection, "RootMotion.FinalIK", "IKSolverLimb/AxisDirection");
+// Writing MetadataGetter for method: IKSolverLimb::MaintainRotation
+// Il2CppName: MaintainRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::MaintainRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "MaintainRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::MaintainBend
+// Il2CppName: MaintainBend
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::MaintainBend)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "MaintainBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)(UnityEngine::AvatarIKGoal)>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)(UnityEngine::AvatarIKGoal)>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::get_axisDirections
+// Il2CppName: get_axisDirections
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* (IKSolverLimb::*)()>(&IKSolverLimb::get_axisDirections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "get_axisDirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::StoreAxisDirections
+// Il2CppName: StoreAxisDirections
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*&)>(&IKSolverLimb::StoreAxisDirections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "StoreAxisDirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*&>()});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::GetModifiedBendNormal
+// Il2CppName: GetModifiedBendNormal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKSolverLimb::*)()>(&IKSolverLimb::GetModifiedBendNormal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "GetModifiedBendNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::OnInitiateVirtual
+// Il2CppName: OnInitiateVirtual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::OnInitiateVirtual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "OnInitiateVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::OnUpdateVirtual
+// Il2CppName: OnUpdateVirtual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::OnUpdateVirtual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "OnUpdateVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::OnPostSolveVirtual
+// Il2CppName: OnPostSolveVirtual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::OnPostSolveVirtual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), "OnPostSolveVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKSolverLimb::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLimb::*)()>(&IKSolverLimb::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKSolverLimb*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

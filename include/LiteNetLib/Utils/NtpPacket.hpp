@@ -177,321 +177,321 @@ namespace LiteNetLib::Utils {
     }
   }; // LiteNetLib.Utils.NtpPacket
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: NtpPacket::get_Bytes
-  // Il2CppName: get_Bytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (NtpPacket::*)()>(&NtpPacket::get_Bytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::set_Bytes
-  // Il2CppName: set_Bytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(::Array<uint8_t>*)>(&NtpPacket::set_Bytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_LeapIndicator
-  // Il2CppName: get_LeapIndicator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpLeapIndicator (NtpPacket::*)()>(&NtpPacket::get_LeapIndicator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_LeapIndicator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_VersionNumber
-  // Il2CppName: get_VersionNumber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_VersionNumber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::set_VersionNumber
-  // Il2CppName: set_VersionNumber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(int)>(&NtpPacket::set_VersionNumber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_Mode
-  // Il2CppName: get_Mode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpMode (NtpPacket::*)()>(&NtpPacket::get_Mode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::set_Mode
-  // Il2CppName: set_Mode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(LiteNetLib::Utils::NtpMode)>(&NtpPacket::set_Mode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NtpMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_Stratum
-  // Il2CppName: get_Stratum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_Stratum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Stratum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_Poll
-  // Il2CppName: get_Poll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_Poll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_Precision
-  // Il2CppName: get_Precision
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_Precision)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Precision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_RootDelay
-  // Il2CppName: get_RootDelay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_RootDelay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_RootDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_RootDispersion
-  // Il2CppName: get_RootDispersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_RootDispersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_RootDispersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_ReferenceId
-  // Il2CppName: get_ReferenceId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (NtpPacket::*)()>(&NtpPacket::get_ReferenceId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_ReferenceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_ReferenceTimestamp
-  // Il2CppName: get_ReferenceTimestamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_ReferenceTimestamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_ReferenceTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_OriginTimestamp
-  // Il2CppName: get_OriginTimestamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_OriginTimestamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_OriginTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_ReceiveTimestamp
-  // Il2CppName: get_ReceiveTimestamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_ReceiveTimestamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_ReceiveTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_TransmitTimestamp
-  // Il2CppName: get_TransmitTimestamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_TransmitTimestamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::set_TransmitTimestamp
-  // Il2CppName: set_TransmitTimestamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&NtpPacket::set_TransmitTimestamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_DestinationTimestamp
-  // Il2CppName: get_DestinationTimestamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_DestinationTimestamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::set_DestinationTimestamp
-  // Il2CppName: set_DestinationTimestamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&NtpPacket::set_DestinationTimestamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_RoundTripTime
-  // Il2CppName: get_RoundTripTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_RoundTripTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_RoundTripTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::get_CorrectionOffset
-  // Il2CppName: get_CorrectionOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_CorrectionOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_CorrectionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(::Array<uint8_t>*)>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(::Array<uint8_t>*)>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::FromServerResponse
-  // Il2CppName: FromServerResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpPacket* (*)(::Array<uint8_t>*, System::DateTime)>(&NtpPacket::FromServerResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "FromServerResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::ValidateRequest
-  // Il2CppName: ValidateRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::ValidateRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "ValidateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::ValidateReply
-  // Il2CppName: ValidateReply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::ValidateReply)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "ValidateReply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::CheckTimestamps
-  // Il2CppName: CheckTimestamps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::CheckTimestamps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "CheckTimestamps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::GetDateTime64
-  // Il2CppName: GetDateTime64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)(int)>(&NtpPacket::GetDateTime64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::SetDateTime64
-  // Il2CppName: SetDateTime64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(int, System::Nullable_1<System::DateTime>)>(&NtpPacket::SetDateTime64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::GetTimeSpan32
-  // Il2CppName: GetTimeSpan32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)(int)>(&NtpPacket::GetTimeSpan32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetTimeSpan32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::GetUInt64BE
-  // Il2CppName: GetUInt64BE
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (NtpPacket::*)(int)>(&NtpPacket::GetUInt64BE)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::SetUInt64BE
-  // Il2CppName: SetUInt64BE
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(int, uint64_t)>(&NtpPacket::SetUInt64BE)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::GetInt32BE
-  // Il2CppName: GetInt32BE
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)(int)>(&NtpPacket::GetInt32BE)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::GetUInt32BE
-  // Il2CppName: GetUInt32BE
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (NtpPacket::*)(int)>(&NtpPacket::GetUInt32BE)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetUInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::SwapEndianness
-  // Il2CppName: SwapEndianness
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&NtpPacket::SwapEndianness)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::SwapEndianness
-  // Il2CppName: SwapEndianness
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&NtpPacket::SwapEndianness)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NtpPacket::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NtpPacket::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpPacket*, "LiteNetLib.Utils", "NtpPacket");
+// Writing MetadataGetter for method: NtpPacket::get_Bytes
+// Il2CppName: get_Bytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (NtpPacket::*)()>(&NtpPacket::get_Bytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::set_Bytes
+// Il2CppName: set_Bytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(::Array<uint8_t>*)>(&NtpPacket::set_Bytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_LeapIndicator
+// Il2CppName: get_LeapIndicator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpLeapIndicator (NtpPacket::*)()>(&NtpPacket::get_LeapIndicator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_LeapIndicator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_VersionNumber
+// Il2CppName: get_VersionNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_VersionNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::set_VersionNumber
+// Il2CppName: set_VersionNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(int)>(&NtpPacket::set_VersionNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_Mode
+// Il2CppName: get_Mode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpMode (NtpPacket::*)()>(&NtpPacket::get_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::set_Mode
+// Il2CppName: set_Mode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(LiteNetLib::Utils::NtpMode)>(&NtpPacket::set_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NtpMode>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_Stratum
+// Il2CppName: get_Stratum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_Stratum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Stratum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_Poll
+// Il2CppName: get_Poll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_Poll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_Precision
+// Il2CppName: get_Precision
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)()>(&NtpPacket::get_Precision)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_Precision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_RootDelay
+// Il2CppName: get_RootDelay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_RootDelay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_RootDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_RootDispersion
+// Il2CppName: get_RootDispersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_RootDispersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_RootDispersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_ReferenceId
+// Il2CppName: get_ReferenceId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (NtpPacket::*)()>(&NtpPacket::get_ReferenceId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_ReferenceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_ReferenceTimestamp
+// Il2CppName: get_ReferenceTimestamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_ReferenceTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_ReferenceTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_OriginTimestamp
+// Il2CppName: get_OriginTimestamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_OriginTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_OriginTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_ReceiveTimestamp
+// Il2CppName: get_ReceiveTimestamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_ReceiveTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_ReceiveTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_TransmitTimestamp
+// Il2CppName: get_TransmitTimestamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_TransmitTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::set_TransmitTimestamp
+// Il2CppName: set_TransmitTimestamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&NtpPacket::set_TransmitTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_DestinationTimestamp
+// Il2CppName: get_DestinationTimestamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)()>(&NtpPacket::get_DestinationTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::set_DestinationTimestamp
+// Il2CppName: set_DestinationTimestamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&NtpPacket::set_DestinationTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "set_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_RoundTripTime
+// Il2CppName: get_RoundTripTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_RoundTripTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_RoundTripTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::get_CorrectionOffset
+// Il2CppName: get_CorrectionOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)()>(&NtpPacket::get_CorrectionOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "get_CorrectionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(::Array<uint8_t>*)>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(::Array<uint8_t>*)>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::FromServerResponse
+// Il2CppName: FromServerResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpPacket* (*)(::Array<uint8_t>*, System::DateTime)>(&NtpPacket::FromServerResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "FromServerResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::ValidateRequest
+// Il2CppName: ValidateRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::ValidateRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "ValidateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::ValidateReply
+// Il2CppName: ValidateReply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::ValidateReply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "ValidateReply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::CheckTimestamps
+// Il2CppName: CheckTimestamps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::CheckTimestamps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "CheckTimestamps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::GetDateTime64
+// Il2CppName: GetDateTime64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (NtpPacket::*)(int)>(&NtpPacket::GetDateTime64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::SetDateTime64
+// Il2CppName: SetDateTime64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(int, System::Nullable_1<System::DateTime>)>(&NtpPacket::SetDateTime64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::GetTimeSpan32
+// Il2CppName: GetTimeSpan32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (NtpPacket::*)(int)>(&NtpPacket::GetTimeSpan32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetTimeSpan32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::GetUInt64BE
+// Il2CppName: GetUInt64BE
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (NtpPacket::*)(int)>(&NtpPacket::GetUInt64BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::SetUInt64BE
+// Il2CppName: SetUInt64BE
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)(int, uint64_t)>(&NtpPacket::SetUInt64BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::GetInt32BE
+// Il2CppName: GetInt32BE
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NtpPacket::*)(int)>(&NtpPacket::GetInt32BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::GetUInt32BE
+// Il2CppName: GetUInt32BE
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (NtpPacket::*)(int)>(&NtpPacket::GetUInt32BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "GetUInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::SwapEndianness
+// Il2CppName: SwapEndianness
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&NtpPacket::SwapEndianness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::SwapEndianness
+// Il2CppName: SwapEndianness
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&NtpPacket::SwapEndianness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NtpPacket::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NtpPacket::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtpPacket::*)()>(&NtpPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NtpPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

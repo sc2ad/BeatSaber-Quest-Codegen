@@ -66,67 +66,67 @@ namespace GlobalNamespace {
     }
   }; // TestAnalyticsModel
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TestAnalyticsModel::get_supportsOpenDataPrivacyPage
-  // Il2CppName: get_supportsOpenDataPrivacyPage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestAnalyticsModel::*)()>(&TestAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestAnalyticsModel::OpenDataPrivacyPage
-  // Il2CppName: OpenDataPrivacyPage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)()>(&TestAnalyticsModel::OpenDataPrivacyPage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestAnalyticsModel::LogEvent
-  // Il2CppName: LogEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestAnalyticsModel::LogClick
-  // Il2CppName: LogClick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogClick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestAnalyticsModel::LogImpression
-  // Il2CppName: LogImpression
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogImpression)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestAnalyticsModel::LogExposure
-  // Il2CppName: LogExposure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogExposure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestAnalyticsModel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)()>(&TestAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)()>(&TestAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestAnalyticsModel*, "", "TestAnalyticsModel");
+// Writing MetadataGetter for method: TestAnalyticsModel::get_supportsOpenDataPrivacyPage
+// Il2CppName: get_supportsOpenDataPrivacyPage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestAnalyticsModel::*)()>(&TestAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestAnalyticsModel::OpenDataPrivacyPage
+// Il2CppName: OpenDataPrivacyPage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)()>(&TestAnalyticsModel::OpenDataPrivacyPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestAnalyticsModel::LogEvent
+// Il2CppName: LogEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TestAnalyticsModel::LogClick
+// Il2CppName: LogClick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TestAnalyticsModel::LogImpression
+// Il2CppName: LogImpression
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogImpression)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TestAnalyticsModel::LogExposure
+// Il2CppName: LogExposure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&TestAnalyticsModel::LogExposure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TestAnalyticsModel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)()>(&TestAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAnalyticsModel::*)()>(&TestAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

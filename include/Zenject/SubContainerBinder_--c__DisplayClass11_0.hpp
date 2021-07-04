@@ -66,27 +66,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(SubContainerBinder::$$c__DisplayClass11_0), 24 + sizeof(System::Action_1<Zenject::DiContainer*>*)> __Zenject_SubContainerBinder_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass11_0) == 0x20);
-  // Writing MetadataGetter for method: SubContainerBinder::$$c__DisplayClass11_0::$ByMethod$b__0
-  // Il2CppName: <ByMethod>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ISubContainerCreator* (SubContainerBinder::$$c__DisplayClass11_0::*)(Zenject::DiContainer*)>(&SubContainerBinder::$$c__DisplayClass11_0::$ByMethod$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerBinder::$$c__DisplayClass11_0*), "<ByMethod>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SubContainerBinder::$$c__DisplayClass11_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBinder::$$c__DisplayClass11_0::*)()>(&SubContainerBinder::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerBinder::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBinder::$$c__DisplayClass11_0::*)()>(&SubContainerBinder::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerBinder::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass11_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass11_0");
+// Writing MetadataGetter for method: SubContainerBinder::$$c__DisplayClass11_0::$ByMethod$b__0
+// Il2CppName: <ByMethod>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ISubContainerCreator* (SubContainerBinder::$$c__DisplayClass11_0::*)(Zenject::DiContainer*)>(&SubContainerBinder::$$c__DisplayClass11_0::$ByMethod$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder::$$c__DisplayClass11_0*), "<ByMethod>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: SubContainerBinder::$$c__DisplayClass11_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBinder::$$c__DisplayClass11_0::*)()>(&SubContainerBinder::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBinder::$$c__DisplayClass11_0::*)()>(&SubContainerBinder::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

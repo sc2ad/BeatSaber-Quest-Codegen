@@ -68,27 +68,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorByNewPrefabMethod), 40 + sizeof(System::Action_1<Zenject::DiContainer*>*)> __Zenject_SubContainerCreatorByNewPrefabMethodSizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewPrefabMethod) == 0x30);
-  // Writing MetadataGetter for method: SubContainerCreatorByNewPrefabMethod::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewPrefabMethod::*)(Zenject::DiContainer*, Zenject::IPrefabProvider*, Zenject::GameObjectCreationParameters*, System::Action_1<Zenject::DiContainer*>*)>(&SubContainerCreatorByNewPrefabMethod::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewPrefabMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewPrefabMethod::*)(Zenject::DiContainer*, Zenject::IPrefabProvider*, Zenject::GameObjectCreationParameters*, System::Action_1<Zenject::DiContainer*>*)>(&SubContainerCreatorByNewPrefabMethod::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewPrefabMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SubContainerCreatorByNewPrefabMethod::AddInstallers
-  // Il2CppName: AddInstallers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewPrefabMethod::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectContext*)>(&SubContainerCreatorByNewPrefabMethod::AddInstallers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewPrefabMethod*), "AddInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectContext*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabMethod*, "Zenject", "SubContainerCreatorByNewPrefabMethod");
+// Writing MetadataGetter for method: SubContainerCreatorByNewPrefabMethod::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewPrefabMethod::*)(Zenject::DiContainer*, Zenject::IPrefabProvider*, Zenject::GameObjectCreationParameters*, System::Action_1<Zenject::DiContainer*>*)>(&SubContainerCreatorByNewPrefabMethod::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewPrefabMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewPrefabMethod::*)(Zenject::DiContainer*, Zenject::IPrefabProvider*, Zenject::GameObjectCreationParameters*, System::Action_1<Zenject::DiContainer*>*)>(&SubContainerCreatorByNewPrefabMethod::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewPrefabMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SubContainerCreatorByNewPrefabMethod::AddInstallers
+// Il2CppName: AddInstallers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewPrefabMethod::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectContext*)>(&SubContainerCreatorByNewPrefabMethod::AddInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewPrefabMethod*), "AddInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectContext*>()});
+  }
+};

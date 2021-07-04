@@ -60,43 +60,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusLevelProductsModelSO::LevelPackProductData), 32 + sizeof(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*)> __GlobalNamespace_OculusLevelProductsModelSO_LevelPackProductDataSizeCheck;
   static_assert(sizeof(OculusLevelProductsModelSO::LevelPackProductData) == 0x28);
-  // Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::get_sku
-  // Il2CppName: get_sku
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::get_sku)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), "get_sku", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::get_levelPackId
-  // Il2CppName: get_levelPackId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::get_levelPackId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), "get_levelPackId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::get_levelProductsData
-  // Il2CppName: get_levelProductsData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::get_levelProductsData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), "get_levelProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*, "", "OculusLevelProductsModelSO/LevelPackProductData");
+// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::get_sku
+// Il2CppName: get_sku
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::get_sku)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), "get_sku", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::get_levelPackId
+// Il2CppName: get_levelPackId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::get_levelPackId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), "get_levelPackId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::get_levelProductsData
+// Il2CppName: get_levelProductsData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::get_levelProductsData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), "get_levelProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelPackProductData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusLevelProductsModelSO::LevelPackProductData::*)()>(&OculusLevelProductsModelSO::LevelPackProductData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelPackProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

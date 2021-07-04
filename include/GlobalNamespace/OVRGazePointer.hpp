@@ -225,155 +225,155 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRGazePointer), 96 + sizeof(GlobalNamespace::OVRProgressIndicator*)> __GlobalNamespace_OVRGazePointerSizeCheck;
   static_assert(sizeof(OVRGazePointer) == 0x68);
-  // Writing MetadataGetter for method: OVRGazePointer::get_hidden
-  // Il2CppName: get_hidden
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRGazePointer::*)()>(&OVRGazePointer::get_hidden)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_hidden", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::set_hidden
-  // Il2CppName: set_hidden
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(bool)>(&OVRGazePointer::set_hidden)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "set_hidden", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::get_currentScale
-  // Il2CppName: get_currentScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRGazePointer::*)()>(&OVRGazePointer::get_currentScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_currentScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::set_currentScale
-  // Il2CppName: set_currentScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(float)>(&OVRGazePointer::set_currentScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "set_currentScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::get_instance
-  // Il2CppName: get_instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRGazePointer* (*)()>(&OVRGazePointer::get_instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::get_visibilityStrength
-  // Il2CppName: get_visibilityStrength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRGazePointer::*)()>(&OVRGazePointer::get_visibilityStrength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_visibilityStrength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::get_SelectionProgress
-  // Il2CppName: get_SelectionProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRGazePointer::*)()>(&OVRGazePointer::get_SelectionProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_SelectionProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::set_SelectionProgress
-  // Il2CppName: set_SelectionProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(float)>(&OVRGazePointer::set_SelectionProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "set_SelectionProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::LateUpdate
-  // Il2CppName: LateUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::LateUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::RequestHide
-  // Il2CppName: RequestHide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::RequestHide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "RequestHide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::RequestShow
-  // Il2CppName: RequestShow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::RequestShow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "RequestShow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::Hide
-  // Il2CppName: Hide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Hide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::Show
-  // Il2CppName: Show
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Show)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::SetCursorStartDest
-  // Il2CppName: SetCursorStartDest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&OVRGazePointer::SetCursorStartDest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "SetCursorStartDest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::SetCursorRay
-  // Il2CppName: SetCursorRay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(UnityEngine::Transform*)>(&OVRGazePointer::SetCursorRay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "SetCursorRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRGazePointer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGazePointer*, "", "OVRGazePointer");
+// Writing MetadataGetter for method: OVRGazePointer::get_hidden
+// Il2CppName: get_hidden
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRGazePointer::*)()>(&OVRGazePointer::get_hidden)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_hidden", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::set_hidden
+// Il2CppName: set_hidden
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(bool)>(&OVRGazePointer::set_hidden)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "set_hidden", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::get_currentScale
+// Il2CppName: get_currentScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRGazePointer::*)()>(&OVRGazePointer::get_currentScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_currentScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::set_currentScale
+// Il2CppName: set_currentScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(float)>(&OVRGazePointer::set_currentScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "set_currentScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::get_instance
+// Il2CppName: get_instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRGazePointer* (*)()>(&OVRGazePointer::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::get_visibilityStrength
+// Il2CppName: get_visibilityStrength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRGazePointer::*)()>(&OVRGazePointer::get_visibilityStrength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_visibilityStrength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::get_SelectionProgress
+// Il2CppName: get_SelectionProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRGazePointer::*)()>(&OVRGazePointer::get_SelectionProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "get_SelectionProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::set_SelectionProgress
+// Il2CppName: set_SelectionProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(float)>(&OVRGazePointer::set_SelectionProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "set_SelectionProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::RequestHide
+// Il2CppName: RequestHide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::RequestHide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "RequestHide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::RequestShow
+// Il2CppName: RequestShow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::RequestShow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "RequestShow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::Hide
+// Il2CppName: Hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::Show
+// Il2CppName: Show
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::Show)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::SetCursorStartDest
+// Il2CppName: SetCursorStartDest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&OVRGazePointer::SetCursorStartDest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "SetCursorStartDest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::SetCursorRay
+// Il2CppName: SetCursorRay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)(UnityEngine::Transform*)>(&OVRGazePointer::SetCursorRay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), "SetCursorRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRGazePointer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGazePointer::*)()>(&OVRGazePointer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRGazePointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -58,27 +58,27 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(HttpWebRequest::$$c__DisplayClass238_0), 24 + sizeof(System::Net::HttpWebRequest*)> __System_Net_HttpWebRequest_$$c__DisplayClass238_0SizeCheck;
   static_assert(sizeof(HttpWebRequest::$$c__DisplayClass238_0) == 0x20);
-  // Writing MetadataGetter for method: HttpWebRequest::$$c__DisplayClass238_0::$BeginGetResponse$b__0
-  // Il2CppName: <BeginGetResponse>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpWebRequest::$$c__DisplayClass238_0::*)(System::Net::SimpleAsyncResult*)>(&HttpWebRequest::$$c__DisplayClass238_0::$BeginGetResponse$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpWebRequest::$$c__DisplayClass238_0*), "<BeginGetResponse>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpWebRequest::$$c__DisplayClass238_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpWebRequest::$$c__DisplayClass238_0::*)()>(&HttpWebRequest::$$c__DisplayClass238_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpWebRequest::$$c__DisplayClass238_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpWebRequest::$$c__DisplayClass238_0::*)()>(&HttpWebRequest::$$c__DisplayClass238_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpWebRequest::$$c__DisplayClass238_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::$$c__DisplayClass238_0*, "System.Net", "HttpWebRequest/<>c__DisplayClass238_0");
+// Writing MetadataGetter for method: HttpWebRequest::$$c__DisplayClass238_0::$BeginGetResponse$b__0
+// Il2CppName: <BeginGetResponse>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpWebRequest::$$c__DisplayClass238_0::*)(System::Net::SimpleAsyncResult*)>(&HttpWebRequest::$$c__DisplayClass238_0::$BeginGetResponse$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpWebRequest::$$c__DisplayClass238_0*), "<BeginGetResponse>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpWebRequest::$$c__DisplayClass238_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpWebRequest::$$c__DisplayClass238_0::*)()>(&HttpWebRequest::$$c__DisplayClass238_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpWebRequest::$$c__DisplayClass238_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpWebRequest::$$c__DisplayClass238_0::*)()>(&HttpWebRequest::$$c__DisplayClass238_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpWebRequest::$$c__DisplayClass238_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

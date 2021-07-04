@@ -31,22 +31,22 @@ namespace Mono::Unity {
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);
   }; // Mono.Unity.Debug
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Debug::CheckAndThrow
-  // Il2CppName: CheckAndThrow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, ::Il2CppString*, Mono::Security::Interface::AlertDescription)>(&Debug::CheckAndThrow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
-    }
-  };
-  // Writing MetadataGetter for method: Debug::CheckAndThrow
-  // Il2CppName: CheckAndThrow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, Mono::Unity::UnityTls::unitytls_x509verify_result, ::Il2CppString*, Mono::Security::Interface::AlertDescription)>(&Debug::CheckAndThrow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::Debug*, "Mono.Unity", "Debug");
+// Writing MetadataGetter for method: Debug::CheckAndThrow
+// Il2CppName: CheckAndThrow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, ::Il2CppString*, Mono::Security::Interface::AlertDescription)>(&Debug::CheckAndThrow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+  }
+};
+// Writing MetadataGetter for method: Debug::CheckAndThrow
+// Il2CppName: CheckAndThrow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, Mono::Unity::UnityTls::unitytls_x509verify_result, ::Il2CppString*, Mono::Security::Interface::AlertDescription)>(&Debug::CheckAndThrow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+  }
+};

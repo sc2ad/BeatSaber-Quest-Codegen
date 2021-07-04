@@ -515,667 +515,667 @@ namespace UnityEngine::Timeline {
     static void _cctor();
   }; // UnityEngine.Timeline.AnimationTrack
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: AnimationTrack::get_position
-  // Il2CppName: get_position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_position
-  // Il2CppName: set_position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_rotation
-  // Il2CppName: get_rotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (AnimationTrack::*)()>(&AnimationTrack::get_rotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_rotation
-  // Il2CppName: set_rotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Quaternion)>(&AnimationTrack::set_rotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_eulerAngles
-  // Il2CppName: get_eulerAngles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_eulerAngles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_eulerAngles
-  // Il2CppName: set_eulerAngles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_eulerAngles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_applyOffsets
-  // Il2CppName: get_applyOffsets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_applyOffsets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_applyOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_applyOffsets
-  // Il2CppName: set_applyOffsets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_applyOffsets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_applyOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_trackOffset
-  // Il2CppName: get_trackOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackOffset (AnimationTrack::*)()>(&AnimationTrack::get_trackOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_trackOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_trackOffset
-  // Il2CppName: set_trackOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TrackOffset)>(&AnimationTrack::set_trackOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_trackOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackOffset>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_matchTargetFields
-  // Il2CppName: get_matchTargetFields
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MatchTargetFields (AnimationTrack::*)()>(&AnimationTrack::get_matchTargetFields)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_matchTargetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_matchTargetFields
-  // Il2CppName: set_matchTargetFields
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::MatchTargetFields)>(&AnimationTrack::set_matchTargetFields)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_matchTargetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::MatchTargetFields>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClip
-  // Il2CppName: get_infiniteClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClip
-  // Il2CppName: set_infiniteClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::AnimationClip*)>(&AnimationTrack::set_infiniteClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipRemoveOffset
-  // Il2CppName: get_infiniteClipRemoveOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipRemoveOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipRemoveOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipRemoveOffset
-  // Il2CppName: set_infiniteClipRemoveOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_infiniteClipRemoveOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipRemoveOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_avatarMask
-  // Il2CppName: get_avatarMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AvatarMask* (AnimationTrack::*)()>(&AnimationTrack::get_avatarMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_avatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_avatarMask
-  // Il2CppName: set_avatarMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::AvatarMask*)>(&AnimationTrack::set_avatarMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_avatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarMask*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_applyAvatarMask
-  // Il2CppName: get_applyAvatarMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_applyAvatarMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_applyAvatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_applyAvatarMask
-  // Il2CppName: set_applyAvatarMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_applyAvatarMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_applyAvatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_inClipMode
-  // Il2CppName: get_inClipMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_inClipMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_inClipMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipOffsetPosition
-  // Il2CppName: get_infiniteClipOffsetPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipOffsetPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipOffsetPosition
-  // Il2CppName: set_infiniteClipOffsetPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_infiniteClipOffsetPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipOffsetRotation
-  // Il2CppName: get_infiniteClipOffsetRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipOffsetRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipOffsetRotation
-  // Il2CppName: set_infiniteClipOffsetRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Quaternion)>(&AnimationTrack::set_infiniteClipOffsetRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipOffsetEulerAngles
-  // Il2CppName: get_infiniteClipOffsetEulerAngles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipOffsetEulerAngles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipOffsetEulerAngles
-  // Il2CppName: set_infiniteClipOffsetEulerAngles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_infiniteClipOffsetEulerAngles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipApplyFootIK
-  // Il2CppName: get_infiniteClipApplyFootIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipApplyFootIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipApplyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipApplyFootIK
-  // Il2CppName: set_infiniteClipApplyFootIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_infiniteClipApplyFootIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipApplyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipTimeOffset
-  // Il2CppName: get_infiniteClipTimeOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipTimeOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipTimeOffset
-  // Il2CppName: set_infiniteClipTimeOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(double)>(&AnimationTrack::set_infiniteClipTimeOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipPreExtrapolation
-  // Il2CppName: get_infiniteClipPreExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipPreExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipPreExtrapolation
-  // Il2CppName: set_infiniteClipPreExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_infiniteClipPreExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipPostExtrapolation
-  // Il2CppName: get_infiniteClipPostExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipPostExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipPostExtrapolation
-  // Il2CppName: set_infiniteClipPostExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_infiniteClipPostExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_infiniteClipLoop
-  // Il2CppName: get_infiniteClipLoop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::AnimationPlayableAsset::LoopMode (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipLoop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_infiniteClipLoop
-  // Il2CppName: set_infiniteClipLoop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode)>(&AnimationTrack::set_infiniteClipLoop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationPlayableAsset::LoopMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::ResetOffsets
-  // Il2CppName: ResetOffsets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::ResetOffsets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "ResetOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CreateClip
-  // Il2CppName: CreateClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (AnimationTrack::*)(UnityEngine::AnimationClip*)>(&AnimationTrack::CreateClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CreateInfiniteClip
-  // Il2CppName: CreateInfiniteClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(::Il2CppString*)>(&AnimationTrack::CreateInfiniteClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateInfiniteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CreateRecordableClip
-  // Il2CppName: CreateRecordableClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (AnimationTrack::*)(::Il2CppString*)>(&AnimationTrack::CreateRecordableClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateRecordableClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::UpdateClipOffsets
-  // Il2CppName: UpdateClipOffsets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::UpdateClipOffsets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "UpdateClipOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CompileTrackPlayable
-  // Il2CppName: CompileTrackPlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Timeline::AnimationTrack*, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::CompileTrackPlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CompileTrackPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::UnityEngine_Timeline_ILayerable_CreateLayerMixer
-  // Il2CppName: UnityEngine.Timeline.ILayerable.CreateLayerMixer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&AnimationTrack::UnityEngine_Timeline_ILayerable_CreateLayerMixer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "UnityEngine.Timeline.ILayerable.CreateLayerMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GetDefaultBlendCount
-  // Il2CppName: GetDefaultBlendCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnimationTrack::*)()>(&AnimationTrack::GetDefaultBlendCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetDefaultBlendCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::AttachDefaultBlend
-  // Il2CppName: AttachDefaultBlend
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Animations::AnimationLayerMixerPlayable, bool)>(&AnimationTrack::AttachDefaultBlend)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AttachDefaultBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationLayerMixerPlayable>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::AttachOffsetPlayable
-  // Il2CppName: AttachOffsetPlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::Vector3, UnityEngine::Quaternion)>(&AnimationTrack::AttachOffsetPlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AttachOffsetPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::RequiresMotionXPlayable
-  // Il2CppName: RequiresMotionXPlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)(UnityEngine::Timeline::AppliedOffsetMode, UnityEngine::GameObject*)>(&AnimationTrack::RequiresMotionXPlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "RequiresMotionXPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::UsesAbsoluteMotion
-  // Il2CppName: UsesAbsoluteMotion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::UsesAbsoluteMotion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "UsesAbsoluteMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::HasController
-  // Il2CppName: HasController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)(UnityEngine::GameObject*)>(&AnimationTrack::HasController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "HasController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GetBinding
-  // Il2CppName: GetBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (AnimationTrack::*)(UnityEngine::Playables::PlayableDirector*)>(&AnimationTrack::GetBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CreateGroupMixer
-  // Il2CppName: CreateGroupMixer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationLayerMixerPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&AnimationTrack::CreateGroupMixer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateGroupMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CreateInfiniteTrackPlayable
-  // Il2CppName: CreateInfiniteTrackPlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::CreateInfiniteTrackPlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateInfiniteTrackPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::ApplyTrackOffset
-  // Il2CppName: ApplyTrackOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::GameObject*, UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::ApplyTrackOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "ApplyTrackOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::AssignAnimationClip
-  // Il2CppName: AssignAnimationClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::AnimationClip*)>(&AnimationTrack::AssignAnimationClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AssignAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GetAnimationClips
-  // Il2CppName: GetAnimationClips
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(System::Collections::Generic::List_1<UnityEngine::AnimationClip*>*)>(&AnimationTrack::GetAnimationClips)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetAnimationClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::AnimationClip*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GetOffsetMode
-  // Il2CppName: GetOffsetMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::AppliedOffsetMode (AnimationTrack::*)(UnityEngine::GameObject*, bool)>(&AnimationTrack::GetOffsetMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetOffsetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::IsRootTransformDisabledByMask
-  // Il2CppName: IsRootTransformDisabledByMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)(UnityEngine::GameObject*, UnityEngine::Transform*)>(&AnimationTrack::IsRootTransformDisabledByMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "IsRootTransformDisabledByMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GetGenericRootNode
-  // Il2CppName: GetGenericRootNode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (AnimationTrack::*)(UnityEngine::GameObject*)>(&AnimationTrack::GetGenericRootNode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetGenericRootNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::AnimatesRootTransform
-  // Il2CppName: AnimatesRootTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::AnimatesRootTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AnimatesRootTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::FindInHierarchyBreadthFirst
-  // Il2CppName: FindInHierarchyBreadthFirst
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*)>(&AnimationTrack::FindInHierarchyBreadthFirst)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "FindInHierarchyBreadthFirst", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_openClipOffsetPosition
-  // Il2CppName: get_openClipOffsetPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_openClipOffsetPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_openClipOffsetPosition
-  // Il2CppName: set_openClipOffsetPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_openClipOffsetPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_openClipOffsetRotation
-  // Il2CppName: get_openClipOffsetRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (AnimationTrack::*)()>(&AnimationTrack::get_openClipOffsetRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_openClipOffsetRotation
-  // Il2CppName: set_openClipOffsetRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Quaternion)>(&AnimationTrack::set_openClipOffsetRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_openClipOffsetEulerAngles
-  // Il2CppName: get_openClipOffsetEulerAngles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_openClipOffsetEulerAngles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_openClipOffsetEulerAngles
-  // Il2CppName: set_openClipOffsetEulerAngles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_openClipOffsetEulerAngles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_openClipPreExtrapolation
-  // Il2CppName: get_openClipPreExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_openClipPreExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_openClipPreExtrapolation
-  // Il2CppName: set_openClipPreExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_openClipPreExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_openClipPostExtrapolation
-  // Il2CppName: get_openClipPostExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_openClipPostExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::set_openClipPostExtrapolation
-  // Il2CppName: set_openClipPostExtrapolation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_openClipPostExtrapolation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CanCompileClips
-  // Il2CppName: CanCompileClips
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::CanCompileClips)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CanCompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::get_outputs
-  // Il2CppName: get_outputs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (AnimationTrack::*)()>(&AnimationTrack::get_outputs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::OnCreateClip
-  // Il2CppName: OnCreateClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip*)>(&AnimationTrack::OnCreateClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "OnCreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CalculateItemsHash
-  // Il2CppName: CalculateItemsHash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnimationTrack::*)()>(&AnimationTrack::CalculateItemsHash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CalculateItemsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::CreateMixerPlayableGraph
-  // Il2CppName: CreateMixerPlayableGraph
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&AnimationTrack::CreateMixerPlayableGraph)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateMixerPlayableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GetEvaluationTime
-  // Il2CppName: GetEvaluationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(double&, double&)>(&AnimationTrack::GetEvaluationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetEvaluationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GetSequenceTime
-  // Il2CppName: GetSequenceTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(double&, double&)>(&AnimationTrack::GetSequenceTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetSequenceTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::GatherProperties
-  // Il2CppName: GatherProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&AnimationTrack::GatherProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::OnUpgradeFromVersion
-  // Il2CppName: OnUpgradeFromVersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(int)>(&AnimationTrack::OnUpgradeFromVersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "OnUpgradeFromVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationTrack::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationTrack::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack*, "UnityEngine.Timeline", "AnimationTrack");
+// Writing MetadataGetter for method: AnimationTrack::get_position
+// Il2CppName: get_position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_position
+// Il2CppName: set_position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_rotation
+// Il2CppName: get_rotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (AnimationTrack::*)()>(&AnimationTrack::get_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_rotation
+// Il2CppName: set_rotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Quaternion)>(&AnimationTrack::set_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_eulerAngles
+// Il2CppName: get_eulerAngles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_eulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_eulerAngles
+// Il2CppName: set_eulerAngles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_eulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_applyOffsets
+// Il2CppName: get_applyOffsets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_applyOffsets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_applyOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_applyOffsets
+// Il2CppName: set_applyOffsets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_applyOffsets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_applyOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_trackOffset
+// Il2CppName: get_trackOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackOffset (AnimationTrack::*)()>(&AnimationTrack::get_trackOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_trackOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_trackOffset
+// Il2CppName: set_trackOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TrackOffset)>(&AnimationTrack::set_trackOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_trackOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackOffset>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_matchTargetFields
+// Il2CppName: get_matchTargetFields
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MatchTargetFields (AnimationTrack::*)()>(&AnimationTrack::get_matchTargetFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_matchTargetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_matchTargetFields
+// Il2CppName: set_matchTargetFields
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::MatchTargetFields)>(&AnimationTrack::set_matchTargetFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_matchTargetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::MatchTargetFields>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClip
+// Il2CppName: get_infiniteClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClip
+// Il2CppName: set_infiniteClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::AnimationClip*)>(&AnimationTrack::set_infiniteClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipRemoveOffset
+// Il2CppName: get_infiniteClipRemoveOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipRemoveOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipRemoveOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipRemoveOffset
+// Il2CppName: set_infiniteClipRemoveOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_infiniteClipRemoveOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipRemoveOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_avatarMask
+// Il2CppName: get_avatarMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AvatarMask* (AnimationTrack::*)()>(&AnimationTrack::get_avatarMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_avatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_avatarMask
+// Il2CppName: set_avatarMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::AvatarMask*)>(&AnimationTrack::set_avatarMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_avatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarMask*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_applyAvatarMask
+// Il2CppName: get_applyAvatarMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_applyAvatarMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_applyAvatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_applyAvatarMask
+// Il2CppName: set_applyAvatarMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_applyAvatarMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_applyAvatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_inClipMode
+// Il2CppName: get_inClipMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_inClipMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_inClipMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipOffsetPosition
+// Il2CppName: get_infiniteClipOffsetPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipOffsetPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipOffsetPosition
+// Il2CppName: set_infiniteClipOffsetPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_infiniteClipOffsetPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipOffsetRotation
+// Il2CppName: get_infiniteClipOffsetRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipOffsetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipOffsetRotation
+// Il2CppName: set_infiniteClipOffsetRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Quaternion)>(&AnimationTrack::set_infiniteClipOffsetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipOffsetEulerAngles
+// Il2CppName: get_infiniteClipOffsetEulerAngles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipOffsetEulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipOffsetEulerAngles
+// Il2CppName: set_infiniteClipOffsetEulerAngles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_infiniteClipOffsetEulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipApplyFootIK
+// Il2CppName: get_infiniteClipApplyFootIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipApplyFootIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipApplyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipApplyFootIK
+// Il2CppName: set_infiniteClipApplyFootIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(bool)>(&AnimationTrack::set_infiniteClipApplyFootIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipApplyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipTimeOffset
+// Il2CppName: get_infiniteClipTimeOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipTimeOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipTimeOffset
+// Il2CppName: set_infiniteClipTimeOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(double)>(&AnimationTrack::set_infiniteClipTimeOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipPreExtrapolation
+// Il2CppName: get_infiniteClipPreExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipPreExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipPreExtrapolation
+// Il2CppName: set_infiniteClipPreExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_infiniteClipPreExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipPostExtrapolation
+// Il2CppName: get_infiniteClipPostExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipPostExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipPostExtrapolation
+// Il2CppName: set_infiniteClipPostExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_infiniteClipPostExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_infiniteClipLoop
+// Il2CppName: get_infiniteClipLoop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::AnimationPlayableAsset::LoopMode (AnimationTrack::*)()>(&AnimationTrack::get_infiniteClipLoop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_infiniteClipLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_infiniteClipLoop
+// Il2CppName: set_infiniteClipLoop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode)>(&AnimationTrack::set_infiniteClipLoop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_infiniteClipLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationPlayableAsset::LoopMode>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::ResetOffsets
+// Il2CppName: ResetOffsets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::ResetOffsets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "ResetOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CreateClip
+// Il2CppName: CreateClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (AnimationTrack::*)(UnityEngine::AnimationClip*)>(&AnimationTrack::CreateClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CreateInfiniteClip
+// Il2CppName: CreateInfiniteClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(::Il2CppString*)>(&AnimationTrack::CreateInfiniteClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateInfiniteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CreateRecordableClip
+// Il2CppName: CreateRecordableClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (AnimationTrack::*)(::Il2CppString*)>(&AnimationTrack::CreateRecordableClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateRecordableClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::UpdateClipOffsets
+// Il2CppName: UpdateClipOffsets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::UpdateClipOffsets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "UpdateClipOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CompileTrackPlayable
+// Il2CppName: CompileTrackPlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Timeline::AnimationTrack*, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::CompileTrackPlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CompileTrackPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationTrack*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::UnityEngine_Timeline_ILayerable_CreateLayerMixer
+// Il2CppName: UnityEngine.Timeline.ILayerable.CreateLayerMixer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&AnimationTrack::UnityEngine_Timeline_ILayerable_CreateLayerMixer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "UnityEngine.Timeline.ILayerable.CreateLayerMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GetDefaultBlendCount
+// Il2CppName: GetDefaultBlendCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnimationTrack::*)()>(&AnimationTrack::GetDefaultBlendCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetDefaultBlendCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::AttachDefaultBlend
+// Il2CppName: AttachDefaultBlend
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Animations::AnimationLayerMixerPlayable, bool)>(&AnimationTrack::AttachDefaultBlend)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AttachDefaultBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationLayerMixerPlayable>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::AttachOffsetPlayable
+// Il2CppName: AttachOffsetPlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::Vector3, UnityEngine::Quaternion)>(&AnimationTrack::AttachOffsetPlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AttachOffsetPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::RequiresMotionXPlayable
+// Il2CppName: RequiresMotionXPlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)(UnityEngine::Timeline::AppliedOffsetMode, UnityEngine::GameObject*)>(&AnimationTrack::RequiresMotionXPlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "RequiresMotionXPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::UsesAbsoluteMotion
+// Il2CppName: UsesAbsoluteMotion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::UsesAbsoluteMotion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "UsesAbsoluteMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::HasController
+// Il2CppName: HasController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)(UnityEngine::GameObject*)>(&AnimationTrack::HasController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "HasController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GetBinding
+// Il2CppName: GetBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (AnimationTrack::*)(UnityEngine::Playables::PlayableDirector*)>(&AnimationTrack::GetBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CreateGroupMixer
+// Il2CppName: CreateGroupMixer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationLayerMixerPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&AnimationTrack::CreateGroupMixer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateGroupMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CreateInfiniteTrackPlayable
+// Il2CppName: CreateInfiniteTrackPlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::CreateInfiniteTrackPlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateInfiniteTrackPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::ApplyTrackOffset
+// Il2CppName: ApplyTrackOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::GameObject*, UnityEngine::Timeline::AppliedOffsetMode)>(&AnimationTrack::ApplyTrackOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "ApplyTrackOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::AssignAnimationClip
+// Il2CppName: AssignAnimationClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::AnimationClip*)>(&AnimationTrack::AssignAnimationClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AssignAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GetAnimationClips
+// Il2CppName: GetAnimationClips
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(System::Collections::Generic::List_1<UnityEngine::AnimationClip*>*)>(&AnimationTrack::GetAnimationClips)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetAnimationClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::AnimationClip*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GetOffsetMode
+// Il2CppName: GetOffsetMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::AppliedOffsetMode (AnimationTrack::*)(UnityEngine::GameObject*, bool)>(&AnimationTrack::GetOffsetMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetOffsetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::IsRootTransformDisabledByMask
+// Il2CppName: IsRootTransformDisabledByMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)(UnityEngine::GameObject*, UnityEngine::Transform*)>(&AnimationTrack::IsRootTransformDisabledByMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "IsRootTransformDisabledByMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GetGenericRootNode
+// Il2CppName: GetGenericRootNode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (AnimationTrack::*)(UnityEngine::GameObject*)>(&AnimationTrack::GetGenericRootNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetGenericRootNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::AnimatesRootTransform
+// Il2CppName: AnimatesRootTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::AnimatesRootTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "AnimatesRootTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::FindInHierarchyBreadthFirst
+// Il2CppName: FindInHierarchyBreadthFirst
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*)>(&AnimationTrack::FindInHierarchyBreadthFirst)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "FindInHierarchyBreadthFirst", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_openClipOffsetPosition
+// Il2CppName: get_openClipOffsetPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_openClipOffsetPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_openClipOffsetPosition
+// Il2CppName: set_openClipOffsetPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_openClipOffsetPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipOffsetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_openClipOffsetRotation
+// Il2CppName: get_openClipOffsetRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (AnimationTrack::*)()>(&AnimationTrack::get_openClipOffsetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_openClipOffsetRotation
+// Il2CppName: set_openClipOffsetRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Quaternion)>(&AnimationTrack::set_openClipOffsetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_openClipOffsetEulerAngles
+// Il2CppName: get_openClipOffsetEulerAngles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AnimationTrack::*)()>(&AnimationTrack::get_openClipOffsetEulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_openClipOffsetEulerAngles
+// Il2CppName: set_openClipOffsetEulerAngles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Vector3)>(&AnimationTrack::set_openClipOffsetEulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipOffsetEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_openClipPreExtrapolation
+// Il2CppName: get_openClipPreExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_openClipPreExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_openClipPreExtrapolation
+// Il2CppName: set_openClipPreExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_openClipPreExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_openClipPostExtrapolation
+// Il2CppName: get_openClipPostExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (AnimationTrack::*)()>(&AnimationTrack::get_openClipPostExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_openClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::set_openClipPostExtrapolation
+// Il2CppName: set_openClipPostExtrapolation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&AnimationTrack::set_openClipPostExtrapolation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "set_openClipPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CanCompileClips
+// Il2CppName: CanCompileClips
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationTrack::*)()>(&AnimationTrack::CanCompileClips)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CanCompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::get_outputs
+// Il2CppName: get_outputs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (AnimationTrack::*)()>(&AnimationTrack::get_outputs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::OnCreateClip
+// Il2CppName: OnCreateClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Timeline::TimelineClip*)>(&AnimationTrack::OnCreateClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "OnCreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CalculateItemsHash
+// Il2CppName: CalculateItemsHash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnimationTrack::*)()>(&AnimationTrack::CalculateItemsHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CalculateItemsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::CreateMixerPlayableGraph
+// Il2CppName: CreateMixerPlayableGraph
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AnimationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&AnimationTrack::CreateMixerPlayableGraph)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "CreateMixerPlayableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GetEvaluationTime
+// Il2CppName: GetEvaluationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(double&, double&)>(&AnimationTrack::GetEvaluationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetEvaluationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GetSequenceTime
+// Il2CppName: GetSequenceTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(double&, double&)>(&AnimationTrack::GetSequenceTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GetSequenceTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::GatherProperties
+// Il2CppName: GatherProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&AnimationTrack::GatherProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::OnUpgradeFromVersion
+// Il2CppName: OnUpgradeFromVersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)(int)>(&AnimationTrack::OnUpgradeFromVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), "OnUpgradeFromVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationTrack::*)()>(&AnimationTrack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationTrack::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationTrack::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationTrack*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

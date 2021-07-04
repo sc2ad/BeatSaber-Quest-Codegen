@@ -19,14 +19,14 @@ namespace GlobalNamespace {
     static int GetMajorVersionNumber(::Il2CppString* versionString);
   }; // VersionStringHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: VersionStringHelper::GetMajorVersionNumber
-  // Il2CppName: GetMajorVersionNumber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&VersionStringHelper::GetMajorVersionNumber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VersionStringHelper*), "GetMajorVersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VersionStringHelper*, "", "VersionStringHelper");
+// Writing MetadataGetter for method: VersionStringHelper::GetMajorVersionNumber
+// Il2CppName: GetMajorVersionNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&VersionStringHelper::GetMajorVersionNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VersionStringHelper*), "GetMajorVersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

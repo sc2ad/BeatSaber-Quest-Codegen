@@ -75,43 +75,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BlueNoiseDitheringUpdater), 32 + sizeof(GlobalNamespace::RandomValueToShader*)> __GlobalNamespace_BlueNoiseDitheringUpdaterSizeCheck;
   static_assert(sizeof(BlueNoiseDitheringUpdater) == 0x28);
-  // Writing MetadataGetter for method: BlueNoiseDitheringUpdater::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BlueNoiseDitheringUpdater::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BlueNoiseDitheringUpdater::HandleCameraPreRender
-  // Il2CppName: HandleCameraPreRender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)(UnityEngine::Camera*)>(&BlueNoiseDitheringUpdater::HandleCameraPreRender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), "HandleCameraPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BlueNoiseDitheringUpdater::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDitheringUpdater*, "", "BlueNoiseDitheringUpdater");
+// Writing MetadataGetter for method: BlueNoiseDitheringUpdater::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BlueNoiseDitheringUpdater::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BlueNoiseDitheringUpdater::HandleCameraPreRender
+// Il2CppName: HandleCameraPreRender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)(UnityEngine::Camera*)>(&BlueNoiseDitheringUpdater::HandleCameraPreRender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), "HandleCameraPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};
+// Writing MetadataGetter for method: BlueNoiseDitheringUpdater::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDitheringUpdater::*)()>(&BlueNoiseDitheringUpdater::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDitheringUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

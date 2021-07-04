@@ -130,115 +130,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TableViewWithDetailCell), 192 + sizeof(int)> __GlobalNamespace_TableViewWithDetailCellSizeCheck;
   static_assert(sizeof(TableViewWithDetailCell) == 0xC4);
-  // Writing MetadataGetter for method: TableViewWithDetailCell::add_didSelectContentCellEvent
-  // Il2CppName: add_didSelectContentCellEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::add_didSelectContentCellEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "add_didSelectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::remove_didSelectContentCellEvent
-  // Il2CppName: remove_didSelectContentCellEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::remove_didSelectContentCellEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "remove_didSelectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::add_didDeselectContentCellEvent
-  // Il2CppName: add_didDeselectContentCellEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::add_didDeselectContentCellEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "add_didDeselectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::remove_didDeselectContentCellEvent
-  // Il2CppName: remove_didDeselectContentCellEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::remove_didDeselectContentCellEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "remove_didDeselectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::get_dataSource
-  // Il2CppName: get_dataSource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TableViewWithDetailCell::IDataSource* (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::get_dataSource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "get_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::set_dataSource
-  // Il2CppName: set_dataSource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(GlobalNamespace::TableViewWithDetailCell::IDataSource*)>(&TableViewWithDetailCell::set_dataSource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "set_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell::IDataSource*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::CellSize
-  // Il2CppName: CellSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::CellSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::NumberOfCells
-  // Il2CppName: NumberOfCells
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::NumberOfCells)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::CellForIdx
-  // Il2CppName: CellForIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (TableViewWithDetailCell::*)(HMUI::TableView*, int)>(&TableViewWithDetailCell::CellForIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::ReloadData
-  // Il2CppName: ReloadData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(int)>(&TableViewWithDetailCell::ReloadData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::ReloadData
-  // Il2CppName: ReloadData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::ReloadData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::DidSelectCellWithIdx
-  // Il2CppName: DidSelectCellWithIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(int)>(&TableViewWithDetailCell::DidSelectCellWithIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "DidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TableViewWithDetailCell::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell*, "", "TableViewWithDetailCell");
+// Writing MetadataGetter for method: TableViewWithDetailCell::add_didSelectContentCellEvent
+// Il2CppName: add_didSelectContentCellEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::add_didSelectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "add_didSelectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::remove_didSelectContentCellEvent
+// Il2CppName: remove_didSelectContentCellEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::remove_didSelectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "remove_didSelectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::add_didDeselectContentCellEvent
+// Il2CppName: add_didDeselectContentCellEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::add_didDeselectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "add_didDeselectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::remove_didDeselectContentCellEvent
+// Il2CppName: remove_didDeselectContentCellEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&TableViewWithDetailCell::remove_didDeselectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "remove_didDeselectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::get_dataSource
+// Il2CppName: get_dataSource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TableViewWithDetailCell::IDataSource* (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::get_dataSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "get_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::set_dataSource
+// Il2CppName: set_dataSource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(GlobalNamespace::TableViewWithDetailCell::IDataSource*)>(&TableViewWithDetailCell::set_dataSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "set_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell::IDataSource*>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::CellSize
+// Il2CppName: CellSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::CellSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::NumberOfCells
+// Il2CppName: NumberOfCells
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::NumberOfCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::CellForIdx
+// Il2CppName: CellForIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (TableViewWithDetailCell::*)(HMUI::TableView*, int)>(&TableViewWithDetailCell::CellForIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::ReloadData
+// Il2CppName: ReloadData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(int)>(&TableViewWithDetailCell::ReloadData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::ReloadData
+// Il2CppName: ReloadData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::ReloadData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::DidSelectCellWithIdx
+// Il2CppName: DidSelectCellWithIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)(int)>(&TableViewWithDetailCell::DidSelectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), "DidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TableViewWithDetailCell::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableViewWithDetailCell::*)()>(&TableViewWithDetailCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableViewWithDetailCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

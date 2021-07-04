@@ -72,43 +72,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BGNetLogger), 16 + sizeof(::Array<Microsoft::Extensions::Logging::ILogger*>*)> __GlobalNamespace_BGNetLoggerSizeCheck;
   static_assert(sizeof(BGNetLogger) == 0x18);
-  // Writing MetadataGetter for method: BGNetLogger::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Array<Microsoft::Extensions::Logging::ILogger*>*)>(&BGNetLogger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Microsoft::Extensions::Logging::ILogger*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Array<Microsoft::Extensions::Logging::ILogger*>*)>(&BGNetLogger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Microsoft::Extensions::Logging::ILogger*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BGNetLogger::LogError
-  // Il2CppName: LogError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Il2CppString*)>(&BGNetLogger::LogError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BGNetLogger::LogInfo
-  // Il2CppName: LogInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Il2CppString*)>(&BGNetLogger::LogInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), "LogInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BGNetLogger::LogWarning
-  // Il2CppName: LogWarning
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Il2CppString*)>(&BGNetLogger::LogWarning)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetLogger*, "", "BGNetLogger");
+// Writing MetadataGetter for method: BGNetLogger::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Array<Microsoft::Extensions::Logging::ILogger*>*)>(&BGNetLogger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Microsoft::Extensions::Logging::ILogger*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Array<Microsoft::Extensions::Logging::ILogger*>*)>(&BGNetLogger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Microsoft::Extensions::Logging::ILogger*>*>()});
+  }
+};
+// Writing MetadataGetter for method: BGNetLogger::LogError
+// Il2CppName: LogError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Il2CppString*)>(&BGNetLogger::LogError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: BGNetLogger::LogInfo
+// Il2CppName: LogInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Il2CppString*)>(&BGNetLogger::LogInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), "LogInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: BGNetLogger::LogWarning
+// Il2CppName: LogWarning
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNetLogger::*)(::Il2CppString*)>(&BGNetLogger::LogWarning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BGNetLogger*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

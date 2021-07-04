@@ -85,59 +85,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardViewController::$RefreshDelayed$d__31), 41 + sizeof(bool)> __GlobalNamespace_PlatformLeaderboardViewController_$RefreshDelayed$d__31SizeCheck;
   static_assert(sizeof(PlatformLeaderboardViewController::$RefreshDelayed$d__31) == 0x2A);
-  // Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)(int)>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)(int)>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__31");
+// Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)(int)>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)(int)>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (PlatformLeaderboardViewController::$RefreshDelayed$d__31::*)()>(&PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController::$RefreshDelayed$d__31*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

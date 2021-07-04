@@ -128,127 +128,127 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteMissInfoNetSerializable), 28 + sizeof(GlobalNamespace::NoteLineLayer)> __GlobalNamespace_NoteMissInfoNetSerializableSizeCheck;
   static_assert(sizeof(NoteMissInfoNetSerializable) == 0x20);
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_colorType
-  // Il2CppName: get_colorType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_colorType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_colorType
-  // Il2CppName: set_colorType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::ColorType)>(&NoteMissInfoNetSerializable::set_colorType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_noteTime
-  // Il2CppName: get_noteTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_noteTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_noteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_noteTime
-  // Il2CppName: set_noteTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(float)>(&NoteMissInfoNetSerializable::set_noteTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_noteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_noteLineIndex
-  // Il2CppName: get_noteLineIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_noteLineIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_noteLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_noteLineIndex
-  // Il2CppName: set_noteLineIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(int)>(&NoteMissInfoNetSerializable::set_noteLineIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_noteLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_noteLineLayer
-  // Il2CppName: get_noteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_noteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_noteLineLayer
-  // Il2CppName: set_noteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::NoteLineLayer)>(&NoteMissInfoNetSerializable::set_noteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize
-  // Il2CppName: LiteNetLib.Utils.INetSerializable.Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "LiteNetLib.Utils.INetSerializable.Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize
-  // Il2CppName: LiteNetLib.Utils.INetSerializable.Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "LiteNetLib.Utils.INetSerializable.Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::NoteData*)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::NoteData*)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::ColorType, GlobalNamespace::NoteLineLayer, int, float)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::ColorType, GlobalNamespace::NoteLineLayer, int, float)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteMissInfoNetSerializable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMissInfoNetSerializable*, "", "NoteMissInfoNetSerializable");
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_colorType
+// Il2CppName: get_colorType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_colorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_colorType
+// Il2CppName: set_colorType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::ColorType)>(&NoteMissInfoNetSerializable::set_colorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_noteTime
+// Il2CppName: get_noteTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_noteTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_noteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_noteTime
+// Il2CppName: set_noteTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(float)>(&NoteMissInfoNetSerializable::set_noteTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_noteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_noteLineIndex
+// Il2CppName: get_noteLineIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_noteLineIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_noteLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_noteLineIndex
+// Il2CppName: set_noteLineIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(int)>(&NoteMissInfoNetSerializable::set_noteLineIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_noteLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::get_noteLineLayer
+// Il2CppName: get_noteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::get_noteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::set_noteLineLayer
+// Il2CppName: set_noteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::NoteLineLayer)>(&NoteMissInfoNetSerializable::set_noteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize
+// Il2CppName: LiteNetLib.Utils.INetSerializable.Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "LiteNetLib.Utils.INetSerializable.Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize
+// Il2CppName: LiteNetLib.Utils.INetSerializable.Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&NoteMissInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), "LiteNetLib.Utils.INetSerializable.Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::NoteData*)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::NoteData*)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::ColorType, GlobalNamespace::NoteLineLayer, int, float)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)(GlobalNamespace::ColorType, GlobalNamespace::NoteLineLayer, int, float)>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteMissInfoNetSerializable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMissInfoNetSerializable::*)()>(&NoteMissInfoNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteMissInfoNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

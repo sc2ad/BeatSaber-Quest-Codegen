@@ -190,297 +190,297 @@ namespace UnityEngine {
   // static public System.Boolean op_Inequality(UnityEngine.Color lhs, UnityEngine.Color rhs)
   // Offset: 0x1B90794
   bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
-  // Writing MetadataGetter for method: Color::Color
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::Color
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Color::*)(::Il2CppString*)>(&Color::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Color::*)(UnityEngine::Color)>(&Color::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::Lerp
-  // Il2CppName: Lerp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&Color::Lerp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::LerpUnclamped
-  // Il2CppName: LerpUnclamped
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&Color::LerpUnclamped)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "LerpUnclamped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::RGBMultiplied
-  // Il2CppName: RGBMultiplied
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Color::*)(float)>(&Color::RGBMultiplied)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "RGBMultiplied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_red
-  // Il2CppName: get_red
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_red)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_red", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_green
-  // Il2CppName: get_green
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_green)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_green", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_blue
-  // Il2CppName: get_blue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_blue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_blue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_white
-  // Il2CppName: get_white
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_white)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_white", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_black
-  // Il2CppName: get_black
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_black)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_black", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_yellow
-  // Il2CppName: get_yellow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_yellow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_yellow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_cyan
-  // Il2CppName: get_cyan
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_cyan)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_cyan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_magenta
-  // Il2CppName: get_magenta
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_magenta)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_magenta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_gray
-  // Il2CppName: get_gray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_gray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_gray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_clear
-  // Il2CppName: get_clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_grayscale
-  // Il2CppName: get_grayscale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Color::*)()>(&Color::get_grayscale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_grayscale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_linear
-  // Il2CppName: get_linear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Color::*)()>(&Color::get_linear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_linear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::get_maxColorComponent
-  // Il2CppName: get_maxColorComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Color::*)()>(&Color::get_maxColorComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "get_maxColorComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::RGBToHSV
-  // Il2CppName: RGBToHSV
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color, float&, float&, float&)>(&Color::RGBToHSV)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "RGBToHSV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::RGBToHSVHelper
-  // Il2CppName: RGBToHSVHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float, float&, float&, float&)>(&Color::RGBToHSVHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "RGBToHSVHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::HSVToRGB
-  // Il2CppName: HSVToRGB
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float)>(&Color::HSVToRGB)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "HSVToRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::HSVToRGB
-  // Il2CppName: HSVToRGB
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float, bool)>(&Color::HSVToRGB)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "HSVToRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Color::*)()>(&Color::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Color::*)()>(&Color::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Color::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Color::*)(::Il2CppObject*)>(&Color::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator+
-  // Il2CppName: op_Addition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator+)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator-
-  // Il2CppName: op_Subtraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator-)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator*
-  // Il2CppName: op_Multiply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator*)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator*
-  // Il2CppName: op_Multiply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const float&)>(&Color::operator*)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator*
-  // Il2CppName: op_Multiply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const float&, const UnityEngine::Color&)>(&Color::operator*)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const float&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator/
-  // Il2CppName: op_Division
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const float&)>(&Color::operator/)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Division", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator ==
-  // Il2CppName: op_Equality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator ==)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Color::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Color), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");
+// Writing MetadataGetter for method: Color::Color
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Color::Color
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color::*)(float, float, float)>(&Color::Color<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Color::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Color::*)(::Il2CppString*)>(&Color::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Color::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Color::*)(UnityEngine::Color)>(&Color::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: Color::Lerp
+// Il2CppName: Lerp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&Color::Lerp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Color::LerpUnclamped
+// Il2CppName: LerpUnclamped
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&Color::LerpUnclamped)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "LerpUnclamped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Color::RGBMultiplied
+// Il2CppName: RGBMultiplied
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Color::*)(float)>(&Color::RGBMultiplied)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "RGBMultiplied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Color::get_red
+// Il2CppName: get_red
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_red)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_red", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_green
+// Il2CppName: get_green
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_green)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_green", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_blue
+// Il2CppName: get_blue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_blue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_blue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_white
+// Il2CppName: get_white
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_white)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_white", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_black
+// Il2CppName: get_black
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_black)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_black", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_yellow
+// Il2CppName: get_yellow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_yellow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_yellow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_cyan
+// Il2CppName: get_cyan
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_cyan)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_cyan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_magenta
+// Il2CppName: get_magenta
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_magenta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_magenta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_gray
+// Il2CppName: get_gray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_gray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_gray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_clear
+// Il2CppName: get_clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&Color::get_clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_grayscale
+// Il2CppName: get_grayscale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Color::*)()>(&Color::get_grayscale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_grayscale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_linear
+// Il2CppName: get_linear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Color::*)()>(&Color::get_linear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_linear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::get_maxColorComponent
+// Il2CppName: get_maxColorComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Color::*)()>(&Color::get_maxColorComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "get_maxColorComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::RGBToHSV
+// Il2CppName: RGBToHSV
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color, float&, float&, float&)>(&Color::RGBToHSV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "RGBToHSV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::RGBToHSVHelper
+// Il2CppName: RGBToHSVHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float, float&, float&, float&)>(&Color::RGBToHSVHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "RGBToHSVHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::HSVToRGB
+// Il2CppName: HSVToRGB
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float)>(&Color::HSVToRGB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "HSVToRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Color::HSVToRGB
+// Il2CppName: HSVToRGB
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float, bool)>(&Color::HSVToRGB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "HSVToRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Color::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Color::*)()>(&Color::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Color::*)()>(&Color::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Color::*)(::Il2CppObject*)>(&Color::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator+
+// Il2CppName: op_Addition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator+)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator-
+// Il2CppName: op_Subtraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator-)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator*
+// Il2CppName: op_Multiply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator*)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator*
+// Il2CppName: op_Multiply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const float&)>(&Color::operator*)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator*
+// Il2CppName: op_Multiply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const float&, const UnityEngine::Color&)>(&Color::operator*)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const float&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator/
+// Il2CppName: op_Division
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(const UnityEngine::Color&, const float&)>(&Color::operator/)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Division", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Color::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Color&, const UnityEngine::Color&)>(&Color::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Color&>()});
+  }
+};

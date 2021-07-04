@@ -66,51 +66,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LocalizationProvider), 24 + sizeof(Polyglot::Localization*)> __GlobalNamespace_LocalizationProviderSizeCheck;
   static_assert(sizeof(LocalizationProvider) == 0x20);
-  // Writing MetadataGetter for method: LocalizationProvider::get_localization
-  // Il2CppName: get_localization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Localization* (LocalizationProvider::*)()>(&LocalizationProvider::get_localization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "get_localization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizationProvider::get_Instance
-  // Il2CppName: get_Instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LocalizationProvider* (*)()>(&LocalizationProvider::get_Instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizationProvider::set_Instance
-  // Il2CppName: set_Instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::LocalizationProvider*)>(&LocalizationProvider::set_Instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "set_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalizationProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizationProvider::get_HasInstance
-  // Il2CppName: get_HasInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&LocalizationProvider::get_HasInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "get_HasInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizationProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationProvider::*)()>(&LocalizationProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationProvider::*)()>(&LocalizationProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizationProvider*, "", "LocalizationProvider");
+// Writing MetadataGetter for method: LocalizationProvider::get_localization
+// Il2CppName: get_localization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Localization* (LocalizationProvider::*)()>(&LocalizationProvider::get_localization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "get_localization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalizationProvider::get_Instance
+// Il2CppName: get_Instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LocalizationProvider* (*)()>(&LocalizationProvider::get_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalizationProvider::set_Instance
+// Il2CppName: set_Instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::LocalizationProvider*)>(&LocalizationProvider::set_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "set_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalizationProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: LocalizationProvider::get_HasInstance
+// Il2CppName: get_HasInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&LocalizationProvider::get_HasInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), "get_HasInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalizationProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationProvider::*)()>(&LocalizationProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationProvider::*)()>(&LocalizationProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizationProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

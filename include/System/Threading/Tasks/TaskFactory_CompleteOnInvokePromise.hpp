@@ -63,27 +63,27 @@ namespace System::Threading::Tasks {
     void Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.TaskFactory/CompleteOnInvokePromise
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: TaskFactory::CompleteOnInvokePromise::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskFactory::CompleteOnInvokePromise::*)(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*)>(&TaskFactory::CompleteOnInvokePromise::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TaskFactory::CompleteOnInvokePromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskFactory::CompleteOnInvokePromise::*)(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*)>(&TaskFactory::CompleteOnInvokePromise::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TaskFactory::CompleteOnInvokePromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TaskFactory::CompleteOnInvokePromise::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskFactory::CompleteOnInvokePromise::*)(System::Threading::Tasks::Task*)>(&TaskFactory::CompleteOnInvokePromise::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TaskFactory::CompleteOnInvokePromise*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise*, "System.Threading.Tasks", "TaskFactory/CompleteOnInvokePromise");
+// Writing MetadataGetter for method: TaskFactory::CompleteOnInvokePromise::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskFactory::CompleteOnInvokePromise::*)(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*)>(&TaskFactory::CompleteOnInvokePromise::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TaskFactory::CompleteOnInvokePromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskFactory::CompleteOnInvokePromise::*)(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*)>(&TaskFactory::CompleteOnInvokePromise::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TaskFactory::CompleteOnInvokePromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TaskFactory::CompleteOnInvokePromise::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskFactory::CompleteOnInvokePromise::*)(System::Threading::Tasks::Task*)>(&TaskFactory::CompleteOnInvokePromise::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TaskFactory::CompleteOnInvokePromise*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+  }
+};

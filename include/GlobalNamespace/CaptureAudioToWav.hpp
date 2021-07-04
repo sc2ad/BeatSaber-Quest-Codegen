@@ -96,67 +96,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CaptureAudioToWav), 48 + sizeof(System::IO::FileStream*)> __GlobalNamespace_CaptureAudioToWavSizeCheck;
   static_assert(sizeof(CaptureAudioToWav) == 0x38);
-  // Writing MetadataGetter for method: CaptureAudioToWav::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CaptureAudioToWav::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CaptureAudioToWav::StartWriting
-  // Il2CppName: StartWriting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Il2CppString*)>(&CaptureAudioToWav::StartWriting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "StartWriting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CaptureAudioToWav::OnAudioFilterRead
-  // Il2CppName: OnAudioFilterRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Array<float>*, int)>(&CaptureAudioToWav::OnAudioFilterRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CaptureAudioToWav::ConvertAndWrite
-  // Il2CppName: ConvertAndWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Array<float>*)>(&CaptureAudioToWav::ConvertAndWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "ConvertAndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CaptureAudioToWav::WriteHeader
-  // Il2CppName: WriteHeader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::WriteHeader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "WriteHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CaptureAudioToWav::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CaptureAudioToWav*, "", "CaptureAudioToWav");
+// Writing MetadataGetter for method: CaptureAudioToWav::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::StartWriting
+// Il2CppName: StartWriting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Il2CppString*)>(&CaptureAudioToWav::StartWriting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "StartWriting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::OnAudioFilterRead
+// Il2CppName: OnAudioFilterRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Array<float>*, int)>(&CaptureAudioToWav::OnAudioFilterRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::ConvertAndWrite
+// Il2CppName: ConvertAndWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Array<float>*)>(&CaptureAudioToWav::ConvertAndWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "ConvertAndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::WriteHeader
+// Il2CppName: WriteHeader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::WriteHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "WriteHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

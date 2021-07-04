@@ -173,235 +173,235 @@ namespace Org::BouncyCastle::Math::EC {
   #pragma pack(pop)
   static check_size<sizeof(FpFieldElement), 32 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Math_EC_FpFieldElementSizeCheck;
   static_assert(sizeof(FpFieldElement) == 0x28);
-  // Writing MetadataGetter for method: FpFieldElement::CalculateResidue
-  // Il2CppName: CalculateResidue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::CalculateResidue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "CalculateResidue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::CheckSqrt
-  // Il2CppName: CheckSqrt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::CheckSqrt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "CheckSqrt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::LucasSequence
-  // Il2CppName: LucasSequence
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::LucasSequence)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "LucasSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ModAdd
-  // Il2CppName: ModAdd
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModAdd)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ModDouble
-  // Il2CppName: ModDouble
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModDouble)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ModHalfAbs
-  // Il2CppName: ModHalfAbs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModHalfAbs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModHalfAbs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ModInverse
-  // Il2CppName: ModInverse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModInverse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ModMult
-  // Il2CppName: ModMult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModMult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ModReduce
-  // Il2CppName: ModReduce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModReduce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModReduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ModSubtract
-  // Il2CppName: ModSubtract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModSubtract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModSubtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FpFieldElement::*)(Org::BouncyCastle::Math::EC::FpFieldElement*)>(&FpFieldElement::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::FpFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::ToBigInteger
-  // Il2CppName: ToBigInteger
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)()>(&FpFieldElement::ToBigInteger)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ToBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::get_FieldSize
-  // Il2CppName: get_FieldSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FpFieldElement::*)()>(&FpFieldElement::get_FieldSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "get_FieldSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::AddOne
-  // Il2CppName: AddOne
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::AddOne)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "AddOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Subtract
-  // Il2CppName: Subtract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Subtract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Multiply
-  // Il2CppName: Multiply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Multiply)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::MultiplyMinusProduct
-  // Il2CppName: MultiplyMinusProduct
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::MultiplyMinusProduct)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "MultiplyMinusProduct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::MultiplyPlusProduct
-  // Il2CppName: MultiplyPlusProduct
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::MultiplyPlusProduct)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "MultiplyPlusProduct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Divide
-  // Il2CppName: Divide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Divide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Divide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Negate
-  // Il2CppName: Negate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Negate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Negate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Square
-  // Il2CppName: Square
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Square)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Square", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::SquarePlusProduct
-  // Il2CppName: SquarePlusProduct
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::SquarePlusProduct)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "SquarePlusProduct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Invert
-  // Il2CppName: Invert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Invert)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Invert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Sqrt
-  // Il2CppName: Sqrt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Sqrt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Sqrt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FpFieldElement::*)(::Il2CppObject*)>(&FpFieldElement::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FpFieldElement::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FpFieldElement::*)()>(&FpFieldElement::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::FpFieldElement*, "Org.BouncyCastle.Math.EC", "FpFieldElement");
+// Writing MetadataGetter for method: FpFieldElement::CalculateResidue
+// Il2CppName: CalculateResidue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::CalculateResidue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "CalculateResidue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::CheckSqrt
+// Il2CppName: CheckSqrt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::CheckSqrt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "CheckSqrt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::LucasSequence
+// Il2CppName: LucasSequence
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::LucasSequence)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "LucasSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ModAdd
+// Il2CppName: ModAdd
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModAdd)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ModDouble
+// Il2CppName: ModDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ModHalfAbs
+// Il2CppName: ModHalfAbs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModHalfAbs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModHalfAbs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ModInverse
+// Il2CppName: ModInverse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModInverse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ModMult
+// Il2CppName: ModMult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModMult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ModReduce
+// Il2CppName: ModReduce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModReduce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModReduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ModSubtract
+// Il2CppName: ModSubtract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&FpFieldElement::ModSubtract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ModSubtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FpFieldElement::*)(Org::BouncyCastle::Math::EC::FpFieldElement*)>(&FpFieldElement::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::FpFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::ToBigInteger
+// Il2CppName: ToBigInteger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (FpFieldElement::*)()>(&FpFieldElement::ToBigInteger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "ToBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::get_FieldSize
+// Il2CppName: get_FieldSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FpFieldElement::*)()>(&FpFieldElement::get_FieldSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "get_FieldSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::AddOne
+// Il2CppName: AddOne
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::AddOne)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "AddOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Subtract
+// Il2CppName: Subtract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Subtract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Multiply
+// Il2CppName: Multiply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Multiply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::MultiplyMinusProduct
+// Il2CppName: MultiplyMinusProduct
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::MultiplyMinusProduct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "MultiplyMinusProduct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::MultiplyPlusProduct
+// Il2CppName: MultiplyPlusProduct
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::MultiplyPlusProduct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "MultiplyPlusProduct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Divide
+// Il2CppName: Divide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::Divide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Divide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Negate
+// Il2CppName: Negate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Negate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Negate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Square
+// Il2CppName: Square
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Square)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Square", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::SquarePlusProduct
+// Il2CppName: SquarePlusProduct
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&FpFieldElement::SquarePlusProduct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "SquarePlusProduct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Invert
+// Il2CppName: Invert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Invert)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Invert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Sqrt
+// Il2CppName: Sqrt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (FpFieldElement::*)()>(&FpFieldElement::Sqrt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Sqrt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FpFieldElement::*)(::Il2CppObject*)>(&FpFieldElement::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: FpFieldElement::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FpFieldElement::*)()>(&FpFieldElement::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FpFieldElement*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

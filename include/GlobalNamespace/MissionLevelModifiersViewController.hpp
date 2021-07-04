@@ -103,43 +103,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionLevelModifiersViewController), 144 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_MissionLevelModifiersViewControllerSizeCheck;
   static_assert(sizeof(MissionLevelModifiersViewController) == 0x98);
-  // Writing MetadataGetter for method: MissionLevelModifiersViewController::Setup
-  // Il2CppName: Setup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)(GlobalNamespace::GameplayModifiers*)>(&MissionLevelModifiersViewController::Setup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionLevelModifiersViewController::RefreshContent
-  // Il2CppName: RefreshContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)()>(&MissionLevelModifiersViewController::RefreshContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionLevelModifiersViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)(bool, bool, bool)>(&MissionLevelModifiersViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionLevelModifiersViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)()>(&MissionLevelModifiersViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)()>(&MissionLevelModifiersViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");
+// Writing MetadataGetter for method: MissionLevelModifiersViewController::Setup
+// Il2CppName: Setup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)(GlobalNamespace::GameplayModifiers*)>(&MissionLevelModifiersViewController::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionLevelModifiersViewController::RefreshContent
+// Il2CppName: RefreshContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)()>(&MissionLevelModifiersViewController::RefreshContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionLevelModifiersViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)(bool, bool, bool)>(&MissionLevelModifiersViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MissionLevelModifiersViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)()>(&MissionLevelModifiersViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::*)()>(&MissionLevelModifiersViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

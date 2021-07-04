@@ -66,43 +66,43 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ScriptableObjectInstallerBase), 24 + sizeof(Zenject::DiContainer*)> __Zenject_ScriptableObjectInstallerBaseSizeCheck;
   static_assert(sizeof(ScriptableObjectInstallerBase) == 0x20);
-  // Writing MetadataGetter for method: ScriptableObjectInstallerBase::get_Container
-  // Il2CppName: get_Container
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::get_Container)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstallerBase::Zenject_IInstaller_get_IsEnabled
-  // Il2CppName: Zenject.IInstaller.get_IsEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::Zenject_IInstaller_get_IsEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), "Zenject.IInstaller.get_IsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstallerBase::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstallerBase::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstallerBase*, "Zenject", "ScriptableObjectInstallerBase");
+// Writing MetadataGetter for method: ScriptableObjectInstallerBase::get_Container
+// Il2CppName: get_Container
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstallerBase::Zenject_IInstaller_get_IsEnabled
+// Il2CppName: Zenject.IInstaller.get_IsEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::Zenject_IInstaller_get_IsEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), "Zenject.IInstaller.get_IsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstallerBase::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstallerBase::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstallerBase::*)()>(&ScriptableObjectInstallerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

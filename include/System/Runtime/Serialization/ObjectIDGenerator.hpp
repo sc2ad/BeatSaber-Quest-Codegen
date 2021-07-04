@@ -75,59 +75,59 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
   static check_size<sizeof(ObjectIDGenerator), 32 + sizeof(::Array<::Il2CppObject*>*)> __System_Runtime_Serialization_ObjectIDGeneratorSizeCheck;
   static_assert(sizeof(ObjectIDGenerator) == 0x28);
-  // Writing MetadataGetter for method: ObjectIDGenerator::FindElement
-  // Il2CppName: FindElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&ObjectIDGenerator::FindElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "FindElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectIDGenerator::GetId
-  // Il2CppName: GetId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&ObjectIDGenerator::GetId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectIDGenerator::HasId
-  // Il2CppName: HasId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&ObjectIDGenerator::HasId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "HasId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectIDGenerator::Rehash
-  // Il2CppName: Rehash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectIDGenerator::*)()>(&ObjectIDGenerator::Rehash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "Rehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectIDGenerator::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ObjectIDGenerator::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ObjectIDGenerator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectIDGenerator::*)()>(&ObjectIDGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectIDGenerator::*)()>(&ObjectIDGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
+// Writing MetadataGetter for method: ObjectIDGenerator::FindElement
+// Il2CppName: FindElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&ObjectIDGenerator::FindElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "FindElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: ObjectIDGenerator::GetId
+// Il2CppName: GetId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&ObjectIDGenerator::GetId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: ObjectIDGenerator::HasId
+// Il2CppName: HasId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&ObjectIDGenerator::HasId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "HasId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: ObjectIDGenerator::Rehash
+// Il2CppName: Rehash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectIDGenerator::*)()>(&ObjectIDGenerator::Rehash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), "Rehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ObjectIDGenerator::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ObjectIDGenerator::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ObjectIDGenerator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectIDGenerator::*)()>(&ObjectIDGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectIDGenerator::*)()>(&ObjectIDGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObjectIDGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -79,41 +79,41 @@ namespace UnityEngine {
     static System::Array* ExtractArrayFromList(::Il2CppObject* list);
   }; // UnityEngine.NoAllocHelpers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: NoAllocHelpers::ResizeList
-  // Il2CppName: ResizeList
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: NoAllocHelpers::EnsureListElemCount
-  // Il2CppName: EnsureListElemCount
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: NoAllocHelpers::SafeLength
-  // Il2CppName: SafeLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Array*)>(&NoAllocHelpers::SafeLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "SafeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoAllocHelpers::SafeLength
-  // Il2CppName: SafeLength
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: NoAllocHelpers::ExtractArrayFromListT
-  // Il2CppName: ExtractArrayFromListT
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: NoAllocHelpers::Internal_ResizeList
-  // Il2CppName: Internal_ResizeList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int)>(&NoAllocHelpers::Internal_ResizeList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "Internal_ResizeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoAllocHelpers::ExtractArrayFromList
-  // Il2CppName: ExtractArrayFromList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(::Il2CppObject*)>(&NoAllocHelpers::ExtractArrayFromList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "ExtractArrayFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NoAllocHelpers*, "UnityEngine", "NoAllocHelpers");
+// Writing MetadataGetter for method: NoAllocHelpers::ResizeList
+// Il2CppName: ResizeList
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: NoAllocHelpers::EnsureListElemCount
+// Il2CppName: EnsureListElemCount
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: NoAllocHelpers::SafeLength
+// Il2CppName: SafeLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Array*)>(&NoAllocHelpers::SafeLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "SafeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+  }
+};
+// Writing MetadataGetter for method: NoAllocHelpers::SafeLength
+// Il2CppName: SafeLength
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: NoAllocHelpers::ExtractArrayFromListT
+// Il2CppName: ExtractArrayFromListT
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: NoAllocHelpers::Internal_ResizeList
+// Il2CppName: Internal_ResizeList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int)>(&NoAllocHelpers::Internal_ResizeList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "Internal_ResizeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NoAllocHelpers::ExtractArrayFromList
+// Il2CppName: ExtractArrayFromList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(::Il2CppObject*)>(&NoAllocHelpers::ExtractArrayFromList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "ExtractArrayFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

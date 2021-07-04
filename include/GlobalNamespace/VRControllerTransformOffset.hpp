@@ -47,35 +47,35 @@ namespace GlobalNamespace {
     }
   }; // VRControllerTransformOffset
   #pragma pack(pop)
-  // Writing MetadataGetter for method: VRControllerTransformOffset::get_positionOffset
-  // Il2CppName: get_positionOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::get_positionOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), "get_positionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRControllerTransformOffset::get_rotationOffset
-  // Il2CppName: get_rotationOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::get_rotationOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), "get_rotationOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRControllerTransformOffset::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllerTransformOffset*, "", "VRControllerTransformOffset");
+// Writing MetadataGetter for method: VRControllerTransformOffset::get_positionOffset
+// Il2CppName: get_positionOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::get_positionOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), "get_positionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRControllerTransformOffset::get_rotationOffset
+// Il2CppName: get_rotationOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::get_rotationOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), "get_rotationOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRControllerTransformOffset::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

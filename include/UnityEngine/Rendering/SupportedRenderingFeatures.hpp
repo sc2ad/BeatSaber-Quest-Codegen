@@ -339,149 +339,149 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
   static check_size<sizeof(SupportedRenderingFeatures), 48 + sizeof(bool)> __UnityEngine_Rendering_SupportedRenderingFeaturesSizeCheck;
   static_assert(sizeof(SupportedRenderingFeatures) == 0x31);
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_active
-  // Il2CppName: get_active
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures* (*)()>(&SupportedRenderingFeatures::get_active)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::set_active
-  // Il2CppName: set_active
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::SupportedRenderingFeatures*)>(&SupportedRenderingFeatures::set_active)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::SupportedRenderingFeatures*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_defaultMixedLightingModes
-  // Il2CppName: get_defaultMixedLightingModes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_defaultMixedLightingModes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_defaultMixedLightingModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_mixedLightingModes
-  // Il2CppName: get_mixedLightingModes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_mixedLightingModes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_mixedLightingModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_lightmapBakeTypes
-  // Il2CppName: get_lightmapBakeTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightmapBakeType (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_lightmapBakeTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_lightmapBakeTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_lightmapsModes
-  // Il2CppName: get_lightmapsModes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightmapsMode (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_lightmapsModes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_lightmapsModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_enlighten
-  // Il2CppName: get_enlighten
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_enlighten)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_enlighten", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::FallbackMixedLightingModeByRef
-  // Il2CppName: FallbackMixedLightingModeByRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&SupportedRenderingFeatures::FallbackMixedLightingModeByRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "FallbackMixedLightingModeByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsMixedLightingModeSupported
-  // Il2CppName: IsMixedLightingModeSupported
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MixedLightingMode)>(&SupportedRenderingFeatures::IsMixedLightingModeSupported)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsMixedLightingModeSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MixedLightingMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef
-  // Il2CppName: IsMixedLightingModeSupportedByRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MixedLightingMode, System::IntPtr)>(&SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsMixedLightingModeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MixedLightingMode>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapBakeTypeSupported
-  // Il2CppName: IsLightmapBakeTypeSupported
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LightmapBakeType)>(&SupportedRenderingFeatures::IsLightmapBakeTypeSupported)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapBakeTypeSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapBakeType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef
-  // Il2CppName: IsLightmapBakeTypeSupportedByRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::LightmapBakeType, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapBakeTypeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapBakeType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapsModeSupportedByRef
-  // Il2CppName: IsLightmapsModeSupportedByRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::LightmapsMode, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapsModeSupportedByRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapsModeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapsMode>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapperSupportedByRef
-  // Il2CppName: IsLightmapperSupportedByRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapperSupportedByRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapperSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::FallbackLightmapperByRef
-  // Il2CppName: FallbackLightmapperByRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&SupportedRenderingFeatures::FallbackLightmapperByRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "FallbackLightmapperByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SupportedRenderingFeatures::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SupportedRenderingFeatures::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures*, "UnityEngine.Rendering", "SupportedRenderingFeatures");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/ReflectionProbeModes");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");
+// Writing MetadataGetter for method: SupportedRenderingFeatures::get_active
+// Il2CppName: get_active
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures* (*)()>(&SupportedRenderingFeatures::get_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::set_active
+// Il2CppName: set_active
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::SupportedRenderingFeatures*)>(&SupportedRenderingFeatures::set_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::SupportedRenderingFeatures*>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::get_defaultMixedLightingModes
+// Il2CppName: get_defaultMixedLightingModes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_defaultMixedLightingModes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_defaultMixedLightingModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::get_mixedLightingModes
+// Il2CppName: get_mixedLightingModes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_mixedLightingModes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_mixedLightingModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::get_lightmapBakeTypes
+// Il2CppName: get_lightmapBakeTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightmapBakeType (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_lightmapBakeTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_lightmapBakeTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::get_lightmapsModes
+// Il2CppName: get_lightmapsModes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightmapsMode (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_lightmapsModes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_lightmapsModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::get_enlighten
+// Il2CppName: get_enlighten
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_enlighten)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_enlighten", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::FallbackMixedLightingModeByRef
+// Il2CppName: FallbackMixedLightingModeByRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&SupportedRenderingFeatures::FallbackMixedLightingModeByRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "FallbackMixedLightingModeByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::IsMixedLightingModeSupported
+// Il2CppName: IsMixedLightingModeSupported
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MixedLightingMode)>(&SupportedRenderingFeatures::IsMixedLightingModeSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsMixedLightingModeSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MixedLightingMode>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef
+// Il2CppName: IsMixedLightingModeSupportedByRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MixedLightingMode, System::IntPtr)>(&SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsMixedLightingModeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MixedLightingMode>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapBakeTypeSupported
+// Il2CppName: IsLightmapBakeTypeSupported
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LightmapBakeType)>(&SupportedRenderingFeatures::IsLightmapBakeTypeSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapBakeTypeSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapBakeType>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef
+// Il2CppName: IsLightmapBakeTypeSupportedByRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::LightmapBakeType, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapBakeTypeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapBakeType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapsModeSupportedByRef
+// Il2CppName: IsLightmapsModeSupportedByRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::LightmapsMode, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapsModeSupportedByRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapsModeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapsMode>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapperSupportedByRef
+// Il2CppName: IsLightmapperSupportedByRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapperSupportedByRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapperSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::FallbackLightmapperByRef
+// Il2CppName: FallbackLightmapperByRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&SupportedRenderingFeatures::FallbackLightmapperByRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "FallbackLightmapperByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SupportedRenderingFeatures::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SupportedRenderingFeatures::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

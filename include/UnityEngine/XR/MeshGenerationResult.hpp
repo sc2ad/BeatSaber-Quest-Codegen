@@ -116,70 +116,70 @@ namespace UnityEngine::XR {
   #pragma pack(pop)
   static check_size<sizeof(MeshGenerationResult), 36 + sizeof(UnityEngine::XR::MeshVertexAttributes)> __UnityEngine_XR_MeshGenerationResultSizeCheck;
   static_assert(sizeof(MeshGenerationResult) == 0x28);
-  // Writing MetadataGetter for method: MeshGenerationResult::get_MeshId
-  // Il2CppName: get_MeshId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshId (MeshGenerationResult::*)()>(&MeshGenerationResult::get_MeshId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_MeshId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshGenerationResult::get_Mesh
-  // Il2CppName: get_Mesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Mesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshGenerationResult::get_MeshCollider
-  // Il2CppName: get_MeshCollider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshCollider* (MeshGenerationResult::*)()>(&MeshGenerationResult::get_MeshCollider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_MeshCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshGenerationResult::get_Status
-  // Il2CppName: get_Status
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshGenerationStatus (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Status)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshGenerationResult::get_Attributes
-  // Il2CppName: get_Attributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshVertexAttributes (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Attributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshGenerationResult::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshGenerationResult::*)(UnityEngine::XR::MeshGenerationResult)>(&MeshGenerationResult::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshGenerationResult::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshGenerationResult::*)(::Il2CppObject*)>(&MeshGenerationResult::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshGenerationResult::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MeshGenerationResult::*)()>(&MeshGenerationResult::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
+// Writing MetadataGetter for method: MeshGenerationResult::get_MeshId
+// Il2CppName: get_MeshId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshId (MeshGenerationResult::*)()>(&MeshGenerationResult::get_MeshId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_MeshId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshGenerationResult::get_Mesh
+// Il2CppName: get_Mesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshGenerationResult::get_MeshCollider
+// Il2CppName: get_MeshCollider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshCollider* (MeshGenerationResult::*)()>(&MeshGenerationResult::get_MeshCollider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_MeshCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshGenerationResult::get_Status
+// Il2CppName: get_Status
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshGenerationStatus (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshGenerationResult::get_Attributes
+// Il2CppName: get_Attributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshVertexAttributes (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Attributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshGenerationResult::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshGenerationResult::*)(UnityEngine::XR::MeshGenerationResult)>(&MeshGenerationResult::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>()});
+  }
+};
+// Writing MetadataGetter for method: MeshGenerationResult::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshGenerationResult::*)(::Il2CppObject*)>(&MeshGenerationResult::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshGenerationResult::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MeshGenerationResult::*)()>(&MeshGenerationResult::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

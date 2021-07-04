@@ -107,83 +107,83 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     }
   }; // UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InternalMeshUtility::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0
-  // Il2CppName: <CreateMeshWithTransform>b__1_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1
-  // Il2CppName: <CreateMeshWithTransform>b__1_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2
-  // Il2CppName: <CreateMeshWithTransform>b__1_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0
-  // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1
-  // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2
-  // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::$FilterUnusedSubmeshIndexes$b__3_0
-  // Il2CppName: <FilterUnusedSubmeshIndexes>b__3_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalMeshUtility::$$c::*)(bool)>(&InternalMeshUtility::$$c::$FilterUnusedSubmeshIndexes$b__3_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<FilterUnusedSubmeshIndexes>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalMeshUtility::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalMeshUtility::$$c::*)()>(&InternalMeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalMeshUtility::$$c::*)()>(&InternalMeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility/<>c");
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InternalMeshUtility::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0
+// Il2CppName: <CreateMeshWithTransform>b__1_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1
+// Il2CppName: <CreateMeshWithTransform>b__1_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2
+// Il2CppName: <CreateMeshWithTransform>b__1_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0
+// Il2CppName: <ResetPbObjectWithMeshFilter>b__2_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1
+// Il2CppName: <ResetPbObjectWithMeshFilter>b__2_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2
+// Il2CppName: <ResetPbObjectWithMeshFilter>b__2_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::$FilterUnusedSubmeshIndexes$b__3_0
+// Il2CppName: <FilterUnusedSubmeshIndexes>b__3_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalMeshUtility::$$c::*)(bool)>(&InternalMeshUtility::$$c::$FilterUnusedSubmeshIndexes$b__3_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), "<FilterUnusedSubmeshIndexes>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InternalMeshUtility::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalMeshUtility::$$c::*)()>(&InternalMeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalMeshUtility::$$c::*)()>(&InternalMeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -92,43 +92,43 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ScreenModeController), 48 + sizeof(UnityEngine::Transform*)> __HMUI_ScreenModeControllerSizeCheck;
   static_assert(sizeof(ScreenModeController) == 0x38);
-  // Writing MetadataGetter for method: ScreenModeController::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScreenModeController::SetMode
-  // Il2CppName: SetMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)(HMUI::ScreenModeData*)>(&ScreenModeController::SetMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ScreenModeData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScreenModeController::SetDefaultMode
-  // Il2CppName: SetDefaultMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::SetDefaultMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "SetDefaultMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScreenModeController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeController*, "HMUI", "ScreenModeController");
+// Writing MetadataGetter for method: ScreenModeController::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenModeController::SetMode
+// Il2CppName: SetMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)(HMUI::ScreenModeData*)>(&ScreenModeController::SetMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ScreenModeData*>()});
+  }
+};
+// Writing MetadataGetter for method: ScreenModeController::SetDefaultMode
+// Il2CppName: SetDefaultMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::SetDefaultMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "SetDefaultMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenModeController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

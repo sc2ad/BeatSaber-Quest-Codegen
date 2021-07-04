@@ -128,83 +128,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FriendsViewController), 176 + sizeof(bool)> __GlobalNamespace_FriendsViewControllerSizeCheck;
   static_assert(sizeof(FriendsViewController) == 0xB1);
-  // Writing MetadataGetter for method: FriendsViewController::HandleOpenPartyToggleChanged
-  // Il2CppName: HandleOpenPartyToggleChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool)>(&FriendsViewController::HandleOpenPartyToggleChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "HandleOpenPartyToggleChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::RefreshParty
-  // Il2CppName: RefreshParty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool)>(&FriendsViewController::RefreshParty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "RefreshParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::get_myPartyTitle
-  // Il2CppName: get_myPartyTitle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FriendsViewController::*)()>(&FriendsViewController::get_myPartyTitle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "get_myPartyTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::get_otherPlayersTitle
-  // Il2CppName: get_otherPlayersTitle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FriendsViewController::*)()>(&FriendsViewController::get_otherPlayersTitle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "get_otherPlayersTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::get_networkPlayerModel
-  // Il2CppName: get_networkPlayerModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPlayerModel* (FriendsViewController::*)()>(&FriendsViewController::get_networkPlayerModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "get_networkPlayerModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::NetworkPlayersViewControllerDidActivate
-  // Il2CppName: NetworkPlayersViewControllerDidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool, bool)>(&FriendsViewController::NetworkPlayersViewControllerDidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "NetworkPlayersViewControllerDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool, bool)>(&FriendsViewController::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)()>(&FriendsViewController::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FriendsViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)()>(&FriendsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)()>(&FriendsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FriendsViewController*, "", "FriendsViewController");
+// Writing MetadataGetter for method: FriendsViewController::HandleOpenPartyToggleChanged
+// Il2CppName: HandleOpenPartyToggleChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool)>(&FriendsViewController::HandleOpenPartyToggleChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "HandleOpenPartyToggleChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::RefreshParty
+// Il2CppName: RefreshParty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool)>(&FriendsViewController::RefreshParty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "RefreshParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::get_myPartyTitle
+// Il2CppName: get_myPartyTitle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FriendsViewController::*)()>(&FriendsViewController::get_myPartyTitle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "get_myPartyTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::get_otherPlayersTitle
+// Il2CppName: get_otherPlayersTitle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FriendsViewController::*)()>(&FriendsViewController::get_otherPlayersTitle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "get_otherPlayersTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::get_networkPlayerModel
+// Il2CppName: get_networkPlayerModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPlayerModel* (FriendsViewController::*)()>(&FriendsViewController::get_networkPlayerModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "get_networkPlayerModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::NetworkPlayersViewControllerDidActivate
+// Il2CppName: NetworkPlayersViewControllerDidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool, bool)>(&FriendsViewController::NetworkPlayersViewControllerDidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "NetworkPlayersViewControllerDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)(bool, bool)>(&FriendsViewController::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)()>(&FriendsViewController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FriendsViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)()>(&FriendsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FriendsViewController::*)()>(&FriendsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FriendsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

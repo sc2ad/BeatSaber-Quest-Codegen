@@ -159,113 +159,113 @@ namespace Zenject {
     static void _cctor();
   }; // Zenject.TypeAnalyzer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TypeAnalyzer::get_ReflectionBakingCoverageMode
-  // Il2CppName: get_ReflectionBakingCoverageMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ReflectionBakingCoverageModes (*)()>(&TypeAnalyzer::get_ReflectionBakingCoverageMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "get_ReflectionBakingCoverageMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::set_ReflectionBakingCoverageMode
-  // Il2CppName: set_ReflectionBakingCoverageMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::ReflectionBakingCoverageModes)>(&TypeAnalyzer::set_ReflectionBakingCoverageMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "set_ReflectionBakingCoverageMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ReflectionBakingCoverageModes>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::ShouldAllowDuringValidation
-  // Il2CppName: ShouldAllowDuringValidation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TypeAnalyzer::ShouldAllowDuringValidation
-  // Il2CppName: ShouldAllowDuringValidation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::ShouldAllowDuringValidation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "ShouldAllowDuringValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::ShouldAllowDuringValidationInternal
-  // Il2CppName: ShouldAllowDuringValidationInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::ShouldAllowDuringValidationInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "ShouldAllowDuringValidationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::HasInfo
-  // Il2CppName: HasInfo
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TypeAnalyzer::HasInfo
-  // Il2CppName: HasInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::HasInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "HasInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::GetInfo
-  // Il2CppName: GetInfo
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TypeAnalyzer::GetInfo
-  // Il2CppName: GetInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::GetInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "GetInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::TryGetInfo
-  // Il2CppName: TryGetInfo
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TypeAnalyzer::TryGetInfo
-  // Il2CppName: TryGetInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::TryGetInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "TryGetInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::GetInfoInternal
-  // Il2CppName: GetInfoInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::GetInfoInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "GetInfoInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::ShouldSkipTypeAnalysis
-  // Il2CppName: ShouldSkipTypeAnalysis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::ShouldSkipTypeAnalysis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "ShouldSkipTypeAnalysis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::IsStaticType
-  // Il2CppName: IsStaticType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::IsStaticType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "IsStaticType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::CreateTypeInfoFromReflection
-  // Il2CppName: CreateTypeInfoFromReflection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::CreateTypeInfoFromReflection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "CreateTypeInfoFromReflection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeAnalyzer::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TypeAnalyzer::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer*, "Zenject", "TypeAnalyzer");
+// Writing MetadataGetter for method: TypeAnalyzer::get_ReflectionBakingCoverageMode
+// Il2CppName: get_ReflectionBakingCoverageMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ReflectionBakingCoverageModes (*)()>(&TypeAnalyzer::get_ReflectionBakingCoverageMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "get_ReflectionBakingCoverageMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::set_ReflectionBakingCoverageMode
+// Il2CppName: set_ReflectionBakingCoverageMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::ReflectionBakingCoverageModes)>(&TypeAnalyzer::set_ReflectionBakingCoverageMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "set_ReflectionBakingCoverageMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ReflectionBakingCoverageModes>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::ShouldAllowDuringValidation
+// Il2CppName: ShouldAllowDuringValidation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TypeAnalyzer::ShouldAllowDuringValidation
+// Il2CppName: ShouldAllowDuringValidation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::ShouldAllowDuringValidation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "ShouldAllowDuringValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::ShouldAllowDuringValidationInternal
+// Il2CppName: ShouldAllowDuringValidationInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::ShouldAllowDuringValidationInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "ShouldAllowDuringValidationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::HasInfo
+// Il2CppName: HasInfo
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TypeAnalyzer::HasInfo
+// Il2CppName: HasInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::HasInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "HasInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::GetInfo
+// Il2CppName: GetInfo
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TypeAnalyzer::GetInfo
+// Il2CppName: GetInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::GetInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "GetInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::TryGetInfo
+// Il2CppName: TryGetInfo
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TypeAnalyzer::TryGetInfo
+// Il2CppName: TryGetInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::TryGetInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "TryGetInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::GetInfoInternal
+// Il2CppName: GetInfoInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::GetInfoInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "GetInfoInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::ShouldSkipTypeAnalysis
+// Il2CppName: ShouldSkipTypeAnalysis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::ShouldSkipTypeAnalysis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "ShouldSkipTypeAnalysis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::IsStaticType
+// Il2CppName: IsStaticType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeAnalyzer::IsStaticType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "IsStaticType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::CreateTypeInfoFromReflection
+// Il2CppName: CreateTypeInfoFromReflection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)(System::Type*)>(&TypeAnalyzer::CreateTypeInfoFromReflection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), "CreateTypeInfoFromReflection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeAnalyzer::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TypeAnalyzer::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeAnalyzer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -130,67 +130,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AvatarPropertyBlockColorSetter), 112 + sizeof(bool)> __GlobalNamespace_AvatarPropertyBlockColorSetterSizeCheck;
   static_assert(sizeof(AvatarPropertyBlockColorSetter) == 0x71);
-  // Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::SetColor
-  // Il2CppName: SetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)(UnityEngine::Color)>(&AvatarPropertyBlockColorSetter::SetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::SetColors
-  // Il2CppName: SetColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)(UnityEngine::Color, UnityEngine::Color)>(&AvatarPropertyBlockColorSetter::SetColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::SetHighlight
-  // Il2CppName: SetHighlight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)(bool, int)>(&AvatarPropertyBlockColorSetter::SetHighlight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "SetHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::UpdateRenderer
-  // Il2CppName: UpdateRenderer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::UpdateRenderer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "UpdateRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPropertyBlockColorSetter*, "", "AvatarPropertyBlockColorSetter");
+// Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::SetColor
+// Il2CppName: SetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)(UnityEngine::Color)>(&AvatarPropertyBlockColorSetter::SetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::SetColors
+// Il2CppName: SetColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)(UnityEngine::Color, UnityEngine::Color)>(&AvatarPropertyBlockColorSetter::SetColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::SetHighlight
+// Il2CppName: SetHighlight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)(bool, int)>(&AvatarPropertyBlockColorSetter::SetHighlight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "SetHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::UpdateRenderer
+// Il2CppName: UpdateRenderer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::UpdateRenderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), "UpdateRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AvatarPropertyBlockColorSetter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPropertyBlockColorSetter::*)()>(&AvatarPropertyBlockColorSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AvatarPropertyBlockColorSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

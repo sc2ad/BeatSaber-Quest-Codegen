@@ -61,27 +61,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(RandomAnimatorStartTime), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_RandomAnimatorStartTimeSizeCheck;
   static_assert(sizeof(RandomAnimatorStartTime) == 0x28);
-  // Writing MetadataGetter for method: RandomAnimatorStartTime::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RandomAnimatorStartTime::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomAnimatorStartTime*, "", "RandomAnimatorStartTime");
+// Writing MetadataGetter for method: RandomAnimatorStartTime::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomAnimatorStartTime::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

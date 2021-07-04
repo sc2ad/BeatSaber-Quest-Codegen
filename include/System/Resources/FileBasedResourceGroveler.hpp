@@ -47,19 +47,19 @@ namespace System::Resources {
   #pragma pack(pop)
   static check_size<sizeof(FileBasedResourceGroveler), 16 + sizeof(System::Resources::ResourceManager::ResourceManagerMediator*)> __System_Resources_FileBasedResourceGrovelerSizeCheck;
   static_assert(sizeof(FileBasedResourceGroveler) == 0x18);
-  // Writing MetadataGetter for method: FileBasedResourceGroveler::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&FileBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&FileBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::FileBasedResourceGroveler*, "System.Resources", "FileBasedResourceGroveler");
+// Writing MetadataGetter for method: FileBasedResourceGroveler::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&FileBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&FileBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
+  }
+};

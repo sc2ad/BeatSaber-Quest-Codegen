@@ -152,99 +152,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AutoSetupController), 88 + sizeof(GlobalNamespace::AutoSetupData*)> __GlobalNamespace_AutoSetupControllerSizeCheck;
   static_assert(sizeof(AutoSetupController) == 0x60);
-  // Writing MetadataGetter for method: AutoSetupController::add_didFinishEvent
-  // Il2CppName: add_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(System::Action_1<GlobalNamespace::AutoSetupData*>*)>(&AutoSetupController::add_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::AutoSetupData*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::remove_didFinishEvent
-  // Il2CppName: remove_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(System::Action_1<GlobalNamespace::AutoSetupData*>*)>(&AutoSetupController::remove_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::AutoSetupData*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::Setup
-  // Il2CppName: Setup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(GlobalNamespace::AutoSetupData*)>(&AutoSetupController::Setup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AutoSetupData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_0
-  // Il2CppName: <OnEnable>b__12_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::$OnEnable$b__12_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_1
-  // Il2CppName: <OnEnable>b__12_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_2
-  // Il2CppName: <OnEnable>b__12_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_3
-  // Il2CppName: <OnEnable>b__12_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_4
-  // Il2CppName: <OnEnable>b__12_4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AutoSetupController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupController*, "", "AutoSetupController");
+// Writing MetadataGetter for method: AutoSetupController::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(System::Action_1<GlobalNamespace::AutoSetupData*>*)>(&AutoSetupController::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::AutoSetupData*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(System::Action_1<GlobalNamespace::AutoSetupData*>*)>(&AutoSetupController::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::AutoSetupData*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::Setup
+// Il2CppName: Setup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(GlobalNamespace::AutoSetupData*)>(&AutoSetupController::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AutoSetupData*>()});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_0
+// Il2CppName: <OnEnable>b__12_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::$OnEnable$b__12_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_1
+// Il2CppName: <OnEnable>b__12_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_2
+// Il2CppName: <OnEnable>b__12_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_3
+// Il2CppName: <OnEnable>b__12_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_4
+// Il2CppName: <OnEnable>b__12_4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AutoSetupController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

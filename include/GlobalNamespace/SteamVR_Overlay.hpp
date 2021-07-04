@@ -172,83 +172,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Overlay), 88 + sizeof(uint64_t)> __GlobalNamespace_SteamVR_OverlaySizeCheck;
   static_assert(sizeof(SteamVR_Overlay) == 0x60);
-  // Writing MetadataGetter for method: SteamVR_Overlay::get_instance
-  // Il2CppName: get_instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Overlay* (*)()>(&SteamVR_Overlay::get_instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::set_instance
-  // Il2CppName: set_instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::SteamVR_Overlay*)>(&SteamVR_Overlay::set_instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "set_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Overlay*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::get_key
-  // Il2CppName: get_key
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SteamVR_Overlay::get_key)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "get_key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::UpdateOverlay
-  // Il2CppName: UpdateOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::UpdateOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "UpdateOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::PollNextEvent
-  // Il2CppName: PollNextEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Overlay::*)(Valve::VR::VREvent_t&)>(&SteamVR_Overlay::PollNextEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "PollNextEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::ComputeIntersection
-  // Il2CppName: ComputeIntersection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Overlay::*)(UnityEngine::Vector3, UnityEngine::Vector3, GlobalNamespace::SteamVR_Overlay::IntersectionResults&)>(&SteamVR_Overlay::ComputeIntersection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "ComputeIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Overlay::IntersectionResults&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Overlay::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay*, "", "SteamVR_Overlay");
+// Writing MetadataGetter for method: SteamVR_Overlay::get_instance
+// Il2CppName: get_instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Overlay* (*)()>(&SteamVR_Overlay::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::set_instance
+// Il2CppName: set_instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::SteamVR_Overlay*)>(&SteamVR_Overlay::set_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "set_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Overlay*>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::get_key
+// Il2CppName: get_key
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SteamVR_Overlay::get_key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "get_key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::UpdateOverlay
+// Il2CppName: UpdateOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::UpdateOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "UpdateOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::PollNextEvent
+// Il2CppName: PollNextEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Overlay::*)(Valve::VR::VREvent_t&)>(&SteamVR_Overlay::PollNextEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "PollNextEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::ComputeIntersection
+// Il2CppName: ComputeIntersection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Overlay::*)(UnityEngine::Vector3, UnityEngine::Vector3, GlobalNamespace::SteamVR_Overlay::IntersectionResults&)>(&SteamVR_Overlay::ComputeIntersection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), "ComputeIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Overlay::IntersectionResults&>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Overlay::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Overlay::*)()>(&SteamVR_Overlay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Overlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

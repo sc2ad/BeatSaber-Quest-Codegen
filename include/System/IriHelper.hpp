@@ -35,38 +35,38 @@ namespace System {
     static ::Il2CppString* EscapeUnescapeIri(::Il2CppChar* pInput, int start, int end, System::UriComponents component);
   }; // System.IriHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IriHelper::CheckIriUnicodeRange
-  // Il2CppName: CheckIriUnicodeRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool)>(&IriHelper::CheckIriUnicodeRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IriHelper*), "CheckIriUnicodeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IriHelper::CheckIriUnicodeRange
-  // Il2CppName: CheckIriUnicodeRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppChar, bool&, bool)>(&IriHelper::CheckIriUnicodeRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IriHelper*), "CheckIriUnicodeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IriHelper::CheckIsReserved
-  // Il2CppName: CheckIsReserved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, System::UriComponents)>(&IriHelper::CheckIsReserved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IriHelper*), "CheckIsReserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
-    }
-  };
-  // Writing MetadataGetter for method: IriHelper::EscapeUnescapeIri
-  // Il2CppName: EscapeUnescapeIri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, System::UriComponents)>(&IriHelper::EscapeUnescapeIri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IriHelper*), "EscapeUnescapeIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IriHelper*, "System", "IriHelper");
+// Writing MetadataGetter for method: IriHelper::CheckIriUnicodeRange
+// Il2CppName: CheckIriUnicodeRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool)>(&IriHelper::CheckIriUnicodeRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IriHelper*), "CheckIriUnicodeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IriHelper::CheckIriUnicodeRange
+// Il2CppName: CheckIriUnicodeRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppChar, bool&, bool)>(&IriHelper::CheckIriUnicodeRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IriHelper*), "CheckIriUnicodeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IriHelper::CheckIsReserved
+// Il2CppName: CheckIsReserved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, System::UriComponents)>(&IriHelper::CheckIsReserved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IriHelper*), "CheckIsReserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
+  }
+};
+// Writing MetadataGetter for method: IriHelper::EscapeUnescapeIri
+// Il2CppName: EscapeUnescapeIri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, System::UriComponents)>(&IriHelper::EscapeUnescapeIri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IriHelper*), "EscapeUnescapeIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
+  }
+};

@@ -49,35 +49,35 @@ namespace JetBrains::Annotations {
   #pragma pack(pop)
   static check_size<sizeof(RazorDirectiveAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorDirectiveAttributeSizeCheck;
   static_assert(sizeof(RazorDirectiveAttribute) == 0x18);
-  // Writing MetadataGetter for method: RazorDirectiveAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorDirectiveAttribute::*)(::Il2CppString*)>(&RazorDirectiveAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorDirectiveAttribute::*)(::Il2CppString*)>(&RazorDirectiveAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RazorDirectiveAttribute::get_Directive
-  // Il2CppName: get_Directive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RazorDirectiveAttribute::*)()>(&RazorDirectiveAttribute::get_Directive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), "get_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RazorDirectiveAttribute::set_Directive
-  // Il2CppName: set_Directive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorDirectiveAttribute::*)(::Il2CppString*)>(&RazorDirectiveAttribute::set_Directive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), "set_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorDirectiveAttribute*, "JetBrains.Annotations", "RazorDirectiveAttribute");
+// Writing MetadataGetter for method: RazorDirectiveAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorDirectiveAttribute::*)(::Il2CppString*)>(&RazorDirectiveAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorDirectiveAttribute::*)(::Il2CppString*)>(&RazorDirectiveAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RazorDirectiveAttribute::get_Directive
+// Il2CppName: get_Directive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RazorDirectiveAttribute::*)()>(&RazorDirectiveAttribute::get_Directive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), "get_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RazorDirectiveAttribute::set_Directive
+// Il2CppName: set_Directive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorDirectiveAttribute::*)(::Il2CppString*)>(&RazorDirectiveAttribute::set_Directive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RazorDirectiveAttribute*), "set_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

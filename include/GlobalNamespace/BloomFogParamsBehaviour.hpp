@@ -100,35 +100,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomFogParamsBehaviour), 56 + sizeof(bool)> __GlobalNamespace_BloomFogParamsBehaviourSizeCheck;
   static_assert(sizeof(BloomFogParamsBehaviour) == 0x39);
-  // Writing MetadataGetter for method: BloomFogParamsBehaviour::ProcessFrame
-  // Il2CppName: ProcessFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&BloomFogParamsBehaviour::ProcessFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomFogParamsBehaviour::OnPlayableDestroy
-  // Il2CppName: OnPlayableDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)(UnityEngine::Playables::Playable)>(&BloomFogParamsBehaviour::OnPlayableDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomFogParamsBehaviour::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)()>(&BloomFogParamsBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)()>(&BloomFogParamsBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsBehaviour*, "", "BloomFogParamsBehaviour");
+// Writing MetadataGetter for method: BloomFogParamsBehaviour::ProcessFrame
+// Il2CppName: ProcessFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&BloomFogParamsBehaviour::ProcessFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: BloomFogParamsBehaviour::OnPlayableDestroy
+// Il2CppName: OnPlayableDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)(UnityEngine::Playables::Playable)>(&BloomFogParamsBehaviour::OnPlayableDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: BloomFogParamsBehaviour::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)()>(&BloomFogParamsBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogParamsBehaviour::*)()>(&BloomFogParamsBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomFogParamsBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

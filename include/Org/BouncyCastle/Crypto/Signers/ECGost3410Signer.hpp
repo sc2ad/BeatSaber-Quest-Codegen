@@ -94,51 +94,51 @@ namespace Org::BouncyCastle::Crypto::Signers {
   #pragma pack(pop)
   static check_size<sizeof(ECGost3410Signer), 32 + sizeof(bool)> __Org_BouncyCastle_Crypto_Signers_ECGost3410SignerSizeCheck;
   static_assert(sizeof(ECGost3410Signer) == 0x21);
-  // Writing MetadataGetter for method: ECGost3410Signer::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECGost3410Signer::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&ECGost3410Signer::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECGost3410Signer::get_Order
-  // Il2CppName: get_Order
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ECGost3410Signer::*)()>(&ECGost3410Signer::get_Order)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "get_Order", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ECGost3410Signer::GenerateSignature
-  // Il2CppName: GenerateSignature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (ECGost3410Signer::*)(::Array<uint8_t>*)>(&ECGost3410Signer::GenerateSignature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECGost3410Signer::CreateBasePointMultiplier
-  // Il2CppName: CreateBasePointMultiplier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (ECGost3410Signer::*)()>(&ECGost3410Signer::CreateBasePointMultiplier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "CreateBasePointMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ECGost3410Signer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECGost3410Signer::*)()>(&ECGost3410Signer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECGost3410Signer::*)()>(&ECGost3410Signer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*, "Org.BouncyCastle.Crypto.Signers", "ECGost3410Signer");
+// Writing MetadataGetter for method: ECGost3410Signer::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECGost3410Signer::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&ECGost3410Signer::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: ECGost3410Signer::get_Order
+// Il2CppName: get_Order
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ECGost3410Signer::*)()>(&ECGost3410Signer::get_Order)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "get_Order", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ECGost3410Signer::GenerateSignature
+// Il2CppName: GenerateSignature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (ECGost3410Signer::*)(::Array<uint8_t>*)>(&ECGost3410Signer::GenerateSignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: ECGost3410Signer::CreateBasePointMultiplier
+// Il2CppName: CreateBasePointMultiplier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (ECGost3410Signer::*)()>(&ECGost3410Signer::CreateBasePointMultiplier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), "CreateBasePointMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ECGost3410Signer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECGost3410Signer::*)()>(&ECGost3410Signer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECGost3410Signer::*)()>(&ECGost3410Signer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECGost3410Signer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

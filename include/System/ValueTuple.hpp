@@ -101,86 +101,86 @@ namespace System {
     ::Il2CppString* ToString();
   }; // System.ValueTuple
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ValueTuple::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValueTuple::*)(System::ValueTuple)>(&ValueTuple::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ValueTuple>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::System_Collections_IStructuralEquatable_Equals
-  // Il2CppName: System.Collections.IStructuralEquatable.Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValueTuple::*)(::Il2CppObject*, System::Collections::IEqualityComparer*)>(&ValueTuple::System_Collections_IStructuralEquatable_Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.Collections.IStructuralEquatable.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEqualityComparer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::System_IComparable_CompareTo
-  // Il2CppName: System.IComparable.CompareTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(::Il2CppObject*)>(&ValueTuple::System_IComparable_CompareTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.IComparable.CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::CompareTo
-  // Il2CppName: CompareTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(System::ValueTuple)>(&ValueTuple::CompareTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ValueTuple>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::System_Collections_IStructuralComparable_CompareTo
-  // Il2CppName: System.Collections.IStructuralComparable.CompareTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(::Il2CppObject*, System::Collections::IComparer*)>(&ValueTuple::System_Collections_IStructuralComparable_CompareTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.Collections.IStructuralComparable.CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::System_Collections_IStructuralEquatable_GetHashCode
-  // Il2CppName: System.Collections.IStructuralEquatable.GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(System::Collections::IEqualityComparer*)>(&ValueTuple::System_Collections_IStructuralEquatable_GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.Collections.IStructuralEquatable.GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEqualityComparer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::CombineHashCodes
-  // Il2CppName: CombineHashCodes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&ValueTuple::CombineHashCodes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValueTuple::*)(::Il2CppObject*)>(&ValueTuple::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)()>(&ValueTuple::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ValueTuple::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ValueTuple::*)()>(&ValueTuple::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValueTuple), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ValueTuple, "System", "ValueTuple");
+// Writing MetadataGetter for method: ValueTuple::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValueTuple::*)(System::ValueTuple)>(&ValueTuple::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ValueTuple>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::System_Collections_IStructuralEquatable_Equals
+// Il2CppName: System.Collections.IStructuralEquatable.Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValueTuple::*)(::Il2CppObject*, System::Collections::IEqualityComparer*)>(&ValueTuple::System_Collections_IStructuralEquatable_Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.Collections.IStructuralEquatable.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEqualityComparer*>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::System_IComparable_CompareTo
+// Il2CppName: System.IComparable.CompareTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(::Il2CppObject*)>(&ValueTuple::System_IComparable_CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.IComparable.CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::CompareTo
+// Il2CppName: CompareTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(System::ValueTuple)>(&ValueTuple::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ValueTuple>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::System_Collections_IStructuralComparable_CompareTo
+// Il2CppName: System.Collections.IStructuralComparable.CompareTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(::Il2CppObject*, System::Collections::IComparer*)>(&ValueTuple::System_Collections_IStructuralComparable_CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.Collections.IStructuralComparable.CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::System_Collections_IStructuralEquatable_GetHashCode
+// Il2CppName: System.Collections.IStructuralEquatable.GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)(System::Collections::IEqualityComparer*)>(&ValueTuple::System_Collections_IStructuralEquatable_GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "System.Collections.IStructuralEquatable.GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEqualityComparer*>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::CombineHashCodes
+// Il2CppName: CombineHashCodes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&ValueTuple::CombineHashCodes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValueTuple::*)(::Il2CppObject*)>(&ValueTuple::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ValueTuple::*)()>(&ValueTuple::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ValueTuple::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ValueTuple::*)()>(&ValueTuple::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValueTuple), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

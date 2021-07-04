@@ -137,187 +137,187 @@ namespace UnityEngine {
   // static public System.Boolean op_Inequality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
   // Offset: 0x1B8CB78
   bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
-  // Writing MetadataGetter for method: Bounds::Bounds
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Bounds::Bounds<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Bounds::Bounds<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(UnityEngine::Bounds)>(&Bounds::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::get_center
-  // Il2CppName: get_center
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_center)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::set_center
-  // Il2CppName: set_center
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::set_center)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::get_size
-  // Il2CppName: get_size
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_size)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::set_size
-  // Il2CppName: set_size
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::set_size)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::get_extents
-  // Il2CppName: get_extents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_extents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "get_extents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::set_extents
-  // Il2CppName: set_extents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::set_extents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "set_extents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::get_min
-  // Il2CppName: get_min
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_min)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "get_min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::get_max
-  // Il2CppName: get_max
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_max)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "get_max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::SetMinMax
-  // Il2CppName: SetMinMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Bounds::SetMinMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "SetMinMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::Encapsulate
-  // Il2CppName: Encapsulate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::Encapsulate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "Encapsulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::IntersectRay
-  // Il2CppName: IntersectRay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(UnityEngine::Ray, float&)>(&Bounds::IntersectRay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "IntersectRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::Contains
-  // Il2CppName: Contains
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(UnityEngine::Vector3)>(&Bounds::Contains)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::IntersectRayAABB
-  // Il2CppName: IntersectRayAABB
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, UnityEngine::Bounds, float&)>(&Bounds::IntersectRayAABB)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "IntersectRayAABB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::Contains_Injected
-  // Il2CppName: Contains_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Bounds&, UnityEngine::Vector3&)>(&Bounds::Contains_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "Contains_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::IntersectRayAABB_Injected
-  // Il2CppName: IntersectRayAABB_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray&, UnityEngine::Bounds&, float&)>(&Bounds::IntersectRayAABB_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "IntersectRayAABB_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Bounds::*)()>(&Bounds::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(::Il2CppObject*)>(&Bounds::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Bounds::*)()>(&Bounds::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::operator ==
-  // Il2CppName: op_Equality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Bounds&, const UnityEngine::Bounds&)>(&Bounds::operator ==)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bounds::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Bounds&, const UnityEngine::Bounds&)>(&Bounds::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bounds), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
+// Writing MetadataGetter for method: Bounds::Bounds
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Bounds::Bounds<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Bounds::Bounds<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(UnityEngine::Bounds)>(&Bounds::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::get_center
+// Il2CppName: get_center
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_center)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Bounds::set_center
+// Il2CppName: set_center
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::set_center)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::get_size
+// Il2CppName: get_size
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Bounds::set_size
+// Il2CppName: set_size
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::set_size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::get_extents
+// Il2CppName: get_extents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_extents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "get_extents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Bounds::set_extents
+// Il2CppName: set_extents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::set_extents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "set_extents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::get_min
+// Il2CppName: get_min
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_min)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "get_min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Bounds::get_max
+// Il2CppName: get_max
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Bounds::*)()>(&Bounds::get_max)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "get_max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Bounds::SetMinMax
+// Il2CppName: SetMinMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Bounds::SetMinMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "SetMinMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::Encapsulate
+// Il2CppName: Encapsulate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bounds::*)(UnityEngine::Vector3)>(&Bounds::Encapsulate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "Encapsulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::IntersectRay
+// Il2CppName: IntersectRay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(UnityEngine::Ray, float&)>(&Bounds::IntersectRay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "IntersectRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::Contains
+// Il2CppName: Contains
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(UnityEngine::Vector3)>(&Bounds::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::IntersectRayAABB
+// Il2CppName: IntersectRayAABB
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, UnityEngine::Bounds, float&)>(&Bounds::IntersectRayAABB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "IntersectRayAABB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::Contains_Injected
+// Il2CppName: Contains_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Bounds&, UnityEngine::Vector3&)>(&Bounds::Contains_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "Contains_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::IntersectRayAABB_Injected
+// Il2CppName: IntersectRayAABB_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray&, UnityEngine::Bounds&, float&)>(&Bounds::IntersectRayAABB_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "IntersectRayAABB_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Bounds::*)()>(&Bounds::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Bounds::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bounds::*)(::Il2CppObject*)>(&Bounds::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Bounds::*)()>(&Bounds::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Bounds::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Bounds&, const UnityEngine::Bounds&)>(&Bounds::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>()});
+  }
+};
+// Writing MetadataGetter for method: Bounds::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Bounds&, const UnityEngine::Bounds&)>(&Bounds::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bounds), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Bounds&>()});
+  }
+};

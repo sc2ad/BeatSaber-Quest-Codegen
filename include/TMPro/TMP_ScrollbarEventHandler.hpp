@@ -81,43 +81,43 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_ScrollbarEventHandler), 24 + sizeof(bool)> __TMPro_TMP_ScrollbarEventHandlerSizeCheck;
   static_assert(sizeof(TMP_ScrollbarEventHandler) == 0x19);
-  // Writing MetadataGetter for method: TMP_ScrollbarEventHandler::OnPointerClick
-  // Il2CppName: OnPointerClick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&TMP_ScrollbarEventHandler::OnPointerClick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_ScrollbarEventHandler::OnSelect
-  // Il2CppName: OnSelect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMP_ScrollbarEventHandler::OnSelect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_ScrollbarEventHandler::OnDeselect
-  // Il2CppName: OnDeselect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMP_ScrollbarEventHandler::OnDeselect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_ScrollbarEventHandler::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)()>(&TMP_ScrollbarEventHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)()>(&TMP_ScrollbarEventHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ScrollbarEventHandler*, "TMPro", "TMP_ScrollbarEventHandler");
+// Writing MetadataGetter for method: TMP_ScrollbarEventHandler::OnPointerClick
+// Il2CppName: OnPointerClick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&TMP_ScrollbarEventHandler::OnPointerClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_ScrollbarEventHandler::OnSelect
+// Il2CppName: OnSelect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMP_ScrollbarEventHandler::OnSelect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_ScrollbarEventHandler::OnDeselect
+// Il2CppName: OnDeselect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMP_ScrollbarEventHandler::OnDeselect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_ScrollbarEventHandler::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)()>(&TMP_ScrollbarEventHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_ScrollbarEventHandler::*)()>(&TMP_ScrollbarEventHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_ScrollbarEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -41,11 +41,11 @@ namespace NUnit::Framework::Interfaces {
     }
   }; // NUnit.Framework.Interfaces.IReflectionInfo
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IReflectionInfo::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IReflectionInfo::IsDefined
-  // Il2CppName: IsDefined
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IReflectionInfo*, "NUnit.Framework.Interfaces", "IReflectionInfo");
+// Writing MetadataGetter for method: IReflectionInfo::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IReflectionInfo::IsDefined
+// Il2CppName: IsDefined
+// Cannot write MetadataGetter for generic methods!

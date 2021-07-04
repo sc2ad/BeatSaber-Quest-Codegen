@@ -397,262 +397,262 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(CanvasScaler), 84 + sizeof(float)> __UnityEngine_UI_CanvasScalerSizeCheck;
   static_assert(sizeof(CanvasScaler) == 0x58);
-  // Writing MetadataGetter for method: CanvasScaler::get_uiScaleMode
-  // Il2CppName: get_uiScaleMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::ScaleMode (CanvasScaler::*)()>(&CanvasScaler::get_uiScaleMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_uiScaleMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_uiScaleMode
-  // Il2CppName: set_uiScaleMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::UI::CanvasScaler::ScaleMode)>(&CanvasScaler::set_uiScaleMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_uiScaleMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::ScaleMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_referencePixelsPerUnit
-  // Il2CppName: get_referencePixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_referencePixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_referencePixelsPerUnit
-  // Il2CppName: set_referencePixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_referencePixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_scaleFactor
-  // Il2CppName: get_scaleFactor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_scaleFactor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_scaleFactor
-  // Il2CppName: set_scaleFactor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_scaleFactor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_referenceResolution
-  // Il2CppName: get_referenceResolution
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (CanvasScaler::*)()>(&CanvasScaler::get_referenceResolution)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_referenceResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_referenceResolution
-  // Il2CppName: set_referenceResolution
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::Vector2)>(&CanvasScaler::set_referenceResolution)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_referenceResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_screenMatchMode
-  // Il2CppName: get_screenMatchMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::ScreenMatchMode (CanvasScaler::*)()>(&CanvasScaler::get_screenMatchMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_screenMatchMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_screenMatchMode
-  // Il2CppName: set_screenMatchMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::UI::CanvasScaler::ScreenMatchMode)>(&CanvasScaler::set_screenMatchMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_screenMatchMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::ScreenMatchMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_matchWidthOrHeight
-  // Il2CppName: get_matchWidthOrHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_matchWidthOrHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_matchWidthOrHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_matchWidthOrHeight
-  // Il2CppName: set_matchWidthOrHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_matchWidthOrHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_matchWidthOrHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_physicalUnit
-  // Il2CppName: get_physicalUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::Unit (CanvasScaler::*)()>(&CanvasScaler::get_physicalUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_physicalUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_physicalUnit
-  // Il2CppName: set_physicalUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::UI::CanvasScaler::Unit)>(&CanvasScaler::set_physicalUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_physicalUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::Unit>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_fallbackScreenDPI
-  // Il2CppName: get_fallbackScreenDPI
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_fallbackScreenDPI)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_fallbackScreenDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_fallbackScreenDPI
-  // Il2CppName: set_fallbackScreenDPI
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_fallbackScreenDPI)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_fallbackScreenDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_defaultSpriteDPI
-  // Il2CppName: get_defaultSpriteDPI
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_defaultSpriteDPI)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_defaultSpriteDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_defaultSpriteDPI
-  // Il2CppName: set_defaultSpriteDPI
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_defaultSpriteDPI)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_defaultSpriteDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::get_dynamicPixelsPerUnit
-  // Il2CppName: get_dynamicPixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_dynamicPixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_dynamicPixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::set_dynamicPixelsPerUnit
-  // Il2CppName: set_dynamicPixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_dynamicPixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_dynamicPixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::Handle
-  // Il2CppName: Handle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::Handle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::HandleWorldCanvas
-  // Il2CppName: HandleWorldCanvas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleWorldCanvas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleWorldCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::HandleConstantPixelSize
-  // Il2CppName: HandleConstantPixelSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleConstantPixelSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleConstantPixelSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::HandleScaleWithScreenSize
-  // Il2CppName: HandleScaleWithScreenSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleScaleWithScreenSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleScaleWithScreenSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::HandleConstantPhysicalSize
-  // Il2CppName: HandleConstantPhysicalSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleConstantPhysicalSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleConstantPhysicalSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::SetScaleFactor
-  // Il2CppName: SetScaleFactor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::SetScaleFactor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "SetScaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::SetReferencePixelsPerUnit
-  // Il2CppName: SetReferencePixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::SetReferencePixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "SetReferencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CanvasScaler::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler*, "UnityEngine.UI", "CanvasScaler");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::Unit, "UnityEngine.UI", "CanvasScaler/Unit");
+// Writing MetadataGetter for method: CanvasScaler::get_uiScaleMode
+// Il2CppName: get_uiScaleMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::ScaleMode (CanvasScaler::*)()>(&CanvasScaler::get_uiScaleMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_uiScaleMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_uiScaleMode
+// Il2CppName: set_uiScaleMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::UI::CanvasScaler::ScaleMode)>(&CanvasScaler::set_uiScaleMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_uiScaleMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::ScaleMode>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_referencePixelsPerUnit
+// Il2CppName: get_referencePixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_referencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_referencePixelsPerUnit
+// Il2CppName: set_referencePixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_referencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_scaleFactor
+// Il2CppName: get_scaleFactor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_scaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_scaleFactor
+// Il2CppName: set_scaleFactor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_scaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_referenceResolution
+// Il2CppName: get_referenceResolution
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (CanvasScaler::*)()>(&CanvasScaler::get_referenceResolution)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_referenceResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_referenceResolution
+// Il2CppName: set_referenceResolution
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::Vector2)>(&CanvasScaler::set_referenceResolution)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_referenceResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_screenMatchMode
+// Il2CppName: get_screenMatchMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::ScreenMatchMode (CanvasScaler::*)()>(&CanvasScaler::get_screenMatchMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_screenMatchMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_screenMatchMode
+// Il2CppName: set_screenMatchMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::UI::CanvasScaler::ScreenMatchMode)>(&CanvasScaler::set_screenMatchMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_screenMatchMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::ScreenMatchMode>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_matchWidthOrHeight
+// Il2CppName: get_matchWidthOrHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_matchWidthOrHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_matchWidthOrHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_matchWidthOrHeight
+// Il2CppName: set_matchWidthOrHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_matchWidthOrHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_matchWidthOrHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_physicalUnit
+// Il2CppName: get_physicalUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::Unit (CanvasScaler::*)()>(&CanvasScaler::get_physicalUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_physicalUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_physicalUnit
+// Il2CppName: set_physicalUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(UnityEngine::UI::CanvasScaler::Unit)>(&CanvasScaler::set_physicalUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_physicalUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::Unit>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_fallbackScreenDPI
+// Il2CppName: get_fallbackScreenDPI
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_fallbackScreenDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_fallbackScreenDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_fallbackScreenDPI
+// Il2CppName: set_fallbackScreenDPI
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_fallbackScreenDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_fallbackScreenDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_defaultSpriteDPI
+// Il2CppName: get_defaultSpriteDPI
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_defaultSpriteDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_defaultSpriteDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_defaultSpriteDPI
+// Il2CppName: set_defaultSpriteDPI
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_defaultSpriteDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_defaultSpriteDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::get_dynamicPixelsPerUnit
+// Il2CppName: get_dynamicPixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasScaler::*)()>(&CanvasScaler::get_dynamicPixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "get_dynamicPixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::set_dynamicPixelsPerUnit
+// Il2CppName: set_dynamicPixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::set_dynamicPixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "set_dynamicPixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::Handle
+// Il2CppName: Handle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::Handle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::HandleWorldCanvas
+// Il2CppName: HandleWorldCanvas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleWorldCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleWorldCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::HandleConstantPixelSize
+// Il2CppName: HandleConstantPixelSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleConstantPixelSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleConstantPixelSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::HandleScaleWithScreenSize
+// Il2CppName: HandleScaleWithScreenSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleScaleWithScreenSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleScaleWithScreenSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::HandleConstantPhysicalSize
+// Il2CppName: HandleConstantPhysicalSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::HandleConstantPhysicalSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "HandleConstantPhysicalSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::SetScaleFactor
+// Il2CppName: SetScaleFactor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::SetScaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "SetScaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::SetReferencePixelsPerUnit
+// Il2CppName: SetReferencePixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)(float)>(&CanvasScaler::SetReferencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "SetReferencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CanvasScaler::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasScaler::*)()>(&CanvasScaler::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CanvasScaler*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

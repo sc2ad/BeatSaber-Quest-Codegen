@@ -371,149 +371,149 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRVignette), 185 + sizeof(bool)> __GlobalNamespace_OVRVignetteSizeCheck;
   static_assert(sizeof(OVRVignette) == 0xBA);
-  // Writing MetadataGetter for method: OVRVignette::GetTriangleCount
-  // Il2CppName: GetTriangleCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRVignette::*)()>(&OVRVignette::GetTriangleCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "GetTriangleCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::BuildMeshes
-  // Il2CppName: BuildMeshes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::BuildMeshes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "BuildMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::BuildMaterials
-  // Il2CppName: BuildMaterials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::BuildMaterials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "BuildMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::GetTanFovAndOffsetForStereoEye
-  // Il2CppName: GetTanFovAndOffsetForStereoEye
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)(UnityEngine::Camera::StereoscopicEye, float&, float&, float&, float&)>(&OVRVignette::GetTanFovAndOffsetForStereoEye)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "GetTanFovAndOffsetForStereoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::StereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::GetTanFovAndOffsetForMonoEye
-  // Il2CppName: GetTanFovAndOffsetForMonoEye
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)(float&, float&, float&, float&)>(&OVRVignette::GetTanFovAndOffsetForMonoEye)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "GetTanFovAndOffsetForMonoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::VisibilityTest
-  // Il2CppName: VisibilityTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRVignette::*)(float, float, float, float)>(&OVRVignette::VisibilityTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "VisibilityTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::EnableRenderers
-  // Il2CppName: EnableRenderers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::EnableRenderers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "EnableRenderers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::DisableRenderers
-  // Il2CppName: DisableRenderers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::DisableRenderers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "DisableRenderers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::OnPreCull
-  // Il2CppName: OnPreCull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnPreCull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnPreCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::OnPostRender
-  // Il2CppName: OnPostRender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnPostRender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::OnBeginCameraRendering
-  // Il2CppName: OnBeginCameraRendering
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)(UnityEngine::Rendering::ScriptableRenderContext, UnityEngine::Camera*)>(&OVRVignette::OnBeginCameraRendering)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnBeginCameraRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRVignette::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRVignette::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRVignette*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette*, "", "OVRVignette");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::FalloffType, "", "OVRVignette/FalloffType");
+// Writing MetadataGetter for method: OVRVignette::GetTriangleCount
+// Il2CppName: GetTriangleCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRVignette::*)()>(&OVRVignette::GetTriangleCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "GetTriangleCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::BuildMeshes
+// Il2CppName: BuildMeshes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::BuildMeshes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "BuildMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::BuildMaterials
+// Il2CppName: BuildMaterials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::BuildMaterials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "BuildMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::GetTanFovAndOffsetForStereoEye
+// Il2CppName: GetTanFovAndOffsetForStereoEye
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)(UnityEngine::Camera::StereoscopicEye, float&, float&, float&, float&)>(&OVRVignette::GetTanFovAndOffsetForStereoEye)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "GetTanFovAndOffsetForStereoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::StereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::GetTanFovAndOffsetForMonoEye
+// Il2CppName: GetTanFovAndOffsetForMonoEye
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)(float&, float&, float&, float&)>(&OVRVignette::GetTanFovAndOffsetForMonoEye)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "GetTanFovAndOffsetForMonoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::VisibilityTest
+// Il2CppName: VisibilityTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRVignette::*)(float, float, float, float)>(&OVRVignette::VisibilityTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "VisibilityTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::EnableRenderers
+// Il2CppName: EnableRenderers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::EnableRenderers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "EnableRenderers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::DisableRenderers
+// Il2CppName: DisableRenderers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::DisableRenderers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "DisableRenderers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::OnPreCull
+// Il2CppName: OnPreCull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnPreCull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnPreCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::OnPostRender
+// Il2CppName: OnPostRender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::OnPostRender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::OnBeginCameraRendering
+// Il2CppName: OnBeginCameraRendering
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)(UnityEngine::Rendering::ScriptableRenderContext, UnityEngine::Camera*)>(&OVRVignette::OnBeginCameraRendering)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), "OnBeginCameraRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRVignette::*)()>(&OVRVignette::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRVignette::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRVignette::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRVignette*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

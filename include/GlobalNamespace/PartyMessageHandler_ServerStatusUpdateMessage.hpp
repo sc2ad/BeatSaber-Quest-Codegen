@@ -121,59 +121,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PartyMessageHandler::ServerStatusUpdateMessage), 48 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_PartyMessageHandler_ServerStatusUpdateMessageSizeCheck;
   static_assert(sizeof(PartyMessageHandler::ServerStatusUpdateMessage) == 0x48);
-  // Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::get_pool
-  // Il2CppName: get_pool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>* (*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::get_pool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* (PartyMessageHandler::ServerStatusUpdateMessage::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&PartyMessageHandler::ServerStatusUpdateMessage::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
-    }
-  };
-  // Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)(LiteNetLib::Utils::NetDataWriter*)>(&PartyMessageHandler::ServerStatusUpdateMessage::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)(LiteNetLib::Utils::NetDataReader*)>(&PartyMessageHandler::ServerStatusUpdateMessage::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*, "", "PartyMessageHandler/ServerStatusUpdateMessage");
+// Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::get_pool
+// Il2CppName: get_pool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>* (*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* (PartyMessageHandler::ServerStatusUpdateMessage::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&PartyMessageHandler::ServerStatusUpdateMessage::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
+// Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)(LiteNetLib::Utils::NetDataWriter*)>(&PartyMessageHandler::ServerStatusUpdateMessage::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)(LiteNetLib::Utils::NetDataReader*)>(&PartyMessageHandler::ServerStatusUpdateMessage::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PartyMessageHandler::ServerStatusUpdateMessage::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ServerStatusUpdateMessage::*)()>(&PartyMessageHandler::ServerStatusUpdateMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ServerStatusUpdateMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -102,155 +102,155 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(XmlCharType), 0 + sizeof(::Array<uint8_t>*)> __System_Xml_XmlCharTypeSizeCheck;
   static_assert(sizeof(XmlCharType) == 0x8);
-  // Writing MetadataGetter for method: XmlCharType::get_StaticLock
-  // Il2CppName: get_StaticLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&XmlCharType::get_StaticLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "get_StaticLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::InitInstance
-  // Il2CppName: InitInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&XmlCharType::InitInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "InitInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::SetProperties
-  // Il2CppName: SetProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, uint8_t)>(&XmlCharType::SetProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "SetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::XmlCharType
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlCharType::*)(::Array<uint8_t>*)>(&XmlCharType::XmlCharType<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlCharType::*)(::Array<uint8_t>*)>(&XmlCharType::XmlCharType<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::get_Instance
-  // Il2CppName: get_Instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlCharType (*)()>(&XmlCharType::get_Instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsWhiteSpace
-  // Il2CppName: IsWhiteSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsWhiteSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsCharData
-  // Il2CppName: IsCharData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsCharData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsPubidChar
-  // Il2CppName: IsPubidChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsPubidChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsPubidChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsTextChar
-  // Il2CppName: IsTextChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsTextChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsTextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsHighSurrogate
-  // Il2CppName: IsHighSurrogate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&XmlCharType::IsHighSurrogate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsHighSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsLowSurrogate
-  // Il2CppName: IsLowSurrogate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&XmlCharType::IsLowSurrogate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsLowSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsSurrogate
-  // Il2CppName: IsSurrogate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&XmlCharType::IsSurrogate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::CombineSurrogateChar
-  // Il2CppName: CombineSurrogateChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&XmlCharType::CombineSurrogateChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "CombineSurrogateChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsOnlyWhitespace
-  // Il2CppName: IsOnlyWhitespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsOnlyWhitespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsOnlyWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsOnlyWhitespaceWithPos
-  // Il2CppName: IsOnlyWhitespaceWithPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsOnlyWhitespaceWithPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsOnlyWhitespaceWithPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsOnlyCharData
-  // Il2CppName: IsOnlyCharData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsOnlyCharData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsOnlyCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::IsPublicId
-  // Il2CppName: IsPublicId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsPublicId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsPublicId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlCharType::InRange
-  // Il2CppName: InRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, int)>(&XmlCharType::InRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlCharType), "InRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
+// Writing MetadataGetter for method: XmlCharType::get_StaticLock
+// Il2CppName: get_StaticLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&XmlCharType::get_StaticLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "get_StaticLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::InitInstance
+// Il2CppName: InitInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&XmlCharType::InitInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "InitInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::SetProperties
+// Il2CppName: SetProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, uint8_t)>(&XmlCharType::SetProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "SetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::XmlCharType
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlCharType::*)(::Array<uint8_t>*)>(&XmlCharType::XmlCharType<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlCharType::*)(::Array<uint8_t>*)>(&XmlCharType::XmlCharType<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::get_Instance
+// Il2CppName: get_Instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlCharType (*)()>(&XmlCharType::get_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsWhiteSpace
+// Il2CppName: IsWhiteSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsWhiteSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsCharData
+// Il2CppName: IsCharData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsCharData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsPubidChar
+// Il2CppName: IsPubidChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsPubidChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsPubidChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsTextChar
+// Il2CppName: IsTextChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppChar)>(&XmlCharType::IsTextChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsTextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsHighSurrogate
+// Il2CppName: IsHighSurrogate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&XmlCharType::IsHighSurrogate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsHighSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsLowSurrogate
+// Il2CppName: IsLowSurrogate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&XmlCharType::IsLowSurrogate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsLowSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsSurrogate
+// Il2CppName: IsSurrogate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&XmlCharType::IsSurrogate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::CombineSurrogateChar
+// Il2CppName: CombineSurrogateChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&XmlCharType::CombineSurrogateChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "CombineSurrogateChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsOnlyWhitespace
+// Il2CppName: IsOnlyWhitespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsOnlyWhitespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsOnlyWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsOnlyWhitespaceWithPos
+// Il2CppName: IsOnlyWhitespaceWithPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsOnlyWhitespaceWithPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsOnlyWhitespaceWithPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsOnlyCharData
+// Il2CppName: IsOnlyCharData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsOnlyCharData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsOnlyCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::IsPublicId
+// Il2CppName: IsPublicId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlCharType::*)(::Il2CppString*)>(&XmlCharType::IsPublicId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "IsPublicId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlCharType::InRange
+// Il2CppName: InRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, int)>(&XmlCharType::InRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlCharType), "InRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

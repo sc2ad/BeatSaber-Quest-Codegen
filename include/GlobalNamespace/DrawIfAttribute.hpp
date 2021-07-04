@@ -104,34 +104,34 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DrawIfAttribute), 40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType)> __GlobalNamespace_DrawIfAttributeSizeCheck;
   static_assert(sizeof(DrawIfAttribute) == 0x2C);
-  // Writing MetadataGetter for method: DrawIfAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
-    }
-  };
-  // Writing MetadataGetter for method: DrawIfAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute*, "", "DrawIfAttribute");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute::DisablingType, "", "DrawIfAttribute/DisablingType");
+// Writing MetadataGetter for method: DrawIfAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};
+// Writing MetadataGetter for method: DrawIfAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};

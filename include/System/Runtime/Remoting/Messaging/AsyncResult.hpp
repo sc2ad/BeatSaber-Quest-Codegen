@@ -252,209 +252,209 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
   static check_size<sizeof(AsyncResult), 120 + sizeof(System::Threading::WaitCallback*)> __System_Runtime_Remoting_Messaging_AsyncResultSizeCheck;
   static_assert(sizeof(AsyncResult) == 0x80);
-  // Writing MetadataGetter for method: AsyncResult::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool)>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool)>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::WaitCallback_Context
-  // Il2CppName: WaitCallback_Context
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&AsyncResult::WaitCallback_Context)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "WaitCallback_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_AsyncState
-  // Il2CppName: get_AsyncState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AsyncResult::*)()>(&AsyncResult::get_AsyncState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_AsyncWaitHandle
-  // Il2CppName: get_AsyncWaitHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (AsyncResult::*)()>(&AsyncResult::get_AsyncWaitHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_CompletedSynchronously
-  // Il2CppName: get_CompletedSynchronously
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncResult::*)()>(&AsyncResult::get_CompletedSynchronously)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_IsCompleted
-  // Il2CppName: get_IsCompleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncResult::*)()>(&AsyncResult::get_IsCompleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_EndInvokeCalled
-  // Il2CppName: get_EndInvokeCalled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncResult::*)()>(&AsyncResult::get_EndInvokeCalled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_EndInvokeCalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::set_EndInvokeCalled
-  // Il2CppName: set_EndInvokeCalled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(bool)>(&AsyncResult::set_EndInvokeCalled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "set_EndInvokeCalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_AsyncDelegate
-  // Il2CppName: get_AsyncDelegate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AsyncResult::*)()>(&AsyncResult::get_AsyncDelegate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_AsyncDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_NextSink
-  // Il2CppName: get_NextSink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (AsyncResult::*)()>(&AsyncResult::get_NextSink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_NextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::AsyncProcessMessage
-  // Il2CppName: AsyncProcessMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (AsyncResult::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&AsyncResult::AsyncProcessMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::GetReplyMessage
-  // Il2CppName: GetReplyMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (AsyncResult::*)()>(&AsyncResult::GetReplyMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "GetReplyMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::SetMessageCtrl
-  // Il2CppName: SetMessageCtrl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Runtime::Remoting::Messaging::IMessageCtrl*)>(&AsyncResult::SetMessageCtrl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "SetMessageCtrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageCtrl*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::SetCompletedSynchronously
-  // Il2CppName: SetCompletedSynchronously
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(bool)>(&AsyncResult::SetCompletedSynchronously)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "SetCompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (AsyncResult::*)()>(&AsyncResult::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::SyncProcessMessage
-  // Il2CppName: SyncProcessMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (AsyncResult::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&AsyncResult::SyncProcessMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::get_CallMessage
-  // Il2CppName: get_CallMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::MonoMethodMessage* (AsyncResult::*)()>(&AsyncResult::get_CallMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_CallMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::set_CallMessage
-  // Il2CppName: set_CallMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Runtime::Remoting::Messaging::MonoMethodMessage*)>(&AsyncResult::set_CallMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "set_CallMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::MonoMethodMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
-  // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)()>(&AsyncResult::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::System_Threading_IThreadPoolWorkItem_MarkAborted
-  // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Threading::ThreadAbortException*)>(&AsyncResult::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AsyncResult::*)()>(&AsyncResult::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncResult::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::$_ctor$b__17_0
-  // Il2CppName: <.ctor>b__17_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(::Il2CppObject*)>(&AsyncResult::$_ctor$b__17_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "<.ctor>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncResult::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)()>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)()>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::AsyncResult*, "System.Runtime.Remoting.Messaging", "AsyncResult");
+// Writing MetadataGetter for method: AsyncResult::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool)>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool)>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::WaitCallback_Context
+// Il2CppName: WaitCallback_Context
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&AsyncResult::WaitCallback_Context)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "WaitCallback_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_AsyncState
+// Il2CppName: get_AsyncState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AsyncResult::*)()>(&AsyncResult::get_AsyncState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_AsyncWaitHandle
+// Il2CppName: get_AsyncWaitHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (AsyncResult::*)()>(&AsyncResult::get_AsyncWaitHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_CompletedSynchronously
+// Il2CppName: get_CompletedSynchronously
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncResult::*)()>(&AsyncResult::get_CompletedSynchronously)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_IsCompleted
+// Il2CppName: get_IsCompleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncResult::*)()>(&AsyncResult::get_IsCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_EndInvokeCalled
+// Il2CppName: get_EndInvokeCalled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncResult::*)()>(&AsyncResult::get_EndInvokeCalled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_EndInvokeCalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::set_EndInvokeCalled
+// Il2CppName: set_EndInvokeCalled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(bool)>(&AsyncResult::set_EndInvokeCalled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "set_EndInvokeCalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_AsyncDelegate
+// Il2CppName: get_AsyncDelegate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AsyncResult::*)()>(&AsyncResult::get_AsyncDelegate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_AsyncDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_NextSink
+// Il2CppName: get_NextSink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (AsyncResult::*)()>(&AsyncResult::get_NextSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_NextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::AsyncProcessMessage
+// Il2CppName: AsyncProcessMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (AsyncResult::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&AsyncResult::AsyncProcessMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::GetReplyMessage
+// Il2CppName: GetReplyMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (AsyncResult::*)()>(&AsyncResult::GetReplyMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "GetReplyMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::SetMessageCtrl
+// Il2CppName: SetMessageCtrl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Runtime::Remoting::Messaging::IMessageCtrl*)>(&AsyncResult::SetMessageCtrl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "SetMessageCtrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageCtrl*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::SetCompletedSynchronously
+// Il2CppName: SetCompletedSynchronously
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(bool)>(&AsyncResult::SetCompletedSynchronously)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "SetCompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (AsyncResult::*)()>(&AsyncResult::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::SyncProcessMessage
+// Il2CppName: SyncProcessMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (AsyncResult::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&AsyncResult::SyncProcessMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::get_CallMessage
+// Il2CppName: get_CallMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::MonoMethodMessage* (AsyncResult::*)()>(&AsyncResult::get_CallMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "get_CallMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::set_CallMessage
+// Il2CppName: set_CallMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Runtime::Remoting::Messaging::MonoMethodMessage*)>(&AsyncResult::set_CallMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "set_CallMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::MonoMethodMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
+// Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)()>(&AsyncResult::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::System_Threading_IThreadPoolWorkItem_MarkAborted
+// Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(System::Threading::ThreadAbortException*)>(&AsyncResult::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AsyncResult::*)()>(&AsyncResult::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncResult::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::$_ctor$b__17_0
+// Il2CppName: <.ctor>b__17_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)(::Il2CppObject*)>(&AsyncResult::$_ctor$b__17_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), "<.ctor>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncResult::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)()>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncResult::*)()>(&AsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

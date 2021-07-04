@@ -50,14 +50,14 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
   static check_size<sizeof(BatchRendererGroup), 24 + sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*)> __UnityEngine_Rendering_BatchRendererGroupSizeCheck;
   static_assert(sizeof(BatchRendererGroup) == 0x20);
-  // Writing MetadataGetter for method: BatchRendererGroup::InvokeOnPerformCulling
-  // Il2CppName: InvokeOnPerformCulling
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchRendererCullingOutput&, UnityEngine::Rendering::LODParameters&)>(&BatchRendererGroup::InvokeOnPerformCulling)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BatchRendererGroup*), "InvokeOnPerformCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererCullingOutput&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
+// Writing MetadataGetter for method: BatchRendererGroup::InvokeOnPerformCulling
+// Il2CppName: InvokeOnPerformCulling
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchRendererCullingOutput&, UnityEngine::Rendering::LODParameters&)>(&BatchRendererGroup::InvokeOnPerformCulling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BatchRendererGroup*), "InvokeOnPerformCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererCullingOutput&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters&>()});
+  }
+};

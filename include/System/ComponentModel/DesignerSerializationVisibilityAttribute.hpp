@@ -76,51 +76,51 @@ namespace System::ComponentModel {
   #pragma pack(pop)
   static check_size<sizeof(DesignerSerializationVisibilityAttribute), 16 + sizeof(System::ComponentModel::DesignerSerializationVisibility)> __System_ComponentModel_DesignerSerializationVisibilityAttributeSizeCheck;
   static_assert(sizeof(DesignerSerializationVisibilityAttribute) == 0x14);
-  // Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DesignerSerializationVisibilityAttribute::*)(System::ComponentModel::DesignerSerializationVisibility)>(&DesignerSerializationVisibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::DesignerSerializationVisibility>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DesignerSerializationVisibilityAttribute::*)(System::ComponentModel::DesignerSerializationVisibility)>(&DesignerSerializationVisibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::DesignerSerializationVisibility>()});
-    }
-  };
-  // Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::get_Visibility
-  // Il2CppName: get_Visibility
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::DesignerSerializationVisibility (DesignerSerializationVisibilityAttribute::*)()>(&DesignerSerializationVisibilityAttribute::get_Visibility)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), "get_Visibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DesignerSerializationVisibilityAttribute::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DesignerSerializationVisibilityAttribute::*)(::Il2CppObject*)>(&DesignerSerializationVisibilityAttribute::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DesignerSerializationVisibilityAttribute::*)()>(&DesignerSerializationVisibilityAttribute::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerSerializationVisibilityAttribute*, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");
+// Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DesignerSerializationVisibilityAttribute::*)(System::ComponentModel::DesignerSerializationVisibility)>(&DesignerSerializationVisibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::DesignerSerializationVisibility>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DesignerSerializationVisibilityAttribute::*)(System::ComponentModel::DesignerSerializationVisibility)>(&DesignerSerializationVisibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::DesignerSerializationVisibility>()});
+  }
+};
+// Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::get_Visibility
+// Il2CppName: get_Visibility
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::DesignerSerializationVisibility (DesignerSerializationVisibilityAttribute::*)()>(&DesignerSerializationVisibilityAttribute::get_Visibility)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), "get_Visibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DesignerSerializationVisibilityAttribute::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DesignerSerializationVisibilityAttribute::*)(::Il2CppObject*)>(&DesignerSerializationVisibilityAttribute::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: DesignerSerializationVisibilityAttribute::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DesignerSerializationVisibilityAttribute::*)()>(&DesignerSerializationVisibilityAttribute::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DesignerSerializationVisibilityAttribute*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

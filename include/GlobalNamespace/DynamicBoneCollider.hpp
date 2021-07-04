@@ -80,75 +80,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DynamicBoneCollider), 48 + sizeof(float)> __GlobalNamespace_DynamicBoneColliderSizeCheck;
   static_assert(sizeof(DynamicBoneCollider) == 0x34);
-  // Writing MetadataGetter for method: DynamicBoneCollider::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBoneCollider::OutsideSphere
-  // Il2CppName: OutsideSphere
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, float)>(&DynamicBoneCollider::OutsideSphere)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OutsideSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBoneCollider::InsideSphere
-  // Il2CppName: InsideSphere
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, float)>(&DynamicBoneCollider::InsideSphere)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "InsideSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBoneCollider::OutsideCapsule
-  // Il2CppName: OutsideCapsule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&DynamicBoneCollider::OutsideCapsule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OutsideCapsule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBoneCollider::InsideCapsule
-  // Il2CppName: InsideCapsule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&DynamicBoneCollider::InsideCapsule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "InsideCapsule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBoneCollider::OnDrawGizmosSelected
-  // Il2CppName: OnDrawGizmosSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::OnDrawGizmosSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBoneCollider::Collide
-  // Il2CppName: Collide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)(UnityEngine::Vector3&, float)>(&DynamicBoneCollider::Collide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "Collide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBoneCollider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneCollider*, "", "DynamicBoneCollider");
+// Writing MetadataGetter for method: DynamicBoneCollider::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBoneCollider::OutsideSphere
+// Il2CppName: OutsideSphere
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, float)>(&DynamicBoneCollider::OutsideSphere)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OutsideSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBoneCollider::InsideSphere
+// Il2CppName: InsideSphere
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, float)>(&DynamicBoneCollider::InsideSphere)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "InsideSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBoneCollider::OutsideCapsule
+// Il2CppName: OutsideCapsule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&DynamicBoneCollider::OutsideCapsule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OutsideCapsule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBoneCollider::InsideCapsule
+// Il2CppName: InsideCapsule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&DynamicBoneCollider::InsideCapsule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "InsideCapsule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBoneCollider::OnDrawGizmosSelected
+// Il2CppName: OnDrawGizmosSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::OnDrawGizmosSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBoneCollider::Collide
+// Il2CppName: Collide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)(UnityEngine::Vector3&, float)>(&DynamicBoneCollider::Collide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), "Collide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBoneCollider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBoneCollider::*)()>(&DynamicBoneCollider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBoneCollider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

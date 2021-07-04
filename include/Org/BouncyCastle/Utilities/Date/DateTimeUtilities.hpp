@@ -31,30 +31,30 @@ namespace Org::BouncyCastle::Utilities::Date {
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeUtilities
   #pragma pack(pop)
-  // Writing MetadataGetter for method: DateTimeUtilities::DateTimeToUnixMs
-  // Il2CppName: DateTimeToUnixMs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime)>(&DateTimeUtilities::DateTimeToUnixMs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DateTimeUtilities*), "DateTimeToUnixMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: DateTimeUtilities::CurrentUnixMs
-  // Il2CppName: CurrentUnixMs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&DateTimeUtilities::CurrentUnixMs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DateTimeUtilities*), "CurrentUnixMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DateTimeUtilities::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DateTimeUtilities::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DateTimeUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
+// Writing MetadataGetter for method: DateTimeUtilities::DateTimeToUnixMs
+// Il2CppName: DateTimeToUnixMs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime)>(&DateTimeUtilities::DateTimeToUnixMs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DateTimeUtilities*), "DateTimeToUnixMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: DateTimeUtilities::CurrentUnixMs
+// Il2CppName: CurrentUnixMs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&DateTimeUtilities::CurrentUnixMs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DateTimeUtilities*), "CurrentUnixMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DateTimeUtilities::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DateTimeUtilities::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DateTimeUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

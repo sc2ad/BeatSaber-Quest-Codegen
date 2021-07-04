@@ -111,107 +111,107 @@ namespace Org::BouncyCastle::Asn1::X509 {
   #pragma pack(pop)
   static check_size<sizeof(CertificateList), 32 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_X509_CertificateListSizeCheck;
   static_assert(sizeof(CertificateList) == 0x28);
-  // Writing MetadataGetter for method: CertificateList::GetInstance
-  // Il2CppName: GetInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::CertificateList* (*)(::Il2CppObject*)>(&CertificateList::GetInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateList::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificateList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateList::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificateList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::get_TbsCertList
-  // Il2CppName: get_TbsCertList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::TbsCertificateList* (CertificateList::*)()>(&CertificateList::get_TbsCertList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_TbsCertList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::GetRevokedCertificateEnumeration
-  // Il2CppName: GetRevokedCertificateEnumeration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CertificateList::*)()>(&CertificateList::GetRevokedCertificateEnumeration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "GetRevokedCertificateEnumeration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::get_SignatureAlgorithm
-  // Il2CppName: get_SignatureAlgorithm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (CertificateList::*)()>(&CertificateList::get_SignatureAlgorithm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_SignatureAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::get_Signature
-  // Il2CppName: get_Signature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (CertificateList::*)()>(&CertificateList::get_Signature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_Signature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::GetSignatureOctets
-  // Il2CppName: GetSignatureOctets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (CertificateList::*)()>(&CertificateList::GetSignatureOctets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "GetSignatureOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::get_Version
-  // Il2CppName: get_Version
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CertificateList::*)()>(&CertificateList::get_Version)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::get_Issuer
-  // Il2CppName: get_Issuer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (CertificateList::*)()>(&CertificateList::get_Issuer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_Issuer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::get_ThisUpdate
-  // Il2CppName: get_ThisUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (CertificateList::*)()>(&CertificateList::get_ThisUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_ThisUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::get_NextUpdate
-  // Il2CppName: get_NextUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (CertificateList::*)()>(&CertificateList::get_NextUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_NextUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateList::ToAsn1Object
-  // Il2CppName: ToAsn1Object
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (CertificateList::*)()>(&CertificateList::ToAsn1Object)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateList*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CertificateList*, "Org.BouncyCastle.Asn1.X509", "CertificateList");
+// Writing MetadataGetter for method: CertificateList::GetInstance
+// Il2CppName: GetInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::CertificateList* (*)(::Il2CppObject*)>(&CertificateList::GetInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateList::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificateList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateList::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificateList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::get_TbsCertList
+// Il2CppName: get_TbsCertList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::TbsCertificateList* (CertificateList::*)()>(&CertificateList::get_TbsCertList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_TbsCertList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::GetRevokedCertificateEnumeration
+// Il2CppName: GetRevokedCertificateEnumeration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CertificateList::*)()>(&CertificateList::GetRevokedCertificateEnumeration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "GetRevokedCertificateEnumeration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::get_SignatureAlgorithm
+// Il2CppName: get_SignatureAlgorithm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (CertificateList::*)()>(&CertificateList::get_SignatureAlgorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_SignatureAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::get_Signature
+// Il2CppName: get_Signature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (CertificateList::*)()>(&CertificateList::get_Signature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_Signature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::GetSignatureOctets
+// Il2CppName: GetSignatureOctets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (CertificateList::*)()>(&CertificateList::GetSignatureOctets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "GetSignatureOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::get_Version
+// Il2CppName: get_Version
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CertificateList::*)()>(&CertificateList::get_Version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::get_Issuer
+// Il2CppName: get_Issuer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (CertificateList::*)()>(&CertificateList::get_Issuer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_Issuer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::get_ThisUpdate
+// Il2CppName: get_ThisUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (CertificateList::*)()>(&CertificateList::get_ThisUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_ThisUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::get_NextUpdate
+// Il2CppName: get_NextUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (CertificateList::*)()>(&CertificateList::get_NextUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "get_NextUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateList::ToAsn1Object
+// Il2CppName: ToAsn1Object
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (CertificateList::*)()>(&CertificateList::ToAsn1Object)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateList*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

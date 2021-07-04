@@ -62,35 +62,35 @@ namespace System::Runtime::Remoting::Activation {
   #pragma pack(pop)
   static check_size<sizeof(AppDomainLevelActivator), 24 + sizeof(System::Runtime::Remoting::Activation::IActivator*)> __System_Runtime_Remoting_Activation_AppDomainLevelActivatorSizeCheck;
   static_assert(sizeof(AppDomainLevelActivator) == 0x20);
-  // Writing MetadataGetter for method: AppDomainLevelActivator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomainLevelActivator::*)(::Il2CppString*, System::Runtime::Remoting::Activation::IActivator*)>(&AppDomainLevelActivator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomainLevelActivator::*)(::Il2CppString*, System::Runtime::Remoting::Activation::IActivator*)>(&AppDomainLevelActivator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AppDomainLevelActivator::get_NextActivator
-  // Il2CppName: get_NextActivator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (AppDomainLevelActivator::*)()>(&AppDomainLevelActivator::get_NextActivator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), "get_NextActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AppDomainLevelActivator::Activate
-  // Il2CppName: Activate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage* (AppDomainLevelActivator::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&AppDomainLevelActivator::Activate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::AppDomainLevelActivator*, "System.Runtime.Remoting.Activation", "AppDomainLevelActivator");
+// Writing MetadataGetter for method: AppDomainLevelActivator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomainLevelActivator::*)(::Il2CppString*, System::Runtime::Remoting::Activation::IActivator*)>(&AppDomainLevelActivator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomainLevelActivator::*)(::Il2CppString*, System::Runtime::Remoting::Activation::IActivator*)>(&AppDomainLevelActivator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
+  }
+};
+// Writing MetadataGetter for method: AppDomainLevelActivator::get_NextActivator
+// Il2CppName: get_NextActivator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (AppDomainLevelActivator::*)()>(&AppDomainLevelActivator::get_NextActivator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), "get_NextActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AppDomainLevelActivator::Activate
+// Il2CppName: Activate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage* (AppDomainLevelActivator::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&AppDomainLevelActivator::Activate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppDomainLevelActivator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};

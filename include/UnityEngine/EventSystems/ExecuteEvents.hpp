@@ -345,314 +345,314 @@ namespace UnityEngine::EventSystems {
     static void _cctor();
   }; // UnityEngine.EventSystems.ExecuteEvents
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ExecuteEvents::ValidateEventData
-  // Il2CppName: ValidateEventData
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerEnterHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerEnterHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerExitHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerExitHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerDownHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerDownHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerUpHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerUpHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerClickHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerClickHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IInitializePotentialDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IInitializePotentialDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IBeginDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IBeginDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IEndDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IEndDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDropHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IDropHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IScrollHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IScrollHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IUpdateSelectedHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IUpdateSelectedHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ISelectHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::ISelectHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDeselectHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IDeselectHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IMoveHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IMoveHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ISubmitHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::ISubmitHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ICancelHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::ICancelHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_pointerEnterHandler
-  // Il2CppName: get_pointerEnterHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerEnterHandler*>* (*)()>(&ExecuteEvents::get_pointerEnterHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerEnterHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_pointerExitHandler
-  // Il2CppName: get_pointerExitHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerExitHandler*>* (*)()>(&ExecuteEvents::get_pointerExitHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerExitHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_pointerDownHandler
-  // Il2CppName: get_pointerDownHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerDownHandler*>* (*)()>(&ExecuteEvents::get_pointerDownHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerDownHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_pointerUpHandler
-  // Il2CppName: get_pointerUpHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerUpHandler*>* (*)()>(&ExecuteEvents::get_pointerUpHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerUpHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_pointerClickHandler
-  // Il2CppName: get_pointerClickHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerClickHandler*>* (*)()>(&ExecuteEvents::get_pointerClickHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerClickHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_initializePotentialDrag
-  // Il2CppName: get_initializePotentialDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IInitializePotentialDragHandler*>* (*)()>(&ExecuteEvents::get_initializePotentialDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_initializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_beginDragHandler
-  // Il2CppName: get_beginDragHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IBeginDragHandler*>* (*)()>(&ExecuteEvents::get_beginDragHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_beginDragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_dragHandler
-  // Il2CppName: get_dragHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDragHandler*>* (*)()>(&ExecuteEvents::get_dragHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_dragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_endDragHandler
-  // Il2CppName: get_endDragHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IEndDragHandler*>* (*)()>(&ExecuteEvents::get_endDragHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_endDragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_dropHandler
-  // Il2CppName: get_dropHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDropHandler*>* (*)()>(&ExecuteEvents::get_dropHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_dropHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_scrollHandler
-  // Il2CppName: get_scrollHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IScrollHandler*>* (*)()>(&ExecuteEvents::get_scrollHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_scrollHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_updateSelectedHandler
-  // Il2CppName: get_updateSelectedHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IUpdateSelectedHandler*>* (*)()>(&ExecuteEvents::get_updateSelectedHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_updateSelectedHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_selectHandler
-  // Il2CppName: get_selectHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISelectHandler*>* (*)()>(&ExecuteEvents::get_selectHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_selectHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_deselectHandler
-  // Il2CppName: get_deselectHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDeselectHandler*>* (*)()>(&ExecuteEvents::get_deselectHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_deselectHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_moveHandler
-  // Il2CppName: get_moveHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IMoveHandler*>* (*)()>(&ExecuteEvents::get_moveHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_moveHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_submitHandler
-  // Il2CppName: get_submitHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISubmitHandler*>* (*)()>(&ExecuteEvents::get_submitHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_submitHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::get_cancelHandler
-  // Il2CppName: get_cancelHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ICancelHandler*>* (*)()>(&ExecuteEvents::get_cancelHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_cancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::GetEventChain
-  // Il2CppName: GetEventChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Transform*>*)>(&ExecuteEvents::GetEventChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "GetEventChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Transform*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ExecuteEvents::Execute
-  // Il2CppName: Execute
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ExecuteEvents::ExecuteHierarchy
-  // Il2CppName: ExecuteHierarchy
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ExecuteEvents::ShouldSendToComponent
-  // Il2CppName: ShouldSendToComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ExecuteEvents::GetEventList
-  // Il2CppName: GetEventList
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ExecuteEvents::CanHandleEvent
-  // Il2CppName: CanHandleEvent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ExecuteEvents::GetEventHandler
-  // Il2CppName: GetEventHandler
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ExecuteEvents::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ExecuteEvents::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents*, "UnityEngine.EventSystems", "ExecuteEvents");
+// Writing MetadataGetter for method: ExecuteEvents::ValidateEventData
+// Il2CppName: ValidateEventData
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerEnterHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerEnterHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerExitHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerExitHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerDownHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerDownHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerUpHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerUpHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerClickHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IPointerClickHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IInitializePotentialDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IInitializePotentialDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IBeginDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IBeginDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IEndDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IEndDragHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDropHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IDropHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IScrollHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IScrollHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IUpdateSelectedHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IUpdateSelectedHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ISelectHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::ISelectHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDeselectHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IDeselectHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IMoveHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::IMoveHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ISubmitHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::ISubmitHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ICancelHandler*, UnityEngine::EventSystems::BaseEventData*)>(&ExecuteEvents::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::ICancelHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_pointerEnterHandler
+// Il2CppName: get_pointerEnterHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerEnterHandler*>* (*)()>(&ExecuteEvents::get_pointerEnterHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerEnterHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_pointerExitHandler
+// Il2CppName: get_pointerExitHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerExitHandler*>* (*)()>(&ExecuteEvents::get_pointerExitHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerExitHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_pointerDownHandler
+// Il2CppName: get_pointerDownHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerDownHandler*>* (*)()>(&ExecuteEvents::get_pointerDownHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerDownHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_pointerUpHandler
+// Il2CppName: get_pointerUpHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerUpHandler*>* (*)()>(&ExecuteEvents::get_pointerUpHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerUpHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_pointerClickHandler
+// Il2CppName: get_pointerClickHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerClickHandler*>* (*)()>(&ExecuteEvents::get_pointerClickHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_pointerClickHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_initializePotentialDrag
+// Il2CppName: get_initializePotentialDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IInitializePotentialDragHandler*>* (*)()>(&ExecuteEvents::get_initializePotentialDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_initializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_beginDragHandler
+// Il2CppName: get_beginDragHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IBeginDragHandler*>* (*)()>(&ExecuteEvents::get_beginDragHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_beginDragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_dragHandler
+// Il2CppName: get_dragHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDragHandler*>* (*)()>(&ExecuteEvents::get_dragHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_dragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_endDragHandler
+// Il2CppName: get_endDragHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IEndDragHandler*>* (*)()>(&ExecuteEvents::get_endDragHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_endDragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_dropHandler
+// Il2CppName: get_dropHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDropHandler*>* (*)()>(&ExecuteEvents::get_dropHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_dropHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_scrollHandler
+// Il2CppName: get_scrollHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IScrollHandler*>* (*)()>(&ExecuteEvents::get_scrollHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_scrollHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_updateSelectedHandler
+// Il2CppName: get_updateSelectedHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IUpdateSelectedHandler*>* (*)()>(&ExecuteEvents::get_updateSelectedHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_updateSelectedHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_selectHandler
+// Il2CppName: get_selectHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISelectHandler*>* (*)()>(&ExecuteEvents::get_selectHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_selectHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_deselectHandler
+// Il2CppName: get_deselectHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDeselectHandler*>* (*)()>(&ExecuteEvents::get_deselectHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_deselectHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_moveHandler
+// Il2CppName: get_moveHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IMoveHandler*>* (*)()>(&ExecuteEvents::get_moveHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_moveHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_submitHandler
+// Il2CppName: get_submitHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISubmitHandler*>* (*)()>(&ExecuteEvents::get_submitHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_submitHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::get_cancelHandler
+// Il2CppName: get_cancelHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ICancelHandler*>* (*)()>(&ExecuteEvents::get_cancelHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "get_cancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::GetEventChain
+// Il2CppName: GetEventChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Transform*>*)>(&ExecuteEvents::GetEventChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), "GetEventChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Transform*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ExecuteEvents::Execute
+// Il2CppName: Execute
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExecuteEvents::ExecuteHierarchy
+// Il2CppName: ExecuteHierarchy
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExecuteEvents::ShouldSendToComponent
+// Il2CppName: ShouldSendToComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExecuteEvents::GetEventList
+// Il2CppName: GetEventList
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExecuteEvents::CanHandleEvent
+// Il2CppName: CanHandleEvent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExecuteEvents::GetEventHandler
+// Il2CppName: GetEventHandler
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExecuteEvents::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ExecuteEvents::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

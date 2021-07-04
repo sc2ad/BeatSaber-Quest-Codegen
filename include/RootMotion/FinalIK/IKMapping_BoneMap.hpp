@@ -258,219 +258,219 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKMapping::BoneMap), 204 + sizeof(int)> __RootMotion_FinalIK_IKMapping_BoneMapSizeCheck;
   static_assert(sizeof(IKMapping::BoneMap) == 0xD0);
-  // Writing MetadataGetter for method: IKMapping::BoneMap::Initiate
-  // Il2CppName: Initiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Transform*, RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::Initiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::get_swingDirection
-  // Il2CppName: get_swingDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::get_swingDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "get_swingDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::StoreDefaultLocalState
-  // Il2CppName: StoreDefaultLocalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::StoreDefaultLocalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::FixTransform
-  // Il2CppName: FixTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(bool)>(&IKMapping::BoneMap::FixTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "FixTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::get_isNodeBone
-  // Il2CppName: get_isNodeBone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::get_isNodeBone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "get_isNodeBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::SetLength
-  // Il2CppName: SetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*)>(&IKMapping::BoneMap::SetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::SetLocalSwingAxis
-  // Il2CppName: SetLocalSwingAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*)>(&IKMapping::BoneMap::SetLocalSwingAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLocalSwingAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::SetLocalSwingAxis
-  // Il2CppName: SetLocalSwingAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*, RootMotion::FinalIK::IKMapping::BoneMap*)>(&IKMapping::BoneMap::SetLocalSwingAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLocalSwingAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::SetLocalTwistAxis
-  // Il2CppName: SetLocalTwistAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&IKMapping::BoneMap::SetLocalTwistAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLocalTwistAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::SetPlane
-  // Il2CppName: SetPlane
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&IKMapping::BoneMap::SetPlane)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::UpdatePlane
-  // Il2CppName: UpdatePlane
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(bool, bool)>(&IKMapping::BoneMap::UpdatePlane)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "UpdatePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::SetIKPosition
-  // Il2CppName: SetIKPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::SetIKPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::MaintainRotation
-  // Il2CppName: MaintainRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::MaintainRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "MaintainRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::SetToIKPosition
-  // Il2CppName: SetToIKPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::SetToIKPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetToIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::FixToNode
-  // Il2CppName: FixToNode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float, RootMotion::FinalIK::IKSolver::Node*)>(&IKMapping::BoneMap::FixToNode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "FixToNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolver::Node*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::GetPlanePosition
-  // Il2CppName: GetPlanePosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::GetPlanePosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "GetPlanePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::PositionToPlane
-  // Il2CppName: PositionToPlane
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::PositionToPlane)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "PositionToPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::RotateToPlane
-  // Il2CppName: RotateToPlane
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float)>(&IKMapping::BoneMap::RotateToPlane)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "RotateToPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::Swing
-  // Il2CppName: Swing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, float)>(&IKMapping::BoneMap::Swing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Swing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::Swing
-  // Il2CppName: Swing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&IKMapping::BoneMap::Swing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Swing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::Twist
-  // Il2CppName: Twist
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&IKMapping::BoneMap::Twist)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Twist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::RotateToMaintain
-  // Il2CppName: RotateToMaintain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(float)>(&IKMapping::BoneMap::RotateToMaintain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "RotateToMaintain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::RotateToEffector
-  // Il2CppName: RotateToEffector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float)>(&IKMapping::BoneMap::RotateToEffector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "RotateToEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::GetTargetRotation
-  // Il2CppName: GetTargetRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::GetTargetRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "GetTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::get_lastAnimatedTargetRotation
-  // Il2CppName: get_lastAnimatedTargetRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::get_lastAnimatedTargetRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "get_lastAnimatedTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKMapping::BoneMap::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");
+// Writing MetadataGetter for method: IKMapping::BoneMap::Initiate
+// Il2CppName: Initiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Transform*, RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::Initiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::get_swingDirection
+// Il2CppName: get_swingDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::get_swingDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "get_swingDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::StoreDefaultLocalState
+// Il2CppName: StoreDefaultLocalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::StoreDefaultLocalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::FixTransform
+// Il2CppName: FixTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(bool)>(&IKMapping::BoneMap::FixTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "FixTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::get_isNodeBone
+// Il2CppName: get_isNodeBone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::get_isNodeBone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "get_isNodeBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::SetLength
+// Il2CppName: SetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*)>(&IKMapping::BoneMap::SetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::SetLocalSwingAxis
+// Il2CppName: SetLocalSwingAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*)>(&IKMapping::BoneMap::SetLocalSwingAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLocalSwingAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::SetLocalSwingAxis
+// Il2CppName: SetLocalSwingAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*, RootMotion::FinalIK::IKMapping::BoneMap*)>(&IKMapping::BoneMap::SetLocalSwingAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLocalSwingAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKMapping::BoneMap*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::SetLocalTwistAxis
+// Il2CppName: SetLocalTwistAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&IKMapping::BoneMap::SetLocalTwistAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetLocalTwistAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::SetPlane
+// Il2CppName: SetPlane
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&IKMapping::BoneMap::SetPlane)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::UpdatePlane
+// Il2CppName: UpdatePlane
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(bool, bool)>(&IKMapping::BoneMap::UpdatePlane)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "UpdatePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::SetIKPosition
+// Il2CppName: SetIKPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::SetIKPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::MaintainRotation
+// Il2CppName: MaintainRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::MaintainRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "MaintainRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::SetToIKPosition
+// Il2CppName: SetToIKPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::SetToIKPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "SetToIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::FixToNode
+// Il2CppName: FixToNode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float, RootMotion::FinalIK::IKSolver::Node*)>(&IKMapping::BoneMap::FixToNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "FixToNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolver::Node*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::GetPlanePosition
+// Il2CppName: GetPlanePosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::GetPlanePosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "GetPlanePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::PositionToPlane
+// Il2CppName: PositionToPlane
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::PositionToPlane)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "PositionToPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::RotateToPlane
+// Il2CppName: RotateToPlane
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float)>(&IKMapping::BoneMap::RotateToPlane)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "RotateToPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::Swing
+// Il2CppName: Swing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, float)>(&IKMapping::BoneMap::Swing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Swing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::Swing
+// Il2CppName: Swing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&IKMapping::BoneMap::Swing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Swing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::Twist
+// Il2CppName: Twist
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&IKMapping::BoneMap::Twist)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "Twist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::RotateToMaintain
+// Il2CppName: RotateToMaintain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(float)>(&IKMapping::BoneMap::RotateToMaintain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "RotateToMaintain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::RotateToEffector
+// Il2CppName: RotateToEffector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float)>(&IKMapping::BoneMap::RotateToEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "RotateToEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::GetTargetRotation
+// Il2CppName: GetTargetRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKMapping::BoneMap::GetTargetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "GetTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::get_lastAnimatedTargetRotation
+// Il2CppName: get_lastAnimatedTargetRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::get_lastAnimatedTargetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), "get_lastAnimatedTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKMapping::BoneMap::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMapping::BoneMap::*)()>(&IKMapping::BoneMap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKMapping::BoneMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

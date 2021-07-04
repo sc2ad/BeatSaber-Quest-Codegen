@@ -203,390 +203,390 @@ namespace System::IO {
     static void _cctor();
   }; // System.IO.MonoIO
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MonoIO::GetException
-  // Il2CppName: GetException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::IO::MonoIOError)>(&MonoIO::GetException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetException
-  // Il2CppName: GetException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, System::IO::MonoIOError)>(&MonoIO::GetException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::CreateDirectory
-  // Il2CppName: CreateDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::CreateDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::CreateDirectory
-  // Il2CppName: CreateDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::CreateDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::RemoveDirectory
-  // Il2CppName: RemoveDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::RemoveDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "RemoveDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::RemoveDirectory
-  // Il2CppName: RemoveDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::RemoveDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "RemoveDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetCurrentDirectory
-  // Il2CppName: GetCurrentDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IO::MonoIOError&)>(&MonoIO::GetCurrentDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::DeleteFile
-  // Il2CppName: DeleteFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::DeleteFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DeleteFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::DeleteFile
-  // Il2CppName: DeleteFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::DeleteFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DeleteFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::ReplaceFile
-  // Il2CppName: ReplaceFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ::Il2CppChar*, ::Il2CppChar*, bool, System::IO::MonoIOError&)>(&MonoIO::ReplaceFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ReplaceFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::ReplaceFile
-  // Il2CppName: ReplaceFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, System::IO::MonoIOError&)>(&MonoIO::ReplaceFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ReplaceFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetFileAttributes
-  // Il2CppName: GetFileAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::GetFileAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetFileAttributes
-  // Il2CppName: GetFileAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::GetFileAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetFileType
-  // Il2CppName: GetFileType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MonoFileType (*)(System::IntPtr, System::IO::MonoIOError&)>(&MonoIO::GetFileType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetFileType
-  // Il2CppName: GetFileType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MonoFileType (*)(System::Runtime::InteropServices::SafeHandle*, System::IO::MonoIOError&)>(&MonoIO::GetFileType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::FindFirstFile
-  // Il2CppName: FindFirstFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppChar*, ::Il2CppString*&, int&, int&)>(&MonoIO::FindFirstFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindFirstFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::FindFirstFile
-  // Il2CppName: FindFirstFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, ::Il2CppString*&, int&, int&)>(&MonoIO::FindFirstFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindFirstFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::FindNextFile
-  // Il2CppName: FindNextFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, ::Il2CppString*&, int&, int&)>(&MonoIO::FindNextFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindNextFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::FindCloseFile
-  // Il2CppName: FindCloseFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&MonoIO::FindCloseFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindCloseFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::ExistsFile
-  // Il2CppName: ExistsFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::ExistsFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ExistsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::ExistsDirectory
-  // Il2CppName: ExistsDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::ExistsDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ExistsDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::ExistsSymlink
-  // Il2CppName: ExistsSymlink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::ExistsSymlink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ExistsSymlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetFileStat
-  // Il2CppName: GetFileStat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOStat&, System::IO::MonoIOError&)>(&MonoIO::GetFileStat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileStat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOStat&>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetFileStat
-  // Il2CppName: GetFileStat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOStat&, System::IO::MonoIOError&)>(&MonoIO::GetFileStat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileStat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOStat&>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Open
-  // Il2CppName: Open
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppChar*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, System::IO::FileOptions, System::IO::MonoIOError&)>(&MonoIO::Open)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileOptions>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Open
-  // Il2CppName: Open
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, System::IO::FileOptions, System::IO::MonoIOError&)>(&MonoIO::Open)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileOptions>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IO::MonoIOError&)>(&MonoIO::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Read
-  // Il2CppName: Read
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Array<uint8_t>*, int, int, System::IO::MonoIOError&)>(&MonoIO::Read)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Read
-  // Il2CppName: Read
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::Array<uint8_t>*, int, int, System::IO::MonoIOError&)>(&MonoIO::Read)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Write
-  // Il2CppName: Write
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Array<uint8_t>*&, int, int, System::IO::MonoIOError&)>(&MonoIO::Write)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Write
-  // Il2CppName: Write
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::Array<uint8_t>*, int, int, System::IO::MonoIOError&)>(&MonoIO::Write)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Seek
-  // Il2CppName: Seek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, int64_t, System::IO::SeekOrigin, System::IO::MonoIOError&)>(&MonoIO::Seek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::Seek
-  // Il2CppName: Seek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, System::IO::SeekOrigin, System::IO::MonoIOError&)>(&MonoIO::Seek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetLength
-  // Il2CppName: GetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, System::IO::MonoIOError&)>(&MonoIO::GetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::GetLength
-  // Il2CppName: GetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Runtime::InteropServices::SafeHandle*, System::IO::MonoIOError&)>(&MonoIO::GetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::SetLength
-  // Il2CppName: SetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int64_t, System::IO::MonoIOError&)>(&MonoIO::SetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::SetLength
-  // Il2CppName: SetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, System::IO::MonoIOError&)>(&MonoIO::SetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::get_ConsoleOutput
-  // Il2CppName: get_ConsoleOutput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MonoIO::get_ConsoleOutput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_ConsoleOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::get_ConsoleInput
-  // Il2CppName: get_ConsoleInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MonoIO::get_ConsoleInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_ConsoleInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::get_ConsoleError
-  // Il2CppName: get_ConsoleError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MonoIO::get_ConsoleError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_ConsoleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::DuplicateHandle
-  // Il2CppName: DuplicateHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, System::IntPtr, System::IntPtr&, int, int, int, System::IO::MonoIOError&)>(&MonoIO::DuplicateHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::get_VolumeSeparatorChar
-  // Il2CppName: get_VolumeSeparatorChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_VolumeSeparatorChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_VolumeSeparatorChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::get_DirectorySeparatorChar
-  // Il2CppName: get_DirectorySeparatorChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_DirectorySeparatorChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_DirectorySeparatorChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::get_AltDirectorySeparatorChar
-  // Il2CppName: get_AltDirectorySeparatorChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_AltDirectorySeparatorChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_AltDirectorySeparatorChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::get_PathSeparator
-  // Il2CppName: get_PathSeparator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_PathSeparator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_PathSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::DumpHandles
-  // Il2CppName: DumpHandles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoIO::DumpHandles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DumpHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::RemapPath
-  // Il2CppName: RemapPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&)>(&MonoIO::RemapPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), "RemapPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoIO::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoIO::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoIO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIO*, "System.IO", "MonoIO");
+// Writing MetadataGetter for method: MonoIO::GetException
+// Il2CppName: GetException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::IO::MonoIOError)>(&MonoIO::GetException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetException
+// Il2CppName: GetException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, System::IO::MonoIOError)>(&MonoIO::GetException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::CreateDirectory
+// Il2CppName: CreateDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::CreateDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::CreateDirectory
+// Il2CppName: CreateDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::CreateDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::RemoveDirectory
+// Il2CppName: RemoveDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::RemoveDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "RemoveDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::RemoveDirectory
+// Il2CppName: RemoveDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::RemoveDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "RemoveDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetCurrentDirectory
+// Il2CppName: GetCurrentDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IO::MonoIOError&)>(&MonoIO::GetCurrentDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::DeleteFile
+// Il2CppName: DeleteFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::DeleteFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DeleteFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::DeleteFile
+// Il2CppName: DeleteFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::DeleteFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DeleteFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::ReplaceFile
+// Il2CppName: ReplaceFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ::Il2CppChar*, ::Il2CppChar*, bool, System::IO::MonoIOError&)>(&MonoIO::ReplaceFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ReplaceFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::ReplaceFile
+// Il2CppName: ReplaceFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, System::IO::MonoIOError&)>(&MonoIO::ReplaceFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ReplaceFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetFileAttributes
+// Il2CppName: GetFileAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::Il2CppChar*, System::IO::MonoIOError&)>(&MonoIO::GetFileAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetFileAttributes
+// Il2CppName: GetFileAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::GetFileAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetFileType
+// Il2CppName: GetFileType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MonoFileType (*)(System::IntPtr, System::IO::MonoIOError&)>(&MonoIO::GetFileType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetFileType
+// Il2CppName: GetFileType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MonoFileType (*)(System::Runtime::InteropServices::SafeHandle*, System::IO::MonoIOError&)>(&MonoIO::GetFileType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::FindFirstFile
+// Il2CppName: FindFirstFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppChar*, ::Il2CppString*&, int&, int&)>(&MonoIO::FindFirstFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindFirstFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::FindFirstFile
+// Il2CppName: FindFirstFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, ::Il2CppString*&, int&, int&)>(&MonoIO::FindFirstFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindFirstFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::FindNextFile
+// Il2CppName: FindNextFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, ::Il2CppString*&, int&, int&)>(&MonoIO::FindNextFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindNextFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::FindCloseFile
+// Il2CppName: FindCloseFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&MonoIO::FindCloseFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "FindCloseFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::ExistsFile
+// Il2CppName: ExistsFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::ExistsFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ExistsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::ExistsDirectory
+// Il2CppName: ExistsDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::ExistsDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ExistsDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::ExistsSymlink
+// Il2CppName: ExistsSymlink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOError&)>(&MonoIO::ExistsSymlink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "ExistsSymlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetFileStat
+// Il2CppName: GetFileStat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, System::IO::MonoIOStat&, System::IO::MonoIOError&)>(&MonoIO::GetFileStat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileStat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOStat&>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetFileStat
+// Il2CppName: GetFileStat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IO::MonoIOStat&, System::IO::MonoIOError&)>(&MonoIO::GetFileStat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetFileStat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOStat&>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Open
+// Il2CppName: Open
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppChar*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, System::IO::FileOptions, System::IO::MonoIOError&)>(&MonoIO::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileOptions>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Open
+// Il2CppName: Open
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, System::IO::FileOptions, System::IO::MonoIOError&)>(&MonoIO::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileOptions>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IO::MonoIOError&)>(&MonoIO::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Read
+// Il2CppName: Read
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Array<uint8_t>*, int, int, System::IO::MonoIOError&)>(&MonoIO::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Read
+// Il2CppName: Read
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::Array<uint8_t>*, int, int, System::IO::MonoIOError&)>(&MonoIO::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Write
+// Il2CppName: Write
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Array<uint8_t>*&, int, int, System::IO::MonoIOError&)>(&MonoIO::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Write
+// Il2CppName: Write
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::Array<uint8_t>*, int, int, System::IO::MonoIOError&)>(&MonoIO::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Seek
+// Il2CppName: Seek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, int64_t, System::IO::SeekOrigin, System::IO::MonoIOError&)>(&MonoIO::Seek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::Seek
+// Il2CppName: Seek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, System::IO::SeekOrigin, System::IO::MonoIOError&)>(&MonoIO::Seek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetLength
+// Il2CppName: GetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, System::IO::MonoIOError&)>(&MonoIO::GetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::GetLength
+// Il2CppName: GetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Runtime::InteropServices::SafeHandle*, System::IO::MonoIOError&)>(&MonoIO::GetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::SetLength
+// Il2CppName: SetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int64_t, System::IO::MonoIOError&)>(&MonoIO::SetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::SetLength
+// Il2CppName: SetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, System::IO::MonoIOError&)>(&MonoIO::SetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::get_ConsoleOutput
+// Il2CppName: get_ConsoleOutput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MonoIO::get_ConsoleOutput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_ConsoleOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::get_ConsoleInput
+// Il2CppName: get_ConsoleInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MonoIO::get_ConsoleInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_ConsoleInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::get_ConsoleError
+// Il2CppName: get_ConsoleError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MonoIO::get_ConsoleError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_ConsoleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::DuplicateHandle
+// Il2CppName: DuplicateHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, System::IntPtr, System::IntPtr&, int, int, int, System::IO::MonoIOError&)>(&MonoIO::DuplicateHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOError&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::get_VolumeSeparatorChar
+// Il2CppName: get_VolumeSeparatorChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_VolumeSeparatorChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_VolumeSeparatorChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::get_DirectorySeparatorChar
+// Il2CppName: get_DirectorySeparatorChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_DirectorySeparatorChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_DirectorySeparatorChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::get_AltDirectorySeparatorChar
+// Il2CppName: get_AltDirectorySeparatorChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_AltDirectorySeparatorChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_AltDirectorySeparatorChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::get_PathSeparator
+// Il2CppName: get_PathSeparator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)()>(&MonoIO::get_PathSeparator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "get_PathSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::DumpHandles
+// Il2CppName: DumpHandles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoIO::DumpHandles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "DumpHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::RemapPath
+// Il2CppName: RemapPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&)>(&MonoIO::RemapPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), "RemapPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoIO::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoIO::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoIO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

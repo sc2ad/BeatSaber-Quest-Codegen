@@ -155,151 +155,151 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(TestSuite), 136 + sizeof(bool)> __NUnit_Framework_Internal_TestSuiteSizeCheck;
   static_assert(sizeof(TestSuite) == 0x89);
-  // Writing MetadataGetter for method: TestSuite::Sort
-  // Il2CppName: Sort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)()>(&TestSuite::Sort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(NUnit::Framework::Internal::Test*)>(&TestSuite::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::get_Arguments
-  // Il2CppName: get_Arguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (TestSuite::*)()>(&TestSuite::get_Arguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::set_Arguments
-  // Il2CppName: set_Arguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Array<::Il2CppObject*>*)>(&TestSuite::set_Arguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::get_MaintainTestOrder
-  // Il2CppName: get_MaintainTestOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestSuite::*)()>(&TestSuite::get_MaintainTestOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_MaintainTestOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::set_MaintainTestOrder
-  // Il2CppName: set_MaintainTestOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(bool)>(&TestSuite::set_MaintainTestOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "set_MaintainTestOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::CheckSetUpTearDownMethods
-  // Il2CppName: CheckSetUpTearDownMethods
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(System::Type*)>(&TestSuite::CheckSetUpTearDownMethods)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "CheckSetUpTearDownMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*, ::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*, ::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::get_Tests
-  // Il2CppName: get_Tests
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* (TestSuite::*)()>(&TestSuite::get_Tests)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_Tests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::get_TestCaseCount
-  // Il2CppName: get_TestCaseCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TestSuite::*)()>(&TestSuite::get_TestCaseCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_TestCaseCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::MakeTestResult
-  // Il2CppName: MakeTestResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (TestSuite::*)()>(&TestSuite::MakeTestResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "MakeTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::get_HasChildren
-  // Il2CppName: get_HasChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestSuite::*)()>(&TestSuite::get_HasChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_HasChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::get_XmlElementName
-  // Il2CppName: get_XmlElementName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TestSuite::*)()>(&TestSuite::get_XmlElementName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestSuite::AddToXml
-  // Il2CppName: AddToXml
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (TestSuite::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&TestSuite::AddToXml)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestSuite*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.Internal", "TestSuite");
+// Writing MetadataGetter for method: TestSuite::Sort
+// Il2CppName: Sort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)()>(&TestSuite::Sort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(NUnit::Framework::Internal::Test*)>(&TestSuite::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::get_Arguments
+// Il2CppName: get_Arguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (TestSuite::*)()>(&TestSuite::get_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::set_Arguments
+// Il2CppName: set_Arguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Array<::Il2CppObject*>*)>(&TestSuite::set_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::get_MaintainTestOrder
+// Il2CppName: get_MaintainTestOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestSuite::*)()>(&TestSuite::get_MaintainTestOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_MaintainTestOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::set_MaintainTestOrder
+// Il2CppName: set_MaintainTestOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(bool)>(&TestSuite::set_MaintainTestOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "set_MaintainTestOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::CheckSetUpTearDownMethods
+// Il2CppName: CheckSetUpTearDownMethods
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(System::Type*)>(&TestSuite::CheckSetUpTearDownMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "CheckSetUpTearDownMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*, ::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(::Il2CppString*, ::Il2CppString*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSuite::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&TestSuite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::get_Tests
+// Il2CppName: get_Tests
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* (TestSuite::*)()>(&TestSuite::get_Tests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_Tests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::get_TestCaseCount
+// Il2CppName: get_TestCaseCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TestSuite::*)()>(&TestSuite::get_TestCaseCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_TestCaseCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::MakeTestResult
+// Il2CppName: MakeTestResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (TestSuite::*)()>(&TestSuite::MakeTestResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "MakeTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::get_HasChildren
+// Il2CppName: get_HasChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestSuite::*)()>(&TestSuite::get_HasChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_HasChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::get_XmlElementName
+// Il2CppName: get_XmlElementName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TestSuite::*)()>(&TestSuite::get_XmlElementName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestSuite::AddToXml
+// Il2CppName: AddToXml
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (TestSuite::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&TestSuite::AddToXml)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestSuite*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

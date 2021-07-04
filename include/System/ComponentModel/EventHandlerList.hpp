@@ -51,22 +51,22 @@ namespace System::ComponentModel {
   #pragma pack(pop)
   static check_size<sizeof(EventHandlerList), 24 + sizeof(System::ComponentModel::Component*)> __System_ComponentModel_EventHandlerListSizeCheck;
   static_assert(sizeof(EventHandlerList) == 0x20);
-  // Writing MetadataGetter for method: EventHandlerList::get_Item
-  // Il2CppName: get_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (EventHandlerList::*)(::Il2CppObject*)>(&EventHandlerList::get_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EventHandlerList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EventHandlerList::Find
-  // Il2CppName: Find
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::EventHandlerList::ListEntry* (EventHandlerList::*)(::Il2CppObject*)>(&EventHandlerList::Find)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EventHandlerList*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList*, "System.ComponentModel", "EventHandlerList");
+// Writing MetadataGetter for method: EventHandlerList::get_Item
+// Il2CppName: get_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (EventHandlerList::*)(::Il2CppObject*)>(&EventHandlerList::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EventHandlerList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: EventHandlerList::Find
+// Il2CppName: Find
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::EventHandlerList::ListEntry* (EventHandlerList::*)(::Il2CppObject*)>(&EventHandlerList::Find)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EventHandlerList*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

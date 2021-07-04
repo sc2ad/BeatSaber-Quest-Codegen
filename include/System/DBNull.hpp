@@ -137,193 +137,193 @@ namespace System {
     ::Il2CppString* ToString();
   }; // System.DBNull
   #pragma pack(pop)
-  // Writing MetadataGetter for method: DBNull::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::GetObjectData
-  // Il2CppName: GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&DBNull::GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DBNull::*)(System::IFormatProvider*)>(&DBNull::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::GetTypeCode
-  // Il2CppName: GetTypeCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (DBNull::*)()>(&DBNull::GetTypeCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToBoolean
-  // Il2CppName: System.IConvertible.ToBoolean
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToBoolean)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToChar
-  // Il2CppName: System.IConvertible.ToChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToSByte
-  // Il2CppName: System.IConvertible.ToSByte
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToSByte)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToByte
-  // Il2CppName: System.IConvertible.ToByte
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToByte)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToInt16
-  // Il2CppName: System.IConvertible.ToInt16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToInt16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToUInt16
-  // Il2CppName: System.IConvertible.ToUInt16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToUInt16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToInt32
-  // Il2CppName: System.IConvertible.ToInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToUInt32
-  // Il2CppName: System.IConvertible.ToUInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToUInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToInt64
-  // Il2CppName: System.IConvertible.ToInt64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToInt64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToUInt64
-  // Il2CppName: System.IConvertible.ToUInt64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToUInt64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToSingle
-  // Il2CppName: System.IConvertible.ToSingle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToSingle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToDouble
-  // Il2CppName: System.IConvertible.ToDouble
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToDouble)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToDecimal
-  // Il2CppName: System.IConvertible.ToDecimal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToDecimal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToDateTime
-  // Il2CppName: System.IConvertible.ToDateTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToDateTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::System_IConvertible_ToType
-  // Il2CppName: System.IConvertible.ToType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DBNull::*)(System::Type*, System::IFormatProvider*)>(&DBNull::System_IConvertible_ToType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DBNull::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)()>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)()>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DBNull::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DBNull::*)()>(&DBNull::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DBNull*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DBNull*, "System", "DBNull");
+// Writing MetadataGetter for method: DBNull::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::GetObjectData
+// Il2CppName: GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&DBNull::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DBNull::*)(System::IFormatProvider*)>(&DBNull::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::GetTypeCode
+// Il2CppName: GetTypeCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (DBNull::*)()>(&DBNull::GetTypeCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToBoolean
+// Il2CppName: System.IConvertible.ToBoolean
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToBoolean)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToChar
+// Il2CppName: System.IConvertible.ToChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToSByte
+// Il2CppName: System.IConvertible.ToSByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToSByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToByte
+// Il2CppName: System.IConvertible.ToByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToInt16
+// Il2CppName: System.IConvertible.ToInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToUInt16
+// Il2CppName: System.IConvertible.ToUInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToUInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToInt32
+// Il2CppName: System.IConvertible.ToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToUInt32
+// Il2CppName: System.IConvertible.ToUInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToInt64
+// Il2CppName: System.IConvertible.ToInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToUInt64
+// Il2CppName: System.IConvertible.ToUInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToSingle
+// Il2CppName: System.IConvertible.ToSingle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToDouble
+// Il2CppName: System.IConvertible.ToDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToDecimal
+// Il2CppName: System.IConvertible.ToDecimal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToDateTime
+// Il2CppName: System.IConvertible.ToDateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (DBNull::*)(System::IFormatProvider*)>(&DBNull::System_IConvertible_ToDateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::System_IConvertible_ToType
+// Il2CppName: System.IConvertible.ToType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DBNull::*)(System::Type*, System::IFormatProvider*)>(&DBNull::System_IConvertible_ToType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: DBNull::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DBNull::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DBNull::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)()>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DBNull::*)()>(&DBNull::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DBNull::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DBNull::*)()>(&DBNull::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DBNull*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

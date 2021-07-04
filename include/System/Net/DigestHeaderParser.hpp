@@ -87,99 +87,99 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Net_DigestHeaderParserSizeCheck;
   static_assert(sizeof(DigestHeaderParser) == 0x28);
-  // Writing MetadataGetter for method: DigestHeaderParser::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestHeaderParser::*)(::Il2CppString*)>(&DigestHeaderParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestHeaderParser::*)(::Il2CppString*)>(&DigestHeaderParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::get_Realm
-  // Il2CppName: get_Realm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Realm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Realm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::get_Opaque
-  // Il2CppName: get_Opaque
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Opaque)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Opaque", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::get_Nonce
-  // Il2CppName: get_Nonce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Nonce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Nonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::get_Algorithm
-  // Il2CppName: get_Algorithm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Algorithm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::get_QOP
-  // Il2CppName: get_QOP
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_QOP)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_QOP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::Parse
-  // Il2CppName: Parse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DigestHeaderParser::*)()>(&DigestHeaderParser::Parse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::SkipWhitespace
-  // Il2CppName: SkipWhitespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestHeaderParser::*)()>(&DigestHeaderParser::SkipWhitespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "SkipWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::GetKey
-  // Il2CppName: GetKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::GetKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::GetKeywordAndValue
-  // Il2CppName: GetKeywordAndValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DigestHeaderParser::*)(::Il2CppString*&, ::Il2CppString*&)>(&DigestHeaderParser::GetKeywordAndValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "GetKeywordAndValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: DigestHeaderParser::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DigestHeaderParser::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");
+// Writing MetadataGetter for method: DigestHeaderParser::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestHeaderParser::*)(::Il2CppString*)>(&DigestHeaderParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestHeaderParser::*)(::Il2CppString*)>(&DigestHeaderParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::get_Realm
+// Il2CppName: get_Realm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Realm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Realm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::get_Opaque
+// Il2CppName: get_Opaque
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Opaque)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Opaque", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::get_Nonce
+// Il2CppName: get_Nonce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Nonce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Nonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::get_Algorithm
+// Il2CppName: get_Algorithm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_Algorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::get_QOP
+// Il2CppName: get_QOP
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::get_QOP)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "get_QOP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DigestHeaderParser::*)()>(&DigestHeaderParser::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::SkipWhitespace
+// Il2CppName: SkipWhitespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestHeaderParser::*)()>(&DigestHeaderParser::SkipWhitespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "SkipWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::GetKey
+// Il2CppName: GetKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestHeaderParser::*)()>(&DigestHeaderParser::GetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::GetKeywordAndValue
+// Il2CppName: GetKeywordAndValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DigestHeaderParser::*)(::Il2CppString*&, ::Il2CppString*&)>(&DigestHeaderParser::GetKeywordAndValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), "GetKeywordAndValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: DigestHeaderParser::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DigestHeaderParser::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DigestHeaderParser*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

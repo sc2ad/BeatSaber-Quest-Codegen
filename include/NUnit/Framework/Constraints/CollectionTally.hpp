@@ -71,51 +71,51 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
   static check_size<sizeof(CollectionTally), 24 + sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*)> __NUnit_Framework_Constraints_CollectionTallySizeCheck;
   static_assert(sizeof(CollectionTally) == 0x20);
-  // Writing MetadataGetter for method: CollectionTally::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&CollectionTally::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&CollectionTally::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionTally::get_Count
-  // Il2CppName: get_Count
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionTally::*)()>(&CollectionTally::get_Count)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionTally::ItemsEqual
-  // Il2CppName: ItemsEqual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(::Il2CppObject*, ::Il2CppObject*)>(&CollectionTally::ItemsEqual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "ItemsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionTally::TryRemove
-  // Il2CppName: TryRemove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(::Il2CppObject*)>(&CollectionTally::TryRemove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionTally::TryRemove
-  // Il2CppName: TryRemove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(System::Collections::IEnumerable*)>(&CollectionTally::TryRemove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::CollectionTally*, "NUnit.Framework.Constraints", "CollectionTally");
+// Writing MetadataGetter for method: CollectionTally::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&CollectionTally::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&CollectionTally::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionTally::get_Count
+// Il2CppName: get_Count
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionTally::*)()>(&CollectionTally::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionTally::ItemsEqual
+// Il2CppName: ItemsEqual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(::Il2CppObject*, ::Il2CppObject*)>(&CollectionTally::ItemsEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "ItemsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionTally::TryRemove
+// Il2CppName: TryRemove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(::Il2CppObject*)>(&CollectionTally::TryRemove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionTally::TryRemove
+// Il2CppName: TryRemove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(System::Collections::IEnumerable*)>(&CollectionTally::TryRemove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+  }
+};

@@ -55,27 +55,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TextMeshProAutosizeGroup), 24 + sizeof(::Array<TMPro::TMP_Text*>*)> __GlobalNamespace_TextMeshProAutosizeGroupSizeCheck;
   static_assert(sizeof(TextMeshProAutosizeGroup) == 0x20);
-  // Writing MetadataGetter for method: TextMeshProAutosizeGroup::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProAutosizeGroup::*)()>(&TextMeshProAutosizeGroup::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProAutosizeGroup*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextMeshProAutosizeGroup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProAutosizeGroup::*)()>(&TextMeshProAutosizeGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProAutosizeGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProAutosizeGroup::*)()>(&TextMeshProAutosizeGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextMeshProAutosizeGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProAutosizeGroup*, "", "TextMeshProAutosizeGroup");
+// Writing MetadataGetter for method: TextMeshProAutosizeGroup::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProAutosizeGroup::*)()>(&TextMeshProAutosizeGroup::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProAutosizeGroup*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextMeshProAutosizeGroup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProAutosizeGroup::*)()>(&TextMeshProAutosizeGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProAutosizeGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMeshProAutosizeGroup::*)()>(&TextMeshProAutosizeGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextMeshProAutosizeGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

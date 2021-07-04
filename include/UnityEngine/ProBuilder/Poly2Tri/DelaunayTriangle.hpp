@@ -147,235 +147,235 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: DelaunayTriangle::get_IsInterior
-  // Il2CppName: get_IsInterior
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)()>(&DelaunayTriangle::get_IsInterior)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "get_IsInterior", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::set_IsInterior
-  // Il2CppName: set_IsInterior
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(bool)>(&DelaunayTriangle::set_IsInterior)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "set_IsInterior", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::IndexOf
-  // Il2CppName: IndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::IndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::IndexCCWFrom
-  // Il2CppName: IndexCCWFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::IndexCCWFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "IndexCCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::Contains
-  // Il2CppName: Contains
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::Contains)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::MarkNeighbor
-  // Il2CppName: MarkNeighbor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&DelaunayTriangle::MarkNeighbor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::MarkNeighbor
-  // Il2CppName: MarkNeighbor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&DelaunayTriangle::MarkNeighbor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::OppositePoint
-  // Il2CppName: OppositePoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::OppositePoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "OppositePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::NeighborCWFrom
-  // Il2CppName: NeighborCWFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::NeighborCWFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "NeighborCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::NeighborCCWFrom
-  // Il2CppName: NeighborCCWFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::NeighborCCWFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "NeighborCCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::NeighborAcrossFrom
-  // Il2CppName: NeighborAcrossFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::NeighborAcrossFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "NeighborAcrossFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::PointCCWFrom
-  // Il2CppName: PointCCWFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::PointCCWFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "PointCCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::PointCWFrom
-  // Il2CppName: PointCWFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::PointCWFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "PointCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::RotateCW
-  // Il2CppName: RotateCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)()>(&DelaunayTriangle::RotateCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "RotateCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::Legalize
-  // Il2CppName: Legalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::Legalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "Legalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::MarkConstrainedEdge
-  // Il2CppName: MarkConstrainedEdge
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(int)>(&DelaunayTriangle::MarkConstrainedEdge)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkConstrainedEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::MarkConstrainedEdge
-  // Il2CppName: MarkConstrainedEdge
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::MarkConstrainedEdge)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkConstrainedEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::EdgeIndex
-  // Il2CppName: EdgeIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::EdgeIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "EdgeIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::GetConstrainedEdgeCCW
-  // Il2CppName: GetConstrainedEdgeCCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetConstrainedEdgeCCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetConstrainedEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::GetConstrainedEdgeCW
-  // Il2CppName: GetConstrainedEdgeCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetConstrainedEdgeCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetConstrainedEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::SetConstrainedEdgeCCW
-  // Il2CppName: SetConstrainedEdgeCCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetConstrainedEdgeCCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetConstrainedEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::SetConstrainedEdgeCW
-  // Il2CppName: SetConstrainedEdgeCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetConstrainedEdgeCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetConstrainedEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::GetDelaunayEdgeCCW
-  // Il2CppName: GetDelaunayEdgeCCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetDelaunayEdgeCCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetDelaunayEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::GetDelaunayEdgeCW
-  // Il2CppName: GetDelaunayEdgeCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetDelaunayEdgeCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetDelaunayEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::SetDelaunayEdgeCCW
-  // Il2CppName: SetDelaunayEdgeCCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetDelaunayEdgeCCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetDelaunayEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::SetDelaunayEdgeCW
-  // Il2CppName: SetDelaunayEdgeCW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetDelaunayEdgeCW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetDelaunayEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelaunayTriangle::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DelaunayTriangle::*)()>(&DelaunayTriangle::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, "UnityEngine.ProBuilder.Poly2Tri", "DelaunayTriangle");
+// Writing MetadataGetter for method: DelaunayTriangle::get_IsInterior
+// Il2CppName: get_IsInterior
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)()>(&DelaunayTriangle::get_IsInterior)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "get_IsInterior", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::set_IsInterior
+// Il2CppName: set_IsInterior
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(bool)>(&DelaunayTriangle::set_IsInterior)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "set_IsInterior", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::IndexOf
+// Il2CppName: IndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::IndexCCWFrom
+// Il2CppName: IndexCCWFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::IndexCCWFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "IndexCCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::Contains
+// Il2CppName: Contains
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::MarkNeighbor
+// Il2CppName: MarkNeighbor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&DelaunayTriangle::MarkNeighbor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::MarkNeighbor
+// Il2CppName: MarkNeighbor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&DelaunayTriangle::MarkNeighbor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::OppositePoint
+// Il2CppName: OppositePoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::OppositePoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "OppositePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::NeighborCWFrom
+// Il2CppName: NeighborCWFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::NeighborCWFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "NeighborCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::NeighborCCWFrom
+// Il2CppName: NeighborCCWFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::NeighborCCWFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "NeighborCCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::NeighborAcrossFrom
+// Il2CppName: NeighborAcrossFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::NeighborAcrossFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "NeighborAcrossFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::PointCCWFrom
+// Il2CppName: PointCCWFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::PointCCWFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "PointCCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::PointCWFrom
+// Il2CppName: PointCWFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::PointCWFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "PointCWFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::RotateCW
+// Il2CppName: RotateCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)()>(&DelaunayTriangle::RotateCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "RotateCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::Legalize
+// Il2CppName: Legalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::Legalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "Legalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::MarkConstrainedEdge
+// Il2CppName: MarkConstrainedEdge
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(int)>(&DelaunayTriangle::MarkConstrainedEdge)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkConstrainedEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::MarkConstrainedEdge
+// Il2CppName: MarkConstrainedEdge
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::MarkConstrainedEdge)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "MarkConstrainedEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::EdgeIndex
+// Il2CppName: EdgeIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::EdgeIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "EdgeIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::GetConstrainedEdgeCCW
+// Il2CppName: GetConstrainedEdgeCCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetConstrainedEdgeCCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetConstrainedEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::GetConstrainedEdgeCW
+// Il2CppName: GetConstrainedEdgeCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetConstrainedEdgeCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetConstrainedEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::SetConstrainedEdgeCCW
+// Il2CppName: SetConstrainedEdgeCCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetConstrainedEdgeCCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetConstrainedEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::SetConstrainedEdgeCW
+// Il2CppName: SetConstrainedEdgeCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetConstrainedEdgeCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetConstrainedEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::GetDelaunayEdgeCCW
+// Il2CppName: GetDelaunayEdgeCCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetDelaunayEdgeCCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetDelaunayEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::GetDelaunayEdgeCW
+// Il2CppName: GetDelaunayEdgeCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DelaunayTriangle::GetDelaunayEdgeCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "GetDelaunayEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::SetDelaunayEdgeCCW
+// Il2CppName: SetDelaunayEdgeCCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetDelaunayEdgeCCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetDelaunayEdgeCCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::SetDelaunayEdgeCW
+// Il2CppName: SetDelaunayEdgeCW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelaunayTriangle::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(&DelaunayTriangle::SetDelaunayEdgeCW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "SetDelaunayEdgeCW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DelaunayTriangle::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DelaunayTriangle::*)()>(&DelaunayTriangle::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelaunayTriangle*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

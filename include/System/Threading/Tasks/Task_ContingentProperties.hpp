@@ -114,35 +114,35 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
   static check_size<sizeof(Task::ContingentProperties), 64 + sizeof(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*)> __System_Threading_Tasks_Task_ContingentPropertiesSizeCheck;
   static_assert(sizeof(Task::ContingentProperties) == 0x48);
-  // Writing MetadataGetter for method: Task::ContingentProperties::SetCompleted
-  // Il2CppName: SetCompleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::SetCompleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Task::ContingentProperties::DeregisterCancellationCallback
-  // Il2CppName: DeregisterCancellationCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::DeregisterCancellationCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), "DeregisterCancellationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Task::ContingentProperties::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::ContingentProperties*, "System.Threading.Tasks", "Task/ContingentProperties");
+// Writing MetadataGetter for method: Task::ContingentProperties::SetCompleted
+// Il2CppName: SetCompleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::SetCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Task::ContingentProperties::DeregisterCancellationCallback
+// Il2CppName: DeregisterCancellationCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::DeregisterCancellationCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), "DeregisterCancellationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Task::ContingentProperties::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::ContingentProperties::*)()>(&Task::ContingentProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::ContingentProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

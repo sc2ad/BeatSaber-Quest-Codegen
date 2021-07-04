@@ -130,131 +130,131 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
   static check_size<sizeof(RegexFCD), 46 + sizeof(bool)> __System_Text_RegularExpressions_RegexFCDSizeCheck;
   static_assert(sizeof(RegexFCD) == 0x2F);
-  // Writing MetadataGetter for method: RegexFCD::FirstChars
-  // Il2CppName: FirstChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexPrefix* (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::FirstChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "FirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::Prefix
-  // Il2CppName: Prefix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexPrefix* (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::Prefix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::Anchors
-  // Il2CppName: Anchors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::Anchors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "Anchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::AnchorFromType
-  // Il2CppName: AnchorFromType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&RegexFCD::AnchorFromType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "AnchorFromType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::PushInt
-  // Il2CppName: PushInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)(int)>(&RegexFCD::PushInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PushInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::IntIsEmpty
-  // Il2CppName: IntIsEmpty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexFCD::*)()>(&RegexFCD::IntIsEmpty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "IntIsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::PopInt
-  // Il2CppName: PopInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexFCD::*)()>(&RegexFCD::PopInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PopInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::PushFC
-  // Il2CppName: PushFC
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)(System::Text::RegularExpressions::RegexFC*)>(&RegexFCD::PushFC)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PushFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexFC*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::FCIsEmpty
-  // Il2CppName: FCIsEmpty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexFCD::*)()>(&RegexFCD::FCIsEmpty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "FCIsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::PopFC
-  // Il2CppName: PopFC
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (RegexFCD::*)()>(&RegexFCD::PopFC)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PopFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::TopFC
-  // Il2CppName: TopFC
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (RegexFCD::*)()>(&RegexFCD::TopFC)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "TopFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::RegexFCFromRegexTree
-  // Il2CppName: RegexFCFromRegexTree
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (RegexFCD::*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::RegexFCFromRegexTree)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "RegexFCFromRegexTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::SkipChild
-  // Il2CppName: SkipChild
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)()>(&RegexFCD::SkipChild)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "SkipChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::CalculateFC
-  // Il2CppName: CalculateFC
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)(int, System::Text::RegularExpressions::RegexNode*, int)>(&RegexFCD::CalculateFC)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "CalculateFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexNode*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexFCD::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)()>(&RegexFCD::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)()>(&RegexFCD::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexFCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFCD*, "System.Text.RegularExpressions", "RegexFCD");
+// Writing MetadataGetter for method: RegexFCD::FirstChars
+// Il2CppName: FirstChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexPrefix* (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::FirstChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "FirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::Prefix
+// Il2CppName: Prefix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexPrefix* (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::Prefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::Anchors
+// Il2CppName: Anchors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::Anchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "Anchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::AnchorFromType
+// Il2CppName: AnchorFromType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&RegexFCD::AnchorFromType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "AnchorFromType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::PushInt
+// Il2CppName: PushInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)(int)>(&RegexFCD::PushInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PushInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::IntIsEmpty
+// Il2CppName: IntIsEmpty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexFCD::*)()>(&RegexFCD::IntIsEmpty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "IntIsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::PopInt
+// Il2CppName: PopInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexFCD::*)()>(&RegexFCD::PopInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PopInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::PushFC
+// Il2CppName: PushFC
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)(System::Text::RegularExpressions::RegexFC*)>(&RegexFCD::PushFC)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PushFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexFC*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::FCIsEmpty
+// Il2CppName: FCIsEmpty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexFCD::*)()>(&RegexFCD::FCIsEmpty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "FCIsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::PopFC
+// Il2CppName: PopFC
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (RegexFCD::*)()>(&RegexFCD::PopFC)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "PopFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::TopFC
+// Il2CppName: TopFC
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (RegexFCD::*)()>(&RegexFCD::TopFC)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "TopFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::RegexFCFromRegexTree
+// Il2CppName: RegexFCFromRegexTree
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (RegexFCD::*)(System::Text::RegularExpressions::RegexTree*)>(&RegexFCD::RegexFCFromRegexTree)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "RegexFCFromRegexTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::SkipChild
+// Il2CppName: SkipChild
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)()>(&RegexFCD::SkipChild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "SkipChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::CalculateFC
+// Il2CppName: CalculateFC
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)(int, System::Text::RegularExpressions::RegexNode*, int)>(&RegexFCD::CalculateFC)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), "CalculateFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexNode*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexFCD::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)()>(&RegexFCD::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexFCD::*)()>(&RegexFCD::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexFCD*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

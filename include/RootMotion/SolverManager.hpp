@@ -131,131 +131,131 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(SolverManager), 50 + sizeof(bool)> __RootMotion_SolverManagerSizeCheck;
   static_assert(sizeof(SolverManager) == 0x33);
-  // Writing MetadataGetter for method: SolverManager::Disable
-  // Il2CppName: Disable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Disable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Disable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::InitiateSolver
-  // Il2CppName: InitiateSolver
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::InitiateSolver)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::UpdateSolver
-  // Il2CppName: UpdateSolver
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::UpdateSolver)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::FixTransforms
-  // Il2CppName: FixTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::FixTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::get_animatePhysics
-  // Il2CppName: get_animatePhysics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SolverManager::*)()>(&SolverManager::get_animatePhysics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::Initiate
-  // Il2CppName: Initiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Initiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::FindAnimatorRecursive
-  // Il2CppName: FindAnimatorRecursive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)(UnityEngine::Transform*, bool)>(&SolverManager::FindAnimatorRecursive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "FindAnimatorRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::get_isAnimated
-  // Il2CppName: get_isAnimated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SolverManager::*)()>(&SolverManager::get_isAnimated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "get_isAnimated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::FixedUpdate
-  // Il2CppName: FixedUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::FixedUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::LateUpdate
-  // Il2CppName: LateUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::LateUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::UpdateSolverExternal
-  // Il2CppName: UpdateSolverExternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::UpdateSolverExternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), "UpdateSolverExternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SolverManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SolverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");
+// Writing MetadataGetter for method: SolverManager::Disable
+// Il2CppName: Disable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Disable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Disable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::InitiateSolver
+// Il2CppName: InitiateSolver
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::InitiateSolver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::UpdateSolver
+// Il2CppName: UpdateSolver
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::UpdateSolver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::FixTransforms
+// Il2CppName: FixTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::FixTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::get_animatePhysics
+// Il2CppName: get_animatePhysics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SolverManager::*)()>(&SolverManager::get_animatePhysics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::Initiate
+// Il2CppName: Initiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Initiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::FindAnimatorRecursive
+// Il2CppName: FindAnimatorRecursive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)(UnityEngine::Transform*, bool)>(&SolverManager::FindAnimatorRecursive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "FindAnimatorRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::get_isAnimated
+// Il2CppName: get_isAnimated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SolverManager::*)()>(&SolverManager::get_isAnimated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "get_isAnimated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::FixedUpdate
+// Il2CppName: FixedUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::UpdateSolverExternal
+// Il2CppName: UpdateSolverExternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::UpdateSolverExternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), "UpdateSolverExternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SolverManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SolverManager::*)()>(&SolverManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SolverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

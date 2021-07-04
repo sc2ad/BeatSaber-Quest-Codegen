@@ -128,131 +128,131 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
   static check_size<sizeof(ViaHeaderValue), 40 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_ViaHeaderValueSizeCheck;
   static_assert(sizeof(ViaHeaderValue) == 0x30);
-  // Writing MetadataGetter for method: ViaHeaderValue::get_Comment
-  // Il2CppName: get_Comment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_Comment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::set_Comment
-  // Il2CppName: set_Comment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_Comment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::get_ProtocolName
-  // Il2CppName: get_ProtocolName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_ProtocolName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_ProtocolName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::set_ProtocolName
-  // Il2CppName: set_ProtocolName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_ProtocolName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_ProtocolName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::get_ProtocolVersion
-  // Il2CppName: get_ProtocolVersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_ProtocolVersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::set_ProtocolVersion
-  // Il2CppName: set_ProtocolVersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_ProtocolVersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::get_ReceivedBy
-  // Il2CppName: get_ReceivedBy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_ReceivedBy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_ReceivedBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::set_ReceivedBy
-  // Il2CppName: set_ReceivedBy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_ReceivedBy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_ReceivedBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::System_ICloneable_Clone
-  // Il2CppName: System.ICloneable.Clone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViaHeaderValue::*)()>(&ViaHeaderValue::System_ICloneable_Clone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::TryParse
-  // Il2CppName: TryParse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::ViaHeaderValue*>*&)>(&ViaHeaderValue::TryParse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::ViaHeaderValue*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::TryParseElement
-  // Il2CppName: TryParseElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::ViaHeaderValue*&, System::Net::Http::Headers::Token&)>(&ViaHeaderValue::TryParseElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ViaHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)()>(&ViaHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)()>(&ViaHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViaHeaderValue::*)(::Il2CppObject*)>(&ViaHeaderValue::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ViaHeaderValue::*)()>(&ViaHeaderValue::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViaHeaderValue::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ViaHeaderValue*, "System.Net.Http.Headers", "ViaHeaderValue");
+// Writing MetadataGetter for method: ViaHeaderValue::get_Comment
+// Il2CppName: get_Comment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_Comment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::set_Comment
+// Il2CppName: set_Comment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_Comment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::get_ProtocolName
+// Il2CppName: get_ProtocolName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_ProtocolName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_ProtocolName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::set_ProtocolName
+// Il2CppName: set_ProtocolName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_ProtocolName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_ProtocolName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::get_ProtocolVersion
+// Il2CppName: get_ProtocolVersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_ProtocolVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::set_ProtocolVersion
+// Il2CppName: set_ProtocolVersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_ProtocolVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::get_ReceivedBy
+// Il2CppName: get_ReceivedBy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::get_ReceivedBy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "get_ReceivedBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::set_ReceivedBy
+// Il2CppName: set_ReceivedBy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)(::Il2CppString*)>(&ViaHeaderValue::set_ReceivedBy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "set_ReceivedBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::System_ICloneable_Clone
+// Il2CppName: System.ICloneable.Clone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViaHeaderValue::*)()>(&ViaHeaderValue::System_ICloneable_Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::TryParse
+// Il2CppName: TryParse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::ViaHeaderValue*>*&)>(&ViaHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::ViaHeaderValue*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::TryParseElement
+// Il2CppName: TryParseElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::ViaHeaderValue*&, System::Net::Http::Headers::Token&)>(&ViaHeaderValue::TryParseElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ViaHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)()>(&ViaHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViaHeaderValue::*)()>(&ViaHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViaHeaderValue::*)(::Il2CppObject*)>(&ViaHeaderValue::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ViaHeaderValue::*)()>(&ViaHeaderValue::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViaHeaderValue::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ViaHeaderValue::*)()>(&ViaHeaderValue::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViaHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -89,67 +89,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockAnimator), 44 + sizeof(bool)> __GlobalNamespace_MaterialPropertyBlockAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockAnimator) == 0x2D);
-  // Writing MetadataGetter for method: MaterialPropertyBlockAnimator::get_materialPropertyBlockController
-  // Il2CppName: get_materialPropertyBlockController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MaterialPropertyBlockController* (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::get_materialPropertyBlockController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "get_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockAnimator::set_materialPropertyBlockController
-  // Il2CppName: set_materialPropertyBlockController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)(GlobalNamespace::MaterialPropertyBlockController*)>(&MaterialPropertyBlockAnimator::set_materialPropertyBlockController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "set_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MaterialPropertyBlockController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockAnimator::SetProperty
-  // Il2CppName: SetProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::SetProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockAnimator::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockAnimator::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockAnimator::LazyInit
-  // Il2CppName: LazyInit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::LazyInit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockAnimator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockAnimator*, "", "MaterialPropertyBlockAnimator");
+// Writing MetadataGetter for method: MaterialPropertyBlockAnimator::get_materialPropertyBlockController
+// Il2CppName: get_materialPropertyBlockController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MaterialPropertyBlockController* (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::get_materialPropertyBlockController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "get_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockAnimator::set_materialPropertyBlockController
+// Il2CppName: set_materialPropertyBlockController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)(GlobalNamespace::MaterialPropertyBlockController*)>(&MaterialPropertyBlockAnimator::set_materialPropertyBlockController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "set_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MaterialPropertyBlockController*>()});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockAnimator::SetProperty
+// Il2CppName: SetProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::SetProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockAnimator::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockAnimator::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockAnimator::LazyInit
+// Il2CppName: LazyInit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::LazyInit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockAnimator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockAnimator::*)()>(&MaterialPropertyBlockAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

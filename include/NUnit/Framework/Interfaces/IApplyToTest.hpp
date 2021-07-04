@@ -25,14 +25,14 @@ namespace NUnit::Framework::Interfaces {
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.Interfaces.IApplyToTest
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IApplyToTest::ApplyToTest
-  // Il2CppName: ApplyToTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IApplyToTest::*)(NUnit::Framework::Internal::Test*)>(&IApplyToTest::ApplyToTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IApplyToTest*), "ApplyToTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IApplyToTest*, "NUnit.Framework.Interfaces", "IApplyToTest");
+// Writing MetadataGetter for method: IApplyToTest::ApplyToTest
+// Il2CppName: ApplyToTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IApplyToTest::*)(NUnit::Framework::Internal::Test*)>(&IApplyToTest::ApplyToTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IApplyToTest*), "ApplyToTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};

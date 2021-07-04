@@ -54,35 +54,35 @@ namespace Mono::Security::X509 {
   #pragma pack(pop)
   static check_size<sizeof(SafeBag), 24 + sizeof(Mono::Security::ASN1*)> __Mono_Security_X509_SafeBagSizeCheck;
   static_assert(sizeof(SafeBag) == 0x20);
-  // Writing MetadataGetter for method: SafeBag::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&SafeBag::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&SafeBag::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SafeBag::get_BagOID
-  // Il2CppName: get_BagOID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SafeBag::*)()>(&SafeBag::get_BagOID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeBag*), "get_BagOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SafeBag::get_ASN1
-  // Il2CppName: get_ASN1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (SafeBag::*)()>(&SafeBag::get_ASN1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeBag*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::SafeBag*, "Mono.Security.X509", "SafeBag");
+// Writing MetadataGetter for method: SafeBag::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&SafeBag::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&SafeBag::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
+// Writing MetadataGetter for method: SafeBag::get_BagOID
+// Il2CppName: get_BagOID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SafeBag::*)()>(&SafeBag::get_BagOID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeBag*), "get_BagOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SafeBag::get_ASN1
+// Il2CppName: get_ASN1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (SafeBag::*)()>(&SafeBag::get_ASN1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeBag*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

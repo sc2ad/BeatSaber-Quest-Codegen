@@ -54,35 +54,35 @@ namespace System::ComponentModel {
   #pragma pack(pop)
   static check_size<sizeof(EditorBrowsableAttribute), 16 + sizeof(System::ComponentModel::EditorBrowsableState)> __System_ComponentModel_EditorBrowsableAttributeSizeCheck;
   static_assert(sizeof(EditorBrowsableAttribute) == 0x14);
-  // Writing MetadataGetter for method: EditorBrowsableAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditorBrowsableAttribute::*)(System::ComponentModel::EditorBrowsableState)>(&EditorBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::EditorBrowsableState>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditorBrowsableAttribute::*)(System::ComponentModel::EditorBrowsableState)>(&EditorBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::EditorBrowsableState>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditorBrowsableAttribute::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EditorBrowsableAttribute::*)(::Il2CppObject*)>(&EditorBrowsableAttribute::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditorBrowsableAttribute::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EditorBrowsableAttribute::*)()>(&EditorBrowsableAttribute::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableAttribute*, "System.ComponentModel", "EditorBrowsableAttribute");
+// Writing MetadataGetter for method: EditorBrowsableAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditorBrowsableAttribute::*)(System::ComponentModel::EditorBrowsableState)>(&EditorBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::EditorBrowsableState>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditorBrowsableAttribute::*)(System::ComponentModel::EditorBrowsableState)>(&EditorBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::EditorBrowsableState>()});
+  }
+};
+// Writing MetadataGetter for method: EditorBrowsableAttribute::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EditorBrowsableAttribute::*)(::Il2CppObject*)>(&EditorBrowsableAttribute::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: EditorBrowsableAttribute::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EditorBrowsableAttribute::*)()>(&EditorBrowsableAttribute::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditorBrowsableAttribute*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

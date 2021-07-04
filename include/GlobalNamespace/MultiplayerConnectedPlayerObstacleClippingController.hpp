@@ -74,35 +74,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerObstacleClippingController), 24 + sizeof(::Array<GlobalNamespace::MaterialPropertyBlockController*>*)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleClippingControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleClippingController) == 0x20);
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams
-  // Il2CppName: SetClippingParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObstacleClippingController::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), "SetClippingParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerObstacleClippingController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObstacleClippingController::*)()>(&MultiplayerConnectedPlayerObstacleClippingController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObstacleClippingController::*)()>(&MultiplayerConnectedPlayerObstacleClippingController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerConnectedPlayerObstacleClippingController::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MultiplayerConnectedPlayerObstacleClippingController::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*, "", "MultiplayerConnectedPlayerObstacleClippingController");
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams
+// Il2CppName: SetClippingParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObstacleClippingController::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), "SetClippingParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerObstacleClippingController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObstacleClippingController::*)()>(&MultiplayerConnectedPlayerObstacleClippingController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObstacleClippingController::*)()>(&MultiplayerConnectedPlayerObstacleClippingController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerConnectedPlayerObstacleClippingController::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MultiplayerConnectedPlayerObstacleClippingController::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObstacleClippingController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

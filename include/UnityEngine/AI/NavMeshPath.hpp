@@ -86,91 +86,91 @@ namespace UnityEngine::AI {
   #pragma pack(pop)
   static check_size<sizeof(NavMeshPath), 24 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_AI_NavMeshPathSizeCheck;
   static_assert(sizeof(NavMeshPath) == 0x20);
-  // Writing MetadataGetter for method: NavMeshPath::InitializeNavMeshPath
-  // Il2CppName: InitializeNavMeshPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&NavMeshPath::InitializeNavMeshPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "InitializeNavMeshPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::DestroyNavMeshPath
-  // Il2CppName: DestroyNavMeshPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&NavMeshPath::DestroyNavMeshPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "DestroyNavMeshPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::CalculateCornersInternal
-  // Il2CppName: CalculateCornersInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (NavMeshPath::*)()>(&NavMeshPath::CalculateCornersInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "CalculateCornersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::ClearCornersInternal
-  // Il2CppName: ClearCornersInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::ClearCornersInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "ClearCornersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::ClearCorners
-  // Il2CppName: ClearCorners
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::ClearCorners)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "ClearCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::CalculateCorners
-  // Il2CppName: CalculateCorners
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::CalculateCorners)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "CalculateCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::get_corners
-  // Il2CppName: get_corners
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (NavMeshPath::*)()>(&NavMeshPath::get_corners)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::get_status
-  // Il2CppName: get_status
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AI::NavMeshPathStatus (NavMeshPath::*)()>(&NavMeshPath::get_status)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NavMeshPath::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");
+// Writing MetadataGetter for method: NavMeshPath::InitializeNavMeshPath
+// Il2CppName: InitializeNavMeshPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&NavMeshPath::InitializeNavMeshPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "InitializeNavMeshPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::DestroyNavMeshPath
+// Il2CppName: DestroyNavMeshPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&NavMeshPath::DestroyNavMeshPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "DestroyNavMeshPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::CalculateCornersInternal
+// Il2CppName: CalculateCornersInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (NavMeshPath::*)()>(&NavMeshPath::CalculateCornersInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "CalculateCornersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::ClearCornersInternal
+// Il2CppName: ClearCornersInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::ClearCornersInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "ClearCornersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::ClearCorners
+// Il2CppName: ClearCorners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::ClearCorners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "ClearCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::CalculateCorners
+// Il2CppName: CalculateCorners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::CalculateCorners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "CalculateCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::get_corners
+// Il2CppName: get_corners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (NavMeshPath::*)()>(&NavMeshPath::get_corners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::get_status
+// Il2CppName: get_status
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AI::NavMeshPathStatus (NavMeshPath::*)()>(&NavMeshPath::get_status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NavMeshPath::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavMeshPath::*)()>(&NavMeshPath::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshPath*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

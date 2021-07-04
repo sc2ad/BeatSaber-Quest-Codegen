@@ -32,19 +32,19 @@ namespace System::Security::Cryptography {
     }
   }; // System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RSAPKCS1SHA1SignatureDescription::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SHA1SignatureDescription::*)()>(&RSAPKCS1SHA1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SHA1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SHA1SignatureDescription::*)()>(&RSAPKCS1SHA1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SHA1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SHA1SignatureDescription");
+// Writing MetadataGetter for method: RSAPKCS1SHA1SignatureDescription::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SHA1SignatureDescription::*)()>(&RSAPKCS1SHA1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SHA1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SHA1SignatureDescription::*)()>(&RSAPKCS1SHA1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SHA1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

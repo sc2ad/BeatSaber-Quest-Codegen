@@ -43,22 +43,22 @@ namespace GlobalNamespace {
     static void $CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0(float insertionTime, GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0& param_1);
   }; // BeatmapDataStrobeFilterTransform
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BeatmapDataStrobeFilterTransform::CreateTransformedData
-  // Il2CppName: CreateTransformedData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::EnvironmentIntensityReductionOptions*)>(&BeatmapDataStrobeFilterTransform::CreateTransformedData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IReadonlyBeatmapData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentIntensityReductionOptions*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapDataStrobeFilterTransform::$CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0
-  // Il2CppName: <CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0&)>(&BeatmapDataStrobeFilterTransform::$CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform*), "<CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform*, "", "BeatmapDataStrobeFilterTransform");
+// Writing MetadataGetter for method: BeatmapDataStrobeFilterTransform::CreateTransformedData
+// Il2CppName: CreateTransformedData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::EnvironmentIntensityReductionOptions*)>(&BeatmapDataStrobeFilterTransform::CreateTransformedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IReadonlyBeatmapData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentIntensityReductionOptions*>()});
+  }
+};
+// Writing MetadataGetter for method: BeatmapDataStrobeFilterTransform::$CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0
+// Il2CppName: <CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0&)>(&BeatmapDataStrobeFilterTransform::$CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform*), "<CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0&>()});
+  }
+};

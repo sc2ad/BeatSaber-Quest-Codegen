@@ -102,67 +102,67 @@ namespace Zenject {
     }
   }; // Zenject.SceneContext/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SceneContext::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SceneContext::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::$$c::$GetParentContainers$b__49_0
-  // Il2CppName: <GetParentContainers>b__49_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (SceneContext::$$c::*)(UnityEngine::SceneManagement::Scene)>(&SceneContext::$$c::$GetParentContainers$b__49_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<GetParentContainers>b__49_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::$$c::$GetParentContainers$b__49_1
-  // Il2CppName: <GetParentContainers>b__49_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (SceneContext::$$c::*)(UnityEngine::GameObject*)>(&SceneContext::$$c::$GetParentContainers$b__49_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<GetParentContainers>b__49_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::$$c::$GetParentContainers$b__49_3
-  // Il2CppName: <GetParentContainers>b__49_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (SceneContext::$$c::*)(Zenject::SceneContext*)>(&SceneContext::$$c::$GetParentContainers$b__49_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<GetParentContainers>b__49_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::$$c::$LookupDecoratorContexts$b__50_0
-  // Il2CppName: <LookupDecoratorContexts>b__50_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (SceneContext::$$c::*)(UnityEngine::SceneManagement::Scene)>(&SceneContext::$$c::$LookupDecoratorContexts$b__50_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<LookupDecoratorContexts>b__50_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::$$c::$LookupDecoratorContexts$b__50_1
-  // Il2CppName: <LookupDecoratorContexts>b__50_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>* (SceneContext::$$c::*)(UnityEngine::GameObject*)>(&SceneContext::$$c::$LookupDecoratorContexts$b__50_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<LookupDecoratorContexts>b__50_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::$$c::*)()>(&SceneContext::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::$$c::*)()>(&SceneContext::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c*, "Zenject", "SceneContext/<>c");
+// Writing MetadataGetter for method: SceneContext::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SceneContext::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::$$c::$GetParentContainers$b__49_0
+// Il2CppName: <GetParentContainers>b__49_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (SceneContext::$$c::*)(UnityEngine::SceneManagement::Scene)>(&SceneContext::$$c::$GetParentContainers$b__49_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<GetParentContainers>b__49_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::$$c::$GetParentContainers$b__49_1
+// Il2CppName: <GetParentContainers>b__49_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (SceneContext::$$c::*)(UnityEngine::GameObject*)>(&SceneContext::$$c::$GetParentContainers$b__49_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<GetParentContainers>b__49_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::$$c::$GetParentContainers$b__49_3
+// Il2CppName: <GetParentContainers>b__49_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (SceneContext::$$c::*)(Zenject::SceneContext*)>(&SceneContext::$$c::$GetParentContainers$b__49_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<GetParentContainers>b__49_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::$$c::$LookupDecoratorContexts$b__50_0
+// Il2CppName: <LookupDecoratorContexts>b__50_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (SceneContext::$$c::*)(UnityEngine::SceneManagement::Scene)>(&SceneContext::$$c::$LookupDecoratorContexts$b__50_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<LookupDecoratorContexts>b__50_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::$$c::$LookupDecoratorContexts$b__50_1
+// Il2CppName: <LookupDecoratorContexts>b__50_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>* (SceneContext::$$c::*)(UnityEngine::GameObject*)>(&SceneContext::$$c::$LookupDecoratorContexts$b__50_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), "<LookupDecoratorContexts>b__50_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::$$c::*)()>(&SceneContext::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::$$c::*)()>(&SceneContext::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

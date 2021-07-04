@@ -31,14 +31,14 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     int64_t ComputeSize(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::ResourceManager* resourceManager);
   }; // UnityEngine.ResourceManagement.ResourceLocations.ILocationSizeData
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ILocationSizeData::ComputeSize
-  // Il2CppName: ComputeSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ILocationSizeData::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceManager*)>(&ILocationSizeData::ComputeSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ILocationSizeData*), "ComputeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*, "UnityEngine.ResourceManagement.ResourceLocations", "ILocationSizeData");
+// Writing MetadataGetter for method: ILocationSizeData::ComputeSize
+// Il2CppName: ComputeSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ILocationSizeData::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceManager*)>(&ILocationSizeData::ComputeSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ILocationSizeData*), "ComputeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
+  }
+};

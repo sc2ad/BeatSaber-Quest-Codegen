@@ -82,35 +82,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OnlineServicesSettingsViewController), 128 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_OnlineServicesSettingsViewControllerSizeCheck;
   static_assert(sizeof(OnlineServicesSettingsViewController) == 0x88);
-  // Writing MetadataGetter for method: OnlineServicesSettingsViewController::HandleEnableOnlineServicesToggleValueChanged
-  // Il2CppName: HandleEnableOnlineServicesToggleValueChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)(bool)>(&OnlineServicesSettingsViewController::HandleEnableOnlineServicesToggleValueChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), "HandleEnableOnlineServicesToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OnlineServicesSettingsViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)(bool, bool, bool)>(&OnlineServicesSettingsViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OnlineServicesSettingsViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)()>(&OnlineServicesSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)()>(&OnlineServicesSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesSettingsViewController*, "", "OnlineServicesSettingsViewController");
+// Writing MetadataGetter for method: OnlineServicesSettingsViewController::HandleEnableOnlineServicesToggleValueChanged
+// Il2CppName: HandleEnableOnlineServicesToggleValueChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)(bool)>(&OnlineServicesSettingsViewController::HandleEnableOnlineServicesToggleValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), "HandleEnableOnlineServicesToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OnlineServicesSettingsViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)(bool, bool, bool)>(&OnlineServicesSettingsViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OnlineServicesSettingsViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)()>(&OnlineServicesSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesSettingsViewController::*)()>(&OnlineServicesSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServicesSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

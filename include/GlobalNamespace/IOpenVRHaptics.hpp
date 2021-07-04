@@ -28,22 +28,22 @@ namespace GlobalNamespace {
     void Destroy();
   }; // IOpenVRHaptics
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IOpenVRHaptics::TriggerHapticPulse
-  // Il2CppName: TriggerHapticPulse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOpenVRHaptics::*)(UnityEngine::XR::XRNode, float, float, float)>(&IOpenVRHaptics::TriggerHapticPulse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IOpenVRHaptics*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IOpenVRHaptics::Destroy
-  // Il2CppName: Destroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOpenVRHaptics::*)()>(&IOpenVRHaptics::Destroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IOpenVRHaptics*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IOpenVRHaptics*, "", "IOpenVRHaptics");
+// Writing MetadataGetter for method: IOpenVRHaptics::TriggerHapticPulse
+// Il2CppName: TriggerHapticPulse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOpenVRHaptics::*)(UnityEngine::XR::XRNode, float, float, float)>(&IOpenVRHaptics::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IOpenVRHaptics*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IOpenVRHaptics::Destroy
+// Il2CppName: Destroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOpenVRHaptics::*)()>(&IOpenVRHaptics::Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IOpenVRHaptics*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

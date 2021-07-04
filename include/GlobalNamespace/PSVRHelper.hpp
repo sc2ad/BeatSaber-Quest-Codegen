@@ -232,219 +232,219 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PSVRHelper), 96 + sizeof(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)> __GlobalNamespace_PSVRHelperSizeCheck;
   static_assert(sizeof(PSVRHelper) == 0x68);
-  // Writing MetadataGetter for method: PSVRHelper::add_inputFocusWasCapturedEvent
-  // Il2CppName: add_inputFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_inputFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_inputFocusWasCapturedEvent
-  // Il2CppName: remove_inputFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_inputFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::add_inputFocusWasReleasedEvent
-  // Il2CppName: add_inputFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_inputFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_inputFocusWasReleasedEvent
-  // Il2CppName: remove_inputFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_inputFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::add_vrFocusWasCapturedEvent
-  // Il2CppName: add_vrFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_vrFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_vrFocusWasCapturedEvent
-  // Il2CppName: remove_vrFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_vrFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::add_vrFocusWasReleasedEvent
-  // Il2CppName: add_vrFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_vrFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_vrFocusWasReleasedEvent
-  // Il2CppName: remove_vrFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_vrFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::add_hmdUnmountedEvent
-  // Il2CppName: add_hmdUnmountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_hmdUnmountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_hmdUnmountedEvent
-  // Il2CppName: remove_hmdUnmountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_hmdUnmountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::add_hmdMountedEvent
-  // Il2CppName: add_hmdMountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_hmdMountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_hmdMountedEvent
-  // Il2CppName: remove_hmdMountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_hmdMountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::add_joystickWasCenteredThisFrameEvent
-  // Il2CppName: add_joystickWasCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_joystickWasCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_joystickWasCenteredThisFrameEvent
-  // Il2CppName: remove_joystickWasCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_joystickWasCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::add_joystickWasNotCenteredThisFrameEvent
-  // Il2CppName: add_joystickWasNotCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&PSVRHelper::add_joystickWasNotCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::remove_joystickWasNotCenteredThisFrameEvent
-  // Il2CppName: remove_joystickWasNotCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&PSVRHelper::remove_joystickWasNotCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::get_hasInputFocus
-  // Il2CppName: get_hasInputFocus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PSVRHelper::*)()>(&PSVRHelper::get_hasInputFocus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::get_isAlwaysWireless
-  // Il2CppName: get_isAlwaysWireless
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PSVRHelper::*)()>(&PSVRHelper::get_isAlwaysWireless)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_isAlwaysWireless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::get_vrPlatformSDK
-  // Il2CppName: get_vrPlatformSDK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (PSVRHelper::*)()>(&PSVRHelper::get_vrPlatformSDK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::get_currentXRDeviceModel
-  // Il2CppName: get_currentXRDeviceModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (PSVRHelper::*)()>(&PSVRHelper::get_currentXRDeviceModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::LateUpdate
-  // Il2CppName: LateUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)()>(&PSVRHelper::LateUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::TriggerHapticPulse
-  // Il2CppName: TriggerHapticPulse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(UnityEngine::XR::XRNode, float, float, float)>(&PSVRHelper::TriggerHapticPulse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::StopHaptics
-  // Il2CppName: StopHaptics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(UnityEngine::XR::XRNode)>(&PSVRHelper::StopHaptics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "StopHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::AdjustControllerTransform
-  // Il2CppName: AdjustControllerTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(UnityEngine::XR::XRNode, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3)>(&PSVRHelper::AdjustControllerTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "AdjustControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::GetNodePose
-  // Il2CppName: GetNodePose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PSVRHelper::*)(UnityEngine::XR::XRNode, int, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&PSVRHelper::GetNodePose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "GetNodePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-    }
-  };
-  // Writing MetadataGetter for method: PSVRHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)()>(&PSVRHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)()>(&PSVRHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PSVRHelper*, "", "PSVRHelper");
+// Writing MetadataGetter for method: PSVRHelper::add_inputFocusWasCapturedEvent
+// Il2CppName: add_inputFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_inputFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_inputFocusWasCapturedEvent
+// Il2CppName: remove_inputFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_inputFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::add_inputFocusWasReleasedEvent
+// Il2CppName: add_inputFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_inputFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_inputFocusWasReleasedEvent
+// Il2CppName: remove_inputFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_inputFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::add_vrFocusWasCapturedEvent
+// Il2CppName: add_vrFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_vrFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_vrFocusWasCapturedEvent
+// Il2CppName: remove_vrFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_vrFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::add_vrFocusWasReleasedEvent
+// Il2CppName: add_vrFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_vrFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_vrFocusWasReleasedEvent
+// Il2CppName: remove_vrFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_vrFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::add_hmdUnmountedEvent
+// Il2CppName: add_hmdUnmountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_hmdUnmountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_hmdUnmountedEvent
+// Il2CppName: remove_hmdUnmountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_hmdUnmountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::add_hmdMountedEvent
+// Il2CppName: add_hmdMountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_hmdMountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_hmdMountedEvent
+// Il2CppName: remove_hmdMountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_hmdMountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::add_joystickWasCenteredThisFrameEvent
+// Il2CppName: add_joystickWasCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::add_joystickWasCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_joystickWasCenteredThisFrameEvent
+// Il2CppName: remove_joystickWasCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action*)>(&PSVRHelper::remove_joystickWasCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::add_joystickWasNotCenteredThisFrameEvent
+// Il2CppName: add_joystickWasNotCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&PSVRHelper::add_joystickWasNotCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "add_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::remove_joystickWasNotCenteredThisFrameEvent
+// Il2CppName: remove_joystickWasNotCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&PSVRHelper::remove_joystickWasNotCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::get_hasInputFocus
+// Il2CppName: get_hasInputFocus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PSVRHelper::*)()>(&PSVRHelper::get_hasInputFocus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::get_isAlwaysWireless
+// Il2CppName: get_isAlwaysWireless
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PSVRHelper::*)()>(&PSVRHelper::get_isAlwaysWireless)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_isAlwaysWireless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::get_vrPlatformSDK
+// Il2CppName: get_vrPlatformSDK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (PSVRHelper::*)()>(&PSVRHelper::get_vrPlatformSDK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::get_currentXRDeviceModel
+// Il2CppName: get_currentXRDeviceModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (PSVRHelper::*)()>(&PSVRHelper::get_currentXRDeviceModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)()>(&PSVRHelper::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::TriggerHapticPulse
+// Il2CppName: TriggerHapticPulse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(UnityEngine::XR::XRNode, float, float, float)>(&PSVRHelper::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::StopHaptics
+// Il2CppName: StopHaptics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(UnityEngine::XR::XRNode)>(&PSVRHelper::StopHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "StopHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::AdjustControllerTransform
+// Il2CppName: AdjustControllerTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)(UnityEngine::XR::XRNode, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3)>(&PSVRHelper::AdjustControllerTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "AdjustControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::GetNodePose
+// Il2CppName: GetNodePose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PSVRHelper::*)(UnityEngine::XR::XRNode, int, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&PSVRHelper::GetNodePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), "GetNodePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
+// Writing MetadataGetter for method: PSVRHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)()>(&PSVRHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PSVRHelper::*)()>(&PSVRHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PSVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

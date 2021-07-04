@@ -99,43 +99,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DelayedMenuButtonTrigger), 40 + sizeof(GlobalNamespace::VRControllersInputManager*)> __GlobalNamespace_DelayedMenuButtonTriggerSizeCheck;
   static_assert(sizeof(DelayedMenuButtonTrigger) == 0x30);
-  // Writing MetadataGetter for method: DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent
-  // Il2CppName: add_menuButtonTriggeredEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)(System::Action*)>(&DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), "add_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelayedMenuButtonTrigger::remove_menuButtonTriggeredEvent
-  // Il2CppName: remove_menuButtonTriggeredEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)(System::Action*)>(&DelayedMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DelayedMenuButtonTrigger::Tick
-  // Il2CppName: Tick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)()>(&DelayedMenuButtonTrigger::Tick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DelayedMenuButtonTrigger::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)()>(&DelayedMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)()>(&DelayedMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DelayedMenuButtonTrigger*, "", "DelayedMenuButtonTrigger");
+// Writing MetadataGetter for method: DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent
+// Il2CppName: add_menuButtonTriggeredEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)(System::Action*)>(&DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), "add_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DelayedMenuButtonTrigger::remove_menuButtonTriggeredEvent
+// Il2CppName: remove_menuButtonTriggeredEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)(System::Action*)>(&DelayedMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DelayedMenuButtonTrigger::Tick
+// Il2CppName: Tick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)()>(&DelayedMenuButtonTrigger::Tick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DelayedMenuButtonTrigger::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)()>(&DelayedMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelayedMenuButtonTrigger::*)()>(&DelayedMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DelayedMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

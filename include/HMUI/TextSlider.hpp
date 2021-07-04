@@ -282,291 +282,291 @@ namespace HMUI {
     }
   }; // HMUI.TextSlider
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: TextSlider::set_valueTextColor
-  // Il2CppName: set_valueTextColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::Color)>(&TextSlider::set_valueTextColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_valueTextColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::get_handleRect
-  // Il2CppName: get_handleRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TextSlider::*)()>(&TextSlider::get_handleRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::set_handleRect
-  // Il2CppName: set_handleRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::RectTransform*)>(&TextSlider::set_handleRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::set_handleColor
-  // Il2CppName: set_handleColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::Color)>(&TextSlider::set_handleColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_handleColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::get_handleSize
-  // Il2CppName: get_handleSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_handleSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_handleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::set_handleSize
-  // Il2CppName: set_handleSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_handleSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_handleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::get_valueSize
-  // Il2CppName: get_valueSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_valueSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_valueSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::set_valueSize
-  // Il2CppName: set_valueSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_valueSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_valueSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::get_separatorSize
-  // Il2CppName: get_separatorSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_separatorSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_separatorSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::set_separatorSize
-  // Il2CppName: set_separatorSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_separatorSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_separatorSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::get_numberOfSteps
-  // Il2CppName: get_numberOfSteps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextSlider::*)()>(&TextSlider::get_numberOfSteps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::set_numberOfSteps
-  // Il2CppName: set_numberOfSteps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(int)>(&TextSlider::set_numberOfSteps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::get_normalizedValue
-  // Il2CppName: get_normalizedValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_normalizedValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::set_normalizedValue
-  // Il2CppName: set_normalizedValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_normalizedValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::add_normalizedValueDidChangeEvent
-  // Il2CppName: add_normalizedValueDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(System::Action_2<HMUI::TextSlider*, float>*)>(&TextSlider::add_normalizedValueDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "add_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TextSlider*, float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::remove_normalizedValueDidChangeEvent
-  // Il2CppName: remove_normalizedValueDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(System::Action_2<HMUI::TextSlider*, float>*)>(&TextSlider::remove_normalizedValueDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "remove_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TextSlider*, float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::Rebuild
-  // Il2CppName: Rebuild
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::UI::CanvasUpdate)>(&TextSlider::Rebuild)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::LayoutComplete
-  // Il2CppName: LayoutComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::LayoutComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::GraphicUpdateComplete
-  // Il2CppName: GraphicUpdateComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::GraphicUpdateComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::UpdateCachedReferences
-  // Il2CppName: UpdateCachedReferences
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::UpdateCachedReferences)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::SetNormalizedValue
-  // Il2CppName: SetNormalizedValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::SetNormalizedValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::SetNormalizedValue
-  // Il2CppName: SetNormalizedValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float, bool)>(&TextSlider::SetNormalizedValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::UpdateVisuals
-  // Il2CppName: UpdateVisuals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::UpdateVisuals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::UpdateDrag
-  // Il2CppName: UpdateDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::UpdateDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::MayDrag
-  // Il2CppName: MayDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::MayDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::OnBeginDrag
-  // Il2CppName: OnBeginDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnBeginDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::OnDrag
-  // Il2CppName: OnDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::OnInitializePotentialDrag
-  // Il2CppName: OnInitializePotentialDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnInitializePotentialDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::TextForNormalizedValue
-  // Il2CppName: TextForNormalizedValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextSlider::*)(float)>(&TextSlider::TextForNormalizedValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::UnityEngine_UI_ICanvasElement_get_transform
-  // Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (TextSlider::*)()>(&TextSlider::UnityEngine_UI_ICanvasElement_get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::OnRectTransformDimensionsChange
-  // Il2CppName: OnRectTransformDimensionsChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::OnRectTransformDimensionsChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::OnPointerDown
-  // Il2CppName: OnPointerDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnPointerDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextSlider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSlider*, "HMUI", "TextSlider");
+// Writing MetadataGetter for method: TextSlider::set_valueTextColor
+// Il2CppName: set_valueTextColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::Color)>(&TextSlider::set_valueTextColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_valueTextColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::get_handleRect
+// Il2CppName: get_handleRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TextSlider::*)()>(&TextSlider::get_handleRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::set_handleRect
+// Il2CppName: set_handleRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::RectTransform*)>(&TextSlider::set_handleRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::set_handleColor
+// Il2CppName: set_handleColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::Color)>(&TextSlider::set_handleColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_handleColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::get_handleSize
+// Il2CppName: get_handleSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_handleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_handleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::set_handleSize
+// Il2CppName: set_handleSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_handleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_handleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::get_valueSize
+// Il2CppName: get_valueSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_valueSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_valueSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::set_valueSize
+// Il2CppName: set_valueSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_valueSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_valueSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::get_separatorSize
+// Il2CppName: get_separatorSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_separatorSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_separatorSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::set_separatorSize
+// Il2CppName: set_separatorSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_separatorSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_separatorSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::get_numberOfSteps
+// Il2CppName: get_numberOfSteps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextSlider::*)()>(&TextSlider::get_numberOfSteps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::set_numberOfSteps
+// Il2CppName: set_numberOfSteps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(int)>(&TextSlider::set_numberOfSteps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::get_normalizedValue
+// Il2CppName: get_normalizedValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextSlider::*)()>(&TextSlider::get_normalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "get_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::set_normalizedValue
+// Il2CppName: set_normalizedValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::set_normalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "set_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::add_normalizedValueDidChangeEvent
+// Il2CppName: add_normalizedValueDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(System::Action_2<HMUI::TextSlider*, float>*)>(&TextSlider::add_normalizedValueDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "add_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TextSlider*, float>*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::remove_normalizedValueDidChangeEvent
+// Il2CppName: remove_normalizedValueDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(System::Action_2<HMUI::TextSlider*, float>*)>(&TextSlider::remove_normalizedValueDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "remove_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TextSlider*, float>*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::Rebuild
+// Il2CppName: Rebuild
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::UI::CanvasUpdate)>(&TextSlider::Rebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::LayoutComplete
+// Il2CppName: LayoutComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::LayoutComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::GraphicUpdateComplete
+// Il2CppName: GraphicUpdateComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::GraphicUpdateComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::UpdateCachedReferences
+// Il2CppName: UpdateCachedReferences
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::UpdateCachedReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::SetNormalizedValue
+// Il2CppName: SetNormalizedValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float)>(&TextSlider::SetNormalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::SetNormalizedValue
+// Il2CppName: SetNormalizedValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(float, bool)>(&TextSlider::SetNormalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::UpdateVisuals
+// Il2CppName: UpdateVisuals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::UpdateVisuals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::UpdateDrag
+// Il2CppName: UpdateDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::UpdateDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::MayDrag
+// Il2CppName: MayDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::MayDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::OnBeginDrag
+// Il2CppName: OnBeginDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnBeginDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::OnDrag
+// Il2CppName: OnDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::OnInitializePotentialDrag
+// Il2CppName: OnInitializePotentialDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnInitializePotentialDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::TextForNormalizedValue
+// Il2CppName: TextForNormalizedValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextSlider::*)(float)>(&TextSlider::TextForNormalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::UnityEngine_UI_ICanvasElement_get_transform
+// Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (TextSlider::*)()>(&TextSlider::UnityEngine_UI_ICanvasElement_get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::OnRectTransformDimensionsChange
+// Il2CppName: OnRectTransformDimensionsChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::OnPointerDown
+// Il2CppName: OnPointerDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&TextSlider::OnPointerDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: TextSlider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextSlider::*)()>(&TextSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -68,43 +68,43 @@ namespace TMPro {
     }
   }; // TMPro.TMP_SpriteAsset/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TMP_SpriteAsset::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMP_SpriteAsset::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::$$c::$SortGlyphTable$b__32_0
-  // Il2CppName: <SortGlyphTable>b__32_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_SpriteAsset::$$c::*)(TMPro::TMP_SpriteGlyph*)>(&TMP_SpriteAsset::$$c::$SortGlyphTable$b__32_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), "<SortGlyphTable>b__32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteGlyph*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::$$c::$SortCharacterTable$b__33_0
-  // Il2CppName: <SortCharacterTable>b__33_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_SpriteAsset::$$c::*)(TMPro::TMP_SpriteCharacter*)>(&TMP_SpriteAsset::$$c::$SortCharacterTable$b__33_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), "<SortCharacterTable>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteCharacter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::$$c::*)()>(&TMP_SpriteAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::$$c::*)()>(&TMP_SpriteAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset::$$c*, "TMPro", "TMP_SpriteAsset/<>c");
+// Writing MetadataGetter for method: TMP_SpriteAsset::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMP_SpriteAsset::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::$$c::$SortGlyphTable$b__32_0
+// Il2CppName: <SortGlyphTable>b__32_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_SpriteAsset::$$c::*)(TMPro::TMP_SpriteGlyph*)>(&TMP_SpriteAsset::$$c::$SortGlyphTable$b__32_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), "<SortGlyphTable>b__32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteGlyph*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::$$c::$SortCharacterTable$b__33_0
+// Il2CppName: <SortCharacterTable>b__33_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_SpriteAsset::$$c::*)(TMPro::TMP_SpriteCharacter*)>(&TMP_SpriteAsset::$$c::$SortCharacterTable$b__33_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), "<SortCharacterTable>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteCharacter*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::$$c::*)()>(&TMP_SpriteAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::$$c::*)()>(&TMP_SpriteAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

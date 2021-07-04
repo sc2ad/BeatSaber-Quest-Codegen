@@ -110,27 +110,27 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
   static check_size<sizeof(RegexCode), 76 + sizeof(bool)> __System_Text_RegularExpressions_RegexCodeSizeCheck;
   static_assert(sizeof(RegexCode) == 0x4D);
-  // Writing MetadataGetter for method: RegexCode::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&RegexCode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&RegexCode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexCode::OpcodeBacktracks
-  // Il2CppName: OpcodeBacktracks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&RegexCode::OpcodeBacktracks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexCode*), "OpcodeBacktracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode*, "System.Text.RegularExpressions", "RegexCode");
+// Writing MetadataGetter for method: RegexCode::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&RegexCode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&RegexCode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RegexCode::OpcodeBacktracks
+// Il2CppName: OpcodeBacktracks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&RegexCode::OpcodeBacktracks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexCode*), "OpcodeBacktracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

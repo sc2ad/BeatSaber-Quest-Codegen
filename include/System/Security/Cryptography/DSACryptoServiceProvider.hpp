@@ -143,105 +143,105 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(DSACryptoServiceProvider), 48 + sizeof(Mono::Security::Cryptography::DSAManaged*)> __System_Security_Cryptography_DSACryptoServiceProviderSizeCheck;
   static_assert(sizeof(DSACryptoServiceProvider) == 0x38);
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(int)>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(int)>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::Common
-  // Il2CppName: Common
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(int, bool)>(&DSACryptoServiceProvider::Common)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::get_PublicOnly
-  // Il2CppName: get_PublicOnly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::get_PublicOnly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::OnKeyGenerated
-  // Il2CppName: OnKeyGenerated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(::Il2CppObject*, System::EventArgs*)>(&DSACryptoServiceProvider::OnKeyGenerated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "OnKeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::get_KeySize
-  // Il2CppName: get_KeySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::get_KeySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::ExportParameters
-  // Il2CppName: ExportParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (DSACryptoServiceProvider::*)(bool)>(&DSACryptoServiceProvider::ExportParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::ImportParameters
-  // Il2CppName: ImportParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(System::Security::Cryptography::DSAParameters)>(&DSACryptoServiceProvider::ImportParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::DSAParameters>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::VerifySignature
-  // Il2CppName: VerifySignature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSACryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&DSACryptoServiceProvider::VerifySignature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSACryptoServiceProvider::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(bool)>(&DSACryptoServiceProvider::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSACryptoServiceProvider*, "System.Security.Cryptography", "DSACryptoServiceProvider");
+// Writing MetadataGetter for method: DSACryptoServiceProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(int)>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(int)>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::Common
+// Il2CppName: Common
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(int, bool)>(&DSACryptoServiceProvider::Common)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::get_PublicOnly
+// Il2CppName: get_PublicOnly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::get_PublicOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::OnKeyGenerated
+// Il2CppName: OnKeyGenerated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(::Il2CppObject*, System::EventArgs*)>(&DSACryptoServiceProvider::OnKeyGenerated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "OnKeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::get_KeySize
+// Il2CppName: get_KeySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DSACryptoServiceProvider::*)()>(&DSACryptoServiceProvider::get_KeySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::ExportParameters
+// Il2CppName: ExportParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (DSACryptoServiceProvider::*)(bool)>(&DSACryptoServiceProvider::ExportParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::ImportParameters
+// Il2CppName: ImportParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(System::Security::Cryptography::DSAParameters)>(&DSACryptoServiceProvider::ImportParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::DSAParameters>()});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::VerifySignature
+// Il2CppName: VerifySignature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSACryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&DSACryptoServiceProvider::VerifySignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: DSACryptoServiceProvider::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSACryptoServiceProvider::*)(bool)>(&DSACryptoServiceProvider::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSACryptoServiceProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

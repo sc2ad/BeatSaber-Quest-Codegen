@@ -154,76 +154,76 @@ namespace UnityEngine::Timeline {
     }
   }; // UnityEngine.Timeline.ActivationTrack
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: ActivationTrack::get_postPlaybackState
-  // Il2CppName: get_postPlaybackState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ActivationTrack::PostPlaybackState (ActivationTrack::*)()>(&ActivationTrack::get_postPlaybackState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "get_postPlaybackState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ActivationTrack::set_postPlaybackState
-  // Il2CppName: set_postPlaybackState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)(UnityEngine::Timeline::ActivationTrack::PostPlaybackState)>(&ActivationTrack::set_postPlaybackState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "set_postPlaybackState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::ActivationTrack::PostPlaybackState>()});
-    }
-  };
-  // Writing MetadataGetter for method: ActivationTrack::UpdateTrackMode
-  // Il2CppName: UpdateTrackMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)()>(&ActivationTrack::UpdateTrackMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "UpdateTrackMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ActivationTrack::CanCompileClips
-  // Il2CppName: CanCompileClips
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ActivationTrack::*)()>(&ActivationTrack::CanCompileClips)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "CanCompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ActivationTrack::CreateTrackMixer
-  // Il2CppName: CreateTrackMixer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ActivationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&ActivationTrack::CreateTrackMixer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "CreateTrackMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ActivationTrack::GatherProperties
-  // Il2CppName: GatherProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&ActivationTrack::GatherProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ActivationTrack::OnCreateClip
-  // Il2CppName: OnCreateClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)(UnityEngine::Timeline::TimelineClip*)>(&ActivationTrack::OnCreateClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "OnCreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ActivationTrack::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)()>(&ActivationTrack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)()>(&ActivationTrack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack*, "UnityEngine.Timeline", "ActivationTrack");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack::PostPlaybackState, "UnityEngine.Timeline", "ActivationTrack/PostPlaybackState");
+// Writing MetadataGetter for method: ActivationTrack::get_postPlaybackState
+// Il2CppName: get_postPlaybackState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ActivationTrack::PostPlaybackState (ActivationTrack::*)()>(&ActivationTrack::get_postPlaybackState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "get_postPlaybackState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ActivationTrack::set_postPlaybackState
+// Il2CppName: set_postPlaybackState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)(UnityEngine::Timeline::ActivationTrack::PostPlaybackState)>(&ActivationTrack::set_postPlaybackState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "set_postPlaybackState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::ActivationTrack::PostPlaybackState>()});
+  }
+};
+// Writing MetadataGetter for method: ActivationTrack::UpdateTrackMode
+// Il2CppName: UpdateTrackMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)()>(&ActivationTrack::UpdateTrackMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "UpdateTrackMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ActivationTrack::CanCompileClips
+// Il2CppName: CanCompileClips
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ActivationTrack::*)()>(&ActivationTrack::CanCompileClips)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "CanCompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ActivationTrack::CreateTrackMixer
+// Il2CppName: CreateTrackMixer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ActivationTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&ActivationTrack::CreateTrackMixer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "CreateTrackMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ActivationTrack::GatherProperties
+// Il2CppName: GatherProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&ActivationTrack::GatherProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
+  }
+};
+// Writing MetadataGetter for method: ActivationTrack::OnCreateClip
+// Il2CppName: OnCreateClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)(UnityEngine::Timeline::TimelineClip*)>(&ActivationTrack::OnCreateClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), "OnCreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+  }
+};
+// Writing MetadataGetter for method: ActivationTrack::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)()>(&ActivationTrack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationTrack::*)()>(&ActivationTrack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivationTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

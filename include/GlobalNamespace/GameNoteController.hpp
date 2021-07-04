@@ -235,163 +235,163 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameNoteController), 176 + sizeof(float)> __GlobalNamespace_GameNoteControllerSizeCheck;
   static_assert(sizeof(GameNoteController) == 0xB4);
-  // Writing MetadataGetter for method: GameNoteController::add_cubeNoteControllerDidInitEvent
-  // Il2CppName: add_cubeNoteControllerDidInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(System::Action_1<GlobalNamespace::GameNoteController*>*)>(&GameNoteController::add_cubeNoteControllerDidInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameNoteController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::remove_cubeNoteControllerDidInitEvent
-  // Il2CppName: remove_cubeNoteControllerDidInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(System::Action_1<GlobalNamespace::GameNoteController*>*)>(&GameNoteController::remove_cubeNoteControllerDidInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameNoteController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::get_noteMovement
-  // Il2CppName: get_noteMovement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GameNoteController::*)()>(&GameNoteController::get_noteMovement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::get_gameNoteType
-  // Il2CppName: get_gameNoteType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GameNoteController::*)()>(&GameNoteController::get_gameNoteType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::NoteData*, float, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float, float, float, GlobalNamespace::GameNoteController_GameNoteType, float, float, float)>(&GameNoteController::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameNoteController_GameNoteType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::HandleBigWasCutBySaber
-  // Il2CppName: HandleBigWasCutBySaber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&GameNoteController::HandleBigWasCutBySaber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleBigWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::HandleSmallWasCutBySaber
-  // Il2CppName: HandleSmallWasCutBySaber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&GameNoteController::HandleSmallWasCutBySaber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleSmallWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::HandleCut
-  // Il2CppName: HandleCut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, bool)>(&GameNoteController::HandleCut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::HandleSaberSwingRatingCounterDidFinish
-  // Il2CppName: HandleSaberSwingRatingCounterDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&GameNoteController::HandleSaberSwingRatingCounterDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::INoteMirrorable_get_transform
-  // Il2CppName: INoteMirrorable.get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GameNoteController::*)()>(&GameNoteController::INoteMirrorable_get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "INoteMirrorable.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::set_hide
-  // Il2CppName: set_hide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(bool)>(&GameNoteController::set_hide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::get_hide
-  // Il2CppName: get_hide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameNoteController::*)()>(&GameNoteController::get_hide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::set_pause
-  // Il2CppName: set_pause
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(bool)>(&GameNoteController::set_pause)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::NoteDidPassMissedMarker
-  // Il2CppName: NoteDidPassMissedMarker
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::NoteDidPassMissedMarker)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "NoteDidPassMissedMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::NoteDidStartDissolving
-  // Il2CppName: NoteDidStartDissolving
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::NoteDidStartDissolving)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "NoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::NoteDidStartJump
-  // Il2CppName: NoteDidStartJump
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::NoteDidStartJump)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "NoteDidStartJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameNoteController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteController*, "", "GameNoteController");
+// Writing MetadataGetter for method: GameNoteController::add_cubeNoteControllerDidInitEvent
+// Il2CppName: add_cubeNoteControllerDidInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(System::Action_1<GlobalNamespace::GameNoteController*>*)>(&GameNoteController::add_cubeNoteControllerDidInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameNoteController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::remove_cubeNoteControllerDidInitEvent
+// Il2CppName: remove_cubeNoteControllerDidInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(System::Action_1<GlobalNamespace::GameNoteController*>*)>(&GameNoteController::remove_cubeNoteControllerDidInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameNoteController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::get_noteMovement
+// Il2CppName: get_noteMovement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GameNoteController::*)()>(&GameNoteController::get_noteMovement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::get_gameNoteType
+// Il2CppName: get_gameNoteType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GameNoteController::*)()>(&GameNoteController::get_gameNoteType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::NoteData*, float, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float, float, float, GlobalNamespace::GameNoteController_GameNoteType, float, float, float)>(&GameNoteController::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameNoteController_GameNoteType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::HandleBigWasCutBySaber
+// Il2CppName: HandleBigWasCutBySaber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&GameNoteController::HandleBigWasCutBySaber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleBigWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::HandleSmallWasCutBySaber
+// Il2CppName: HandleSmallWasCutBySaber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&GameNoteController::HandleSmallWasCutBySaber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleSmallWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::HandleCut
+// Il2CppName: HandleCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, bool)>(&GameNoteController::HandleCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::HandleSaberSwingRatingCounterDidFinish
+// Il2CppName: HandleSaberSwingRatingCounterDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&GameNoteController::HandleSaberSwingRatingCounterDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::INoteMirrorable_get_transform
+// Il2CppName: INoteMirrorable.get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GameNoteController::*)()>(&GameNoteController::INoteMirrorable_get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "INoteMirrorable.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::set_hide
+// Il2CppName: set_hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(bool)>(&GameNoteController::set_hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::get_hide
+// Il2CppName: get_hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameNoteController::*)()>(&GameNoteController::get_hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::set_pause
+// Il2CppName: set_pause
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)(bool)>(&GameNoteController::set_pause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::NoteDidPassMissedMarker
+// Il2CppName: NoteDidPassMissedMarker
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::NoteDidPassMissedMarker)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "NoteDidPassMissedMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::NoteDidStartDissolving
+// Il2CppName: NoteDidStartDissolving
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::NoteDidStartDissolving)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "NoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::NoteDidStartJump
+// Il2CppName: NoteDidStartJump
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::NoteDidStartJump)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), "NoteDidStartJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameNoteController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameNoteController::*)()>(&GameNoteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

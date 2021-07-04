@@ -98,43 +98,43 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(SubContainerPrefabBindingFinalizer), 40 + sizeof(System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)> __Zenject_SubContainerPrefabBindingFinalizerSizeCheck;
   static_assert(sizeof(SubContainerPrefabBindingFinalizer) == 0x30);
-  // Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&SubContainerPrefabBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&SubContainerPrefabBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::FinalizeBindingConcrete
-  // Il2CppName: FinalizeBindingConcrete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&SubContainerPrefabBindingFinalizer::FinalizeBindingConcrete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::FinalizeBindingSelf
-  // Il2CppName: FinalizeBindingSelf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::DiContainer*)>(&SubContainerPrefabBindingFinalizer::FinalizeBindingSelf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::OnFinalizeBinding
-  // Il2CppName: OnFinalizeBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::DiContainer*)>(&SubContainerPrefabBindingFinalizer::OnFinalizeBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerPrefabBindingFinalizer*, "Zenject", "SubContainerPrefabBindingFinalizer");
+// Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&SubContainerPrefabBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&SubContainerPrefabBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::FinalizeBindingConcrete
+// Il2CppName: FinalizeBindingConcrete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&SubContainerPrefabBindingFinalizer::FinalizeBindingConcrete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::FinalizeBindingSelf
+// Il2CppName: FinalizeBindingSelf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::DiContainer*)>(&SubContainerPrefabBindingFinalizer::FinalizeBindingSelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: SubContainerPrefabBindingFinalizer::OnFinalizeBinding
+// Il2CppName: OnFinalizeBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerPrefabBindingFinalizer::*)(Zenject::DiContainer*)>(&SubContainerPrefabBindingFinalizer::OnFinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerPrefabBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};

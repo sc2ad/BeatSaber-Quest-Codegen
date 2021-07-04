@@ -671,812 +671,812 @@ namespace UnityEngine::AddressableAssets {
     void $CheckForCatalogUpdates$b__120_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o);
   }; // UnityEngine.AddressableAssets.AddressablesImpl
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: AddressablesImpl::get_InstanceProvider
-  // Il2CppName: get_InstanceProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* (AddressablesImpl::*)()>(&AddressablesImpl::get_InstanceProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_InstanceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::set_InstanceProvider
-  // Il2CppName: set_InstanceProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*)>(&AddressablesImpl::set_InstanceProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "set_InstanceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_ResourceManager
-  // Il2CppName: get_ResourceManager
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceManager* (AddressablesImpl::*)()>(&AddressablesImpl::get_ResourceManager)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ResourceManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_SceneOperationCount
-  // Il2CppName: get_SceneOperationCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AddressablesImpl::*)()>(&AddressablesImpl::get_SceneOperationCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_SceneOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_TrackedHandleCount
-  // Il2CppName: get_TrackedHandleCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AddressablesImpl::*)()>(&AddressablesImpl::get_TrackedHandleCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_TrackedHandleCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&AddressablesImpl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&AddressablesImpl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ReleaseSceneManagerOperation
-  // Il2CppName: ReleaseSceneManagerOperation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)()>(&AddressablesImpl::ReleaseSceneManagerOperation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ReleaseSceneManagerOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_InternalIdTransformFunc
-  // Il2CppName: get_InternalIdTransformFunc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* (AddressablesImpl::*)()>(&AddressablesImpl::get_InternalIdTransformFunc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::set_InternalIdTransformFunc
-  // Il2CppName: set_InternalIdTransformFunc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*)>(&AddressablesImpl::set_InternalIdTransformFunc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "set_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_ChainOperation
-  // Il2CppName: get_ChainOperation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)()>(&AddressablesImpl::get_ChainOperation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ChainOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_ShouldChainRequest
-  // Il2CppName: get_ShouldChainRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)()>(&AddressablesImpl::get_ShouldChainRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ShouldChainRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::OnSceneUnloaded
-  // Il2CppName: OnSceneUnloaded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::SceneManagement::Scene)>(&AddressablesImpl::OnSceneUnloaded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnSceneUnloaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_StreamingAssetsSubFolder
-  // Il2CppName: get_StreamingAssetsSubFolder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_StreamingAssetsSubFolder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_StreamingAssetsSubFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_BuildPath
-  // Il2CppName: get_BuildPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_BuildPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_BuildPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_PlayerBuildDataPath
-  // Il2CppName: get_PlayerBuildDataPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_PlayerBuildDataPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_PlayerBuildDataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_RuntimePath
-  // Il2CppName: get_RuntimePath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_RuntimePath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_RuntimePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::Log
-  // Il2CppName: Log
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::Log)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LogFormat
-  // Il2CppName: LogFormat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&AddressablesImpl::LogFormat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LogWarning
-  // Il2CppName: LogWarning
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::LogWarning)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LogWarningFormat
-  // Il2CppName: LogWarningFormat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&AddressablesImpl::LogWarningFormat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogWarningFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LogError
-  // Il2CppName: LogError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::LogError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LogException
-  // Il2CppName: LogException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*)>(&AddressablesImpl::LogException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LogErrorFormat
-  // Il2CppName: LogErrorFormat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&AddressablesImpl::LogErrorFormat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogErrorFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ResolveInternalId
-  // Il2CppName: ResolveInternalId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::ResolveInternalId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ResolveInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_ResourceLocators
-  // Il2CppName: get_ResourceLocators
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* (AddressablesImpl::*)()>(&AddressablesImpl::get_ResourceLocators)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ResourceLocators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::AddResourceLocator
-  // Il2CppName: AddResourceLocator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::AddResourceLocator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "AddResourceLocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::RemoveResourceLocator
-  // Il2CppName: RemoveResourceLocator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(&AddressablesImpl::RemoveResourceLocator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "RemoveResourceLocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ClearResourceLocators
-  // Il2CppName: ClearResourceLocators
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)()>(&AddressablesImpl::ClearResourceLocators)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearResourceLocators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetResourceLocations
-  // Il2CppName: GetResourceLocations
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&AddressablesImpl::GetResourceLocations)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetResourceLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetResourceLocations
-  // Il2CppName: GetResourceLocations
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(System::Collections::IEnumerable*, System::Type*, UnityEngine::AddressableAssets::Addressables::MergeMode, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&AddressablesImpl::GetResourceLocations)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetResourceLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InitializeAsync
-  // Il2CppName: InitializeAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (AddressablesImpl::*)(::Il2CppString*, ::Il2CppString*, bool)>(&AddressablesImpl::InitializeAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InitializeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InitializeAsync
-  // Il2CppName: InitializeAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (AddressablesImpl::*)()>(&AddressablesImpl::InitializeAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InitializeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::CreateCatalogLocationWithHashDependencies
-  // Il2CppName: CreateCatalogLocationWithHashDependencies
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* (AddressablesImpl::*)(::Il2CppString*, ::Il2CppString*)>(&AddressablesImpl::CreateCatalogLocationWithHashDependencies)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CreateCatalogLocationWithHashDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadContentCatalogAsync
-  // Il2CppName: LoadContentCatalogAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (AddressablesImpl::*)(::Il2CppString*, bool, ::Il2CppString*)>(&AddressablesImpl::LoadContentCatalogAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadContentCatalogAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::TrackHandle
-  // Il2CppName: TrackHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::TrackHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "TrackHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::TrackHandle
-  // Il2CppName: TrackHandle
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::TrackHandle
-  // Il2CppName: TrackHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::TrackHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "TrackHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ClearTrackHandles
-  // Il2CppName: ClearTrackHandles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)()>(&AddressablesImpl::ClearTrackHandles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearTrackHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetAsync
-  // Il2CppName: LoadAssetAsync
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetWithChain
-  // Il2CppName: LoadAssetWithChain
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetAsync
-  // Il2CppName: LoadAssetAsync
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsWithChain
-  // Il2CppName: LoadResourceLocationsWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, System::Type*)>(&AddressablesImpl::LoadResourceLocationsWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsAsync
-  // Il2CppName: LoadResourceLocationsAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, System::Type*)>(&AddressablesImpl::LoadResourceLocationsAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsWithChain
-  // Il2CppName: LoadResourceLocationsWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, System::Type*)>(&AddressablesImpl::LoadResourceLocationsWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsAsync
-  // Il2CppName: LoadResourceLocationsAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(::Il2CppObject*, System::Type*)>(&AddressablesImpl::LoadResourceLocationsAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetsAsync
-  // Il2CppName: LoadAssetsAsync
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetsWithChain
-  // Il2CppName: LoadAssetsWithChain
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetsAsync
-  // Il2CppName: LoadAssetsAsync
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetsWithChain
-  // Il2CppName: LoadAssetsWithChain
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::LoadAssetsAsync
-  // Il2CppName: LoadAssetsAsync
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::OnHandleDestroyed
-  // Il2CppName: OnHandleDestroyed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::OnHandleDestroyed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnHandleDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::OnSceneHandleCompleted
-  // Il2CppName: OnSceneHandleCompleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::OnSceneHandleCompleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnSceneHandleCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::OnHandleCompleted
-  // Il2CppName: OnHandleCompleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::OnHandleCompleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnHandleCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::Release
-  // Il2CppName: Release
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::Release
-  // Il2CppName: Release
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AddressablesImpl::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeWithChain
-  // Il2CppName: GetDownloadSizeWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*)>(&AddressablesImpl::GetDownloadSizeWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeWithChain
-  // Il2CppName: GetDownloadSizeWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::IEnumerable*)>(&AddressablesImpl::GetDownloadSizeWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeAsync
-  // Il2CppName: GetDownloadSizeAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(::Il2CppObject*)>(&AddressablesImpl::GetDownloadSizeAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeAsync
-  // Il2CppName: GetDownloadSizeAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(System::Collections::IEnumerable*)>(&AddressablesImpl::GetDownloadSizeAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsyncWithChain
-  // Il2CppName: DownloadDependenciesAsyncWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, bool)>(&AddressablesImpl::DownloadDependenciesAsyncWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsyncWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GatherDependenciesFromLocations
-  // Il2CppName: GatherDependenciesFromLocations
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*)>(&AddressablesImpl::GatherDependenciesFromLocations)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GatherDependenciesFromLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsync
-  // Il2CppName: DownloadDependenciesAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(::Il2CppObject*, bool)>(&AddressablesImpl::DownloadDependenciesAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsyncWithChain
-  // Il2CppName: DownloadDependenciesAsyncWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, bool)>(&AddressablesImpl::DownloadDependenciesAsyncWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsyncWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsync
-  // Il2CppName: DownloadDependenciesAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, bool)>(&AddressablesImpl::DownloadDependenciesAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsyncWithChain
-  // Il2CppName: DownloadDependenciesAsyncWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, bool)>(&AddressablesImpl::DownloadDependenciesAsyncWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsyncWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsync
-  // Il2CppName: DownloadDependenciesAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, bool)>(&AddressablesImpl::DownloadDependenciesAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheForKey
-  // Il2CppName: ClearDependencyCacheForKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(::Il2CppObject*)>(&AddressablesImpl::ClearDependencyCacheForKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheForKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::AutoReleaseHandleOnCompletion
-  // Il2CppName: AutoReleaseHandleOnCompletion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::AutoReleaseHandleOnCompletion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "AutoReleaseHandleOnCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheAsync
-  // Il2CppName: ClearDependencyCacheAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (AddressablesImpl::*)(::Il2CppObject*, bool)>(&AddressablesImpl::ClearDependencyCacheAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheAsync
-  // Il2CppName: ClearDependencyCacheAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (AddressablesImpl::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, bool)>(&AddressablesImpl::ClearDependencyCacheAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheAsync
-  // Il2CppName: ClearDependencyCacheAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (AddressablesImpl::*)(System::Collections::IEnumerable*, bool)>(&AddressablesImpl::ClearDependencyCacheAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::Transform*, bool, bool)>(&AddressablesImpl::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*, bool)>(&AddressablesImpl::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::Transform*, bool, bool)>(&AddressablesImpl::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*, bool)>(&AddressablesImpl::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateWithChain
-  // Il2CppName: InstantiateWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateWithChain
-  // Il2CppName: InstantiateWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
-  // Il2CppName: InstantiateAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::ReleaseInstance
-  // Il2CppName: ReleaseInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(UnityEngine::GameObject*)>(&AddressablesImpl::ReleaseInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ReleaseInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadSceneWithChain
-  // Il2CppName: LoadSceneWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, UnityEngine::SceneManagement::LoadSceneMode, bool, int)>(&AddressablesImpl::LoadSceneWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadSceneWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadSceneAsync
-  // Il2CppName: LoadSceneAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::SceneManagement::LoadSceneMode, bool, int, bool)>(&AddressablesImpl::LoadSceneAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::LoadSceneAsync
-  // Il2CppName: LoadSceneAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::SceneManagement::LoadSceneMode, bool, int, bool)>(&AddressablesImpl::LoadSceneAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::UnloadSceneAsync
-  // Il2CppName: UnloadSceneAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, bool)>(&AddressablesImpl::UnloadSceneAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::UnloadSceneAsync
-  // Il2CppName: UnloadSceneAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, bool)>(&AddressablesImpl::UnloadSceneAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::UnloadSceneAsync
-  // Il2CppName: UnloadSceneAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, bool)>(&AddressablesImpl::UnloadSceneAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::CreateUnloadSceneWithChain
-  // Il2CppName: CreateUnloadSceneWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, bool)>(&AddressablesImpl::CreateUnloadSceneWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CreateUnloadSceneWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::CreateUnloadSceneWithChain
-  // Il2CppName: CreateUnloadSceneWithChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, bool)>(&AddressablesImpl::CreateUnloadSceneWithChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CreateUnloadSceneWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::InternalUnloadScene
-  // Il2CppName: InternalUnloadScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, bool)>(&AddressablesImpl::InternalUnloadScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InternalUnloadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::EvaluateKey
-  // Il2CppName: EvaluateKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AddressablesImpl::*)(::Il2CppObject*)>(&AddressablesImpl::EvaluateKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "EvaluateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::CheckForCatalogUpdates
-  // Il2CppName: CheckForCatalogUpdates
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> (AddressablesImpl::*)(bool)>(&AddressablesImpl::CheckForCatalogUpdates)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CheckForCatalogUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetLocatorInfo
-  // Il2CppName: GetLocatorInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::GetLocatorInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetLocatorInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::get_CatalogsWithAvailableUpdates
-  // Il2CppName: get_CatalogsWithAvailableUpdates
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (AddressablesImpl::*)()>(&AddressablesImpl::get_CatalogsWithAvailableUpdates)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_CatalogsWithAvailableUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::UpdateCatalogs
-  // Il2CppName: UpdateCatalogs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> (AddressablesImpl::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, bool)>(&AddressablesImpl::UpdateCatalogs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UpdateCatalogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$InitializeAsync$b__57_0
-  // Il2CppName: <InitializeAsync>b__57_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>)>(&AddressablesImpl::$InitializeAsync$b__57_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<InitializeAsync>b__57_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$TrackHandle$b__61_0
-  // Il2CppName: <TrackHandle>b__61_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::$TrackHandle$b__61_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<TrackHandle>b__61_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__91_0
-  // Il2CppName: <DownloadDependenciesAsync>b__91_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__91_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__91_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__91_1
-  // Il2CppName: <DownloadDependenciesAsync>b__91_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__91_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__91_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__93_0
-  // Il2CppName: <DownloadDependenciesAsync>b__93_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__93_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__93_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__95_0
-  // Il2CppName: <DownloadDependenciesAsync>b__95_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__95_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__95_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__95_1
-  // Il2CppName: <DownloadDependenciesAsync>b__95_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__95_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__95_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$AutoReleaseHandleOnCompletion$b__97_0
-  // Il2CppName: <AutoReleaseHandleOnCompletion>b__97_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::$AutoReleaseHandleOnCompletion$b__97_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<AutoReleaseHandleOnCompletion>b__97_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$InternalUnloadScene$b__118_0
-  // Il2CppName: <InternalUnloadScene>b__118_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::$InternalUnloadScene$b__118_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<InternalUnloadScene>b__118_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$CheckForCatalogUpdates$b__120_0
-  // Il2CppName: <CheckForCatalogUpdates>b__120_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::$CheckForCatalogUpdates$b__120_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<CheckForCatalogUpdates>b__120_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl*, "UnityEngine.AddressableAssets", "AddressablesImpl");
+// Writing MetadataGetter for method: AddressablesImpl::get_InstanceProvider
+// Il2CppName: get_InstanceProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* (AddressablesImpl::*)()>(&AddressablesImpl::get_InstanceProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_InstanceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::set_InstanceProvider
+// Il2CppName: set_InstanceProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*)>(&AddressablesImpl::set_InstanceProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "set_InstanceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_ResourceManager
+// Il2CppName: get_ResourceManager
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceManager* (AddressablesImpl::*)()>(&AddressablesImpl::get_ResourceManager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ResourceManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_SceneOperationCount
+// Il2CppName: get_SceneOperationCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AddressablesImpl::*)()>(&AddressablesImpl::get_SceneOperationCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_SceneOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_TrackedHandleCount
+// Il2CppName: get_TrackedHandleCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AddressablesImpl::*)()>(&AddressablesImpl::get_TrackedHandleCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_TrackedHandleCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&AddressablesImpl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&AddressablesImpl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ReleaseSceneManagerOperation
+// Il2CppName: ReleaseSceneManagerOperation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)()>(&AddressablesImpl::ReleaseSceneManagerOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ReleaseSceneManagerOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_InternalIdTransformFunc
+// Il2CppName: get_InternalIdTransformFunc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* (AddressablesImpl::*)()>(&AddressablesImpl::get_InternalIdTransformFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::set_InternalIdTransformFunc
+// Il2CppName: set_InternalIdTransformFunc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*)>(&AddressablesImpl::set_InternalIdTransformFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "set_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_ChainOperation
+// Il2CppName: get_ChainOperation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)()>(&AddressablesImpl::get_ChainOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ChainOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_ShouldChainRequest
+// Il2CppName: get_ShouldChainRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)()>(&AddressablesImpl::get_ShouldChainRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ShouldChainRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::OnSceneUnloaded
+// Il2CppName: OnSceneUnloaded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::SceneManagement::Scene)>(&AddressablesImpl::OnSceneUnloaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnSceneUnloaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_StreamingAssetsSubFolder
+// Il2CppName: get_StreamingAssetsSubFolder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_StreamingAssetsSubFolder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_StreamingAssetsSubFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_BuildPath
+// Il2CppName: get_BuildPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_BuildPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_BuildPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_PlayerBuildDataPath
+// Il2CppName: get_PlayerBuildDataPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_PlayerBuildDataPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_PlayerBuildDataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_RuntimePath
+// Il2CppName: get_RuntimePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)()>(&AddressablesImpl::get_RuntimePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_RuntimePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::Log
+// Il2CppName: Log
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LogFormat
+// Il2CppName: LogFormat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&AddressablesImpl::LogFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LogWarning
+// Il2CppName: LogWarning
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::LogWarning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LogWarningFormat
+// Il2CppName: LogWarningFormat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&AddressablesImpl::LogWarningFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogWarningFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LogError
+// Il2CppName: LogError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::LogError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LogException
+// Il2CppName: LogException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*)>(&AddressablesImpl::LogException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LogErrorFormat
+// Il2CppName: LogErrorFormat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&AddressablesImpl::LogErrorFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LogErrorFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ResolveInternalId
+// Il2CppName: ResolveInternalId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::ResolveInternalId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ResolveInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_ResourceLocators
+// Il2CppName: get_ResourceLocators
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* (AddressablesImpl::*)()>(&AddressablesImpl::get_ResourceLocators)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_ResourceLocators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::AddResourceLocator
+// Il2CppName: AddResourceLocator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::AddResourceLocator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "AddResourceLocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::RemoveResourceLocator
+// Il2CppName: RemoveResourceLocator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(&AddressablesImpl::RemoveResourceLocator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "RemoveResourceLocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ClearResourceLocators
+// Il2CppName: ClearResourceLocators
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)()>(&AddressablesImpl::ClearResourceLocators)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearResourceLocators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetResourceLocations
+// Il2CppName: GetResourceLocations
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&AddressablesImpl::GetResourceLocations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetResourceLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetResourceLocations
+// Il2CppName: GetResourceLocations
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(System::Collections::IEnumerable*, System::Type*, UnityEngine::AddressableAssets::Addressables::MergeMode, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&AddressablesImpl::GetResourceLocations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetResourceLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InitializeAsync
+// Il2CppName: InitializeAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (AddressablesImpl::*)(::Il2CppString*, ::Il2CppString*, bool)>(&AddressablesImpl::InitializeAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InitializeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InitializeAsync
+// Il2CppName: InitializeAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (AddressablesImpl::*)()>(&AddressablesImpl::InitializeAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InitializeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::CreateCatalogLocationWithHashDependencies
+// Il2CppName: CreateCatalogLocationWithHashDependencies
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* (AddressablesImpl::*)(::Il2CppString*, ::Il2CppString*)>(&AddressablesImpl::CreateCatalogLocationWithHashDependencies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CreateCatalogLocationWithHashDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadContentCatalogAsync
+// Il2CppName: LoadContentCatalogAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (AddressablesImpl::*)(::Il2CppString*, bool, ::Il2CppString*)>(&AddressablesImpl::LoadContentCatalogAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadContentCatalogAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::TrackHandle
+// Il2CppName: TrackHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::TrackHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "TrackHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::TrackHandle
+// Il2CppName: TrackHandle
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::TrackHandle
+// Il2CppName: TrackHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::TrackHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "TrackHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ClearTrackHandles
+// Il2CppName: ClearTrackHandles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)()>(&AddressablesImpl::ClearTrackHandles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearTrackHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetAsync
+// Il2CppName: LoadAssetAsync
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetWithChain
+// Il2CppName: LoadAssetWithChain
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetAsync
+// Il2CppName: LoadAssetAsync
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsWithChain
+// Il2CppName: LoadResourceLocationsWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, System::Type*)>(&AddressablesImpl::LoadResourceLocationsWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsAsync
+// Il2CppName: LoadResourceLocationsAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, System::Type*)>(&AddressablesImpl::LoadResourceLocationsAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsWithChain
+// Il2CppName: LoadResourceLocationsWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, System::Type*)>(&AddressablesImpl::LoadResourceLocationsWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationsAsync
+// Il2CppName: LoadResourceLocationsAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> (AddressablesImpl::*)(::Il2CppObject*, System::Type*)>(&AddressablesImpl::LoadResourceLocationsAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadResourceLocationsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetsAsync
+// Il2CppName: LoadAssetsAsync
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetsWithChain
+// Il2CppName: LoadAssetsWithChain
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetsAsync
+// Il2CppName: LoadAssetsAsync
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetsWithChain
+// Il2CppName: LoadAssetsWithChain
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::LoadAssetsAsync
+// Il2CppName: LoadAssetsAsync
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::OnHandleDestroyed
+// Il2CppName: OnHandleDestroyed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::OnHandleDestroyed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnHandleDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::OnSceneHandleCompleted
+// Il2CppName: OnSceneHandleCompleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::OnSceneHandleCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnSceneHandleCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::OnHandleCompleted
+// Il2CppName: OnHandleCompleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::OnHandleCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "OnHandleCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::Release
+// Il2CppName: Release
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::Release
+// Il2CppName: Release
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AddressablesImpl::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeWithChain
+// Il2CppName: GetDownloadSizeWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*)>(&AddressablesImpl::GetDownloadSizeWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeWithChain
+// Il2CppName: GetDownloadSizeWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::IEnumerable*)>(&AddressablesImpl::GetDownloadSizeWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeAsync
+// Il2CppName: GetDownloadSizeAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(::Il2CppObject*)>(&AddressablesImpl::GetDownloadSizeAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetDownloadSizeAsync
+// Il2CppName: GetDownloadSizeAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> (AddressablesImpl::*)(System::Collections::IEnumerable*)>(&AddressablesImpl::GetDownloadSizeAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetDownloadSizeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsyncWithChain
+// Il2CppName: DownloadDependenciesAsyncWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, bool)>(&AddressablesImpl::DownloadDependenciesAsyncWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsyncWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GatherDependenciesFromLocations
+// Il2CppName: GatherDependenciesFromLocations
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*)>(&AddressablesImpl::GatherDependenciesFromLocations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GatherDependenciesFromLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsync
+// Il2CppName: DownloadDependenciesAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(::Il2CppObject*, bool)>(&AddressablesImpl::DownloadDependenciesAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsyncWithChain
+// Il2CppName: DownloadDependenciesAsyncWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, bool)>(&AddressablesImpl::DownloadDependenciesAsyncWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsyncWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsync
+// Il2CppName: DownloadDependenciesAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, bool)>(&AddressablesImpl::DownloadDependenciesAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsyncWithChain
+// Il2CppName: DownloadDependenciesAsyncWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, bool)>(&AddressablesImpl::DownloadDependenciesAsyncWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsyncWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::DownloadDependenciesAsync
+// Il2CppName: DownloadDependenciesAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (AddressablesImpl::*)(System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode, bool)>(&AddressablesImpl::DownloadDependenciesAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "DownloadDependenciesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheForKey
+// Il2CppName: ClearDependencyCacheForKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(::Il2CppObject*)>(&AddressablesImpl::ClearDependencyCacheForKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheForKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::AutoReleaseHandleOnCompletion
+// Il2CppName: AutoReleaseHandleOnCompletion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::AutoReleaseHandleOnCompletion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "AutoReleaseHandleOnCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheAsync
+// Il2CppName: ClearDependencyCacheAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (AddressablesImpl::*)(::Il2CppObject*, bool)>(&AddressablesImpl::ClearDependencyCacheAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheAsync
+// Il2CppName: ClearDependencyCacheAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (AddressablesImpl::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, bool)>(&AddressablesImpl::ClearDependencyCacheAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ClearDependencyCacheAsync
+// Il2CppName: ClearDependencyCacheAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (AddressablesImpl::*)(System::Collections::IEnumerable*, bool)>(&AddressablesImpl::ClearDependencyCacheAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ClearDependencyCacheAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::Transform*, bool, bool)>(&AddressablesImpl::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*, bool)>(&AddressablesImpl::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::Transform*, bool, bool)>(&AddressablesImpl::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*, bool)>(&AddressablesImpl::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateWithChain
+// Il2CppName: InstantiateWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateWithChain
+// Il2CppName: InstantiateWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InstantiateAsync
+// Il2CppName: InstantiateAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, bool)>(&AddressablesImpl::InstantiateAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InstantiateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::ReleaseInstance
+// Il2CppName: ReleaseInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(UnityEngine::GameObject*)>(&AddressablesImpl::ReleaseInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "ReleaseInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadSceneWithChain
+// Il2CppName: LoadSceneWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::Il2CppObject*, UnityEngine::SceneManagement::LoadSceneMode, bool, int)>(&AddressablesImpl::LoadSceneWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadSceneWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadSceneAsync
+// Il2CppName: LoadSceneAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(::Il2CppObject*, UnityEngine::SceneManagement::LoadSceneMode, bool, int, bool)>(&AddressablesImpl::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::LoadSceneAsync
+// Il2CppName: LoadSceneAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::SceneManagement::LoadSceneMode, bool, int, bool)>(&AddressablesImpl::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::UnloadSceneAsync
+// Il2CppName: UnloadSceneAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, bool)>(&AddressablesImpl::UnloadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::UnloadSceneAsync
+// Il2CppName: UnloadSceneAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, bool)>(&AddressablesImpl::UnloadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::UnloadSceneAsync
+// Il2CppName: UnloadSceneAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, bool)>(&AddressablesImpl::UnloadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::CreateUnloadSceneWithChain
+// Il2CppName: CreateUnloadSceneWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, bool)>(&AddressablesImpl::CreateUnloadSceneWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CreateUnloadSceneWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::CreateUnloadSceneWithChain
+// Il2CppName: CreateUnloadSceneWithChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, bool)>(&AddressablesImpl::CreateUnloadSceneWithChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CreateUnloadSceneWithChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::InternalUnloadScene
+// Il2CppName: InternalUnloadScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, bool)>(&AddressablesImpl::InternalUnloadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "InternalUnloadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::EvaluateKey
+// Il2CppName: EvaluateKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AddressablesImpl::*)(::Il2CppObject*)>(&AddressablesImpl::EvaluateKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "EvaluateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::CheckForCatalogUpdates
+// Il2CppName: CheckForCatalogUpdates
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> (AddressablesImpl::*)(bool)>(&AddressablesImpl::CheckForCatalogUpdates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "CheckForCatalogUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetLocatorInfo
+// Il2CppName: GetLocatorInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* (AddressablesImpl::*)(::Il2CppString*)>(&AddressablesImpl::GetLocatorInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetLocatorInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::get_CatalogsWithAvailableUpdates
+// Il2CppName: get_CatalogsWithAvailableUpdates
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (AddressablesImpl::*)()>(&AddressablesImpl::get_CatalogsWithAvailableUpdates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "get_CatalogsWithAvailableUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::UpdateCatalogs
+// Il2CppName: UpdateCatalogs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> (AddressablesImpl::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, bool)>(&AddressablesImpl::UpdateCatalogs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "UpdateCatalogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AddressablesImpl::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$InitializeAsync$b__57_0
+// Il2CppName: <InitializeAsync>b__57_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>)>(&AddressablesImpl::$InitializeAsync$b__57_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<InitializeAsync>b__57_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$TrackHandle$b__61_0
+// Il2CppName: <TrackHandle>b__61_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::$TrackHandle$b__61_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<TrackHandle>b__61_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__91_0
+// Il2CppName: <DownloadDependenciesAsync>b__91_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__91_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__91_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__91_1
+// Il2CppName: <DownloadDependenciesAsync>b__91_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__91_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__91_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__93_0
+// Il2CppName: <DownloadDependenciesAsync>b__93_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__93_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__93_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__95_0
+// Il2CppName: <DownloadDependenciesAsync>b__95_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__95_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__95_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$DownloadDependenciesAsync$b__95_1
+// Il2CppName: <DownloadDependenciesAsync>b__95_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>)>(&AddressablesImpl::$DownloadDependenciesAsync$b__95_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<DownloadDependenciesAsync>b__95_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$AutoReleaseHandleOnCompletion$b__97_0
+// Il2CppName: <AutoReleaseHandleOnCompletion>b__97_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::$AutoReleaseHandleOnCompletion$b__97_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<AutoReleaseHandleOnCompletion>b__97_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$InternalUnloadScene$b__118_0
+// Il2CppName: <InternalUnloadScene>b__118_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&AddressablesImpl::$InternalUnloadScene$b__118_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<InternalUnloadScene>b__118_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$CheckForCatalogUpdates$b__120_0
+// Il2CppName: <CheckForCatalogUpdates>b__120_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::$CheckForCatalogUpdates$b__120_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl*), "<CheckForCatalogUpdates>b__120_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};

@@ -123,118 +123,118 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ProviderBindingFinalizer), 16 + sizeof(Zenject::BindInfo*)> __Zenject_ProviderBindingFinalizerSizeCheck;
   static_assert(sizeof(ProviderBindingFinalizer) == 0x18);
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::BindInfo*)>(&ProviderBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::BindInfo*)>(&ProviderBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::get_BindingInheritanceMethod
-  // Il2CppName: get_BindingInheritanceMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (ProviderBindingFinalizer::*)()>(&ProviderBindingFinalizer::get_BindingInheritanceMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::get_BindInfo
-  // Il2CppName: get_BindInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (ProviderBindingFinalizer::*)()>(&ProviderBindingFinalizer::get_BindInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::set_BindInfo
-  // Il2CppName: set_BindInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::BindInfo*)>(&ProviderBindingFinalizer::set_BindInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::GetScope
-  // Il2CppName: GetScope
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeTypes (ProviderBindingFinalizer::*)()>(&ProviderBindingFinalizer::GetScope)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "GetScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::FinalizeBinding
-  // Il2CppName: FinalizeBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*)>(&ProviderBindingFinalizer::FinalizeBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::OnFinalizeBinding
-  // Il2CppName: OnFinalizeBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*)>(&ProviderBindingFinalizer::OnFinalizeBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvider
-  // Il2CppName: RegisterProvider
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvider
-  // Il2CppName: RegisterProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Type*, Zenject::IProvider*)>(&ProviderBindingFinalizer::RegisterProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProviderPerContract
-  // Il2CppName: RegisterProviderPerContract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ProviderBindingFinalizer::RegisterProviderPerContract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProviderPerContract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProviderForAllContracts
-  // Il2CppName: RegisterProviderForAllContracts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, Zenject::IProvider*)>(&ProviderBindingFinalizer::RegisterProviderForAllContracts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProviderForAllContracts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvidersPerContractAndConcreteType
-  // Il2CppName: RegisterProvidersPerContractAndConcreteType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*, System::Func_3<System::Type*, System::Type*, Zenject::IProvider*>*)>(&ProviderBindingFinalizer::RegisterProvidersPerContractAndConcreteType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProvidersPerContractAndConcreteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<System::Type*, System::Type*, Zenject::IProvider*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::ValidateBindTypes
-  // Il2CppName: ValidateBindTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ProviderBindingFinalizer::*)(System::Type*, System::Type*)>(&ProviderBindingFinalizer::ValidateBindTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "ValidateBindTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvidersForAllContractsPerConcreteType
-  // Il2CppName: RegisterProvidersForAllContractsPerConcreteType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ProviderBindingFinalizer::RegisterProvidersForAllContractsPerConcreteType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProvidersForAllContractsPerConcreteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderBindingFinalizer*, "Zenject", "ProviderBindingFinalizer");
+// Writing MetadataGetter for method: ProviderBindingFinalizer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::BindInfo*)>(&ProviderBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::BindInfo*)>(&ProviderBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::get_BindingInheritanceMethod
+// Il2CppName: get_BindingInheritanceMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (ProviderBindingFinalizer::*)()>(&ProviderBindingFinalizer::get_BindingInheritanceMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::get_BindInfo
+// Il2CppName: get_BindInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (ProviderBindingFinalizer::*)()>(&ProviderBindingFinalizer::get_BindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::set_BindInfo
+// Il2CppName: set_BindInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::BindInfo*)>(&ProviderBindingFinalizer::set_BindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::GetScope
+// Il2CppName: GetScope
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeTypes (ProviderBindingFinalizer::*)()>(&ProviderBindingFinalizer::GetScope)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "GetScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::FinalizeBinding
+// Il2CppName: FinalizeBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*)>(&ProviderBindingFinalizer::FinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::OnFinalizeBinding
+// Il2CppName: OnFinalizeBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*)>(&ProviderBindingFinalizer::OnFinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvider
+// Il2CppName: RegisterProvider
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvider
+// Il2CppName: RegisterProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Type*, Zenject::IProvider*)>(&ProviderBindingFinalizer::RegisterProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProviderPerContract
+// Il2CppName: RegisterProviderPerContract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ProviderBindingFinalizer::RegisterProviderPerContract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProviderPerContract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProviderForAllContracts
+// Il2CppName: RegisterProviderForAllContracts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, Zenject::IProvider*)>(&ProviderBindingFinalizer::RegisterProviderForAllContracts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProviderForAllContracts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvidersPerContractAndConcreteType
+// Il2CppName: RegisterProvidersPerContractAndConcreteType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*, System::Func_3<System::Type*, System::Type*, Zenject::IProvider*>*)>(&ProviderBindingFinalizer::RegisterProvidersPerContractAndConcreteType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProvidersPerContractAndConcreteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<System::Type*, System::Type*, Zenject::IProvider*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::ValidateBindTypes
+// Il2CppName: ValidateBindTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ProviderBindingFinalizer::*)(System::Type*, System::Type*)>(&ProviderBindingFinalizer::ValidateBindTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "ValidateBindTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::RegisterProvidersForAllContractsPerConcreteType
+// Il2CppName: RegisterProvidersForAllContractsPerConcreteType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ProviderBindingFinalizer::RegisterProvidersForAllContractsPerConcreteType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer*), "RegisterProvidersForAllContractsPerConcreteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
+  }
+};

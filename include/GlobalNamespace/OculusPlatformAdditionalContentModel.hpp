@@ -167,107 +167,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformAdditionalContentModel), 64 + sizeof(bool)> __GlobalNamespace_OculusPlatformAdditionalContentModelSizeCheck;
   static_assert(sizeof(OculusPlatformAdditionalContentModel) == 0x41);
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::DataIsValidAsync
-  // Il2CppName: DataIsValidAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OculusPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::DataIsValidAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "DataIsValidAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::LaunchCheckoutFlow
-  // Il2CppName: LaunchCheckoutFlow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*)>(&OculusPlatformAdditionalContentModel::LaunchCheckoutFlow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "LaunchCheckoutFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::CheckForNewEntitlementsAsync
-  // Il2CppName: CheckForNewEntitlementsAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* (OculusPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::CheckForNewEntitlementsAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "CheckForNewEntitlementsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::HasLevelEntitlement
-  // Il2CppName: HasLevelEntitlement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusPlatformAdditionalContentModel::*)(::Il2CppString*)>(&OculusPlatformAdditionalContentModel::HasLevelEntitlement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "HasLevelEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::HasLevelPackEntitlement
-  // Il2CppName: HasLevelPackEntitlement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusPlatformAdditionalContentModel::*)(::Il2CppString*)>(&OculusPlatformAdditionalContentModel::HasLevelPackEntitlement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "HasLevelPackEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::InvalidateDataInternal
-  // Il2CppName: InvalidateDataInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAdditionalContentModel::*)()>(&OculusPlatformAdditionalContentModel::InvalidateDataInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "InvalidateDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync
-  // Il2CppName: GetLevelEntitlementStatusInternalAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "GetLevelEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync
-  // Il2CppName: GetPackEntitlementStatusInternalAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "GetPackEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::OpenLevelProductStoreAsync
-  // Il2CppName: OpenLevelProductStoreAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync
-  // Il2CppName: OpenLevelPackProductStoreAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync
-  // Il2CppName: IsPackBetterBuyThanLevelAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "IsPackBetterBuyThanLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAdditionalContentModel::*)()>(&OculusPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAdditionalContentModel::*)()>(&OculusPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel*, "", "OculusPlatformAdditionalContentModel");
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::DataIsValidAsync
+// Il2CppName: DataIsValidAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OculusPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::DataIsValidAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "DataIsValidAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::LaunchCheckoutFlow
+// Il2CppName: LaunchCheckoutFlow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*)>(&OculusPlatformAdditionalContentModel::LaunchCheckoutFlow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "LaunchCheckoutFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::CheckForNewEntitlementsAsync
+// Il2CppName: CheckForNewEntitlementsAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* (OculusPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::CheckForNewEntitlementsAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "CheckForNewEntitlementsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::HasLevelEntitlement
+// Il2CppName: HasLevelEntitlement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusPlatformAdditionalContentModel::*)(::Il2CppString*)>(&OculusPlatformAdditionalContentModel::HasLevelEntitlement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "HasLevelEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::HasLevelPackEntitlement
+// Il2CppName: HasLevelPackEntitlement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusPlatformAdditionalContentModel::*)(::Il2CppString*)>(&OculusPlatformAdditionalContentModel::HasLevelPackEntitlement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "HasLevelPackEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::InvalidateDataInternal
+// Il2CppName: InvalidateDataInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAdditionalContentModel::*)()>(&OculusPlatformAdditionalContentModel::InvalidateDataInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "InvalidateDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync
+// Il2CppName: GetLevelEntitlementStatusInternalAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "GetLevelEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync
+// Il2CppName: GetPackEntitlementStatusInternalAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "GetPackEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::OpenLevelProductStoreAsync
+// Il2CppName: OpenLevelProductStoreAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync
+// Il2CppName: OpenLevelPackProductStoreAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync
+// Il2CppName: IsPackBetterBuyThanLevelAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* (OculusPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&OculusPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), "IsPackBetterBuyThanLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformAdditionalContentModel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAdditionalContentModel::*)()>(&OculusPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAdditionalContentModel::*)()>(&OculusPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

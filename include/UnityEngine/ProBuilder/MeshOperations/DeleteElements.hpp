@@ -62,54 +62,54 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static ::Array<int>* RemoveUnusedVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements
   #pragma pack(pop)
-  // Writing MetadataGetter for method: DeleteElements::DeleteVertices
-  // Il2CppName: DeleteVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*)>(&DeleteElements::DeleteVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DeleteElements::DeleteFace
-  // Il2CppName: DeleteFace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&DeleteElements::DeleteFace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DeleteElements::DeleteFaces
-  // Il2CppName: DeleteFaces
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&DeleteElements::DeleteFaces)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DeleteElements::DeleteFaces
-  // Il2CppName: DeleteFaces
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<int>*)>(&DeleteElements::DeleteFaces)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DeleteElements::RemoveDegenerateTriangles
-  // Il2CppName: RemoveDegenerateTriangles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&DeleteElements::RemoveDegenerateTriangles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "RemoveDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DeleteElements::RemoveUnusedVertices
-  // Il2CppName: RemoveUnusedVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&DeleteElements::RemoveUnusedVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "RemoveUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements");
+// Writing MetadataGetter for method: DeleteElements::DeleteVertices
+// Il2CppName: DeleteVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*)>(&DeleteElements::DeleteVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: DeleteElements::DeleteFace
+// Il2CppName: DeleteFace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&DeleteElements::DeleteFace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: DeleteElements::DeleteFaces
+// Il2CppName: DeleteFaces
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&DeleteElements::DeleteFaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>()});
+  }
+};
+// Writing MetadataGetter for method: DeleteElements::DeleteFaces
+// Il2CppName: DeleteFaces
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<int>*)>(&DeleteElements::DeleteFaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "DeleteFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: DeleteElements::RemoveDegenerateTriangles
+// Il2CppName: RemoveDegenerateTriangles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&DeleteElements::RemoveDegenerateTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "RemoveDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};
+// Writing MetadataGetter for method: DeleteElements::RemoveUnusedVertices
+// Il2CppName: RemoveUnusedVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&DeleteElements::RemoveUnusedVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeleteElements*), "RemoveUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};

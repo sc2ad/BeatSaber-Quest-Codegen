@@ -51,19 +51,19 @@ namespace System::Collections::Specialized {
   #pragma pack(pop)
   static check_size<sizeof(ListDictionary::DictionaryNode), 32 + sizeof(System::Collections::Specialized::ListDictionary::DictionaryNode*)> __System_Collections_Specialized_ListDictionary_DictionaryNodeSizeCheck;
   static_assert(sizeof(ListDictionary::DictionaryNode) == 0x28);
-  // Writing MetadataGetter for method: ListDictionary::DictionaryNode::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionary::DictionaryNode::*)()>(&ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionary::DictionaryNode::*)()>(&ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::DictionaryNode*, "System.Collections.Specialized", "ListDictionary/DictionaryNode");
+// Writing MetadataGetter for method: ListDictionary::DictionaryNode::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionary::DictionaryNode::*)()>(&ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionary::DictionaryNode::*)()>(&ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

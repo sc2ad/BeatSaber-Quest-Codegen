@@ -59,51 +59,51 @@ namespace UnityEngine::UI {
     void SetLayoutVertical();
   }; // UnityEngine.UI.HorizontalLayoutGroup
   #pragma pack(pop)
-  // Writing MetadataGetter for method: HorizontalLayoutGroup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HorizontalLayoutGroup::CalculateLayoutInputHorizontal
-  // Il2CppName: CalculateLayoutInputHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::CalculateLayoutInputHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HorizontalLayoutGroup::CalculateLayoutInputVertical
-  // Il2CppName: CalculateLayoutInputVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::CalculateLayoutInputVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HorizontalLayoutGroup::SetLayoutHorizontal
-  // Il2CppName: SetLayoutHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::SetLayoutHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HorizontalLayoutGroup::SetLayoutVertical
-  // Il2CppName: SetLayoutVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::SetLayoutVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalLayoutGroup*, "UnityEngine.UI", "HorizontalLayoutGroup");
+// Writing MetadataGetter for method: HorizontalLayoutGroup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HorizontalLayoutGroup::CalculateLayoutInputHorizontal
+// Il2CppName: CalculateLayoutInputHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HorizontalLayoutGroup::CalculateLayoutInputVertical
+// Il2CppName: CalculateLayoutInputVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HorizontalLayoutGroup::SetLayoutHorizontal
+// Il2CppName: SetLayoutHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HorizontalLayoutGroup::SetLayoutVertical
+// Il2CppName: SetLayoutVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalLayoutGroup::*)()>(&HorizontalLayoutGroup::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalLayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

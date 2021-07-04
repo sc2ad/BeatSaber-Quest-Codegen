@@ -162,209 +162,209 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(TypeWrapper), 16 + sizeof(System::Type*)> __NUnit_Framework_Internal_TypeWrapperSizeCheck;
   static_assert(sizeof(TypeWrapper) == 0x18);
-  // Writing MetadataGetter for method: TypeWrapper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeWrapper::*)(System::Type*)>(&TypeWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeWrapper::*)(System::Type*)>(&TypeWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_Type
-  // Il2CppName: get_Type
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeWrapper::*)()>(&TypeWrapper::get_Type)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::set_Type
-  // Il2CppName: set_Type
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeWrapper::*)(System::Type*)>(&TypeWrapper::set_Type)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_BaseType
-  // Il2CppName: get_BaseType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (TypeWrapper::*)()>(&TypeWrapper::get_BaseType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_FullName
-  // Il2CppName: get_FullName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::get_FullName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_Assembly
-  // Il2CppName: get_Assembly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (TypeWrapper::*)()>(&TypeWrapper::get_Assembly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_Namespace
-  // Il2CppName: get_Namespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::get_Namespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_IsAbstract
-  // Il2CppName: get_IsAbstract
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsAbstract)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_IsGenericType
-  // Il2CppName: get_IsGenericType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsGenericType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::IsType
-  // Il2CppName: IsType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)(System::Type*)>(&TypeWrapper::IsType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "IsType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_ContainsGenericParameters
-  // Il2CppName: get_ContainsGenericParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_ContainsGenericParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_ContainsGenericParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_IsGenericTypeDefinition
-  // Il2CppName: get_IsGenericTypeDefinition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsGenericTypeDefinition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_IsSealed
-  // Il2CppName: get_IsSealed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsSealed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsSealed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::get_IsStaticClass
-  // Il2CppName: get_IsStaticClass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsStaticClass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsStaticClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::GetDisplayName
-  // Il2CppName: GetDisplayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::GetDisplayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::GetDisplayName
-  // Il2CppName: GetDisplayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)(::Array<::Il2CppObject*>*)>(&TypeWrapper::GetDisplayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::MakeGenericType
-  // Il2CppName: MakeGenericType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (TypeWrapper::*)(::Array<System::Type*>*)>(&TypeWrapper::MakeGenericType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::GetGenericTypeDefinition
-  // Il2CppName: GetGenericTypeDefinition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeWrapper::*)()>(&TypeWrapper::GetGenericTypeDefinition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TypeWrapper::IsDefined
-  // Il2CppName: IsDefined
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TypeWrapper::HasMethodWithAttribute
-  // Il2CppName: HasMethodWithAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)(System::Type*)>(&TypeWrapper::HasMethodWithAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "HasMethodWithAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::GetMethods
-  // Il2CppName: GetMethods
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IMethodInfo*>* (TypeWrapper::*)(System::Reflection::BindingFlags)>(&TypeWrapper::GetMethods)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::GetConstructor
-  // Il2CppName: GetConstructor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (TypeWrapper::*)(::Array<System::Type*>*)>(&TypeWrapper::GetConstructor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::HasConstructor
-  // Il2CppName: HasConstructor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)(::Array<System::Type*>*)>(&TypeWrapper::HasConstructor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "HasConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::Construct
-  // Il2CppName: Construct
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TypeWrapper::*)(::Array<::Il2CppObject*>*)>(&TypeWrapper::Construct)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeWrapper::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper*, "NUnit.Framework.Internal", "TypeWrapper");
+// Writing MetadataGetter for method: TypeWrapper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeWrapper::*)(System::Type*)>(&TypeWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeWrapper::*)(System::Type*)>(&TypeWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_Type
+// Il2CppName: get_Type
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeWrapper::*)()>(&TypeWrapper::get_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::set_Type
+// Il2CppName: set_Type
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeWrapper::*)(System::Type*)>(&TypeWrapper::set_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_BaseType
+// Il2CppName: get_BaseType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (TypeWrapper::*)()>(&TypeWrapper::get_BaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_FullName
+// Il2CppName: get_FullName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::get_FullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_Assembly
+// Il2CppName: get_Assembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (TypeWrapper::*)()>(&TypeWrapper::get_Assembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_Namespace
+// Il2CppName: get_Namespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::get_Namespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_IsAbstract
+// Il2CppName: get_IsAbstract
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsAbstract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_IsGenericType
+// Il2CppName: get_IsGenericType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::IsType
+// Il2CppName: IsType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)(System::Type*)>(&TypeWrapper::IsType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "IsType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_ContainsGenericParameters
+// Il2CppName: get_ContainsGenericParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_ContainsGenericParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_ContainsGenericParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_IsGenericTypeDefinition
+// Il2CppName: get_IsGenericTypeDefinition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsGenericTypeDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_IsSealed
+// Il2CppName: get_IsSealed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsSealed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsSealed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::get_IsStaticClass
+// Il2CppName: get_IsStaticClass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)()>(&TypeWrapper::get_IsStaticClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "get_IsStaticClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::GetDisplayName
+// Il2CppName: GetDisplayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::GetDisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::GetDisplayName
+// Il2CppName: GetDisplayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)(::Array<::Il2CppObject*>*)>(&TypeWrapper::GetDisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::MakeGenericType
+// Il2CppName: MakeGenericType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (TypeWrapper::*)(::Array<System::Type*>*)>(&TypeWrapper::MakeGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::GetGenericTypeDefinition
+// Il2CppName: GetGenericTypeDefinition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeWrapper::*)()>(&TypeWrapper::GetGenericTypeDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TypeWrapper::IsDefined
+// Il2CppName: IsDefined
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TypeWrapper::HasMethodWithAttribute
+// Il2CppName: HasMethodWithAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)(System::Type*)>(&TypeWrapper::HasMethodWithAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "HasMethodWithAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::GetMethods
+// Il2CppName: GetMethods
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IMethodInfo*>* (TypeWrapper::*)(System::Reflection::BindingFlags)>(&TypeWrapper::GetMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::GetConstructor
+// Il2CppName: GetConstructor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (TypeWrapper::*)(::Array<System::Type*>*)>(&TypeWrapper::GetConstructor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "GetConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::HasConstructor
+// Il2CppName: HasConstructor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeWrapper::*)(::Array<System::Type*>*)>(&TypeWrapper::HasConstructor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "HasConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::Construct
+// Il2CppName: Construct
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TypeWrapper::*)(::Array<::Il2CppObject*>*)>(&TypeWrapper::Construct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeWrapper::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeWrapper::*)()>(&TypeWrapper::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeWrapper*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

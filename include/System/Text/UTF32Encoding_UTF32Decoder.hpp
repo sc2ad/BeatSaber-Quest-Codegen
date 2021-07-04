@@ -55,35 +55,35 @@ namespace System::Text {
   #pragma pack(pop)
   static check_size<sizeof(UTF32Encoding::UTF32Decoder), 52 + sizeof(int)> __System_Text_UTF32Encoding_UTF32DecoderSizeCheck;
   static_assert(sizeof(UTF32Encoding::UTF32Decoder) == 0x38);
-  // Writing MetadataGetter for method: UTF32Encoding::UTF32Decoder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF32Encoding::UTF32Decoder::*)(System::Text::UTF32Encoding*)>(&UTF32Encoding::UTF32Decoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF32Encoding*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF32Encoding::UTF32Decoder::*)(System::Text::UTF32Encoding*)>(&UTF32Encoding::UTF32Decoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF32Encoding*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UTF32Encoding::UTF32Decoder::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF32Encoding::UTF32Decoder::*)()>(&UTF32Encoding::UTF32Decoder::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UTF32Encoding::UTF32Decoder::get_HasState
-  // Il2CppName: get_HasState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UTF32Encoding::UTF32Decoder::*)()>(&UTF32Encoding::UTF32Decoder::get_HasState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), "get_HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");
+// Writing MetadataGetter for method: UTF32Encoding::UTF32Decoder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF32Encoding::UTF32Decoder::*)(System::Text::UTF32Encoding*)>(&UTF32Encoding::UTF32Decoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF32Encoding*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF32Encoding::UTF32Decoder::*)(System::Text::UTF32Encoding*)>(&UTF32Encoding::UTF32Decoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF32Encoding*>()});
+  }
+};
+// Writing MetadataGetter for method: UTF32Encoding::UTF32Decoder::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF32Encoding::UTF32Decoder::*)()>(&UTF32Encoding::UTF32Decoder::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UTF32Encoding::UTF32Decoder::get_HasState
+// Il2CppName: get_HasState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UTF32Encoding::UTF32Decoder::*)()>(&UTF32Encoding::UTF32Decoder::get_HasState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UTF32Encoding::UTF32Decoder*), "get_HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

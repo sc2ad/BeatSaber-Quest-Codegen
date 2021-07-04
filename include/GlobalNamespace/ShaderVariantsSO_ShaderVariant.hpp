@@ -61,35 +61,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ShaderVariantsSO::ShaderVariant), 24 + sizeof(UnityEngine::Shader*)> __GlobalNamespace_ShaderVariantsSO_ShaderVariantSizeCheck;
   static_assert(sizeof(ShaderVariantsSO::ShaderVariant) == 0x20);
-  // Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::get_variants
-  // Il2CppName: get_variants
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* (ShaderVariantsSO::ShaderVariant::*)()>(&ShaderVariantsSO::ShaderVariant::get_variants)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), "get_variants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::get_shader
-  // Il2CppName: get_shader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (ShaderVariantsSO::ShaderVariant::*)()>(&ShaderVariantsSO::ShaderVariant::get_shader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), "get_shader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderVariantsSO::ShaderVariant::*)(UnityEngine::Shader*, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*)>(&ShaderVariantsSO::ShaderVariant::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderVariantsSO::ShaderVariant::*)(UnityEngine::Shader*, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*)>(&ShaderVariantsSO::ShaderVariant::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant*, "", "ShaderVariantsSO/ShaderVariant");
+// Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::get_variants
+// Il2CppName: get_variants
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* (ShaderVariantsSO::ShaderVariant::*)()>(&ShaderVariantsSO::ShaderVariant::get_variants)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), "get_variants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::get_shader
+// Il2CppName: get_shader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (ShaderVariantsSO::ShaderVariant::*)()>(&ShaderVariantsSO::ShaderVariant::get_shader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), "get_shader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderVariantsSO::ShaderVariant::*)(UnityEngine::Shader*, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*)>(&ShaderVariantsSO::ShaderVariant::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderVariantsSO::ShaderVariant::*)(UnityEngine::Shader*, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*)>(&ShaderVariantsSO::ShaderVariant::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*>()});
+  }
+};

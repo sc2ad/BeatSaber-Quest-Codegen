@@ -99,14 +99,14 @@ namespace System::Runtime::InteropServices {
   #pragma pack(pop)
   static check_size<sizeof(MarshalAsAttribute), 68 + sizeof(int16_t)> __System_Runtime_InteropServices_MarshalAsAttributeSizeCheck;
   static_assert(sizeof(MarshalAsAttribute) == 0x46);
-  // Writing MetadataGetter for method: MarshalAsAttribute::Copy
-  // Il2CppName: Copy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::MarshalAsAttribute* (MarshalAsAttribute::*)()>(&MarshalAsAttribute::Copy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MarshalAsAttribute*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
+// Writing MetadataGetter for method: MarshalAsAttribute::Copy
+// Il2CppName: Copy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::MarshalAsAttribute* (MarshalAsAttribute::*)()>(&MarshalAsAttribute::Copy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MarshalAsAttribute*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

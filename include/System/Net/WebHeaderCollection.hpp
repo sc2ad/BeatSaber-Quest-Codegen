@@ -311,280 +311,280 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(WebHeaderCollection), 112 + sizeof(System::Net::WebHeaderCollectionType)> __System_Net_WebHeaderCollectionSizeCheck;
   static_assert(sizeof(WebHeaderCollection) == 0x72);
-  // Writing MetadataGetter for method: WebHeaderCollection::NormalizeCommonHeaders
-  // Il2CppName: NormalizeCommonHeaders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)()>(&WebHeaderCollection::NormalizeCommonHeaders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "NormalizeCommonHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::get_InnerCollection
-  // Il2CppName: get_InnerCollection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::NameValueCollection* (WebHeaderCollection::*)()>(&WebHeaderCollection::get_InnerCollection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "get_InnerCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::AllowMultiValues
-  // Il2CppName: AllowMultiValues
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&WebHeaderCollection::AllowMultiValues)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "AllowMultiValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::get_AllowHttpRequestHeader
-  // Il2CppName: get_AllowHttpRequestHeader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebHeaderCollection::*)()>(&WebHeaderCollection::get_AllowHttpRequestHeader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "get_AllowHttpRequestHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::Remove
-  // Il2CppName: Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Net::HttpRequestHeader)>(&WebHeaderCollection::Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpRequestHeader>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::AddInternal
-  // Il2CppName: AddInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::AddInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "AddInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::ChangeInternal
-  // Il2CppName: ChangeInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::ChangeInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ChangeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::RemoveInternal
-  // Il2CppName: RemoveInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::RemoveInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "RemoveInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::CheckBadChars
-  // Il2CppName: CheckBadChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&WebHeaderCollection::CheckBadChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "CheckBadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::ContainsNonAsciiChars
-  // Il2CppName: ContainsNonAsciiChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&WebHeaderCollection::ContainsNonAsciiChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ContainsNonAsciiChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::ThrowOnRestrictedHeader
-  // Il2CppName: ThrowOnRestrictedHeader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::ThrowOnRestrictedHeader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ThrowOnRestrictedHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::SetInternal
-  // Il2CppName: SetInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::SetInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "SetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::GetAsString
-  // Il2CppName: GetAsString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Specialized::NameValueCollection*, bool, bool)>(&WebHeaderCollection::GetAsString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Specialized::NameValueCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Net::WebHeaderCollectionType)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebHeaderCollectionType>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Net::WebHeaderCollectionType)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebHeaderCollectionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::System_Runtime_Serialization_ISerializable_GetObjectData
-  // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::Set
-  // Il2CppName: Set
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::Set)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::Remove
-  // Il2CppName: Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::GetValues
-  // Il2CppName: GetValues
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::GetValues)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)()>(&WebHeaderCollection::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)()>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)()>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::OnDeserialization
-  // Il2CppName: OnDeserialization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppObject*)>(&WebHeaderCollection::OnDeserialization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::GetObjectData
-  // Il2CppName: GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::GetEnumerator
-  // Il2CppName: GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (WebHeaderCollection::*)()>(&WebHeaderCollection::GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::get_Count
-  // Il2CppName: get_Count
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebHeaderCollection::*)()>(&WebHeaderCollection::get_Count)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)(int)>(&WebHeaderCollection::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::GetValues
-  // Il2CppName: GetValues
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (WebHeaderCollection::*)(int)>(&WebHeaderCollection::GetValues)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::GetKey
-  // Il2CppName: GetKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)(int)>(&WebHeaderCollection::GetKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebHeaderCollection::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebHeaderCollection::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection*, "System.Net", "WebHeaderCollection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection::RfcChar, "System.Net", "WebHeaderCollection/RfcChar");
+// Writing MetadataGetter for method: WebHeaderCollection::NormalizeCommonHeaders
+// Il2CppName: NormalizeCommonHeaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)()>(&WebHeaderCollection::NormalizeCommonHeaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "NormalizeCommonHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::get_InnerCollection
+// Il2CppName: get_InnerCollection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::NameValueCollection* (WebHeaderCollection::*)()>(&WebHeaderCollection::get_InnerCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "get_InnerCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::AllowMultiValues
+// Il2CppName: AllowMultiValues
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&WebHeaderCollection::AllowMultiValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "AllowMultiValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::get_AllowHttpRequestHeader
+// Il2CppName: get_AllowHttpRequestHeader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebHeaderCollection::*)()>(&WebHeaderCollection::get_AllowHttpRequestHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "get_AllowHttpRequestHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::Remove
+// Il2CppName: Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Net::HttpRequestHeader)>(&WebHeaderCollection::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpRequestHeader>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::AddInternal
+// Il2CppName: AddInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::AddInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "AddInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::ChangeInternal
+// Il2CppName: ChangeInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::ChangeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ChangeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::RemoveInternal
+// Il2CppName: RemoveInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::RemoveInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "RemoveInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::CheckBadChars
+// Il2CppName: CheckBadChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&WebHeaderCollection::CheckBadChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "CheckBadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::ContainsNonAsciiChars
+// Il2CppName: ContainsNonAsciiChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&WebHeaderCollection::ContainsNonAsciiChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ContainsNonAsciiChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::ThrowOnRestrictedHeader
+// Il2CppName: ThrowOnRestrictedHeader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::ThrowOnRestrictedHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ThrowOnRestrictedHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::SetInternal
+// Il2CppName: SetInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::SetInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "SetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::GetAsString
+// Il2CppName: GetAsString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Specialized::NameValueCollection*, bool, bool)>(&WebHeaderCollection::GetAsString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Specialized::NameValueCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Net::WebHeaderCollectionType)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebHeaderCollectionType>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Net::WebHeaderCollectionType)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebHeaderCollectionType>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::System_Runtime_Serialization_ISerializable_GetObjectData
+// Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::Set
+// Il2CppName: Set
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&WebHeaderCollection::Set)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::Remove
+// Il2CppName: Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::GetValues
+// Il2CppName: GetValues
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::GetValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)()>(&WebHeaderCollection::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)()>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)()>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::OnDeserialization
+// Il2CppName: OnDeserialization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(::Il2CppObject*)>(&WebHeaderCollection::OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::GetObjectData
+// Il2CppName: GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebHeaderCollection::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebHeaderCollection::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)(::Il2CppString*)>(&WebHeaderCollection::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::GetEnumerator
+// Il2CppName: GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (WebHeaderCollection::*)()>(&WebHeaderCollection::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::get_Count
+// Il2CppName: get_Count
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebHeaderCollection::*)()>(&WebHeaderCollection::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)(int)>(&WebHeaderCollection::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::GetValues
+// Il2CppName: GetValues
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (WebHeaderCollection::*)(int)>(&WebHeaderCollection::GetValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::GetKey
+// Il2CppName: GetKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebHeaderCollection::*)(int)>(&WebHeaderCollection::GetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WebHeaderCollection::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebHeaderCollection::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebHeaderCollection*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

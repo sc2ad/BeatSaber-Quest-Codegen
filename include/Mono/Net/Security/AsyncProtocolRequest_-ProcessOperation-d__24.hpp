@@ -92,22 +92,22 @@ namespace Mono::Net::Security {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.AsyncProtocolRequest/<ProcessOperation>d__24
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: AsyncProtocolRequest::$ProcessOperation$d__24::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::$ProcessOperation$d__24::*)()>(&AsyncProtocolRequest::$ProcessOperation$d__24::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest::$ProcessOperation$d__24), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncProtocolRequest::$ProcessOperation$d__24::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::$ProcessOperation$d__24::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncProtocolRequest::$ProcessOperation$d__24::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest::$ProcessOperation$d__24), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$ProcessOperation$d__24, "Mono.Net.Security", "AsyncProtocolRequest/<ProcessOperation>d__24");
+// Writing MetadataGetter for method: AsyncProtocolRequest::$ProcessOperation$d__24::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::$ProcessOperation$d__24::*)()>(&AsyncProtocolRequest::$ProcessOperation$d__24::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest::$ProcessOperation$d__24), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncProtocolRequest::$ProcessOperation$d__24::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::$ProcessOperation$d__24::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncProtocolRequest::$ProcessOperation$d__24::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest::$ProcessOperation$d__24), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

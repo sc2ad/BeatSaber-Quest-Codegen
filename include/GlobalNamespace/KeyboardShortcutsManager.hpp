@@ -107,123 +107,123 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(KeyboardShortcutsManager), 24 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Collections::Generic::List_1<System::Action*>*>*)> __GlobalNamespace_KeyboardShortcutsManagerSizeCheck;
   static_assert(sizeof(KeyboardShortcutsManager) == 0x20);
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcuts
-  // Il2CppName: RemoveKeyboardShortcuts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcuts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcuts
-  // Il2CppName: RemoveKeyboardShortcuts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcuts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
-  // Il2CppName: RemoveKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
-  // Il2CppName: RemoveKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
-  // Il2CppName: RemoveKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
-  // Il2CppName: RemoveKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcuts
-  // Il2CppName: AddKeyboardShortcuts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*)>(&KeyboardShortcutsManager::AddKeyboardShortcuts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcuts
-  // Il2CppName: AddKeyboardShortcuts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*)>(&KeyboardShortcutsManager::AddKeyboardShortcuts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
-  // Il2CppName: AddKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
-  // Il2CppName: AddKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
-  // Il2CppName: AddKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
-  // Il2CppName: AddKeyboardShortcut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyboardShortcutsManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager*, "", "KeyboardShortcutsManager");
+// Writing MetadataGetter for method: KeyboardShortcutsManager::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcuts
+// Il2CppName: RemoveKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcuts
+// Il2CppName: RemoveKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcuts
+// Il2CppName: AddKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*)>(&KeyboardShortcutsManager::AddKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcuts
+// Il2CppName: AddKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*)>(&KeyboardShortcutsManager::AddKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

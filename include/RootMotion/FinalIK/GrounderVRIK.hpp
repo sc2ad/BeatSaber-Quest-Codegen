@@ -110,115 +110,115 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(GrounderVRIK), 72 + sizeof(::Array<UnityEngine::Transform*>*)> __RootMotion_FinalIK_GrounderVRIKSizeCheck;
   static_assert(sizeof(GrounderVRIK) == 0x50);
-  // Writing MetadataGetter for method: GrounderVRIK::OpenTutorial
-  // Il2CppName: OpenTutorial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OpenTutorial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OpenTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::IsReadyToInitiate
-  // Il2CppName: IsReadyToInitiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GrounderVRIK::*)()>(&GrounderVRIK::IsReadyToInitiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "IsReadyToInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::Initiate
-  // Il2CppName: Initiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::Initiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::OnSolverUpdate
-  // Il2CppName: OnSolverUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnSolverUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnSolverUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::SetLegIK
-  // Il2CppName: SetLegIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)(RootMotion::FinalIK::IKSolverVR::PositionOffset, UnityEngine::Transform*, RootMotion::FinalIK::Grounding::Leg*)>(&GrounderVRIK::SetLegIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::PositionOffset>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::OnPostSolverUpdate
-  // Il2CppName: OnPostSolverUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnPostSolverUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnPostSolverUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::OnDrawGizmosSelected
-  // Il2CppName: OnDrawGizmosSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnDrawGizmosSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::OpenUserManual
-  // Il2CppName: OpenUserManual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OpenUserManual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::OpenScriptReference
-  // Il2CppName: OpenScriptReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OpenScriptReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::ResetPosition
-  // Il2CppName: ResetPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::ResetPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "ResetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GrounderVRIK::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderVRIK*, "RootMotion.FinalIK", "GrounderVRIK");
+// Writing MetadataGetter for method: GrounderVRIK::OpenTutorial
+// Il2CppName: OpenTutorial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OpenTutorial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OpenTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::IsReadyToInitiate
+// Il2CppName: IsReadyToInitiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GrounderVRIK::*)()>(&GrounderVRIK::IsReadyToInitiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "IsReadyToInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::Initiate
+// Il2CppName: Initiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::Initiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::OnSolverUpdate
+// Il2CppName: OnSolverUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnSolverUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnSolverUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::SetLegIK
+// Il2CppName: SetLegIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)(RootMotion::FinalIK::IKSolverVR::PositionOffset, UnityEngine::Transform*, RootMotion::FinalIK::Grounding::Leg*)>(&GrounderVRIK::SetLegIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::PositionOffset>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::OnPostSolverUpdate
+// Il2CppName: OnPostSolverUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnPostSolverUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnPostSolverUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::OnDrawGizmosSelected
+// Il2CppName: OnDrawGizmosSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnDrawGizmosSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::OpenUserManual
+// Il2CppName: OpenUserManual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OpenUserManual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::OpenScriptReference
+// Il2CppName: OpenScriptReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::OpenScriptReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::ResetPosition
+// Il2CppName: ResetPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::ResetPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), "ResetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GrounderVRIK::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderVRIK::*)()>(&GrounderVRIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GrounderVRIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

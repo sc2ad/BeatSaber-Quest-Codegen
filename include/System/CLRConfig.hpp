@@ -20,14 +20,14 @@ namespace System {
     static bool CheckThrowUnobservedTaskExceptions();
   }; // System.CLRConfig
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CLRConfig::CheckThrowUnobservedTaskExceptions
-  // Il2CppName: CheckThrowUnobservedTaskExceptions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CLRConfig::CheckThrowUnobservedTaskExceptions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CLRConfig*), "CheckThrowUnobservedTaskExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CLRConfig*, "System", "CLRConfig");
+// Writing MetadataGetter for method: CLRConfig::CheckThrowUnobservedTaskExceptions
+// Il2CppName: CheckThrowUnobservedTaskExceptions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CLRConfig::CheckThrowUnobservedTaskExceptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CLRConfig*), "CheckThrowUnobservedTaskExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

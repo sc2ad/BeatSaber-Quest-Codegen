@@ -53,46 +53,46 @@ namespace System::Collections {
     static void _cctor();
   }; // System.Collections.HashHelpers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: HashHelpers::get_SerializationInfoTable
-  // Il2CppName: get_SerializationInfoTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* (*)()>(&HashHelpers::get_SerializationInfoTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "get_SerializationInfoTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HashHelpers::IsPrime
-  // Il2CppName: IsPrime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&HashHelpers::IsPrime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "IsPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HashHelpers::GetPrime
-  // Il2CppName: GetPrime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&HashHelpers::GetPrime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "GetPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HashHelpers::ExpandPrime
-  // Il2CppName: ExpandPrime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&HashHelpers::ExpandPrime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "ExpandPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HashHelpers::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HashHelpers::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashHelpers*, "System.Collections", "HashHelpers");
+// Writing MetadataGetter for method: HashHelpers::get_SerializationInfoTable
+// Il2CppName: get_SerializationInfoTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* (*)()>(&HashHelpers::get_SerializationInfoTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "get_SerializationInfoTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HashHelpers::IsPrime
+// Il2CppName: IsPrime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&HashHelpers::IsPrime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "IsPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HashHelpers::GetPrime
+// Il2CppName: GetPrime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&HashHelpers::GetPrime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "GetPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HashHelpers::ExpandPrime
+// Il2CppName: ExpandPrime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&HashHelpers::ExpandPrime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "ExpandPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HashHelpers::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HashHelpers::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

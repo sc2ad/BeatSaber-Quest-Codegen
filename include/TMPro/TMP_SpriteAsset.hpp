@@ -197,195 +197,195 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteAsset), 120 + sizeof(bool)> __TMPro_TMP_SpriteAssetSizeCheck;
   static_assert(sizeof(TMP_SpriteAsset) == 0x79);
-  // Writing MetadataGetter for method: TMP_SpriteAsset::get_version
-  // Il2CppName: get_version
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::get_version)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::set_version
-  // Il2CppName: set_version
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)(::Il2CppString*)>(&TMP_SpriteAsset::set_version)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::get_spriteCharacterTable
-  // Il2CppName: get_spriteCharacterTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::get_spriteCharacterTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "get_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::set_spriteCharacterTable
-  // Il2CppName: set_spriteCharacterTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*)>(&TMP_SpriteAsset::set_spriteCharacterTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "set_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::get_spriteGlyphTable
-  // Il2CppName: get_spriteGlyphTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::get_spriteGlyphTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "get_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::set_spriteGlyphTable
-  // Il2CppName: set_spriteGlyphTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*)>(&TMP_SpriteAsset::set_spriteGlyphTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "set_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::GetDefaultSpriteMaterial
-  // Il2CppName: GetDefaultSpriteMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::GetDefaultSpriteMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetDefaultSpriteMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::UpdateLookupTables
-  // Il2CppName: UpdateLookupTables
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::UpdateLookupTables)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "UpdateLookupTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::GetSpriteIndexFromHashcode
-  // Il2CppName: GetSpriteIndexFromHashcode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_SpriteAsset::*)(int)>(&TMP_SpriteAsset::GetSpriteIndexFromHashcode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetSpriteIndexFromHashcode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::GetSpriteIndexFromUnicode
-  // Il2CppName: GetSpriteIndexFromUnicode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_SpriteAsset::*)(uint)>(&TMP_SpriteAsset::GetSpriteIndexFromUnicode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetSpriteIndexFromUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::GetSpriteIndexFromName
-  // Il2CppName: GetSpriteIndexFromName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_SpriteAsset::*)(::Il2CppString*)>(&TMP_SpriteAsset::GetSpriteIndexFromName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetSpriteIndexFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByUnicode
-  // Il2CppName: SearchForSpriteByUnicode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByUnicode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
-  // Il2CppName: SearchForSpriteByUnicodeInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, uint, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
-  // Il2CppName: SearchForSpriteByUnicodeInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByHashCode
-  // Il2CppName: SearchForSpriteByHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
-  // Il2CppName: SearchForSpriteByHashCodeInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, int, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
-  // Il2CppName: SearchForSpriteByHashCodeInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SortGlyphTable
-  // Il2CppName: SortGlyphTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::SortGlyphTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SortGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SortCharacterTable
-  // Il2CppName: SortCharacterTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::SortCharacterTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SortCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::SortGlyphAndCharacterTables
-  // Il2CppName: SortGlyphAndCharacterTables
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::SortGlyphAndCharacterTables)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SortGlyphAndCharacterTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::UpgradeSpriteAsset
-  // Il2CppName: UpgradeSpriteAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::UpgradeSpriteAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "UpgradeSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_SpriteAsset::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");
+// Writing MetadataGetter for method: TMP_SpriteAsset::get_version
+// Il2CppName: get_version
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::get_version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::set_version
+// Il2CppName: set_version
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)(::Il2CppString*)>(&TMP_SpriteAsset::set_version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::get_spriteCharacterTable
+// Il2CppName: get_spriteCharacterTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::get_spriteCharacterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "get_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::set_spriteCharacterTable
+// Il2CppName: set_spriteCharacterTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*)>(&TMP_SpriteAsset::set_spriteCharacterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "set_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::get_spriteGlyphTable
+// Il2CppName: get_spriteGlyphTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::get_spriteGlyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "get_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::set_spriteGlyphTable
+// Il2CppName: set_spriteGlyphTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*)>(&TMP_SpriteAsset::set_spriteGlyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "set_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::GetDefaultSpriteMaterial
+// Il2CppName: GetDefaultSpriteMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::GetDefaultSpriteMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetDefaultSpriteMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::UpdateLookupTables
+// Il2CppName: UpdateLookupTables
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::UpdateLookupTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "UpdateLookupTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::GetSpriteIndexFromHashcode
+// Il2CppName: GetSpriteIndexFromHashcode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_SpriteAsset::*)(int)>(&TMP_SpriteAsset::GetSpriteIndexFromHashcode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetSpriteIndexFromHashcode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::GetSpriteIndexFromUnicode
+// Il2CppName: GetSpriteIndexFromUnicode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_SpriteAsset::*)(uint)>(&TMP_SpriteAsset::GetSpriteIndexFromUnicode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetSpriteIndexFromUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::GetSpriteIndexFromName
+// Il2CppName: GetSpriteIndexFromName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_SpriteAsset::*)(::Il2CppString*)>(&TMP_SpriteAsset::GetSpriteIndexFromName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "GetSpriteIndexFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByUnicode
+// Il2CppName: SearchForSpriteByUnicode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByUnicode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
+// Il2CppName: SearchForSpriteByUnicodeInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, uint, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
+// Il2CppName: SearchForSpriteByUnicodeInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByHashCode
+// Il2CppName: SearchForSpriteByHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
+// Il2CppName: SearchForSpriteByHashCodeInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, int, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
+// Il2CppName: SearchForSpriteByHashCodeInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SortGlyphTable
+// Il2CppName: SortGlyphTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::SortGlyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SortGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SortCharacterTable
+// Il2CppName: SortCharacterTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::SortCharacterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SortCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::SortGlyphAndCharacterTables
+// Il2CppName: SortGlyphAndCharacterTables
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::SortGlyphAndCharacterTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "SortGlyphAndCharacterTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::UpgradeSpriteAsset
+// Il2CppName: UpgradeSpriteAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::UpgradeSpriteAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), "UpgradeSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_SpriteAsset::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteAsset::*)()>(&TMP_SpriteAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -35,14 +35,14 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
   static check_size<sizeof(TestMustExpectAllLogsAttribute), 16 + sizeof(bool)> __UnityEngine_TestTools_TestMustExpectAllLogsAttributeSizeCheck;
   static_assert(sizeof(TestMustExpectAllLogsAttribute) == 0x11);
-  // Writing MetadataGetter for method: TestMustExpectAllLogsAttribute::get_MustExpect
-  // Il2CppName: get_MustExpect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestMustExpectAllLogsAttribute::*)()>(&TestMustExpectAllLogsAttribute::get_MustExpect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestMustExpectAllLogsAttribute*), "get_MustExpect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*, "UnityEngine.TestTools", "TestMustExpectAllLogsAttribute");
+// Writing MetadataGetter for method: TestMustExpectAllLogsAttribute::get_MustExpect
+// Il2CppName: get_MustExpect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestMustExpectAllLogsAttribute::*)()>(&TestMustExpectAllLogsAttribute::get_MustExpect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestMustExpectAllLogsAttribute*), "get_MustExpect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

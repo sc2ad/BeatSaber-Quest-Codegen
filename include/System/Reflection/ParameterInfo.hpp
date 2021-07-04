@@ -182,163 +182,163 @@ namespace System::Reflection {
   #pragma pack(pop)
   static check_size<sizeof(ParameterInfo), 56 + sizeof(System::Runtime::InteropServices::MarshalAsAttribute*)> __System_Reflection_ParameterInfoSizeCheck;
   static_assert(sizeof(ParameterInfo) == 0x40);
-  // Writing MetadataGetter for method: ParameterInfo::FormatParameters
-  // Il2CppName: FormatParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, ::Array<System::Reflection::ParameterInfo*>*, System::Reflection::CallingConventions, bool)>(&ParameterInfo::FormatParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "FormatParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_ParameterType
-  // Il2CppName: get_ParameterType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ParameterInfo::*)()>(&ParameterInfo::get_ParameterType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_Attributes
-  // Il2CppName: get_Attributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterAttributes (ParameterInfo::*)()>(&ParameterInfo::get_Attributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_IsIn
-  // Il2CppName: get_IsIn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsIn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_IsOptional
-  // Il2CppName: get_IsOptional
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsOptional)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_IsOut
-  // Il2CppName: get_IsOut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsOut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_IsRetval
-  // Il2CppName: get_IsRetval
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsRetval)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsRetval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_Member
-  // Il2CppName: get_Member
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberInfo* (ParameterInfo::*)()>(&ParameterInfo::get_Member)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Member", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_Name
-  // Il2CppName: get_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ParameterInfo::*)()>(&ParameterInfo::get_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_Position
-  // Il2CppName: get_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ParameterInfo::*)()>(&ParameterInfo::get_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::GetPseudoCustomAttributes
-  // Il2CppName: GetPseudoCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ParameterInfo::*)()>(&ParameterInfo::GetPseudoCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::GetDefaultValueImpl
-  // Il2CppName: GetDefaultValueImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ParameterInfo::*)()>(&ParameterInfo::GetDefaultValueImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetDefaultValueImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::get_DefaultValue
-  // Il2CppName: get_DefaultValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ParameterInfo::*)()>(&ParameterInfo::get_DefaultValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_DefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ParameterInfo::*)(System::Type*, bool)>(&ParameterInfo::GetCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::GetRealObject
-  // Il2CppName: GetRealObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ParameterInfo::*)(System::Runtime::Serialization::StreamingContext)>(&ParameterInfo::GetRealObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::IsDefined
-  // Il2CppName: IsDefined
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)(System::Type*, bool)>(&ParameterInfo::IsDefined)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::New
-  // Il2CppName: New
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterInfo* (*)(System::Reflection::ParameterInfo*, System::Reflection::MemberInfo*)>(&ParameterInfo::New)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterInfo::*)()>(&ParameterInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterInfo::*)()>(&ParameterInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParameterInfo::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ParameterInfo::*)()>(&ParameterInfo::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");
+// Writing MetadataGetter for method: ParameterInfo::FormatParameters
+// Il2CppName: FormatParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, ::Array<System::Reflection::ParameterInfo*>*, System::Reflection::CallingConventions, bool)>(&ParameterInfo::FormatParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "FormatParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_ParameterType
+// Il2CppName: get_ParameterType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ParameterInfo::*)()>(&ParameterInfo::get_ParameterType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_Attributes
+// Il2CppName: get_Attributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterAttributes (ParameterInfo::*)()>(&ParameterInfo::get_Attributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_IsIn
+// Il2CppName: get_IsIn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsIn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_IsOptional
+// Il2CppName: get_IsOptional
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsOptional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_IsOut
+// Il2CppName: get_IsOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_IsRetval
+// Il2CppName: get_IsRetval
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)()>(&ParameterInfo::get_IsRetval)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_IsRetval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_Member
+// Il2CppName: get_Member
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberInfo* (ParameterInfo::*)()>(&ParameterInfo::get_Member)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Member", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_Name
+// Il2CppName: get_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ParameterInfo::*)()>(&ParameterInfo::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_Position
+// Il2CppName: get_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ParameterInfo::*)()>(&ParameterInfo::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::GetPseudoCustomAttributes
+// Il2CppName: GetPseudoCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ParameterInfo::*)()>(&ParameterInfo::GetPseudoCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::GetDefaultValueImpl
+// Il2CppName: GetDefaultValueImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ParameterInfo::*)()>(&ParameterInfo::GetDefaultValueImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetDefaultValueImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::get_DefaultValue
+// Il2CppName: get_DefaultValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ParameterInfo::*)()>(&ParameterInfo::get_DefaultValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "get_DefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ParameterInfo::*)(System::Type*, bool)>(&ParameterInfo::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::GetRealObject
+// Il2CppName: GetRealObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ParameterInfo::*)(System::Runtime::Serialization::StreamingContext)>(&ParameterInfo::GetRealObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::IsDefined
+// Il2CppName: IsDefined
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterInfo::*)(System::Type*, bool)>(&ParameterInfo::IsDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::New
+// Il2CppName: New
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterInfo* (*)(System::Reflection::ParameterInfo*, System::Reflection::MemberInfo*)>(&ParameterInfo::New)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterInfo::*)()>(&ParameterInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterInfo::*)()>(&ParameterInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParameterInfo::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ParameterInfo::*)()>(&ParameterInfo::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParameterInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

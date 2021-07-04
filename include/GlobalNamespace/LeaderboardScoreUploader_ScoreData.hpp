@@ -184,179 +184,179 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardScoreUploader::ScoreData), 72 + sizeof(int)> __GlobalNamespace_LeaderboardScoreUploader_ScoreDataSizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::ScoreData) == 0x4C);
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_playerId
-  // Il2CppName: get_playerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_playerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_playerId
-  // Il2CppName: set_playerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(::Il2CppString*)>(&LeaderboardScoreUploader::ScoreData::set_playerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_beatmap
-  // Il2CppName: get_beatmap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_beatmap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_beatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_beatmap
-  // Il2CppName: set_beatmap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&LeaderboardScoreUploader::ScoreData::set_beatmap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_beatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_gameplayModifiers
-  // Il2CppName: get_gameplayModifiers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_gameplayModifiers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_gameplayModifiers
-  // Il2CppName: set_gameplayModifiers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(GlobalNamespace::GameplayModifiers*)>(&LeaderboardScoreUploader::ScoreData::set_gameplayModifiers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_rawScore
-  // Il2CppName: get_rawScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_rawScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_rawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_rawScore
-  // Il2CppName: set_rawScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_rawScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_rawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_modifiedScore
-  // Il2CppName: get_modifiedScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_modifiedScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_modifiedScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_modifiedScore
-  // Il2CppName: set_modifiedScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_modifiedScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_modifiedScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_fullCombo
-  // Il2CppName: get_fullCombo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_fullCombo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_fullCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_fullCombo
-  // Il2CppName: set_fullCombo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(bool)>(&LeaderboardScoreUploader::ScoreData::set_fullCombo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_fullCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_goodCutsCount
-  // Il2CppName: get_goodCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_goodCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_goodCutsCount
-  // Il2CppName: set_goodCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_goodCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_badCutsCount
-  // Il2CppName: get_badCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_badCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_badCutsCount
-  // Il2CppName: set_badCutsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_badCutsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_missedCount
-  // Il2CppName: get_missedCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_missedCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_missedCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_missedCount
-  // Il2CppName: set_missedCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_missedCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_missedCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_maxCombo
-  // Il2CppName: get_maxCombo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_maxCombo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_maxCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_maxCombo
-  // Il2CppName: set_maxCombo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_maxCombo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_maxCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, int, int, bool, int, int, int, int, GlobalNamespace::GameplayModifiers*)>(&LeaderboardScoreUploader::ScoreData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, int, int, bool, int, int, int, int, GlobalNamespace::GameplayModifiers*)>(&LeaderboardScoreUploader::ScoreData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_playerId
+// Il2CppName: get_playerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_playerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_playerId
+// Il2CppName: set_playerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(::Il2CppString*)>(&LeaderboardScoreUploader::ScoreData::set_playerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_beatmap
+// Il2CppName: get_beatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_beatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_beatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_beatmap
+// Il2CppName: set_beatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&LeaderboardScoreUploader::ScoreData::set_beatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_beatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_gameplayModifiers
+// Il2CppName: get_gameplayModifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_gameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_gameplayModifiers
+// Il2CppName: set_gameplayModifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(GlobalNamespace::GameplayModifiers*)>(&LeaderboardScoreUploader::ScoreData::set_gameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_rawScore
+// Il2CppName: get_rawScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_rawScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_rawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_rawScore
+// Il2CppName: set_rawScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_rawScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_rawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_modifiedScore
+// Il2CppName: get_modifiedScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_modifiedScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_modifiedScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_modifiedScore
+// Il2CppName: set_modifiedScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_modifiedScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_modifiedScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_fullCombo
+// Il2CppName: get_fullCombo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_fullCombo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_fullCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_fullCombo
+// Il2CppName: set_fullCombo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(bool)>(&LeaderboardScoreUploader::ScoreData::set_fullCombo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_fullCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_goodCutsCount
+// Il2CppName: get_goodCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_goodCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_goodCutsCount
+// Il2CppName: set_goodCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_goodCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_badCutsCount
+// Il2CppName: get_badCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_badCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_badCutsCount
+// Il2CppName: set_badCutsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_badCutsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_missedCount
+// Il2CppName: get_missedCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_missedCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_missedCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_missedCount
+// Il2CppName: set_missedCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_missedCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_missedCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::get_maxCombo
+// Il2CppName: get_maxCombo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LeaderboardScoreUploader::ScoreData::*)()>(&LeaderboardScoreUploader::ScoreData::get_maxCombo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "get_maxCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::set_maxCombo
+// Il2CppName: set_maxCombo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(int)>(&LeaderboardScoreUploader::ScoreData::set_maxCombo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), "set_maxCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardScoreUploader::ScoreData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, int, int, bool, int, int, int, int, GlobalNamespace::GameplayModifiers*)>(&LeaderboardScoreUploader::ScoreData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoreData::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, int, int, bool, int, int, int, int, GlobalNamespace::GameplayModifiers*)>(&LeaderboardScoreUploader::ScoreData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoreData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};

@@ -25,14 +25,14 @@ namespace UnityEngine::Experimental::Animations {
     void UpdatePreviewGraph(UnityEngine::Playables::PlayableGraph graph);
   }; // UnityEngine.Experimental.Animations.IAnimationWindowPreview
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IAnimationWindowPreview::UpdatePreviewGraph
-  // Il2CppName: UpdatePreviewGraph
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnimationWindowPreview::*)(UnityEngine::Playables::PlayableGraph)>(&IAnimationWindowPreview::UpdatePreviewGraph)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IAnimationWindowPreview*), "UpdatePreviewGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Animations::IAnimationWindowPreview*, "UnityEngine.Experimental.Animations", "IAnimationWindowPreview");
+// Writing MetadataGetter for method: IAnimationWindowPreview::UpdatePreviewGraph
+// Il2CppName: UpdatePreviewGraph
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnimationWindowPreview::*)(UnityEngine::Playables::PlayableGraph)>(&IAnimationWindowPreview::UpdatePreviewGraph)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IAnimationWindowPreview*), "UpdatePreviewGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
+  }
+};

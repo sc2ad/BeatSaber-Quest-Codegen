@@ -33,22 +33,22 @@ namespace Org::BouncyCastle::Crypto {
     int GenerateBytes(::Array<uint8_t>* output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.IDerivationFunction
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IDerivationFunction::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDerivationFunction::*)(Org::BouncyCastle::Crypto::IDerivationParameters*)>(&IDerivationFunction::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IDerivationFunction*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDerivationParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IDerivationFunction::GenerateBytes
-  // Il2CppName: GenerateBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IDerivationFunction::*)(::Array<uint8_t>*, int, int)>(&IDerivationFunction::GenerateBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IDerivationFunction*), "GenerateBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDerivationFunction*, "Org.BouncyCastle.Crypto", "IDerivationFunction");
+// Writing MetadataGetter for method: IDerivationFunction::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDerivationFunction::*)(Org::BouncyCastle::Crypto::IDerivationParameters*)>(&IDerivationFunction::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IDerivationFunction*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDerivationParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: IDerivationFunction::GenerateBytes
+// Il2CppName: GenerateBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IDerivationFunction::*)(::Array<uint8_t>*, int, int)>(&IDerivationFunction::GenerateBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IDerivationFunction*), "GenerateBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -65,27 +65,27 @@ namespace TMPro {
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
   // Offset: 0x10E38E8
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
-  // Writing MetadataGetter for method: GlyphValueRecord_Legacy::GlyphValueRecord_Legacy
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphValueRecord_Legacy::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&GlyphValueRecord_Legacy::GlyphValueRecord_Legacy<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord_Legacy), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphValueRecord_Legacy::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&GlyphValueRecord_Legacy::GlyphValueRecord_Legacy<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord_Legacy), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
-    }
-  };
-  // Writing MetadataGetter for method: GlyphValueRecord_Legacy::operator+
-  // Il2CppName: op_Addition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::GlyphValueRecord_Legacy (*)(const TMPro::GlyphValueRecord_Legacy&, const TMPro::GlyphValueRecord_Legacy&)>(&GlyphValueRecord_Legacy::operator+)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord_Legacy), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const TMPro::GlyphValueRecord_Legacy&>(), ::il2cpp_utils::ExtractIndependentType<const TMPro::GlyphValueRecord_Legacy&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
+// Writing MetadataGetter for method: GlyphValueRecord_Legacy::GlyphValueRecord_Legacy
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphValueRecord_Legacy::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&GlyphValueRecord_Legacy::GlyphValueRecord_Legacy<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord_Legacy), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphValueRecord_Legacy::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&GlyphValueRecord_Legacy::GlyphValueRecord_Legacy<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord_Legacy), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
+  }
+};
+// Writing MetadataGetter for method: GlyphValueRecord_Legacy::operator+
+// Il2CppName: op_Addition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::GlyphValueRecord_Legacy (*)(const TMPro::GlyphValueRecord_Legacy&, const TMPro::GlyphValueRecord_Legacy&)>(&GlyphValueRecord_Legacy::operator+)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord_Legacy), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const TMPro::GlyphValueRecord_Legacy&>(), ::il2cpp_utils::ExtractIndependentType<const TMPro::GlyphValueRecord_Legacy&>()});
+  }
+};

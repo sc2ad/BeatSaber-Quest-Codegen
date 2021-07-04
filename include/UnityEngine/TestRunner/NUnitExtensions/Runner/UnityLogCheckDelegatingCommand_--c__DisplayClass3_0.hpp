@@ -58,19 +58,19 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0), 24 + sizeof(NUnit::Framework::Internal::ITestExecutionContext*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityLogCheckDelegatingCommand_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0) == 0x20);
-  // Writing MetadataGetter for method: UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityLogCheckDelegatingCommand/<>c__DisplayClass3_0");
+// Writing MetadataGetter for method: UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

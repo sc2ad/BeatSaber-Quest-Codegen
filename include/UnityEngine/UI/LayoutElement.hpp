@@ -187,211 +187,211 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(LayoutElement), 52 + sizeof(int)> __UnityEngine_UI_LayoutElementSizeCheck;
   static_assert(sizeof(LayoutElement) == 0x38);
-  // Writing MetadataGetter for method: LayoutElement::get_ignoreLayout
-  // Il2CppName: get_ignoreLayout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LayoutElement::*)()>(&LayoutElement::get_ignoreLayout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_ignoreLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_ignoreLayout
-  // Il2CppName: set_ignoreLayout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(bool)>(&LayoutElement::set_ignoreLayout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_ignoreLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::CalculateLayoutInputHorizontal
-  // Il2CppName: CalculateLayoutInputHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::CalculateLayoutInputHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::CalculateLayoutInputVertical
-  // Il2CppName: CalculateLayoutInputVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::CalculateLayoutInputVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::get_minWidth
-  // Il2CppName: get_minWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_minWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_minWidth
-  // Il2CppName: set_minWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_minWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::get_minHeight
-  // Il2CppName: get_minHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_minHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_minHeight
-  // Il2CppName: set_minHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_minHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::get_preferredWidth
-  // Il2CppName: get_preferredWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_preferredWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_preferredWidth
-  // Il2CppName: set_preferredWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_preferredWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::get_preferredHeight
-  // Il2CppName: get_preferredHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_preferredHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_preferredHeight
-  // Il2CppName: set_preferredHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_preferredHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::get_flexibleWidth
-  // Il2CppName: get_flexibleWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_flexibleWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_flexibleWidth
-  // Il2CppName: set_flexibleWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_flexibleWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::get_flexibleHeight
-  // Il2CppName: get_flexibleHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_flexibleHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_flexibleHeight
-  // Il2CppName: set_flexibleHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_flexibleHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::get_layoutPriority
-  // Il2CppName: get_layoutPriority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LayoutElement::*)()>(&LayoutElement::get_layoutPriority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::set_layoutPriority
-  // Il2CppName: set_layoutPriority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(int)>(&LayoutElement::set_layoutPriority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::SetDirty
-  // Il2CppName: SetDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::SetDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::OnTransformParentChanged
-  // Il2CppName: OnTransformParentChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnTransformParentChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::OnDidApplyAnimationProperties
-  // Il2CppName: OnDidApplyAnimationProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnDidApplyAnimationProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutElement::OnBeforeTransformParentChanged
-  // Il2CppName: OnBeforeTransformParentChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnBeforeTransformParentChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnBeforeTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutElement*, "UnityEngine.UI", "LayoutElement");
+// Writing MetadataGetter for method: LayoutElement::get_ignoreLayout
+// Il2CppName: get_ignoreLayout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LayoutElement::*)()>(&LayoutElement::get_ignoreLayout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_ignoreLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_ignoreLayout
+// Il2CppName: set_ignoreLayout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(bool)>(&LayoutElement::set_ignoreLayout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_ignoreLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::CalculateLayoutInputHorizontal
+// Il2CppName: CalculateLayoutInputHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::CalculateLayoutInputVertical
+// Il2CppName: CalculateLayoutInputVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::get_minWidth
+// Il2CppName: get_minWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_minWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_minWidth
+// Il2CppName: set_minWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_minWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::get_minHeight
+// Il2CppName: get_minHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_minHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_minHeight
+// Il2CppName: set_minHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_minHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::get_preferredWidth
+// Il2CppName: get_preferredWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_preferredWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_preferredWidth
+// Il2CppName: set_preferredWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_preferredWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::get_preferredHeight
+// Il2CppName: get_preferredHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_preferredHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_preferredHeight
+// Il2CppName: set_preferredHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_preferredHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::get_flexibleWidth
+// Il2CppName: get_flexibleWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_flexibleWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_flexibleWidth
+// Il2CppName: set_flexibleWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_flexibleWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::get_flexibleHeight
+// Il2CppName: get_flexibleHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutElement::*)()>(&LayoutElement::get_flexibleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_flexibleHeight
+// Il2CppName: set_flexibleHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(float)>(&LayoutElement::set_flexibleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::get_layoutPriority
+// Il2CppName: get_layoutPriority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LayoutElement::*)()>(&LayoutElement::get_layoutPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::set_layoutPriority
+// Il2CppName: set_layoutPriority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)(int)>(&LayoutElement::set_layoutPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "set_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::SetDirty
+// Il2CppName: SetDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::SetDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::OnTransformParentChanged
+// Il2CppName: OnTransformParentChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnTransformParentChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::OnDidApplyAnimationProperties
+// Il2CppName: OnDidApplyAnimationProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnDidApplyAnimationProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutElement::OnBeforeTransformParentChanged
+// Il2CppName: OnBeforeTransformParentChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutElement::*)()>(&LayoutElement::OnBeforeTransformParentChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutElement*), "OnBeforeTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

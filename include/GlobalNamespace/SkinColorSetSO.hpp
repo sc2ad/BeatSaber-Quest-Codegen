@@ -54,27 +54,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SkinColorSetSO), 24 + sizeof(::Array<GlobalNamespace::SkinColorSO*>*)> __GlobalNamespace_SkinColorSetSOSizeCheck;
   static_assert(sizeof(SkinColorSetSO) == 0x20);
-  // Writing MetadataGetter for method: SkinColorSetSO::get_colors
-  // Il2CppName: get_colors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SkinColorSO*>* (SkinColorSetSO::*)()>(&SkinColorSetSO::get_colors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinColorSetSO*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinColorSetSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinColorSetSO::*)()>(&SkinColorSetSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinColorSetSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinColorSetSO::*)()>(&SkinColorSetSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinColorSetSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO*, "", "SkinColorSetSO");
+// Writing MetadataGetter for method: SkinColorSetSO::get_colors
+// Il2CppName: get_colors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SkinColorSO*>* (SkinColorSetSO::*)()>(&SkinColorSetSO::get_colors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinColorSetSO*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinColorSetSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinColorSetSO::*)()>(&SkinColorSetSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinColorSetSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinColorSetSO::*)()>(&SkinColorSetSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinColorSetSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

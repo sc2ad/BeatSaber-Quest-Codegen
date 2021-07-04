@@ -25,22 +25,22 @@ namespace UnityEngine {
     void set_cutoffFrequency(float value);
   }; // UnityEngine.AudioLowPassFilter
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AudioLowPassFilter::get_cutoffFrequency
-  // Il2CppName: get_cutoffFrequency
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioLowPassFilter::*)()>(&AudioLowPassFilter::get_cutoffFrequency)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioLowPassFilter*), "get_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioLowPassFilter::set_cutoffFrequency
-  // Il2CppName: set_cutoffFrequency
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioLowPassFilter::*)(float)>(&AudioLowPassFilter::set_cutoffFrequency)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioLowPassFilter*), "set_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioLowPassFilter*, "UnityEngine", "AudioLowPassFilter");
+// Writing MetadataGetter for method: AudioLowPassFilter::get_cutoffFrequency
+// Il2CppName: get_cutoffFrequency
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioLowPassFilter::*)()>(&AudioLowPassFilter::get_cutoffFrequency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioLowPassFilter*), "get_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioLowPassFilter::set_cutoffFrequency
+// Il2CppName: set_cutoffFrequency
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioLowPassFilter::*)(float)>(&AudioLowPassFilter::set_cutoffFrequency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioLowPassFilter*), "set_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

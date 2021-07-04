@@ -107,43 +107,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SetSaberGlowColor), 64 + sizeof(GlobalNamespace::SaberType)> __GlobalNamespace_SetSaberGlowColorSizeCheck;
   static_assert(sizeof(SetSaberGlowColor) == 0x44);
-  // Writing MetadataGetter for method: SetSaberGlowColor::set_saberType
-  // Il2CppName: set_saberType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)(GlobalNamespace::SaberType)>(&SetSaberGlowColor::set_saberType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SetSaberGlowColor::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SetSaberGlowColor::SetColors
-  // Il2CppName: SetColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::SetColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SetSaberGlowColor::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberGlowColor*, "", "SetSaberGlowColor");
+// Writing MetadataGetter for method: SetSaberGlowColor::set_saberType
+// Il2CppName: set_saberType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)(GlobalNamespace::SaberType)>(&SetSaberGlowColor::set_saberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+  }
+};
+// Writing MetadataGetter for method: SetSaberGlowColor::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SetSaberGlowColor::SetColors
+// Il2CppName: SetColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::SetColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SetSaberGlowColor::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberGlowColor::*)()>(&SetSaberGlowColor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetSaberGlowColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

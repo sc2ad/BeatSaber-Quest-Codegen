@@ -212,100 +212,100 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EditAvatarFlowCoordinator), 232 + sizeof(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)> __GlobalNamespace_EditAvatarFlowCoordinatorSizeCheck;
   static_assert(sizeof(EditAvatarFlowCoordinator) == 0xF0);
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::add_didFinishEvent
-  // Il2CppName: add_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&EditAvatarFlowCoordinator::add_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::remove_didFinishEvent
-  // Il2CppName: remove_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&EditAvatarFlowCoordinator::remove_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::Setup
-  // Il2CppName: Setup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)>(&EditAvatarFlowCoordinator::Setup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidRequestColorChange
-  // Il2CppName: HandleEditAvatarViewControllerDidRequestColorChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidRequestColorChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerDidRequestColorChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerChangedAvatarPart
-  // Il2CppName: HandleEditAvatarViewControllerChangedAvatarPart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerChangedAvatarPart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerChangedAvatarPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidFinished
-  // Il2CppName: HandleEditAvatarViewControllerDidFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerDidFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditColorViewControllerDidChangedColor
-  // Il2CppName: HandleEditColorViewControllerDidChangedColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(UnityEngine::Color)>(&EditAvatarFlowCoordinator::HandleEditColorViewControllerDidChangedColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidChangedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditColorViewControllerDidFinish
-  // Il2CppName: HandleEditColorViewControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool)>(&EditAvatarFlowCoordinator::HandleEditColorViewControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool, bool, bool)>(&EditAvatarFlowCoordinator::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool, bool)>(&EditAvatarFlowCoordinator::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator*, "", "EditAvatarFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType, "", "EditAvatarFlowCoordinator/EditAvatarType");
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&EditAvatarFlowCoordinator::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&EditAvatarFlowCoordinator::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::Setup
+// Il2CppName: Setup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)>(&EditAvatarFlowCoordinator::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidRequestColorChange
+// Il2CppName: HandleEditAvatarViewControllerDidRequestColorChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidRequestColorChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerDidRequestColorChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerChangedAvatarPart
+// Il2CppName: HandleEditAvatarViewControllerChangedAvatarPart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerChangedAvatarPart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerChangedAvatarPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidFinished
+// Il2CppName: HandleEditAvatarViewControllerDidFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerDidFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditColorViewControllerDidChangedColor
+// Il2CppName: HandleEditColorViewControllerDidChangedColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(UnityEngine::Color)>(&EditAvatarFlowCoordinator::HandleEditColorViewControllerDidChangedColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidChangedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditColorViewControllerDidFinish
+// Il2CppName: HandleEditColorViewControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool)>(&EditAvatarFlowCoordinator::HandleEditColorViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool, bool, bool)>(&EditAvatarFlowCoordinator::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool, bool)>(&EditAvatarFlowCoordinator::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: EditAvatarFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -97,59 +97,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12), 48 + sizeof(System::Action*)> __GlobalNamespace_MissionMapAnimationController_$UpdateMissionMapCoroutine$d__12SizeCheck;
   static_assert(sizeof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12) == 0x38);
-  // Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)(int)>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)(int)>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*, "", "MissionMapAnimationController/<UpdateMissionMapCoroutine>d__12");
+// Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)(int)>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)(int)>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::*)()>(&MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

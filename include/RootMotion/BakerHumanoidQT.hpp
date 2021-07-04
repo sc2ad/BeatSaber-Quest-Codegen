@@ -187,97 +187,97 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(BakerHumanoidQT), 156 + sizeof(bool)> __RootMotion_BakerHumanoidQTSizeCheck;
   static_assert(sizeof(BakerHumanoidQT) == 0x9D);
-  // Writing MetadataGetter for method: BakerHumanoidQT::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::Transform*, UnityEngine::AvatarIKGoal, ::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::Transform*, UnityEngine::AvatarIKGoal, ::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)()>(&BakerHumanoidQT::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::SetIKKeyframes
-  // Il2CppName: SetIKKeyframes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float, UnityEngine::Avatar*, float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&BakerHumanoidQT::SetIKKeyframes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetIKKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::SetKeyframes
-  // Il2CppName: SetKeyframes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&BakerHumanoidQT::SetKeyframes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::MoveLastKeyframes
-  // Il2CppName: MoveLastKeyframes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float)>(&BakerHumanoidQT::MoveLastKeyframes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "MoveLastKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::SetLoopFrame
-  // Il2CppName: SetLoopFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float)>(&BakerHumanoidQT::SetLoopFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::MoveLastKeyframe
-  // Il2CppName: MoveLastKeyframe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float, UnityEngine::AnimationCurve*)>(&BakerHumanoidQT::MoveLastKeyframe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "MoveLastKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::MultiplyLength
-  // Il2CppName: MultiplyLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::AnimationCurve*, float)>(&BakerHumanoidQT::MultiplyLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerHumanoidQT::SetCurves
-  // Il2CppName: SetCurves
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::AnimationClip*&, float, float)>(&BakerHumanoidQT::SetCurves)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");
+// Writing MetadataGetter for method: BakerHumanoidQT::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::Transform*, UnityEngine::AvatarIKGoal, ::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::Transform*, UnityEngine::AvatarIKGoal, ::Il2CppString*)>(&BakerHumanoidQT::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)()>(&BakerHumanoidQT::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::SetIKKeyframes
+// Il2CppName: SetIKKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float, UnityEngine::Avatar*, float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&BakerHumanoidQT::SetIKKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetIKKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::SetKeyframes
+// Il2CppName: SetKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&BakerHumanoidQT::SetKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::MoveLastKeyframes
+// Il2CppName: MoveLastKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float)>(&BakerHumanoidQT::MoveLastKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "MoveLastKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::SetLoopFrame
+// Il2CppName: SetLoopFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float)>(&BakerHumanoidQT::SetLoopFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::MoveLastKeyframe
+// Il2CppName: MoveLastKeyframe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(float, UnityEngine::AnimationCurve*)>(&BakerHumanoidQT::MoveLastKeyframe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "MoveLastKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::MultiplyLength
+// Il2CppName: MultiplyLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::AnimationCurve*, float)>(&BakerHumanoidQT::MultiplyLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BakerHumanoidQT::SetCurves
+// Il2CppName: SetCurves
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerHumanoidQT::*)(UnityEngine::AnimationClip*&, float, float)>(&BakerHumanoidQT::SetCurves)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerHumanoidQT*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

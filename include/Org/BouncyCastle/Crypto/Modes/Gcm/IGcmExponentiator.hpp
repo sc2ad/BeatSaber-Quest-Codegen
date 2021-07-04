@@ -26,22 +26,22 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IGcmExponentiator::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGcmExponentiator::*)(::Array<uint8_t>*)>(&IGcmExponentiator::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IGcmExponentiator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IGcmExponentiator::ExponentiateX
-  // Il2CppName: ExponentiateX
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGcmExponentiator::*)(int64_t, ::Array<uint8_t>*)>(&IGcmExponentiator::ExponentiateX)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IGcmExponentiator*), "ExponentiateX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "IGcmExponentiator");
+// Writing MetadataGetter for method: IGcmExponentiator::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGcmExponentiator::*)(::Array<uint8_t>*)>(&IGcmExponentiator::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IGcmExponentiator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: IGcmExponentiator::ExponentiateX
+// Il2CppName: ExponentiateX
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGcmExponentiator::*)(int64_t, ::Array<uint8_t>*)>(&IGcmExponentiator::ExponentiateX)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IGcmExponentiator*), "ExponentiateX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};

@@ -248,171 +248,171 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerResponse), 152 + sizeof(bool)> __System_Net_HttpListenerResponseSizeCheck;
   static_assert(sizeof(HttpListenerResponse) == 0x99);
-  // Writing MetadataGetter for method: HttpListenerResponse::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(System::Net::HttpListenerContext*)>(&HttpListenerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(System::Net::HttpListenerContext*)>(&HttpListenerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::get_ForceCloseChunked
-  // Il2CppName: get_ForceCloseChunked
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerResponse::*)()>(&HttpListenerResponse::get_ForceCloseChunked)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_ForceCloseChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::get_ContentEncoding
-  // Il2CppName: get_ContentEncoding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (HttpListenerResponse::*)()>(&HttpListenerResponse::get_ContentEncoding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_ContentEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::set_ContentLength64
-  // Il2CppName: set_ContentLength64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(int64_t)>(&HttpListenerResponse::set_ContentLength64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_ContentLength64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::set_ContentType
-  // Il2CppName: set_ContentType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(::Il2CppString*)>(&HttpListenerResponse::set_ContentType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::get_Headers
-  // Il2CppName: get_Headers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (HttpListenerResponse::*)()>(&HttpListenerResponse::get_Headers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::get_OutputStream
-  // Il2CppName: get_OutputStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (HttpListenerResponse::*)()>(&HttpListenerResponse::get_OutputStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_OutputStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::get_SendChunked
-  // Il2CppName: get_SendChunked
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerResponse::*)()>(&HttpListenerResponse::get_SendChunked)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_SendChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::set_SendChunked
-  // Il2CppName: set_SendChunked
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(bool)>(&HttpListenerResponse::set_SendChunked)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_SendChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::set_StatusCode
-  // Il2CppName: set_StatusCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(int)>(&HttpListenerResponse::set_StatusCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)()>(&HttpListenerResponse::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(bool)>(&HttpListenerResponse::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)()>(&HttpListenerResponse::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(::Array<uint8_t>*, bool)>(&HttpListenerResponse::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::SendHeaders
-  // Il2CppName: SendHeaders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(bool, System::IO::MemoryStream*)>(&HttpListenerResponse::SendHeaders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "SendHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::FormatHeaders
-  // Il2CppName: FormatHeaders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebHeaderCollection*)>(&HttpListenerResponse::FormatHeaders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "FormatHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebHeaderCollection*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::CookieToClientString
-  // Il2CppName: CookieToClientString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::Cookie*)>(&HttpListenerResponse::CookieToClientString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "CookieToClientString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Cookie*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::QuotedString
-  // Il2CppName: QuotedString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::Cookie*, ::Il2CppString*)>(&HttpListenerResponse::QuotedString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "QuotedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Cookie*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::IsToken
-  // Il2CppName: IsToken
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HttpListenerResponse::IsToken)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "IsToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HttpListenerResponse::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HttpListenerResponse::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerResponse*, "System.Net", "HttpListenerResponse");
+// Writing MetadataGetter for method: HttpListenerResponse::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(System::Net::HttpListenerContext*)>(&HttpListenerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(System::Net::HttpListenerContext*)>(&HttpListenerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::get_ForceCloseChunked
+// Il2CppName: get_ForceCloseChunked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerResponse::*)()>(&HttpListenerResponse::get_ForceCloseChunked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_ForceCloseChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::get_ContentEncoding
+// Il2CppName: get_ContentEncoding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (HttpListenerResponse::*)()>(&HttpListenerResponse::get_ContentEncoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_ContentEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::set_ContentLength64
+// Il2CppName: set_ContentLength64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(int64_t)>(&HttpListenerResponse::set_ContentLength64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_ContentLength64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::set_ContentType
+// Il2CppName: set_ContentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(::Il2CppString*)>(&HttpListenerResponse::set_ContentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::get_Headers
+// Il2CppName: get_Headers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (HttpListenerResponse::*)()>(&HttpListenerResponse::get_Headers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::get_OutputStream
+// Il2CppName: get_OutputStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (HttpListenerResponse::*)()>(&HttpListenerResponse::get_OutputStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_OutputStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::get_SendChunked
+// Il2CppName: get_SendChunked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerResponse::*)()>(&HttpListenerResponse::get_SendChunked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "get_SendChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::set_SendChunked
+// Il2CppName: set_SendChunked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(bool)>(&HttpListenerResponse::set_SendChunked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_SendChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::set_StatusCode
+// Il2CppName: set_StatusCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(int)>(&HttpListenerResponse::set_StatusCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "set_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)()>(&HttpListenerResponse::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(bool)>(&HttpListenerResponse::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)()>(&HttpListenerResponse::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(::Array<uint8_t>*, bool)>(&HttpListenerResponse::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::SendHeaders
+// Il2CppName: SendHeaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerResponse::*)(bool, System::IO::MemoryStream*)>(&HttpListenerResponse::SendHeaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "SendHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::FormatHeaders
+// Il2CppName: FormatHeaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebHeaderCollection*)>(&HttpListenerResponse::FormatHeaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "FormatHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebHeaderCollection*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::CookieToClientString
+// Il2CppName: CookieToClientString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::Cookie*)>(&HttpListenerResponse::CookieToClientString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "CookieToClientString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Cookie*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::QuotedString
+// Il2CppName: QuotedString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::Cookie*, ::Il2CppString*)>(&HttpListenerResponse::QuotedString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "QuotedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Cookie*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::IsToken
+// Il2CppName: IsToken
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HttpListenerResponse::IsToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), "IsToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HttpListenerResponse::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HttpListenerResponse::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpListenerResponse*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

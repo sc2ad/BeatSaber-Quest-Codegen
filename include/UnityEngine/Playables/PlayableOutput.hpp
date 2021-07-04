@@ -84,54 +84,54 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
   static check_size<sizeof(PlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Playables_PlayableOutputSizeCheck;
   static_assert(sizeof(PlayableOutput) == 0xC);
-  // Writing MetadataGetter for method: PlayableOutput::get_Null
-  // Il2CppName: get_Null
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (*)()>(&PlayableOutput::get_Null)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayableOutput::PlayableOutput
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&PlayableOutput::PlayableOutput<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&PlayableOutput::PlayableOutput<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayableOutput::GetHandle
-  // Il2CppName: GetHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (PlayableOutput::*)()>(&PlayableOutput::GetHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayableOutput::IsPlayableOutputOfType
-  // Il2CppName: IsPlayableOutputOfType
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutput::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableOutput::*)(UnityEngine::Playables::PlayableOutput)>(&PlayableOutput::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayableOutput), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayableOutput::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayableOutput::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayableOutput), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutput, "UnityEngine.Playables", "PlayableOutput");
+// Writing MetadataGetter for method: PlayableOutput::get_Null
+// Il2CppName: get_Null
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (*)()>(&PlayableOutput::get_Null)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayableOutput::PlayableOutput
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&PlayableOutput::PlayableOutput<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&PlayableOutput::PlayableOutput<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
+  }
+};
+// Writing MetadataGetter for method: PlayableOutput::GetHandle
+// Il2CppName: GetHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (PlayableOutput::*)()>(&PlayableOutput::GetHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayableOutput::IsPlayableOutputOfType
+// Il2CppName: IsPlayableOutputOfType
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutput::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableOutput::*)(UnityEngine::Playables::PlayableOutput)>(&PlayableOutput::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayableOutput), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput>()});
+  }
+};
+// Writing MetadataGetter for method: PlayableOutput::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayableOutput::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayableOutput), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

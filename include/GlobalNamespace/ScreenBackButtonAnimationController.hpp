@@ -137,36 +137,36 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ScreenBackButtonAnimationController), 32 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*)> __GlobalNamespace_ScreenBackButtonAnimationControllerSizeCheck;
   static_assert(sizeof(ScreenBackButtonAnimationController) == 0x28);
-  // Writing MetadataGetter for method: ScreenBackButtonAnimationController::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)()>(&ScreenBackButtonAnimationController::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScreenBackButtonAnimationController::StartAnimation
-  // Il2CppName: StartAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType)>(&ScreenBackButtonAnimationController::StartAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), "StartAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScreenBackButtonAnimationController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)()>(&ScreenBackButtonAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)()>(&ScreenBackButtonAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, "", "ScreenBackButtonAnimationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");
+// Writing MetadataGetter for method: ScreenBackButtonAnimationController::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)()>(&ScreenBackButtonAnimationController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenBackButtonAnimationController::StartAnimation
+// Il2CppName: StartAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType)>(&ScreenBackButtonAnimationController::StartAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), "StartAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType>()});
+  }
+};
+// Writing MetadataGetter for method: ScreenBackButtonAnimationController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)()>(&ScreenBackButtonAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenBackButtonAnimationController::*)()>(&ScreenBackButtonAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenBackButtonAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

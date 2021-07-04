@@ -138,99 +138,99 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(AudioPlayableAsset), 40 + sizeof(UnityEngine::Timeline::AudioClipProperties*)> __UnityEngine_Timeline_AudioPlayableAssetSizeCheck;
   static_assert(sizeof(AudioPlayableAsset) == 0x30);
-  // Writing MetadataGetter for method: AudioPlayableAsset::get_bufferingTime
-  // Il2CppName: get_bufferingTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_bufferingTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_bufferingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::set_bufferingTime
-  // Il2CppName: set_bufferingTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)(float)>(&AudioPlayableAsset::set_bufferingTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "set_bufferingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::get_clip
-  // Il2CppName: get_clip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_clip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::set_clip
-  // Il2CppName: set_clip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)(UnityEngine::AudioClip*)>(&AudioPlayableAsset::set_clip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "set_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::get_loop
-  // Il2CppName: get_loop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_loop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::set_loop
-  // Il2CppName: set_loop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)(bool)>(&AudioPlayableAsset::set_loop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "set_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::get_clipCaps
-  // Il2CppName: get_clipCaps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_clipCaps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::get_duration
-  // Il2CppName: get_duration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_duration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::get_outputs
-  // Il2CppName: get_outputs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_outputs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::CreatePlayable
-  // Il2CppName: CreatePlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AudioPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&AudioPlayableAsset::CreatePlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioPlayableAsset::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)()>(&AudioPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)()>(&AudioPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioPlayableAsset*, "UnityEngine.Timeline", "AudioPlayableAsset");
+// Writing MetadataGetter for method: AudioPlayableAsset::get_bufferingTime
+// Il2CppName: get_bufferingTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_bufferingTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_bufferingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::set_bufferingTime
+// Il2CppName: set_bufferingTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)(float)>(&AudioPlayableAsset::set_bufferingTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "set_bufferingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::get_clip
+// Il2CppName: get_clip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_clip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::set_clip
+// Il2CppName: set_clip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)(UnityEngine::AudioClip*)>(&AudioPlayableAsset::set_clip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "set_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::get_loop
+// Il2CppName: get_loop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_loop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::set_loop
+// Il2CppName: set_loop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)(bool)>(&AudioPlayableAsset::set_loop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "set_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::get_clipCaps
+// Il2CppName: get_clipCaps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_clipCaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::get_duration
+// Il2CppName: get_duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::get_outputs
+// Il2CppName: get_outputs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (AudioPlayableAsset::*)()>(&AudioPlayableAsset::get_outputs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::CreatePlayable
+// Il2CppName: CreatePlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AudioPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&AudioPlayableAsset::CreatePlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AudioPlayableAsset::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)()>(&AudioPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableAsset::*)()>(&AudioPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -116,75 +116,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SimpleAudioPlayer), 52 + sizeof(bool)> __GlobalNamespace_SimpleAudioPlayerSizeCheck;
   static_assert(sizeof(SimpleAudioPlayer) == 0x35);
-  // Writing MetadataGetter for method: SimpleAudioPlayer::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleAudioPlayer::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleAudioPlayer::FadeIn
-  // Il2CppName: FadeIn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)(float)>(&SimpleAudioPlayer::FadeIn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleAudioPlayer::get_activeAudioClip
-  // Il2CppName: get_activeAudioClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::get_activeAudioClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "get_activeAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleAudioPlayer::FadeOut
-  // Il2CppName: FadeOut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)(float)>(&SimpleAudioPlayer::FadeOut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleAudioPlayer::PauseCurrentChannel
-  // Il2CppName: PauseCurrentChannel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::PauseCurrentChannel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "PauseCurrentChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleAudioPlayer::UnPauseCurrentChannel
-  // Il2CppName: UnPauseCurrentChannel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::UnPauseCurrentChannel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "UnPauseCurrentChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleAudioPlayer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleAudioPlayer*, "", "SimpleAudioPlayer");
+// Writing MetadataGetter for method: SimpleAudioPlayer::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SimpleAudioPlayer::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SimpleAudioPlayer::FadeIn
+// Il2CppName: FadeIn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)(float)>(&SimpleAudioPlayer::FadeIn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleAudioPlayer::get_activeAudioClip
+// Il2CppName: get_activeAudioClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::get_activeAudioClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "get_activeAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SimpleAudioPlayer::FadeOut
+// Il2CppName: FadeOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)(float)>(&SimpleAudioPlayer::FadeOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleAudioPlayer::PauseCurrentChannel
+// Il2CppName: PauseCurrentChannel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::PauseCurrentChannel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "PauseCurrentChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SimpleAudioPlayer::UnPauseCurrentChannel
+// Il2CppName: UnPauseCurrentChannel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::UnPauseCurrentChannel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), "UnPauseCurrentChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SimpleAudioPlayer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAudioPlayer::*)()>(&SimpleAudioPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleAudioPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

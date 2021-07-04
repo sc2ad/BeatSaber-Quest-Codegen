@@ -354,265 +354,265 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(FileWebRequest), 168 + sizeof(int)> __System_Net_FileWebRequestSizeCheck;
   static_assert(sizeof(FileWebRequest) == 0xAC);
-  // Writing MetadataGetter for method: FileWebRequest::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Uri*)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Uri*)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::System_Runtime_Serialization_ISerializable_GetObjectData
-  // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_Aborted
-  // Il2CppName: get_Aborted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileWebRequest::*)()>(&FileWebRequest::get_Aborted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Aborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::CanGetRequestStream
-  // Il2CppName: CanGetRequestStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileWebRequest::*)()>(&FileWebRequest::CanGetRequestStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "CanGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::GetRequestStreamCallback
-  // Il2CppName: GetRequestStreamCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&FileWebRequest::GetRequestStreamCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetRequestStreamCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::GetResponseCallback
-  // Il2CppName: GetResponseCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&FileWebRequest::GetResponseCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetResponseCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::UnblockReader
-  // Il2CppName: UnblockReader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)()>(&FileWebRequest::UnblockReader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "UnblockReader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::GetObjectData
-  // Il2CppName: GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::set_ConnectionGroupName
-  // Il2CppName: set_ConnectionGroupName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(::Il2CppString*)>(&FileWebRequest::set_ConnectionGroupName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_ConnectionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_ContentLength
-  // Il2CppName: get_ContentLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (FileWebRequest::*)()>(&FileWebRequest::get_ContentLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::set_ContentLength
-  // Il2CppName: set_ContentLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(int64_t)>(&FileWebRequest::set_ContentLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_Credentials
-  // Il2CppName: get_Credentials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (FileWebRequest::*)()>(&FileWebRequest::get_Credentials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::set_Credentials
-  // Il2CppName: set_Credentials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Net::ICredentials*)>(&FileWebRequest::set_Credentials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_Headers
-  // Il2CppName: get_Headers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (FileWebRequest::*)()>(&FileWebRequest::get_Headers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_Method
-  // Il2CppName: get_Method
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileWebRequest::*)()>(&FileWebRequest::get_Method)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::set_Method
-  // Il2CppName: set_Method
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(::Il2CppString*)>(&FileWebRequest::set_Method)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::set_PreAuthenticate
-  // Il2CppName: set_PreAuthenticate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(bool)>(&FileWebRequest::set_PreAuthenticate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_Proxy
-  // Il2CppName: get_Proxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (FileWebRequest::*)()>(&FileWebRequest::get_Proxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::set_Proxy
-  // Il2CppName: set_Proxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Net::IWebProxy*)>(&FileWebRequest::set_Proxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebProxy*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_Timeout
-  // Il2CppName: get_Timeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FileWebRequest::*)()>(&FileWebRequest::get_Timeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_RequestUri
-  // Il2CppName: get_RequestUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (FileWebRequest::*)()>(&FileWebRequest::get_RequestUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_RequestUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::BeginGetRequestStream
-  // Il2CppName: BeginGetRequestStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FileWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&FileWebRequest::BeginGetRequestStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "BeginGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::BeginGetResponse
-  // Il2CppName: BeginGetResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FileWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&FileWebRequest::BeginGetResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "BeginGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::EndGetRequestStream
-  // Il2CppName: EndGetRequestStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (FileWebRequest::*)(System::IAsyncResult*)>(&FileWebRequest::EndGetRequestStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "EndGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::EndGetResponse
-  // Il2CppName: EndGetResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (FileWebRequest::*)(System::IAsyncResult*)>(&FileWebRequest::EndGetResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "EndGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::GetResponse
-  // Il2CppName: GetResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (FileWebRequest::*)()>(&FileWebRequest::GetResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::get_UseDefaultCredentials
-  // Il2CppName: get_UseDefaultCredentials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileWebRequest::*)()>(&FileWebRequest::get_UseDefaultCredentials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::set_UseDefaultCredentials
-  // Il2CppName: set_UseDefaultCredentials
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(bool)>(&FileWebRequest::set_UseDefaultCredentials)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::Abort
-  // Il2CppName: Abort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)()>(&FileWebRequest::Abort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileWebRequest::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FileWebRequest::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebRequest*, "System.Net", "FileWebRequest");
+// Writing MetadataGetter for method: FileWebRequest::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Uri*)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Uri*)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::System_Runtime_Serialization_ISerializable_GetObjectData
+// Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_Aborted
+// Il2CppName: get_Aborted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileWebRequest::*)()>(&FileWebRequest::get_Aborted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Aborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::CanGetRequestStream
+// Il2CppName: CanGetRequestStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileWebRequest::*)()>(&FileWebRequest::CanGetRequestStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "CanGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::GetRequestStreamCallback
+// Il2CppName: GetRequestStreamCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&FileWebRequest::GetRequestStreamCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetRequestStreamCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::GetResponseCallback
+// Il2CppName: GetResponseCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&FileWebRequest::GetResponseCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetResponseCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::UnblockReader
+// Il2CppName: UnblockReader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)()>(&FileWebRequest::UnblockReader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "UnblockReader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::GetObjectData
+// Il2CppName: GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&FileWebRequest::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::set_ConnectionGroupName
+// Il2CppName: set_ConnectionGroupName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(::Il2CppString*)>(&FileWebRequest::set_ConnectionGroupName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_ConnectionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_ContentLength
+// Il2CppName: get_ContentLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (FileWebRequest::*)()>(&FileWebRequest::get_ContentLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::set_ContentLength
+// Il2CppName: set_ContentLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(int64_t)>(&FileWebRequest::set_ContentLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_Credentials
+// Il2CppName: get_Credentials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (FileWebRequest::*)()>(&FileWebRequest::get_Credentials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::set_Credentials
+// Il2CppName: set_Credentials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Net::ICredentials*)>(&FileWebRequest::set_Credentials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_Headers
+// Il2CppName: get_Headers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (FileWebRequest::*)()>(&FileWebRequest::get_Headers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_Method
+// Il2CppName: get_Method
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileWebRequest::*)()>(&FileWebRequest::get_Method)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::set_Method
+// Il2CppName: set_Method
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(::Il2CppString*)>(&FileWebRequest::set_Method)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::set_PreAuthenticate
+// Il2CppName: set_PreAuthenticate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(bool)>(&FileWebRequest::set_PreAuthenticate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_Proxy
+// Il2CppName: get_Proxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (FileWebRequest::*)()>(&FileWebRequest::get_Proxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::set_Proxy
+// Il2CppName: set_Proxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(System::Net::IWebProxy*)>(&FileWebRequest::set_Proxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebProxy*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_Timeout
+// Il2CppName: get_Timeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FileWebRequest::*)()>(&FileWebRequest::get_Timeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_RequestUri
+// Il2CppName: get_RequestUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (FileWebRequest::*)()>(&FileWebRequest::get_RequestUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_RequestUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::BeginGetRequestStream
+// Il2CppName: BeginGetRequestStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FileWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&FileWebRequest::BeginGetRequestStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "BeginGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::BeginGetResponse
+// Il2CppName: BeginGetResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FileWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&FileWebRequest::BeginGetResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "BeginGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::EndGetRequestStream
+// Il2CppName: EndGetRequestStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (FileWebRequest::*)(System::IAsyncResult*)>(&FileWebRequest::EndGetRequestStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "EndGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::EndGetResponse
+// Il2CppName: EndGetResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (FileWebRequest::*)(System::IAsyncResult*)>(&FileWebRequest::EndGetResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "EndGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::GetResponse
+// Il2CppName: GetResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (FileWebRequest::*)()>(&FileWebRequest::GetResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::get_UseDefaultCredentials
+// Il2CppName: get_UseDefaultCredentials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileWebRequest::*)()>(&FileWebRequest::get_UseDefaultCredentials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "get_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::set_UseDefaultCredentials
+// Il2CppName: set_UseDefaultCredentials
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)(bool)>(&FileWebRequest::set_UseDefaultCredentials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "set_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::Abort
+// Il2CppName: Abort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebRequest::*)()>(&FileWebRequest::Abort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileWebRequest::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FileWebRequest::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileWebRequest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -147,75 +147,75 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(BakerTransform), 108 + sizeof(UnityEngine::Quaternion)> __RootMotion_BakerTransformSizeCheck;
   static_assert(sizeof(BakerTransform) == 0x7C);
-  // Writing MetadataGetter for method: BakerTransform::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::Transform*, UnityEngine::Transform*, bool, bool)>(&BakerTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::Transform*, UnityEngine::Transform*, bool, bool)>(&BakerTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerTransform::SetRelativeSpace
-  // Il2CppName: SetRelativeSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&BakerTransform::SetRelativeSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "SetRelativeSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerTransform::SetCurves
-  // Il2CppName: SetCurves
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::AnimationClip*&)>(&BakerTransform::SetCurves)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerTransform::AddRootMotionCurves
-  // Il2CppName: AddRootMotionCurves
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::AnimationClip*&)>(&BakerTransform::AddRootMotionCurves)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "AddRootMotionCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerTransform::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)()>(&BakerTransform::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakerTransform::ReduceKeyframes
-  // Il2CppName: ReduceKeyframes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(float)>(&BakerTransform::ReduceKeyframes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "ReduceKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerTransform::SetKeyframes
-  // Il2CppName: SetKeyframes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(float)>(&BakerTransform::SetKeyframes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "SetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakerTransform::AddLoopFrame
-  // Il2CppName: AddLoopFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(float)>(&BakerTransform::AddLoopFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "AddLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform*, "RootMotion", "BakerTransform");
+// Writing MetadataGetter for method: BakerTransform::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::Transform*, UnityEngine::Transform*, bool, bool)>(&BakerTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::Transform*, UnityEngine::Transform*, bool, bool)>(&BakerTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: BakerTransform::SetRelativeSpace
+// Il2CppName: SetRelativeSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&BakerTransform::SetRelativeSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "SetRelativeSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: BakerTransform::SetCurves
+// Il2CppName: SetCurves
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::AnimationClip*&)>(&BakerTransform::SetCurves)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
+  }
+};
+// Writing MetadataGetter for method: BakerTransform::AddRootMotionCurves
+// Il2CppName: AddRootMotionCurves
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(UnityEngine::AnimationClip*&)>(&BakerTransform::AddRootMotionCurves)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "AddRootMotionCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
+  }
+};
+// Writing MetadataGetter for method: BakerTransform::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)()>(&BakerTransform::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakerTransform::ReduceKeyframes
+// Il2CppName: ReduceKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(float)>(&BakerTransform::ReduceKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "ReduceKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BakerTransform::SetKeyframes
+// Il2CppName: SetKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(float)>(&BakerTransform::SetKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "SetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BakerTransform::AddLoopFrame
+// Il2CppName: AddLoopFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakerTransform::*)(float)>(&BakerTransform::AddLoopFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakerTransform*), "AddLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

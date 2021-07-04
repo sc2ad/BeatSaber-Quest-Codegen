@@ -62,27 +62,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MockPlayerLobbyPoseGeneratorMirror), 32 + sizeof(GlobalNamespace::NodePoseSyncStateManager*)> __GlobalNamespace_MockPlayerLobbyPoseGeneratorMirrorSizeCheck;
   static_assert(sizeof(MockPlayerLobbyPoseGeneratorMirror) == 0x28);
-  // Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorMirror::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorMirror::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::NodePoseSyncStateManager*)>(&MockPlayerLobbyPoseGeneratorMirror::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorMirror*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorMirror::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::NodePoseSyncStateManager*)>(&MockPlayerLobbyPoseGeneratorMirror::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorMirror*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorMirror::SendPoses
-  // Il2CppName: SendPoses
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorMirror::*)(System::Threading::CancellationToken)>(&MockPlayerLobbyPoseGeneratorMirror::SendPoses)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorMirror*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror*, "", "MockPlayerLobbyPoseGeneratorMirror");
+// Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorMirror::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorMirror::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::NodePoseSyncStateManager*)>(&MockPlayerLobbyPoseGeneratorMirror::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorMirror*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorMirror::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::NodePoseSyncStateManager*)>(&MockPlayerLobbyPoseGeneratorMirror::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorMirror*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerLobbyPoseGeneratorMirror::SendPoses
+// Il2CppName: SendPoses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerLobbyPoseGeneratorMirror::*)(System::Threading::CancellationToken)>(&MockPlayerLobbyPoseGeneratorMirror::SendPoses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerLobbyPoseGeneratorMirror*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};

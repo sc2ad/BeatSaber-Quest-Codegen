@@ -133,222 +133,222 @@ namespace GlobalNamespace {
     static void CopyFrom(UnityEngine::Gradient* gradient, UnityEngine::Gradient* otherGradient);
   }; // OVRExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: OVRExtensions::ToTrackingSpacePose
-  // Il2CppName: ToTrackingSpacePose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, UnityEngine::Camera*)>(&OVRExtensions::ToTrackingSpacePose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToTrackingSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToWorldSpacePose
-  // Il2CppName: ToWorldSpacePose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(GlobalNamespace::OVRPose)>(&OVRExtensions::ToWorldSpacePose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToWorldSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPose>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToHeadSpacePose
-  // Il2CppName: ToHeadSpacePose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, UnityEngine::Camera*)>(&OVRExtensions::ToHeadSpacePose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToHeadSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToOVRPose
-  // Il2CppName: ToOVRPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, bool)>(&OVRExtensions::ToOVRPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromOVRPose
-  // Il2CppName: FromOVRPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, GlobalNamespace::OVRPose, bool)>(&OVRExtensions::FromOVRPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPose>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToOVRPose
-  // Il2CppName: ToOVRPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(GlobalNamespace::OVRPlugin::Posef)>(&OVRExtensions::ToOVRPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToFrustum
-  // Il2CppName: ToFrustum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRTracker::Frustum (*)(GlobalNamespace::OVRPlugin::Frustumf)>(&OVRExtensions::ToFrustum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Frustumf>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromColorf
-  // Il2CppName: FromColorf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(GlobalNamespace::OVRPlugin::Colorf)>(&OVRExtensions::FromColorf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromColorf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Colorf>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToColorf
-  // Il2CppName: ToColorf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Colorf (*)(UnityEngine::Color)>(&OVRExtensions::ToColorf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToColorf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromVector3f
-  // Il2CppName: FromVector3f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&OVRExtensions::FromVector3f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromFlippedXVector3f
-  // Il2CppName: FromFlippedXVector3f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&OVRExtensions::FromFlippedXVector3f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedXVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromFlippedZVector3f
-  // Il2CppName: FromFlippedZVector3f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&OVRExtensions::FromFlippedZVector3f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedZVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToVector3f
-  // Il2CppName: ToVector3f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&OVRExtensions::ToVector3f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToFlippedXVector3f
-  // Il2CppName: ToFlippedXVector3f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&OVRExtensions::ToFlippedXVector3f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedXVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToFlippedZVector3f
-  // Il2CppName: ToFlippedZVector3f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&OVRExtensions::ToFlippedZVector3f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedZVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromVector4f
-  // Il2CppName: FromVector4f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(GlobalNamespace::OVRPlugin::Vector4f)>(&OVRExtensions::FromVector4f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromVector4f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector4f>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToVector4f
-  // Il2CppName: ToVector4f
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector4f (*)(UnityEngine::Vector4)>(&OVRExtensions::ToVector4f)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToVector4f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromQuatf
-  // Il2CppName: FromQuatf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&OVRExtensions::FromQuatf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Quatf>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromFlippedXQuatf
-  // Il2CppName: FromFlippedXQuatf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&OVRExtensions::FromFlippedXQuatf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedXQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Quatf>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FromFlippedZQuatf
-  // Il2CppName: FromFlippedZQuatf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&OVRExtensions::FromFlippedZQuatf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedZQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Quatf>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToQuatf
-  // Il2CppName: ToQuatf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&OVRExtensions::ToQuatf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToFlippedXQuatf
-  // Il2CppName: ToFlippedXQuatf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&OVRExtensions::ToFlippedXQuatf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedXQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ToFlippedZQuatf
-  // Il2CppName: ToFlippedZQuatf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&OVRExtensions::ToFlippedZQuatf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedZQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::ConvertToHMDMatrix34
-  // Il2CppName: ConvertToHMDMatrix34
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (*)(UnityEngine::Matrix4x4)>(&OVRExtensions::ConvertToHMDMatrix34)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ConvertToHMDMatrix34", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::FindChildRecursive
-  // Il2CppName: FindChildRecursive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*)>(&OVRExtensions::FindChildRecursive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FindChildRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Gradient*, UnityEngine::Gradient*)>(&OVRExtensions::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRExtensions::CopyFrom
-  // Il2CppName: CopyFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Gradient*, UnityEngine::Gradient*)>(&OVRExtensions::CopyFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExtensions*, "", "OVRExtensions");
+// Writing MetadataGetter for method: OVRExtensions::ToTrackingSpacePose
+// Il2CppName: ToTrackingSpacePose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, UnityEngine::Camera*)>(&OVRExtensions::ToTrackingSpacePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToTrackingSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToWorldSpacePose
+// Il2CppName: ToWorldSpacePose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(GlobalNamespace::OVRPose)>(&OVRExtensions::ToWorldSpacePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToWorldSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPose>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToHeadSpacePose
+// Il2CppName: ToHeadSpacePose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, UnityEngine::Camera*)>(&OVRExtensions::ToHeadSpacePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToHeadSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToOVRPose
+// Il2CppName: ToOVRPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, bool)>(&OVRExtensions::ToOVRPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromOVRPose
+// Il2CppName: FromOVRPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, GlobalNamespace::OVRPose, bool)>(&OVRExtensions::FromOVRPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPose>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToOVRPose
+// Il2CppName: ToOVRPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(GlobalNamespace::OVRPlugin::Posef)>(&OVRExtensions::ToOVRPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToFrustum
+// Il2CppName: ToFrustum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRTracker::Frustum (*)(GlobalNamespace::OVRPlugin::Frustumf)>(&OVRExtensions::ToFrustum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Frustumf>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromColorf
+// Il2CppName: FromColorf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(GlobalNamespace::OVRPlugin::Colorf)>(&OVRExtensions::FromColorf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromColorf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Colorf>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToColorf
+// Il2CppName: ToColorf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Colorf (*)(UnityEngine::Color)>(&OVRExtensions::ToColorf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToColorf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromVector3f
+// Il2CppName: FromVector3f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&OVRExtensions::FromVector3f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromFlippedXVector3f
+// Il2CppName: FromFlippedXVector3f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&OVRExtensions::FromFlippedXVector3f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedXVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromFlippedZVector3f
+// Il2CppName: FromFlippedZVector3f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&OVRExtensions::FromFlippedZVector3f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedZVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToVector3f
+// Il2CppName: ToVector3f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&OVRExtensions::ToVector3f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToFlippedXVector3f
+// Il2CppName: ToFlippedXVector3f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&OVRExtensions::ToFlippedXVector3f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedXVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToFlippedZVector3f
+// Il2CppName: ToFlippedZVector3f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&OVRExtensions::ToFlippedZVector3f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedZVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromVector4f
+// Il2CppName: FromVector4f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(GlobalNamespace::OVRPlugin::Vector4f)>(&OVRExtensions::FromVector4f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromVector4f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector4f>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToVector4f
+// Il2CppName: ToVector4f
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector4f (*)(UnityEngine::Vector4)>(&OVRExtensions::ToVector4f)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToVector4f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromQuatf
+// Il2CppName: FromQuatf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&OVRExtensions::FromQuatf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Quatf>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromFlippedXQuatf
+// Il2CppName: FromFlippedXQuatf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&OVRExtensions::FromFlippedXQuatf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedXQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Quatf>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FromFlippedZQuatf
+// Il2CppName: FromFlippedZQuatf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&OVRExtensions::FromFlippedZQuatf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FromFlippedZQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Quatf>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToQuatf
+// Il2CppName: ToQuatf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&OVRExtensions::ToQuatf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToFlippedXQuatf
+// Il2CppName: ToFlippedXQuatf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&OVRExtensions::ToFlippedXQuatf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedXQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ToFlippedZQuatf
+// Il2CppName: ToFlippedZQuatf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&OVRExtensions::ToFlippedZQuatf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ToFlippedZQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::ConvertToHMDMatrix34
+// Il2CppName: ConvertToHMDMatrix34
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (*)(UnityEngine::Matrix4x4)>(&OVRExtensions::ConvertToHMDMatrix34)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "ConvertToHMDMatrix34", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::FindChildRecursive
+// Il2CppName: FindChildRecursive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*)>(&OVRExtensions::FindChildRecursive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "FindChildRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Gradient*, UnityEngine::Gradient*)>(&OVRExtensions::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRExtensions::CopyFrom
+// Il2CppName: CopyFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Gradient*, UnityEngine::Gradient*)>(&OVRExtensions::CopyFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRExtensions*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>()});
+  }
+};

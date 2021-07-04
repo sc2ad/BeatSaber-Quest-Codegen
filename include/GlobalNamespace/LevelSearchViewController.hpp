@@ -269,179 +269,179 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelSearchViewController), 240 + sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_LevelSearchViewControllerSizeCheck;
   static_assert(sizeof(LevelSearchViewController) == 0xF8);
-  // Writing MetadataGetter for method: LevelSearchViewController::add_didPressSearchButtonEvent
-  // Il2CppName: add_didPressSearchButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*)>(&LevelSearchViewController::add_didPressSearchButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "add_didPressSearchButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::remove_didPressSearchButtonEvent
-  // Il2CppName: remove_didPressSearchButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*)>(&LevelSearchViewController::remove_didPressSearchButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "remove_didPressSearchButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::add_didFilterBeatmapLevelCollectionEvent
-  // Il2CppName: add_didFilterBeatmapLevelCollectionEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelSearchViewController::add_didFilterBeatmapLevelCollectionEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "add_didFilterBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::remove_didFilterBeatmapLevelCollectionEvent
-  // Il2CppName: remove_didFilterBeatmapLevelCollectionEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelSearchViewController::remove_didFilterBeatmapLevelCollectionEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "remove_didFilterBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::add_didStartLoadingEvent
-  // Il2CppName: add_didStartLoadingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_1<GlobalNamespace::LevelSearchViewController*>*)>(&LevelSearchViewController::add_didStartLoadingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "add_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelSearchViewController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::remove_didStartLoadingEvent
-  // Il2CppName: remove_didStartLoadingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_1<GlobalNamespace::LevelSearchViewController*>*)>(&LevelSearchViewController::remove_didStartLoadingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "remove_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelSearchViewController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::Setup
-  // Il2CppName: Setup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(::Array<GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelSearchViewController::Setup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IBeatmapLevelPack*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::ResetFilterParams
-  // Il2CppName: ResetFilterParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(bool)>(&LevelSearchViewController::ResetFilterParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "ResetFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::UpdateSearchLevelFilterParams
-  // Il2CppName: UpdateSearchLevelFilterParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(GlobalNamespace::LevelFilterParams*)>(&LevelSearchViewController::UpdateSearchLevelFilterParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "UpdateSearchLevelFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::ResetCurrentFilterParams
-  // Il2CppName: ResetCurrentFilterParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::ResetCurrentFilterParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "ResetCurrentFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::UpdateBeatmapLevelPackCollectionAsync
-  // Il2CppName: UpdateBeatmapLevelPackCollectionAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::UpdateBeatmapLevelPackCollectionAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "UpdateBeatmapLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::SearchTextInputFieldViewOnValueChanged
-  // Il2CppName: SearchTextInputFieldViewOnValueChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(HMUI::InputFieldView*)>(&LevelSearchViewController::SearchTextInputFieldViewOnValueChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "SearchTextInputFieldViewOnValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::UpdateCurrentFilterParams
-  // Il2CppName: UpdateCurrentFilterParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::UpdateCurrentFilterParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "UpdateCurrentFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::RefreshAfterIncreaseNumberOfGameplay
-  // Il2CppName: RefreshAfterIncreaseNumberOfGameplay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::RefreshAfterIncreaseNumberOfGameplay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "RefreshAfterIncreaseNumberOfGameplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::Refresh
-  // Il2CppName: Refresh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::Refresh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::LocalizedLevelFilterParamsDescription
-  // Il2CppName: LocalizedLevelFilterParamsDescription
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LevelSearchViewController::*)(GlobalNamespace::LevelFilterParams*)>(&LevelSearchViewController::LocalizedLevelFilterParamsDescription)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "LocalizedLevelFilterParamsDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::$DidActivate$b__27_0
-  // Il2CppName: <DidActivate>b__27_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::$DidActivate$b__27_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "<DidActivate>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::$DidActivate$b__27_1
-  // Il2CppName: <DidActivate>b__27_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::$DidActivate$b__27_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "<DidActivate>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(bool, bool, bool)>(&LevelSearchViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(bool, bool)>(&LevelSearchViewController::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelSearchViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
+// Writing MetadataGetter for method: LevelSearchViewController::add_didPressSearchButtonEvent
+// Il2CppName: add_didPressSearchButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*)>(&LevelSearchViewController::add_didPressSearchButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "add_didPressSearchButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::remove_didPressSearchButtonEvent
+// Il2CppName: remove_didPressSearchButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*)>(&LevelSearchViewController::remove_didPressSearchButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "remove_didPressSearchButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::add_didFilterBeatmapLevelCollectionEvent
+// Il2CppName: add_didFilterBeatmapLevelCollectionEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelSearchViewController::add_didFilterBeatmapLevelCollectionEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "add_didFilterBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::remove_didFilterBeatmapLevelCollectionEvent
+// Il2CppName: remove_didFilterBeatmapLevelCollectionEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelSearchViewController::remove_didFilterBeatmapLevelCollectionEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "remove_didFilterBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::add_didStartLoadingEvent
+// Il2CppName: add_didStartLoadingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_1<GlobalNamespace::LevelSearchViewController*>*)>(&LevelSearchViewController::add_didStartLoadingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "add_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelSearchViewController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::remove_didStartLoadingEvent
+// Il2CppName: remove_didStartLoadingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(System::Action_1<GlobalNamespace::LevelSearchViewController*>*)>(&LevelSearchViewController::remove_didStartLoadingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "remove_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelSearchViewController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::Setup
+// Il2CppName: Setup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(::Array<GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelSearchViewController::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::ResetFilterParams
+// Il2CppName: ResetFilterParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(bool)>(&LevelSearchViewController::ResetFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "ResetFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::UpdateSearchLevelFilterParams
+// Il2CppName: UpdateSearchLevelFilterParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(GlobalNamespace::LevelFilterParams*)>(&LevelSearchViewController::UpdateSearchLevelFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "UpdateSearchLevelFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::ResetCurrentFilterParams
+// Il2CppName: ResetCurrentFilterParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::ResetCurrentFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "ResetCurrentFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::UpdateBeatmapLevelPackCollectionAsync
+// Il2CppName: UpdateBeatmapLevelPackCollectionAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::UpdateBeatmapLevelPackCollectionAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "UpdateBeatmapLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::SearchTextInputFieldViewOnValueChanged
+// Il2CppName: SearchTextInputFieldViewOnValueChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(HMUI::InputFieldView*)>(&LevelSearchViewController::SearchTextInputFieldViewOnValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "SearchTextInputFieldViewOnValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::UpdateCurrentFilterParams
+// Il2CppName: UpdateCurrentFilterParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::UpdateCurrentFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "UpdateCurrentFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::RefreshAfterIncreaseNumberOfGameplay
+// Il2CppName: RefreshAfterIncreaseNumberOfGameplay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::RefreshAfterIncreaseNumberOfGameplay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "RefreshAfterIncreaseNumberOfGameplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::Refresh
+// Il2CppName: Refresh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::LocalizedLevelFilterParamsDescription
+// Il2CppName: LocalizedLevelFilterParamsDescription
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LevelSearchViewController::*)(GlobalNamespace::LevelFilterParams*)>(&LevelSearchViewController::LocalizedLevelFilterParamsDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "LocalizedLevelFilterParamsDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::$DidActivate$b__27_0
+// Il2CppName: <DidActivate>b__27_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::$DidActivate$b__27_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "<DidActivate>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::$DidActivate$b__27_1
+// Il2CppName: <DidActivate>b__27_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::$DidActivate$b__27_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "<DidActivate>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(bool, bool, bool)>(&LevelSearchViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)(bool, bool)>(&LevelSearchViewController::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelSearchViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSearchViewController::*)()>(&LevelSearchViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelSearchViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -92,59 +92,59 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(PrefabInstantiatorCached), 24 + sizeof(UnityEngine::GameObject*)> __Zenject_PrefabInstantiatorCachedSizeCheck;
   static_assert(sizeof(PrefabInstantiatorCached) == 0x20);
-  // Writing MetadataGetter for method: PrefabInstantiatorCached::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabInstantiatorCached::*)(Zenject::IPrefabInstantiator*)>(&PrefabInstantiatorCached::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabInstantiatorCached::*)(Zenject::IPrefabInstantiator*)>(&PrefabInstantiatorCached::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PrefabInstantiatorCached::get_ExtraArguments
-  // Il2CppName: get_ExtraArguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::get_ExtraArguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "get_ExtraArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PrefabInstantiatorCached::get_ArgumentTarget
-  // Il2CppName: get_ArgumentTarget
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::get_ArgumentTarget)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "get_ArgumentTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PrefabInstantiatorCached::get_GameObjectCreationParameters
-  // Il2CppName: get_GameObjectCreationParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::GameObjectCreationParameters* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::get_GameObjectCreationParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "get_GameObjectCreationParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PrefabInstantiatorCached::GetPrefab
-  // Il2CppName: GetPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::GetPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "GetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PrefabInstantiatorCached::Instantiate
-  // Il2CppName: Instantiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PrefabInstantiatorCached::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&)>(&PrefabInstantiatorCached::Instantiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiatorCached*, "Zenject", "PrefabInstantiatorCached");
+// Writing MetadataGetter for method: PrefabInstantiatorCached::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabInstantiatorCached::*)(Zenject::IPrefabInstantiator*)>(&PrefabInstantiatorCached::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabInstantiatorCached::*)(Zenject::IPrefabInstantiator*)>(&PrefabInstantiatorCached::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+// Writing MetadataGetter for method: PrefabInstantiatorCached::get_ExtraArguments
+// Il2CppName: get_ExtraArguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::get_ExtraArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "get_ExtraArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PrefabInstantiatorCached::get_ArgumentTarget
+// Il2CppName: get_ArgumentTarget
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::get_ArgumentTarget)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "get_ArgumentTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PrefabInstantiatorCached::get_GameObjectCreationParameters
+// Il2CppName: get_GameObjectCreationParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::GameObjectCreationParameters* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::get_GameObjectCreationParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "get_GameObjectCreationParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PrefabInstantiatorCached::GetPrefab
+// Il2CppName: GetPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PrefabInstantiatorCached::*)()>(&PrefabInstantiatorCached::GetPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "GetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PrefabInstantiatorCached::Instantiate
+// Il2CppName: Instantiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PrefabInstantiatorCached::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&)>(&PrefabInstantiatorCached::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PrefabInstantiatorCached*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*&>()});
+  }
+};

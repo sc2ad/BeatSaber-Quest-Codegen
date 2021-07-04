@@ -95,52 +95,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlayerStatisticsViewController::StatsScopeData), 8 + sizeof(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*)> __GlobalNamespace_PlayerStatisticsViewController_StatsScopeDataSizeCheck;
     static_assert(sizeof(PlayerStatisticsViewController::StatsScopeData) == 0x10);
-    // Writing MetadataGetter for method: PlayerStatisticsViewController::StatsScopeData::get_text
-    // Il2CppName: get_text
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayerStatisticsViewController::StatsScopeData::*)()>(&PlayerStatisticsViewController::StatsScopeData::get_text)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController::StatsScopeData), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: PlayerStatisticsViewController::StatsScopeData::set_text
-    // Il2CppName: set_text
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::StatsScopeData::*)(::Il2CppString*)>(&PlayerStatisticsViewController::StatsScopeData::set_text)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController::StatsScopeData), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    // Writing MetadataGetter for method: PlayerStatisticsViewController::StatsScopeData::get_playerOverallStatsDataFunc
-    // Il2CppName: get_playerOverallStatsDataFunc
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* (PlayerStatisticsViewController::StatsScopeData::*)()>(&PlayerStatisticsViewController::StatsScopeData::get_playerOverallStatsDataFunc)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController::StatsScopeData), "get_playerOverallStatsDataFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: PlayerStatisticsViewController::StatsScopeData::set_playerOverallStatsDataFunc
-    // Il2CppName: set_playerOverallStatsDataFunc
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::StatsScopeData::*)(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*)>(&PlayerStatisticsViewController::StatsScopeData::set_playerOverallStatsDataFunc)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController::StatsScopeData), "set_playerOverallStatsDataFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*>()});
-      }
-    };
-    // Writing MetadataGetter for method: PlayerStatisticsViewController::StatsScopeData::StatsScopeData
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::StatsScopeData::*)(::Il2CppString*, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*)>(&PlayerStatisticsViewController::StatsScopeData::StatsScopeData<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController::StatsScopeData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::StatsScopeData::*)(::Il2CppString*, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*)>(&PlayerStatisticsViewController::StatsScopeData::StatsScopeData<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController::StatsScopeData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*>()});
-      }
-    };
     // private HMUI.TextSegmentedControl _statsScopeSegmentedControl
     // Size: 0x8
     // Offset: 0x70
@@ -285,92 +239,92 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerStatisticsViewController), 224 + sizeof(::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>*)> __GlobalNamespace_PlayerStatisticsViewControllerSizeCheck;
   static_assert(sizeof(PlayerStatisticsViewController) == 0xE8);
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::UpdateView
-  // Il2CppName: UpdateView
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*)>(&PlayerStatisticsViewController::UpdateView)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "UpdateView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::HandleStatsScopeSegmentedControlDidSelectCell
-  // Il2CppName: HandleStatsScopeSegmentedControlDidSelectCell
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(HMUI::SegmentedControl*, int)>(&PlayerStatisticsViewController::HandleStatsScopeSegmentedControlDidSelectCell)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "HandleStatsScopeSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_1
-  // Il2CppName: <DidActivate>b__16_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_2
-  // Il2CppName: <DidActivate>b__16_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_3
-  // Il2CppName: <DidActivate>b__16_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_4
-  // Il2CppName: <DidActivate>b__16_4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_0
-  // Il2CppName: <DidActivate>b__16_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(bool, bool, bool)>(&PlayerStatisticsViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(bool, bool)>(&PlayerStatisticsViewController::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerStatisticsViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
+// Writing MetadataGetter for method: PlayerStatisticsViewController::UpdateView
+// Il2CppName: UpdateView
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*)>(&PlayerStatisticsViewController::UpdateView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "UpdateView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::HandleStatsScopeSegmentedControlDidSelectCell
+// Il2CppName: HandleStatsScopeSegmentedControlDidSelectCell
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(HMUI::SegmentedControl*, int)>(&PlayerStatisticsViewController::HandleStatsScopeSegmentedControlDidSelectCell)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "HandleStatsScopeSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_1
+// Il2CppName: <DidActivate>b__16_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_2
+// Il2CppName: <DidActivate>b__16_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_3
+// Il2CppName: <DidActivate>b__16_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_4
+// Il2CppName: <DidActivate>b__16_4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::$DidActivate$b__16_0
+// Il2CppName: <DidActivate>b__16_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::$DidActivate$b__16_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "<DidActivate>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(bool, bool, bool)>(&PlayerStatisticsViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)(bool, bool)>(&PlayerStatisticsViewController::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerStatisticsViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStatisticsViewController::*)()>(&PlayerStatisticsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerStatisticsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

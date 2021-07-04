@@ -49,22 +49,22 @@ namespace UnityEngine::Experimental::Audio {
   #pragma pack(pop)
   static check_size<sizeof(AudioSampleProvider), 24 + sizeof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*)> __UnityEngine_Experimental_Audio_AudioSampleProviderSizeCheck;
   static_assert(sizeof(AudioSampleProvider) == 0x20);
-  // Writing MetadataGetter for method: AudioSampleProvider::InvokeSampleFramesAvailable
-  // Il2CppName: InvokeSampleFramesAvailable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::*)(int)>(&AudioSampleProvider::InvokeSampleFramesAvailable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider*), "InvokeSampleFramesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioSampleProvider::InvokeSampleFramesOverflow
-  // Il2CppName: InvokeSampleFramesOverflow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::*)(int)>(&AudioSampleProvider::InvokeSampleFramesOverflow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider*), "InvokeSampleFramesOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider*, "UnityEngine.Experimental.Audio", "AudioSampleProvider");
+// Writing MetadataGetter for method: AudioSampleProvider::InvokeSampleFramesAvailable
+// Il2CppName: InvokeSampleFramesAvailable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::*)(int)>(&AudioSampleProvider::InvokeSampleFramesAvailable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider*), "InvokeSampleFramesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AudioSampleProvider::InvokeSampleFramesOverflow
+// Il2CppName: InvokeSampleFramesOverflow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::*)(int)>(&AudioSampleProvider::InvokeSampleFramesOverflow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider*), "InvokeSampleFramesOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

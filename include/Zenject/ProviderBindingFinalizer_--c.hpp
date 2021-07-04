@@ -63,43 +63,43 @@ namespace Zenject {
     }
   }; // Zenject.ProviderBindingFinalizer/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ProviderBindingFinalizer::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::$GetScope$b__7_0
-  // Il2CppName: <GetScope>b__7_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ProviderBindingFinalizer::$$c::*)(System::Type*)>(&ProviderBindingFinalizer::$$c::$GetScope$b__7_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), "<GetScope>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::$FinalizeBinding$b__8_0
-  // Il2CppName: <FinalizeBinding>b__8_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ProviderBindingFinalizer::$$c::*)(System::Type*)>(&ProviderBindingFinalizer::$$c::$FinalizeBinding$b__8_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), "<FinalizeBinding>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::$$c::*)()>(&ProviderBindingFinalizer::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::$$c::*)()>(&ProviderBindingFinalizer::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderBindingFinalizer::$$c*, "Zenject", "ProviderBindingFinalizer/<>c");
+// Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ProviderBindingFinalizer::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::$GetScope$b__7_0
+// Il2CppName: <GetScope>b__7_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ProviderBindingFinalizer::$$c::*)(System::Type*)>(&ProviderBindingFinalizer::$$c::$GetScope$b__7_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), "<GetScope>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::$FinalizeBinding$b__8_0
+// Il2CppName: <FinalizeBinding>b__8_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ProviderBindingFinalizer::$$c::*)(System::Type*)>(&ProviderBindingFinalizer::$$c::$FinalizeBinding$b__8_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), "<FinalizeBinding>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: ProviderBindingFinalizer::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::$$c::*)()>(&ProviderBindingFinalizer::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderBindingFinalizer::$$c::*)()>(&ProviderBindingFinalizer::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderBindingFinalizer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

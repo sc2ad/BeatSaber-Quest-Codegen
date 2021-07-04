@@ -56,35 +56,35 @@ namespace GlobalNamespace {
     }
   }; // FakeMirrorObjectsInstaller/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: FakeMirrorObjectsInstaller::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FakeMirrorObjectsInstaller::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0
-  // Il2CppName: <InstallBindings>b__7_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FakeMirrorObjectsInstaller::$$c::*)(Zenject::BindingId)>(&FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), "<InstallBindings>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>()});
-    }
-  };
-  // Writing MetadataGetter for method: FakeMirrorObjectsInstaller::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorObjectsInstaller::$$c::*)()>(&FakeMirrorObjectsInstaller::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorObjectsInstaller::$$c::*)()>(&FakeMirrorObjectsInstaller::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*, "", "FakeMirrorObjectsInstaller/<>c");
+// Writing MetadataGetter for method: FakeMirrorObjectsInstaller::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FakeMirrorObjectsInstaller::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0
+// Il2CppName: <InstallBindings>b__7_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FakeMirrorObjectsInstaller::$$c::*)(Zenject::BindingId)>(&FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), "<InstallBindings>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>()});
+  }
+};
+// Writing MetadataGetter for method: FakeMirrorObjectsInstaller::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorObjectsInstaller::$$c::*)()>(&FakeMirrorObjectsInstaller::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorObjectsInstaller::$$c::*)()>(&FakeMirrorObjectsInstaller::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

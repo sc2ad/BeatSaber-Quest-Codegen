@@ -45,19 +45,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1::PlayerMissionStatsData), 24 + sizeof(bool)> __GlobalNamespace_PlayerSaveDataV1_0_1_PlayerMissionStatsDataSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::PlayerMissionStatsData) == 0x19);
-  // Writing MetadataGetter for method: PlayerSaveDataV1_0_1::PlayerMissionStatsData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerMissionStatsData::*)()>(&PlayerSaveDataV1_0_1::PlayerMissionStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerMissionStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerMissionStatsData::*)()>(&PlayerSaveDataV1_0_1::PlayerMissionStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerMissionStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*, "", "PlayerSaveDataV1_0_1/PlayerMissionStatsData");
+// Writing MetadataGetter for method: PlayerSaveDataV1_0_1::PlayerMissionStatsData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerMissionStatsData::*)()>(&PlayerSaveDataV1_0_1::PlayerMissionStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerMissionStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerMissionStatsData::*)()>(&PlayerSaveDataV1_0_1::PlayerMissionStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerMissionStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -68,99 +68,99 @@ namespace RootMotion {
     }
   }; // RootMotion.Hierarchy
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Hierarchy::HierarchyIsValid
-  // Il2CppName: HierarchyIsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Transform*>*)>(&Hierarchy::HierarchyIsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "HierarchyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::ContainsDuplicate
-  // Il2CppName: ContainsDuplicate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Array<UnityEngine::Object*>*)>(&Hierarchy::ContainsDuplicate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "ContainsDuplicate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::IsAncestor
-  // Il2CppName: IsAncestor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&Hierarchy::IsAncestor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "IsAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::ContainsChild
-  // Il2CppName: ContainsChild
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&Hierarchy::ContainsChild)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "ContainsChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::AddAncestors
-  // Il2CppName: AddAncestors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*&)>(&Hierarchy::AddAncestors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "AddAncestors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::GetAncestor
-  // Il2CppName: GetAncestor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, int)>(&Hierarchy::GetAncestor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::GetFirstCommonAncestor
-  // Il2CppName: GetFirstCommonAncestor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&Hierarchy::GetFirstCommonAncestor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetFirstCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::GetFirstCommonAncestor
-  // Il2CppName: GetFirstCommonAncestor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*)>(&Hierarchy::GetFirstCommonAncestor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetFirstCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::GetFirstCommonAncestorRecursive
-  // Il2CppName: GetFirstCommonAncestorRecursive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&Hierarchy::GetFirstCommonAncestorRecursive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetFirstCommonAncestorRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::IsCommonAncestor
-  // Il2CppName: IsCommonAncestor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&Hierarchy::IsCommonAncestor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "IsCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Hierarchy::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hierarchy::*)()>(&Hierarchy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hierarchy::*)()>(&Hierarchy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Hierarchy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Hierarchy*, "RootMotion", "Hierarchy");
+// Writing MetadataGetter for method: Hierarchy::HierarchyIsValid
+// Il2CppName: HierarchyIsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Transform*>*)>(&Hierarchy::HierarchyIsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "HierarchyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::ContainsDuplicate
+// Il2CppName: ContainsDuplicate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Array<UnityEngine::Object*>*)>(&Hierarchy::ContainsDuplicate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "ContainsDuplicate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::IsAncestor
+// Il2CppName: IsAncestor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&Hierarchy::IsAncestor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "IsAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::ContainsChild
+// Il2CppName: ContainsChild
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&Hierarchy::ContainsChild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "ContainsChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::AddAncestors
+// Il2CppName: AddAncestors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*&)>(&Hierarchy::AddAncestors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "AddAncestors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::GetAncestor
+// Il2CppName: GetAncestor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, int)>(&Hierarchy::GetAncestor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::GetFirstCommonAncestor
+// Il2CppName: GetFirstCommonAncestor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&Hierarchy::GetFirstCommonAncestor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetFirstCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::GetFirstCommonAncestor
+// Il2CppName: GetFirstCommonAncestor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*)>(&Hierarchy::GetFirstCommonAncestor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetFirstCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::GetFirstCommonAncestorRecursive
+// Il2CppName: GetFirstCommonAncestorRecursive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&Hierarchy::GetFirstCommonAncestorRecursive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "GetFirstCommonAncestorRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::IsCommonAncestor
+// Il2CppName: IsCommonAncestor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&Hierarchy::IsCommonAncestor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), "IsCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Hierarchy::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hierarchy::*)()>(&Hierarchy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hierarchy::*)()>(&Hierarchy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Hierarchy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

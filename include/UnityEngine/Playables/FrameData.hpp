@@ -184,79 +184,79 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
   static check_size<sizeof(FrameData), 48 + sizeof(UnityEngine::Playables::PlayableOutput)> __UnityEngine_Playables_FrameDataSizeCheck;
   static_assert(sizeof(FrameData) == 0x3C);
-  // Writing MetadataGetter for method: FrameData::HasFlags
-  // Il2CppName: HasFlags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)(UnityEngine::Playables::FrameData::Flags)>(&FrameData::HasFlags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "HasFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData::Flags>()});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_deltaTime
-  // Il2CppName: get_deltaTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FrameData::*)()>(&FrameData::get_deltaTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_effectiveSpeed
-  // Il2CppName: get_effectiveSpeed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FrameData::*)()>(&FrameData::get_effectiveSpeed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_effectiveSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_evaluationType
-  // Il2CppName: get_evaluationType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::FrameData::EvaluationType (FrameData::*)()>(&FrameData::get_evaluationType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_evaluationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_seekOccurred
-  // Il2CppName: get_seekOccurred
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)()>(&FrameData::get_seekOccurred)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_seekOccurred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_timeLooped
-  // Il2CppName: get_timeLooped
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)()>(&FrameData::get_timeLooped)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_timeLooped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_timeHeld
-  // Il2CppName: get_timeHeld
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)()>(&FrameData::get_timeHeld)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_timeHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_output
-  // Il2CppName: get_output
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (FrameData::*)()>(&FrameData::get_output)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_output", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FrameData::get_effectivePlayState
-  // Il2CppName: get_effectivePlayState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayState (FrameData::*)()>(&FrameData::get_effectivePlayState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FrameData), "get_effectivePlayState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData, "UnityEngine.Playables", "FrameData");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData::Flags, "UnityEngine.Playables", "FrameData/Flags");
+// Writing MetadataGetter for method: FrameData::HasFlags
+// Il2CppName: HasFlags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)(UnityEngine::Playables::FrameData::Flags)>(&FrameData::HasFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "HasFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData::Flags>()});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_deltaTime
+// Il2CppName: get_deltaTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FrameData::*)()>(&FrameData::get_deltaTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_effectiveSpeed
+// Il2CppName: get_effectiveSpeed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FrameData::*)()>(&FrameData::get_effectiveSpeed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_effectiveSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_evaluationType
+// Il2CppName: get_evaluationType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::FrameData::EvaluationType (FrameData::*)()>(&FrameData::get_evaluationType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_evaluationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_seekOccurred
+// Il2CppName: get_seekOccurred
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)()>(&FrameData::get_seekOccurred)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_seekOccurred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_timeLooped
+// Il2CppName: get_timeLooped
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)()>(&FrameData::get_timeLooped)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_timeLooped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_timeHeld
+// Il2CppName: get_timeHeld
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FrameData::*)()>(&FrameData::get_timeHeld)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_timeHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_output
+// Il2CppName: get_output
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (FrameData::*)()>(&FrameData::get_output)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_output", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameData::get_effectivePlayState
+// Il2CppName: get_effectivePlayState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayState (FrameData::*)()>(&FrameData::get_effectivePlayState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameData), "get_effectivePlayState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

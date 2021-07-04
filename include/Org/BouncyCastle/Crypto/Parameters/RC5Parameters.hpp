@@ -31,14 +31,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
   static check_size<sizeof(RC5Parameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_RC5ParametersSizeCheck;
   static_assert(sizeof(RC5Parameters) == 0x1C);
-  // Writing MetadataGetter for method: RC5Parameters::get_Rounds
-  // Il2CppName: get_Rounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC5Parameters::*)()>(&RC5Parameters::get_Rounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RC5Parameters*), "get_Rounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");
+// Writing MetadataGetter for method: RC5Parameters::get_Rounds
+// Il2CppName: get_Rounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC5Parameters::*)()>(&RC5Parameters::get_Rounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RC5Parameters*), "get_Rounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

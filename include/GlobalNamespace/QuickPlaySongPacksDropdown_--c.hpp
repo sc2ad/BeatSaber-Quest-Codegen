@@ -70,51 +70,51 @@ namespace GlobalNamespace {
     }
   }; // QuickPlaySongPacksDropdown/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&QuickPlaySongPacksDropdown::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_2
-  // Il2CppName: <LazyInit>b__15_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* (QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*)>(&QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), "<LazyInit>b__15_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_4
-  // Il2CppName: <LazyInit>b__15_4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*)>(&QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), "<LazyInit>b__15_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_3
-  // Il2CppName: <LazyInit>b__15_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*)>(&QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), "<LazyInit>b__15_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::$$c::*)()>(&QuickPlaySongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::$$c::*)()>(&QuickPlaySongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::$$c*, "", "QuickPlaySongPacksDropdown/<>c");
+// Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&QuickPlaySongPacksDropdown::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_2
+// Il2CppName: <LazyInit>b__15_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* (QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*)>(&QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), "<LazyInit>b__15_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>()});
+  }
+};
+// Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_4
+// Il2CppName: <LazyInit>b__15_4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*)>(&QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), "<LazyInit>b__15_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>()});
+  }
+};
+// Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_3
+// Il2CppName: <LazyInit>b__15_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*)>(&QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), "<LazyInit>b__15_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>()});
+  }
+};
+// Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::$$c::*)()>(&QuickPlaySongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::$$c::*)()>(&QuickPlaySongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -51,27 +51,27 @@ namespace GlobalNamespace {
     }
   }; // DisappearingArrowController
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: DisappearingArrowController::get_gameNoteController
-  // Il2CppName: get_gameNoteController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController* (DisappearingArrowController::*)()>(&DisappearingArrowController::get_gameNoteController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisappearingArrowController*), "get_gameNoteController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DisappearingArrowController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisappearingArrowController::*)()>(&DisappearingArrowController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisappearingArrowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisappearingArrowController::*)()>(&DisappearingArrowController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisappearingArrowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisappearingArrowController*, "", "DisappearingArrowController");
+// Writing MetadataGetter for method: DisappearingArrowController::get_gameNoteController
+// Il2CppName: get_gameNoteController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController* (DisappearingArrowController::*)()>(&DisappearingArrowController::get_gameNoteController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisappearingArrowController*), "get_gameNoteController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisappearingArrowController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisappearingArrowController::*)()>(&DisappearingArrowController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisappearingArrowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisappearingArrowController::*)()>(&DisappearingArrowController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisappearingArrowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -133,107 +133,107 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(HMAC), 96 + sizeof(bool)> __System_Security_Cryptography_HMACSizeCheck;
   static_assert(sizeof(HMAC) == 0x61);
-  // Writing MetadataGetter for method: HMAC::get_BlockSizeValue
-  // Il2CppName: get_BlockSizeValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMAC::*)()>(&HMAC::get_BlockSizeValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "get_BlockSizeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::set_BlockSizeValue
-  // Il2CppName: set_BlockSizeValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(int)>(&HMAC::set_BlockSizeValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "set_BlockSizeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::UpdateIOPadBuffers
-  // Il2CppName: UpdateIOPadBuffers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::UpdateIOPadBuffers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "UpdateIOPadBuffers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::InitializeKey
-  // Il2CppName: InitializeKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(::Array<uint8_t>*)>(&HMAC::InitializeKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "InitializeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HMAC* (*)()>(&HMAC::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::get_Key
-  // Il2CppName: get_Key
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (HMAC::*)()>(&HMAC::get_Key)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::set_Key
-  // Il2CppName: set_Key
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(::Array<uint8_t>*)>(&HMAC::set_Key)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::Initialize
-  // Il2CppName: Initialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::Initialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::HashCore
-  // Il2CppName: HashCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(::Array<uint8_t>*, int, int)>(&HMAC::HashCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::HashFinal
-  // Il2CppName: HashFinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (HMAC::*)()>(&HMAC::HashFinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(bool)>(&HMAC::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: HMAC::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HMAC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMAC*, "System.Security.Cryptography", "HMAC");
+// Writing MetadataGetter for method: HMAC::get_BlockSizeValue
+// Il2CppName: get_BlockSizeValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMAC::*)()>(&HMAC::get_BlockSizeValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "get_BlockSizeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAC::set_BlockSizeValue
+// Il2CppName: set_BlockSizeValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(int)>(&HMAC::set_BlockSizeValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "set_BlockSizeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HMAC::UpdateIOPadBuffers
+// Il2CppName: UpdateIOPadBuffers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::UpdateIOPadBuffers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "UpdateIOPadBuffers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAC::InitializeKey
+// Il2CppName: InitializeKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(::Array<uint8_t>*)>(&HMAC::InitializeKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "InitializeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: HMAC::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HMAC* (*)()>(&HMAC::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAC::get_Key
+// Il2CppName: get_Key
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (HMAC::*)()>(&HMAC::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAC::set_Key
+// Il2CppName: set_Key
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(::Array<uint8_t>*)>(&HMAC::set_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: HMAC::Initialize
+// Il2CppName: Initialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAC::HashCore
+// Il2CppName: HashCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(::Array<uint8_t>*, int, int)>(&HMAC::HashCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: HMAC::HashFinal
+// Il2CppName: HashFinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (HMAC::*)()>(&HMAC::HashFinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAC::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)(bool)>(&HMAC::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: HMAC::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAC::*)()>(&HMAC::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

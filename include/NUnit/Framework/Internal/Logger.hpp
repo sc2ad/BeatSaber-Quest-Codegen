@@ -108,75 +108,75 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(Logger), 40 + sizeof(System::IO::TextWriter*)> __NUnit_Framework_Internal_LoggerSizeCheck;
   static_assert(sizeof(Logger) == 0x30);
-  // Writing MetadataGetter for method: Logger::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*, NUnit::Framework::Internal::InternalTraceLevel, System::IO::TextWriter*)>(&Logger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*, NUnit::Framework::Internal::InternalTraceLevel, System::IO::TextWriter*)>(&Logger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Logger::Error
-  // Il2CppName: Error
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*)>(&Logger::Error)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Logger::Debug
-  // Il2CppName: Debug
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*)>(&Logger::Debug)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Logger::Debug
-  // Il2CppName: Debug
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Logger::Debug)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Logger::Log
-  // Il2CppName: Log
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&Logger::Log)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Logger::Log
-  // Il2CppName: Log
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Logger::Log)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Logger::WriteLog
-  // Il2CppName: WriteLog
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&Logger::WriteLog)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), "WriteLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Logger::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Logger::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Logger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Logger*, "NUnit.Framework.Internal", "Logger");
+// Writing MetadataGetter for method: Logger::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*, NUnit::Framework::Internal::InternalTraceLevel, System::IO::TextWriter*)>(&Logger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*, NUnit::Framework::Internal::InternalTraceLevel, System::IO::TextWriter*)>(&Logger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: Logger::Error
+// Il2CppName: Error
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*)>(&Logger::Error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Logger::Debug
+// Il2CppName: Debug
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*)>(&Logger::Debug)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Logger::Debug
+// Il2CppName: Debug
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Logger::Debug)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Logger::Log
+// Il2CppName: Log
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&Logger::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Logger::Log
+// Il2CppName: Log
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Logger::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Logger::WriteLog
+// Il2CppName: WriteLog
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&Logger::WriteLog)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), "WriteLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Logger::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Logger::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Logger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

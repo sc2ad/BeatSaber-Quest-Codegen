@@ -53,62 +53,62 @@ namespace UnityEngine::Experimental::XR {
     static bool TryGetGeometryScriptingInternal(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
   }; // UnityEngine.Experimental.XR.Boundary
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Boundary::TryGetDimensions
-  // Il2CppName: TryGetDimensions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetDimensions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-    }
-  };
-  // Writing MetadataGetter for method: Boundary::TryGetDimensionsInternal
-  // Il2CppName: TryGetDimensionsInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetDimensionsInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetDimensionsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-    }
-  };
-  // Writing MetadataGetter for method: Boundary::get_visible
-  // Il2CppName: get_visible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Boundary::get_visible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Boundary*), "get_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Boundary::set_visible
-  // Il2CppName: set_visible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Boundary::set_visible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Boundary*), "set_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Boundary::get_configured
-  // Il2CppName: get_configured
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Boundary::get_configured)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Boundary*), "get_configured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Boundary::TryGetGeometry
-  // Il2CppName: TryGetGeometry
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetGeometry)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-    }
-  };
-  // Writing MetadataGetter for method: Boundary::TryGetGeometryScriptingInternal
-  // Il2CppName: TryGetGeometryScriptingInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetGeometryScriptingInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetGeometryScriptingInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");
+// Writing MetadataGetter for method: Boundary::TryGetDimensions
+// Il2CppName: TryGetDimensions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetDimensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};
+// Writing MetadataGetter for method: Boundary::TryGetDimensionsInternal
+// Il2CppName: TryGetDimensionsInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetDimensionsInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetDimensionsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};
+// Writing MetadataGetter for method: Boundary::get_visible
+// Il2CppName: get_visible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Boundary::get_visible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Boundary*), "get_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Boundary::set_visible
+// Il2CppName: set_visible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Boundary::set_visible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Boundary*), "set_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Boundary::get_configured
+// Il2CppName: get_configured
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Boundary::get_configured)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Boundary*), "get_configured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Boundary::TryGetGeometry
+// Il2CppName: TryGetGeometry
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};
+// Writing MetadataGetter for method: Boundary::TryGetGeometryScriptingInternal
+// Il2CppName: TryGetGeometryScriptingInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetGeometryScriptingInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetGeometryScriptingInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};

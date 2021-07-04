@@ -55,43 +55,43 @@ namespace Valve::VR {
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetControllerAxisTypeNameFromEnum
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(Valve::VR::EVRControllerAxisType)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRControllerAxisType>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(Valve::VR::EVRControllerAxisType, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRControllerAxisType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(System::IAsyncResult*)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetControllerAxisTypeNameFromEnum*, "Valve.VR", "IVRSystem/_GetControllerAxisTypeNameFromEnum");
+// Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(Valve::VR::EVRControllerAxisType)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRControllerAxisType>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(Valve::VR::EVRControllerAxisType, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRControllerAxisType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRSystem::_GetControllerAxisTypeNameFromEnum::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRSystem::_GetControllerAxisTypeNameFromEnum::*)(System::IAsyncResult*)>(&IVRSystem::_GetControllerAxisTypeNameFromEnum::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetControllerAxisTypeNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

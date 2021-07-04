@@ -55,41 +55,41 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
   static check_size<sizeof(CompilationRelaxationsAttribute), 16 + sizeof(int)> __System_Runtime_CompilerServices_CompilationRelaxationsAttributeSizeCheck;
   static_assert(sizeof(CompilationRelaxationsAttribute) == 0x14);
-  // Writing MetadataGetter for method: CompilationRelaxationsAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(int)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(int)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompilationRelaxationsAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(System::Runtime::CompilerServices::CompilationRelaxations)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::CompilationRelaxations>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(System::Runtime::CompilerServices::CompilationRelaxations)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::CompilationRelaxations>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompilationRelaxationsAttribute::get_CompilationRelaxations
-  // Il2CppName: get_CompilationRelaxations
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompilationRelaxationsAttribute::*)()>(&CompilationRelaxationsAttribute::get_CompilationRelaxations)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), "get_CompilationRelaxations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxationsAttribute*, "System.Runtime.CompilerServices", "CompilationRelaxationsAttribute");
+// Writing MetadataGetter for method: CompilationRelaxationsAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(int)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(int)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CompilationRelaxationsAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(System::Runtime::CompilerServices::CompilationRelaxations)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::CompilationRelaxations>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompilationRelaxationsAttribute::*)(System::Runtime::CompilerServices::CompilationRelaxations)>(&CompilationRelaxationsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::CompilationRelaxations>()});
+  }
+};
+// Writing MetadataGetter for method: CompilationRelaxationsAttribute::get_CompilationRelaxations
+// Il2CppName: get_CompilationRelaxations
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompilationRelaxationsAttribute::*)()>(&CompilationRelaxationsAttribute::get_CompilationRelaxations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompilationRelaxationsAttribute*), "get_CompilationRelaxations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

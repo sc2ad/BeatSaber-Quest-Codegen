@@ -51,35 +51,35 @@ namespace Zenject {
     }
   }; // Zenject.NullBindingFinalizer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: NullBindingFinalizer::get_BindingInheritanceMethod
-  // Il2CppName: get_BindingInheritanceMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (NullBindingFinalizer::*)()>(&NullBindingFinalizer::get_BindingInheritanceMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NullBindingFinalizer::FinalizeBinding
-  // Il2CppName: FinalizeBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)(Zenject::DiContainer*)>(&NullBindingFinalizer::FinalizeBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NullBindingFinalizer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)()>(&NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)()>(&NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NullBindingFinalizer*, "Zenject", "NullBindingFinalizer");
+// Writing MetadataGetter for method: NullBindingFinalizer::get_BindingInheritanceMethod
+// Il2CppName: get_BindingInheritanceMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (NullBindingFinalizer::*)()>(&NullBindingFinalizer::get_BindingInheritanceMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NullBindingFinalizer::FinalizeBinding
+// Il2CppName: FinalizeBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)(Zenject::DiContainer*)>(&NullBindingFinalizer::FinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: NullBindingFinalizer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)()>(&NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)()>(&NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

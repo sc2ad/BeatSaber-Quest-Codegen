@@ -68,27 +68,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualAxis2DMap), 32 + sizeof(GlobalNamespace::OVRInput::RawAxis2D)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualAxis2DMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualAxis2DMap) == 0x24);
-  // Writing MetadataGetter for method: OVRInput::OVRControllerBase::VirtualAxis2DMap::ToRawMask
-  // Il2CppName: ToRawMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawAxis2D (OVRInput::OVRControllerBase::VirtualAxis2DMap::*)(GlobalNamespace::OVRInput::Axis2D)>(&OVRInput::OVRControllerBase::VirtualAxis2DMap::ToRawMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualAxis2DMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerBase::VirtualAxis2DMap::*)()>(&OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualAxis2DMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerBase::VirtualAxis2DMap::*)()>(&OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualAxis2DMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis2DMap");
+// Writing MetadataGetter for method: OVRInput::OVRControllerBase::VirtualAxis2DMap::ToRawMask
+// Il2CppName: ToRawMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawAxis2D (OVRInput::OVRControllerBase::VirtualAxis2DMap::*)(GlobalNamespace::OVRInput::Axis2D)>(&OVRInput::OVRControllerBase::VirtualAxis2DMap::ToRawMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualAxis2DMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerBase::VirtualAxis2DMap::*)()>(&OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualAxis2DMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerBase::VirtualAxis2DMap::*)()>(&OVRInput::OVRControllerBase::VirtualAxis2DMap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualAxis2DMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

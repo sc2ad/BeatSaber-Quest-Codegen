@@ -74,27 +74,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusNetworkPlayerModel::$$c__DisplayClass61_0), 32 + sizeof(uint64_t)> __GlobalNamespace_OculusNetworkPlayerModel_$$c__DisplayClass61_0SizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel::$$c__DisplayClass61_0) == 0x28);
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::$$c__DisplayClass61_0::$ShouldAcceptConnectionFromPlayer$b__0
-  // Il2CppName: <ShouldAcceptConnectionFromPlayer>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::$$c__DisplayClass61_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*)>(&OculusNetworkPlayerModel::$$c__DisplayClass61_0::$ShouldAcceptConnectionFromPlayer$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::$$c__DisplayClass61_0*), "<ShouldAcceptConnectionFromPlayer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusNetworkPlayerModel::$$c__DisplayClass61_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::$$c__DisplayClass61_0::*)()>(&OculusNetworkPlayerModel::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::$$c__DisplayClass61_0::*)()>(&OculusNetworkPlayerModel::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass61_0*, "", "OculusNetworkPlayerModel/<>c__DisplayClass61_0");
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::$$c__DisplayClass61_0::$ShouldAcceptConnectionFromPlayer$b__0
+// Il2CppName: <ShouldAcceptConnectionFromPlayer>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::$$c__DisplayClass61_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*)>(&OculusNetworkPlayerModel::$$c__DisplayClass61_0::$ShouldAcceptConnectionFromPlayer$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::$$c__DisplayClass61_0*), "<ShouldAcceptConnectionFromPlayer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusNetworkPlayerModel::$$c__DisplayClass61_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::$$c__DisplayClass61_0::*)()>(&OculusNetworkPlayerModel::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusNetworkPlayerModel::$$c__DisplayClass61_0::*)()>(&OculusNetworkPlayerModel::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusNetworkPlayerModel::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -25,14 +25,14 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.IResolveConstraint
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IResolveConstraint::Resolve
-  // Il2CppName: Resolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (IResolveConstraint::*)()>(&IResolveConstraint::Resolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IResolveConstraint*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::IResolveConstraint*, "NUnit.Framework.Constraints", "IResolveConstraint");
+// Writing MetadataGetter for method: IResolveConstraint::Resolve
+// Il2CppName: Resolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (IResolveConstraint::*)()>(&IResolveConstraint::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IResolveConstraint*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

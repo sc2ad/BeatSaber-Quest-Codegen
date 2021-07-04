@@ -51,30 +51,30 @@ namespace GlobalNamespace {
     static int MergeValuesIntoOneInt(int textId, int positionId);
   }; // BTSStarTextEffectValueParser
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BTSStarTextEffectValueParser::GetTextId
-  // Il2CppName: GetTextId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&BTSStarTextEffectValueParser::GetTextId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectValueParser*), "GetTextId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: BTSStarTextEffectValueParser::GetPositionId
-  // Il2CppName: GetPositionId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&BTSStarTextEffectValueParser::GetPositionId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectValueParser*), "GetPositionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: BTSStarTextEffectValueParser::MergeValuesIntoOneInt
-  // Il2CppName: MergeValuesIntoOneInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&BTSStarTextEffectValueParser::MergeValuesIntoOneInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectValueParser*), "MergeValuesIntoOneInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectValueParser*, "", "BTSStarTextEffectValueParser");
+// Writing MetadataGetter for method: BTSStarTextEffectValueParser::GetTextId
+// Il2CppName: GetTextId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&BTSStarTextEffectValueParser::GetTextId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectValueParser*), "GetTextId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: BTSStarTextEffectValueParser::GetPositionId
+// Il2CppName: GetPositionId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&BTSStarTextEffectValueParser::GetPositionId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectValueParser*), "GetPositionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: BTSStarTextEffectValueParser::MergeValuesIntoOneInt
+// Il2CppName: MergeValuesIntoOneInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&BTSStarTextEffectValueParser::MergeValuesIntoOneInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectValueParser*), "MergeValuesIntoOneInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -132,83 +132,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerBigAvatarAnimator), 72 + sizeof(bool)> __GlobalNamespace_MultiplayerBigAvatarAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerBigAvatarAnimator) == 0x49);
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::InitIfNeeded
-  // Il2CppName: InitIfNeeded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::InitIfNeeded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::SetPositionAndRotation
-  // Il2CppName: SetPositionAndRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&MultiplayerBigAvatarAnimator::SetPositionAndRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::HideInstant
-  // Il2CppName: HideInstant
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::HideInstant)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "HideInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::Animate
-  // Il2CppName: Animate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(bool, float, Tweening::EaseType)>(&MultiplayerBigAvatarAnimator::Animate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_0
-  // Il2CppName: <InitIfNeeded>b__8_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(float)>(&MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "<InitIfNeeded>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_1
-  // Il2CppName: <InitIfNeeded>b__8_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(float)>(&MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "<InitIfNeeded>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_2
-  // Il2CppName: <InitIfNeeded>b__8_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "<InitIfNeeded>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBigAvatarAnimator*, "", "MultiplayerBigAvatarAnimator");
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::InitIfNeeded
+// Il2CppName: InitIfNeeded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::InitIfNeeded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::SetPositionAndRotation
+// Il2CppName: SetPositionAndRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&MultiplayerBigAvatarAnimator::SetPositionAndRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::HideInstant
+// Il2CppName: HideInstant
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::HideInstant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "HideInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::Animate
+// Il2CppName: Animate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(bool, float, Tweening::EaseType)>(&MultiplayerBigAvatarAnimator::Animate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_0
+// Il2CppName: <InitIfNeeded>b__8_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(float)>(&MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "<InitIfNeeded>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_1
+// Il2CppName: <InitIfNeeded>b__8_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)(float)>(&MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "<InitIfNeeded>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_2
+// Il2CppName: <InitIfNeeded>b__8_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::$InitIfNeeded$b__8_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), "<InitIfNeeded>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerBigAvatarAnimator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBigAvatarAnimator::*)()>(&MultiplayerBigAvatarAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerBigAvatarAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

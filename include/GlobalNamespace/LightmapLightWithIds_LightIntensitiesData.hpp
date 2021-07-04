@@ -94,67 +94,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LightmapLightWithIds::LightIntensitiesData), 56 + sizeof(bool)> __GlobalNamespace_LightmapLightWithIds_LightIntensitiesDataSizeCheck;
   static_assert(sizeof(LightmapLightWithIds::LightIntensitiesData) == 0x39);
-  // Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::get_intensity
-  // Il2CppName: get_intensity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::get_intensity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "get_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::set_intensity
-  // Il2CppName: set_intensity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)(float)>(&LightmapLightWithIds::LightIntensitiesData::set_intensity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "set_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::get_weight
-  // Il2CppName: get_weight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::get_weight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "get_weight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::set_weight
-  // Il2CppName: set_weight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)(float)>(&LightmapLightWithIds::LightIntensitiesData::set_weight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "set_weight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::SetDataToShaders
-  // Il2CppName: SetDataToShaders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)(UnityEngine::Color, UnityEngine::Color)>(&LightmapLightWithIds::LightIntensitiesData::SetDataToShaders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "SetDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::ProcessColor
-  // Il2CppName: ProcessColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (LightmapLightWithIds::LightIntensitiesData::*)(UnityEngine::Color)>(&LightmapLightWithIds::LightIntensitiesData::ProcessColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*, "", "LightmapLightWithIds/LightIntensitiesData");
+// Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::get_intensity
+// Il2CppName: get_intensity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::get_intensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "get_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::set_intensity
+// Il2CppName: set_intensity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)(float)>(&LightmapLightWithIds::LightIntensitiesData::set_intensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "set_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::get_weight
+// Il2CppName: get_weight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::get_weight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "get_weight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::set_weight
+// Il2CppName: set_weight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)(float)>(&LightmapLightWithIds::LightIntensitiesData::set_weight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "set_weight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::SetDataToShaders
+// Il2CppName: SetDataToShaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)(UnityEngine::Color, UnityEngine::Color)>(&LightmapLightWithIds::LightIntensitiesData::SetDataToShaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "SetDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::ProcessColor
+// Il2CppName: ProcessColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (LightmapLightWithIds::LightIntensitiesData::*)(UnityEngine::Color)>(&LightmapLightWithIds::LightIntensitiesData::ProcessColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: LightmapLightWithIds::LightIntensitiesData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightmapLightWithIds::LightIntensitiesData::*)()>(&LightmapLightWithIds::LightIntensitiesData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightmapLightWithIds::LightIntensitiesData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

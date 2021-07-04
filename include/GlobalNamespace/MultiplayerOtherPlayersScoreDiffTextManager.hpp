@@ -130,67 +130,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerOtherPlayersScoreDiffTextManager), 72 + sizeof(float)> __GlobalNamespace_MultiplayerOtherPlayersScoreDiffTextManagerSizeCheck;
   static_assert(sizeof(MultiplayerOtherPlayersScoreDiffTextManager) == 0x4C);
-  // Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::InitLeftRightPositions
-  // Il2CppName: InitLeftRightPositions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::InitLeftRightPositions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "InitLeftRightPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::HideAll
-  // Il2CppName: HideAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::HideAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "HideAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged
-  // Il2CppName: HandleStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*, "", "MultiplayerOtherPlayersScoreDiffTextManager");
+// Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::InitLeftRightPositions
+// Il2CppName: InitLeftRightPositions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::InitLeftRightPositions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "InitLeftRightPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::HideAll
+// Il2CppName: HideAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::HideAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "HideAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged
+// Il2CppName: HandleStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerOtherPlayersScoreDiffTextManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOtherPlayersScoreDiffTextManager::*)()>(&MultiplayerOtherPlayersScoreDiffTextManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerOtherPlayersScoreDiffTextManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

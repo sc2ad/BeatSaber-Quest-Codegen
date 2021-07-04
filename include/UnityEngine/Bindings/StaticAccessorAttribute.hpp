@@ -64,49 +64,49 @@ namespace UnityEngine::Bindings {
   #pragma pack(pop)
   static check_size<sizeof(StaticAccessorAttribute), 24 + sizeof(UnityEngine::Bindings::StaticAccessorType)> __UnityEngine_Bindings_StaticAccessorAttributeSizeCheck;
   static_assert(sizeof(StaticAccessorAttribute) == 0x1C);
-  // Writing MetadataGetter for method: StaticAccessorAttribute::set_Name
-  // Il2CppName: set_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*)>(&StaticAccessorAttribute::set_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StaticAccessorAttribute::set_Type
-  // Il2CppName: set_Type
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(UnityEngine::Bindings::StaticAccessorType)>(&StaticAccessorAttribute::set_Type)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bindings::StaticAccessorType>()});
-    }
-  };
-  // Writing MetadataGetter for method: StaticAccessorAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StaticAccessorAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*, UnityEngine::Bindings::StaticAccessorType)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bindings::StaticAccessorType>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*, UnityEngine::Bindings::StaticAccessorType)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bindings::StaticAccessorType>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");
+// Writing MetadataGetter for method: StaticAccessorAttribute::set_Name
+// Il2CppName: set_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*)>(&StaticAccessorAttribute::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: StaticAccessorAttribute::set_Type
+// Il2CppName: set_Type
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(UnityEngine::Bindings::StaticAccessorType)>(&StaticAccessorAttribute::set_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bindings::StaticAccessorType>()});
+  }
+};
+// Writing MetadataGetter for method: StaticAccessorAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: StaticAccessorAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*, UnityEngine::Bindings::StaticAccessorType)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bindings::StaticAccessorType>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StaticAccessorAttribute::*)(::Il2CppString*, UnityEngine::Bindings::StaticAccessorType)>(&StaticAccessorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StaticAccessorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bindings::StaticAccessorType>()});
+  }
+};

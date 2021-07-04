@@ -61,27 +61,27 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
   static check_size<sizeof(SafeSerializationEventArgs), 32 + sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*)> __System_Runtime_Serialization_SafeSerializationEventArgsSizeCheck;
   static_assert(sizeof(SafeSerializationEventArgs) == 0x28);
-  // Writing MetadataGetter for method: SafeSerializationEventArgs::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSerializationEventArgs::*)(System::Runtime::Serialization::StreamingContext)>(&SafeSerializationEventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSerializationEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSerializationEventArgs::*)(System::Runtime::Serialization::StreamingContext)>(&SafeSerializationEventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSerializationEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: SafeSerializationEventArgs::get_SerializedStates
-  // Il2CppName: get_SerializedStates
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<::Il2CppObject*>* (SafeSerializationEventArgs::*)()>(&SafeSerializationEventArgs::get_SerializedStates)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSerializationEventArgs*), "get_SerializedStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SafeSerializationEventArgs*, "System.Runtime.Serialization", "SafeSerializationEventArgs");
+// Writing MetadataGetter for method: SafeSerializationEventArgs::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSerializationEventArgs::*)(System::Runtime::Serialization::StreamingContext)>(&SafeSerializationEventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSerializationEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSerializationEventArgs::*)(System::Runtime::Serialization::StreamingContext)>(&SafeSerializationEventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSerializationEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: SafeSerializationEventArgs::get_SerializedStates
+// Il2CppName: get_SerializedStates
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<::Il2CppObject*>* (SafeSerializationEventArgs::*)()>(&SafeSerializationEventArgs::get_SerializedStates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSerializationEventArgs*), "get_SerializedStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

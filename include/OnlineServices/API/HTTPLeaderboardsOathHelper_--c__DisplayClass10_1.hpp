@@ -62,27 +62,27 @@ namespace OnlineServices::API {
   #pragma pack(pop)
   static check_size<sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1), 24 + sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*)> __OnlineServices_API_HTTPLeaderboardsOathHelper_$$c__DisplayClass10_1SizeCheck;
   static_assert(sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1) == 0x20);
-  // Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0
-  // Il2CppName: <SendWebRequestAsync>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)(UnityEngine::AsyncOperation*)>(&HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), "<SendWebRequestAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)()>(&HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)()>(&HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1");
+// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0
+// Il2CppName: <SendWebRequestAsync>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)(UnityEngine::AsyncOperation*)>(&HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), "<SendWebRequestAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)()>(&HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)()>(&HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -205,155 +205,155 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NetEaseArcadeFlowCoordinator), 336 + sizeof(GlobalNamespace::MenuTransitionsHelper*)> __GlobalNamespace_NetEaseArcadeFlowCoordinatorSizeCheck;
   static_assert(sizeof(NetEaseArcadeFlowCoordinator) == 0x158);
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::ProcessScore
-  // Il2CppName: ProcessScore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&NetEaseArcadeFlowCoordinator::ProcessScore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "ProcessScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::AddScoreToLeaderboards
-  // Il2CppName: AddScoreToLeaderboards
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&NetEaseArcadeFlowCoordinator::AddScoreToLeaderboards)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "AddScoreToLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::LogoutAsync
-  // Il2CppName: LogoutAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::LogoutAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish
-  // Il2CppName: HandleHowToPlayViewControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::HowToPlayViewController::HowToPlayOptions)>(&NetEaseArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleHowToPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleHowToPlayTabSelected
-  // Il2CppName: HandleHowToPlayTabSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::HandleHowToPlayTabSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleHowToPlayTabSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleLogoutTabWasSelected
-  // Il2CppName: HandleLogoutTabWasSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::HandleLogoutTabWasSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleLogoutTabWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed
-  // Il2CppName: HandleResultsViewControllerContinueButtonPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&NetEaseArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleResultsViewControllerContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed
-  // Il2CppName: HandleResultsViewControllerRestartButtonPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&NetEaseArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleResultsViewControllerRestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__17_0
-  // Il2CppName: <SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__17_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__17_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "<SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__24_0
-  // Il2CppName: <HandleHowToPlayTabSelected>b__24_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__24_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "<HandleHowToPlayTabSelected>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_gameMode
-  // Il2CppName: get_gameMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_gameMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_leaderboardViewController
-  // Il2CppName: get_leaderboardViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LeaderboardViewController* (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_leaderboardViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_leaderboardViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_initialTopScreenViewController
-  // Il2CppName: get_initialTopScreenViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_initialTopScreenViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_showPlayerStatsInDetailView
-  // Il2CppName: get_showPlayerStatsInDetailView
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_showPlayerStatsInDetailView)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_showPlayerStatsInDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate
-  // Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(bool, bool)>(&NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
-  // Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(bool)>(&NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish
-  // Il2CppName: ProcessLevelCompletionResultsAfterLevelDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&NetEaseArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "ProcessLevelCompletionResultsAfterLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator*, "", "NetEaseArcadeFlowCoordinator");
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::ProcessScore
+// Il2CppName: ProcessScore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&NetEaseArcadeFlowCoordinator::ProcessScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "ProcessScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::AddScoreToLeaderboards
+// Il2CppName: AddScoreToLeaderboards
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&NetEaseArcadeFlowCoordinator::AddScoreToLeaderboards)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "AddScoreToLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::LogoutAsync
+// Il2CppName: LogoutAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::LogoutAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish
+// Il2CppName: HandleHowToPlayViewControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::HowToPlayViewController::HowToPlayOptions)>(&NetEaseArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleHowToPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleHowToPlayTabSelected
+// Il2CppName: HandleHowToPlayTabSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::HandleHowToPlayTabSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleHowToPlayTabSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleLogoutTabWasSelected
+// Il2CppName: HandleLogoutTabWasSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::HandleLogoutTabWasSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleLogoutTabWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed
+// Il2CppName: HandleResultsViewControllerContinueButtonPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&NetEaseArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleResultsViewControllerContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed
+// Il2CppName: HandleResultsViewControllerRestartButtonPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&NetEaseArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "HandleResultsViewControllerRestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__17_0
+// Il2CppName: <SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__17_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__17_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "<SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__24_0
+// Il2CppName: <HandleHowToPlayTabSelected>b__24_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__24_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "<HandleHowToPlayTabSelected>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_gameMode
+// Il2CppName: get_gameMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_gameMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_leaderboardViewController
+// Il2CppName: get_leaderboardViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LeaderboardViewController* (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_leaderboardViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_leaderboardViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_initialTopScreenViewController
+// Il2CppName: get_initialTopScreenViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_initialTopScreenViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::get_showPlayerStatsInDetailView
+// Il2CppName: get_showPlayerStatsInDetailView
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::get_showPlayerStatsInDetailView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "get_showPlayerStatsInDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate
+// Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(bool, bool)>(&NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
+// Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(bool)>(&NetEaseArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish
+// Il2CppName: ProcessLevelCompletionResultsAfterLevelDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&NetEaseArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), "ProcessLevelCompletionResultsAfterLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetEaseArcadeFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseArcadeFlowCoordinator::*)()>(&NetEaseArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEaseArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

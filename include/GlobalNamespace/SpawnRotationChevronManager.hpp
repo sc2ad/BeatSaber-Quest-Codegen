@@ -211,67 +211,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SpawnRotationChevronManager), 140 + sizeof(float)> __GlobalNamespace_SpawnRotationChevronManagerSizeCheck;
   static_assert(sizeof(SpawnRotationChevronManager) == 0x90);
-  // Writing MetadataGetter for method: SpawnRotationChevronManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationChevronManager::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationChevronManager::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationChevronManager::HandleBeatmapObjectCallback
-  // Il2CppName: HandleBeatmapObjectCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)(GlobalNamespace::BeatmapObjectData*)>(&SpawnRotationChevronManager::HandleBeatmapObjectCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "HandleBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationChevronManager::HandleBeatmapEventCallback
-  // Il2CppName: HandleBeatmapEventCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)(GlobalNamespace::BeatmapEventData*)>(&SpawnRotationChevronManager::HandleBeatmapEventCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "HandleBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationChevronManager::HandleBeatmapObjectSpawnControllerDidInit
-  // Il2CppName: HandleBeatmapObjectSpawnControllerDidInit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::HandleBeatmapObjectSpawnControllerDidInit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "HandleBeatmapObjectSpawnControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationChevronManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager*, "", "SpawnRotationChevronManager");
+// Writing MetadataGetter for method: SpawnRotationChevronManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationChevronManager::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationChevronManager::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationChevronManager::HandleBeatmapObjectCallback
+// Il2CppName: HandleBeatmapObjectCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)(GlobalNamespace::BeatmapObjectData*)>(&SpawnRotationChevronManager::HandleBeatmapObjectCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "HandleBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationChevronManager::HandleBeatmapEventCallback
+// Il2CppName: HandleBeatmapEventCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)(GlobalNamespace::BeatmapEventData*)>(&SpawnRotationChevronManager::HandleBeatmapEventCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "HandleBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationChevronManager::HandleBeatmapObjectSpawnControllerDidInit
+// Il2CppName: HandleBeatmapObjectSpawnControllerDidInit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::HandleBeatmapObjectSpawnControllerDidInit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), "HandleBeatmapObjectSpawnControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationChevronManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevronManager::*)()>(&SpawnRotationChevronManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevronManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

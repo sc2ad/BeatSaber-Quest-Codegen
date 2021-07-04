@@ -60,35 +60,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEventEffect::StartTextPosition), 24 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BTSStarTextEventEffect_StartTextPositionSizeCheck;
   static_assert(sizeof(BTSStarTextEventEffect::StartTextPosition) == 0x20);
-  // Writing MetadataGetter for method: BTSStarTextEventEffect::StartTextPosition::get_id
-  // Il2CppName: get_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::get_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSStarTextEventEffect::StartTextPosition::get_transform
-  // Il2CppName: get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSStarTextEventEffect::StartTextPosition::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*, "", "BTSStarTextEventEffect/StartTextPosition");
+// Writing MetadataGetter for method: BTSStarTextEventEffect::StartTextPosition::get_id
+// Il2CppName: get_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSStarTextEventEffect::StartTextPosition::get_transform
+// Il2CppName: get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSStarTextEventEffect::StartTextPosition::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::StartTextPosition::*)()>(&BTSStarTextEventEffect::StartTextPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StartTextPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

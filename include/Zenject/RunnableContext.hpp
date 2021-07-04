@@ -93,70 +93,70 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(RunnableContext), 65 + sizeof(bool)> __Zenject_RunnableContextSizeCheck;
   static_assert(sizeof(RunnableContext) == 0x42);
-  // Writing MetadataGetter for method: RunnableContext::get_Initialized
-  // Il2CppName: get_Initialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RunnableContext::*)()>(&RunnableContext::get_Initialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "get_Initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RunnableContext::set_Initialized
-  // Il2CppName: set_Initialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)(bool)>(&RunnableContext::set_Initialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "set_Initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RunnableContext::Initialize
-  // Il2CppName: Initialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::Initialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RunnableContext::Run
-  // Il2CppName: Run
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::Run)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RunnableContext::RunInternal
-  // Il2CppName: RunInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::RunInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "RunInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RunnableContext::CreateComponent
-  // Il2CppName: CreateComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: RunnableContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RunnableContext::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RunnableContext::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RunnableContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext*, "Zenject", "RunnableContext");
+// Writing MetadataGetter for method: RunnableContext::get_Initialized
+// Il2CppName: get_Initialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RunnableContext::*)()>(&RunnableContext::get_Initialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "get_Initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RunnableContext::set_Initialized
+// Il2CppName: set_Initialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)(bool)>(&RunnableContext::set_Initialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "set_Initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RunnableContext::Initialize
+// Il2CppName: Initialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RunnableContext::Run
+// Il2CppName: Run
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::Run)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RunnableContext::RunInternal
+// Il2CppName: RunInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::RunInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), "RunInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RunnableContext::CreateComponent
+// Il2CppName: CreateComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: RunnableContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RunnableContext::*)()>(&RunnableContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RunnableContext::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RunnableContext::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RunnableContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -49,30 +49,30 @@ namespace OnlineServices::API {
     void LogoutAsync();
   }; // OnlineServices.API.IApiLeaderboardsModel
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IApiLeaderboardsModel::GetLeaderboardEntriesAsync
-  // Il2CppName: GetLeaderboardEntriesAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* (IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, System::Threading::CancellationToken)>(&IApiLeaderboardsModel::GetLeaderboardEntriesAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IApiLeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<BeatSaberAPI::DataTransferObjects::LeaderboardQuery*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: IApiLeaderboardsModel::SendLevelScoreResultAsync
-  // Il2CppName: SendLevelScoreResultAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::Response>* (IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, System::Threading::CancellationToken)>(&IApiLeaderboardsModel::SendLevelScoreResultAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IApiLeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<BeatSaberAPI::DataTransferObjects::LevelScoreResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: IApiLeaderboardsModel::LogoutAsync
-  // Il2CppName: LogoutAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IApiLeaderboardsModel::*)()>(&IApiLeaderboardsModel::LogoutAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IApiLeaderboardsModel*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IApiLeaderboardsModel*, "OnlineServices.API", "IApiLeaderboardsModel");
+// Writing MetadataGetter for method: IApiLeaderboardsModel::GetLeaderboardEntriesAsync
+// Il2CppName: GetLeaderboardEntriesAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* (IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, System::Threading::CancellationToken)>(&IApiLeaderboardsModel::GetLeaderboardEntriesAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IApiLeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<BeatSaberAPI::DataTransferObjects::LeaderboardQuery*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: IApiLeaderboardsModel::SendLevelScoreResultAsync
+// Il2CppName: SendLevelScoreResultAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::Response>* (IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, System::Threading::CancellationToken)>(&IApiLeaderboardsModel::SendLevelScoreResultAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IApiLeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<BeatSaberAPI::DataTransferObjects::LevelScoreResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: IApiLeaderboardsModel::LogoutAsync
+// Il2CppName: LogoutAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IApiLeaderboardsModel::*)()>(&IApiLeaderboardsModel::LogoutAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IApiLeaderboardsModel*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

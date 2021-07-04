@@ -48,35 +48,35 @@ namespace BeatSaberAPI::DataTransferObjects {
   #pragma pack(pop)
   static check_size<sizeof(ResultProof), 16 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_ResultProofSizeCheck;
   static_assert(sizeof(ResultProof) == 0x18);
-  // Writing MetadataGetter for method: ResultProof::get_proof
-  // Il2CppName: get_proof
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResultProof::*)()>(&ResultProof::get_proof)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultProof*), "get_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResultProof::set_proof
-  // Il2CppName: set_proof
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultProof::*)(::Il2CppString*)>(&ResultProof::set_proof)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultProof*), "set_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultProof::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultProof::*)()>(&ResultProof::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultProof*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultProof::*)()>(&ResultProof::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultProof*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
+// Writing MetadataGetter for method: ResultProof::get_proof
+// Il2CppName: get_proof
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResultProof::*)()>(&ResultProof::get_proof)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultProof*), "get_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResultProof::set_proof
+// Il2CppName: set_proof
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultProof::*)(::Il2CppString*)>(&ResultProof::set_proof)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultProof*), "set_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ResultProof::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultProof::*)()>(&ResultProof::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultProof*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultProof::*)()>(&ResultProof::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultProof*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

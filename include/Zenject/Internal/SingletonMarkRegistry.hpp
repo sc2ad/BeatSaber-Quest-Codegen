@@ -63,35 +63,35 @@ namespace Zenject::Internal {
   #pragma pack(pop)
   static check_size<sizeof(SingletonMarkRegistry), 24 + sizeof(System::Collections::Generic::HashSet_1<System::Type*>*)> __Zenject_Internal_SingletonMarkRegistrySizeCheck;
   static_assert(sizeof(SingletonMarkRegistry) == 0x20);
-  // Writing MetadataGetter for method: SingletonMarkRegistry::MarkNonSingleton
-  // Il2CppName: MarkNonSingleton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)(System::Type*)>(&SingletonMarkRegistry::MarkNonSingleton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), "MarkNonSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SingletonMarkRegistry::MarkSingleton
-  // Il2CppName: MarkSingleton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)(System::Type*)>(&SingletonMarkRegistry::MarkSingleton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), "MarkSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SingletonMarkRegistry::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)()>(&SingletonMarkRegistry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)()>(&SingletonMarkRegistry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::SingletonMarkRegistry*, "Zenject.Internal", "SingletonMarkRegistry");
+// Writing MetadataGetter for method: SingletonMarkRegistry::MarkNonSingleton
+// Il2CppName: MarkNonSingleton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)(System::Type*)>(&SingletonMarkRegistry::MarkNonSingleton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), "MarkNonSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: SingletonMarkRegistry::MarkSingleton
+// Il2CppName: MarkSingleton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)(System::Type*)>(&SingletonMarkRegistry::MarkSingleton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), "MarkSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: SingletonMarkRegistry::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)()>(&SingletonMarkRegistry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SingletonMarkRegistry::*)()>(&SingletonMarkRegistry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SingletonMarkRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

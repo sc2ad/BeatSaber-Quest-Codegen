@@ -68,43 +68,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CreditsData::RootCreditsItem), 40 + sizeof(::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>*)> __GlobalNamespace_CreditsData_RootCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::RootCreditsItem) == 0x30);
-  // Writing MetadataGetter for method: CreditsData::RootCreditsItem::HasTitle
-  // Il2CppName: HasTitle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::HasTitle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), "HasTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsData::RootCreditsItem::HasText
-  // Il2CppName: HasText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::HasText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsData::RootCreditsItem::HasRowItems
-  // Il2CppName: HasRowItems
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::HasRowItems)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), "HasRowItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsData::RootCreditsItem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::RootCreditsItem*, "", "CreditsData/RootCreditsItem");
+// Writing MetadataGetter for method: CreditsData::RootCreditsItem::HasTitle
+// Il2CppName: HasTitle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::HasTitle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), "HasTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsData::RootCreditsItem::HasText
+// Il2CppName: HasText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::HasText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsData::RootCreditsItem::HasRowItems
+// Il2CppName: HasRowItems
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::HasRowItems)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), "HasRowItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsData::RootCreditsItem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::RootCreditsItem::*)()>(&CreditsData::RootCreditsItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::RootCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

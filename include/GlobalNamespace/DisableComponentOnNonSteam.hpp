@@ -48,27 +48,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DisableComponentOnNonSteam), 24 + sizeof(UnityEngine::MonoBehaviour*)> __GlobalNamespace_DisableComponentOnNonSteamSizeCheck;
   static_assert(sizeof(DisableComponentOnNonSteam) == 0x20);
-  // Writing MetadataGetter for method: DisableComponentOnNonSteam::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableComponentOnNonSteam::*)()>(&DisableComponentOnNonSteam::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisableComponentOnNonSteam*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DisableComponentOnNonSteam::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableComponentOnNonSteam::*)()>(&DisableComponentOnNonSteam::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisableComponentOnNonSteam*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableComponentOnNonSteam::*)()>(&DisableComponentOnNonSteam::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisableComponentOnNonSteam*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam*, "", "DisableComponentOnNonSteam");
+// Writing MetadataGetter for method: DisableComponentOnNonSteam::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableComponentOnNonSteam::*)()>(&DisableComponentOnNonSteam::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableComponentOnNonSteam*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisableComponentOnNonSteam::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableComponentOnNonSteam::*)()>(&DisableComponentOnNonSteam::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableComponentOnNonSteam*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableComponentOnNonSteam::*)()>(&DisableComponentOnNonSteam::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableComponentOnNonSteam*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -113,83 +113,83 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     }
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: UVEditing::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UVEditing::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::$SetAutoUV$b__0_0
-  // Il2CppName: <SetAutoUV>b__0_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$SetAutoUV$b__0_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<SetAutoUV>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::$GetUVs$b__11_0
-  // Il2CppName: <GetUVs>b__11_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UVEditing::$$c::*)(UnityEngine::Vector4)>(&UVEditing::$$c::$GetUVs$b__11_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<GetUVs>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::$SewUVs$b__13_1
-  // Il2CppName: <SewUVs>b__13_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UVEditing::$$c::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UVEditing::$$c::$SewUVs$b__13_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<SewUVs>b__13_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesAuto$b__17_0
-  // Il2CppName: <ProjectFacesAuto>b__17_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesAuto$b__17_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesAuto>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesAuto$b__17_1
-  // Il2CppName: <ProjectFacesAuto>b__17_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesAuto$b__17_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesAuto>b__17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesBox$b__18_0
-  // Il2CppName: <ProjectFacesBox>b__18_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesBox$b__18_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesBox>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesBox$b__20_0
-  // Il2CppName: <ProjectFacesBox>b__20_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesBox$b__20_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesBox>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UVEditing::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UVEditing::$$c::*)()>(&UVEditing::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UVEditing::$$c::*)()>(&UVEditing::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c");
+// Writing MetadataGetter for method: UVEditing::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UVEditing::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::$SetAutoUV$b__0_0
+// Il2CppName: <SetAutoUV>b__0_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$SetAutoUV$b__0_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<SetAutoUV>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::$GetUVs$b__11_0
+// Il2CppName: <GetUVs>b__11_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UVEditing::$$c::*)(UnityEngine::Vector4)>(&UVEditing::$$c::$GetUVs$b__11_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<GetUVs>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::$SewUVs$b__13_1
+// Il2CppName: <SewUVs>b__13_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UVEditing::$$c::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UVEditing::$$c::$SewUVs$b__13_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<SewUVs>b__13_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesAuto$b__17_0
+// Il2CppName: <ProjectFacesAuto>b__17_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesAuto$b__17_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesAuto>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesAuto$b__17_1
+// Il2CppName: <ProjectFacesAuto>b__17_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesAuto$b__17_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesAuto>b__17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesBox$b__18_0
+// Il2CppName: <ProjectFacesBox>b__18_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesBox$b__18_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesBox>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::$ProjectFacesBox$b__20_0
+// Il2CppName: <ProjectFacesBox>b__20_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UVEditing::$$c::$ProjectFacesBox$b__20_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), "<ProjectFacesBox>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: UVEditing::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UVEditing::$$c::*)()>(&UVEditing::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UVEditing::$$c::*)()>(&UVEditing::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UVEditing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

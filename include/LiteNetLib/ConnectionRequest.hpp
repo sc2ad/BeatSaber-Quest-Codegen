@@ -148,139 +148,139 @@ namespace LiteNetLib {
   #pragma pack(pop)
   static check_size<sizeof(ConnectionRequest), 64 + sizeof(System::Net::IPEndPoint*)> __LiteNetLib_ConnectionRequestSizeCheck;
   static_assert(sizeof(ConnectionRequest) == 0x48);
-  // Writing MetadataGetter for method: ConnectionRequest::get_Result
-  // Il2CppName: get_Result
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::ConnectionRequestResult (ConnectionRequest::*)()>(&ConnectionRequest::get_Result)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::set_Result
-  // Il2CppName: set_Result
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::ConnectionRequestResult)>(&ConnectionRequest::set_Result)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequestResult>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::TryActivate
-  // Il2CppName: TryActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConnectionRequest::*)()>(&ConnectionRequest::TryActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "TryActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::UpdateRequest
-  // Il2CppName: UpdateRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::NetConnectRequestPacket*)>(&ConnectionRequest::UpdateRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "UpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetConnectRequestPacket*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(int64_t, uint8_t, LiteNetLib::Utils::NetDataReader*, System::Net::IPEndPoint*, LiteNetLib::NetManager*)>(&ConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(int64_t, uint8_t, LiteNetLib::Utils::NetDataReader*, System::Net::IPEndPoint*, LiteNetLib::NetManager*)>(&ConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::AcceptIfKey
-  // Il2CppName: AcceptIfKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (ConnectionRequest::*)(::Il2CppString*)>(&ConnectionRequest::AcceptIfKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "AcceptIfKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::Accept
-  // Il2CppName: Accept
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (ConnectionRequest::*)()>(&ConnectionRequest::Accept)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::Reject
-  // Il2CppName: Reject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*, int, int, bool)>(&ConnectionRequest::Reject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::Reject
-  // Il2CppName: Reject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*, int, int)>(&ConnectionRequest::Reject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::RejectForce
-  // Il2CppName: RejectForce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*, int, int)>(&ConnectionRequest::RejectForce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::RejectForce
-  // Il2CppName: RejectForce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)()>(&ConnectionRequest::RejectForce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::RejectForce
-  // Il2CppName: RejectForce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*)>(&ConnectionRequest::RejectForce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::RejectForce
-  // Il2CppName: RejectForce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectionRequest::RejectForce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::Reject
-  // Il2CppName: Reject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)()>(&ConnectionRequest::Reject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::Reject
-  // Il2CppName: Reject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*)>(&ConnectionRequest::Reject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectionRequest::Reject
-  // Il2CppName: Reject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectionRequest::Reject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");
+// Writing MetadataGetter for method: ConnectionRequest::get_Result
+// Il2CppName: get_Result
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::ConnectionRequestResult (ConnectionRequest::*)()>(&ConnectionRequest::get_Result)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::set_Result
+// Il2CppName: set_Result
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::ConnectionRequestResult)>(&ConnectionRequest::set_Result)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequestResult>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::TryActivate
+// Il2CppName: TryActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConnectionRequest::*)()>(&ConnectionRequest::TryActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "TryActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::UpdateRequest
+// Il2CppName: UpdateRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::NetConnectRequestPacket*)>(&ConnectionRequest::UpdateRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "UpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetConnectRequestPacket*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(int64_t, uint8_t, LiteNetLib::Utils::NetDataReader*, System::Net::IPEndPoint*, LiteNetLib::NetManager*)>(&ConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(int64_t, uint8_t, LiteNetLib::Utils::NetDataReader*, System::Net::IPEndPoint*, LiteNetLib::NetManager*)>(&ConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::AcceptIfKey
+// Il2CppName: AcceptIfKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (ConnectionRequest::*)(::Il2CppString*)>(&ConnectionRequest::AcceptIfKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "AcceptIfKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::Accept
+// Il2CppName: Accept
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (ConnectionRequest::*)()>(&ConnectionRequest::Accept)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::Reject
+// Il2CppName: Reject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*, int, int, bool)>(&ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::Reject
+// Il2CppName: Reject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*, int, int)>(&ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::RejectForce
+// Il2CppName: RejectForce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*, int, int)>(&ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::RejectForce
+// Il2CppName: RejectForce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)()>(&ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::RejectForce
+// Il2CppName: RejectForce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*)>(&ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::RejectForce
+// Il2CppName: RejectForce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::Reject
+// Il2CppName: Reject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)()>(&ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::Reject
+// Il2CppName: Reject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(::Array<uint8_t>*)>(&ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectionRequest::Reject
+// Il2CppName: Reject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};

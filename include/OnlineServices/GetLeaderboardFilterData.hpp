@@ -77,19 +77,19 @@ namespace OnlineServices {
   #pragma pack(pop)
   static check_size<sizeof(GetLeaderboardFilterData), 24 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_GetLeaderboardFilterDataSizeCheck;
   static_assert(sizeof(GetLeaderboardFilterData) == 0x20);
-  // Writing MetadataGetter for method: GetLeaderboardFilterData::GetLeaderboardFilterData
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetLeaderboardFilterData::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, OnlineServices::ScoresScope, GlobalNamespace::GameplayModifiers*)>(&GetLeaderboardFilterData::GetLeaderboardFilterData<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GetLeaderboardFilterData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OnlineServices::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetLeaderboardFilterData::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, OnlineServices::ScoresScope, GlobalNamespace::GameplayModifiers*)>(&GetLeaderboardFilterData::GetLeaderboardFilterData<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GetLeaderboardFilterData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OnlineServices::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardFilterData, "OnlineServices", "GetLeaderboardFilterData");
+// Writing MetadataGetter for method: GetLeaderboardFilterData::GetLeaderboardFilterData
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetLeaderboardFilterData::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, OnlineServices::ScoresScope, GlobalNamespace::GameplayModifiers*)>(&GetLeaderboardFilterData::GetLeaderboardFilterData<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GetLeaderboardFilterData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OnlineServices::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetLeaderboardFilterData::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, OnlineServices::ScoresScope, GlobalNamespace::GameplayModifiers*)>(&GetLeaderboardFilterData::GetLeaderboardFilterData<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GetLeaderboardFilterData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OnlineServices::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};

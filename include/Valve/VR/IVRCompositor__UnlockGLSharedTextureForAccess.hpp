@@ -50,43 +50,43 @@ namespace Valve::VR {
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_UnlockGLSharedTextureForAccess
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(System::IntPtr)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(System::IAsyncResult*)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess*, "Valve.VR", "IVRCompositor/_UnlockGLSharedTextureForAccess");
+// Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(System::IntPtr)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRCompositor::_UnlockGLSharedTextureForAccess::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_UnlockGLSharedTextureForAccess::*)(System::IAsyncResult*)>(&IVRCompositor::_UnlockGLSharedTextureForAccess::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_UnlockGLSharedTextureForAccess*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

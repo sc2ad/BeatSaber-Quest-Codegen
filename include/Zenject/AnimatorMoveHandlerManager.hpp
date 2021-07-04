@@ -64,35 +64,35 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(AnimatorMoveHandlerManager), 24 + sizeof(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>*)> __Zenject_AnimatorMoveHandlerManagerSizeCheck;
   static_assert(sizeof(AnimatorMoveHandlerManager) == 0x20);
-  // Writing MetadataGetter for method: AnimatorMoveHandlerManager::Construct
-  // Il2CppName: Construct
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>*)>(&AnimatorMoveHandlerManager::Construct)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimatorMoveHandlerManager::OnAnimatorMove
-  // Il2CppName: OnAnimatorMove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)()>(&AnimatorMoveHandlerManager::OnAnimatorMove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), "OnAnimatorMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimatorMoveHandlerManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)()>(&AnimatorMoveHandlerManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)()>(&AnimatorMoveHandlerManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorMoveHandlerManager*, "Zenject", "AnimatorMoveHandlerManager");
+// Writing MetadataGetter for method: AnimatorMoveHandlerManager::Construct
+// Il2CppName: Construct
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>*)>(&AnimatorMoveHandlerManager::Construct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimatorMoveHandlerManager::OnAnimatorMove
+// Il2CppName: OnAnimatorMove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)()>(&AnimatorMoveHandlerManager::OnAnimatorMove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), "OnAnimatorMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimatorMoveHandlerManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)()>(&AnimatorMoveHandlerManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorMoveHandlerManager::*)()>(&AnimatorMoveHandlerManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorMoveHandlerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

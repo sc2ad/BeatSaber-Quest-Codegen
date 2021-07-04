@@ -81,27 +81,27 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
   static check_size<sizeof(Task::$$c__DisplayClass178_0), 44 + sizeof(System::Threading::Tasks::InternalTaskOptions)> __System_Threading_Tasks_Task_$$c__DisplayClass178_0SizeCheck;
   static_assert(sizeof(Task::$$c__DisplayClass178_0) == 0x30);
-  // Writing MetadataGetter for method: Task::$$c__DisplayClass178_0::$ExecuteSelfReplicating$b__0
-  // Il2CppName: <ExecuteSelfReplicating>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::$$c__DisplayClass178_0::*)(::Il2CppObject*)>(&Task::$$c__DisplayClass178_0::$ExecuteSelfReplicating$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::$$c__DisplayClass178_0*), "<ExecuteSelfReplicating>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Task::$$c__DisplayClass178_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::$$c__DisplayClass178_0::*)()>(&Task::$$c__DisplayClass178_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::$$c__DisplayClass178_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::$$c__DisplayClass178_0::*)()>(&Task::$$c__DisplayClass178_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::$$c__DisplayClass178_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c__DisplayClass178_0*, "System.Threading.Tasks", "Task/<>c__DisplayClass178_0");
+// Writing MetadataGetter for method: Task::$$c__DisplayClass178_0::$ExecuteSelfReplicating$b__0
+// Il2CppName: <ExecuteSelfReplicating>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::$$c__DisplayClass178_0::*)(::Il2CppObject*)>(&Task::$$c__DisplayClass178_0::$ExecuteSelfReplicating$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::$$c__DisplayClass178_0*), "<ExecuteSelfReplicating>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Task::$$c__DisplayClass178_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::$$c__DisplayClass178_0::*)()>(&Task::$$c__DisplayClass178_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::$$c__DisplayClass178_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::$$c__DisplayClass178_0::*)()>(&Task::$$c__DisplayClass178_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::$$c__DisplayClass178_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

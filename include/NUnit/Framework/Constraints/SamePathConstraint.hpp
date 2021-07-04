@@ -42,35 +42,35 @@ namespace NUnit::Framework::Constraints {
     bool Matches(::Il2CppString* actual);
   }; // NUnit.Framework.Constraints.SamePathConstraint
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SamePathConstraint::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SamePathConstraint::*)(::Il2CppString*)>(&SamePathConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SamePathConstraint::*)(::Il2CppString*)>(&SamePathConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SamePathConstraint::get_Description
-  // Il2CppName: get_Description
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SamePathConstraint::*)()>(&SamePathConstraint::get_Description)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SamePathConstraint::Matches
-  // Il2CppName: Matches
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SamePathConstraint::*)(::Il2CppString*)>(&SamePathConstraint::Matches)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), "Matches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SamePathConstraint*, "NUnit.Framework.Constraints", "SamePathConstraint");
+// Writing MetadataGetter for method: SamePathConstraint::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SamePathConstraint::*)(::Il2CppString*)>(&SamePathConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SamePathConstraint::*)(::Il2CppString*)>(&SamePathConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SamePathConstraint::get_Description
+// Il2CppName: get_Description
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SamePathConstraint::*)()>(&SamePathConstraint::get_Description)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SamePathConstraint::Matches
+// Il2CppName: Matches
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SamePathConstraint::*)(::Il2CppString*)>(&SamePathConstraint::Matches)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SamePathConstraint*), "Matches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

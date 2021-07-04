@@ -20,14 +20,14 @@ namespace GlobalNamespace {
     static ::Il2CppString* Roman(int number);
   }; // IntToRoman
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IntToRoman::Roman
-  // Il2CppName: Roman
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&IntToRoman::Roman)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IntToRoman*), "Roman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntToRoman*, "", "IntToRoman");
+// Writing MetadataGetter for method: IntToRoman::Roman
+// Il2CppName: Roman
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&IntToRoman::Roman)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IntToRoman*), "Roman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

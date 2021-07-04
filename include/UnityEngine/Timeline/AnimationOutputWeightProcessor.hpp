@@ -120,44 +120,44 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(AnimationOutputWeightProcessor), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*)> __UnityEngine_Timeline_AnimationOutputWeightProcessorSizeCheck;
   static_assert(sizeof(AnimationOutputWeightProcessor) == 0x38);
-  // Writing MetadataGetter for method: AnimationOutputWeightProcessor::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationOutputWeightProcessor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationOutputWeightProcessor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationOutputWeightProcessor::FindMixers
-  // Il2CppName: FindMixers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)()>(&AnimationOutputWeightProcessor::FindMixers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), "FindMixers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationOutputWeightProcessor::FindMixers
-  // Il2CppName: FindMixers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)(UnityEngine::Playables::Playable, int, UnityEngine::Playables::Playable)>(&AnimationOutputWeightProcessor::FindMixers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), "FindMixers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationOutputWeightProcessor::Evaluate
-  // Il2CppName: Evaluate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)()>(&AnimationOutputWeightProcessor::Evaluate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor*, "UnityEngine.Timeline", "AnimationOutputWeightProcessor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo, "UnityEngine.Timeline", "AnimationOutputWeightProcessor/WeightInfo");
+// Writing MetadataGetter for method: AnimationOutputWeightProcessor::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationOutputWeightProcessor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationOutputWeightProcessor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationOutputWeightProcessor::FindMixers
+// Il2CppName: FindMixers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)()>(&AnimationOutputWeightProcessor::FindMixers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), "FindMixers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationOutputWeightProcessor::FindMixers
+// Il2CppName: FindMixers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)(UnityEngine::Playables::Playable, int, UnityEngine::Playables::Playable)>(&AnimationOutputWeightProcessor::FindMixers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), "FindMixers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationOutputWeightProcessor::Evaluate
+// Il2CppName: Evaluate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOutputWeightProcessor::*)()>(&AnimationOutputWeightProcessor::Evaluate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationOutputWeightProcessor*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

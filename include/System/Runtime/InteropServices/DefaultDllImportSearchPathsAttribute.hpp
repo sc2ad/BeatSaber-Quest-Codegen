@@ -45,19 +45,19 @@ namespace System::Runtime::InteropServices {
   #pragma pack(pop)
   static check_size<sizeof(DefaultDllImportSearchPathsAttribute), 16 + sizeof(System::Runtime::InteropServices::DllImportSearchPath)> __System_Runtime_InteropServices_DefaultDllImportSearchPathsAttributeSizeCheck;
   static_assert(sizeof(DefaultDllImportSearchPathsAttribute) == 0x14);
-  // Writing MetadataGetter for method: DefaultDllImportSearchPathsAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultDllImportSearchPathsAttribute::*)(System::Runtime::InteropServices::DllImportSearchPath)>(&DefaultDllImportSearchPathsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultDllImportSearchPathsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::DllImportSearchPath>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultDllImportSearchPathsAttribute::*)(System::Runtime::InteropServices::DllImportSearchPath)>(&DefaultDllImportSearchPathsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultDllImportSearchPathsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::DllImportSearchPath>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");
+// Writing MetadataGetter for method: DefaultDllImportSearchPathsAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultDllImportSearchPathsAttribute::*)(System::Runtime::InteropServices::DllImportSearchPath)>(&DefaultDllImportSearchPathsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultDllImportSearchPathsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::DllImportSearchPath>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultDllImportSearchPathsAttribute::*)(System::Runtime::InteropServices::DllImportSearchPath)>(&DefaultDllImportSearchPathsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultDllImportSearchPathsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::DllImportSearchPath>()});
+  }
+};

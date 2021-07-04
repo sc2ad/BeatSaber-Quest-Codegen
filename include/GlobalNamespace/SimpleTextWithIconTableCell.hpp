@@ -76,51 +76,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SimpleTextWithIconTableCell), 88 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_SimpleTextWithIconTableCellSizeCheck;
   static_assert(sizeof(SimpleTextWithIconTableCell) == 0x60);
-  // Writing MetadataGetter for method: SimpleTextWithIconTableCell::set_icon
-  // Il2CppName: set_icon
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)(UnityEngine::UI::Image*)>(&SimpleTextWithIconTableCell::set_icon)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleTextWithIconTableCell::get_icon
-  // Il2CppName: get_icon
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::get_icon)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "get_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleTextWithIconTableCell::set_text
-  // Il2CppName: set_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)(::Il2CppString*)>(&SimpleTextWithIconTableCell::set_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleTextWithIconTableCell::get_text
-  // Il2CppName: get_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::get_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleTextWithIconTableCell::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextWithIconTableCell*, "", "SimpleTextWithIconTableCell");
+// Writing MetadataGetter for method: SimpleTextWithIconTableCell::set_icon
+// Il2CppName: set_icon
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)(UnityEngine::UI::Image*)>(&SimpleTextWithIconTableCell::set_icon)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleTextWithIconTableCell::get_icon
+// Il2CppName: get_icon
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::get_icon)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "get_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SimpleTextWithIconTableCell::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)(::Il2CppString*)>(&SimpleTextWithIconTableCell::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleTextWithIconTableCell::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SimpleTextWithIconTableCell::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextWithIconTableCell::*)()>(&SimpleTextWithIconTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTextWithIconTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

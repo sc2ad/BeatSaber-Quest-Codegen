@@ -41,19 +41,19 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(RSAPKCS1SignatureDescription), 48 + sizeof(::Il2CppString*)> __System_Security_Cryptography_RSAPKCS1SignatureDescriptionSizeCheck;
   static_assert(sizeof(RSAPKCS1SignatureDescription) == 0x38);
-  // Writing MetadataGetter for method: RSAPKCS1SignatureDescription::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SignatureDescription::*)(::Il2CppString*, ::Il2CppString*)>(&RSAPKCS1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SignatureDescription::*)(::Il2CppString*, ::Il2CppString*)>(&RSAPKCS1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SignatureDescription");
+// Writing MetadataGetter for method: RSAPKCS1SignatureDescription::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SignatureDescription::*)(::Il2CppString*, ::Il2CppString*)>(&RSAPKCS1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAPKCS1SignatureDescription::*)(::Il2CppString*, ::Il2CppString*)>(&RSAPKCS1SignatureDescription::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RSAPKCS1SignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

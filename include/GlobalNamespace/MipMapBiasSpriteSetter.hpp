@@ -61,27 +61,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MipMapBiasSpriteSetter), 32 + sizeof(float)> __GlobalNamespace_MipMapBiasSpriteSetterSizeCheck;
   static_assert(sizeof(MipMapBiasSpriteSetter) == 0x24);
-  // Writing MetadataGetter for method: MipMapBiasSpriteSetter::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MipMapBiasSpriteSetter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MipMapBiasSpriteSetter*, "", "MipMapBiasSpriteSetter");
+// Writing MetadataGetter for method: MipMapBiasSpriteSetter::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MipMapBiasSpriteSetter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

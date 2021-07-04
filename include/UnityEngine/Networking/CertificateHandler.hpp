@@ -44,38 +44,38 @@ namespace UnityEngine::Networking {
   #pragma pack(pop)
   static check_size<sizeof(CertificateHandler), 16 + sizeof(System::IntPtr)> __UnityEngine_Networking_CertificateHandlerSizeCheck;
   static_assert(sizeof(CertificateHandler) == 0x18);
-  // Writing MetadataGetter for method: CertificateHandler::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateHandler::ValidateCertificate
-  // Il2CppName: ValidateCertificate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateHandler::ValidateCertificateNative
-  // Il2CppName: ValidateCertificateNative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificateNative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CertificateHandler::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
+// Writing MetadataGetter for method: CertificateHandler::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CertificateHandler::ValidateCertificate
+// Il2CppName: ValidateCertificate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CertificateHandler::ValidateCertificateNative
+// Il2CppName: ValidateCertificateNative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificateNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CertificateHandler::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

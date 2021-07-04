@@ -178,163 +178,163 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(SemaphoreSlim), 56 + sizeof(System::Threading::SemaphoreSlim::TaskNode*)> __System_Threading_SemaphoreSlimSizeCheck;
   static_assert(sizeof(SemaphoreSlim) == 0x40);
-  // Writing MetadataGetter for method: SemaphoreSlim::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)(int, int)>(&SemaphoreSlim::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)(int, int)>(&SemaphoreSlim::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::Wait
-  // Il2CppName: Wait
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)()>(&SemaphoreSlim::Wait)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::Wait
-  // Il2CppName: Wait
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&SemaphoreSlim::Wait)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::WaitUntilCountOrTimeout
-  // Il2CppName: WaitUntilCountOrTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SemaphoreSlim::*)(int, uint, System::Threading::CancellationToken)>(&SemaphoreSlim::WaitUntilCountOrTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitUntilCountOrTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::WaitAsync
-  // Il2CppName: WaitAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (SemaphoreSlim::*)()>(&SemaphoreSlim::WaitAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::WaitAsync
-  // Il2CppName: WaitAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (SemaphoreSlim::*)(System::Threading::CancellationToken)>(&SemaphoreSlim::WaitAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::WaitAsync
-  // Il2CppName: WaitAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&SemaphoreSlim::WaitAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::CreateAndAddAsyncWaiter
-  // Il2CppName: CreateAndAddAsyncWaiter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim::TaskNode* (SemaphoreSlim::*)()>(&SemaphoreSlim::CreateAndAddAsyncWaiter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "CreateAndAddAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::RemoveAsyncWaiter
-  // Il2CppName: RemoveAsyncWaiter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*)>(&SemaphoreSlim::RemoveAsyncWaiter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "RemoveAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim::TaskNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::WaitUntilCountOrTimeoutAsync
-  // Il2CppName: WaitUntilCountOrTimeoutAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*, int, System::Threading::CancellationToken)>(&SemaphoreSlim::WaitUntilCountOrTimeoutAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitUntilCountOrTimeoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim::TaskNode*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SemaphoreSlim::*)()>(&SemaphoreSlim::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SemaphoreSlim::*)(int)>(&SemaphoreSlim::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::QueueWaiterTask
-  // Il2CppName: QueueWaiterTask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::SemaphoreSlim::TaskNode*)>(&SemaphoreSlim::QueueWaiterTask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "QueueWaiterTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim::TaskNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)()>(&SemaphoreSlim::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)(bool)>(&SemaphoreSlim::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::CancellationTokenCanceledEventHandler
-  // Il2CppName: CancellationTokenCanceledEventHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&SemaphoreSlim::CancellationTokenCanceledEventHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "CancellationTokenCanceledEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::CheckDispose
-  // Il2CppName: CheckDispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)()>(&SemaphoreSlim::CheckDispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "CheckDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::GetResourceString
-  // Il2CppName: GetResourceString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&SemaphoreSlim::GetResourceString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "GetResourceString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SemaphoreSlim::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SemaphoreSlim::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");
+// Writing MetadataGetter for method: SemaphoreSlim::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)(int, int)>(&SemaphoreSlim::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)(int, int)>(&SemaphoreSlim::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::Wait
+// Il2CppName: Wait
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)()>(&SemaphoreSlim::Wait)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::Wait
+// Il2CppName: Wait
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&SemaphoreSlim::Wait)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::WaitUntilCountOrTimeout
+// Il2CppName: WaitUntilCountOrTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SemaphoreSlim::*)(int, uint, System::Threading::CancellationToken)>(&SemaphoreSlim::WaitUntilCountOrTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitUntilCountOrTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::WaitAsync
+// Il2CppName: WaitAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (SemaphoreSlim::*)()>(&SemaphoreSlim::WaitAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::WaitAsync
+// Il2CppName: WaitAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (SemaphoreSlim::*)(System::Threading::CancellationToken)>(&SemaphoreSlim::WaitAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::WaitAsync
+// Il2CppName: WaitAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&SemaphoreSlim::WaitAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::CreateAndAddAsyncWaiter
+// Il2CppName: CreateAndAddAsyncWaiter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim::TaskNode* (SemaphoreSlim::*)()>(&SemaphoreSlim::CreateAndAddAsyncWaiter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "CreateAndAddAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::RemoveAsyncWaiter
+// Il2CppName: RemoveAsyncWaiter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*)>(&SemaphoreSlim::RemoveAsyncWaiter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "RemoveAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim::TaskNode*>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::WaitUntilCountOrTimeoutAsync
+// Il2CppName: WaitUntilCountOrTimeoutAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*, int, System::Threading::CancellationToken)>(&SemaphoreSlim::WaitUntilCountOrTimeoutAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "WaitUntilCountOrTimeoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim::TaskNode*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SemaphoreSlim::*)()>(&SemaphoreSlim::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SemaphoreSlim::*)(int)>(&SemaphoreSlim::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::QueueWaiterTask
+// Il2CppName: QueueWaiterTask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::SemaphoreSlim::TaskNode*)>(&SemaphoreSlim::QueueWaiterTask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "QueueWaiterTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim::TaskNode*>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)()>(&SemaphoreSlim::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)(bool)>(&SemaphoreSlim::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::CancellationTokenCanceledEventHandler
+// Il2CppName: CancellationTokenCanceledEventHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&SemaphoreSlim::CancellationTokenCanceledEventHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "CancellationTokenCanceledEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::CheckDispose
+// Il2CppName: CheckDispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::*)()>(&SemaphoreSlim::CheckDispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "CheckDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::GetResourceString
+// Il2CppName: GetResourceString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&SemaphoreSlim::GetResourceString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), "GetResourceString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SemaphoreSlim::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SemaphoreSlim::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

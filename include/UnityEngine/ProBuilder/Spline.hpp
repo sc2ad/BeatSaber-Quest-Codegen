@@ -52,54 +52,54 @@ namespace UnityEngine::ProBuilder {
     static ::Array<UnityEngine::Vector3>* VertexRing(UnityEngine::Quaternion orientation, UnityEngine::Vector3 offset, float radius, int segments);
   }; // UnityEngine.ProBuilder.Spline
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Spline::Extrude
-  // Il2CppName: Extrude
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, float, int, int, bool, bool)>(&Spline::Extrude)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Spline*), "Extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Spline::Extrude
-  // Il2CppName: Extrude
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, float, int, int, bool, bool, UnityEngine::ProBuilder::ProBuilderMesh*&)>(&Spline::Extrude)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Spline*), "Extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Spline::GetControlPoints
-  // Il2CppName: GetControlPoints
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Vector3>* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, int, bool, System::Collections::Generic::List_1<UnityEngine::Quaternion>*)>(&Spline::GetControlPoints)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Spline*), "GetControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Quaternion>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Spline::Extrude
-  // Il2CppName: Extrude
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, float, int, bool, bool, UnityEngine::ProBuilder::ProBuilderMesh*&, System::Collections::Generic::IList_1<UnityEngine::Quaternion>*)>(&Spline::Extrude)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Spline*), "Extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Quaternion>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Spline::GetRingRotation
-  // Il2CppName: GetRingRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, int, bool, float&)>(&Spline::GetRingRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Spline*), "GetRingRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Spline::VertexRing
-  // Il2CppName: VertexRing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(UnityEngine::Quaternion, UnityEngine::Vector3, float, int)>(&Spline::VertexRing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Spline*), "VertexRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Spline*, "UnityEngine.ProBuilder", "Spline");
+// Writing MetadataGetter for method: Spline::Extrude
+// Il2CppName: Extrude
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, float, int, int, bool, bool)>(&Spline::Extrude)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Spline*), "Extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Spline::Extrude
+// Il2CppName: Extrude
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, float, int, int, bool, bool, UnityEngine::ProBuilder::ProBuilderMesh*&)>(&Spline::Extrude)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Spline*), "Extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*&>()});
+  }
+};
+// Writing MetadataGetter for method: Spline::GetControlPoints
+// Il2CppName: GetControlPoints
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Vector3>* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, int, bool, System::Collections::Generic::List_1<UnityEngine::Quaternion>*)>(&Spline::GetControlPoints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Spline*), "GetControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Quaternion>*>()});
+  }
+};
+// Writing MetadataGetter for method: Spline::Extrude
+// Il2CppName: Extrude
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, float, int, bool, bool, UnityEngine::ProBuilder::ProBuilderMesh*&, System::Collections::Generic::IList_1<UnityEngine::Quaternion>*)>(&Spline::Extrude)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Spline*), "Extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Quaternion>*>()});
+  }
+};
+// Writing MetadataGetter for method: Spline::GetRingRotation
+// Il2CppName: GetRingRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, int, bool, float&)>(&Spline::GetRingRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Spline*), "GetRingRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Spline::VertexRing
+// Il2CppName: VertexRing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(UnityEngine::Quaternion, UnityEngine::Vector3, float, int)>(&Spline::VertexRing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Spline*), "VertexRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

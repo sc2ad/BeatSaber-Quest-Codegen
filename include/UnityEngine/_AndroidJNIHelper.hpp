@@ -135,167 +135,167 @@ namespace UnityEngine {
     }
   }; // UnityEngine._AndroidJNIHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: _AndroidJNIHelper::CreateJavaProxy
-  // Il2CppName: CreateJavaProxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, UnityEngine::AndroidJavaProxy*)>(&_AndroidJNIHelper::CreateJavaProxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "CreateJavaProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaProxy*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::CreateJavaRunnable
-  // Il2CppName: CreateJavaRunnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::AndroidJavaRunnable*)>(&_AndroidJNIHelper::CreateJavaRunnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "CreateJavaRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaRunnable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::InvokeJavaProxyMethod
-  // Il2CppName: InvokeJavaProxyMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::AndroidJavaProxy*, System::IntPtr, System::IntPtr)>(&_AndroidJNIHelper::InvokeJavaProxyMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "InvokeJavaProxyMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaProxy*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::CreateJNIArgArray
-  // Il2CppName: CreateJNIArgArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::jvalue>* (*)(::Array<::Il2CppObject*>*)>(&_AndroidJNIHelper::CreateJNIArgArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "CreateJNIArgArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::UnboxArray
-  // Il2CppName: UnboxArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::AndroidJavaObject*)>(&_AndroidJNIHelper::UnboxArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "UnboxArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::Unbox
-  // Il2CppName: Unbox
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::AndroidJavaObject*)>(&_AndroidJNIHelper::Unbox)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "Unbox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::Box
-  // Il2CppName: Box
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (*)(::Il2CppObject*)>(&_AndroidJNIHelper::Box)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::DeleteJNIArgArray
-  // Il2CppName: DeleteJNIArgArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<::Il2CppObject*>*, ::Array<UnityEngine::jvalue>*)>(&_AndroidJNIHelper::DeleteJNIArgArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "DeleteJNIArgArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::jvalue>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::ConvertToJNIArray
-  // Il2CppName: ConvertToJNIArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Array*)>(&_AndroidJNIHelper::ConvertToJNIArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "ConvertToJNIArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::ConvertFromJNIArray
-  // Il2CppName: ConvertFromJNIArray
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetConstructorID
-  // Il2CppName: GetConstructorID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Array<::Il2CppObject*>*)>(&_AndroidJNIHelper::GetConstructorID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetConstructorID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodID
-  // Il2CppName: GetMethodID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Array<::Il2CppObject*>*, bool)>(&_AndroidJNIHelper::GetMethodID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodID
-  // Il2CppName: GetMethodID
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetFieldID
-  // Il2CppName: GetFieldID
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetConstructorID
-  // Il2CppName: GetConstructorID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*)>(&_AndroidJNIHelper::GetConstructorID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetConstructorID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodID
-  // Il2CppName: GetMethodID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&_AndroidJNIHelper::GetMethodID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodIDFallback
-  // Il2CppName: GetMethodIDFallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&_AndroidJNIHelper::GetMethodIDFallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetMethodIDFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetFieldID
-  // Il2CppName: GetFieldID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&_AndroidJNIHelper::GetFieldID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetFieldID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetSignature
-  // Il2CppName: GetSignature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&_AndroidJNIHelper::GetSignature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetSignature
-  // Il2CppName: GetSignature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<::Il2CppObject*>*)>(&_AndroidJNIHelper::GetSignature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _AndroidJNIHelper::GetSignature
-  // Il2CppName: GetSignature
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: _AndroidJNIHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (_AndroidJNIHelper::*)()>(&_AndroidJNIHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (_AndroidJNIHelper::*)()>(&_AndroidJNIHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_AndroidJNIHelper*, "UnityEngine", "_AndroidJNIHelper");
+// Writing MetadataGetter for method: _AndroidJNIHelper::CreateJavaProxy
+// Il2CppName: CreateJavaProxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, UnityEngine::AndroidJavaProxy*)>(&_AndroidJNIHelper::CreateJavaProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "CreateJavaProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaProxy*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::CreateJavaRunnable
+// Il2CppName: CreateJavaRunnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::AndroidJavaRunnable*)>(&_AndroidJNIHelper::CreateJavaRunnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "CreateJavaRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaRunnable*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::InvokeJavaProxyMethod
+// Il2CppName: InvokeJavaProxyMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::AndroidJavaProxy*, System::IntPtr, System::IntPtr)>(&_AndroidJNIHelper::InvokeJavaProxyMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "InvokeJavaProxyMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaProxy*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::CreateJNIArgArray
+// Il2CppName: CreateJNIArgArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::jvalue>* (*)(::Array<::Il2CppObject*>*)>(&_AndroidJNIHelper::CreateJNIArgArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "CreateJNIArgArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::UnboxArray
+// Il2CppName: UnboxArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::AndroidJavaObject*)>(&_AndroidJNIHelper::UnboxArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "UnboxArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaObject*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::Unbox
+// Il2CppName: Unbox
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::AndroidJavaObject*)>(&_AndroidJNIHelper::Unbox)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "Unbox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaObject*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::Box
+// Il2CppName: Box
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (*)(::Il2CppObject*)>(&_AndroidJNIHelper::Box)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::DeleteJNIArgArray
+// Il2CppName: DeleteJNIArgArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<::Il2CppObject*>*, ::Array<UnityEngine::jvalue>*)>(&_AndroidJNIHelper::DeleteJNIArgArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "DeleteJNIArgArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::jvalue>*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::ConvertToJNIArray
+// Il2CppName: ConvertToJNIArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Array*)>(&_AndroidJNIHelper::ConvertToJNIArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "ConvertToJNIArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::ConvertFromJNIArray
+// Il2CppName: ConvertFromJNIArray
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetConstructorID
+// Il2CppName: GetConstructorID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Array<::Il2CppObject*>*)>(&_AndroidJNIHelper::GetConstructorID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetConstructorID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodID
+// Il2CppName: GetMethodID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Array<::Il2CppObject*>*, bool)>(&_AndroidJNIHelper::GetMethodID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodID
+// Il2CppName: GetMethodID
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetFieldID
+// Il2CppName: GetFieldID
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetConstructorID
+// Il2CppName: GetConstructorID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*)>(&_AndroidJNIHelper::GetConstructorID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetConstructorID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodID
+// Il2CppName: GetMethodID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&_AndroidJNIHelper::GetMethodID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetMethodIDFallback
+// Il2CppName: GetMethodIDFallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&_AndroidJNIHelper::GetMethodIDFallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetMethodIDFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetFieldID
+// Il2CppName: GetFieldID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&_AndroidJNIHelper::GetFieldID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetFieldID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetSignature
+// Il2CppName: GetSignature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&_AndroidJNIHelper::GetSignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetSignature
+// Il2CppName: GetSignature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<::Il2CppObject*>*)>(&_AndroidJNIHelper::GetSignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: _AndroidJNIHelper::GetSignature
+// Il2CppName: GetSignature
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: _AndroidJNIHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (_AndroidJNIHelper::*)()>(&_AndroidJNIHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (_AndroidJNIHelper::*)()>(&_AndroidJNIHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_AndroidJNIHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

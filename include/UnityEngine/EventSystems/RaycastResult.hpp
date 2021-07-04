@@ -124,46 +124,46 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
   static check_size<sizeof(RaycastResult), 68 + sizeof(int)> __UnityEngine_EventSystems_RaycastResultSizeCheck;
   static_assert(sizeof(RaycastResult) == 0x48);
-  // Writing MetadataGetter for method: RaycastResult::get_gameObject
-  // Il2CppName: get_gameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (RaycastResult::*)()>(&RaycastResult::get_gameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycastResult), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RaycastResult::set_gameObject
-  // Il2CppName: set_gameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastResult::*)(UnityEngine::GameObject*)>(&RaycastResult::set_gameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycastResult), "set_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RaycastResult::get_isValid
-  // Il2CppName: get_isValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RaycastResult::*)()>(&RaycastResult::get_isValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycastResult), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RaycastResult::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastResult::*)()>(&RaycastResult::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycastResult), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RaycastResult::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RaycastResult::*)()>(&RaycastResult::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RaycastResult), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");
+// Writing MetadataGetter for method: RaycastResult::get_gameObject
+// Il2CppName: get_gameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (RaycastResult::*)()>(&RaycastResult::get_gameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycastResult), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RaycastResult::set_gameObject
+// Il2CppName: set_gameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastResult::*)(UnityEngine::GameObject*)>(&RaycastResult::set_gameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycastResult), "set_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RaycastResult::get_isValid
+// Il2CppName: get_isValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RaycastResult::*)()>(&RaycastResult::get_isValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycastResult), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RaycastResult::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastResult::*)()>(&RaycastResult::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycastResult), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RaycastResult::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RaycastResult::*)()>(&RaycastResult::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RaycastResult), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

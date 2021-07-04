@@ -220,131 +220,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CampaignFlowCoordinator), 272 + sizeof(bool)> __GlobalNamespace_CampaignFlowCoordinatorSizeCheck;
   static_assert(sizeof(CampaignFlowCoordinator) == 0x111);
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::add_didFinishEvent
-  // Il2CppName: add_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*)>(&CampaignFlowCoordinator::add_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::remove_didFinishEvent
-  // Il2CppName: remove_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*)>(&CampaignFlowCoordinator::remove_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionSelectionNavigationControllerDidPressPlayButton
-  // Il2CppName: HandleMissionSelectionNavigationControllerDidPressPlayButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionSelectionNavigationController*)>(&CampaignFlowCoordinator::HandleMissionSelectionNavigationControllerDidPressPlayButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionSelectionNavigationControllerDidPressPlayButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionSelectionNavigationController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionHelpViewControllerDidFinish
-  // Il2CppName: HandleMissionHelpViewControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionHelpViewController*)>(&CampaignFlowCoordinator::HandleMissionHelpViewControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionHelpViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionHelpViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionResultsViewControllerContinueButtonPressed
-  // Il2CppName: HandleMissionResultsViewControllerContinueButtonPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionResultsViewController*)>(&CampaignFlowCoordinator::HandleMissionResultsViewControllerContinueButtonPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionResultsViewControllerContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionResultsViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionResultsViewControllerRetryButtonPressed
-  // Il2CppName: HandleMissionResultsViewControllerRetryButtonPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionResultsViewController*)>(&CampaignFlowCoordinator::HandleMissionResultsViewControllerRetryButtonPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionResultsViewControllerRetryButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionResultsViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::StartLevel
-  // Il2CppName: StartLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(System::Action*)>(&CampaignFlowCoordinator::StartLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionLevelSceneDidFinish
-  // Il2CppName: HandleMissionLevelSceneDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*)>(&CampaignFlowCoordinator::HandleMissionLevelSceneDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionLevelSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_0
-  // Il2CppName: <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)()>(&CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "<HandleMissionResultsViewControllerContinueButtonPressed>b__21_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_1
-  // Il2CppName: <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(bool)>(&CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "<HandleMissionResultsViewControllerContinueButtonPressed>b__21_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(bool, bool, bool)>(&CampaignFlowCoordinator::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(bool, bool)>(&CampaignFlowCoordinator::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::TopViewControllerWillChange
-  // Il2CppName: TopViewControllerWillChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&CampaignFlowCoordinator::TopViewControllerWillChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::BackButtonWasPressed
-  // Il2CppName: BackButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(HMUI::ViewController*)>(&CampaignFlowCoordinator::BackButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CampaignFlowCoordinator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)()>(&CampaignFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)()>(&CampaignFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator*, "", "CampaignFlowCoordinator");
+// Writing MetadataGetter for method: CampaignFlowCoordinator::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*)>(&CampaignFlowCoordinator::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*)>(&CampaignFlowCoordinator::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionSelectionNavigationControllerDidPressPlayButton
+// Il2CppName: HandleMissionSelectionNavigationControllerDidPressPlayButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionSelectionNavigationController*)>(&CampaignFlowCoordinator::HandleMissionSelectionNavigationControllerDidPressPlayButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionSelectionNavigationControllerDidPressPlayButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionSelectionNavigationController*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionHelpViewControllerDidFinish
+// Il2CppName: HandleMissionHelpViewControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionHelpViewController*)>(&CampaignFlowCoordinator::HandleMissionHelpViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionHelpViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionHelpViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionResultsViewControllerContinueButtonPressed
+// Il2CppName: HandleMissionResultsViewControllerContinueButtonPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionResultsViewController*)>(&CampaignFlowCoordinator::HandleMissionResultsViewControllerContinueButtonPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionResultsViewControllerContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionResultsViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionResultsViewControllerRetryButtonPressed
+// Il2CppName: HandleMissionResultsViewControllerRetryButtonPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionResultsViewController*)>(&CampaignFlowCoordinator::HandleMissionResultsViewControllerRetryButtonPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionResultsViewControllerRetryButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionResultsViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::StartLevel
+// Il2CppName: StartLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(System::Action*)>(&CampaignFlowCoordinator::StartLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::HandleMissionLevelSceneDidFinish
+// Il2CppName: HandleMissionLevelSceneDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*)>(&CampaignFlowCoordinator::HandleMissionLevelSceneDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "HandleMissionLevelSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_0
+// Il2CppName: <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)()>(&CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "<HandleMissionResultsViewControllerContinueButtonPressed>b__21_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_1
+// Il2CppName: <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(bool)>(&CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "<HandleMissionResultsViewControllerContinueButtonPressed>b__21_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(bool, bool, bool)>(&CampaignFlowCoordinator::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(bool, bool)>(&CampaignFlowCoordinator::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::TopViewControllerWillChange
+// Il2CppName: TopViewControllerWillChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&CampaignFlowCoordinator::TopViewControllerWillChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::BackButtonWasPressed
+// Il2CppName: BackButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)(HMUI::ViewController*)>(&CampaignFlowCoordinator::BackButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: CampaignFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)()>(&CampaignFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignFlowCoordinator::*)()>(&CampaignFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CampaignFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

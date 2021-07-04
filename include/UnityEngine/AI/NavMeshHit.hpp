@@ -61,14 +61,14 @@ namespace UnityEngine::AI {
   #pragma pack(pop)
   static check_size<sizeof(NavMeshHit), 32 + sizeof(int)> __UnityEngine_AI_NavMeshHitSizeCheck;
   static_assert(sizeof(NavMeshHit) == 0x24);
-  // Writing MetadataGetter for method: NavMeshHit::get_position
-  // Il2CppName: get_position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NavMeshHit::*)()>(&NavMeshHit::get_position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NavMeshHit), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
+// Writing MetadataGetter for method: NavMeshHit::get_position
+// Il2CppName: get_position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NavMeshHit::*)()>(&NavMeshHit::get_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NavMeshHit), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

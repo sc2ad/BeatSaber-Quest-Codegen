@@ -184,163 +184,163 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameplayFacade), 64 + sizeof(GlobalNamespace::IDifficultyBeatmap*)> __GlobalNamespace_GameplayFacadeSizeCheck;
   static_assert(sizeof(GameplayFacade) == 0x48);
-  // Writing MetadataGetter for method: GameplayFacade::get_difficultyBeatmap
-  // Il2CppName: get_difficultyBeatmap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GameplayFacade::*)()>(&GameplayFacade::get_difficultyBeatmap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_difficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_songTime
-  // Il2CppName: get_songTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_songTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_songTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_songEndTime
-  // Il2CppName: get_songEndTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_songEndTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_isReady
-  // Il2CppName: get_isReady
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayFacade::*)()>(&GameplayFacade::get_isReady)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_isInitialized
-  // Il2CppName: get_isInitialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayFacade::*)()>(&GameplayFacade::get_isInitialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_moveDuration
-  // Il2CppName: get_moveDuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_moveDuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_jumpDuration
-  // Il2CppName: get_jumpDuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_jumpDuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::add_didInitEvent
-  // Il2CppName: add_didInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action*)>(&GameplayFacade::add_didInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::remove_didInitEvent
-  // Il2CppName: remove_didInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action*)>(&GameplayFacade::remove_didInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_ProcessedSamples
-  // Il2CppName: get_ProcessedSamples
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<float>* (GameplayFacade::*)()>(&GameplayFacade::get_ProcessedSamples)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_ProcessedSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_leftSaber
-  // Il2CppName: get_leftSaber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Saber* (GameplayFacade::*)()>(&GameplayFacade::get_leftSaber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_leftSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::get_rightSaber
-  // Il2CppName: get_rightSaber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Saber* (GameplayFacade::*)()>(&GameplayFacade::get_rightSaber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_rightSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::add_beatmapEventDidTriggerEvent
-  // Il2CppName: add_beatmapEventDidTriggerEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action_1<GlobalNamespace::BeatmapEventData*>*)>(&GameplayFacade::add_beatmapEventDidTriggerEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "add_beatmapEventDidTriggerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapEventData*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::remove_beatmapEventDidTriggerEvent
-  // Il2CppName: remove_beatmapEventDidTriggerEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action_1<GlobalNamespace::BeatmapEventData*>*)>(&GameplayFacade::remove_beatmapEventDidTriggerEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "remove_beatmapEventDidTriggerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapEventData*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::AddBeatmapObjectCallback
-  // Il2CppName: AddBeatmapObjectCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectCallbackData* (GameplayFacade::*)(GlobalNamespace::BeatmapObjectCallback*, float)>(&GameplayFacade::AddBeatmapObjectCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "AddBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectCallback*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::RemoveBeatmapObjectCallback
-  // Il2CppName: RemoveBeatmapObjectCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(GlobalNamespace::BeatmapObjectCallbackData*)>(&GameplayFacade::RemoveBeatmapObjectCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "RemoveBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectCallbackData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::AddBeatmapEventCallback
-  // Il2CppName: AddBeatmapEventCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapEventCallbackData* (GameplayFacade::*)(GlobalNamespace::BeatmapEventCallback*, float)>(&GameplayFacade::AddBeatmapEventCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "AddBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::RemoveBeatmapEventCallback
-  // Il2CppName: RemoveBeatmapEventCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(GlobalNamespace::BeatmapEventCallbackData*)>(&GameplayFacade::RemoveBeatmapEventCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "RemoveBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventCallbackData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayFacade::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)()>(&GameplayFacade::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)()>(&GameplayFacade::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayFacade*, "", "GameplayFacade");
+// Writing MetadataGetter for method: GameplayFacade::get_difficultyBeatmap
+// Il2CppName: get_difficultyBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GameplayFacade::*)()>(&GameplayFacade::get_difficultyBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_difficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_songTime
+// Il2CppName: get_songTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_songTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_songTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_songEndTime
+// Il2CppName: get_songEndTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_songEndTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_isReady
+// Il2CppName: get_isReady
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayFacade::*)()>(&GameplayFacade::get_isReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_isInitialized
+// Il2CppName: get_isInitialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayFacade::*)()>(&GameplayFacade::get_isInitialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_moveDuration
+// Il2CppName: get_moveDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_moveDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_jumpDuration
+// Il2CppName: get_jumpDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayFacade::*)()>(&GameplayFacade::get_jumpDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::add_didInitEvent
+// Il2CppName: add_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action*)>(&GameplayFacade::add_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::remove_didInitEvent
+// Il2CppName: remove_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action*)>(&GameplayFacade::remove_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_ProcessedSamples
+// Il2CppName: get_ProcessedSamples
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<float>* (GameplayFacade::*)()>(&GameplayFacade::get_ProcessedSamples)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_ProcessedSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_leftSaber
+// Il2CppName: get_leftSaber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Saber* (GameplayFacade::*)()>(&GameplayFacade::get_leftSaber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_leftSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::get_rightSaber
+// Il2CppName: get_rightSaber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Saber* (GameplayFacade::*)()>(&GameplayFacade::get_rightSaber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "get_rightSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::add_beatmapEventDidTriggerEvent
+// Il2CppName: add_beatmapEventDidTriggerEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action_1<GlobalNamespace::BeatmapEventData*>*)>(&GameplayFacade::add_beatmapEventDidTriggerEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "add_beatmapEventDidTriggerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapEventData*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::remove_beatmapEventDidTriggerEvent
+// Il2CppName: remove_beatmapEventDidTriggerEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(System::Action_1<GlobalNamespace::BeatmapEventData*>*)>(&GameplayFacade::remove_beatmapEventDidTriggerEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "remove_beatmapEventDidTriggerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapEventData*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::AddBeatmapObjectCallback
+// Il2CppName: AddBeatmapObjectCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectCallbackData* (GameplayFacade::*)(GlobalNamespace::BeatmapObjectCallback*, float)>(&GameplayFacade::AddBeatmapObjectCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "AddBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectCallback*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::RemoveBeatmapObjectCallback
+// Il2CppName: RemoveBeatmapObjectCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(GlobalNamespace::BeatmapObjectCallbackData*)>(&GameplayFacade::RemoveBeatmapObjectCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "RemoveBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectCallbackData*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::AddBeatmapEventCallback
+// Il2CppName: AddBeatmapEventCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapEventCallbackData* (GameplayFacade::*)(GlobalNamespace::BeatmapEventCallback*, float)>(&GameplayFacade::AddBeatmapEventCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "AddBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::RemoveBeatmapEventCallback
+// Il2CppName: RemoveBeatmapEventCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)(GlobalNamespace::BeatmapEventCallbackData*)>(&GameplayFacade::RemoveBeatmapEventCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), "RemoveBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventCallbackData*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayFacade::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)()>(&GameplayFacade::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayFacade::*)()>(&GameplayFacade::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayFacade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

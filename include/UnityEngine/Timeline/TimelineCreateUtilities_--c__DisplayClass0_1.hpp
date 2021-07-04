@@ -54,27 +54,27 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(TimelineCreateUtilities::$$c__DisplayClass0_1), 16 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_TimelineCreateUtilities_$$c__DisplayClass0_1SizeCheck;
   static_assert(sizeof(TimelineCreateUtilities::$$c__DisplayClass0_1) == 0x18);
-  // Writing MetadataGetter for method: TimelineCreateUtilities::$$c__DisplayClass0_1::$GenerateUniqueActorName$b__1
-  // Il2CppName: <GenerateUniqueActorName>b__1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineCreateUtilities::$$c__DisplayClass0_1::*)(UnityEngine::ScriptableObject*)>(&TimelineCreateUtilities::$$c__DisplayClass0_1::$GenerateUniqueActorName$b__1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities::$$c__DisplayClass0_1*), "<GenerateUniqueActorName>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineCreateUtilities::$$c__DisplayClass0_1::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineCreateUtilities::$$c__DisplayClass0_1::*)()>(&TimelineCreateUtilities::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineCreateUtilities::$$c__DisplayClass0_1::*)()>(&TimelineCreateUtilities::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_1");
+// Writing MetadataGetter for method: TimelineCreateUtilities::$$c__DisplayClass0_1::$GenerateUniqueActorName$b__1
+// Il2CppName: <GenerateUniqueActorName>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineCreateUtilities::$$c__DisplayClass0_1::*)(UnityEngine::ScriptableObject*)>(&TimelineCreateUtilities::$$c__DisplayClass0_1::$GenerateUniqueActorName$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities::$$c__DisplayClass0_1*), "<GenerateUniqueActorName>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineCreateUtilities::$$c__DisplayClass0_1::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineCreateUtilities::$$c__DisplayClass0_1::*)()>(&TimelineCreateUtilities::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineCreateUtilities::$$c__DisplayClass0_1::*)()>(&TimelineCreateUtilities::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

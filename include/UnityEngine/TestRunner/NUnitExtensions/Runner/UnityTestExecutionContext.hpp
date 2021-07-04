@@ -407,321 +407,321 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(UnityTestExecutionContext), 216 + sizeof(UnityEngine::TestTools::EnumerableTestState*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityTestExecutionContextSizeCheck;
   static_assert(sizeof(UnityTestExecutionContext) == 0xE0);
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentContext
-  // Il2CppName: get_CurrentContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (*)()>(&UnityTestExecutionContext::get_CurrentContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentContext
-  // Il2CppName: set_CurrentContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityTestExecutionContext::set_CurrentContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentTest
-  // Il2CppName: get_CurrentTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentTest
-  // Il2CppName: set_CurrentTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Internal::Test*)>(&UnityTestExecutionContext::set_CurrentTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_StartTime
-  // Il2CppName: get_StartTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_StartTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_StartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_StartTime
-  // Il2CppName: set_StartTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::DateTime)>(&UnityTestExecutionContext::set_StartTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_StartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_StartTicks
-  // Il2CppName: get_StartTicks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_StartTicks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_StartTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_StartTicks
-  // Il2CppName: set_StartTicks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(int64_t)>(&UnityTestExecutionContext::set_StartTicks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_StartTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentResult
-  // Il2CppName: get_CurrentResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentResult
-  // Il2CppName: set_CurrentResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Internal::TestResult*)>(&UnityTestExecutionContext::set_CurrentResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_TestObject
-  // Il2CppName: get_TestObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_TestObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_TestObject
-  // Il2CppName: set_TestObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(::Il2CppObject*)>(&UnityTestExecutionContext::set_TestObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_WorkDirectory
-  // Il2CppName: get_WorkDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_WorkDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_WorkDirectory
-  // Il2CppName: set_WorkDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(::Il2CppString*)>(&UnityTestExecutionContext::set_WorkDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_ExecutionStatus
-  // Il2CppName: get_ExecutionStatus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestExecutionStatus (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_ExecutionStatus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_ExecutionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_ExecutionStatus
-  // Il2CppName: set_ExecutionStatus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Internal::TestExecutionStatus)>(&UnityTestExecutionContext::set_ExecutionStatus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_ExecutionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestExecutionStatus>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_UpstreamActions
-  // Il2CppName: get_UpstreamActions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_UpstreamActions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_UpstreamActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_UpstreamActions
-  // Il2CppName: set_UpstreamActions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)>(&UnityTestExecutionContext::set_UpstreamActions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_UpstreamActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_TestCaseTimeout
-  // Il2CppName: get_TestCaseTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_TestCaseTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_TestCaseTimeout
-  // Il2CppName: set_TestCaseTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(int)>(&UnityTestExecutionContext::set_TestCaseTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentCulture
-  // Il2CppName: get_CurrentCulture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentCulture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentCulture
-  // Il2CppName: set_CurrentCulture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::Globalization::CultureInfo*)>(&UnityTestExecutionContext::set_CurrentCulture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentUICulture
-  // Il2CppName: get_CurrentUICulture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentUICulture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentUICulture
-  // Il2CppName: set_CurrentUICulture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::Globalization::CultureInfo*)>(&UnityTestExecutionContext::set_CurrentUICulture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_Listener
-  // Il2CppName: get_Listener
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestListener* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_Listener)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_Listener
-  // Il2CppName: set_Listener
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Interfaces::ITestListener*)>(&UnityTestExecutionContext::set_Listener)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestListener*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_OutWriter
-  // Il2CppName: get_OutWriter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_OutWriter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_OutWriter
-  // Il2CppName: set_OutWriter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::IO::TextWriter*)>(&UnityTestExecutionContext::set_OutWriter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentValueFormatter
-  // Il2CppName: get_CurrentValueFormatter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentValueFormatter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_SetUpTearDownState
-  // Il2CppName: get_SetUpTearDownState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_SetUpTearDownState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_SetUpTearDownState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_SetUpTearDownState
-  // Il2CppName: set_SetUpTearDownState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestTools::BeforeAfterTestCommandState*)>(&UnityTestExecutionContext::set_SetUpTearDownState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_SetUpTearDownState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::BeforeAfterTestCommandState*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_OuterUnityTestActionState
-  // Il2CppName: get_OuterUnityTestActionState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_OuterUnityTestActionState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_OuterUnityTestActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_OuterUnityTestActionState
-  // Il2CppName: set_OuterUnityTestActionState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestTools::BeforeAfterTestCommandState*)>(&UnityTestExecutionContext::set_OuterUnityTestActionState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_OuterUnityTestActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::BeforeAfterTestCommandState*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::get_EnumerableTestState
-  // Il2CppName: get_EnumerableTestState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::EnumerableTestState* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_EnumerableTestState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_EnumerableTestState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::set_EnumerableTestState
-  // Il2CppName: set_EnumerableTestState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestTools::EnumerableTestState*)>(&UnityTestExecutionContext::set_EnumerableTestState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_EnumerableTestState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::EnumerableTestState*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::IncrementAssertCount
-  // Il2CppName: IncrementAssertCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::IncrementAssertCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestExecutionContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext");
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentContext
+// Il2CppName: get_CurrentContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (*)()>(&UnityTestExecutionContext::get_CurrentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentContext
+// Il2CppName: set_CurrentContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityTestExecutionContext::set_CurrentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentTest
+// Il2CppName: get_CurrentTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentTest
+// Il2CppName: set_CurrentTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Internal::Test*)>(&UnityTestExecutionContext::set_CurrentTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_StartTime
+// Il2CppName: get_StartTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_StartTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_StartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_StartTime
+// Il2CppName: set_StartTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::DateTime)>(&UnityTestExecutionContext::set_StartTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_StartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_StartTicks
+// Il2CppName: get_StartTicks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_StartTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_StartTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_StartTicks
+// Il2CppName: set_StartTicks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(int64_t)>(&UnityTestExecutionContext::set_StartTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_StartTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentResult
+// Il2CppName: get_CurrentResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentResult
+// Il2CppName: set_CurrentResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Internal::TestResult*)>(&UnityTestExecutionContext::set_CurrentResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_TestObject
+// Il2CppName: get_TestObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_TestObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_TestObject
+// Il2CppName: set_TestObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(::Il2CppObject*)>(&UnityTestExecutionContext::set_TestObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_WorkDirectory
+// Il2CppName: get_WorkDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_WorkDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_WorkDirectory
+// Il2CppName: set_WorkDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(::Il2CppString*)>(&UnityTestExecutionContext::set_WorkDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_ExecutionStatus
+// Il2CppName: get_ExecutionStatus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestExecutionStatus (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_ExecutionStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_ExecutionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_ExecutionStatus
+// Il2CppName: set_ExecutionStatus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Internal::TestExecutionStatus)>(&UnityTestExecutionContext::set_ExecutionStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_ExecutionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestExecutionStatus>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_UpstreamActions
+// Il2CppName: get_UpstreamActions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_UpstreamActions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_UpstreamActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_UpstreamActions
+// Il2CppName: set_UpstreamActions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)>(&UnityTestExecutionContext::set_UpstreamActions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_UpstreamActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_TestCaseTimeout
+// Il2CppName: get_TestCaseTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_TestCaseTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_TestCaseTimeout
+// Il2CppName: set_TestCaseTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(int)>(&UnityTestExecutionContext::set_TestCaseTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentCulture
+// Il2CppName: get_CurrentCulture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentCulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentCulture
+// Il2CppName: set_CurrentCulture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::Globalization::CultureInfo*)>(&UnityTestExecutionContext::set_CurrentCulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentUICulture
+// Il2CppName: get_CurrentUICulture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentUICulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_CurrentUICulture
+// Il2CppName: set_CurrentUICulture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::Globalization::CultureInfo*)>(&UnityTestExecutionContext::set_CurrentUICulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_Listener
+// Il2CppName: get_Listener
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestListener* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_Listener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_Listener
+// Il2CppName: set_Listener
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(NUnit::Framework::Interfaces::ITestListener*)>(&UnityTestExecutionContext::set_Listener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestListener*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_OutWriter
+// Il2CppName: get_OutWriter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_OutWriter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_OutWriter
+// Il2CppName: set_OutWriter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(System::IO::TextWriter*)>(&UnityTestExecutionContext::set_OutWriter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_CurrentValueFormatter
+// Il2CppName: get_CurrentValueFormatter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_CurrentValueFormatter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_SetUpTearDownState
+// Il2CppName: get_SetUpTearDownState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_SetUpTearDownState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_SetUpTearDownState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_SetUpTearDownState
+// Il2CppName: set_SetUpTearDownState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestTools::BeforeAfterTestCommandState*)>(&UnityTestExecutionContext::set_SetUpTearDownState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_SetUpTearDownState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::BeforeAfterTestCommandState*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_OuterUnityTestActionState
+// Il2CppName: get_OuterUnityTestActionState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_OuterUnityTestActionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_OuterUnityTestActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_OuterUnityTestActionState
+// Il2CppName: set_OuterUnityTestActionState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestTools::BeforeAfterTestCommandState*)>(&UnityTestExecutionContext::set_OuterUnityTestActionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_OuterUnityTestActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::BeforeAfterTestCommandState*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::get_EnumerableTestState
+// Il2CppName: get_EnumerableTestState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::EnumerableTestState* (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::get_EnumerableTestState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "get_EnumerableTestState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::set_EnumerableTestState
+// Il2CppName: set_EnumerableTestState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)(UnityEngine::TestTools::EnumerableTestState*)>(&UnityTestExecutionContext::set_EnumerableTestState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "set_EnumerableTestState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::EnumerableTestState*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::IncrementAssertCount
+// Il2CppName: IncrementAssertCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::IncrementAssertCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTestExecutionContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestExecutionContext::*)()>(&UnityTestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

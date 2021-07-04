@@ -90,36 +90,36 @@ namespace OnlineServices {
   #pragma pack(pop)
   static check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(::Il2CppString*)> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
   static_assert(sizeof(PlatformServicesAvailabilityInfo) == 0x20);
-  // Writing MetadataGetter for method: PlatformServicesAvailabilityInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformServicesAvailabilityInfo::*)(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, ::Il2CppString*)>(&PlatformServicesAvailabilityInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformServicesAvailabilityInfo::*)(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, ::Il2CppString*)>(&PlatformServicesAvailabilityInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformServicesAvailabilityInfo::get_everythingOK
-  // Il2CppName: get_everythingOK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::PlatformServicesAvailabilityInfo* (*)()>(&PlatformServicesAvailabilityInfo::get_everythingOK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), "get_everythingOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformServicesAvailabilityInfo::get_onlineServicesUnavailableError
-  // Il2CppName: get_onlineServicesUnavailableError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::PlatformServicesAvailabilityInfo* (*)()>(&PlatformServicesAvailabilityInfo::get_onlineServicesUnavailableError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, "OnlineServices", "PlatformServicesAvailabilityInfo/OnlineServicesAvailability");
+// Writing MetadataGetter for method: PlatformServicesAvailabilityInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformServicesAvailabilityInfo::*)(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, ::Il2CppString*)>(&PlatformServicesAvailabilityInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformServicesAvailabilityInfo::*)(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, ::Il2CppString*)>(&PlatformServicesAvailabilityInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformServicesAvailabilityInfo::get_everythingOK
+// Il2CppName: get_everythingOK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::PlatformServicesAvailabilityInfo* (*)()>(&PlatformServicesAvailabilityInfo::get_everythingOK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), "get_everythingOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformServicesAvailabilityInfo::get_onlineServicesUnavailableError
+// Il2CppName: get_onlineServicesUnavailableError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::PlatformServicesAvailabilityInfo* (*)()>(&PlatformServicesAvailabilityInfo::get_onlineServicesUnavailableError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformServicesAvailabilityInfo*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -79,78 +79,78 @@ namespace System::Diagnostics {
     static void _cctor();
   }; // System.Diagnostics.TraceInternal
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TraceInternal::get_Listeners
-  // Il2CppName: get_Listeners
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::TraceListenerCollection* (*)()>(&TraceInternal::get_Listeners)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_Listeners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::get_AutoFlush
-  // Il2CppName: get_AutoFlush
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TraceInternal::get_AutoFlush)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_AutoFlush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::get_UseGlobalLock
-  // Il2CppName: get_UseGlobalLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TraceInternal::get_UseGlobalLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_UseGlobalLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::get_IndentLevel
-  // Il2CppName: get_IndentLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TraceInternal::get_IndentLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_IndentLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::get_IndentSize
-  // Il2CppName: get_IndentSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TraceInternal::get_IndentSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_IndentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::Assert_
-  // Il2CppName: Assert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TraceInternal::Assert_)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "Assert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::Fail
-  // Il2CppName: Fail
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&TraceInternal::Fail)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::InitializeSettings
-  // Il2CppName: InitializeSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TraceInternal::InitializeSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "InitializeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TraceInternal::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TraceInternal::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceInternal*, "System.Diagnostics", "TraceInternal");
+// Writing MetadataGetter for method: TraceInternal::get_Listeners
+// Il2CppName: get_Listeners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::TraceListenerCollection* (*)()>(&TraceInternal::get_Listeners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_Listeners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::get_AutoFlush
+// Il2CppName: get_AutoFlush
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TraceInternal::get_AutoFlush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_AutoFlush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::get_UseGlobalLock
+// Il2CppName: get_UseGlobalLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TraceInternal::get_UseGlobalLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_UseGlobalLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::get_IndentLevel
+// Il2CppName: get_IndentLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TraceInternal::get_IndentLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_IndentLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::get_IndentSize
+// Il2CppName: get_IndentSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TraceInternal::get_IndentSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_IndentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::Assert_
+// Il2CppName: Assert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TraceInternal::Assert_)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "Assert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::Fail
+// Il2CppName: Fail
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&TraceInternal::Fail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::InitializeSettings
+// Il2CppName: InitializeSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TraceInternal::InitializeSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "InitializeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TraceInternal::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TraceInternal::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TraceInternal*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

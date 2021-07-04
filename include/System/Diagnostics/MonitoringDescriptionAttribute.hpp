@@ -37,27 +37,27 @@ namespace System::Diagnostics {
     ::Il2CppString* get_Description();
   }; // System.Diagnostics.MonitoringDescriptionAttribute
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MonitoringDescriptionAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonitoringDescriptionAttribute::*)(::Il2CppString*)>(&MonitoringDescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonitoringDescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonitoringDescriptionAttribute::*)(::Il2CppString*)>(&MonitoringDescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonitoringDescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonitoringDescriptionAttribute::get_Description
-  // Il2CppName: get_Description
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MonitoringDescriptionAttribute::*)()>(&MonitoringDescriptionAttribute::get_Description)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonitoringDescriptionAttribute*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::MonitoringDescriptionAttribute*, "System.Diagnostics", "MonitoringDescriptionAttribute");
+// Writing MetadataGetter for method: MonitoringDescriptionAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonitoringDescriptionAttribute::*)(::Il2CppString*)>(&MonitoringDescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonitoringDescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonitoringDescriptionAttribute::*)(::Il2CppString*)>(&MonitoringDescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonitoringDescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MonitoringDescriptionAttribute::get_Description
+// Il2CppName: get_Description
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MonitoringDescriptionAttribute::*)()>(&MonitoringDescriptionAttribute::get_Description)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonitoringDescriptionAttribute*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

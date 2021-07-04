@@ -112,83 +112,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ResultObjectiveListItem), 56 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_ResultObjectiveListItemSizeCheck;
   static_assert(sizeof(ResultObjectiveListItem) == 0x40);
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_iconColor
-  // Il2CppName: set_iconColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(UnityEngine::Color)>(&ResultObjectiveListItem::set_iconColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_iconColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_icon
-  // Il2CppName: set_icon
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(UnityEngine::Sprite*)>(&ResultObjectiveListItem::set_icon)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_iconGlow
-  // Il2CppName: set_iconGlow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(UnityEngine::Sprite*)>(&ResultObjectiveListItem::set_iconGlow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_iconGlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_title
-  // Il2CppName: set_title
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(::Il2CppString*)>(&ResultObjectiveListItem::set_title)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_conditionText
-  // Il2CppName: set_conditionText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(::Il2CppString*)>(&ResultObjectiveListItem::set_conditionText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_conditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_hideConditionText
-  // Il2CppName: set_hideConditionText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(bool)>(&ResultObjectiveListItem::set_hideConditionText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_hideConditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_valueText
-  // Il2CppName: set_valueText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(::Il2CppString*)>(&ResultObjectiveListItem::set_valueText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_valueText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::set_hideValueText
-  // Il2CppName: set_hideValueText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(bool)>(&ResultObjectiveListItem::set_hideValueText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_hideValueText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResultObjectiveListItem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)()>(&ResultObjectiveListItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)()>(&ResultObjectiveListItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItem*, "", "ResultObjectiveListItem");
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_iconColor
+// Il2CppName: set_iconColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(UnityEngine::Color)>(&ResultObjectiveListItem::set_iconColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_iconColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_icon
+// Il2CppName: set_icon
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(UnityEngine::Sprite*)>(&ResultObjectiveListItem::set_icon)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_iconGlow
+// Il2CppName: set_iconGlow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(UnityEngine::Sprite*)>(&ResultObjectiveListItem::set_iconGlow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_iconGlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_title
+// Il2CppName: set_title
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(::Il2CppString*)>(&ResultObjectiveListItem::set_title)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_conditionText
+// Il2CppName: set_conditionText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(::Il2CppString*)>(&ResultObjectiveListItem::set_conditionText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_conditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_hideConditionText
+// Il2CppName: set_hideConditionText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(bool)>(&ResultObjectiveListItem::set_hideConditionText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_hideConditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_valueText
+// Il2CppName: set_valueText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(::Il2CppString*)>(&ResultObjectiveListItem::set_valueText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_valueText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::set_hideValueText
+// Il2CppName: set_hideValueText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)(bool)>(&ResultObjectiveListItem::set_hideValueText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), "set_hideValueText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResultObjectiveListItem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)()>(&ResultObjectiveListItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultObjectiveListItem::*)()>(&ResultObjectiveListItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResultObjectiveListItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -68,67 +68,67 @@ namespace System::Security::Principal {
   #pragma pack(pop)
   static check_size<sizeof(WindowsImpersonationContext), 24 + sizeof(bool)> __System_Security_Principal_WindowsImpersonationContextSizeCheck;
   static_assert(sizeof(WindowsImpersonationContext) == 0x19);
-  // Writing MetadataGetter for method: WindowsImpersonationContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)(System::IntPtr)>(&WindowsImpersonationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)(System::IntPtr)>(&WindowsImpersonationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsImpersonationContext::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)()>(&WindowsImpersonationContext::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsImpersonationContext::Undo
-  // Il2CppName: Undo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)()>(&WindowsImpersonationContext::Undo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsImpersonationContext::CloseToken
-  // Il2CppName: CloseToken
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&WindowsImpersonationContext::CloseToken)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "CloseToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsImpersonationContext::DuplicateToken
-  // Il2CppName: DuplicateToken
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&WindowsImpersonationContext::DuplicateToken)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "DuplicateToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsImpersonationContext::SetCurrentToken
-  // Il2CppName: SetCurrentToken
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&WindowsImpersonationContext::SetCurrentToken)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "SetCurrentToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: WindowsImpersonationContext::RevertToSelf
-  // Il2CppName: RevertToSelf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&WindowsImpersonationContext::RevertToSelf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "RevertToSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsImpersonationContext*, "System.Security.Principal", "WindowsImpersonationContext");
+// Writing MetadataGetter for method: WindowsImpersonationContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)(System::IntPtr)>(&WindowsImpersonationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)(System::IntPtr)>(&WindowsImpersonationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsImpersonationContext::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)()>(&WindowsImpersonationContext::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WindowsImpersonationContext::Undo
+// Il2CppName: Undo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsImpersonationContext::*)()>(&WindowsImpersonationContext::Undo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WindowsImpersonationContext::CloseToken
+// Il2CppName: CloseToken
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&WindowsImpersonationContext::CloseToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "CloseToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsImpersonationContext::DuplicateToken
+// Il2CppName: DuplicateToken
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&WindowsImpersonationContext::DuplicateToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "DuplicateToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsImpersonationContext::SetCurrentToken
+// Il2CppName: SetCurrentToken
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&WindowsImpersonationContext::SetCurrentToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "SetCurrentToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: WindowsImpersonationContext::RevertToSelf
+// Il2CppName: RevertToSelf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&WindowsImpersonationContext::RevertToSelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WindowsImpersonationContext*), "RevertToSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

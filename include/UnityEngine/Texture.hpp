@@ -132,179 +132,179 @@ namespace UnityEngine {
     static void _cctor();
   }; // UnityEngine.Texture
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Texture::get_mipmapCount
-  // Il2CppName: get_mipmapCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::get_mipmapCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "get_mipmapCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::GetDataWidth
-  // Il2CppName: GetDataWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::GetDataWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "GetDataWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::GetDataHeight
-  // Il2CppName: GetDataHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::GetDataHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "GetDataHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::get_width
-  // Il2CppName: get_width
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::get_width)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::set_width
-  // Il2CppName: set_width
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(int)>(&Texture::set_width)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::get_height
-  // Il2CppName: get_height
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::get_height)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::set_height
-  // Il2CppName: set_height
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(int)>(&Texture::set_height)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::set_dimension
-  // Il2CppName: set_dimension
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::Rendering::TextureDimension)>(&Texture::set_dimension)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "set_dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::TextureDimension>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::get_isReadable
-  // Il2CppName: get_isReadable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Texture::*)()>(&Texture::get_isReadable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "get_isReadable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::get_wrapMode
-  // Il2CppName: get_wrapMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextureWrapMode (Texture::*)()>(&Texture::get_wrapMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "get_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::set_wrapMode
-  // Il2CppName: set_wrapMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::TextureWrapMode)>(&Texture::set_wrapMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "set_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureWrapMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::set_filterMode
-  // Il2CppName: set_filterMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::FilterMode)>(&Texture::set_filterMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "set_filterMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::FilterMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::set_mipMapBias
-  // Il2CppName: set_mipMapBias
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(float)>(&Texture::set_mipMapBias)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "set_mipMapBias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::get_texelSize
-  // Il2CppName: get_texelSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Texture::*)()>(&Texture::get_texelSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "get_texelSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::GetNativeTexturePtr
-  // Il2CppName: GetNativeTexturePtr
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Texture::*)()>(&Texture::GetNativeTexturePtr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "GetNativeTexturePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::ValidateFormat
-  // Il2CppName: ValidateFormat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Texture::*)(UnityEngine::TextureFormat)>(&Texture::ValidateFormat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "ValidateFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::ValidateFormat
-  // Il2CppName: ValidateFormat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Texture::*)(UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::FormatUsage)>(&Texture::ValidateFormat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "ValidateFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::FormatUsage>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::CreateNonReadableException
-  // Il2CppName: CreateNonReadableException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UnityException* (Texture::*)(UnityEngine::Texture*)>(&Texture::CreateNonReadableException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "CreateNonReadableException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::get_texelSize_Injected
-  // Il2CppName: get_texelSize_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::Vector2&)>(&Texture::get_texelSize_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), "get_texelSize_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)()>(&Texture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)()>(&Texture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Texture::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Texture::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Texture*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture*, "UnityEngine", "Texture");
+// Writing MetadataGetter for method: Texture::get_mipmapCount
+// Il2CppName: get_mipmapCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::get_mipmapCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "get_mipmapCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::GetDataWidth
+// Il2CppName: GetDataWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::GetDataWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "GetDataWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::GetDataHeight
+// Il2CppName: GetDataHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::GetDataHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "GetDataHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::get_width
+// Il2CppName: get_width
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::get_width)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::set_width
+// Il2CppName: set_width
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(int)>(&Texture::set_width)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::get_height
+// Il2CppName: get_height
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Texture::*)()>(&Texture::get_height)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::set_height
+// Il2CppName: set_height
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(int)>(&Texture::set_height)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::set_dimension
+// Il2CppName: set_dimension
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::Rendering::TextureDimension)>(&Texture::set_dimension)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "set_dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::TextureDimension>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::get_isReadable
+// Il2CppName: get_isReadable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Texture::*)()>(&Texture::get_isReadable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "get_isReadable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::get_wrapMode
+// Il2CppName: get_wrapMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextureWrapMode (Texture::*)()>(&Texture::get_wrapMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "get_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::set_wrapMode
+// Il2CppName: set_wrapMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::TextureWrapMode)>(&Texture::set_wrapMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "set_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureWrapMode>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::set_filterMode
+// Il2CppName: set_filterMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::FilterMode)>(&Texture::set_filterMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "set_filterMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::FilterMode>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::set_mipMapBias
+// Il2CppName: set_mipMapBias
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(float)>(&Texture::set_mipMapBias)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "set_mipMapBias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::get_texelSize
+// Il2CppName: get_texelSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Texture::*)()>(&Texture::get_texelSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "get_texelSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::GetNativeTexturePtr
+// Il2CppName: GetNativeTexturePtr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Texture::*)()>(&Texture::GetNativeTexturePtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "GetNativeTexturePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::ValidateFormat
+// Il2CppName: ValidateFormat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Texture::*)(UnityEngine::TextureFormat)>(&Texture::ValidateFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "ValidateFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::ValidateFormat
+// Il2CppName: ValidateFormat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Texture::*)(UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::FormatUsage)>(&Texture::ValidateFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "ValidateFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::FormatUsage>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::CreateNonReadableException
+// Il2CppName: CreateNonReadableException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UnityException* (Texture::*)(UnityEngine::Texture*)>(&Texture::CreateNonReadableException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "CreateNonReadableException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::get_texelSize_Injected
+// Il2CppName: get_texelSize_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)(UnityEngine::Vector2&)>(&Texture::get_texelSize_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), "get_texelSize_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: Texture::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)()>(&Texture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Texture::*)()>(&Texture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Texture::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Texture::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Texture*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

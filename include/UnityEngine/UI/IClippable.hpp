@@ -46,54 +46,54 @@ namespace UnityEngine::UI {
     void SetClipSoftness(UnityEngine::Vector2 clipSoftness);
   }; // UnityEngine.UI.IClippable
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IClippable::get_gameObject
-  // Il2CppName: get_gameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IClippable::*)()>(&IClippable::get_gameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IClippable*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IClippable::RecalculateClipping
-  // Il2CppName: RecalculateClipping
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)()>(&IClippable::RecalculateClipping)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IClippable*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IClippable::get_rectTransform
-  // Il2CppName: get_rectTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (IClippable::*)()>(&IClippable::get_rectTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IClippable*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IClippable::Cull
-  // Il2CppName: Cull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Rect, bool)>(&IClippable::Cull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IClippable*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IClippable::SetClipRect
-  // Il2CppName: SetClipRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Rect, bool)>(&IClippable::SetClipRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IClippable*), "SetClipRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IClippable::SetClipSoftness
-  // Il2CppName: SetClipSoftness
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Vector2)>(&IClippable::SetClipSoftness)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IClippable*), "SetClipSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClippable*, "UnityEngine.UI", "IClippable");
+// Writing MetadataGetter for method: IClippable::get_gameObject
+// Il2CppName: get_gameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IClippable::*)()>(&IClippable::get_gameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IClippable*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IClippable::RecalculateClipping
+// Il2CppName: RecalculateClipping
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)()>(&IClippable::RecalculateClipping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IClippable*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IClippable::get_rectTransform
+// Il2CppName: get_rectTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (IClippable::*)()>(&IClippable::get_rectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IClippable*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IClippable::Cull
+// Il2CppName: Cull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Rect, bool)>(&IClippable::Cull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IClippable*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IClippable::SetClipRect
+// Il2CppName: SetClipRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Rect, bool)>(&IClippable::SetClipRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IClippable*), "SetClipRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IClippable::SetClipSoftness
+// Il2CppName: SetClipSoftness
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Vector2)>(&IClippable::SetClipSoftness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IClippable*), "SetClipSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};

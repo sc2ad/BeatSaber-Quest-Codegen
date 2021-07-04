@@ -131,115 +131,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRController), 56 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_VRControllerSizeCheck;
   static_assert(sizeof(VRController) == 0x44);
-  // Writing MetadataGetter for method: VRController::get_node
-  // Il2CppName: get_node
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (VRController::*)()>(&VRController::get_node)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::set_node
-  // Il2CppName: set_node
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)(UnityEngine::XR::XRNode)>(&VRController::set_node)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "set_node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_nodeIdx
-  // Il2CppName: get_nodeIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRController::*)()>(&VRController::get_nodeIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_nodeIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::set_nodeIdx
-  // Il2CppName: set_nodeIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)(int)>(&VRController::set_nodeIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "set_nodeIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_position
-  // Il2CppName: get_position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRController::*)()>(&VRController::get_position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_rotation
-  // Il2CppName: get_rotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (VRController::*)()>(&VRController::get_rotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_forward
-  // Il2CppName: get_forward
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRController::*)()>(&VRController::get_forward)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_forward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_triggerValue
-  // Il2CppName: get_triggerValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRController::*)()>(&VRController::get_triggerValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_triggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_verticalAxisValue
-  // Il2CppName: get_verticalAxisValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRController::*)()>(&VRController::get_verticalAxisValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_verticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_horizontalAxisValue
-  // Il2CppName: get_horizontalAxisValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRController::*)()>(&VRController::get_horizontalAxisValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_horizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::get_active
-  // Il2CppName: get_active
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRController::*)()>(&VRController::get_active)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)()>(&VRController::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)()>(&VRController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)()>(&VRController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRController*, "", "VRController");
+// Writing MetadataGetter for method: VRController::get_node
+// Il2CppName: get_node
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (VRController::*)()>(&VRController::get_node)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::set_node
+// Il2CppName: set_node
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)(UnityEngine::XR::XRNode)>(&VRController::set_node)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "set_node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_nodeIdx
+// Il2CppName: get_nodeIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRController::*)()>(&VRController::get_nodeIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_nodeIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::set_nodeIdx
+// Il2CppName: set_nodeIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)(int)>(&VRController::set_nodeIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "set_nodeIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_position
+// Il2CppName: get_position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRController::*)()>(&VRController::get_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_rotation
+// Il2CppName: get_rotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (VRController::*)()>(&VRController::get_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_forward
+// Il2CppName: get_forward
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRController::*)()>(&VRController::get_forward)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_forward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_triggerValue
+// Il2CppName: get_triggerValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRController::*)()>(&VRController::get_triggerValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_triggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_verticalAxisValue
+// Il2CppName: get_verticalAxisValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRController::*)()>(&VRController::get_verticalAxisValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_verticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_horizontalAxisValue
+// Il2CppName: get_horizontalAxisValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRController::*)()>(&VRController::get_horizontalAxisValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_horizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::get_active
+// Il2CppName: get_active
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRController::*)()>(&VRController::get_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)()>(&VRController::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)()>(&VRController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRController::*)()>(&VRController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

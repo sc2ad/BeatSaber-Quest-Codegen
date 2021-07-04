@@ -569,537 +569,537 @@ namespace GlobalNamespace {
     static bool ShouldResolveController(GlobalNamespace::OVRInput::Controller controllerType, GlobalNamespace::OVRInput::Controller controllerMask);
   }; // OVRInput
   #pragma pack(pop)
-  // Writing MetadataGetter for method: OVRInput::get_pluginSupportsActiveController
-  // Il2CppName: get_pluginSupportsActiveController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRInput::get_pluginSupportsActiveController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "get_pluginSupportsActiveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::FixedUpdate
-  // Il2CppName: FixedUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::FixedUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetControllerOrientationTracked
-  // Il2CppName: GetControllerOrientationTracked
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerOrientationTracked)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerOrientationTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetControllerOrientationValid
-  // Il2CppName: GetControllerOrientationValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerOrientationValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerOrientationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetControllerPositionTracked
-  // Il2CppName: GetControllerPositionTracked
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerPositionTracked)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerPositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetControllerPositionValid
-  // Il2CppName: GetControllerPositionValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerPositionValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerPositionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetLocalControllerPosition
-  // Il2CppName: GetLocalControllerPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetLocalControllerVelocity
-  // Il2CppName: GetLocalControllerVelocity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerVelocity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetLocalControllerAcceleration
-  // Il2CppName: GetLocalControllerAcceleration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerAcceleration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetLocalControllerRotation
-  // Il2CppName: GetLocalControllerRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetLocalControllerAngularVelocity
-  // Il2CppName: GetLocalControllerAngularVelocity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerAngularVelocity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetLocalControllerAngularAcceleration
-  // Il2CppName: GetLocalControllerAngularAcceleration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerAngularAcceleration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetDominantHand
-  // Il2CppName: GetDominantHand
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Handedness (*)()>(&OVRInput::GetDominantHand)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDominantHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedButton
-  // Il2CppName: GetResolvedButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetDown
-  // Il2CppName: GetDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetDown
-  // Il2CppName: GetDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedButtonDown
-  // Il2CppName: GetResolvedButtonDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedButtonDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetUp
-  // Il2CppName: GetUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetUp
-  // Il2CppName: GetUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedButtonUp
-  // Il2CppName: GetResolvedButtonUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedButtonUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedButtonUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedTouch
-  // Il2CppName: GetResolvedTouch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedTouch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetDown
-  // Il2CppName: GetDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetDown
-  // Il2CppName: GetDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedTouchDown
-  // Il2CppName: GetResolvedTouchDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedTouchDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetUp
-  // Il2CppName: GetUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetUp
-  // Il2CppName: GetUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedTouchUp
-  // Il2CppName: GetResolvedTouchUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedTouchUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedNearTouch
-  // Il2CppName: GetResolvedNearTouch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedNearTouch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedNearTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetDown
-  // Il2CppName: GetDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetDown
-  // Il2CppName: GetDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedNearTouchDown
-  // Il2CppName: GetResolvedNearTouchDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedNearTouchDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedNearTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetUp
-  // Il2CppName: GetUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetUp
-  // Il2CppName: GetUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedNearTouchUp
-  // Il2CppName: GetResolvedNearTouchUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedNearTouchUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedNearTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::Axis1D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::RawAxis1D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedAxis1D
-  // Il2CppName: GetResolvedAxis1D
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::Axis1D, GlobalNamespace::OVRInput::RawAxis1D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedAxis1D)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedAxis1D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::Axis2D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::RawAxis2D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetResolvedAxis2D
-  // Il2CppName: GetResolvedAxis2D
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::Axis2D, GlobalNamespace::OVRInput::RawAxis2D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedAxis2D)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedAxis2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetConnectedControllers
-  // Il2CppName: GetConnectedControllers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Controller (*)()>(&OVRInput::GetConnectedControllers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetConnectedControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::IsControllerConnected
-  // Il2CppName: IsControllerConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::IsControllerConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "IsControllerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetActiveController
-  // Il2CppName: GetActiveController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Controller (*)()>(&OVRInput::GetActiveController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetActiveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::StartVibration
-  // Il2CppName: StartVibration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, UnityEngine::XR::XRNode)>(&OVRInput::StartVibration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "StartVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::SetOpenVRLocalPose
-  // Il2CppName: SetOpenVRLocalPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&OVRInput::SetOpenVRLocalPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "SetOpenVRLocalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetOpenVRStringProperty
-  // Il2CppName: GetOpenVRStringProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(OVR::OpenVR::ETrackedDeviceProperty, uint)>(&OVRInput::GetOpenVRStringProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetOpenVRStringProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::UpdateXRControllerNodeIds
-  // Il2CppName: UpdateXRControllerNodeIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::UpdateXRControllerNodeIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "UpdateXRControllerNodeIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::UpdateXRControllerHaptics
-  // Il2CppName: UpdateXRControllerHaptics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::UpdateXRControllerHaptics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "UpdateXRControllerHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::InitHapticInfo
-  // Il2CppName: InitHapticInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::InitHapticInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "InitHapticInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::PlayHapticImpulse
-  // Il2CppName: PlayHapticImpulse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::XR::XRNode)>(&OVRInput::PlayHapticImpulse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "PlayHapticImpulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::IsValidOpenVRDevice
-  // Il2CppName: IsValidOpenVRDevice
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&OVRInput::IsValidOpenVRDevice)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "IsValidOpenVRDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::SetControllerVibration
-  // Il2CppName: SetControllerVibration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, GlobalNamespace::OVRInput::Controller)>(&OVRInput::SetControllerVibration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "SetControllerVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::GetControllerBatteryPercentRemaining
-  // Il2CppName: GetControllerBatteryPercentRemaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerBatteryPercentRemaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::CalculateAbsMax
-  // Il2CppName: CalculateAbsMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&OVRInput::CalculateAbsMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::CalculateAbsMax
-  // Il2CppName: CalculateAbsMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&OVRInput::CalculateAbsMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::CalculateDeadzone
-  // Il2CppName: CalculateDeadzone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, float)>(&OVRInput::CalculateDeadzone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::CalculateDeadzone
-  // Il2CppName: CalculateDeadzone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&OVRInput::CalculateDeadzone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::ShouldResolveController
-  // Il2CppName: ShouldResolveController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller, GlobalNamespace::OVRInput::Controller)>(&OVRInput::ShouldResolveController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput*), "ShouldResolveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Controller, "", "OVRInput/Controller");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRController, "", "OVRInput/OpenVRController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");
+// Writing MetadataGetter for method: OVRInput::get_pluginSupportsActiveController
+// Il2CppName: get_pluginSupportsActiveController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRInput::get_pluginSupportsActiveController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "get_pluginSupportsActiveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::FixedUpdate
+// Il2CppName: FixedUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetControllerOrientationTracked
+// Il2CppName: GetControllerOrientationTracked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerOrientationTracked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerOrientationTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetControllerOrientationValid
+// Il2CppName: GetControllerOrientationValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerOrientationValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerOrientationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetControllerPositionTracked
+// Il2CppName: GetControllerPositionTracked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerPositionTracked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerPositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetControllerPositionValid
+// Il2CppName: GetControllerPositionValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerPositionValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerPositionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetLocalControllerPosition
+// Il2CppName: GetLocalControllerPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetLocalControllerVelocity
+// Il2CppName: GetLocalControllerVelocity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerVelocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetLocalControllerAcceleration
+// Il2CppName: GetLocalControllerAcceleration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerAcceleration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetLocalControllerRotation
+// Il2CppName: GetLocalControllerRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetLocalControllerAngularVelocity
+// Il2CppName: GetLocalControllerAngularVelocity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerAngularVelocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetLocalControllerAngularAcceleration
+// Il2CppName: GetLocalControllerAngularAcceleration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetLocalControllerAngularAcceleration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetLocalControllerAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetDominantHand
+// Il2CppName: GetDominantHand
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Handedness (*)()>(&OVRInput::GetDominantHand)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDominantHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedButton
+// Il2CppName: GetResolvedButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetDown
+// Il2CppName: GetDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetDown
+// Il2CppName: GetDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedButtonDown
+// Il2CppName: GetResolvedButtonDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedButtonDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetUp
+// Il2CppName: GetUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetUp
+// Il2CppName: GetUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedButtonUp
+// Il2CppName: GetResolvedButtonUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedButtonUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedButtonUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedTouch
+// Il2CppName: GetResolvedTouch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedTouch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetDown
+// Il2CppName: GetDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetDown
+// Il2CppName: GetDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedTouchDown
+// Il2CppName: GetResolvedTouchDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedTouchDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetUp
+// Il2CppName: GetUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetUp
+// Il2CppName: GetUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedTouchUp
+// Il2CppName: GetResolvedTouchUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedTouchUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedNearTouch
+// Il2CppName: GetResolvedNearTouch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedNearTouch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedNearTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetDown
+// Il2CppName: GetDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetDown
+// Il2CppName: GetDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedNearTouchDown
+// Il2CppName: GetResolvedNearTouchDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedNearTouchDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedNearTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetUp
+// Il2CppName: GetUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetUp
+// Il2CppName: GetUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedNearTouchUp
+// Il2CppName: GetResolvedNearTouchUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedNearTouchUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedNearTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::Axis1D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::RawAxis1D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedAxis1D
+// Il2CppName: GetResolvedAxis1D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::Axis1D, GlobalNamespace::OVRInput::RawAxis1D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedAxis1D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedAxis1D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::Axis2D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::RawAxis2D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetResolvedAxis2D
+// Il2CppName: GetResolvedAxis2D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::Axis2D, GlobalNamespace::OVRInput::RawAxis2D, GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetResolvedAxis2D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetResolvedAxis2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetConnectedControllers
+// Il2CppName: GetConnectedControllers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Controller (*)()>(&OVRInput::GetConnectedControllers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetConnectedControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::IsControllerConnected
+// Il2CppName: IsControllerConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::IsControllerConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "IsControllerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetActiveController
+// Il2CppName: GetActiveController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Controller (*)()>(&OVRInput::GetActiveController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetActiveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::StartVibration
+// Il2CppName: StartVibration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, UnityEngine::XR::XRNode)>(&OVRInput::StartVibration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "StartVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::SetOpenVRLocalPose
+// Il2CppName: SetOpenVRLocalPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&OVRInput::SetOpenVRLocalPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "SetOpenVRLocalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetOpenVRStringProperty
+// Il2CppName: GetOpenVRStringProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(OVR::OpenVR::ETrackedDeviceProperty, uint)>(&OVRInput::GetOpenVRStringProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetOpenVRStringProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::UpdateXRControllerNodeIds
+// Il2CppName: UpdateXRControllerNodeIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::UpdateXRControllerNodeIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "UpdateXRControllerNodeIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::UpdateXRControllerHaptics
+// Il2CppName: UpdateXRControllerHaptics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::UpdateXRControllerHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "UpdateXRControllerHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::InitHapticInfo
+// Il2CppName: InitHapticInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRInput::InitHapticInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "InitHapticInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::PlayHapticImpulse
+// Il2CppName: PlayHapticImpulse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::XR::XRNode)>(&OVRInput::PlayHapticImpulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "PlayHapticImpulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::IsValidOpenVRDevice
+// Il2CppName: IsValidOpenVRDevice
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&OVRInput::IsValidOpenVRDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "IsValidOpenVRDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::SetControllerVibration
+// Il2CppName: SetControllerVibration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, GlobalNamespace::OVRInput::Controller)>(&OVRInput::SetControllerVibration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "SetControllerVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::GetControllerBatteryPercentRemaining
+// Il2CppName: GetControllerBatteryPercentRemaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(GlobalNamespace::OVRInput::Controller)>(&OVRInput::GetControllerBatteryPercentRemaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "GetControllerBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::CalculateAbsMax
+// Il2CppName: CalculateAbsMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&OVRInput::CalculateAbsMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::CalculateAbsMax
+// Il2CppName: CalculateAbsMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&OVRInput::CalculateAbsMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::CalculateDeadzone
+// Il2CppName: CalculateDeadzone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, float)>(&OVRInput::CalculateDeadzone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::CalculateDeadzone
+// Il2CppName: CalculateDeadzone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&OVRInput::CalculateDeadzone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::ShouldResolveController
+// Il2CppName: ShouldResolveController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller, GlobalNamespace::OVRInput::Controller)>(&OVRInput::ShouldResolveController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput*), "ShouldResolveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+  }
+};

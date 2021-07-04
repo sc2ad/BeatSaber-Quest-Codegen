@@ -61,14 +61,14 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_WordInfo), 16 + sizeof(int)> __TMPro_TMP_WordInfoSizeCheck;
   static_assert(sizeof(TMP_WordInfo) == 0x14);
-  // Writing MetadataGetter for method: TMP_WordInfo::GetWord
-  // Il2CppName: GetWord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_WordInfo::*)()>(&TMP_WordInfo::GetWord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_WordInfo), "GetWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
+// Writing MetadataGetter for method: TMP_WordInfo::GetWord
+// Il2CppName: GetWord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_WordInfo::*)()>(&TMP_WordInfo::GetWord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_WordInfo), "GetWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

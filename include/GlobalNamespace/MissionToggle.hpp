@@ -258,163 +258,163 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionToggle), 155 + sizeof(bool)> __GlobalNamespace_MissionToggleSizeCheck;
   static_assert(sizeof(MissionToggle) == 0x9C);
-  // Writing MetadataGetter for method: MissionToggle::add_selectionDidChangeEvent
-  // Il2CppName: add_selectionDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(System::Action_1<GlobalNamespace::MissionToggle*>*)>(&MissionToggle::add_selectionDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "add_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionToggle*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::remove_selectionDidChangeEvent
-  // Il2CppName: remove_selectionDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(System::Action_1<GlobalNamespace::MissionToggle*>*)>(&MissionToggle::remove_selectionDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "remove_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionToggle*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::set_missionCleared
-  // Il2CppName: set_missionCleared
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool)>(&MissionToggle::set_missionCleared)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "set_missionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::get_selected
-  // Il2CppName: get_selected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionToggle::*)()>(&MissionToggle::get_selected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "get_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::set_selected
-  // Il2CppName: set_selected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool)>(&MissionToggle::set_selected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "set_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::get_interactable
-  // Il2CppName: get_interactable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionToggle::*)()>(&MissionToggle::get_interactable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::set_interactable
-  // Il2CppName: set_interactable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool)>(&MissionToggle::set_interactable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::get_highlighted
-  // Il2CppName: get_highlighted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionToggle::*)()>(&MissionToggle::get_highlighted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "get_highlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::ChangeSelection
-  // Il2CppName: ChangeSelection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool, bool, bool)>(&MissionToggle::ChangeSelection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "ChangeSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::ChangeHighlight
-  // Il2CppName: ChangeHighlight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool, bool)>(&MissionToggle::ChangeHighlight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "ChangeHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::SetText
-  // Il2CppName: SetText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(::Il2CppString*)>(&MissionToggle::SetText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::InternalToggle
-  // Il2CppName: InternalToggle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::InternalToggle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::RefreshUI
-  // Il2CppName: RefreshUI
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::RefreshUI)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::OnPointerClick
-  // Il2CppName: OnPointerClick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::PointerEventData*)>(&MissionToggle::OnPointerClick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::OnSubmit
-  // Il2CppName: OnSubmit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::BaseEventData*)>(&MissionToggle::OnSubmit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::OnPointerEnter
-  // Il2CppName: OnPointerEnter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::PointerEventData*)>(&MissionToggle::OnPointerEnter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::OnPointerExit
-  // Il2CppName: OnPointerExit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::PointerEventData*)>(&MissionToggle::OnPointerExit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionToggle::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionToggle*, "", "MissionToggle");
+// Writing MetadataGetter for method: MissionToggle::add_selectionDidChangeEvent
+// Il2CppName: add_selectionDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(System::Action_1<GlobalNamespace::MissionToggle*>*)>(&MissionToggle::add_selectionDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "add_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionToggle*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::remove_selectionDidChangeEvent
+// Il2CppName: remove_selectionDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(System::Action_1<GlobalNamespace::MissionToggle*>*)>(&MissionToggle::remove_selectionDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "remove_selectionDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionToggle*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::set_missionCleared
+// Il2CppName: set_missionCleared
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool)>(&MissionToggle::set_missionCleared)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "set_missionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::get_selected
+// Il2CppName: get_selected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionToggle::*)()>(&MissionToggle::get_selected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "get_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::set_selected
+// Il2CppName: set_selected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool)>(&MissionToggle::set_selected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "set_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::get_interactable
+// Il2CppName: get_interactable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionToggle::*)()>(&MissionToggle::get_interactable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::set_interactable
+// Il2CppName: set_interactable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool)>(&MissionToggle::set_interactable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::get_highlighted
+// Il2CppName: get_highlighted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionToggle::*)()>(&MissionToggle::get_highlighted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "get_highlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::ChangeSelection
+// Il2CppName: ChangeSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool, bool, bool)>(&MissionToggle::ChangeSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "ChangeSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::ChangeHighlight
+// Il2CppName: ChangeHighlight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(bool, bool)>(&MissionToggle::ChangeHighlight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "ChangeHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::SetText
+// Il2CppName: SetText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(::Il2CppString*)>(&MissionToggle::SetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::InternalToggle
+// Il2CppName: InternalToggle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::InternalToggle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::RefreshUI
+// Il2CppName: RefreshUI
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::RefreshUI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::OnPointerClick
+// Il2CppName: OnPointerClick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::PointerEventData*)>(&MissionToggle::OnPointerClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::OnSubmit
+// Il2CppName: OnSubmit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::BaseEventData*)>(&MissionToggle::OnSubmit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::OnPointerEnter
+// Il2CppName: OnPointerEnter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::PointerEventData*)>(&MissionToggle::OnPointerEnter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::OnPointerExit
+// Il2CppName: OnPointerExit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)(UnityEngine::EventSystems::PointerEventData*)>(&MissionToggle::OnPointerExit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionToggle::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionToggle::*)()>(&MissionToggle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

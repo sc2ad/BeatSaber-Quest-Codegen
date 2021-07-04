@@ -131,91 +131,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLeadPlayerProvider), 72 + sizeof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)> __GlobalNamespace_MultiplayerLeadPlayerProviderSizeCheck;
   static_assert(sizeof(MultiplayerLeadPlayerProvider) == 0x50);
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent
-  // Il2CppName: add_newLeaderWasSelectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(System::Action_1<::Il2CppString*>*)>(&MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "add_newLeaderWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent
-  // Il2CppName: remove_newLeaderWasSelectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(System::Action_1<::Il2CppString*>*)>(&MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "remove_newLeaderWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::StopProviding
-  // Il2CppName: StopProviding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::StopProviding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "StopProviding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::StartProviding
-  // Il2CppName: StartProviding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::StartProviding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "StartProviding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::HandleStateChanged
-  // Il2CppName: HandleStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerLeadPlayerProvider::HandleStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::HandleFirstPlayerDidChange
-  // Il2CppName: HandleFirstPlayerDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&MultiplayerLeadPlayerProvider::HandleFirstPlayerDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "HandleFirstPlayerDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeadPlayerProvider*, "", "MultiplayerLeadPlayerProvider");
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent
+// Il2CppName: add_newLeaderWasSelectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(System::Action_1<::Il2CppString*>*)>(&MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "add_newLeaderWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent
+// Il2CppName: remove_newLeaderWasSelectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(System::Action_1<::Il2CppString*>*)>(&MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "remove_newLeaderWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::StopProviding
+// Il2CppName: StopProviding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::StopProviding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "StopProviding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::StartProviding
+// Il2CppName: StartProviding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::StartProviding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "StartProviding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::HandleStateChanged
+// Il2CppName: HandleStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerLeadPlayerProvider::HandleStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::HandleFirstPlayerDidChange
+// Il2CppName: HandleFirstPlayerDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&MultiplayerLeadPlayerProvider::HandleFirstPlayerDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), "HandleFirstPlayerDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLeadPlayerProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLeadPlayerProvider::*)()>(&MultiplayerLeadPlayerProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLeadPlayerProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

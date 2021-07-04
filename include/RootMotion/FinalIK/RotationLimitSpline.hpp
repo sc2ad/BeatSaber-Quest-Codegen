@@ -89,75 +89,75 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(RotationLimitSpline), 64 + sizeof(UnityEngine::AnimationCurve*)> __RootMotion_FinalIK_RotationLimitSplineSizeCheck;
   static_assert(sizeof(RotationLimitSpline) == 0x48);
-  // Writing MetadataGetter for method: RotationLimitSpline::OpenUserManual
-  // Il2CppName: OpenUserManual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::OpenUserManual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitSpline::OpenScriptReference
-  // Il2CppName: OpenScriptReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::OpenScriptReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitSpline::SupportGroup
-  // Il2CppName: SupportGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::SupportGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitSpline::ASThread
-  // Il2CppName: ASThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::ASThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitSpline::SetSpline
-  // Il2CppName: SetSpline
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)(::Array<UnityEngine::Keyframe>*)>(&RotationLimitSpline::SetSpline)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "SetSpline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Keyframe>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitSpline::LimitSwing
-  // Il2CppName: LimitSwing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitSpline::*)(UnityEngine::Quaternion)>(&RotationLimitSpline::LimitSwing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "LimitSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitSpline::LimitRotation
-  // Il2CppName: LimitRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitSpline::*)(UnityEngine::Quaternion)>(&RotationLimitSpline::LimitRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitSpline::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitSpline*, "RootMotion.FinalIK", "RotationLimitSpline");
+// Writing MetadataGetter for method: RotationLimitSpline::OpenUserManual
+// Il2CppName: OpenUserManual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::OpenUserManual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitSpline::OpenScriptReference
+// Il2CppName: OpenScriptReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::OpenScriptReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitSpline::SupportGroup
+// Il2CppName: SupportGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::SupportGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitSpline::ASThread
+// Il2CppName: ASThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::ASThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitSpline::SetSpline
+// Il2CppName: SetSpline
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)(::Array<UnityEngine::Keyframe>*)>(&RotationLimitSpline::SetSpline)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "SetSpline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Keyframe>*>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitSpline::LimitSwing
+// Il2CppName: LimitSwing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitSpline::*)(UnityEngine::Quaternion)>(&RotationLimitSpline::LimitSwing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "LimitSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitSpline::LimitRotation
+// Il2CppName: LimitRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitSpline::*)(UnityEngine::Quaternion)>(&RotationLimitSpline::LimitRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitSpline::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitSpline::*)()>(&RotationLimitSpline::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -30,22 +30,22 @@ namespace Zenject {
     void FinalizeBinding(Zenject::DiContainer* container);
   }; // Zenject.IBindingFinalizer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IBindingFinalizer::get_BindingInheritanceMethod
-  // Il2CppName: get_BindingInheritanceMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (IBindingFinalizer::*)()>(&IBindingFinalizer::get_BindingInheritanceMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IBindingFinalizer::FinalizeBinding
-  // Il2CppName: FinalizeBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IBindingFinalizer::*)(Zenject::DiContainer*)>(&IBindingFinalizer::FinalizeBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IBindingFinalizer*, "Zenject", "IBindingFinalizer");
+// Writing MetadataGetter for method: IBindingFinalizer::get_BindingInheritanceMethod
+// Il2CppName: get_BindingInheritanceMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (IBindingFinalizer::*)()>(&IBindingFinalizer::get_BindingInheritanceMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IBindingFinalizer::FinalizeBinding
+// Il2CppName: FinalizeBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IBindingFinalizer::*)(Zenject::DiContainer*)>(&IBindingFinalizer::FinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};

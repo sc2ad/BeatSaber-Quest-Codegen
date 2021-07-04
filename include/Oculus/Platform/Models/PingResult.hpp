@@ -51,51 +51,51 @@ namespace Oculus::Platform::Models {
     bool get_IsTimeout();
   }; // Oculus.Platform.Models.PingResult
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: PingResult::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PingResult::*)(uint64_t, System::Nullable_1<uint64_t>)>(&PingResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PingResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<uint64_t>>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PingResult::*)(uint64_t, System::Nullable_1<uint64_t>)>(&PingResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PingResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<uint64_t>>()});
-    }
-  };
-  // Writing MetadataGetter for method: PingResult::get_ID
-  // Il2CppName: get_ID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (PingResult::*)()>(&PingResult::get_ID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PingResult*), "get_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PingResult::set_ID
-  // Il2CppName: set_ID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PingResult::*)(uint64_t)>(&PingResult::set_ID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PingResult*), "set_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: PingResult::get_PingTimeUsec
-  // Il2CppName: get_PingTimeUsec
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (PingResult::*)()>(&PingResult::get_PingTimeUsec)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PingResult*), "get_PingTimeUsec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PingResult::get_IsTimeout
-  // Il2CppName: get_IsTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PingResult::*)()>(&PingResult::get_IsTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PingResult*), "get_IsTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");
+// Writing MetadataGetter for method: PingResult::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PingResult::*)(uint64_t, System::Nullable_1<uint64_t>)>(&PingResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PingResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<uint64_t>>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PingResult::*)(uint64_t, System::Nullable_1<uint64_t>)>(&PingResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PingResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<uint64_t>>()});
+  }
+};
+// Writing MetadataGetter for method: PingResult::get_ID
+// Il2CppName: get_ID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (PingResult::*)()>(&PingResult::get_ID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PingResult*), "get_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PingResult::set_ID
+// Il2CppName: set_ID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PingResult::*)(uint64_t)>(&PingResult::set_ID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PingResult*), "set_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: PingResult::get_PingTimeUsec
+// Il2CppName: get_PingTimeUsec
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (PingResult::*)()>(&PingResult::get_PingTimeUsec)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PingResult*), "get_PingTimeUsec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PingResult::get_IsTimeout
+// Il2CppName: get_IsTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PingResult::*)()>(&PingResult::get_IsTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PingResult*), "get_IsTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

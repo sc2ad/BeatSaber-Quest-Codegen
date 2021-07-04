@@ -76,78 +76,78 @@ namespace System::Net {
     static void _cctor();
   }; // System.Net.WebUtility
   #pragma pack(pop)
-  // Writing MetadataGetter for method: WebUtility::HtmlEncode
-  // Il2CppName: HtmlEncode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&WebUtility::HtmlEncode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "HtmlEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::HtmlEncode
-  // Il2CppName: HtmlEncode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::IO::TextWriter*)>(&WebUtility::HtmlEncode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "HtmlEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::IndexOfHtmlEncodingChars
-  // Il2CppName: IndexOfHtmlEncodingChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&WebUtility::IndexOfHtmlEncodingChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "IndexOfHtmlEncodingChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::get_HtmlEncodeConformance
-  // Il2CppName: get_HtmlEncodeConformance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Configuration::UnicodeEncodingConformance (*)()>(&WebUtility::get_HtmlEncodeConformance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "get_HtmlEncodeConformance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::UrlDecodeInternal
-  // Il2CppName: UrlDecodeInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Text::Encoding*)>(&WebUtility::UrlDecodeInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "UrlDecodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::UrlDecode
-  // Il2CppName: UrlDecode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&WebUtility::UrlDecode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "UrlDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate
-  // Il2CppName: GetNextUnicodeScalarValueFromUtf16Surrogate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*&, int&)>(&WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "GetNextUnicodeScalarValueFromUtf16Surrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::HexToInt
-  // Il2CppName: HexToInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&WebUtility::HexToInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), "HexToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebUtility::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebUtility::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility*, "System.Net", "WebUtility");
+// Writing MetadataGetter for method: WebUtility::HtmlEncode
+// Il2CppName: HtmlEncode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&WebUtility::HtmlEncode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "HtmlEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::HtmlEncode
+// Il2CppName: HtmlEncode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::IO::TextWriter*)>(&WebUtility::HtmlEncode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "HtmlEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::IndexOfHtmlEncodingChars
+// Il2CppName: IndexOfHtmlEncodingChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&WebUtility::IndexOfHtmlEncodingChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "IndexOfHtmlEncodingChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::get_HtmlEncodeConformance
+// Il2CppName: get_HtmlEncodeConformance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Configuration::UnicodeEncodingConformance (*)()>(&WebUtility::get_HtmlEncodeConformance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "get_HtmlEncodeConformance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::UrlDecodeInternal
+// Il2CppName: UrlDecodeInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Text::Encoding*)>(&WebUtility::UrlDecodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "UrlDecodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::UrlDecode
+// Il2CppName: UrlDecode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&WebUtility::UrlDecode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "UrlDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate
+// Il2CppName: GetNextUnicodeScalarValueFromUtf16Surrogate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*&, int&)>(&WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "GetNextUnicodeScalarValueFromUtf16Surrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::HexToInt
+// Il2CppName: HexToInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&WebUtility::HexToInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), "HexToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: WebUtility::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebUtility::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

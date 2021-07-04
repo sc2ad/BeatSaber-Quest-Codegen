@@ -60,54 +60,54 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
   static check_size<sizeof(RenderPipeline), 16 + sizeof(bool)> __UnityEngine_Rendering_RenderPipelineSizeCheck;
   static_assert(sizeof(RenderPipeline) == 0x11);
-  // Writing MetadataGetter for method: RenderPipeline::Render
-  // Il2CppName: Render
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&RenderPipeline::Render)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RenderPipeline::InternalRender
-  // Il2CppName: InternalRender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&RenderPipeline::InternalRender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "InternalRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RenderPipeline::get_disposed
-  // Il2CppName: get_disposed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RenderPipeline::*)()>(&RenderPipeline::get_disposed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "get_disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RenderPipeline::set_disposed
-  // Il2CppName: set_disposed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(bool)>(&RenderPipeline::set_disposed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "set_disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RenderPipeline::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)()>(&RenderPipeline::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RenderPipeline::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(bool)>(&RenderPipeline::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipeline*, "UnityEngine.Rendering", "RenderPipeline");
+// Writing MetadataGetter for method: RenderPipeline::Render
+// Il2CppName: Render
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&RenderPipeline::Render)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*>()});
+  }
+};
+// Writing MetadataGetter for method: RenderPipeline::InternalRender
+// Il2CppName: InternalRender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&RenderPipeline::InternalRender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "InternalRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*>()});
+  }
+};
+// Writing MetadataGetter for method: RenderPipeline::get_disposed
+// Il2CppName: get_disposed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RenderPipeline::*)()>(&RenderPipeline::get_disposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "get_disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RenderPipeline::set_disposed
+// Il2CppName: set_disposed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(bool)>(&RenderPipeline::set_disposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "set_disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RenderPipeline::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)()>(&RenderPipeline::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RenderPipeline::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderPipeline::*)(bool)>(&RenderPipeline::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderPipeline*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

@@ -39,30 +39,30 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static void WriteWithCode(System::Type* type, ::Il2CppObject* value, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
   }; // System.Runtime.Serialization.Formatters.Binary.IOUtil
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IOUtil::FlagTest
-  // Il2CppName: FlagTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Serialization::Formatters::Binary::MessageEnum, System::Runtime::Serialization::Formatters::Binary::MessageEnum)>(&IOUtil::FlagTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IOUtil*), "FlagTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::MessageEnum>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::MessageEnum>()});
-    }
-  };
-  // Writing MetadataGetter for method: IOUtil::WriteStringWithCode
-  // Il2CppName: WriteStringWithCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&IOUtil::WriteStringWithCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IOUtil*), "WriteStringWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IOUtil::WriteWithCode
-  // Il2CppName: WriteWithCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&IOUtil::WriteWithCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IOUtil*), "WriteWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IOUtil*, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");
+// Writing MetadataGetter for method: IOUtil::FlagTest
+// Il2CppName: FlagTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Serialization::Formatters::Binary::MessageEnum, System::Runtime::Serialization::Formatters::Binary::MessageEnum)>(&IOUtil::FlagTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IOUtil*), "FlagTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::MessageEnum>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::MessageEnum>()});
+  }
+};
+// Writing MetadataGetter for method: IOUtil::WriteStringWithCode
+// Il2CppName: WriteStringWithCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&IOUtil::WriteStringWithCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IOUtil*), "WriteStringWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: IOUtil::WriteWithCode
+// Il2CppName: WriteWithCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&IOUtil::WriteWithCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IOUtil*), "WriteWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+  }
+};

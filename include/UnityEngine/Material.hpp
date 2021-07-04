@@ -591,1407 +591,1407 @@ namespace UnityEngine {
     void SetTextureScaleImpl_Injected(int name, UnityEngine::Vector2& scale);
   }; // UnityEngine.Material
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Material::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::Il2CppString*)>(&Material::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::CreateWithShader
-  // Il2CppName: CreateWithShader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, UnityEngine::Shader*)>(&Material::CreateWithShader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "CreateWithShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::CreateWithMaterial
-  // Il2CppName: CreateWithMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, UnityEngine::Material*)>(&Material::CreateWithMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "CreateWithMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::CreateWithString
-  // Il2CppName: CreateWithString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&Material::CreateWithString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "CreateWithString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Shader*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Shader*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetDefaultMaterial
-  // Il2CppName: GetDefaultMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Material::GetDefaultMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetDefaultParticleMaterial
-  // Il2CppName: GetDefaultParticleMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Material::GetDefaultParticleMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetDefaultParticleMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetDefaultLineMaterial
-  // Il2CppName: GetDefaultLineMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Material::GetDefaultLineMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetDefaultLineMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_shader
-  // Il2CppName: get_shader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (Material::*)()>(&Material::get_shader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_shader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_shader
-  // Il2CppName: set_shader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Shader*)>(&Material::set_shader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_shader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_color
-  // Il2CppName: get_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)()>(&Material::get_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_color
-  // Il2CppName: set_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Color)>(&Material::set_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_mainTexture
-  // Il2CppName: get_mainTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)()>(&Material::get_mainTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_mainTexture
-  // Il2CppName: set_mainTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Texture*)>(&Material::set_mainTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_mainTextureOffset
-  // Il2CppName: get_mainTextureOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)()>(&Material::get_mainTextureOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_mainTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_mainTextureOffset
-  // Il2CppName: set_mainTextureOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Vector2)>(&Material::set_mainTextureOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_mainTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_mainTextureScale
-  // Il2CppName: get_mainTextureScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)()>(&Material::get_mainTextureScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_mainTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_mainTextureScale
-  // Il2CppName: set_mainTextureScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Vector2)>(&Material::set_mainTextureScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_mainTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFirstPropertyNameIdByAttribute
-  // Il2CppName: GetFirstPropertyNameIdByAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(UnityEngine::Rendering::ShaderPropertyFlags)>(&Material::GetFirstPropertyNameIdByAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFirstPropertyNameIdByAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShaderPropertyFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::HasProperty
-  // Il2CppName: HasProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(int)>(&Material::HasProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "HasProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::HasProperty
-  // Il2CppName: HasProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(::Il2CppString*)>(&Material::HasProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "HasProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_renderQueue
-  // Il2CppName: get_renderQueue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::get_renderQueue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_renderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_renderQueue
-  // Il2CppName: set_renderQueue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int)>(&Material::set_renderQueue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_renderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_rawRenderQueue
-  // Il2CppName: get_rawRenderQueue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::get_rawRenderQueue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_rawRenderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::EnableKeyword
-  // Il2CppName: EnableKeyword
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::EnableKeyword)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "EnableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::DisableKeyword
-  // Il2CppName: DisableKeyword
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::DisableKeyword)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "DisableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::IsKeywordEnabled
-  // Il2CppName: IsKeywordEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(::Il2CppString*)>(&Material::IsKeywordEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "IsKeywordEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_globalIlluminationFlags
-  // Il2CppName: get_globalIlluminationFlags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MaterialGlobalIlluminationFlags (Material::*)()>(&Material::get_globalIlluminationFlags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_globalIlluminationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_globalIlluminationFlags
-  // Il2CppName: set_globalIlluminationFlags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::MaterialGlobalIlluminationFlags)>(&Material::set_globalIlluminationFlags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_globalIlluminationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialGlobalIlluminationFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_doubleSidedGI
-  // Il2CppName: get_doubleSidedGI
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)()>(&Material::get_doubleSidedGI)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_doubleSidedGI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_doubleSidedGI
-  // Il2CppName: set_doubleSidedGI
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(bool)>(&Material::set_doubleSidedGI)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_doubleSidedGI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_enableInstancing
-  // Il2CppName: get_enableInstancing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)()>(&Material::get_enableInstancing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_enableInstancing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_enableInstancing
-  // Il2CppName: set_enableInstancing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(bool)>(&Material::set_enableInstancing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_enableInstancing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_passCount
-  // Il2CppName: get_passCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::get_passCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_passCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetShaderPassEnabled
-  // Il2CppName: SetShaderPassEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, bool)>(&Material::SetShaderPassEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetShaderPassEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetShaderPassEnabled
-  // Il2CppName: GetShaderPassEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(::Il2CppString*)>(&Material::GetShaderPassEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetShaderPassEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetPassName
-  // Il2CppName: GetPassName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(int)>(&Material::GetPassName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetPassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::FindPass
-  // Il2CppName: FindPass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(::Il2CppString*)>(&Material::FindPass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "FindPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetOverrideTag
-  // Il2CppName: SetOverrideTag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Il2CppString*)>(&Material::SetOverrideTag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetOverrideTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTagImpl
-  // Il2CppName: GetTagImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(::Il2CppString*, bool, ::Il2CppString*)>(&Material::GetTagImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTagImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTag
-  // Il2CppName: GetTag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(::Il2CppString*, bool, ::Il2CppString*)>(&Material::GetTag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTag
-  // Il2CppName: GetTag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(::Il2CppString*, bool)>(&Material::GetTag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::Lerp
-  // Il2CppName: Lerp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*, UnityEngine::Material*, float)>(&Material::Lerp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetPass
-  // Il2CppName: SetPass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(int)>(&Material::SetPass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::CopyPropertiesFromMaterial
-  // Il2CppName: CopyPropertiesFromMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*)>(&Material::CopyPropertiesFromMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "CopyPropertiesFromMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetShaderKeywords
-  // Il2CppName: GetShaderKeywords
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Material::*)()>(&Material::GetShaderKeywords)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetShaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetShaderKeywords
-  // Il2CppName: SetShaderKeywords
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Array<::Il2CppString*>*)>(&Material::SetShaderKeywords)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetShaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::get_shaderKeywords
-  // Il2CppName: get_shaderKeywords
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Material::*)()>(&Material::get_shaderKeywords)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "get_shaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::set_shaderKeywords
-  // Il2CppName: set_shaderKeywords
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Array<::Il2CppString*>*)>(&Material::set_shaderKeywords)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "set_shaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ComputeCRC
-  // Il2CppName: ComputeCRC
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::ComputeCRC)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ComputeCRC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexturePropertyNames
-  // Il2CppName: GetTexturePropertyNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Material::*)()>(&Material::GetTexturePropertyNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexturePropertyNameIDs
-  // Il2CppName: GetTexturePropertyNameIDs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Material::*)()>(&Material::GetTexturePropertyNameIDs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNameIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexturePropertyNamesInternal
-  // Il2CppName: GetTexturePropertyNamesInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppObject*)>(&Material::GetTexturePropertyNamesInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNamesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexturePropertyNameIDsInternal
-  // Il2CppName: GetTexturePropertyNameIDsInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppObject*)>(&Material::GetTexturePropertyNameIDsInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNameIDsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexturePropertyNames
-  // Il2CppName: GetTexturePropertyNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&Material::GetTexturePropertyNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexturePropertyNameIDs
-  // Il2CppName: GetTexturePropertyNameIDs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(System::Collections::Generic::List_1<int>*)>(&Material::GetTexturePropertyNameIDs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNameIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloatImpl
-  // Il2CppName: SetFloatImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, float)>(&Material::SetFloatImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorImpl
-  // Il2CppName: SetColorImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color)>(&Material::SetColorImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixImpl
-  // Il2CppName: SetMatrixImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4)>(&Material::SetMatrixImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureImpl
-  // Il2CppName: SetTextureImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Texture*)>(&Material::SetTextureImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetRenderTextureImpl
-  // Il2CppName: SetRenderTextureImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Material::SetRenderTextureImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetRenderTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetBufferImpl
-  // Il2CppName: SetBufferImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*)>(&Material::SetBufferImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetConstantBufferImpl
-  // Il2CppName: SetConstantBufferImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*, int, int)>(&Material::SetConstantBufferImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetConstantBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloatImpl
-  // Il2CppName: GetFloatImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Material::*)(int)>(&Material::GetFloatImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorImpl
-  // Il2CppName: GetColorImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)(int)>(&Material::GetColorImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixImpl
-  // Il2CppName: GetMatrixImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Material::*)(int)>(&Material::GetMatrixImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTextureImpl
-  // Il2CppName: GetTextureImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)(int)>(&Material::GetTextureImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloatArrayImpl
-  // Il2CppName: SetFloatArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*, int)>(&Material::SetFloatArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVectorArrayImpl
-  // Il2CppName: SetVectorArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*, int)>(&Material::SetVectorArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorArrayImpl
-  // Il2CppName: SetColorArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*, int)>(&Material::SetColorArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixArrayImpl
-  // Il2CppName: SetMatrixArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&Material::SetMatrixArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloatArrayImpl
-  // Il2CppName: GetFloatArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (Material::*)(int)>(&Material::GetFloatArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVectorArrayImpl
-  // Il2CppName: GetVectorArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (Material::*)(int)>(&Material::GetVectorArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorArrayImpl
-  // Il2CppName: GetColorArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (Material::*)(int)>(&Material::GetColorArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixArrayImpl
-  // Il2CppName: GetMatrixArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (Material::*)(int)>(&Material::GetMatrixArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloatArrayCountImpl
-  // Il2CppName: GetFloatArrayCountImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetFloatArrayCountImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVectorArrayCountImpl
-  // Il2CppName: GetVectorArrayCountImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetVectorArrayCountImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorArrayCountImpl
-  // Il2CppName: GetColorArrayCountImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetColorArrayCountImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixArrayCountImpl
-  // Il2CppName: GetMatrixArrayCountImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetMatrixArrayCountImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractFloatArrayImpl
-  // Il2CppName: ExtractFloatArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*&)>(&Material::ExtractFloatArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractVectorArrayImpl
-  // Il2CppName: ExtractVectorArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*&)>(&Material::ExtractVectorArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractColorArrayImpl
-  // Il2CppName: ExtractColorArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*&)>(&Material::ExtractColorArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractMatrixArrayImpl
-  // Il2CppName: ExtractMatrixArrayImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*&)>(&Material::ExtractMatrixArrayImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTextureScaleAndOffsetImpl
-  // Il2CppName: GetTextureScaleAndOffsetImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Material::*)(int)>(&Material::GetTextureScaleAndOffsetImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScaleAndOffsetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureOffsetImpl
-  // Il2CppName: SetTextureOffsetImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureOffsetImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffsetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureScaleImpl
-  // Il2CppName: SetTextureScaleImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureScaleImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScaleImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloatArray
-  // Il2CppName: SetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*, int)>(&Material::SetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVectorArray
-  // Il2CppName: SetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*, int)>(&Material::SetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorArray
-  // Il2CppName: SetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*, int)>(&Material::SetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixArray
-  // Il2CppName: SetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&Material::SetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractFloatArray
-  // Il2CppName: ExtractFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<float>*)>(&Material::ExtractFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractVectorArray
-  // Il2CppName: ExtractVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::ExtractVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractColorArray
-  // Il2CppName: ExtractColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::ExtractColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::ExtractMatrixArray
-  // Il2CppName: ExtractMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::ExtractMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloat
-  // Il2CppName: SetFloat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, float)>(&Material::SetFloat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloat
-  // Il2CppName: SetFloat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, float)>(&Material::SetFloat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetInt
-  // Il2CppName: SetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, int)>(&Material::SetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetInt
-  // Il2CppName: SetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, int)>(&Material::SetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColor
-  // Il2CppName: SetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Color)>(&Material::SetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColor
-  // Il2CppName: SetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color)>(&Material::SetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVector
-  // Il2CppName: SetVector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Vector4)>(&Material::SetVector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVector
-  // Il2CppName: SetVector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector4)>(&Material::SetVector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrix
-  // Il2CppName: SetMatrix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Matrix4x4)>(&Material::SetMatrix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrix
-  // Il2CppName: SetMatrix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4)>(&Material::SetMatrix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTexture
-  // Il2CppName: SetTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Texture*)>(&Material::SetTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTexture
-  // Il2CppName: SetTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Texture*)>(&Material::SetTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTexture
-  // Il2CppName: SetTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Material::SetTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTexture
-  // Il2CppName: SetTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Material::SetTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetBuffer
-  // Il2CppName: SetBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::ComputeBuffer*)>(&Material::SetBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetBuffer
-  // Il2CppName: SetBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*)>(&Material::SetBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetConstantBuffer
-  // Il2CppName: SetConstantBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::ComputeBuffer*, int, int)>(&Material::SetConstantBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetConstantBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetConstantBuffer
-  // Il2CppName: SetConstantBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*, int, int)>(&Material::SetConstantBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetConstantBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloatArray
-  // Il2CppName: SetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&Material::SetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloatArray
-  // Il2CppName: SetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<float>*)>(&Material::SetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloatArray
-  // Il2CppName: SetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<float>*)>(&Material::SetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetFloatArray
-  // Il2CppName: SetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*)>(&Material::SetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorArray
-  // Il2CppName: SetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::SetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorArray
-  // Il2CppName: SetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::SetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorArray
-  // Il2CppName: SetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<UnityEngine::Color>*)>(&Material::SetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorArray
-  // Il2CppName: SetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*)>(&Material::SetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVectorArray
-  // Il2CppName: SetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVectorArray
-  // Il2CppName: SetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVectorArray
-  // Il2CppName: SetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetVectorArray
-  // Il2CppName: SetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixArray
-  // Il2CppName: SetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixArray
-  // Il2CppName: SetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixArray
-  // Il2CppName: SetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixArray
-  // Il2CppName: SetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloat
-  // Il2CppName: GetFloat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Material::*)(::Il2CppString*)>(&Material::GetFloat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloat
-  // Il2CppName: GetFloat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Material::*)(int)>(&Material::GetFloat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetInt
-  // Il2CppName: GetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(::Il2CppString*)>(&Material::GetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetInt
-  // Il2CppName: GetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColor
-  // Il2CppName: GetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)(::Il2CppString*)>(&Material::GetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColor
-  // Il2CppName: GetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)(int)>(&Material::GetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVector
-  // Il2CppName: GetVector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Material::*)(::Il2CppString*)>(&Material::GetVector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVector
-  // Il2CppName: GetVector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Material::*)(int)>(&Material::GetVector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrix
-  // Il2CppName: GetMatrix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Material::*)(::Il2CppString*)>(&Material::GetMatrix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrix
-  // Il2CppName: GetMatrix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Material::*)(int)>(&Material::GetMatrix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexture
-  // Il2CppName: GetTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)(::Il2CppString*)>(&Material::GetTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTexture
-  // Il2CppName: GetTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)(int)>(&Material::GetTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloatArray
-  // Il2CppName: GetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (Material::*)(::Il2CppString*)>(&Material::GetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloatArray
-  // Il2CppName: GetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (Material::*)(int)>(&Material::GetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorArray
-  // Il2CppName: GetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (Material::*)(::Il2CppString*)>(&Material::GetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorArray
-  // Il2CppName: GetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (Material::*)(int)>(&Material::GetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVectorArray
-  // Il2CppName: GetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (Material::*)(::Il2CppString*)>(&Material::GetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVectorArray
-  // Il2CppName: GetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (Material::*)(int)>(&Material::GetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixArray
-  // Il2CppName: GetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (Material::*)(::Il2CppString*)>(&Material::GetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixArray
-  // Il2CppName: GetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (Material::*)(int)>(&Material::GetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloatArray
-  // Il2CppName: GetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&Material::GetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetFloatArray
-  // Il2CppName: GetFloatArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<float>*)>(&Material::GetFloatArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorArray
-  // Il2CppName: GetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::GetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorArray
-  // Il2CppName: GetColorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::GetColorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVectorArray
-  // Il2CppName: GetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::GetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetVectorArray
-  // Il2CppName: GetVectorArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::GetVectorArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixArray
-  // Il2CppName: GetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::GetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixArray
-  // Il2CppName: GetMatrixArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::GetMatrixArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureOffset
-  // Il2CppName: SetTextureOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Vector2)>(&Material::SetTextureOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureOffset
-  // Il2CppName: SetTextureOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureScale
-  // Il2CppName: SetTextureScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Vector2)>(&Material::SetTextureScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureScale
-  // Il2CppName: SetTextureScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTextureOffset
-  // Il2CppName: GetTextureOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(::Il2CppString*)>(&Material::GetTextureOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTextureOffset
-  // Il2CppName: GetTextureOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(int)>(&Material::GetTextureOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTextureScale
-  // Il2CppName: GetTextureScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(::Il2CppString*)>(&Material::GetTextureScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTextureScale
-  // Il2CppName: GetTextureScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(int)>(&Material::GetTextureScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetColorImpl_Injected
-  // Il2CppName: SetColorImpl_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color&)>(&Material::SetColorImpl_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetMatrixImpl_Injected
-  // Il2CppName: SetMatrixImpl_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4&)>(&Material::SetMatrixImpl_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetColorImpl_Injected
-  // Il2CppName: GetColorImpl_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color&)>(&Material::GetColorImpl_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetMatrixImpl_Injected
-  // Il2CppName: GetMatrixImpl_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4&)>(&Material::GetMatrixImpl_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::GetTextureScaleAndOffsetImpl_Injected
-  // Il2CppName: GetTextureScaleAndOffsetImpl_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector4&)>(&Material::GetTextureScaleAndOffsetImpl_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScaleAndOffsetImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureOffsetImpl_Injected
-  // Il2CppName: SetTextureOffsetImpl_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2&)>(&Material::SetTextureOffsetImpl_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffsetImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Material::SetTextureScaleImpl_Injected
-  // Il2CppName: SetTextureScaleImpl_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2&)>(&Material::SetTextureScaleImpl_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScaleImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Material*, "UnityEngine", "Material");
+// Writing MetadataGetter for method: Material::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::Il2CppString*)>(&Material::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::CreateWithShader
+// Il2CppName: CreateWithShader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, UnityEngine::Shader*)>(&Material::CreateWithShader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "CreateWithShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::CreateWithMaterial
+// Il2CppName: CreateWithMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, UnityEngine::Material*)>(&Material::CreateWithMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "CreateWithMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::CreateWithString
+// Il2CppName: CreateWithString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&Material::CreateWithString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "CreateWithString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Shader*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Shader*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetDefaultMaterial
+// Il2CppName: GetDefaultMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Material::GetDefaultMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::GetDefaultParticleMaterial
+// Il2CppName: GetDefaultParticleMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Material::GetDefaultParticleMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetDefaultParticleMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::GetDefaultLineMaterial
+// Il2CppName: GetDefaultLineMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Material::GetDefaultLineMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetDefaultLineMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::get_shader
+// Il2CppName: get_shader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (Material::*)()>(&Material::get_shader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_shader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_shader
+// Il2CppName: set_shader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Shader*)>(&Material::set_shader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_shader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)()>(&Material::get_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Color)>(&Material::set_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_mainTexture
+// Il2CppName: get_mainTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)()>(&Material::get_mainTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_mainTexture
+// Il2CppName: set_mainTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Texture*)>(&Material::set_mainTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_mainTextureOffset
+// Il2CppName: get_mainTextureOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)()>(&Material::get_mainTextureOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_mainTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_mainTextureOffset
+// Il2CppName: set_mainTextureOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Vector2)>(&Material::set_mainTextureOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_mainTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_mainTextureScale
+// Il2CppName: get_mainTextureScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)()>(&Material::get_mainTextureScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_mainTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_mainTextureScale
+// Il2CppName: set_mainTextureScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Vector2)>(&Material::set_mainTextureScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_mainTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFirstPropertyNameIdByAttribute
+// Il2CppName: GetFirstPropertyNameIdByAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(UnityEngine::Rendering::ShaderPropertyFlags)>(&Material::GetFirstPropertyNameIdByAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFirstPropertyNameIdByAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShaderPropertyFlags>()});
+  }
+};
+// Writing MetadataGetter for method: Material::HasProperty
+// Il2CppName: HasProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(int)>(&Material::HasProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "HasProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::HasProperty
+// Il2CppName: HasProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(::Il2CppString*)>(&Material::HasProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "HasProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_renderQueue
+// Il2CppName: get_renderQueue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::get_renderQueue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_renderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_renderQueue
+// Il2CppName: set_renderQueue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int)>(&Material::set_renderQueue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_renderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_rawRenderQueue
+// Il2CppName: get_rawRenderQueue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::get_rawRenderQueue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_rawRenderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::EnableKeyword
+// Il2CppName: EnableKeyword
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::EnableKeyword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "EnableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::DisableKeyword
+// Il2CppName: DisableKeyword
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*)>(&Material::DisableKeyword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "DisableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::IsKeywordEnabled
+// Il2CppName: IsKeywordEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(::Il2CppString*)>(&Material::IsKeywordEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "IsKeywordEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_globalIlluminationFlags
+// Il2CppName: get_globalIlluminationFlags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MaterialGlobalIlluminationFlags (Material::*)()>(&Material::get_globalIlluminationFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_globalIlluminationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_globalIlluminationFlags
+// Il2CppName: set_globalIlluminationFlags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::MaterialGlobalIlluminationFlags)>(&Material::set_globalIlluminationFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_globalIlluminationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialGlobalIlluminationFlags>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_doubleSidedGI
+// Il2CppName: get_doubleSidedGI
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)()>(&Material::get_doubleSidedGI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_doubleSidedGI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_doubleSidedGI
+// Il2CppName: set_doubleSidedGI
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(bool)>(&Material::set_doubleSidedGI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_doubleSidedGI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_enableInstancing
+// Il2CppName: get_enableInstancing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)()>(&Material::get_enableInstancing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_enableInstancing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_enableInstancing
+// Il2CppName: set_enableInstancing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(bool)>(&Material::set_enableInstancing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_enableInstancing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_passCount
+// Il2CppName: get_passCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::get_passCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_passCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::SetShaderPassEnabled
+// Il2CppName: SetShaderPassEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, bool)>(&Material::SetShaderPassEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetShaderPassEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetShaderPassEnabled
+// Il2CppName: GetShaderPassEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(::Il2CppString*)>(&Material::GetShaderPassEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetShaderPassEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetPassName
+// Il2CppName: GetPassName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(int)>(&Material::GetPassName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetPassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::FindPass
+// Il2CppName: FindPass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(::Il2CppString*)>(&Material::FindPass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "FindPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetOverrideTag
+// Il2CppName: SetOverrideTag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Il2CppString*)>(&Material::SetOverrideTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetOverrideTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTagImpl
+// Il2CppName: GetTagImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(::Il2CppString*, bool, ::Il2CppString*)>(&Material::GetTagImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTagImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTag
+// Il2CppName: GetTag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(::Il2CppString*, bool, ::Il2CppString*)>(&Material::GetTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTag
+// Il2CppName: GetTag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Material::*)(::Il2CppString*, bool)>(&Material::GetTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Material::Lerp
+// Il2CppName: Lerp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*, UnityEngine::Material*, float)>(&Material::Lerp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetPass
+// Il2CppName: SetPass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Material::*)(int)>(&Material::SetPass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::CopyPropertiesFromMaterial
+// Il2CppName: CopyPropertiesFromMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(UnityEngine::Material*)>(&Material::CopyPropertiesFromMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "CopyPropertiesFromMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetShaderKeywords
+// Il2CppName: GetShaderKeywords
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Material::*)()>(&Material::GetShaderKeywords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetShaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::SetShaderKeywords
+// Il2CppName: SetShaderKeywords
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Array<::Il2CppString*>*)>(&Material::SetShaderKeywords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetShaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::get_shaderKeywords
+// Il2CppName: get_shaderKeywords
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Material::*)()>(&Material::get_shaderKeywords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "get_shaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::set_shaderKeywords
+// Il2CppName: set_shaderKeywords
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Array<::Il2CppString*>*)>(&Material::set_shaderKeywords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "set_shaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ComputeCRC
+// Il2CppName: ComputeCRC
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)()>(&Material::ComputeCRC)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ComputeCRC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexturePropertyNames
+// Il2CppName: GetTexturePropertyNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Material::*)()>(&Material::GetTexturePropertyNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexturePropertyNameIDs
+// Il2CppName: GetTexturePropertyNameIDs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Material::*)()>(&Material::GetTexturePropertyNameIDs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNameIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexturePropertyNamesInternal
+// Il2CppName: GetTexturePropertyNamesInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppObject*)>(&Material::GetTexturePropertyNamesInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNamesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexturePropertyNameIDsInternal
+// Il2CppName: GetTexturePropertyNameIDsInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppObject*)>(&Material::GetTexturePropertyNameIDsInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNameIDsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexturePropertyNames
+// Il2CppName: GetTexturePropertyNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&Material::GetTexturePropertyNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexturePropertyNameIDs
+// Il2CppName: GetTexturePropertyNameIDs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(System::Collections::Generic::List_1<int>*)>(&Material::GetTexturePropertyNameIDs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexturePropertyNameIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloatImpl
+// Il2CppName: SetFloatImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, float)>(&Material::SetFloatImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorImpl
+// Il2CppName: SetColorImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color)>(&Material::SetColorImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixImpl
+// Il2CppName: SetMatrixImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4)>(&Material::SetMatrixImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureImpl
+// Il2CppName: SetTextureImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Texture*)>(&Material::SetTextureImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetRenderTextureImpl
+// Il2CppName: SetRenderTextureImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Material::SetRenderTextureImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetRenderTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetBufferImpl
+// Il2CppName: SetBufferImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*)>(&Material::SetBufferImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetConstantBufferImpl
+// Il2CppName: SetConstantBufferImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*, int, int)>(&Material::SetConstantBufferImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetConstantBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloatImpl
+// Il2CppName: GetFloatImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Material::*)(int)>(&Material::GetFloatImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorImpl
+// Il2CppName: GetColorImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)(int)>(&Material::GetColorImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixImpl
+// Il2CppName: GetMatrixImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Material::*)(int)>(&Material::GetMatrixImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTextureImpl
+// Il2CppName: GetTextureImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)(int)>(&Material::GetTextureImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloatArrayImpl
+// Il2CppName: SetFloatArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*, int)>(&Material::SetFloatArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVectorArrayImpl
+// Il2CppName: SetVectorArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*, int)>(&Material::SetVectorArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorArrayImpl
+// Il2CppName: SetColorArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*, int)>(&Material::SetColorArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixArrayImpl
+// Il2CppName: SetMatrixArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&Material::SetMatrixArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloatArrayImpl
+// Il2CppName: GetFloatArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (Material::*)(int)>(&Material::GetFloatArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVectorArrayImpl
+// Il2CppName: GetVectorArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (Material::*)(int)>(&Material::GetVectorArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorArrayImpl
+// Il2CppName: GetColorArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (Material::*)(int)>(&Material::GetColorArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixArrayImpl
+// Il2CppName: GetMatrixArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (Material::*)(int)>(&Material::GetMatrixArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloatArrayCountImpl
+// Il2CppName: GetFloatArrayCountImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetFloatArrayCountImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVectorArrayCountImpl
+// Il2CppName: GetVectorArrayCountImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetVectorArrayCountImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorArrayCountImpl
+// Il2CppName: GetColorArrayCountImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetColorArrayCountImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixArrayCountImpl
+// Il2CppName: GetMatrixArrayCountImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetMatrixArrayCountImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractFloatArrayImpl
+// Il2CppName: ExtractFloatArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*&)>(&Material::ExtractFloatArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractVectorArrayImpl
+// Il2CppName: ExtractVectorArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*&)>(&Material::ExtractVectorArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractColorArrayImpl
+// Il2CppName: ExtractColorArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*&)>(&Material::ExtractColorArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractMatrixArrayImpl
+// Il2CppName: ExtractMatrixArrayImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*&)>(&Material::ExtractMatrixArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTextureScaleAndOffsetImpl
+// Il2CppName: GetTextureScaleAndOffsetImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Material::*)(int)>(&Material::GetTextureScaleAndOffsetImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScaleAndOffsetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureOffsetImpl
+// Il2CppName: SetTextureOffsetImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureOffsetImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffsetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureScaleImpl
+// Il2CppName: SetTextureScaleImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureScaleImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScaleImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloatArray
+// Il2CppName: SetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*, int)>(&Material::SetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVectorArray
+// Il2CppName: SetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*, int)>(&Material::SetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorArray
+// Il2CppName: SetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*, int)>(&Material::SetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixArray
+// Il2CppName: SetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&Material::SetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractFloatArray
+// Il2CppName: ExtractFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<float>*)>(&Material::ExtractFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractVectorArray
+// Il2CppName: ExtractVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::ExtractVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractColorArray
+// Il2CppName: ExtractColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::ExtractColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::ExtractMatrixArray
+// Il2CppName: ExtractMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::ExtractMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "ExtractMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloat
+// Il2CppName: SetFloat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, float)>(&Material::SetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloat
+// Il2CppName: SetFloat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, float)>(&Material::SetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetInt
+// Il2CppName: SetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, int)>(&Material::SetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetInt
+// Il2CppName: SetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, int)>(&Material::SetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColor
+// Il2CppName: SetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Color)>(&Material::SetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColor
+// Il2CppName: SetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color)>(&Material::SetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVector
+// Il2CppName: SetVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Vector4)>(&Material::SetVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVector
+// Il2CppName: SetVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector4)>(&Material::SetVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrix
+// Il2CppName: SetMatrix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Matrix4x4)>(&Material::SetMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrix
+// Il2CppName: SetMatrix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4)>(&Material::SetMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTexture
+// Il2CppName: SetTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Texture*)>(&Material::SetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTexture
+// Il2CppName: SetTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Texture*)>(&Material::SetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTexture
+// Il2CppName: SetTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Material::SetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTexture
+// Il2CppName: SetTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Material::SetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetBuffer
+// Il2CppName: SetBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::ComputeBuffer*)>(&Material::SetBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetBuffer
+// Il2CppName: SetBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*)>(&Material::SetBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetConstantBuffer
+// Il2CppName: SetConstantBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::ComputeBuffer*, int, int)>(&Material::SetConstantBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetConstantBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetConstantBuffer
+// Il2CppName: SetConstantBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::ComputeBuffer*, int, int)>(&Material::SetConstantBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetConstantBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloatArray
+// Il2CppName: SetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&Material::SetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloatArray
+// Il2CppName: SetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<float>*)>(&Material::SetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloatArray
+// Il2CppName: SetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<float>*)>(&Material::SetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetFloatArray
+// Il2CppName: SetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<float>*)>(&Material::SetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorArray
+// Il2CppName: SetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::SetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorArray
+// Il2CppName: SetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::SetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorArray
+// Il2CppName: SetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<UnityEngine::Color>*)>(&Material::SetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorArray
+// Il2CppName: SetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Color>*)>(&Material::SetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVectorArray
+// Il2CppName: SetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVectorArray
+// Il2CppName: SetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVectorArray
+// Il2CppName: SetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetVectorArray
+// Il2CppName: SetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Vector4>*)>(&Material::SetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixArray
+// Il2CppName: SetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixArray
+// Il2CppName: SetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixArray
+// Il2CppName: SetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, ::Array<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixArray
+// Il2CppName: SetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, ::Array<UnityEngine::Matrix4x4>*)>(&Material::SetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloat
+// Il2CppName: GetFloat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Material::*)(::Il2CppString*)>(&Material::GetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloat
+// Il2CppName: GetFloat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Material::*)(int)>(&Material::GetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetInt
+// Il2CppName: GetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(::Il2CppString*)>(&Material::GetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetInt
+// Il2CppName: GetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Material::*)(int)>(&Material::GetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColor
+// Il2CppName: GetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)(::Il2CppString*)>(&Material::GetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColor
+// Il2CppName: GetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Material::*)(int)>(&Material::GetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVector
+// Il2CppName: GetVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Material::*)(::Il2CppString*)>(&Material::GetVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVector
+// Il2CppName: GetVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Material::*)(int)>(&Material::GetVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrix
+// Il2CppName: GetMatrix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Material::*)(::Il2CppString*)>(&Material::GetMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrix
+// Il2CppName: GetMatrix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Material::*)(int)>(&Material::GetMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexture
+// Il2CppName: GetTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)(::Il2CppString*)>(&Material::GetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTexture
+// Il2CppName: GetTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Material::*)(int)>(&Material::GetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloatArray
+// Il2CppName: GetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (Material::*)(::Il2CppString*)>(&Material::GetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloatArray
+// Il2CppName: GetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (Material::*)(int)>(&Material::GetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorArray
+// Il2CppName: GetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (Material::*)(::Il2CppString*)>(&Material::GetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorArray
+// Il2CppName: GetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (Material::*)(int)>(&Material::GetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVectorArray
+// Il2CppName: GetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (Material::*)(::Il2CppString*)>(&Material::GetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVectorArray
+// Il2CppName: GetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (Material::*)(int)>(&Material::GetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixArray
+// Il2CppName: GetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (Material::*)(::Il2CppString*)>(&Material::GetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixArray
+// Il2CppName: GetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (Material::*)(int)>(&Material::GetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloatArray
+// Il2CppName: GetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&Material::GetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetFloatArray
+// Il2CppName: GetFloatArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<float>*)>(&Material::GetFloatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorArray
+// Il2CppName: GetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::GetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorArray
+// Il2CppName: GetColorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Color>*)>(&Material::GetColorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVectorArray
+// Il2CppName: GetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::GetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetVectorArray
+// Il2CppName: GetVectorArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Material::GetVectorArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixArray
+// Il2CppName: GetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::GetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixArray
+// Il2CppName: GetMatrixArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Material::GetMatrixArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureOffset
+// Il2CppName: SetTextureOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Vector2)>(&Material::SetTextureOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureOffset
+// Il2CppName: SetTextureOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureScale
+// Il2CppName: SetTextureScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(::Il2CppString*, UnityEngine::Vector2)>(&Material::SetTextureScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureScale
+// Il2CppName: SetTextureScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2)>(&Material::SetTextureScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTextureOffset
+// Il2CppName: GetTextureOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(::Il2CppString*)>(&Material::GetTextureOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTextureOffset
+// Il2CppName: GetTextureOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(int)>(&Material::GetTextureOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTextureScale
+// Il2CppName: GetTextureScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(::Il2CppString*)>(&Material::GetTextureScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTextureScale
+// Il2CppName: GetTextureScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Material::*)(int)>(&Material::GetTextureScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetColorImpl_Injected
+// Il2CppName: SetColorImpl_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color&)>(&Material::SetColorImpl_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetColorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetMatrixImpl_Injected
+// Il2CppName: SetMatrixImpl_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4&)>(&Material::SetMatrixImpl_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetColorImpl_Injected
+// Il2CppName: GetColorImpl_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Color&)>(&Material::GetColorImpl_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetColorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetMatrixImpl_Injected
+// Il2CppName: GetMatrixImpl_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Matrix4x4&)>(&Material::GetMatrixImpl_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::GetTextureScaleAndOffsetImpl_Injected
+// Il2CppName: GetTextureScaleAndOffsetImpl_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector4&)>(&Material::GetTextureScaleAndOffsetImpl_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "GetTextureScaleAndOffsetImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureOffsetImpl_Injected
+// Il2CppName: SetTextureOffsetImpl_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2&)>(&Material::SetTextureOffsetImpl_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureOffsetImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: Material::SetTextureScaleImpl_Injected
+// Il2CppName: SetTextureScaleImpl_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Material::*)(int, UnityEngine::Vector2&)>(&Material::SetTextureScaleImpl_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Material*), "SetTextureScaleImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};

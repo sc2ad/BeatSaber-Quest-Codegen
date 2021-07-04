@@ -67,51 +67,51 @@ namespace System::Reflection {
     }
   }; // System.Reflection.RtFieldInfo
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RtFieldInfo::UnsafeGetValue
-  // Il2CppName: UnsafeGetValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RtFieldInfo::*)(::Il2CppObject*)>(&RtFieldInfo::UnsafeGetValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "UnsafeGetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RtFieldInfo::CheckConsistency
-  // Il2CppName: CheckConsistency
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)(::Il2CppObject*)>(&RtFieldInfo::CheckConsistency)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "CheckConsistency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RtFieldInfo::UnsafeSetValue
-  // Il2CppName: UnsafeSetValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Globalization::CultureInfo*)>(&RtFieldInfo::UnsafeSetValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "UnsafeSetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RtFieldInfo::SetValueDirect
-  // Il2CppName: SetValueDirect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)(System::TypedReference, ::Il2CppObject*)>(&RtFieldInfo::SetValueDirect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "SetValueDirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypedReference>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RtFieldInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)()>(&RtFieldInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)()>(&RtFieldInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RtFieldInfo*, "System.Reflection", "RtFieldInfo");
+// Writing MetadataGetter for method: RtFieldInfo::UnsafeGetValue
+// Il2CppName: UnsafeGetValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RtFieldInfo::*)(::Il2CppObject*)>(&RtFieldInfo::UnsafeGetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "UnsafeGetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RtFieldInfo::CheckConsistency
+// Il2CppName: CheckConsistency
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)(::Il2CppObject*)>(&RtFieldInfo::CheckConsistency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "CheckConsistency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RtFieldInfo::UnsafeSetValue
+// Il2CppName: UnsafeSetValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Globalization::CultureInfo*)>(&RtFieldInfo::UnsafeSetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "UnsafeSetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: RtFieldInfo::SetValueDirect
+// Il2CppName: SetValueDirect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)(System::TypedReference, ::Il2CppObject*)>(&RtFieldInfo::SetValueDirect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), "SetValueDirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypedReference>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RtFieldInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)()>(&RtFieldInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RtFieldInfo::*)()>(&RtFieldInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RtFieldInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

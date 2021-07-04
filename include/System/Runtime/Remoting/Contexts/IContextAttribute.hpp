@@ -34,22 +34,22 @@ namespace System::Runtime::Remoting::Contexts {
     bool IsContextOK(System::Runtime::Remoting::Contexts::Context* ctx, System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
   }; // System.Runtime.Remoting.Contexts.IContextAttribute
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IContextAttribute::GetPropertiesForNewContext
-  // Il2CppName: GetPropertiesForNewContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IContextAttribute::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&IContextAttribute::GetPropertiesForNewContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IContextAttribute*), "GetPropertiesForNewContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IContextAttribute::IsContextOK
-  // Il2CppName: IsContextOK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IContextAttribute::*)(System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&IContextAttribute::IsContextOK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IContextAttribute*), "IsContextOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextAttribute*, "System.Runtime.Remoting.Contexts", "IContextAttribute");
+// Writing MetadataGetter for method: IContextAttribute::GetPropertiesForNewContext
+// Il2CppName: GetPropertiesForNewContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IContextAttribute::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&IContextAttribute::GetPropertiesForNewContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IContextAttribute*), "GetPropertiesForNewContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: IContextAttribute::IsContextOK
+// Il2CppName: IsContextOK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IContextAttribute::*)(System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&IContextAttribute::IsContextOK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IContextAttribute*), "IsContextOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};

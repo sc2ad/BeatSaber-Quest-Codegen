@@ -199,244 +199,6 @@ void UnityEngine::Canvas::SendWillRenderCanvases() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Canvas", "SendWillRenderCanvases", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: Canvas::add_willRenderCanvases
-// Il2CppName: add_willRenderCanvases
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&Canvas::add_willRenderCanvases)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "add_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas::WillRenderCanvases*>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::remove_willRenderCanvases
-// Il2CppName: remove_willRenderCanvases
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&Canvas::remove_willRenderCanvases)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "remove_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas::WillRenderCanvases*>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_renderMode
-// Il2CppName: get_renderMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderMode (Canvas::*)()>(&Canvas::get_renderMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_renderMode
-// Il2CppName: set_renderMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::RenderMode)>(&Canvas::set_renderMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderMode>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_isRootCanvas
-// Il2CppName: get_isRootCanvas
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_isRootCanvas)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_isRootCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_scaleFactor
-// Il2CppName: get_scaleFactor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Canvas::*)()>(&Canvas::get_scaleFactor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_scaleFactor
-// Il2CppName: set_scaleFactor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(float)>(&Canvas::set_scaleFactor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_referencePixelsPerUnit
-// Il2CppName: get_referencePixelsPerUnit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Canvas::*)()>(&Canvas::get_referencePixelsPerUnit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_referencePixelsPerUnit
-// Il2CppName: set_referencePixelsPerUnit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(float)>(&Canvas::set_referencePixelsPerUnit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_pixelPerfect
-// Il2CppName: get_pixelPerfect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_pixelPerfect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_pixelPerfect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_pixelPerfect
-// Il2CppName: set_pixelPerfect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(bool)>(&Canvas::set_pixelPerfect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_pixelPerfect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_renderOrder
-// Il2CppName: get_renderOrder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_renderOrder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_renderOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_overrideSorting
-// Il2CppName: get_overrideSorting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_overrideSorting)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_overrideSorting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_overrideSorting
-// Il2CppName: set_overrideSorting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(bool)>(&Canvas::set_overrideSorting)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_overrideSorting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_sortingOrder
-// Il2CppName: get_sortingOrder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_sortingOrder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_sortingOrder
-// Il2CppName: set_sortingOrder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(int)>(&Canvas::set_sortingOrder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_targetDisplay
-// Il2CppName: get_targetDisplay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_targetDisplay)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_targetDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_sortingLayerID
-// Il2CppName: get_sortingLayerID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_sortingLayerID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_sortingLayerID
-// Il2CppName: set_sortingLayerID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(int)>(&Canvas::set_sortingLayerID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_additionalShaderChannels
-// Il2CppName: get_additionalShaderChannels
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AdditionalCanvasShaderChannels (Canvas::*)()>(&Canvas::get_additionalShaderChannels)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_additionalShaderChannels
-// Il2CppName: set_additionalShaderChannels
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::AdditionalCanvasShaderChannels)>(&Canvas::set_additionalShaderChannels)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AdditionalCanvasShaderChannels>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_rootCanvas
-// Il2CppName: get_rootCanvas
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (Canvas::*)()>(&Canvas::get_rootCanvas)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_rootCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::get_worldCamera
-// Il2CppName: get_worldCamera
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (Canvas::*)()>(&Canvas::get_worldCamera)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::set_worldCamera
-// Il2CppName: set_worldCamera
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::Camera*)>(&Canvas::set_worldCamera)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::GetDefaultCanvasMaterial
-// Il2CppName: GetDefaultCanvasMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Canvas::GetDefaultCanvasMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "GetDefaultCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::GetETC1SupportedCanvasMaterial
-// Il2CppName: GetETC1SupportedCanvasMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Canvas::GetETC1SupportedCanvasMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "GetETC1SupportedCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::ForceUpdateCanvases
-// Il2CppName: ForceUpdateCanvases
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Canvas::ForceUpdateCanvases)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "ForceUpdateCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::SendWillRenderCanvases
-// Il2CppName: SendWillRenderCanvases
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Canvas::SendWillRenderCanvases)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), "SendWillRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)()>(&Canvas::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)()>(&Canvas::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -469,44 +231,6 @@ void UnityEngine::Canvas::WillRenderCanvases::EndInvoke(System::IAsyncResult* re
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: Canvas::WillRenderCanvases::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::WillRenderCanvases::*)(::Il2CppObject*, System::IntPtr)>(&Canvas::WillRenderCanvases::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas::WillRenderCanvases*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::WillRenderCanvases::*)(::Il2CppObject*, System::IntPtr)>(&Canvas::WillRenderCanvases::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas::WillRenderCanvases*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::WillRenderCanvases::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::WillRenderCanvases::*)()>(&Canvas::WillRenderCanvases::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas::WillRenderCanvases*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Canvas::WillRenderCanvases::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Canvas::WillRenderCanvases::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Canvas::WillRenderCanvases::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas::WillRenderCanvases*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Canvas::WillRenderCanvases::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::WillRenderCanvases::*)(System::IAsyncResult*)>(&Canvas::WillRenderCanvases::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Canvas::WillRenderCanvases*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -539,30 +263,6 @@ void UnityEngine::UISystemProfilerApi::AddMarker(::Il2CppString* name, UnityEngi
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "UISystemProfilerApi", "AddMarker", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(obj)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name, obj);
 }
-// Writing MetadataGetter for method: UISystemProfilerApi::BeginSample
-// Il2CppName: BeginSample
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UISystemProfilerApi::BeginSample)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UISystemProfilerApi*), "BeginSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
-  }
-};
-// Writing MetadataGetter for method: UISystemProfilerApi::EndSample
-// Il2CppName: EndSample
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UISystemProfilerApi::EndSample)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UISystemProfilerApi*), "EndSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
-  }
-};
-// Writing MetadataGetter for method: UISystemProfilerApi::AddMarker
-// Il2CppName: AddMarker
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Object*)>(&UISystemProfilerApi::AddMarker)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UISystemProfilerApi*), "AddMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -671,30 +371,6 @@ void UnityEngine::RemoteSettings::RemoteSettingsUpdateCompleted(bool wasLastUpda
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "RemoteSettings", "RemoteSettingsUpdateCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(wasLastUpdatedFromServer), ::il2cpp_utils::ExtractType(settingsChanged), ::il2cpp_utils::ExtractType(response)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, wasLastUpdatedFromServer, settingsChanged, response);
 }
-// Writing MetadataGetter for method: RemoteSettings::RemoteSettingsUpdated
-// Il2CppName: RemoteSettingsUpdated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&RemoteSettings::RemoteSettingsUpdated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: RemoteSettings::RemoteSettingsBeforeFetchFromServer
-// Il2CppName: RemoteSettingsBeforeFetchFromServer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RemoteSettings::RemoteSettingsBeforeFetchFromServer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsBeforeFetchFromServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RemoteSettings::RemoteSettingsUpdateCompleted
-// Il2CppName: RemoteSettingsUpdateCompleted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, int)>(&RemoteSettings::RemoteSettingsUpdateCompleted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings*), "RemoteSettingsUpdateCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -727,44 +403,6 @@ void UnityEngine::RemoteSettings::UpdatedEventHandler::EndInvoke(System::IAsyncR
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: RemoteSettings::UpdatedEventHandler::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteSettings::UpdatedEventHandler::*)(::Il2CppObject*, System::IntPtr)>(&RemoteSettings::UpdatedEventHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings::UpdatedEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteSettings::UpdatedEventHandler::*)(::Il2CppObject*, System::IntPtr)>(&RemoteSettings::UpdatedEventHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings::UpdatedEventHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: RemoteSettings::UpdatedEventHandler::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteSettings::UpdatedEventHandler::*)()>(&RemoteSettings::UpdatedEventHandler::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings::UpdatedEventHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RemoteSettings::UpdatedEventHandler::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (RemoteSettings::UpdatedEventHandler::*)(System::AsyncCallback*, ::Il2CppObject*)>(&RemoteSettings::UpdatedEventHandler::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings::UpdatedEventHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: RemoteSettings::UpdatedEventHandler::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteSettings::UpdatedEventHandler::*)(System::IAsyncResult*)>(&RemoteSettings::UpdatedEventHandler::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteSettings::UpdatedEventHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -782,14 +420,6 @@ void UnityEngine::RemoteConfigSettings::RemoteConfigSettingsUpdated(UnityEngine:
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "RemoteConfigSettings", "RemoteConfigSettingsUpdated", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rcs), ::il2cpp_utils::ExtractType(wasLastUpdatedFromServer)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, rcs, wasLastUpdatedFromServer);
 }
-// Writing MetadataGetter for method: RemoteConfigSettings::RemoteConfigSettingsUpdated
-// Il2CppName: RemoteConfigSettingsUpdated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RemoteConfigSettings*, bool)>(&RemoteConfigSettings::RemoteConfigSettingsUpdated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteConfigSettings*), "RemoteConfigSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RemoteConfigSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1044,22 +674,6 @@ void UnityEngine::Analytics::AnalyticsSessionInfo::CallIdentityTokenChanged(::Il
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Analytics", "AnalyticsSessionInfo", "CallIdentityTokenChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(token)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, token);
 }
-// Writing MetadataGetter for method: AnalyticsSessionInfo::CallSessionStateChanged
-// Il2CppName: CallSessionStateChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool)>(&AnalyticsSessionInfo::CallSessionStateChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo*), "CallSessionStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Analytics::AnalyticsSessionState>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnalyticsSessionInfo::CallIdentityTokenChanged
-// Il2CppName: CallIdentityTokenChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&AnalyticsSessionInfo::CallIdentityTokenChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo*), "CallIdentityTokenChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1094,44 +708,6 @@ void UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::EndInvok
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: AnalyticsSessionInfo::SessionStateChanged::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::SessionStateChanged::*)(::Il2CppObject*, System::IntPtr)>(&AnalyticsSessionInfo::SessionStateChanged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::SessionStateChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::SessionStateChanged::*)(::Il2CppObject*, System::IntPtr)>(&AnalyticsSessionInfo::SessionStateChanged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::SessionStateChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AnalyticsSessionInfo::SessionStateChanged::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::SessionStateChanged::*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool)>(&AnalyticsSessionInfo::SessionStateChanged::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::SessionStateChanged*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Analytics::AnalyticsSessionState>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnalyticsSessionInfo::SessionStateChanged::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AnalyticsSessionInfo::SessionStateChanged::*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool, System::AsyncCallback*, ::Il2CppObject*)>(&AnalyticsSessionInfo::SessionStateChanged::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::SessionStateChanged*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Analytics::AnalyticsSessionState>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AnalyticsSessionInfo::SessionStateChanged::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::SessionStateChanged::*)(System::IAsyncResult*)>(&AnalyticsSessionInfo::SessionStateChanged::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::SessionStateChanged*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1164,44 +740,6 @@ void UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::EndInvo
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: AnalyticsSessionInfo::IdentityTokenChanged::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::IdentityTokenChanged::*)(::Il2CppObject*, System::IntPtr)>(&AnalyticsSessionInfo::IdentityTokenChanged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::IdentityTokenChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::IdentityTokenChanged::*)(::Il2CppObject*, System::IntPtr)>(&AnalyticsSessionInfo::IdentityTokenChanged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::IdentityTokenChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AnalyticsSessionInfo::IdentityTokenChanged::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::IdentityTokenChanged::*)(::Il2CppString*)>(&AnalyticsSessionInfo::IdentityTokenChanged::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::IdentityTokenChanged*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: AnalyticsSessionInfo::IdentityTokenChanged::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AnalyticsSessionInfo::IdentityTokenChanged::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&AnalyticsSessionInfo::IdentityTokenChanged::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::IdentityTokenChanged*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AnalyticsSessionInfo::IdentityTokenChanged::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnalyticsSessionInfo::IdentityTokenChanged::*)(System::IAsyncResult*)>(&AnalyticsSessionInfo::IdentityTokenChanged::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo::IdentityTokenChanged*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1234,30 +772,6 @@ UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebReque
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Networking", "UnityWebRequestAssetBundle", "GetAssetBundle", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uri), ::il2cpp_utils::ExtractType(cachedAssetBundle), ::il2cpp_utils::ExtractType(crc)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Networking::UnityWebRequest*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, uri, cachedAssetBundle, crc);
 }
-// Writing MetadataGetter for method: UnityWebRequestAssetBundle::GetAssetBundle
-// Il2CppName: GetAssetBundle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityWebRequestAssetBundle::GetAssetBundle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequestAssetBundle::GetAssetBundle
-// Il2CppName: GetAssetBundle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, uint)>(&UnityWebRequestAssetBundle::GetAssetBundle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequestAssetBundle::GetAssetBundle
-// Il2CppName: GetAssetBundle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, UnityEngine::CachedAssetBundle, uint)>(&UnityWebRequestAssetBundle::GetAssetBundle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CachedAssetBundle>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1322,98 +836,6 @@ System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetText", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, uint)>(&DownloadHandlerAssetBundle::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::CreateCached
-// Il2CppName: CreateCached
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128, uint)>(&DownloadHandlerAssetBundle::CreateCached)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "CreateCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::InternalCreateAssetBundle
-// Il2CppName: InternalCreateAssetBundle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAssetBundle::*)(::Il2CppString*, uint)>(&DownloadHandlerAssetBundle::InternalCreateAssetBundle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "InternalCreateAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::InternalCreateAssetBundleCached
-// Il2CppName: InternalCreateAssetBundleCached
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAssetBundle::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128, uint)>(&DownloadHandlerAssetBundle::InternalCreateAssetBundleCached)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "InternalCreateAssetBundleCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAssetBundle::*)(::Il2CppString*, uint)>(&DownloadHandlerAssetBundle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAssetBundle::*)(::Il2CppString*, uint)>(&DownloadHandlerAssetBundle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAssetBundle::*)(::Il2CppString*, UnityEngine::CachedAssetBundle, uint)>(&DownloadHandlerAssetBundle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CachedAssetBundle>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAssetBundle::*)(::Il2CppString*, UnityEngine::CachedAssetBundle, uint)>(&DownloadHandlerAssetBundle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CachedAssetBundle>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::get_assetBundle
-// Il2CppName: get_assetBundle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (DownloadHandlerAssetBundle::*)()>(&DownloadHandlerAssetBundle::get_assetBundle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "get_assetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::CreateCached_Injected
-// Il2CppName: CreateCached_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128&, uint)>(&DownloadHandlerAssetBundle::CreateCached_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "CreateCached_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::GetData
-// Il2CppName: GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandlerAssetBundle::*)()>(&DownloadHandlerAssetBundle::GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAssetBundle::GetText
-// Il2CppName: GetText
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandlerAssetBundle::*)()>(&DownloadHandlerAssetBundle::GetText)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAssetBundle*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1434,14 +856,6 @@ UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebReque
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Networking", "UnityWebRequestMultimedia", "GetAudioClip", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uri), ::il2cpp_utils::ExtractType(audioType)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Networking::UnityWebRequest*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, uri, audioType);
 }
-// Writing MetadataGetter for method: UnityWebRequestMultimedia::GetAudioClip
-// Il2CppName: GetAudioClip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, UnityEngine::AudioType)>(&UnityWebRequestMultimedia::GetAudioClip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestMultimedia*), "GetAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioType>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1498,76 +912,6 @@ UnityEngine::AudioClip* UnityEngine::Networking::DownloadHandlerAudioClip::GetCo
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetText", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAudioClip*, ::Il2CppString*, UnityEngine::AudioType)>(&DownloadHandlerAudioClip::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerAudioClip*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioType>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::InternalCreateAudioClip
-// Il2CppName: InternalCreateAudioClip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAudioClip::*)(::Il2CppString*, UnityEngine::AudioType)>(&DownloadHandlerAudioClip::InternalCreateAudioClip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), "InternalCreateAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioType>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAudioClip::*)(::Il2CppString*, UnityEngine::AudioType)>(&DownloadHandlerAudioClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioType>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAudioClip::*)(::Il2CppString*, UnityEngine::AudioType)>(&DownloadHandlerAudioClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioType>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::get_audioClip
-// Il2CppName: get_audioClip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (DownloadHandlerAudioClip::*)()>(&DownloadHandlerAudioClip::get_audioClip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), "get_audioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::set_streamAudio
-// Il2CppName: set_streamAudio
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerAudioClip::*)(bool)>(&DownloadHandlerAudioClip::set_streamAudio)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), "set_streamAudio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::GetContent
-// Il2CppName: GetContent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(UnityEngine::Networking::UnityWebRequest*)>(&DownloadHandlerAudioClip::GetContent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), "GetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::GetData
-// Il2CppName: GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandlerAudioClip::*)()>(&DownloadHandlerAudioClip::GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerAudioClip::GetText
-// Il2CppName: GetText
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandlerAudioClip::*)()>(&DownloadHandlerAudioClip::GetText)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerAudioClip*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1624,46 +968,6 @@ void UnityEngineInternal::WebRequestUtils::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngineInternal", "WebRequestUtils", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: WebRequestUtils::RedirectTo
-// Il2CppName: RedirectTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&WebRequestUtils::RedirectTo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequestUtils*), "RedirectTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: WebRequestUtils::MakeInitialUrl
-// Il2CppName: MakeInitialUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&WebRequestUtils::MakeInitialUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequestUtils*), "MakeInitialUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: WebRequestUtils::MakeUriString
-// Il2CppName: MakeUriString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Uri*, ::Il2CppString*, bool)>(&WebRequestUtils::MakeUriString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequestUtils*), "MakeUriString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: WebRequestUtils::URLDecode
-// Il2CppName: URLDecode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&WebRequestUtils::URLDecode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequestUtils*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: WebRequestUtils::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebRequestUtils::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequestUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1681,14 +985,6 @@ System::Text::Encoding* UnityEngine::WWWForm::get_DefaultEncoding() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "WWWForm", "get_DefaultEncoding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<System::Text::Encoding*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: WWWForm::get_DefaultEncoding
-// Il2CppName: get_DefaultEncoding
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&WWWForm::get_DefaultEncoding)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWForm*), "get_DefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1861,78 +1157,6 @@ void UnityEngine::WWWTranscoder::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "WWWTranscoder", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: WWWTranscoder::Hex2Byte
-// Il2CppName: Hex2Byte
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Array<uint8_t>*, int)>(&WWWTranscoder::Hex2Byte)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "Hex2Byte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::Byte2Hex
-// Il2CppName: Byte2Hex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint8_t, ::Array<uint8_t>*)>(&WWWTranscoder::Byte2Hex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "Byte2Hex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::URLEncode
-// Il2CppName: URLEncode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&WWWTranscoder::URLEncode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "URLEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::Encode
-// Il2CppName: Encode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&WWWTranscoder::Encode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::ByteArrayContains
-// Il2CppName: ByteArrayContains
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, uint8_t)>(&WWWTranscoder::ByteArrayContains)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "ByteArrayContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::URLDecode
-// Il2CppName: URLDecode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&WWWTranscoder::URLDecode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::ByteSubArrayEquals
-// Il2CppName: ByteSubArrayEquals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&WWWTranscoder::ByteSubArrayEquals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "ByteSubArrayEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::Decode
-// Il2CppName: Decode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*)>(&WWWTranscoder::Decode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: WWWTranscoder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WWWTranscoder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWTranscoder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1956,36 +1180,6 @@ void UnityEngine::Networking::UnityWebRequestAsyncOperation::set_webRequest(Unit
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_webRequest", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: UnityWebRequestAsyncOperation::get_webRequest
-// Il2CppName: get_webRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (UnityWebRequestAsyncOperation::*)()>(&UnityWebRequestAsyncOperation::get_webRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestAsyncOperation*), "get_webRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequestAsyncOperation::set_webRequest
-// Il2CppName: set_webRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequestAsyncOperation::*)(UnityEngine::Networking::UnityWebRequest*)>(&UnityWebRequestAsyncOperation::set_webRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestAsyncOperation*), "set_webRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequestAsyncOperation::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequestAsyncOperation::*)()>(&UnityWebRequestAsyncOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestAsyncOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequestAsyncOperation::*)()>(&UnityWebRequestAsyncOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestAsyncOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2354,490 +1548,6 @@ void UnityEngine::Networking::UnityWebRequest::Finalize() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finalize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: UnityWebRequest::GetWebErrorString
-// Il2CppName: GetWebErrorString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError)>(&UnityWebRequest::GetWebErrorString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "GetWebErrorString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::GetHTTPStatusString
-// Il2CppName: GetHTTPStatusString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t)>(&UnityWebRequest::GetHTTPStatusString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "GetHTTPStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_disposeCertificateHandlerOnDispose
-// Il2CppName: get_disposeCertificateHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::get_disposeCertificateHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_disposeCertificateHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_disposeCertificateHandlerOnDispose
-// Il2CppName: set_disposeCertificateHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(bool)>(&UnityWebRequest::set_disposeCertificateHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_disposeCertificateHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_disposeDownloadHandlerOnDispose
-// Il2CppName: get_disposeDownloadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::get_disposeDownloadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_disposeDownloadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_disposeDownloadHandlerOnDispose
-// Il2CppName: set_disposeDownloadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(bool)>(&UnityWebRequest::set_disposeDownloadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_disposeDownloadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_disposeUploadHandlerOnDispose
-// Il2CppName: get_disposeUploadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::get_disposeUploadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_disposeUploadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_disposeUploadHandlerOnDispose
-// Il2CppName: set_disposeUploadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(bool)>(&UnityWebRequest::set_disposeUploadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_disposeUploadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityWebRequest::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)()>(&UnityWebRequest::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::InternalDestroy
-// Il2CppName: InternalDestroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)()>(&UnityWebRequest::InternalDestroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "InternalDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::InternalSetDefaults
-// Il2CppName: InternalSetDefaults
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)()>(&UnityWebRequest::InternalSetDefaults)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "InternalSetDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Networking::DownloadHandler*, UnityEngine::Networking::UploadHandler*)>(&UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Networking::DownloadHandler*, UnityEngine::Networking::UploadHandler*)>(&UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::Dispose
-// Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)()>(&UnityWebRequest::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::DisposeHandlers
-// Il2CppName: DisposeHandlers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)()>(&UnityWebRequest::DisposeHandlers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "DisposeHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::BeginWebRequest
-// Il2CppName: BeginWebRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequestAsyncOperation* (UnityWebRequest::*)()>(&UnityWebRequest::BeginWebRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "BeginWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SendWebRequest
-// Il2CppName: SendWebRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequestAsyncOperation* (UnityWebRequest::*)()>(&UnityWebRequest::SendWebRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SendWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::Abort
-// Il2CppName: Abort
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)()>(&UnityWebRequest::Abort)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetMethod
-// Il2CppName: SetMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod)>(&UnityWebRequest::SetMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::InternalSetMethod
-// Il2CppName: InternalSetMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod)>(&UnityWebRequest::InternalSetMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "InternalSetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetCustomMethod
-// Il2CppName: SetCustomMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(::Il2CppString*)>(&UnityWebRequest::SetCustomMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetCustomMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::InternalSetCustomMethod
-// Il2CppName: InternalSetCustomMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*)>(&UnityWebRequest::InternalSetCustomMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "InternalSetCustomMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_method
-// Il2CppName: set_method
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*)>(&UnityWebRequest::set_method)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::GetError
-// Il2CppName: GetError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)()>(&UnityWebRequest::GetError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "GetError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_error
-// Il2CppName: get_error
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityWebRequest::*)()>(&UnityWebRequest::get_error)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_url
-// Il2CppName: get_url
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityWebRequest::*)()>(&UnityWebRequest::get_url)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_url
-// Il2CppName: set_url
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*)>(&UnityWebRequest::set_url)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::GetUrl
-// Il2CppName: GetUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityWebRequest::*)()>(&UnityWebRequest::GetUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "GetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetUrl
-// Il2CppName: SetUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(::Il2CppString*)>(&UnityWebRequest::SetUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::InternalSetUrl
-// Il2CppName: InternalSetUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*)>(&UnityWebRequest::InternalSetUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "InternalSetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_responseCode
-// Il2CppName: get_responseCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityWebRequest::*)()>(&UnityWebRequest::get_responseCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_responseCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::IsExecuting
-// Il2CppName: IsExecuting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::IsExecuting)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "IsExecuting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_isModifiable
-// Il2CppName: get_isModifiable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::get_isModifiable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_isModifiable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_isDone
-// Il2CppName: get_isDone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::get_isDone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_isDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_isNetworkError
-// Il2CppName: get_isNetworkError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::get_isNetworkError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_isNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_isHttpError
-// Il2CppName: get_isHttpError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWebRequest::*)()>(&UnityWebRequest::get_isHttpError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_isHttpError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::GetDownloadProgress
-// Il2CppName: GetDownloadProgress
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityWebRequest::*)()>(&UnityWebRequest::GetDownloadProgress)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "GetDownloadProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_downloadProgress
-// Il2CppName: get_downloadProgress
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityWebRequest::*)()>(&UnityWebRequest::get_downloadProgress)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_downloadProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_downloadedBytes
-// Il2CppName: get_downloadedBytes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (UnityWebRequest::*)()>(&UnityWebRequest::get_downloadedBytes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_downloadedBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetRedirectLimitFromScripting
-// Il2CppName: SetRedirectLimitFromScripting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(int)>(&UnityWebRequest::SetRedirectLimitFromScripting)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetRedirectLimitFromScripting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_redirectLimit
-// Il2CppName: set_redirectLimit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(int)>(&UnityWebRequest::set_redirectLimit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_redirectLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::InternalSetRequestHeader
-// Il2CppName: InternalSetRequestHeader
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityWebRequest::InternalSetRequestHeader)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "InternalSetRequestHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetRequestHeader
-// Il2CppName: SetRequestHeader
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityWebRequest::SetRequestHeader)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetRequestHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetUploadHandler
-// Il2CppName: SetUploadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(UnityEngine::Networking::UploadHandler*)>(&UnityWebRequest::SetUploadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetUploadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_uploadHandler
-// Il2CppName: get_uploadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UploadHandler* (UnityWebRequest::*)()>(&UnityWebRequest::get_uploadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_uploadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_uploadHandler
-// Il2CppName: set_uploadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(UnityEngine::Networking::UploadHandler*)>(&UnityWebRequest::set_uploadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_uploadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetDownloadHandler
-// Il2CppName: SetDownloadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(UnityEngine::Networking::DownloadHandler*)>(&UnityWebRequest::SetDownloadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetDownloadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_downloadHandler
-// Il2CppName: get_downloadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::DownloadHandler* (UnityWebRequest::*)()>(&UnityWebRequest::get_downloadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_downloadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_downloadHandler
-// Il2CppName: set_downloadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(UnityEngine::Networking::DownloadHandler*)>(&UnityWebRequest::set_downloadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_downloadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetCertificateHandler
-// Il2CppName: SetCertificateHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(UnityEngine::Networking::CertificateHandler*)>(&UnityWebRequest::SetCertificateHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetCertificateHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::CertificateHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::get_certificateHandler
-// Il2CppName: get_certificateHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::CertificateHandler* (UnityWebRequest::*)()>(&UnityWebRequest::get_certificateHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "get_certificateHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_certificateHandler
-// Il2CppName: set_certificateHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(UnityEngine::Networking::CertificateHandler*)>(&UnityWebRequest::set_certificateHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_certificateHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::CertificateHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::SetTimeoutMsec
-// Il2CppName: SetTimeoutMsec
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityWebRequest::*)(int)>(&UnityWebRequest::SetTimeoutMsec)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "SetTimeoutMsec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::set_timeout
-// Il2CppName: set_timeout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)(int)>(&UnityWebRequest::set_timeout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "set_timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::Get
-// Il2CppName: Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityWebRequest::Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::EscapeURL
-// Il2CppName: EscapeURL
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityWebRequest::EscapeURL)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "EscapeURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::EscapeURL
-// Il2CppName: EscapeURL
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Text::Encoding*)>(&UnityWebRequest::EscapeURL)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "EscapeURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequest::Finalize
-// Il2CppName: Finalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWebRequest::*)()>(&UnityWebRequest::Finalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequest*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3298,38 +2008,6 @@ void UnityEngine::Networking::CertificateHandler::Dispose() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: CertificateHandler::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: CertificateHandler::ValidateCertificate
-// Il2CppName: ValidateCertificate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: CertificateHandler::ValidateCertificateNative
-// Il2CppName: ValidateCertificateNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificateNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: CertificateHandler::Dispose
-// Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3398,95 +2076,6 @@ void UnityEngine::Networking::DownloadHandler::Finalize() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finalize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DownloadHandler::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::Dispose
-// Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::get_text
-// Il2CppName: get_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandler::*)()>(&DownloadHandler::get_text)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::GetData
-// Il2CppName: GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandler::*)()>(&DownloadHandler::GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::GetText
-// Il2CppName: GetText
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandler::*)()>(&DownloadHandler::GetText)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::GetTextEncoder
-// Il2CppName: GetTextEncoder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (DownloadHandler::*)()>(&DownloadHandler::GetTextEncoder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetTextEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::GetContentType
-// Il2CppName: GetContentType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandler::*)()>(&DownloadHandler::GetContentType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::GetCheckedDownloader
-// Il2CppName: GetCheckedDownloader
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: DownloadHandler::InternalGetByteArray
-// Il2CppName: InternalGetByteArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Networking::DownloadHandler*)>(&DownloadHandler::InternalGetByteArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "InternalGetByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandler::Finalize
-// Il2CppName: Finalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::Finalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3521,52 +2110,6 @@ void UnityEngine::Networking::DownloadHandlerBuffer::InternalCreateBuffer() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DownloadHandlerBuffer::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerBuffer*)>(&DownloadHandlerBuffer::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerBuffer*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerBuffer*>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerBuffer::InternalCreateBuffer
-// Il2CppName: InternalCreateBuffer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerBuffer::*)()>(&DownloadHandlerBuffer::InternalCreateBuffer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerBuffer*), "InternalCreateBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerBuffer::InternalGetData
-// Il2CppName: InternalGetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandlerBuffer::*)()>(&DownloadHandlerBuffer::InternalGetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerBuffer*), "InternalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerBuffer::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerBuffer::*)()>(&DownloadHandlerBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerBuffer::*)()>(&DownloadHandlerBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerBuffer::GetData
-// Il2CppName: GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandlerBuffer::*)()>(&DownloadHandlerBuffer::GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerBuffer*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3594,44 +2137,6 @@ void UnityEngine::Networking::UploadHandler::Finalize() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finalize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: UploadHandler::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadHandler::*)()>(&UploadHandler::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UploadHandler::Dispose
-// Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadHandler::*)()>(&UploadHandler::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UploadHandler::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadHandler::*)()>(&UploadHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadHandler::*)()>(&UploadHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UploadHandler::Finalize
-// Il2CppName: Finalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadHandler::*)()>(&UploadHandler::Finalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandler*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3648,28 +2153,6 @@ System::IntPtr UnityEngine::Networking::UploadHandlerRaw::Create(UnityEngine::Ne
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Networking", "UploadHandlerRaw", "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(self), ::il2cpp_utils::ExtractType(data)})));
   return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, self, data);
 }
-// Writing MetadataGetter for method: UploadHandlerRaw::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::UploadHandlerRaw*, ::Array<uint8_t>*)>(&UploadHandlerRaw::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandlerRaw*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandlerRaw*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: UploadHandlerRaw::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadHandlerRaw::*)(::Array<uint8_t>*)>(&UploadHandlerRaw::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandlerRaw*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadHandlerRaw::*)(::Array<uint8_t>*)>(&UploadHandlerRaw::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadHandlerRaw*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3694,22 +2177,6 @@ UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebReque
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Networking", "UnityWebRequestTexture", "GetTexture", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uri), ::il2cpp_utils::ExtractType(nonReadable)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Networking::UnityWebRequest*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, uri, nonReadable);
 }
-// Writing MetadataGetter for method: UnityWebRequestTexture::GetTexture
-// Il2CppName: GetTexture
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityWebRequestTexture::GetTexture)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnityWebRequestTexture::GetTexture
-// Il2CppName: GetTexture
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, bool)>(&UnityWebRequestTexture::GetTexture)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3766,76 +2233,6 @@ UnityEngine::Texture2D* UnityEngine::Networking::DownloadHandlerTexture::GetCont
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DownloadHandlerTexture::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerTexture*, bool)>(&DownloadHandlerTexture::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerTexture*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerTexture::InternalCreateTexture
-// Il2CppName: InternalCreateTexture
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::InternalCreateTexture)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalCreateTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerTexture::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerTexture::get_texture
-// Il2CppName: get_texture
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::get_texture)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerTexture::InternalGetTexture
-// Il2CppName: InternalGetTexture
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::InternalGetTexture)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalGetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerTexture::InternalGetTextureNative
-// Il2CppName: InternalGetTextureNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::InternalGetTextureNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalGetTextureNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerTexture::GetContent
-// Il2CppName: GetContent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Networking::UnityWebRequest*)>(&DownloadHandlerTexture::GetContent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "GetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
-  }
-};
-// Writing MetadataGetter for method: DownloadHandlerTexture::GetData
-// Il2CppName: GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3891,62 +2288,6 @@ bool UnityEngine::Experimental::XR::Boundary::TryGetGeometryScriptingInternal(Sy
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Experimental.XR", "Boundary", "TryGetGeometryScriptingInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geometry), ::il2cpp_utils::ExtractType(boundaryType)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, geometry, boundaryType);
 }
-// Writing MetadataGetter for method: Boundary::TryGetDimensions
-// Il2CppName: TryGetDimensions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetDimensions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-  }
-};
-// Writing MetadataGetter for method: Boundary::TryGetDimensionsInternal
-// Il2CppName: TryGetDimensionsInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetDimensionsInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetDimensionsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-  }
-};
-// Writing MetadataGetter for method: Boundary::get_visible
-// Il2CppName: get_visible
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Boundary::get_visible)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Boundary*), "get_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Boundary::set_visible
-// Il2CppName: set_visible
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Boundary::set_visible)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Boundary*), "set_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: Boundary::get_configured
-// Il2CppName: get_configured
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Boundary::get_configured)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Boundary*), "get_configured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Boundary::TryGetGeometry
-// Il2CppName: TryGetGeometry
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetGeometry)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-  }
-};
-// Writing MetadataGetter for method: Boundary::TryGetGeometryScriptingInternal
-// Il2CppName: TryGetGeometryScriptingInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&Boundary::TryGetGeometryScriptingInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Boundary*), "TryGetGeometryScriptingInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4062,102 +2403,6 @@ void UnityEngine::XR::XRSettings::set_renderViewportScaleInternal(float value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR", "XRSettings", "get_loadedDeviceName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: XRSettings::get_enabled
-// Il2CppName: get_enabled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRSettings::get_enabled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::get_showDeviceView
-// Il2CppName: get_showDeviceView
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRSettings::get_showDeviceView)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_showDeviceView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::set_showDeviceView
-// Il2CppName: set_showDeviceView
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&XRSettings::set_showDeviceView)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_showDeviceView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::get_eyeTextureResolutionScale
-// Il2CppName: get_eyeTextureResolutionScale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_eyeTextureResolutionScale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureResolutionScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::set_eyeTextureResolutionScale
-// Il2CppName: set_eyeTextureResolutionScale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_eyeTextureResolutionScale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_eyeTextureResolutionScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::get_eyeTextureWidth
-// Il2CppName: get_eyeTextureWidth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&XRSettings::get_eyeTextureWidth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::get_eyeTextureHeight
-// Il2CppName: get_eyeTextureHeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&XRSettings::get_eyeTextureHeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::get_renderViewportScale
-// Il2CppName: get_renderViewportScale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_renderViewportScale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_renderViewportScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::set_renderViewportScale
-// Il2CppName: set_renderViewportScale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_renderViewportScale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_renderViewportScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::get_renderViewportScaleInternal
-// Il2CppName: get_renderViewportScaleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_renderViewportScaleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_renderViewportScaleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::set_renderViewportScaleInternal
-// Il2CppName: set_renderViewportScaleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_renderViewportScaleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_renderViewportScaleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: XRSettings::get_loadedDeviceName
-// Il2CppName: get_loadedDeviceName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&XRSettings::get_loadedDeviceName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_loadedDeviceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4257,54 +2502,6 @@ void UnityEngine::XR::XRDevice::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR", "XRDevice", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: XRDevice::get_isPresent
-// Il2CppName: get_isPresent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRDevice::get_isPresent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "get_isPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRDevice::get_model
-// Il2CppName: get_model
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&XRDevice::get_model)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "get_model", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRDevice::GetNativePtr
-// Il2CppName: GetNativePtr
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&XRDevice::GetNativePtr)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "GetNativePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRDevice::SetTrackingSpaceType
-// Il2CppName: SetTrackingSpaceType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::TrackingSpaceType)>(&XRDevice::SetTrackingSpaceType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "SetTrackingSpaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::TrackingSpaceType>()});
-  }
-};
-// Writing MetadataGetter for method: XRDevice::InvokeDeviceLoaded
-// Il2CppName: InvokeDeviceLoaded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&XRDevice::InvokeDeviceLoaded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "InvokeDeviceLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: XRDevice::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&XRDevice::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDevice*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4322,14 +2519,6 @@ void UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost(Unit
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR.WSA", "WorldAnchor", "Internal_TriggerEventOnTrackingLost", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(worldAnchor), ::il2cpp_utils::ExtractType(located)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, worldAnchor, located);
 }
-// Writing MetadataGetter for method: WorldAnchor::Internal_TriggerEventOnTrackingLost
-// Il2CppName: Internal_TriggerEventOnTrackingLost
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&WorldAnchor::Internal_TriggerEventOnTrackingLost)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WorldAnchor*), "Internal_TriggerEventOnTrackingLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4362,44 +2551,6 @@ void UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::EndInvoke(Sys
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: WorldAnchor::OnTrackingChangedDelegate::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WorldAnchor::OnTrackingChangedDelegate::*)(::Il2CppObject*, System::IntPtr)>(&WorldAnchor::OnTrackingChangedDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WorldAnchor::OnTrackingChangedDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WorldAnchor::OnTrackingChangedDelegate::*)(::Il2CppObject*, System::IntPtr)>(&WorldAnchor::OnTrackingChangedDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WorldAnchor::OnTrackingChangedDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: WorldAnchor::OnTrackingChangedDelegate::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WorldAnchor::OnTrackingChangedDelegate::*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&WorldAnchor::OnTrackingChangedDelegate::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WorldAnchor::OnTrackingChangedDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: WorldAnchor::OnTrackingChangedDelegate::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (WorldAnchor::OnTrackingChangedDelegate::*)(UnityEngine::XR::WSA::WorldAnchor*, bool, System::AsyncCallback*, ::Il2CppObject*)>(&WorldAnchor::OnTrackingChangedDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WorldAnchor::OnTrackingChangedDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: WorldAnchor::OnTrackingChangedDelegate::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WorldAnchor::OnTrackingChangedDelegate::*)(System::IAsyncResult*)>(&WorldAnchor::OnTrackingChangedDelegate::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WorldAnchor::OnTrackingChangedDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4501,46 +2652,6 @@ void UnityEngine::XR::InputTracking::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR", "InputTracking", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: InputTracking::InvokeTrackingEvent
-// Il2CppName: InvokeTrackingEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::InputTracking::TrackingStateEventType, UnityEngine::XR::XRNode, int64_t, bool)>(&InputTracking::InvokeTrackingEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputTracking*), "InvokeTrackingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::InputTracking::TrackingStateEventType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: InputTracking::Recenter
-// Il2CppName: Recenter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InputTracking::Recenter)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputTracking*), "Recenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InputTracking::GetNodeStates
-// Il2CppName: GetNodeStates
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)>(&InputTracking::GetNodeStates)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputTracking*), "GetNodeStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*>()});
-  }
-};
-// Writing MetadataGetter for method: InputTracking::GetNodeStates_Internal
-// Il2CppName: GetNodeStates_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)>(&InputTracking::GetNodeStates_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputTracking*), "GetNodeStates_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*>()});
-  }
-};
-// Writing MetadataGetter for method: InputTracking::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InputTracking::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputTracking*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4889,102 +3000,6 @@ bool UnityEngine::XR::XRNodeState::TryGet(UnityEngine::Quaternion inValue, Unity
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "TryGet", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inValue), ::il2cpp_utils::ExtractType(availabilityFlag), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, inValue, availabilityFlag, outValue);
 }
-// Writing MetadataGetter for method: XRNodeState::set_uniqueID
-// Il2CppName: set_uniqueID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRNodeState::*)(uint64_t)>(&XRNodeState::set_uniqueID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "set_uniqueID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::get_nodeType
-// Il2CppName: get_nodeType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (XRNodeState::*)()>(&XRNodeState::get_nodeType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "get_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::set_nodeType
-// Il2CppName: set_nodeType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRNodeState::*)(UnityEngine::XR::XRNode)>(&XRNodeState::set_nodeType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "set_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::set_tracked
-// Il2CppName: set_tracked
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRNodeState::*)(bool)>(&XRNodeState::set_tracked)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "set_tracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGetPosition
-// Il2CppName: TryGetPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGetRotation
-// Il2CppName: TryGetRotation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Quaternion&)>(&XRNodeState::TryGetRotation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGetVelocity
-// Il2CppName: TryGetVelocity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetVelocity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGetAngularVelocity
-// Il2CppName: TryGetAngularVelocity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetAngularVelocity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGetAcceleration
-// Il2CppName: TryGetAcceleration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetAcceleration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGetAngularAcceleration
-// Il2CppName: TryGetAngularAcceleration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetAngularAcceleration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGet
-// Il2CppName: TryGet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3, UnityEngine::XR::AvailableTrackingData, UnityEngine::Vector3&)>(&XRNodeState::TryGet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
-// Writing MetadataGetter for method: XRNodeState::TryGet
-// Il2CppName: TryGet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Quaternion, UnityEngine::XR::AvailableTrackingData, UnityEngine::Quaternion&)>(&XRNodeState::TryGet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5211,46 +3226,6 @@ int UnityEngine::XR::InputFeatureUsage::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
 }
-// Writing MetadataGetter for method: InputFeatureUsage::get_name
-// Il2CppName: get_name
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputFeatureUsage::*)()>(&InputFeatureUsage::get_name)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFeatureUsage), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InputFeatureUsage::get_internalType
-// Il2CppName: get_internalType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::InputFeatureType (InputFeatureUsage::*)()>(&InputFeatureUsage::get_internalType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFeatureUsage), "get_internalType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InputFeatureUsage::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputFeatureUsage::*)(UnityEngine::XR::InputFeatureUsage)>(&InputFeatureUsage::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFeatureUsage), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::InputFeatureUsage>()});
-  }
-};
-// Writing MetadataGetter for method: InputFeatureUsage::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputFeatureUsage::*)(::Il2CppObject*)>(&InputFeatureUsage::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFeatureUsage), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: InputFeatureUsage::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputFeatureUsage::*)()>(&InputFeatureUsage::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFeatureUsage), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5285,52 +3260,6 @@ int UnityEngine::XR::InputDevice::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
 }
-// Writing MetadataGetter for method: InputDevice::InputDevice
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputDevice::*)(uint64_t)>(&InputDevice::InputDevice<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputDevice), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputDevice::*)(uint64_t)>(&InputDevice::InputDevice<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputDevice), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
-// Writing MetadataGetter for method: InputDevice::get_deviceId
-// Il2CppName: get_deviceId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (InputDevice::*)()>(&InputDevice::get_deviceId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputDevice), "get_deviceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InputDevice::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputDevice::*)(UnityEngine::XR::InputDevice)>(&InputDevice::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputDevice), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::InputDevice>()});
-  }
-};
-// Writing MetadataGetter for method: InputDevice::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputDevice::*)(::Il2CppObject*)>(&InputDevice::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputDevice), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: InputDevice::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputDevice::*)()>(&InputDevice::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputDevice), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5371,46 +3300,6 @@ int UnityEngine::XR::Hand::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
 }
-// Writing MetadataGetter for method: Hand::get_deviceId
-// Il2CppName: get_deviceId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Hand::*)()>(&Hand::get_deviceId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "get_deviceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Hand::get_featureIndex
-// Il2CppName: get_featureIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Hand::*)()>(&Hand::get_featureIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "get_featureIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Hand::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Hand::*)(UnityEngine::XR::Hand)>(&Hand::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::Hand>()});
-  }
-};
-// Writing MetadataGetter for method: Hand::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Hand::*)(::Il2CppObject*)>(&Hand::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Hand::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Hand::*)()>(&Hand::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5451,46 +3340,6 @@ int UnityEngine::XR::Eyes::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
 }
-// Writing MetadataGetter for method: Eyes::get_deviceId
-// Il2CppName: get_deviceId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Eyes::*)()>(&Eyes::get_deviceId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Eyes), "get_deviceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Eyes::get_featureIndex
-// Il2CppName: get_featureIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Eyes::*)()>(&Eyes::get_featureIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Eyes), "get_featureIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Eyes::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Eyes::*)(UnityEngine::XR::Eyes)>(&Eyes::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Eyes), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::Eyes>()});
-  }
-};
-// Writing MetadataGetter for method: Eyes::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Eyes::*)(::Il2CppObject*)>(&Eyes::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Eyes), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Eyes::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Eyes::*)()>(&Eyes::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Eyes), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5531,46 +3380,6 @@ int UnityEngine::XR::Bone::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
 }
-// Writing MetadataGetter for method: Bone::get_deviceId
-// Il2CppName: get_deviceId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Bone::*)()>(&Bone::get_deviceId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bone), "get_deviceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Bone::get_featureIndex
-// Il2CppName: get_featureIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Bone::*)()>(&Bone::get_featureIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bone), "get_featureIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Bone::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bone::*)(UnityEngine::XR::Bone)>(&Bone::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bone), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::Bone>()});
-  }
-};
-// Writing MetadataGetter for method: Bone::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bone::*)(::Il2CppObject*)>(&Bone::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bone), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Bone::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Bone::*)()>(&Bone::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bone), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5632,14 +3441,6 @@ void UnityEngine::XR::InputDevices::InvokeConnectionEvent(uint64_t deviceId, Uni
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR", "InputDevices", "InvokeConnectionEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(deviceId), ::il2cpp_utils::ExtractType(change)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, deviceId, change);
 }
-// Writing MetadataGetter for method: InputDevices::InvokeConnectionEvent
-// Il2CppName: InvokeConnectionEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, UnityEngine::XR::ConnectionChangeType)>(&InputDevices::InvokeConnectionEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputDevices*), "InvokeConnectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::ConnectionChangeType>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5677,28 +3478,6 @@ void UnityEngine::XR::XRDisplaySubsystem::InvokeDisplayFocusChanged(bool focus) 
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR", "XRDisplaySubsystem", "InvokeDisplayFocusChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(focus)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, focus);
 }
-// Writing MetadataGetter for method: XRDisplaySubsystem::InvokeDisplayFocusChanged
-// Il2CppName: InvokeDisplayFocusChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&XRDisplaySubsystem::InvokeDisplayFocusChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDisplaySubsystem*), "InvokeDisplayFocusChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: XRDisplaySubsystem::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRDisplaySubsystem::*)()>(&XRDisplaySubsystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDisplaySubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRDisplaySubsystem::*)()>(&XRDisplaySubsystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDisplaySubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5710,20 +3489,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRDis
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: XRDisplaySubsystemDescriptor::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRDisplaySubsystemDescriptor::*)()>(&XRDisplaySubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDisplaySubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRDisplaySubsystemDescriptor::*)()>(&XRDisplaySubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRDisplaySubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5749,36 +3514,6 @@ void UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent(System::IntPt
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR", "XRInputSubsystem", "InvokeBoundaryChangedEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(internalPtr)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, internalPtr);
 }
-// Writing MetadataGetter for method: XRInputSubsystem::InvokeTrackingOriginUpdatedEvent
-// Il2CppName: InvokeTrackingOriginUpdatedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&XRInputSubsystem::InvokeTrackingOriginUpdatedEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRInputSubsystem*), "InvokeTrackingOriginUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: XRInputSubsystem::InvokeBoundaryChangedEvent
-// Il2CppName: InvokeBoundaryChangedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&XRInputSubsystem::InvokeBoundaryChangedEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRInputSubsystem*), "InvokeBoundaryChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: XRInputSubsystem::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRInputSubsystem::*)()>(&XRInputSubsystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRInputSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRInputSubsystem::*)()>(&XRInputSubsystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRInputSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5790,20 +3525,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRInp
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: XRInputSubsystemDescriptor::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRInputSubsystemDescriptor::*)()>(&XRInputSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRInputSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRInputSubsystemDescriptor::*)()>(&XRInputSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRInputSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5856,46 +3577,6 @@ bool UnityEngine::XR::MeshId::Equals(::Il2CppObject* obj) {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, obj);
 }
-// Writing MetadataGetter for method: MeshId::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshId::*)(UnityEngine::XR::MeshId)>(&MeshId::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshId>()});
-  }
-};
-// Writing MetadataGetter for method: MeshId::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MeshId::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshId), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshId::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MeshId::*)()>(&MeshId::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshId), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshId::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MeshId::*)()>(&MeshId::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshId), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshId::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshId::*)(::Il2CppObject*)>(&MeshId::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5980,14 +3661,6 @@ int UnityEngine::XR::HashCodeHelper::Combine(int hash1, int hash2) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.XR", "HashCodeHelper", "Combine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hash1), ::il2cpp_utils::ExtractType(hash2)})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, hash1, hash2);
 }
-// Writing MetadataGetter for method: HashCodeHelper::Combine
-// Il2CppName: Combine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&HashCodeHelper::Combine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HashCodeHelper*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6050,70 +3723,6 @@ int UnityEngine::XR::MeshGenerationResult::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
 }
-// Writing MetadataGetter for method: MeshGenerationResult::get_MeshId
-// Il2CppName: get_MeshId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshId (MeshGenerationResult::*)()>(&MeshGenerationResult::get_MeshId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_MeshId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshGenerationResult::get_Mesh
-// Il2CppName: get_Mesh
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Mesh)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshGenerationResult::get_MeshCollider
-// Il2CppName: get_MeshCollider
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshCollider* (MeshGenerationResult::*)()>(&MeshGenerationResult::get_MeshCollider)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_MeshCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshGenerationResult::get_Status
-// Il2CppName: get_Status
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshGenerationStatus (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Status)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshGenerationResult::get_Attributes
-// Il2CppName: get_Attributes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshVertexAttributes (MeshGenerationResult::*)()>(&MeshGenerationResult::get_Attributes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MeshGenerationResult::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshGenerationResult::*)(UnityEngine::XR::MeshGenerationResult)>(&MeshGenerationResult::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>()});
-  }
-};
-// Writing MetadataGetter for method: MeshGenerationResult::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshGenerationResult::*)(::Il2CppObject*)>(&MeshGenerationResult::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: MeshGenerationResult::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MeshGenerationResult::*)()>(&MeshGenerationResult::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshGenerationResult), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6202,28 +3811,6 @@ void UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate(UnityEngine::XR::
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InvokeMeshReadyDelegate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(onMeshGenerationComplete)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result, onMeshGenerationComplete);
 }
-// Writing MetadataGetter for method: XRMeshSubsystem::InvokeMeshReadyDelegate
-// Il2CppName: InvokeMeshReadyDelegate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystem::*)(UnityEngine::XR::MeshGenerationResult, System::Action_1<UnityEngine::XR::MeshGenerationResult>*)>(&XRMeshSubsystem::InvokeMeshReadyDelegate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystem*), "InvokeMeshReadyDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::XR::MeshGenerationResult>*>()});
-  }
-};
-// Writing MetadataGetter for method: XRMeshSubsystem::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystem::*)()>(&XRMeshSubsystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystem::*)()>(&XRMeshSubsystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6235,20 +3822,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMes
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: XRMeshSubsystemDescriptor::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystemDescriptor::*)()>(&XRMeshSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystemDescriptor::*)()>(&XRMeshSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6276,30 +3849,6 @@ void NetEase::Docker::InitializeData::set_InitializeCode(int value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_InitializeCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: InitializeData::get_InitializeSuccessful
-// Il2CppName: get_InitializeSuccessful
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InitializeData::*)()>(&InitializeData::get_InitializeSuccessful)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InitializeData), "get_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InitializeData::set_InitializeSuccessful
-// Il2CppName: set_InitializeSuccessful
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializeData::*)(bool)>(&InitializeData::set_InitializeSuccessful)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InitializeData), "set_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: InitializeData::set_InitializeCode
-// Il2CppName: set_InitializeCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializeData::*)(int)>(&InitializeData::set_InitializeCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InitializeData), "set_InitializeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6340,46 +3889,6 @@ void NetEase::Docker::LoginData::set_UserName(::Il2CppString* value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_UserName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: LoginData::get_LoginSuccessful
-// Il2CppName: get_LoginSuccessful
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LoginData::*)()>(&LoginData::get_LoginSuccessful)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LoginData), "get_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: LoginData::set_LoginSuccessful
-// Il2CppName: set_LoginSuccessful
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(bool)>(&LoginData::set_LoginSuccessful)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LoginData), "set_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: LoginData::set_LoginCode
-// Il2CppName: set_LoginCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(int)>(&LoginData::set_LoginCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LoginData), "set_LoginCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: LoginData::get_UserName
-// Il2CppName: get_UserName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LoginData::*)()>(&LoginData::get_UserName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LoginData), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: LoginData::set_UserName
-// Il2CppName: set_UserName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(::Il2CppString*)>(&LoginData::set_UserName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LoginData), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6395,14 +3904,6 @@ void NetEase::Docker::LogoutData::set_LogoutCode(int value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_LogoutCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: LogoutData::set_LogoutCode
-// Il2CppName: set_LogoutCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogoutData::*)(int)>(&LogoutData::set_LogoutCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LogoutData), "set_LogoutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6457,62 +3958,6 @@ void NetEase::Docker::ReceivedHighscoreData::set_Scores(System::Collections::Gen
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_Scores", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: ReceivedHighscoreData::get_FetchingSuccessful
-// Il2CppName: get_FetchingSuccessful
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_FetchingSuccessful)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ReceivedHighscoreData::set_FetchingSuccessful
-// Il2CppName: set_FetchingSuccessful
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(bool)>(&ReceivedHighscoreData::set_FetchingSuccessful)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: ReceivedHighscoreData::set_HighscoreCode
-// Il2CppName: set_HighscoreCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(int)>(&ReceivedHighscoreData::set_HighscoreCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_HighscoreCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: ReceivedHighscoreData::get_Track
-// Il2CppName: get_Track
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_Track)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ReceivedHighscoreData::set_Track
-// Il2CppName: set_Track
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(::Il2CppString*)>(&ReceivedHighscoreData::set_Track)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: ReceivedHighscoreData::get_Scores
-// Il2CppName: get_Scores
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_Scores)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ReceivedHighscoreData::set_Scores
-// Il2CppName: set_Scores
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*)>(&ReceivedHighscoreData::set_Scores)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6553,46 +3998,6 @@ void NetEase::Docker::ScoreData::set_TimeStamp(int64_t value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_TimeStamp", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: ScoreData::get_Name
-// Il2CppName: get_Name
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ScoreData::*)()>(&ScoreData::get_Name)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreData), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ScoreData::set_Name
-// Il2CppName: set_Name
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreData::*)(::Il2CppString*)>(&ScoreData::set_Name)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreData), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: ScoreData::get_Score
-// Il2CppName: get_Score
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ScoreData::*)()>(&ScoreData::get_Score)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreData), "get_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ScoreData::set_Score
-// Il2CppName: set_Score
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreData::*)(int)>(&ScoreData::set_Score)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: ScoreData::set_TimeStamp
-// Il2CppName: set_TimeStamp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreData::*)(int64_t)>(&ScoreData::set_TimeStamp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreData), "set_TimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6621,30 +4026,6 @@ void NetEase::Docker::RequestHighscoreData::set_HighscoreType(::Il2CppString* va
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_HighscoreType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: RequestHighscoreData::get_Track
-// Il2CppName: get_Track
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RequestHighscoreData::*)()>(&RequestHighscoreData::get_Track)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RequestHighscoreData), "get_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RequestHighscoreData::set_Track
-// Il2CppName: set_Track
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequestHighscoreData::*)(::Il2CppString*)>(&RequestHighscoreData::set_Track)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RequestHighscoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: RequestHighscoreData::set_HighscoreType
-// Il2CppName: set_HighscoreType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequestHighscoreData::*)(::Il2CppString*)>(&RequestHighscoreData::set_HighscoreType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RequestHighscoreData), "set_HighscoreType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6667,22 +4048,6 @@ void NetEase::Docker::UploadScoreData::set_Score(int value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_Score", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: UploadScoreData::set_Track
-// Il2CppName: set_Track
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadScoreData::*)(::Il2CppString*)>(&UploadScoreData::set_Track)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadScoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UploadScoreData::set_Score
-// Il2CppName: set_Score
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadScoreData::*)(int)>(&UploadScoreData::set_Score)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6764,108 +4129,6 @@ void NetEase::Docker::BaseDock::UpdateLoop() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateLoop", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: BaseDock::SetInitializeCallback
-// Il2CppName: SetInitializeCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&BaseDock::SetInitializeCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::Initialize
-// Il2CppName: Initialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Initialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::SetLoginCallback
-// Il2CppName: SetLoginCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::LoginData>*)>(&BaseDock::SetLoginCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::Login
-// Il2CppName: Login
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Login)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::SetLogoutCallback
-// Il2CppName: SetLogoutCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&BaseDock::SetLogoutCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::Logout
-// Il2CppName: Logout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::Logout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::UploadScore
-// Il2CppName: UploadScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(NetEase::Docker::UploadScoreData)>(&BaseDock::UploadScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::WillProvideHighscore
-// Il2CppName: WillProvideHighscore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseDock::*)()>(&BaseDock::WillProvideHighscore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::SetHighscoreReceivedCallback
-// Il2CppName: SetHighscoreReceivedCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&BaseDock::SetHighscoreReceivedCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::RequestHighscoreList
-// Il2CppName: RequestHighscoreList
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)(NetEase::Docker::RequestHighscoreData)>(&BaseDock::RequestHighscoreList)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::UpdateLoop
-// Il2CppName: UpdateLoop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::UpdateLoop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseDock::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseDock::*)()>(&BaseDock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseDock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6947,94 +4210,6 @@ void NetEase::Docker::IDock::UpdateLoop() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateLoop", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: IDock::SetInitializeCallback
-// Il2CppName: SetInitializeCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&IDock::SetInitializeCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
-  }
-};
-// Writing MetadataGetter for method: IDock::Initialize
-// Il2CppName: Initialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)()>(&IDock::Initialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: IDock::SetLoginCallback
-// Il2CppName: SetLoginCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)(System::Action_1<NetEase::Docker::LoginData>*)>(&IDock::SetLoginCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
-  }
-};
-// Writing MetadataGetter for method: IDock::Login
-// Il2CppName: Login
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)()>(&IDock::Login)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: IDock::SetLogoutCallback
-// Il2CppName: SetLogoutCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&IDock::SetLogoutCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
-  }
-};
-// Writing MetadataGetter for method: IDock::Logout
-// Il2CppName: Logout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)()>(&IDock::Logout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: IDock::UploadScore
-// Il2CppName: UploadScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)(NetEase::Docker::UploadScoreData)>(&IDock::UploadScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
-  }
-};
-// Writing MetadataGetter for method: IDock::WillProvideHighscore
-// Il2CppName: WillProvideHighscore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IDock::*)()>(&IDock::WillProvideHighscore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: IDock::SetHighscoreReceivedCallback
-// Il2CppName: SetHighscoreReceivedCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&IDock::SetHighscoreReceivedCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
-  }
-};
-// Writing MetadataGetter for method: IDock::RequestHighscoreList
-// Il2CppName: RequestHighscoreList
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)(NetEase::Docker::RequestHighscoreData)>(&IDock::RequestHighscoreList)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
-  }
-};
-// Writing MetadataGetter for method: IDock::UpdateLoop
-// Il2CppName: UpdateLoop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDock::*)()>(&IDock::UpdateLoop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDock*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7136,102 +4311,6 @@ void NetEase::Docker::VivaDocker::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("NetEase.Docker", "VivaDocker", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: VivaDocker::SetInitializeCallback
-// Il2CppName: SetInitializeCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&VivaDocker::SetInitializeCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::Initialize
-// Il2CppName: Initialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::Initialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::SetLoginCallback
-// Il2CppName: SetLoginCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LoginData>*)>(&VivaDocker::SetLoginCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::Login
-// Il2CppName: Login
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::Login)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::SetLogoutCallback
-// Il2CppName: SetLogoutCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&VivaDocker::SetLogoutCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::Logout
-// Il2CppName: Logout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::Logout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::UploadScore
-// Il2CppName: UploadScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::UploadScoreData)>(&VivaDocker::UploadScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::WillProvideHighscore
-// Il2CppName: WillProvideHighscore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&VivaDocker::WillProvideHighscore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::SetHighscoreReceivedCallback
-// Il2CppName: SetHighscoreReceivedCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&VivaDocker::SetHighscoreReceivedCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::RequestHighscoreList
-// Il2CppName: RequestHighscoreList
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::RequestHighscoreData)>(&VivaDocker::RequestHighscoreList)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::UpdateLoop
-// Il2CppName: UpdateLoop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::UpdateLoop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VivaDocker::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7279,68 +4358,6 @@ void VRUIControls::ButtonState::set_pressedValue(float value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_pressedValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: ButtonState::get_eventData
-// Il2CppName: get_eventData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::MouseButtonEventData* (ButtonState::*)()>(&ButtonState::get_eventData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), "get_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ButtonState::set_eventData
-// Il2CppName: set_eventData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)(VRUIControls::MouseButtonEventData*)>(&ButtonState::set_eventData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), "set_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::MouseButtonEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: ButtonState::get_button
-// Il2CppName: get_button
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (ButtonState::*)()>(&ButtonState::get_button)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ButtonState::set_button
-// Il2CppName: set_button
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&ButtonState::set_button)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
-  }
-};
-// Writing MetadataGetter for method: ButtonState::get_pressedValue
-// Il2CppName: get_pressedValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ButtonState::*)()>(&ButtonState::get_pressedValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), "get_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ButtonState::set_pressedValue
-// Il2CppName: set_pressedValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)(float)>(&ButtonState::set_pressedValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), "set_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: ButtonState::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)()>(&ButtonState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)()>(&ButtonState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7364,36 +4381,6 @@ bool VRUIControls::MouseButtonEventData::ReleasedThisFrame() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReleasedThisFrame", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: MouseButtonEventData::PressedThisFrame
-// Il2CppName: PressedThisFrame
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MouseButtonEventData::*)()>(&MouseButtonEventData::PressedThisFrame)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), "PressedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MouseButtonEventData::ReleasedThisFrame
-// Il2CppName: ReleasedThisFrame
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MouseButtonEventData::*)()>(&MouseButtonEventData::ReleasedThisFrame)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), "ReleasedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MouseButtonEventData::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MouseButtonEventData::*)()>(&MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MouseButtonEventData::*)()>(&MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7435,52 +4422,6 @@ void VRUIControls::MouseState::SetButtonState(UnityEngine::EventSystems::Pointer
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetButtonState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(button), ::il2cpp_utils::ExtractType(stateForMouseButton), ::il2cpp_utils::ExtractType(data)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, button, stateForMouseButton, data);
 }
-// Writing MetadataGetter for method: MouseState::AnyPressesThisFrame
-// Il2CppName: AnyPressesThisFrame
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MouseState::*)()>(&MouseState::AnyPressesThisFrame)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseState*), "AnyPressesThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MouseState::AnyReleasesThisFrame
-// Il2CppName: AnyReleasesThisFrame
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MouseState::*)()>(&MouseState::AnyReleasesThisFrame)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseState*), "AnyReleasesThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MouseState::GetButtonState
-// Il2CppName: GetButtonState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::ButtonState* (MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&MouseState::GetButtonState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseState*), "GetButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
-  }
-};
-// Writing MetadataGetter for method: MouseState::SetButtonState
-// Il2CppName: SetButtonState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton, UnityEngine::EventSystems::PointerEventData::FramePressState, UnityEngine::EventSystems::PointerEventData*)>(&MouseState::SetButtonState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseState*), "SetButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::FramePressState>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: MouseState::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MouseState::*)()>(&MouseState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MouseState::*)()>(&MouseState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7498,28 +4439,6 @@ bool VRUIControls::PhysicsRaycasterWithCache::Raycast(UnityEngine::Ray ray, Unit
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Raycast", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ray), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractType(maxDistance), ::il2cpp_utils::ExtractType(layerMask)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, ray, hitInfo, maxDistance, layerMask);
 }
-// Writing MetadataGetter for method: PhysicsRaycasterWithCache::Raycast
-// Il2CppName: Raycast
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PhysicsRaycasterWithCache::*)(UnityEngine::Ray, UnityEngine::RaycastHit&, float, int)>(&PhysicsRaycasterWithCache::Raycast)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycasterWithCache*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: PhysicsRaycasterWithCache::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycasterWithCache::*)()>(&PhysicsRaycasterWithCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycasterWithCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycasterWithCache::*)()>(&PhysicsRaycasterWithCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycasterWithCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7529,20 +4448,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Physi
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: PhysicsRaycasterWithCache::CachedRaycast::CachedRaycast
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycasterWithCache::CachedRaycast::*)(bool, UnityEngine::Ray, UnityEngine::RaycastHit, float, int)>(&PhysicsRaycasterWithCache::CachedRaycast::CachedRaycast<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycasterWithCache::CachedRaycast), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycasterWithCache::CachedRaycast::*)(bool, UnityEngine::Ray, UnityEngine::RaycastHit, float, int)>(&PhysicsRaycasterWithCache::CachedRaycast::CachedRaycast<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycasterWithCache::CachedRaycast), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7626,60 +4531,6 @@ void VRUIControls::VRGraphicRaycaster::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("VRUIControls", "VRGraphicRaycaster", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: VRGraphicRaycaster::RaycastCanvas
-// Il2CppName: RaycastCanvas
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::Ray, float, float, System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>*)>(&VRGraphicRaycaster::RaycastCanvas)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster*), "RaycastCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>*>()});
-  }
-};
-// Writing MetadataGetter for method: VRGraphicRaycaster::get_eventCamera
-// Il2CppName: get_eventCamera
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (VRGraphicRaycaster::*)()>(&VRGraphicRaycaster::get_eventCamera)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRGraphicRaycaster::OnEnable
-// Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::*)()>(&VRGraphicRaycaster::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRGraphicRaycaster::Raycast
-// Il2CppName: Raycast
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&VRGraphicRaycaster::Raycast)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
-  }
-};
-// Writing MetadataGetter for method: VRGraphicRaycaster::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::*)()>(&VRGraphicRaycaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::*)()>(&VRGraphicRaycaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRGraphicRaycaster::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRGraphicRaycaster::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7691,20 +4542,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: VRGraphicRaycaster::VRGraphicRaycastResult::VRGraphicRaycastResult
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::VRGraphicRaycastResult::*)(UnityEngine::UI::Graphic*, float, UnityEngine::Vector3, UnityEngine::Vector2)>(&VRGraphicRaycaster::VRGraphicRaycastResult::VRGraphicRaycastResult<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster::VRGraphicRaycastResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::VRGraphicRaycastResult::*)(UnityEngine::UI::Graphic*, float, UnityEngine::Vector3, UnityEngine::Vector2)>(&VRGraphicRaycaster::VRGraphicRaycastResult::VRGraphicRaycastResult<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster::VRGraphicRaycastResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7752,36 +4589,6 @@ int VRUIControls::VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0(VRUIControls::
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RaycastCanvas>b__12_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(g1), ::il2cpp_utils::ExtractType(g2)})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, g1, g2);
 }
-// Writing MetadataGetter for method: VRGraphicRaycaster::$$c::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRGraphicRaycaster::$$c::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0
-// Il2CppName: <RaycastCanvas>b__12_0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRGraphicRaycaster::$$c::*)(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult)>(&VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster::$$c*), "<RaycastCanvas>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>(), ::il2cpp_utils::ExtractIndependentType<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>()});
-  }
-};
-// Writing MetadataGetter for method: VRGraphicRaycaster::$$c::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::$$c::*)()>(&VRGraphicRaycaster::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRGraphicRaycaster::$$c::*)()>(&VRGraphicRaycaster::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRGraphicRaycaster::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7983,188 +4790,6 @@ void VRUIControls::VRInputModule::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("VRUIControls", "VRInputModule", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: VRInputModule::get_useMouseForPressInput
-// Il2CppName: get_useMouseForPressInput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRInputModule::*)()>(&VRInputModule::get_useMouseForPressInput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "get_useMouseForPressInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::set_useMouseForPressInput
-// Il2CppName: set_useMouseForPressInput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(bool)>(&VRInputModule::set_useMouseForPressInput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "set_useMouseForPressInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::add_onProcessMousePressEvent
-// Il2CppName: add_onProcessMousePressEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(System::Action_1<UnityEngine::GameObject*>*)>(&VRInputModule::add_onProcessMousePressEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "add_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::GameObject*>*>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::remove_onProcessMousePressEvent
-// Il2CppName: remove_onProcessMousePressEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(System::Action_1<UnityEngine::GameObject*>*)>(&VRInputModule::remove_onProcessMousePressEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "remove_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::GameObject*>*>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::GetPointerData
-// Il2CppName: GetPointerData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRInputModule::*)(int, UnityEngine::EventSystems::PointerEventData*&, bool)>(&VRInputModule::GetPointerData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::GetMousePointerEventData
-// Il2CppName: GetMousePointerEventData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::MouseState* (VRInputModule::*)(int)>(&VRInputModule::GetMousePointerEventData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "GetMousePointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::GetLastPointerEventData
-// Il2CppName: GetLastPointerEventData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData* (VRInputModule::*)(int)>(&VRInputModule::GetLastPointerEventData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "GetLastPointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::ShouldStartDrag
-// Il2CppName: ShouldStartDrag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRInputModule::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, bool)>(&VRInputModule::ShouldStartDrag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::ProcessMove
-// Il2CppName: ProcessMove
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRInputModule::ProcessMove)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "ProcessMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::ProcessDrag
-// Il2CppName: ProcessDrag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRInputModule::ProcessDrag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::ClearSelection
-// Il2CppName: ClearSelection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)()>(&VRInputModule::ClearSelection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::DeselectIfSelectionChanged
-// Il2CppName: DeselectIfSelectionChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(UnityEngine::GameObject*, UnityEngine::EventSystems::BaseEventData*)>(&VRInputModule::DeselectIfSelectionChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "DeselectIfSelectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::SendUpdateEventToSelectedObject
-// Il2CppName: SendUpdateEventToSelectedObject
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRInputModule::*)()>(&VRInputModule::SendUpdateEventToSelectedObject)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "SendUpdateEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::ProcessMousePress
-// Il2CppName: ProcessMousePress
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(VRUIControls::MouseButtonEventData*)>(&VRInputModule::ProcessMousePress)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::MouseButtonEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::RaycastComparer
-// Il2CppName: RaycastComparer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::EventSystems::RaycastResult, UnityEngine::EventSystems::RaycastResult)>(&VRInputModule::RaycastComparer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "RaycastComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::OnDisable
-// Il2CppName: OnDisable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)()>(&VRInputModule::OnDisable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::IsPointerOverGameObject
-// Il2CppName: IsPointerOverGameObject
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRInputModule::*)(int)>(&VRInputModule::IsPointerOverGameObject)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "IsPointerOverGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRInputModule::*)()>(&VRInputModule::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::Process
-// Il2CppName: Process
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)()>(&VRInputModule::Process)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::HandlePointerExitAndEnter
-// Il2CppName: HandlePointerExitAndEnter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::GameObject*)>(&VRInputModule::HandlePointerExitAndEnter)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)()>(&VRInputModule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRInputModule::*)()>(&VRInputModule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRInputModule::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRInputModule::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRInputModule*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8230,52 +4855,6 @@ void VRUIControls::VRLaserPointer::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("VRUIControls", "VRLaserPointer", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: VRLaserPointer::SetLocalPosition
-// Il2CppName: SetLocalPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRLaserPointer::*)(UnityEngine::Vector3)>(&VRLaserPointer::SetLocalPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRLaserPointer*), "SetLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-  }
-};
-// Writing MetadataGetter for method: VRLaserPointer::SetLocalScale
-// Il2CppName: SetLocalScale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRLaserPointer::*)(UnityEngine::Vector3)>(&VRLaserPointer::SetLocalScale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRLaserPointer*), "SetLocalScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-  }
-};
-// Writing MetadataGetter for method: VRLaserPointer::SetFadeDistance
-// Il2CppName: SetFadeDistance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRLaserPointer::*)(float)>(&VRLaserPointer::SetFadeDistance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRLaserPointer*), "SetFadeDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: VRLaserPointer::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRLaserPointer::*)()>(&VRLaserPointer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRLaserPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRLaserPointer::*)()>(&VRLaserPointer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRLaserPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRLaserPointer::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRLaserPointer::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRLaserPointer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8430,132 +5009,6 @@ void VRUIControls::VRPointer::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("VRUIControls", "VRPointer", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: VRPointer::get_vrController
-// Il2CppName: get_vrController
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRController* (VRPointer::*)()>(&VRPointer::get_vrController)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_vrController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::get_cursorPosition
-// Il2CppName: get_cursorPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRPointer::*)()>(&VRPointer::get_cursorPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_cursorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::get_eventSystem
-// Il2CppName: get_eventSystem
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::EventSystem* (VRPointer::*)()>(&VRPointer::get_eventSystem)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_eventSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::Awake
-// Il2CppName: Awake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::Awake)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::OnEnable
-// Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::OnDisable
-// Il2CppName: OnDisable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::OnDisable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::LateUpdate
-// Il2CppName: LateUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::LateUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::CreateLaserPointerAndLaserHit
-// Il2CppName: CreateLaserPointerAndLaserHit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::CreateLaserPointerAndLaserHit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "CreateLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::RefreshLaserPointerAndLaserHit
-// Il2CppName: RefreshLaserPointerAndLaserHit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRPointer::RefreshLaserPointerAndLaserHit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "RefreshLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::OnApplicationFocus
-// Il2CppName: OnApplicationFocus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)(bool)>(&VRPointer::OnApplicationFocus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::DestroyLaserAndHit
-// Il2CppName: DestroyLaserAndHit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::DestroyLaserAndHit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "DestroyLaserAndHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::get_state
-// Il2CppName: get_state
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRPointer::*)()>(&VRPointer::get_state)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::Process
-// Il2CppName: Process
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRPointer::Process)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: VRPointer::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRPointer::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8571,14 +5024,6 @@ void Zenject::IGuiRenderable::GuiRender() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GuiRender", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: IGuiRenderable::GuiRender
-// Il2CppName: GuiRender
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGuiRenderable::*)()>(&IGuiRenderable::GuiRender)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGuiRenderable*), "GuiRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8594,14 +5039,6 @@ void Zenject::IInitializable::Initialize() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: IInitializable::Initialize
-// Il2CppName: Initialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IInitializable::*)()>(&IInitializable::Initialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IInitializable*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8614,20 +5051,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IInit
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: InjectableInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectableInfo::*)(bool, ::Il2CppObject*, ::Il2CppString*, System::Type*, ::Il2CppObject*, Zenject::InjectSources)>(&InjectableInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectableInfo::*)(bool, ::Il2CppObject*, ::Il2CppString*, System::Type*, ::Il2CppObject*, Zenject::InjectSources)>(&InjectableInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8637,20 +5060,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Injec
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: PreserveAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreserveAttribute::*)()>(&PreserveAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PreserveAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreserveAttribute::*)()>(&PreserveAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PreserveAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8697,68 +5106,6 @@ void Zenject::InjectAttributeBase::set_Source(Zenject::InjectSources value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Source", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: InjectAttributeBase::get_Optional
-// Il2CppName: get_Optional
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InjectAttributeBase::*)()>(&InjectAttributeBase::get_Optional)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "get_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InjectAttributeBase::set_Optional
-// Il2CppName: set_Optional
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)(bool)>(&InjectAttributeBase::set_Optional)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: InjectAttributeBase::get_Id
-// Il2CppName: get_Id
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectAttributeBase::*)()>(&InjectAttributeBase::get_Id)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InjectAttributeBase::set_Id
-// Il2CppName: set_Id
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)(::Il2CppObject*)>(&InjectAttributeBase::set_Id)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "set_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: InjectAttributeBase::get_Source
-// Il2CppName: get_Source
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectSources (InjectAttributeBase::*)()>(&InjectAttributeBase::get_Source)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InjectAttributeBase::set_Source
-// Il2CppName: set_Source
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)(Zenject::InjectSources)>(&InjectAttributeBase::set_Source)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "set_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
-  }
-};
-// Writing MetadataGetter for method: InjectAttributeBase::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)()>(&InjectAttributeBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)()>(&InjectAttributeBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8768,20 +5115,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Injec
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: InjectAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttribute::*)()>(&InjectAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttribute::*)()>(&InjectAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8791,20 +5124,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Injec
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: InjectLocalAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectLocalAttribute::*)()>(&InjectLocalAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectLocalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectLocalAttribute::*)()>(&InjectLocalAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectLocalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8814,20 +5133,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Injec
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: InjectOptionalAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectOptionalAttribute::*)()>(&InjectOptionalAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectOptionalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectOptionalAttribute::*)()>(&InjectOptionalAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectOptionalAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8917,44 +5222,6 @@ void Zenject::ZenInjectMethod::EndInvoke(System::IAsyncResult* result) {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: ZenInjectMethod::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenInjectMethod::*)(::Il2CppObject*, System::IntPtr)>(&ZenInjectMethod::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenInjectMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenInjectMethod::*)(::Il2CppObject*, System::IntPtr)>(&ZenInjectMethod::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenInjectMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: ZenInjectMethod::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenInjectMethod::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&ZenInjectMethod::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenInjectMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
-// Writing MetadataGetter for method: ZenInjectMethod::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (ZenInjectMethod::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*, System::AsyncCallback*, ::Il2CppObject*)>(&ZenInjectMethod::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenInjectMethod*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: ZenInjectMethod::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenInjectMethod::*)(System::IAsyncResult*)>(&ZenInjectMethod::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenInjectMethod*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8987,44 +5254,6 @@ System::IAsyncResult* Zenject::ZenFactoryMethod::BeginInvoke(::Array<::Il2CppObj
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: ZenFactoryMethod::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenFactoryMethod::*)(::Il2CppObject*, System::IntPtr)>(&ZenFactoryMethod::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenFactoryMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenFactoryMethod::*)(::Il2CppObject*, System::IntPtr)>(&ZenFactoryMethod::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenFactoryMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: ZenFactoryMethod::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ZenFactoryMethod::*)(::Array<::Il2CppObject*>*)>(&ZenFactoryMethod::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenFactoryMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
-// Writing MetadataGetter for method: ZenFactoryMethod::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (ZenFactoryMethod::*)(::Array<::Il2CppObject*>*, System::AsyncCallback*, ::Il2CppObject*)>(&ZenFactoryMethod::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenFactoryMethod*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: ZenFactoryMethod::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ZenFactoryMethod::*)(System::IAsyncResult*)>(&ZenFactoryMethod::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenFactoryMethod*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -9057,44 +5286,6 @@ void Zenject::ZenMemberSetterMethod::EndInvoke(System::IAsyncResult* result) {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: ZenMemberSetterMethod::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenMemberSetterMethod::*)(::Il2CppObject*, System::IntPtr)>(&ZenMemberSetterMethod::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenMemberSetterMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenMemberSetterMethod::*)(::Il2CppObject*, System::IntPtr)>(&ZenMemberSetterMethod::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenMemberSetterMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: ZenMemberSetterMethod::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenMemberSetterMethod::*)(::Il2CppObject*, ::Il2CppObject*)>(&ZenMemberSetterMethod::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenMemberSetterMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: ZenMemberSetterMethod::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (ZenMemberSetterMethod::*)(::Il2CppObject*, ::Il2CppObject*, System::AsyncCallback*, ::Il2CppObject*)>(&ZenMemberSetterMethod::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenMemberSetterMethod*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: ZenMemberSetterMethod::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenMemberSetterMethod::*)(System::IAsyncResult*)>(&ZenMemberSetterMethod::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenMemberSetterMethod*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -9175,60 +5366,6 @@ System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* Zenject::
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InjectTypeInfo", "<get_AllInjectables>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
   return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, x);
 }
-// Writing MetadataGetter for method: InjectTypeInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::*)(System::Type*, Zenject::InjectTypeInfo::InjectConstructorInfo*, ::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*, ::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*)>(&InjectTypeInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::*)(System::Type*, Zenject::InjectTypeInfo::InjectConstructorInfo*, ::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*, ::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*)>(&InjectTypeInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*>()});
-  }
-};
-// Writing MetadataGetter for method: InjectTypeInfo::get_BaseTypeInfo
-// Il2CppName: get_BaseTypeInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (InjectTypeInfo::*)()>(&InjectTypeInfo::get_BaseTypeInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo*), "get_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InjectTypeInfo::set_BaseTypeInfo
-// Il2CppName: set_BaseTypeInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::*)(Zenject::InjectTypeInfo*)>(&InjectTypeInfo::set_BaseTypeInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo*), "set_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo*>()});
-  }
-};
-// Writing MetadataGetter for method: InjectTypeInfo::get_AllInjectables
-// Il2CppName: get_AllInjectables
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (InjectTypeInfo::*)()>(&InjectTypeInfo::get_AllInjectables)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo*), "get_AllInjectables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: InjectTypeInfo::$get_AllInjectables$b__0
-// Il2CppName: <get_AllInjectables>b__0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (*)(Zenject::InjectTypeInfo::InjectMemberInfo*)>(&InjectTypeInfo::$get_AllInjectables$b__0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo*), "<get_AllInjectables>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectMemberInfo*>()});
-  }
-};
-// Writing MetadataGetter for method: InjectTypeInfo::$get_AllInjectables$b__1
-// Il2CppName: <get_AllInjectables>b__1
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (*)(Zenject::InjectTypeInfo::InjectMethodInfo*)>(&InjectTypeInfo::$get_AllInjectables$b__1)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo*), "<get_AllInjectables>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectMethodInfo*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -9242,17 +5379,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: InjectTypeInfo::InjectMemberInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectMemberInfo::*)(Zenject::ZenMemberSetterMethod*, Zenject::InjectableInfo*)>(&InjectTypeInfo::InjectMemberInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectMemberInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenMemberSetterMethod*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectMemberInfo::*)(Zenject::ZenMemberSetterMethod*, Zenject::InjectableInfo*)>(&InjectTypeInfo::InjectMemberInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectMemberInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenMemberSetterMethod*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>()});
-  }
-};

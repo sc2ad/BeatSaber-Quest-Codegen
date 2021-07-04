@@ -49,43 +49,43 @@ namespace GlobalNamespace {
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/UploadScoreCompletionHandler
   #pragma pack(pop)
-  // Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(::Il2CppObject*, System::IntPtr)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(::Il2CppObject*, System::IntPtr)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult, System::AsyncCallback*, ::Il2CppObject*)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(System::IAsyncResult*)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*, "", "PlatformLeaderboardsModel/UploadScoreCompletionHandler");
+// Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(::Il2CppObject*, System::IntPtr)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(::Il2CppObject*, System::IntPtr)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult, System::AsyncCallback*, ::Il2CppObject*)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformLeaderboardsModel::UploadScoreCompletionHandler::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::UploadScoreCompletionHandler::*)(System::IAsyncResult*)>(&PlatformLeaderboardsModel::UploadScoreCompletionHandler::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::UploadScoreCompletionHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

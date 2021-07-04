@@ -52,43 +52,43 @@ namespace OVR::OpenVR {
     bool EndInvoke(uint& punQuadsCount, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_GetLivePhysicalBoundsInfo
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(uint&, System::IAsyncResult*)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*, "OVR.OpenVR", "IVRChaperoneSetup/_GetLivePhysicalBoundsInfo");
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(uint&, System::IAsyncResult*)>(&IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

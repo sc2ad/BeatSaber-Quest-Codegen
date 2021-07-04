@@ -53,35 +53,35 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
   static check_size<sizeof(KdfParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_KdfParametersSizeCheck;
   static_assert(sizeof(KdfParameters) == 0x20);
-  // Writing MetadataGetter for method: KdfParameters::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KdfParameters::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&KdfParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KdfParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KdfParameters::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&KdfParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KdfParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KdfParameters::GetSharedSecret
-  // Il2CppName: GetSharedSecret
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (KdfParameters::*)()>(&KdfParameters::GetSharedSecret)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KdfParameters*), "GetSharedSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KdfParameters::GetIV
-  // Il2CppName: GetIV
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (KdfParameters::*)()>(&KdfParameters::GetIV)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KdfParameters*), "GetIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "KdfParameters");
+// Writing MetadataGetter for method: KdfParameters::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KdfParameters::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&KdfParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KdfParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KdfParameters::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&KdfParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KdfParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: KdfParameters::GetSharedSecret
+// Il2CppName: GetSharedSecret
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (KdfParameters::*)()>(&KdfParameters::GetSharedSecret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KdfParameters*), "GetSharedSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KdfParameters::GetIV
+// Il2CppName: GetIV
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (KdfParameters::*)()>(&KdfParameters::GetIV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KdfParameters*), "GetIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

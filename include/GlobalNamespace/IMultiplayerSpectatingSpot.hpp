@@ -57,62 +57,62 @@ namespace GlobalNamespace {
     void SetIsObserved(bool isObserved);
   }; // IMultiplayerSpectatingSpot
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IMultiplayerSpectatingSpot::add_hasBeenRemovedEvent
-  // Il2CppName: add_hasBeenRemovedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&IMultiplayerSpectatingSpot::add_hasBeenRemovedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "add_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSpectatingSpot::remove_hasBeenRemovedEvent
-  // Il2CppName: remove_hasBeenRemovedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&IMultiplayerSpectatingSpot::remove_hasBeenRemovedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "remove_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_isMain
-  // Il2CppName: get_isMain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_isMain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_isMain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_observable
-  // Il2CppName: get_observable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerObservable* (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_observable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_observable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_transform
-  // Il2CppName: get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_spotName
-  // Il2CppName: get_spotName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_spotName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_spotName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSpectatingSpot::SetIsObserved
-  // Il2CppName: SetIsObserved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSpectatingSpot::*)(bool)>(&IMultiplayerSpectatingSpot::SetIsObserved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "SetIsObserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerSpectatingSpot*, "", "IMultiplayerSpectatingSpot");
+// Writing MetadataGetter for method: IMultiplayerSpectatingSpot::add_hasBeenRemovedEvent
+// Il2CppName: add_hasBeenRemovedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&IMultiplayerSpectatingSpot::add_hasBeenRemovedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "add_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSpectatingSpot::remove_hasBeenRemovedEvent
+// Il2CppName: remove_hasBeenRemovedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&IMultiplayerSpectatingSpot::remove_hasBeenRemovedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "remove_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_isMain
+// Il2CppName: get_isMain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_isMain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_isMain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_observable
+// Il2CppName: get_observable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerObservable* (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_observable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_observable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_transform
+// Il2CppName: get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSpectatingSpot::get_spotName
+// Il2CppName: get_spotName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IMultiplayerSpectatingSpot::*)()>(&IMultiplayerSpectatingSpot::get_spotName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "get_spotName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSpectatingSpot::SetIsObserved
+// Il2CppName: SetIsObserved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSpectatingSpot::*)(bool)>(&IMultiplayerSpectatingSpot::SetIsObserved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSpectatingSpot*), "SetIsObserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

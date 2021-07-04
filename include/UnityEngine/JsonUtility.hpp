@@ -52,48 +52,48 @@ namespace UnityEngine {
     static ::Il2CppObject* FromJson(::Il2CppString* json, System::Type* type);
   }; // UnityEngine.JsonUtility
   #pragma pack(pop)
-  // Writing MetadataGetter for method: JsonUtility::ToJsonInternal
-  // Il2CppName: ToJsonInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, bool)>(&JsonUtility::ToJsonInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "ToJsonInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: JsonUtility::FromJsonInternal
-  // Il2CppName: FromJsonInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::Il2CppObject*, System::Type*)>(&JsonUtility::FromJsonInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "FromJsonInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: JsonUtility::ToJson
-  // Il2CppName: ToJson
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&JsonUtility::ToJson)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "ToJson", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: JsonUtility::ToJson
-  // Il2CppName: ToJson
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, bool)>(&JsonUtility::ToJson)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "ToJson", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: JsonUtility::FromJson
-  // Il2CppName: FromJson
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: JsonUtility::FromJson
-  // Il2CppName: FromJson
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, System::Type*)>(&JsonUtility::FromJson)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "FromJson", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::JsonUtility*, "UnityEngine", "JsonUtility");
+// Writing MetadataGetter for method: JsonUtility::ToJsonInternal
+// Il2CppName: ToJsonInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, bool)>(&JsonUtility::ToJsonInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "ToJsonInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: JsonUtility::FromJsonInternal
+// Il2CppName: FromJsonInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::Il2CppObject*, System::Type*)>(&JsonUtility::FromJsonInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "FromJsonInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: JsonUtility::ToJson
+// Il2CppName: ToJson
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&JsonUtility::ToJson)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "ToJson", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: JsonUtility::ToJson
+// Il2CppName: ToJson
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, bool)>(&JsonUtility::ToJson)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "ToJson", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: JsonUtility::FromJson
+// Il2CppName: FromJson
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: JsonUtility::FromJson
+// Il2CppName: FromJson
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, System::Type*)>(&JsonUtility::FromJson)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JsonUtility*), "FromJson", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

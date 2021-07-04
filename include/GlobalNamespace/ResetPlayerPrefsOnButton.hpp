@@ -50,27 +50,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ResetPlayerPrefsOnButton), 24 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_ResetPlayerPrefsOnButtonSizeCheck;
   static_assert(sizeof(ResetPlayerPrefsOnButton) == 0x1C);
-  // Writing MetadataGetter for method: ResetPlayerPrefsOnButton::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResetPlayerPrefsOnButton::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPlayerPrefsOnButton*, "", "ResetPlayerPrefsOnButton");
+// Writing MetadataGetter for method: ResetPlayerPrefsOnButton::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResetPlayerPrefsOnButton::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

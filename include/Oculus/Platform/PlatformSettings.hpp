@@ -83,83 +83,83 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(PlatformSettings), 40 + sizeof(bool)> __Oculus_Platform_PlatformSettingsSizeCheck;
   static_assert(sizeof(PlatformSettings) == 0x29);
-  // Writing MetadataGetter for method: PlatformSettings::get_AppID
-  // Il2CppName: get_AppID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&PlatformSettings::get_AppID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::set_AppID
-  // Il2CppName: set_AppID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PlatformSettings::set_AppID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::get_MobileAppID
-  // Il2CppName: get_MobileAppID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&PlatformSettings::get_MobileAppID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::set_MobileAppID
-  // Il2CppName: set_MobileAppID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PlatformSettings::set_MobileAppID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::get_UseStandalonePlatform
-  // Il2CppName: get_UseStandalonePlatform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&PlatformSettings::get_UseStandalonePlatform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_UseStandalonePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::set_UseStandalonePlatform
-  // Il2CppName: set_UseStandalonePlatform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&PlatformSettings::set_UseStandalonePlatform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_UseStandalonePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::get_Instance
-  // Il2CppName: get_Instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PlatformSettings* (*)()>(&PlatformSettings::get_Instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::set_Instance
-  // Il2CppName: set_Instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::PlatformSettings*)>(&PlatformSettings::set_Instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::PlatformSettings*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlatformSettings::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformSettings::*)()>(&PlatformSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformSettings::*)()>(&PlatformSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");
+// Writing MetadataGetter for method: PlatformSettings::get_AppID
+// Il2CppName: get_AppID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&PlatformSettings::get_AppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::set_AppID
+// Il2CppName: set_AppID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PlatformSettings::set_AppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::get_MobileAppID
+// Il2CppName: get_MobileAppID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&PlatformSettings::get_MobileAppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::set_MobileAppID
+// Il2CppName: set_MobileAppID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PlatformSettings::set_MobileAppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::get_UseStandalonePlatform
+// Il2CppName: get_UseStandalonePlatform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&PlatformSettings::get_UseStandalonePlatform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_UseStandalonePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::set_UseStandalonePlatform
+// Il2CppName: set_UseStandalonePlatform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&PlatformSettings::set_UseStandalonePlatform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_UseStandalonePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::get_Instance
+// Il2CppName: get_Instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PlatformSettings* (*)()>(&PlatformSettings::get_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::set_Instance
+// Il2CppName: set_Instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::PlatformSettings*)>(&PlatformSettings::set_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), "set_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::PlatformSettings*>()});
+  }
+};
+// Writing MetadataGetter for method: PlatformSettings::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformSettings::*)()>(&PlatformSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformSettings::*)()>(&PlatformSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlatformSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

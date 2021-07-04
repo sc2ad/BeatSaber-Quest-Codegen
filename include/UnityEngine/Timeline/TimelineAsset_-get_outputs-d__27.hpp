@@ -124,91 +124,91 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(TimelineAsset::$get_outputs$d__27), 80 + sizeof(System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>*)> __UnityEngine_Timeline_TimelineAsset_$get_outputs$d__27SizeCheck;
   static_assert(sizeof(TimelineAsset::$get_outputs$d__27) == 0x58);
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)(int)>(&TimelineAsset::$get_outputs$d__27::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)(int)>(&TimelineAsset::$get_outputs$d__27::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::$$m__Finally1
-  // Il2CppName: <>m__Finally1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::$$m__Finally1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::$$m__Finally2
-  // Il2CppName: <>m__Finally2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::$$m__Finally2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "<>m__Finally2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator
-  // Il2CppName: System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerable_GetEnumerator
-  // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerable_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::$get_outputs$d__27*, "UnityEngine.Timeline", "TimelineAsset/<get_outputs>d__27");
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)(int)>(&TimelineAsset::$get_outputs$d__27::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)(int)>(&TimelineAsset::$get_outputs$d__27::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::$$m__Finally1
+// Il2CppName: <>m__Finally1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::$$m__Finally1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::$$m__Finally2
+// Il2CppName: <>m__Finally2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::$$m__Finally2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "<>m__Finally2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator
+// Il2CppName: System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerable_GetEnumerator
+// Il2CppName: System.Collections.IEnumerable.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TimelineAsset::$get_outputs$d__27::*)()>(&TimelineAsset::$get_outputs$d__27::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::$get_outputs$d__27*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

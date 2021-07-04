@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
   }; // ISpriteAsyncLoader
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ISpriteAsyncLoader::LoadSpriteAsync
-  // Il2CppName: LoadSpriteAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (ISpriteAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&ISpriteAsyncLoader::LoadSpriteAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ISpriteAsyncLoader*), "LoadSpriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISpriteAsyncLoader*, "", "ISpriteAsyncLoader");
+// Writing MetadataGetter for method: ISpriteAsyncLoader::LoadSpriteAsync
+// Il2CppName: LoadSpriteAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (ISpriteAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&ISpriteAsyncLoader::LoadSpriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ISpriteAsyncLoader*), "LoadSpriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};

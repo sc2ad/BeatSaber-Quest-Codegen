@@ -134,123 +134,123 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
   static check_size<sizeof(Identity), 64 + sizeof(bool)> __System_Runtime_Remoting_IdentitySizeCheck;
   static_assert(sizeof(Identity) == 0x41);
-  // Writing MetadataGetter for method: Identity::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(::Il2CppString*)>(&Identity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(::Il2CppString*)>(&Identity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::CreateObjRef
-  // Il2CppName: CreateObjRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (Identity::*)(System::Type*)>(&Identity::CreateObjRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::get_ChannelSink
-  // Il2CppName: get_ChannelSink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Identity::*)()>(&Identity::get_ChannelSink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "get_ChannelSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::set_ChannelSink
-  // Il2CppName: set_ChannelSink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&Identity::set_ChannelSink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "set_ChannelSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::get_EnvoySink
-  // Il2CppName: get_EnvoySink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Identity::*)()>(&Identity::get_EnvoySink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "get_EnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::get_ObjectUri
-  // Il2CppName: get_ObjectUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Identity::*)()>(&Identity::get_ObjectUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "get_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::set_ObjectUri
-  // Il2CppName: set_ObjectUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(::Il2CppString*)>(&Identity::set_ObjectUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "set_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::get_IsConnected
-  // Il2CppName: get_IsConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Identity::*)()>(&Identity::get_IsConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "get_IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::get_Disposed
-  // Il2CppName: get_Disposed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Identity::*)()>(&Identity::get_Disposed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "get_Disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::set_Disposed
-  // Il2CppName: set_Disposed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(bool)>(&Identity::set_Disposed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "set_Disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::get_ClientDynamicProperties
-  // Il2CppName: get_ClientDynamicProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (Identity::*)()>(&Identity::get_ClientDynamicProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "get_ClientDynamicProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::get_HasServerDynamicSinks
-  // Il2CppName: get_HasServerDynamicSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Identity::*)()>(&Identity::get_HasServerDynamicSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "get_HasServerDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::NotifyClientDynamicSinks
-  // Il2CppName: NotifyClientDynamicSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Identity::NotifyClientDynamicSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "NotifyClientDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Identity::NotifyServerDynamicSinks
-  // Il2CppName: NotifyServerDynamicSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Identity::NotifyServerDynamicSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Identity*), "NotifyServerDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Identity*, "System.Runtime.Remoting", "Identity");
+// Writing MetadataGetter for method: Identity::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(::Il2CppString*)>(&Identity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(::Il2CppString*)>(&Identity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Identity::CreateObjRef
+// Il2CppName: CreateObjRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (Identity::*)(System::Type*)>(&Identity::CreateObjRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: Identity::get_ChannelSink
+// Il2CppName: get_ChannelSink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Identity::*)()>(&Identity::get_ChannelSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "get_ChannelSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Identity::set_ChannelSink
+// Il2CppName: set_ChannelSink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&Identity::set_ChannelSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "set_ChannelSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};
+// Writing MetadataGetter for method: Identity::get_EnvoySink
+// Il2CppName: get_EnvoySink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Identity::*)()>(&Identity::get_EnvoySink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "get_EnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Identity::get_ObjectUri
+// Il2CppName: get_ObjectUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Identity::*)()>(&Identity::get_ObjectUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "get_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Identity::set_ObjectUri
+// Il2CppName: set_ObjectUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(::Il2CppString*)>(&Identity::set_ObjectUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "set_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Identity::get_IsConnected
+// Il2CppName: get_IsConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Identity::*)()>(&Identity::get_IsConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "get_IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Identity::get_Disposed
+// Il2CppName: get_Disposed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Identity::*)()>(&Identity::get_Disposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "get_Disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Identity::set_Disposed
+// Il2CppName: set_Disposed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(bool)>(&Identity::set_Disposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "set_Disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Identity::get_ClientDynamicProperties
+// Il2CppName: get_ClientDynamicProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (Identity::*)()>(&Identity::get_ClientDynamicProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "get_ClientDynamicProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Identity::get_HasServerDynamicSinks
+// Il2CppName: get_HasServerDynamicSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Identity::*)()>(&Identity::get_HasServerDynamicSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "get_HasServerDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Identity::NotifyClientDynamicSinks
+// Il2CppName: NotifyClientDynamicSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Identity::NotifyClientDynamicSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "NotifyClientDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Identity::NotifyServerDynamicSinks
+// Il2CppName: NotifyServerDynamicSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Identity::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Identity::NotifyServerDynamicSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Identity*), "NotifyServerDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

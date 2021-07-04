@@ -87,102 +87,102 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static bool EnsureMeshIsValid(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int& removedVertices);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MeshValidation::ContainsDegenerateTriangles
-  // Il2CppName: ContainsDegenerateTriangles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&MeshValidation::ContainsDegenerateTriangles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::ContainsDegenerateTriangles
-  // Il2CppName: ContainsDegenerateTriangles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>*)>(&MeshValidation::ContainsDegenerateTriangles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::ContainsDegenerateTriangles
-  // Il2CppName: ContainsDegenerateTriangles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&MeshValidation::ContainsDegenerateTriangles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::ContainsNonContiguousTriangles
-  // Il2CppName: ContainsNonContiguousTriangles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&MeshValidation::ContainsNonContiguousTriangles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsNonContiguousTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::EnsureFacesAreComposedOfContiguousTriangles
-  // Il2CppName: EnsureFacesAreComposedOfContiguousTriangles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&MeshValidation::EnsureFacesAreComposedOfContiguousTriangles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "EnsureFacesAreComposedOfContiguousTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::CollectFaceGroups
-  // Il2CppName: CollectFaceGroups
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Triangle>*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&MeshValidation::CollectFaceGroups)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "CollectFaceGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::RemoveDegenerateTriangles
-  // Il2CppName: RemoveDegenerateTriangles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RemoveDegenerateTriangles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RemoveDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::RemoveUnusedVertices
-  // Il2CppName: RemoveUnusedVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RemoveUnusedVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RemoveUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::RebuildIndexes
-  // Il2CppName: RebuildIndexes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(System::Collections::Generic::IEnumerable_1<int>*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RebuildIndexes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RebuildIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::RebuildEdges
-  // Il2CppName: RebuildEdges
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RebuildEdges)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RebuildEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::RebuildSelectionIndexes
-  // Il2CppName: RebuildSelectionIndexes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<UnityEngine::ProBuilder::Face*>*&, ::Array<UnityEngine::ProBuilder::Edge>*&, ::Array<int>*&, System::Collections::Generic::IEnumerable_1<int>*)>(&MeshValidation::RebuildSelectionIndexes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RebuildSelectionIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Face*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MeshValidation::EnsureMeshIsValid
-  // Il2CppName: EnsureMeshIsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int&)>(&MeshValidation::EnsureMeshIsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "EnsureMeshIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation*, "UnityEngine.ProBuilder.MeshOperations", "MeshValidation");
+// Writing MetadataGetter for method: MeshValidation::ContainsDegenerateTriangles
+// Il2CppName: ContainsDegenerateTriangles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&MeshValidation::ContainsDegenerateTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::ContainsDegenerateTriangles
+// Il2CppName: ContainsDegenerateTriangles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>*)>(&MeshValidation::ContainsDegenerateTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::ContainsDegenerateTriangles
+// Il2CppName: ContainsDegenerateTriangles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&MeshValidation::ContainsDegenerateTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::ContainsNonContiguousTriangles
+// Il2CppName: ContainsNonContiguousTriangles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&MeshValidation::ContainsNonContiguousTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "ContainsNonContiguousTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::EnsureFacesAreComposedOfContiguousTriangles
+// Il2CppName: EnsureFacesAreComposedOfContiguousTriangles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&MeshValidation::EnsureFacesAreComposedOfContiguousTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "EnsureFacesAreComposedOfContiguousTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::CollectFaceGroups
+// Il2CppName: CollectFaceGroups
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Triangle>*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&MeshValidation::CollectFaceGroups)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "CollectFaceGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::RemoveDegenerateTriangles
+// Il2CppName: RemoveDegenerateTriangles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RemoveDegenerateTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RemoveDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::RemoveUnusedVertices
+// Il2CppName: RemoveUnusedVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RemoveUnusedVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RemoveUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::RebuildIndexes
+// Il2CppName: RebuildIndexes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(System::Collections::Generic::IEnumerable_1<int>*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RebuildIndexes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RebuildIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::RebuildEdges
+// Il2CppName: RebuildEdges
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, System::Collections::Generic::List_1<int>*)>(&MeshValidation::RebuildEdges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RebuildEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::RebuildSelectionIndexes
+// Il2CppName: RebuildSelectionIndexes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<UnityEngine::ProBuilder::Face*>*&, ::Array<UnityEngine::ProBuilder::Edge>*&, ::Array<int>*&, System::Collections::Generic::IEnumerable_1<int>*)>(&MeshValidation::RebuildSelectionIndexes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "RebuildSelectionIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Face*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MeshValidation::EnsureMeshIsValid
+// Il2CppName: EnsureMeshIsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int&)>(&MeshValidation::EnsureMeshIsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshValidation*), "EnsureMeshIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};

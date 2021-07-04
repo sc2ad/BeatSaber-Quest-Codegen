@@ -947,1010 +947,1010 @@ namespace System {
   // static public System.Boolean op_Inequality(System.Uri uri1, System.Uri uri2)
   // Offset: 0x199B280
   bool operator !=(System::Uri* uri1, System::Uri& uri2);
-  // Writing MetadataGetter for method: Uri::get_IsImplicitFile
-  // Il2CppName: get_IsImplicitFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsImplicitFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsImplicitFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsUncOrDosPath
-  // Il2CppName: get_IsUncOrDosPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsUncOrDosPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsUncOrDosPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsDosPath
-  // Il2CppName: get_IsDosPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsDosPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsDosPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsUncPath
-  // Il2CppName: get_IsUncPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsUncPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsUncPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_HostType
-  // Il2CppName: get_HostType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri::Flags (Uri::*)()>(&Uri::get_HostType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_HostType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_Syntax
-  // Il2CppName: get_Syntax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (Uri::*)()>(&Uri::get_Syntax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Syntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsNotAbsoluteUri
-  // Il2CppName: get_IsNotAbsoluteUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsNotAbsoluteUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsNotAbsoluteUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IriParsingStatic
-  // Il2CppName: IriParsingStatic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::UriParser*)>(&Uri::IriParsingStatic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IriParsingStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriParser*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_AllowIdn
-  // Il2CppName: get_AllowIdn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_AllowIdn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_AllowIdn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::AllowIdnStatic
-  // Il2CppName: AllowIdnStatic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(System::UriParser*, System::Uri::Flags)>(&Uri::AllowIdnStatic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "AllowIdnStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsIntranet
-  // Il2CppName: IsIntranet
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::IsIntranet)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsIntranet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_UserDrivenParsing
-  // Il2CppName: get_UserDrivenParsing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_UserDrivenParsing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_UserDrivenParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::SetUserDrivenParsing
-  // Il2CppName: SetUserDrivenParsing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::SetUserDrivenParsing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "SetUserDrivenParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_SecuredPathIndex
-  // Il2CppName: get_SecuredPathIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Uri::*)()>(&Uri::get_SecuredPathIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_SecuredPathIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::NotAny
-  // Il2CppName: NotAny
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(System::Uri::Flags)>(&Uri::NotAny)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "NotAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::InFact
-  // Il2CppName: InFact
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(System::Uri::Flags)>(&Uri::InFact)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "InFact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::StaticNotAny
-  // Il2CppName: StaticNotAny
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri::Flags, System::Uri::Flags)>(&Uri::StaticNotAny)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "StaticNotAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::StaticInFact
-  // Il2CppName: StaticInFact
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri::Flags, System::Uri::Flags)>(&Uri::StaticInFact)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "StaticInFact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::EnsureUriInfo
-  // Il2CppName: EnsureUriInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri::UriInfo* (Uri::*)()>(&Uri::EnsureUriInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "EnsureUriInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::EnsureParseRemaining
-  // Il2CppName: EnsureParseRemaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::EnsureParseRemaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "EnsureParseRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::EnsureHostString
-  // Il2CppName: EnsureHostString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(bool)>(&Uri::EnsureHostString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "EnsureHostString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, System::UriKind)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, System::UriKind)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CreateUri
-  // Il2CppName: CreateUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, ::Il2CppString*, bool)>(&Uri::CreateUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, System::Uri*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, System::Uri*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetCombinedString
-  // Il2CppName: GetCombinedString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (*)(System::Uri*, ::Il2CppString*, bool, ::Il2CppString*&)>(&Uri::GetCombinedString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetCombinedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetException
-  // Il2CppName: GetException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriFormatException* (*)(System::ParsingError)>(&Uri::GetException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParsingError>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::System_Runtime_Serialization_ISerializable_GetObjectData
-  // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetObjectData
-  // Il2CppName: GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_AbsolutePath
-  // Il2CppName: get_AbsolutePath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_AbsolutePath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_AbsolutePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_PrivateAbsolutePath
-  // Il2CppName: get_PrivateAbsolutePath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_PrivateAbsolutePath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_PrivateAbsolutePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_AbsoluteUri
-  // Il2CppName: get_AbsoluteUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_AbsoluteUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_AbsoluteUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_LocalPath
-  // Il2CppName: get_LocalPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_LocalPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_LocalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_Authority
-  // Il2CppName: get_Authority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Authority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Authority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_HostNameType
-  // Il2CppName: get_HostNameType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriHostNameType (Uri::*)()>(&Uri::get_HostNameType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_HostNameType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsDefaultPort
-  // Il2CppName: get_IsDefaultPort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsDefaultPort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsDefaultPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsFile
-  // Il2CppName: get_IsFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsLoopback
-  // Il2CppName: get_IsLoopback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsLoopback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsLoopback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_PathAndQuery
-  // Il2CppName: get_PathAndQuery
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_PathAndQuery)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_PathAndQuery", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsUnc
-  // Il2CppName: get_IsUnc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsUnc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsUnc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_Host
-  // Il2CppName: get_Host
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Host)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::StaticIsFile
-  // Il2CppName: StaticIsFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::UriParser*)>(&Uri::StaticIsFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "StaticIsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriParser*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_InitializeLock
-  // Il2CppName: get_InitializeLock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&Uri::get_InitializeLock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_InitializeLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::InitializeUriConfig
-  // Il2CppName: InitializeUriConfig
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Uri::InitializeUriConfig)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "InitializeUriConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetLocalPath
-  // Il2CppName: GetLocalPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::GetLocalPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetLocalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_Port
-  // Il2CppName: get_Port
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Uri::*)()>(&Uri::get_Port)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_Query
-  // Il2CppName: get_Query
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Query)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Query", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_Fragment
-  // Il2CppName: get_Fragment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Fragment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Fragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_Scheme
-  // Il2CppName: get_Scheme
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Scheme)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_OriginalStringSwitched
-  // Il2CppName: get_OriginalStringSwitched
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_OriginalStringSwitched)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_OriginalStringSwitched", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_OriginalString
-  // Il2CppName: get_OriginalString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_OriginalString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_OriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_DnsSafeHost
-  // Il2CppName: get_DnsSafeHost
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_DnsSafeHost)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_DnsSafeHost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_IsAbsoluteUri
-  // Il2CppName: get_IsAbsoluteUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsAbsoluteUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsAbsoluteUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_UserEscaped
-  // Il2CppName: get_UserEscaped
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_UserEscaped)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_UserEscaped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_UserInfo
-  // Il2CppName: get_UserInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_UserInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_UserInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsGenDelim
-  // Il2CppName: IsGenDelim
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsGenDelim)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsGenDelim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckSchemeName
-  // Il2CppName: CheckSchemeName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Uri::CheckSchemeName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckSchemeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsHexDigit
-  // Il2CppName: IsHexDigit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsHexDigit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsHexDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::FromHex
-  // Il2CppName: FromHex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&Uri::FromHex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckForColonInFirstPathSegment
-  // Il2CppName: CheckForColonInFirstPathSegment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Uri::CheckForColonInFirstPathSegment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForColonInFirstPathSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::InternalEscapeString
-  // Il2CppName: InternalEscapeString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Uri::InternalEscapeString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "InternalEscapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::ParseScheme
-  // Il2CppName: ParseScheme
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (*)(::Il2CppString*, System::Uri::Flags&, System::UriParser*&)>(&Uri::ParseScheme)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::ParseMinimal
-  // Il2CppName: ParseMinimal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriFormatException* (Uri::*)()>(&Uri::ParseMinimal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseMinimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::PrivateParseMinimal
-  // Il2CppName: PrivateParseMinimal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (Uri::*)()>(&Uri::PrivateParseMinimal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "PrivateParseMinimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::PrivateParseMinimalIri
-  // Il2CppName: PrivateParseMinimalIri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, uint16_t)>(&Uri::PrivateParseMinimalIri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "PrivateParseMinimalIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CreateUriInfo
-  // Il2CppName: CreateUriInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri::Flags)>(&Uri::CreateUriInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateUriInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CreateHostString
-  // Il2CppName: CreateHostString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::CreateHostString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateHostString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CreateHostStringHelper
-  // Il2CppName: CreateHostStringHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint16_t, uint16_t, System::Uri::Flags&, ::Il2CppString*&)>(&Uri::CreateHostStringHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateHostStringHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetHostViaCustomSyntax
-  // Il2CppName: GetHostViaCustomSyntax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::GetHostViaCustomSyntax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetHostViaCustomSyntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetParts
-  // Il2CppName: GetParts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetParts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetEscapedParts
-  // Il2CppName: GetEscapedParts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents)>(&Uri::GetEscapedParts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetEscapedParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetUnescapedParts
-  // Il2CppName: GetUnescapedParts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetUnescapedParts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetUnescapedParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::ReCreateParts
-  // Il2CppName: ReCreateParts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, uint16_t, System::UriFormat)>(&Uri::ReCreateParts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "ReCreateParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetUriPartsFromUserString
-  // Il2CppName: GetUriPartsFromUserString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents)>(&Uri::GetUriPartsFromUserString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetUriPartsFromUserString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::ParseRemaining
-  // Il2CppName: ParseRemaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::ParseRemaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::ParseSchemeCheckImplicitFile
-  // Il2CppName: ParseSchemeCheckImplicitFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Il2CppChar*, uint16_t, System::ParsingError&, System::Uri::Flags&, System::UriParser*&)>(&Uri::ParseSchemeCheckImplicitFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseSchemeCheckImplicitFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckKnownSchemes
-  // Il2CppName: CheckKnownSchemes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t*, uint16_t, System::UriParser*&)>(&Uri::CheckKnownSchemes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckKnownSchemes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckSchemeSyntax
-  // Il2CppName: CheckSchemeSyntax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (*)(::Il2CppChar*, uint16_t, System::UriParser*&)>(&Uri::CheckSchemeSyntax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckSchemeSyntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckAuthorityHelper
-  // Il2CppName: CheckAuthorityHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Uri::*)(::Il2CppChar*, uint16_t, uint16_t, System::ParsingError&, System::Uri::Flags&, System::UriParser*, ::Il2CppString*&)>(&Uri::CheckAuthorityHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckAuthorityHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckAuthorityHelperHandleDnsIri
-  // Il2CppName: CheckAuthorityHelperHandleDnsIri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppChar*, uint16_t, int, int, bool, bool, System::UriParser*, ::Il2CppString*, System::Uri::Flags&, bool&, ::Il2CppString*&, System::ParsingError&)>(&Uri::CheckAuthorityHelperHandleDnsIri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckAuthorityHelperHandleDnsIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckAuthorityHelperHandleAnyHostIri
-  // Il2CppName: CheckAuthorityHelperHandleAnyHostIri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppChar*, int, int, bool, bool, System::UriParser*, System::Uri::Flags&, ::Il2CppString*&, System::ParsingError&)>(&Uri::CheckAuthorityHelperHandleAnyHostIri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckAuthorityHelperHandleAnyHostIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::FindEndOfComponent
-  // Il2CppName: FindEndOfComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, uint16_t&, uint16_t, ::Il2CppChar)>(&Uri::FindEndOfComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "FindEndOfComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t&>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::FindEndOfComponent
-  // Il2CppName: FindEndOfComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppChar*, uint16_t&, uint16_t, ::Il2CppChar)>(&Uri::FindEndOfComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "FindEndOfComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t&>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckCanonical
-  // Il2CppName: CheckCanonical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri::Check (Uri::*)(::Il2CppChar*, uint16_t&, uint16_t, ::Il2CppChar)>(&Uri::CheckCanonical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckCanonical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t&>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetCanonicalPath
-  // Il2CppName: GetCanonicalPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (Uri::*)(::Array<::Il2CppChar>*, int&, System::UriFormat)>(&Uri::GetCanonicalPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetCanonicalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::UnescapeOnly
-  // Il2CppName: UnescapeOnly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, int, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar)>(&Uri::UnescapeOnly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "UnescapeOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::Compress
-  // Il2CppName: Compress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Array<::Il2CppChar>*, uint16_t, int&, System::UriParser*)>(&Uri::Compress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "Compress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CalculateCaseInsensitiveHashCode
-  // Il2CppName: CalculateCaseInsensitiveHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Uri::CalculateCaseInsensitiveHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CalculateCaseInsensitiveHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CombineUri
-  // Il2CppName: CombineUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Uri*, ::Il2CppString*, System::UriFormat)>(&Uri::CombineUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CombineUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::get_HasAuthority
-  // Il2CppName: get_HasAuthority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_HasAuthority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "get_HasAuthority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsLWS
-  // Il2CppName: IsLWS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsLWS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsLWS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsAsciiLetter
-  // Il2CppName: IsAsciiLetter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsAsciiLetter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsAsciiLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsAsciiLetterOrDigit
-  // Il2CppName: IsAsciiLetterOrDigit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsAsciiLetterOrDigit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsAsciiLetterOrDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsBidiControlCharacter
-  // Il2CppName: IsBidiControlCharacter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsBidiControlCharacter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsBidiControlCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::StripBidiControlCharacter
-  // Il2CppName: StripBidiControlCharacter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int)>(&Uri::StripBidiControlCharacter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "StripBidiControlCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CreateThis
-  // Il2CppName: CreateThis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, bool, System::UriKind)>(&Uri::CreateThis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateThis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::InitializeUri
-  // Il2CppName: InitializeUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::ParsingError, System::UriKind, System::UriFormatException*&)>(&Uri::InitializeUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "InitializeUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParsingError>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckForConfigLoad
-  // Il2CppName: CheckForConfigLoad
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::CheckForConfigLoad)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForConfigLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckForUnicode
-  // Il2CppName: CheckForUnicode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::CheckForUnicode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CheckForEscapedUnreserved
-  // Il2CppName: CheckForEscapedUnreserved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::CheckForEscapedUnreserved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForEscapedUnreserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::TryCreate
-  // Il2CppName: TryCreate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::UriKind, System::Uri*&)>(&Uri::TryCreate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "TryCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetComponents
-  // Il2CppName: GetComponents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetComponents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsWellFormedOriginalString
-  // Il2CppName: IsWellFormedOriginalString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::IsWellFormedOriginalString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsWellFormedOriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::IsWellFormedUriString
-  // Il2CppName: IsWellFormedUriString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::UriKind)>(&Uri::IsWellFormedUriString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "IsWellFormedUriString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::InternalIsWellFormedOriginalString
-  // Il2CppName: InternalIsWellFormedOriginalString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::InternalIsWellFormedOriginalString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "InternalIsWellFormedOriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::UnescapeDataString
-  // Il2CppName: UnescapeDataString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Uri::UnescapeDataString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "UnescapeDataString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::EscapeUnescapeIri
-  // Il2CppName: EscapeUnescapeIri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(::Il2CppString*, int, int, System::UriComponents)>(&Uri::EscapeUnescapeIri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "EscapeUnescapeIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri::Flags, System::UriParser*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri::Flags, System::UriParser*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CreateHelper
-  // Il2CppName: CreateHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Il2CppString*, bool, System::UriKind, System::UriFormatException*&)>(&Uri::CreateHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::ResolveHelper
-  // Il2CppName: ResolveHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(System::Uri*, System::Uri*, ::Il2CppString*&, bool&, System::UriFormatException*&)>(&Uri::ResolveHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "ResolveHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetRelativeSerializationString
-  // Il2CppName: GetRelativeSerializationString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriFormat)>(&Uri::GetRelativeSerializationString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetRelativeSerializationString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetComponentsHelper
-  // Il2CppName: GetComponentsHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetComponentsHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetComponentsHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::CreateThisFromUri
-  // Il2CppName: CreateThisFromUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*)>(&Uri::CreateThisFromUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateThisFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Uri::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Uri::*)()>(&Uri::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppObject*)>(&Uri::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::operator ==
-  // Il2CppName: op_Equality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri*, System::Uri&)>(&Uri::operator ==)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Uri::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri*, System::Uri&)>(&Uri::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Uri*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Uri*, "System", "Uri");
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Flags, "System", "Uri/Flags");
+// Writing MetadataGetter for method: Uri::get_IsImplicitFile
+// Il2CppName: get_IsImplicitFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsImplicitFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsImplicitFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsUncOrDosPath
+// Il2CppName: get_IsUncOrDosPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsUncOrDosPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsUncOrDosPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsDosPath
+// Il2CppName: get_IsDosPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsDosPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsDosPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsUncPath
+// Il2CppName: get_IsUncPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsUncPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsUncPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_HostType
+// Il2CppName: get_HostType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri::Flags (Uri::*)()>(&Uri::get_HostType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_HostType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_Syntax
+// Il2CppName: get_Syntax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (Uri::*)()>(&Uri::get_Syntax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Syntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsNotAbsoluteUri
+// Il2CppName: get_IsNotAbsoluteUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsNotAbsoluteUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsNotAbsoluteUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::IriParsingStatic
+// Il2CppName: IriParsingStatic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::UriParser*)>(&Uri::IriParsingStatic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IriParsingStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriParser*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_AllowIdn
+// Il2CppName: get_AllowIdn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_AllowIdn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_AllowIdn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::AllowIdnStatic
+// Il2CppName: AllowIdnStatic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(System::UriParser*, System::Uri::Flags)>(&Uri::AllowIdnStatic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "AllowIdnStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsIntranet
+// Il2CppName: IsIntranet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::IsIntranet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsIntranet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_UserDrivenParsing
+// Il2CppName: get_UserDrivenParsing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_UserDrivenParsing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_UserDrivenParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::SetUserDrivenParsing
+// Il2CppName: SetUserDrivenParsing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::SetUserDrivenParsing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "SetUserDrivenParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_SecuredPathIndex
+// Il2CppName: get_SecuredPathIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Uri::*)()>(&Uri::get_SecuredPathIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_SecuredPathIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::NotAny
+// Il2CppName: NotAny
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(System::Uri::Flags)>(&Uri::NotAny)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "NotAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::InFact
+// Il2CppName: InFact
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(System::Uri::Flags)>(&Uri::InFact)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "InFact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::StaticNotAny
+// Il2CppName: StaticNotAny
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri::Flags, System::Uri::Flags)>(&Uri::StaticNotAny)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "StaticNotAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::StaticInFact
+// Il2CppName: StaticInFact
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri::Flags, System::Uri::Flags)>(&Uri::StaticInFact)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "StaticInFact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::EnsureUriInfo
+// Il2CppName: EnsureUriInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri::UriInfo* (Uri::*)()>(&Uri::EnsureUriInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "EnsureUriInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::EnsureParseRemaining
+// Il2CppName: EnsureParseRemaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::EnsureParseRemaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "EnsureParseRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::EnsureHostString
+// Il2CppName: EnsureHostString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(bool)>(&Uri::EnsureHostString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "EnsureHostString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, System::UriKind)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, System::UriKind)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CreateUri
+// Il2CppName: CreateUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, ::Il2CppString*, bool)>(&Uri::CreateUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, System::Uri*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*, System::Uri*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetCombinedString
+// Il2CppName: GetCombinedString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (*)(System::Uri*, ::Il2CppString*, bool, ::Il2CppString*&)>(&Uri::GetCombinedString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetCombinedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetException
+// Il2CppName: GetException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriFormatException* (*)(System::ParsingError)>(&Uri::GetException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParsingError>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::System_Runtime_Serialization_ISerializable_GetObjectData
+// Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetObjectData
+// Il2CppName: GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&Uri::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_AbsolutePath
+// Il2CppName: get_AbsolutePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_AbsolutePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_AbsolutePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_PrivateAbsolutePath
+// Il2CppName: get_PrivateAbsolutePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_PrivateAbsolutePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_PrivateAbsolutePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_AbsoluteUri
+// Il2CppName: get_AbsoluteUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_AbsoluteUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_AbsoluteUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_LocalPath
+// Il2CppName: get_LocalPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_LocalPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_LocalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_Authority
+// Il2CppName: get_Authority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Authority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Authority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_HostNameType
+// Il2CppName: get_HostNameType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriHostNameType (Uri::*)()>(&Uri::get_HostNameType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_HostNameType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsDefaultPort
+// Il2CppName: get_IsDefaultPort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsDefaultPort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsDefaultPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsFile
+// Il2CppName: get_IsFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsLoopback
+// Il2CppName: get_IsLoopback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsLoopback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsLoopback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_PathAndQuery
+// Il2CppName: get_PathAndQuery
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_PathAndQuery)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_PathAndQuery", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsUnc
+// Il2CppName: get_IsUnc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsUnc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsUnc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_Host
+// Il2CppName: get_Host
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Host)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::StaticIsFile
+// Il2CppName: StaticIsFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::UriParser*)>(&Uri::StaticIsFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "StaticIsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriParser*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_InitializeLock
+// Il2CppName: get_InitializeLock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&Uri::get_InitializeLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_InitializeLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::InitializeUriConfig
+// Il2CppName: InitializeUriConfig
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Uri::InitializeUriConfig)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "InitializeUriConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetLocalPath
+// Il2CppName: GetLocalPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::GetLocalPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetLocalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_Port
+// Il2CppName: get_Port
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Uri::*)()>(&Uri::get_Port)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_Query
+// Il2CppName: get_Query
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Query)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Query", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_Fragment
+// Il2CppName: get_Fragment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Fragment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Fragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_Scheme
+// Il2CppName: get_Scheme
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_Scheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_OriginalStringSwitched
+// Il2CppName: get_OriginalStringSwitched
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_OriginalStringSwitched)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_OriginalStringSwitched", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_OriginalString
+// Il2CppName: get_OriginalString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_OriginalString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_OriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_DnsSafeHost
+// Il2CppName: get_DnsSafeHost
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_DnsSafeHost)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_DnsSafeHost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_IsAbsoluteUri
+// Il2CppName: get_IsAbsoluteUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_IsAbsoluteUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_IsAbsoluteUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_UserEscaped
+// Il2CppName: get_UserEscaped
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_UserEscaped)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_UserEscaped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_UserInfo
+// Il2CppName: get_UserInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::get_UserInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_UserInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsGenDelim
+// Il2CppName: IsGenDelim
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsGenDelim)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsGenDelim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckSchemeName
+// Il2CppName: CheckSchemeName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Uri::CheckSchemeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckSchemeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsHexDigit
+// Il2CppName: IsHexDigit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsHexDigit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsHexDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::FromHex
+// Il2CppName: FromHex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&Uri::FromHex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckForColonInFirstPathSegment
+// Il2CppName: CheckForColonInFirstPathSegment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Uri::CheckForColonInFirstPathSegment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForColonInFirstPathSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::InternalEscapeString
+// Il2CppName: InternalEscapeString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Uri::InternalEscapeString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "InternalEscapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::ParseScheme
+// Il2CppName: ParseScheme
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (*)(::Il2CppString*, System::Uri::Flags&, System::UriParser*&)>(&Uri::ParseScheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::ParseMinimal
+// Il2CppName: ParseMinimal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriFormatException* (Uri::*)()>(&Uri::ParseMinimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseMinimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::PrivateParseMinimal
+// Il2CppName: PrivateParseMinimal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (Uri::*)()>(&Uri::PrivateParseMinimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "PrivateParseMinimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::PrivateParseMinimalIri
+// Il2CppName: PrivateParseMinimalIri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, uint16_t)>(&Uri::PrivateParseMinimalIri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "PrivateParseMinimalIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CreateUriInfo
+// Il2CppName: CreateUriInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri::Flags)>(&Uri::CreateUriInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateUriInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CreateHostString
+// Il2CppName: CreateHostString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::CreateHostString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateHostString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::CreateHostStringHelper
+// Il2CppName: CreateHostStringHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint16_t, uint16_t, System::Uri::Flags&, ::Il2CppString*&)>(&Uri::CreateHostStringHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateHostStringHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetHostViaCustomSyntax
+// Il2CppName: GetHostViaCustomSyntax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::GetHostViaCustomSyntax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetHostViaCustomSyntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetParts
+// Il2CppName: GetParts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetParts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetEscapedParts
+// Il2CppName: GetEscapedParts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents)>(&Uri::GetEscapedParts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetEscapedParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetUnescapedParts
+// Il2CppName: GetUnescapedParts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetUnescapedParts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetUnescapedParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::ReCreateParts
+// Il2CppName: ReCreateParts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, uint16_t, System::UriFormat)>(&Uri::ReCreateParts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "ReCreateParts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetUriPartsFromUserString
+// Il2CppName: GetUriPartsFromUserString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents)>(&Uri::GetUriPartsFromUserString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetUriPartsFromUserString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::ParseRemaining
+// Il2CppName: ParseRemaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)()>(&Uri::ParseRemaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::ParseSchemeCheckImplicitFile
+// Il2CppName: ParseSchemeCheckImplicitFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Il2CppChar*, uint16_t, System::ParsingError&, System::Uri::Flags&, System::UriParser*&)>(&Uri::ParseSchemeCheckImplicitFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "ParseSchemeCheckImplicitFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckKnownSchemes
+// Il2CppName: CheckKnownSchemes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t*, uint16_t, System::UriParser*&)>(&Uri::CheckKnownSchemes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckKnownSchemes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckSchemeSyntax
+// Il2CppName: CheckSchemeSyntax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParsingError (*)(::Il2CppChar*, uint16_t, System::UriParser*&)>(&Uri::CheckSchemeSyntax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckSchemeSyntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckAuthorityHelper
+// Il2CppName: CheckAuthorityHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Uri::*)(::Il2CppChar*, uint16_t, uint16_t, System::ParsingError&, System::Uri::Flags&, System::UriParser*, ::Il2CppString*&)>(&Uri::CheckAuthorityHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckAuthorityHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckAuthorityHelperHandleDnsIri
+// Il2CppName: CheckAuthorityHelperHandleDnsIri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppChar*, uint16_t, int, int, bool, bool, System::UriParser*, ::Il2CppString*, System::Uri::Flags&, bool&, ::Il2CppString*&, System::ParsingError&)>(&Uri::CheckAuthorityHelperHandleDnsIri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckAuthorityHelperHandleDnsIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckAuthorityHelperHandleAnyHostIri
+// Il2CppName: CheckAuthorityHelperHandleAnyHostIri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppChar*, int, int, bool, bool, System::UriParser*, System::Uri::Flags&, ::Il2CppString*&, System::ParsingError&)>(&Uri::CheckAuthorityHelperHandleAnyHostIri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckAuthorityHelperHandleAnyHostIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri::Flags&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::ParsingError&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::FindEndOfComponent
+// Il2CppName: FindEndOfComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, uint16_t&, uint16_t, ::Il2CppChar)>(&Uri::FindEndOfComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "FindEndOfComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t&>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::FindEndOfComponent
+// Il2CppName: FindEndOfComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppChar*, uint16_t&, uint16_t, ::Il2CppChar)>(&Uri::FindEndOfComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "FindEndOfComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t&>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckCanonical
+// Il2CppName: CheckCanonical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri::Check (Uri::*)(::Il2CppChar*, uint16_t&, uint16_t, ::Il2CppChar)>(&Uri::CheckCanonical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckCanonical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t&>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetCanonicalPath
+// Il2CppName: GetCanonicalPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (Uri::*)(::Array<::Il2CppChar>*, int&, System::UriFormat)>(&Uri::GetCanonicalPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetCanonicalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::UnescapeOnly
+// Il2CppName: UnescapeOnly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, int, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar)>(&Uri::UnescapeOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "UnescapeOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::Compress
+// Il2CppName: Compress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Array<::Il2CppChar>*, uint16_t, int&, System::UriParser*)>(&Uri::Compress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "Compress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CalculateCaseInsensitiveHashCode
+// Il2CppName: CalculateCaseInsensitiveHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Uri::CalculateCaseInsensitiveHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CalculateCaseInsensitiveHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CombineUri
+// Il2CppName: CombineUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Uri*, ::Il2CppString*, System::UriFormat)>(&Uri::CombineUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CombineUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::get_HasAuthority
+// Il2CppName: get_HasAuthority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::get_HasAuthority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "get_HasAuthority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsLWS
+// Il2CppName: IsLWS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsLWS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsLWS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsAsciiLetter
+// Il2CppName: IsAsciiLetter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsAsciiLetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsAsciiLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsAsciiLetterOrDigit
+// Il2CppName: IsAsciiLetterOrDigit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsAsciiLetterOrDigit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsAsciiLetterOrDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsBidiControlCharacter
+// Il2CppName: IsBidiControlCharacter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Uri::IsBidiControlCharacter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsBidiControlCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::StripBidiControlCharacter
+// Il2CppName: StripBidiControlCharacter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int)>(&Uri::StripBidiControlCharacter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "StripBidiControlCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CreateThis
+// Il2CppName: CreateThis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(::Il2CppString*, bool, System::UriKind)>(&Uri::CreateThis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateThis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::InitializeUri
+// Il2CppName: InitializeUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::ParsingError, System::UriKind, System::UriFormatException*&)>(&Uri::InitializeUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "InitializeUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParsingError>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckForConfigLoad
+// Il2CppName: CheckForConfigLoad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::CheckForConfigLoad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForConfigLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckForUnicode
+// Il2CppName: CheckForUnicode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::CheckForUnicode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CheckForEscapedUnreserved
+// Il2CppName: CheckForEscapedUnreserved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppString*)>(&Uri::CheckForEscapedUnreserved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CheckForEscapedUnreserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::TryCreate
+// Il2CppName: TryCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::UriKind, System::Uri*&)>(&Uri::TryCreate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "TryCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetComponents
+// Il2CppName: GetComponents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetComponents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsWellFormedOriginalString
+// Il2CppName: IsWellFormedOriginalString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::IsWellFormedOriginalString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsWellFormedOriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::IsWellFormedUriString
+// Il2CppName: IsWellFormedUriString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::UriKind)>(&Uri::IsWellFormedUriString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "IsWellFormedUriString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::InternalIsWellFormedOriginalString
+// Il2CppName: InternalIsWellFormedOriginalString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)()>(&Uri::InternalIsWellFormedOriginalString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "InternalIsWellFormedOriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::UnescapeDataString
+// Il2CppName: UnescapeDataString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Uri::UnescapeDataString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "UnescapeDataString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::EscapeUnescapeIri
+// Il2CppName: EscapeUnescapeIri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(::Il2CppString*, int, int, System::UriComponents)>(&Uri::EscapeUnescapeIri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "EscapeUnescapeIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri::Flags, System::UriParser*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri::Flags, System::UriParser*, ::Il2CppString*)>(&Uri::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri::Flags>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CreateHelper
+// Il2CppName: CreateHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Il2CppString*, bool, System::UriKind, System::UriFormatException*&)>(&Uri::CreateHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::UriKind>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::ResolveHelper
+// Il2CppName: ResolveHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(System::Uri*, System::Uri*, ::Il2CppString*&, bool&, System::UriFormatException*&)>(&Uri::ResolveHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "ResolveHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetRelativeSerializationString
+// Il2CppName: GetRelativeSerializationString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriFormat)>(&Uri::GetRelativeSerializationString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetRelativeSerializationString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetComponentsHelper
+// Il2CppName: GetComponentsHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)(System::UriComponents, System::UriFormat)>(&Uri::GetComponentsHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetComponentsHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::CreateThisFromUri
+// Il2CppName: CreateThisFromUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Uri::*)(System::Uri*)>(&Uri::CreateThisFromUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "CreateThisFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Uri::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Uri::*)()>(&Uri::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Uri::*)()>(&Uri::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Uri::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Uri::*)(::Il2CppObject*)>(&Uri::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri*, System::Uri&)>(&Uri::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri&>()});
+  }
+};
+// Writing MetadataGetter for method: Uri::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Uri*, System::Uri&)>(&Uri::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Uri*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri&>()});
+  }
+};

@@ -108,43 +108,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PresentServerSettingsAfterNClicks), 64 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_PresentServerSettingsAfterNClicksSizeCheck;
   static_assert(sizeof(PresentServerSettingsAfterNClicks) == 0x48);
-  // Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::$OnEnable$b__6_0
-  // Il2CppName: <OnEnable>b__6_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::$OnEnable$b__6_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), "<OnEnable>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresentServerSettingsAfterNClicks*, "", "PresentServerSettingsAfterNClicks");
+// Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::$OnEnable$b__6_0
+// Il2CppName: <OnEnable>b__6_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::$OnEnable$b__6_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), "<OnEnable>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PresentServerSettingsAfterNClicks::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PresentServerSettingsAfterNClicks::*)()>(&PresentServerSettingsAfterNClicks::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PresentServerSettingsAfterNClicks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

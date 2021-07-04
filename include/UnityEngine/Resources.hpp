@@ -108,97 +108,97 @@ namespace UnityEngine {
     static UnityEngine::AsyncOperation* UnloadUnusedAssets();
   }; // UnityEngine.Resources
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Resources::ConvertObjects
-  // Il2CppName: ConvertObjects
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Resources::FindObjectsOfTypeAll
-  // Il2CppName: FindObjectsOfTypeAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(System::Type*)>(&Resources::FindObjectsOfTypeAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "FindObjectsOfTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::FindObjectsOfTypeAll
-  // Il2CppName: FindObjectsOfTypeAll
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Resources::Load
-  // Il2CppName: Load
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*)>(&Resources::Load)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::Load
-  // Il2CppName: Load
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Resources::Load
-  // Il2CppName: Load
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*, System::Type*)>(&Resources::Load)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::LoadAsync
-  // Il2CppName: LoadAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceRequest* (*)(::Il2CppString*, System::Type*)>(&Resources::LoadAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::LoadAsyncInternal
-  // Il2CppName: LoadAsyncInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceRequest* (*)(::Il2CppString*, System::Type*)>(&Resources::LoadAsyncInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::LoadAll
-  // Il2CppName: LoadAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(::Il2CppString*, System::Type*)>(&Resources::LoadAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::LoadAll
-  // Il2CppName: LoadAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(::Il2CppString*)>(&Resources::LoadAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::GetBuiltinResource
-  // Il2CppName: GetBuiltinResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(System::Type*, ::Il2CppString*)>(&Resources::GetBuiltinResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "GetBuiltinResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::GetBuiltinResource
-  // Il2CppName: GetBuiltinResource
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Resources::UnloadAsset
-  // Il2CppName: UnloadAsset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&Resources::UnloadAsset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "UnloadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Resources::UnloadUnusedAssets
-  // Il2CppName: UnloadUnusedAssets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)()>(&Resources::UnloadUnusedAssets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Resources*), "UnloadUnusedAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Resources*, "UnityEngine", "Resources");
+// Writing MetadataGetter for method: Resources::ConvertObjects
+// Il2CppName: ConvertObjects
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Resources::FindObjectsOfTypeAll
+// Il2CppName: FindObjectsOfTypeAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(System::Type*)>(&Resources::FindObjectsOfTypeAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "FindObjectsOfTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::FindObjectsOfTypeAll
+// Il2CppName: FindObjectsOfTypeAll
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Resources::Load
+// Il2CppName: Load
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*)>(&Resources::Load)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::Load
+// Il2CppName: Load
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Resources::Load
+// Il2CppName: Load
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*, System::Type*)>(&Resources::Load)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::LoadAsync
+// Il2CppName: LoadAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceRequest* (*)(::Il2CppString*, System::Type*)>(&Resources::LoadAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::LoadAsyncInternal
+// Il2CppName: LoadAsyncInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceRequest* (*)(::Il2CppString*, System::Type*)>(&Resources::LoadAsyncInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::LoadAll
+// Il2CppName: LoadAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(::Il2CppString*, System::Type*)>(&Resources::LoadAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::LoadAll
+// Il2CppName: LoadAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(::Il2CppString*)>(&Resources::LoadAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "LoadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::GetBuiltinResource
+// Il2CppName: GetBuiltinResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(System::Type*, ::Il2CppString*)>(&Resources::GetBuiltinResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "GetBuiltinResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::GetBuiltinResource
+// Il2CppName: GetBuiltinResource
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Resources::UnloadAsset
+// Il2CppName: UnloadAsset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&Resources::UnloadAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "UnloadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
+// Writing MetadataGetter for method: Resources::UnloadUnusedAssets
+// Il2CppName: UnloadUnusedAssets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)()>(&Resources::UnloadUnusedAssets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Resources*), "UnloadUnusedAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

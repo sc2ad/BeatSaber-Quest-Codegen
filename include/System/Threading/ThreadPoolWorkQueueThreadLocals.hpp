@@ -69,35 +69,35 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(ThreadPoolWorkQueueThreadLocals), 32 + sizeof(System::Random*)> __System_Threading_ThreadPoolWorkQueueThreadLocalsSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueueThreadLocals) == 0x28);
-  // Writing MetadataGetter for method: ThreadPoolWorkQueueThreadLocals::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)(System::Threading::ThreadPoolWorkQueue*)>(&ThreadPoolWorkQueueThreadLocals::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPoolWorkQueue*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)(System::Threading::ThreadPoolWorkQueue*)>(&ThreadPoolWorkQueueThreadLocals::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPoolWorkQueue*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ThreadPoolWorkQueueThreadLocals::CleanUp
-  // Il2CppName: CleanUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)()>(&ThreadPoolWorkQueueThreadLocals::CleanUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), "CleanUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ThreadPoolWorkQueueThreadLocals::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)()>(&ThreadPoolWorkQueueThreadLocals::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");
+// Writing MetadataGetter for method: ThreadPoolWorkQueueThreadLocals::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)(System::Threading::ThreadPoolWorkQueue*)>(&ThreadPoolWorkQueueThreadLocals::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPoolWorkQueue*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)(System::Threading::ThreadPoolWorkQueue*)>(&ThreadPoolWorkQueueThreadLocals::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPoolWorkQueue*>()});
+  }
+};
+// Writing MetadataGetter for method: ThreadPoolWorkQueueThreadLocals::CleanUp
+// Il2CppName: CleanUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)()>(&ThreadPoolWorkQueueThreadLocals::CleanUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), "CleanUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ThreadPoolWorkQueueThreadLocals::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueueThreadLocals::*)()>(&ThreadPoolWorkQueueThreadLocals::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueueThreadLocals*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

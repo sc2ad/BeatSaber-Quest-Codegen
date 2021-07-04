@@ -19,14 +19,14 @@ namespace Org::BouncyCastle::OpenSsl {
     ::Array<::Il2CppChar>* GetPassword();
   }; // Org.BouncyCastle.OpenSsl.IPasswordFinder
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IPasswordFinder::GetPassword
-  // Il2CppName: GetPassword
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (IPasswordFinder::*)()>(&IPasswordFinder::GetPassword)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPasswordFinder*), "GetPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");
+// Writing MetadataGetter for method: IPasswordFinder::GetPassword
+// Il2CppName: GetPassword
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (IPasswordFinder::*)()>(&IPasswordFinder::GetPassword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPasswordFinder*), "GetPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -402,379 +402,379 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
   static check_size<sizeof(MobileAuthenticatedStream), 152 + sizeof(int)> __Mono_Net_Security_MobileAuthenticatedStreamSizeCheck;
   static_assert(sizeof(MobileAuthenticatedStream) == 0x9C);
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::IO::Stream*, bool, System::Net::Security::SslStream*, Mono::Security::Interface::MonoTlsSettings*, Mono::Security::Interface::MonoTlsProvider*)>(&MobileAuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::IO::Stream*, bool, System::Net::Security::SslStream*, Mono::Security::Interface::MonoTlsSettings*, Mono::Security::Interface::MonoTlsProvider*)>(&MobileAuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_Settings
-  // Il2CppName: get_Settings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Settings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_Provider
-  // Il2CppName: get_Provider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Provider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Provider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::CheckThrow
-  // Il2CppName: CheckThrow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(bool, bool)>(&MobileAuthenticatedStream::CheckThrow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "CheckThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::GetSSPIException
-  // Il2CppName: GetSSPIException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*)>(&MobileAuthenticatedStream::GetSSPIException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "GetSSPIException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::GetIOException
-  // Il2CppName: GetIOException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*, ::Il2CppString*)>(&MobileAuthenticatedStream::GetIOException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "GetIOException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::SetException
-  // Il2CppName: SetException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (MobileAuthenticatedStream::*)(System::Exception*)>(&MobileAuthenticatedStream::SetException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "SetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::AuthenticateAsClient
-  // Il2CppName: AuthenticateAsClient
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Authentication::SslProtocols, bool)>(&MobileAuthenticatedStream::AuthenticateAsClient)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "AuthenticateAsClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::AuthenticateAsServer
-  // Il2CppName: AuthenticateAsServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, bool, System::Security::Authentication::SslProtocols, bool)>(&MobileAuthenticatedStream::AuthenticateAsServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "AuthenticateAsServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_AuthenticatedStream
-  // Il2CppName: get_AuthenticatedStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::AuthenticatedStream* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_AuthenticatedStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_AuthenticatedStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessAuthentication
-  // Il2CppName: ProcessAuthentication
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MobileAuthenticatedStream::*)(bool, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&MobileAuthenticatedStream::ProcessAuthentication)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::CreateContext
-  // Il2CppName: CreateContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileTlsContext* (MobileAuthenticatedStream::*)(bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&MobileAuthenticatedStream::CreateContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "CreateContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::StartOperation
-  // Il2CppName: StartOperation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (MobileAuthenticatedStream::*)(Mono::Net::Security::MobileAuthenticatedStream::OperationType, Mono::Net::Security::AsyncProtocolRequest*, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::StartOperation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream::OperationType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::InternalRead
-  // Il2CppName: InternalRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, bool&)>(&MobileAuthenticatedStream::InternalRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::InternalRead
-  // Il2CppName: InternalRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize*, ::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::InternalRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::InternalWrite
-  // Il2CppName: InternalWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::InternalWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::InternalWrite
-  // Il2CppName: InternalWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize2*, ::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::InternalWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize2*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::InnerRead
-  // Il2CppName: InnerRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (MobileAuthenticatedStream::*)(bool, int, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::InnerRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InnerRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::InnerWrite
-  // Il2CppName: InnerWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MobileAuthenticatedStream::*)(bool, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::InnerWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InnerWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessHandshake
-  // Il2CppName: ProcessHandshake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncOperationStatus)>(&MobileAuthenticatedStream::ProcessHandshake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessRead
-  // Il2CppName: ProcessRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileAuthenticatedStream::*)(Mono::Net::Security::BufferOffsetSize*)>(&MobileAuthenticatedStream::ProcessRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessWrite
-  // Il2CppName: ProcessWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileAuthenticatedStream::*)(Mono::Net::Security::BufferOffsetSize*)>(&MobileAuthenticatedStream::ProcessWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_InternalLocalCertificate
-  // Il2CppName: get_InternalLocalCertificate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_InternalLocalCertificate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_InternalLocalCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::$InnerWrite$b__67_0
-  // Il2CppName: <InnerWrite>b__67_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::$InnerWrite$b__67_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "<InnerWrite>b__67_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::BeginRead
-  // Il2CppName: BeginRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&MobileAuthenticatedStream::BeginRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::EndRead
-  // Il2CppName: EndRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)(System::IAsyncResult*)>(&MobileAuthenticatedStream::EndRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::BeginWrite
-  // Il2CppName: BeginWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&MobileAuthenticatedStream::BeginWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::EndWrite
-  // Il2CppName: EndWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::IAsyncResult*)>(&MobileAuthenticatedStream::EndWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::Read
-  // Il2CppName: Read
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::Read)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::Write
-  // Il2CppName: Write
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::Write)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::ReadAsync
-  // Il2CppName: ReadAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::ReadAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ReadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::WriteAsync
-  // Il2CppName: WriteAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::WriteAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "WriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_IsAuthenticated
-  // Il2CppName: get_IsAuthenticated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_IsAuthenticated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(bool)>(&MobileAuthenticatedStream::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::Flush
-  // Il2CppName: Flush
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::Flush)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::Seek
-  // Il2CppName: Seek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MobileAuthenticatedStream::*)(int64_t, System::IO::SeekOrigin)>(&MobileAuthenticatedStream::Seek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::SetLength
-  // Il2CppName: SetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(int64_t)>(&MobileAuthenticatedStream::SetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_CanRead
-  // Il2CppName: get_CanRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_CanRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_CanWrite
-  // Il2CppName: get_CanWrite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_CanWrite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_CanSeek
-  // Il2CppName: get_CanSeek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_CanSeek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_Length
-  // Il2CppName: get_Length
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Length)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_Position
-  // Il2CppName: get_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::set_Position
-  // Il2CppName: set_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(int64_t)>(&MobileAuthenticatedStream::set_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_ReadTimeout
-  // Il2CppName: get_ReadTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_ReadTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::get_WriteTimeout
-  // Il2CppName: get_WriteTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_WriteTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MobileAuthenticatedStream::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream*, "Mono.Net.Security", "MobileAuthenticatedStream");
+// Writing MetadataGetter for method: MobileAuthenticatedStream::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::IO::Stream*, bool, System::Net::Security::SslStream*, Mono::Security::Interface::MonoTlsSettings*, Mono::Security::Interface::MonoTlsProvider*)>(&MobileAuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::IO::Stream*, bool, System::Net::Security::SslStream*, Mono::Security::Interface::MonoTlsSettings*, Mono::Security::Interface::MonoTlsProvider*)>(&MobileAuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_Settings
+// Il2CppName: get_Settings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Settings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_Provider
+// Il2CppName: get_Provider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Provider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Provider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::CheckThrow
+// Il2CppName: CheckThrow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(bool, bool)>(&MobileAuthenticatedStream::CheckThrow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "CheckThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::GetSSPIException
+// Il2CppName: GetSSPIException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*)>(&MobileAuthenticatedStream::GetSSPIException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "GetSSPIException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::GetIOException
+// Il2CppName: GetIOException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*, ::Il2CppString*)>(&MobileAuthenticatedStream::GetIOException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "GetIOException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::SetException
+// Il2CppName: SetException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (MobileAuthenticatedStream::*)(System::Exception*)>(&MobileAuthenticatedStream::SetException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "SetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::AuthenticateAsClient
+// Il2CppName: AuthenticateAsClient
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Authentication::SslProtocols, bool)>(&MobileAuthenticatedStream::AuthenticateAsClient)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "AuthenticateAsClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::AuthenticateAsServer
+// Il2CppName: AuthenticateAsServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, bool, System::Security::Authentication::SslProtocols, bool)>(&MobileAuthenticatedStream::AuthenticateAsServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "AuthenticateAsServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_AuthenticatedStream
+// Il2CppName: get_AuthenticatedStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::AuthenticatedStream* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_AuthenticatedStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_AuthenticatedStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessAuthentication
+// Il2CppName: ProcessAuthentication
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MobileAuthenticatedStream::*)(bool, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&MobileAuthenticatedStream::ProcessAuthentication)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::CreateContext
+// Il2CppName: CreateContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileTlsContext* (MobileAuthenticatedStream::*)(bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&MobileAuthenticatedStream::CreateContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "CreateContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::StartOperation
+// Il2CppName: StartOperation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (MobileAuthenticatedStream::*)(Mono::Net::Security::MobileAuthenticatedStream::OperationType, Mono::Net::Security::AsyncProtocolRequest*, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::StartOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream::OperationType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::InternalRead
+// Il2CppName: InternalRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, bool&)>(&MobileAuthenticatedStream::InternalRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::InternalRead
+// Il2CppName: InternalRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize*, ::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::InternalRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::InternalWrite
+// Il2CppName: InternalWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::InternalWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::InternalWrite
+// Il2CppName: InternalWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize2*, ::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::InternalWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize2*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::InnerRead
+// Il2CppName: InnerRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (MobileAuthenticatedStream::*)(bool, int, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::InnerRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InnerRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::InnerWrite
+// Il2CppName: InnerWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MobileAuthenticatedStream::*)(bool, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::InnerWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "InnerWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessHandshake
+// Il2CppName: ProcessHandshake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncOperationStatus)>(&MobileAuthenticatedStream::ProcessHandshake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessRead
+// Il2CppName: ProcessRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileAuthenticatedStream::*)(Mono::Net::Security::BufferOffsetSize*)>(&MobileAuthenticatedStream::ProcessRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::ProcessWrite
+// Il2CppName: ProcessWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileAuthenticatedStream::*)(Mono::Net::Security::BufferOffsetSize*)>(&MobileAuthenticatedStream::ProcessWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ProcessWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_InternalLocalCertificate
+// Il2CppName: get_InternalLocalCertificate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_InternalLocalCertificate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_InternalLocalCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::$InnerWrite$b__67_0
+// Il2CppName: <InnerWrite>b__67_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::$InnerWrite$b__67_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "<InnerWrite>b__67_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::BeginRead
+// Il2CppName: BeginRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&MobileAuthenticatedStream::BeginRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::EndRead
+// Il2CppName: EndRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)(System::IAsyncResult*)>(&MobileAuthenticatedStream::EndRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::BeginWrite
+// Il2CppName: BeginWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&MobileAuthenticatedStream::BeginWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::EndWrite
+// Il2CppName: EndWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(System::IAsyncResult*)>(&MobileAuthenticatedStream::EndWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::Read
+// Il2CppName: Read
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::Write
+// Il2CppName: Write
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&MobileAuthenticatedStream::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::ReadAsync
+// Il2CppName: ReadAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::ReadAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "ReadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::WriteAsync
+// Il2CppName: WriteAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&MobileAuthenticatedStream::WriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "WriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_IsAuthenticated
+// Il2CppName: get_IsAuthenticated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_IsAuthenticated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(bool)>(&MobileAuthenticatedStream::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::Flush
+// Il2CppName: Flush
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::Seek
+// Il2CppName: Seek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MobileAuthenticatedStream::*)(int64_t, System::IO::SeekOrigin)>(&MobileAuthenticatedStream::Seek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::SetLength
+// Il2CppName: SetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(int64_t)>(&MobileAuthenticatedStream::SetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_CanRead
+// Il2CppName: get_CanRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_CanRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_CanWrite
+// Il2CppName: get_CanWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_CanWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_CanSeek
+// Il2CppName: get_CanSeek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_CanSeek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_Length
+// Il2CppName: get_Length
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_Position
+// Il2CppName: get_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::set_Position
+// Il2CppName: set_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::*)(int64_t)>(&MobileAuthenticatedStream::set_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_ReadTimeout
+// Il2CppName: get_ReadTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_ReadTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::get_WriteTimeout
+// Il2CppName: get_WriteTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MobileAuthenticatedStream::*)()>(&MobileAuthenticatedStream::get_WriteTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MobileAuthenticatedStream::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

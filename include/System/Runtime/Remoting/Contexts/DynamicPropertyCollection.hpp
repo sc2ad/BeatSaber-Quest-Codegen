@@ -75,59 +75,59 @@ namespace System::Runtime::Remoting::Contexts {
   #pragma pack(pop)
   static check_size<sizeof(DynamicPropertyCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollectionSizeCheck;
   static_assert(sizeof(DynamicPropertyCollection) == 0x18);
-  // Writing MetadataGetter for method: DynamicPropertyCollection::get_HasProperties
-  // Il2CppName: get_HasProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicPropertyCollection::*)()>(&DynamicPropertyCollection::get_HasProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "get_HasProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicPropertyCollection::RegisterDynamicProperty
-  // Il2CppName: RegisterDynamicProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicPropertyCollection::*)(System::Runtime::Remoting::Contexts::IDynamicProperty*)>(&DynamicPropertyCollection::RegisterDynamicProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "RegisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::IDynamicProperty*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicPropertyCollection::UnregisterDynamicProperty
-  // Il2CppName: UnregisterDynamicProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicPropertyCollection::*)(::Il2CppString*)>(&DynamicPropertyCollection::UnregisterDynamicProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "UnregisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicPropertyCollection::NotifyMessage
-  // Il2CppName: NotifyMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&DynamicPropertyCollection::NotifyMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "NotifyMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicPropertyCollection::FindProperty
-  // Il2CppName: FindProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DynamicPropertyCollection::*)(::Il2CppString*)>(&DynamicPropertyCollection::FindProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "FindProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicPropertyCollection::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::*)()>(&DynamicPropertyCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::*)()>(&DynamicPropertyCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");
+// Writing MetadataGetter for method: DynamicPropertyCollection::get_HasProperties
+// Il2CppName: get_HasProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicPropertyCollection::*)()>(&DynamicPropertyCollection::get_HasProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "get_HasProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicPropertyCollection::RegisterDynamicProperty
+// Il2CppName: RegisterDynamicProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicPropertyCollection::*)(System::Runtime::Remoting::Contexts::IDynamicProperty*)>(&DynamicPropertyCollection::RegisterDynamicProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "RegisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::IDynamicProperty*>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicPropertyCollection::UnregisterDynamicProperty
+// Il2CppName: UnregisterDynamicProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicPropertyCollection::*)(::Il2CppString*)>(&DynamicPropertyCollection::UnregisterDynamicProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "UnregisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicPropertyCollection::NotifyMessage
+// Il2CppName: NotifyMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&DynamicPropertyCollection::NotifyMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "NotifyMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicPropertyCollection::FindProperty
+// Il2CppName: FindProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DynamicPropertyCollection::*)(::Il2CppString*)>(&DynamicPropertyCollection::FindProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), "FindProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicPropertyCollection::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::*)()>(&DynamicPropertyCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::*)()>(&DynamicPropertyCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

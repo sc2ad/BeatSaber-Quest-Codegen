@@ -89,22 +89,22 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__90), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)> __GlobalNamespace_MockMultiplayerSessionManager_$PerformAtSyncTime$d__90SizeCheck;
   static_assert(sizeof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__90) == 0x48);
-  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::*)()>(&MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__90), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__90), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$PerformAtSyncTime$d__90, "", "MockMultiplayerSessionManager/<PerformAtSyncTime>d__90");
+// Writing MetadataGetter for method: MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::*)()>(&MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__90), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager::$PerformAtSyncTime$d__90), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

@@ -140,107 +140,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(UIKeyboardManager), 64 + sizeof(HMUI::InputFieldView*)> __GlobalNamespace_UIKeyboardManagerSizeCheck;
   static_assert(sizeof(UIKeyboardManager) == 0x48);
-  // Writing MetadataGetter for method: UIKeyboardManager::get_keyboard
-  // Il2CppName: get_keyboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::UIKeyboard* (UIKeyboardManager::*)()>(&UIKeyboardManager::get_keyboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "get_keyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::OpenKeyboardFor
-  // Il2CppName: OpenKeyboardFor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)(HMUI::InputFieldView*)>(&UIKeyboardManager::OpenKeyboardFor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OpenKeyboardFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::CloseKeyboard
-  // Il2CppName: CloseKeyboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::CloseKeyboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "CloseKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::TransferKeyboardTo
-  // Il2CppName: TransferKeyboardTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)(HMUI::InputFieldView*)>(&UIKeyboardManager::TransferKeyboardTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "TransferKeyboardTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::ShouldCloseKeyboard
-  // Il2CppName: ShouldCloseKeyboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UIKeyboardManager::*)(UnityEngine::GameObject*)>(&UIKeyboardManager::ShouldCloseKeyboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "ShouldCloseKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::ProcessMousePress
-  // Il2CppName: ProcessMousePress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)(UnityEngine::GameObject*)>(&UIKeyboardManager::ProcessMousePress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::HandleKeyboardOkButton
-  // Il2CppName: HandleKeyboardOkButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::HandleKeyboardOkButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "HandleKeyboardOkButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UIKeyboardManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");
+// Writing MetadataGetter for method: UIKeyboardManager::get_keyboard
+// Il2CppName: get_keyboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::UIKeyboard* (UIKeyboardManager::*)()>(&UIKeyboardManager::get_keyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "get_keyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::OpenKeyboardFor
+// Il2CppName: OpenKeyboardFor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)(HMUI::InputFieldView*)>(&UIKeyboardManager::OpenKeyboardFor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "OpenKeyboardFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::CloseKeyboard
+// Il2CppName: CloseKeyboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::CloseKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "CloseKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::TransferKeyboardTo
+// Il2CppName: TransferKeyboardTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)(HMUI::InputFieldView*)>(&UIKeyboardManager::TransferKeyboardTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "TransferKeyboardTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::ShouldCloseKeyboard
+// Il2CppName: ShouldCloseKeyboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UIKeyboardManager::*)(UnityEngine::GameObject*)>(&UIKeyboardManager::ShouldCloseKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "ShouldCloseKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::ProcessMousePress
+// Il2CppName: ProcessMousePress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)(UnityEngine::GameObject*)>(&UIKeyboardManager::ProcessMousePress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::HandleKeyboardOkButton
+// Il2CppName: HandleKeyboardOkButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::HandleKeyboardOkButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), "HandleKeyboardOkButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UIKeyboardManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardManager::*)()>(&UIKeyboardManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UIKeyboardManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

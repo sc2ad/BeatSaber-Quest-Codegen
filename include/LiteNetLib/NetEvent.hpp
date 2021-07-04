@@ -200,20 +200,20 @@ namespace LiteNetLib {
   #pragma pack(pop)
   static check_size<sizeof(NetEvent), 80 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_NetEventSizeCheck;
   static_assert(sizeof(NetEvent) == 0x58);
-  // Writing MetadataGetter for method: NetEvent::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEvent::*)(LiteNetLib::NetManager*)>(&NetEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEvent::*)(LiteNetLib::NetManager*)>(&NetEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent*, "LiteNetLib", "NetEvent");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent::EType, "LiteNetLib", "NetEvent/EType");
+// Writing MetadataGetter for method: NetEvent::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEvent::*)(LiteNetLib::NetManager*)>(&NetEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEvent::*)(LiteNetLib::NetManager*)>(&NetEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>()});
+  }
+};

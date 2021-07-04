@@ -21,14 +21,14 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRMeshRenderer::MeshRendererData GetMeshRendererData();
   }; // OVRMeshRenderer/IOVRMeshRendererDataProvider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData
-  // Il2CppName: GetMeshRendererData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRMeshRenderer::MeshRendererData (OVRMeshRenderer::IOVRMeshRendererDataProvider::*)()>(&OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::IOVRMeshRendererDataProvider*), "GetMeshRendererData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
+// Writing MetadataGetter for method: OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData
+// Il2CppName: GetMeshRendererData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRMeshRenderer::MeshRendererData (OVRMeshRenderer::IOVRMeshRendererDataProvider::*)()>(&OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::IOVRMeshRendererDataProvider*), "GetMeshRendererData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

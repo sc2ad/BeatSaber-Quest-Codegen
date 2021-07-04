@@ -64,35 +64,35 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(TableView::CellsGroup), 24 + sizeof(System::Collections::Generic::List_1<HMUI::TableCell*>*)> __HMUI_TableView_CellsGroupSizeCheck;
   static_assert(sizeof(TableView::CellsGroup) == 0x20);
-  // Writing MetadataGetter for method: TableView::CellsGroup::get_reuseIdentifier
-  // Il2CppName: get_reuseIdentifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TableView::CellsGroup::*)()>(&TableView::CellsGroup::get_reuseIdentifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TableView::CellsGroup::get_cells
-  // Il2CppName: get_cells
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::TableCell*>* (TableView::CellsGroup::*)()>(&TableView::CellsGroup::get_cells)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), "get_cells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TableView::CellsGroup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableView::CellsGroup::*)()>(&TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableView::CellsGroup::*)()>(&TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");
+// Writing MetadataGetter for method: TableView::CellsGroup::get_reuseIdentifier
+// Il2CppName: get_reuseIdentifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TableView::CellsGroup::*)()>(&TableView::CellsGroup::get_reuseIdentifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TableView::CellsGroup::get_cells
+// Il2CppName: get_cells
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::TableCell*>* (TableView::CellsGroup::*)()>(&TableView::CellsGroup::get_cells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), "get_cells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TableView::CellsGroup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableView::CellsGroup::*)()>(&TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableView::CellsGroup::*)()>(&TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

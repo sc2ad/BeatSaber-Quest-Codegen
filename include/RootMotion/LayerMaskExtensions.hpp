@@ -93,102 +93,102 @@ namespace RootMotion {
     static ::Il2CppString* MaskToString(UnityEngine::LayerMask original, ::Il2CppString* delimiter);
   }; // RootMotion.LayerMaskExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: LayerMaskExtensions::Contains
-  // Il2CppName: Contains
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LayerMask, int)>(&LayerMaskExtensions::Contains)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<::Il2CppString*>*)>(&LayerMaskExtensions::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<int>*)>(&LayerMaskExtensions::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::NamesToMask
-  // Il2CppName: NamesToMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<::Il2CppString*>*)>(&LayerMaskExtensions::NamesToMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "NamesToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::LayerNumbersToMask
-  // Il2CppName: LayerNumbersToMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<int>*)>(&LayerMaskExtensions::LayerNumbersToMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "LayerNumbersToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::Inverse
-  // Il2CppName: Inverse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::Inverse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::AddToMask
-  // Il2CppName: AddToMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::Array<::Il2CppString*>*)>(&LayerMaskExtensions::AddToMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "AddToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::RemoveFromMask
-  // Il2CppName: RemoveFromMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::Array<::Il2CppString*>*)>(&LayerMaskExtensions::RemoveFromMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "RemoveFromMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::MaskToNames
-  // Il2CppName: MaskToNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::MaskToNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::MaskToNumbers
-  // Il2CppName: MaskToNumbers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::MaskToNumbers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToNumbers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::MaskToString
-  // Il2CppName: MaskToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::MaskToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMaskExtensions::MaskToString
-  // Il2CppName: MaskToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::LayerMask, ::Il2CppString*)>(&LayerMaskExtensions::MaskToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LayerMaskExtensions*, "RootMotion", "LayerMaskExtensions");
+// Writing MetadataGetter for method: LayerMaskExtensions::Contains
+// Il2CppName: Contains
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LayerMask, int)>(&LayerMaskExtensions::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<::Il2CppString*>*)>(&LayerMaskExtensions::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<int>*)>(&LayerMaskExtensions::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::NamesToMask
+// Il2CppName: NamesToMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<::Il2CppString*>*)>(&LayerMaskExtensions::NamesToMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "NamesToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::LayerNumbersToMask
+// Il2CppName: LayerNumbersToMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<int>*)>(&LayerMaskExtensions::LayerNumbersToMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "LayerNumbersToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::Inverse
+// Il2CppName: Inverse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::Inverse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::AddToMask
+// Il2CppName: AddToMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::Array<::Il2CppString*>*)>(&LayerMaskExtensions::AddToMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "AddToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::RemoveFromMask
+// Il2CppName: RemoveFromMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::Array<::Il2CppString*>*)>(&LayerMaskExtensions::RemoveFromMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "RemoveFromMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::MaskToNames
+// Il2CppName: MaskToNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::MaskToNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::MaskToNumbers
+// Il2CppName: MaskToNumbers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::MaskToNumbers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToNumbers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::MaskToString
+// Il2CppName: MaskToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::LayerMask)>(&LayerMaskExtensions::MaskToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMaskExtensions::MaskToString
+// Il2CppName: MaskToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::LayerMask, ::Il2CppString*)>(&LayerMaskExtensions::MaskToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMaskExtensions*), "MaskToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

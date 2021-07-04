@@ -202,195 +202,195 @@ namespace Mono::Xml {
   #pragma pack(pop)
   static check_size<sizeof(SmallXmlParser), 96 + sizeof(bool)> __Mono_Xml_SmallXmlParserSizeCheck;
   static_assert(sizeof(SmallXmlParser) == 0x61);
-  // Writing MetadataGetter for method: SmallXmlParser::Error
-  // Il2CppName: Error
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (SmallXmlParser::*)(::Il2CppString*)>(&SmallXmlParser::Error)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::UnexpectedEndError
-  // Il2CppName: UnexpectedEndError
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (SmallXmlParser::*)()>(&SmallXmlParser::UnexpectedEndError)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "UnexpectedEndError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::IsNameChar
-  // Il2CppName: IsNameChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SmallXmlParser::*)(::Il2CppChar, bool)>(&SmallXmlParser::IsNameChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "IsNameChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::IsWhitespace
-  // Il2CppName: IsWhitespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SmallXmlParser::*)(int)>(&SmallXmlParser::IsWhitespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "IsWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::SkipWhitespaces
-  // Il2CppName: SkipWhitespaces
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::SkipWhitespaces)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "SkipWhitespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::HandleWhitespaces
-  // Il2CppName: HandleWhitespaces
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::HandleWhitespaces)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "HandleWhitespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::SkipWhitespaces
-  // Il2CppName: SkipWhitespaces
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(bool)>(&SmallXmlParser::SkipWhitespaces)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "SkipWhitespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::Peek
-  // Il2CppName: Peek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SmallXmlParser::*)()>(&SmallXmlParser::Peek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::Read
-  // Il2CppName: Read
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SmallXmlParser::*)()>(&SmallXmlParser::Read)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::Expect
-  // Il2CppName: Expect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(int)>(&SmallXmlParser::Expect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Expect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadUntil
-  // Il2CppName: ReadUntil
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SmallXmlParser::*)(::Il2CppChar, bool)>(&SmallXmlParser::ReadUntil)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadUntil", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadName
-  // Il2CppName: ReadName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SmallXmlParser::*)()>(&SmallXmlParser::ReadName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::Parse
-  // Il2CppName: Parse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(System::IO::TextReader*, Mono::Xml::SmallXmlParser::IContentHandler*)>(&SmallXmlParser::Parse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IContentHandler*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::Cleanup
-  // Il2CppName: Cleanup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::Cleanup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadContent
-  // Il2CppName: ReadContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::HandleBufferedContent
-  // Il2CppName: HandleBufferedContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::HandleBufferedContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "HandleBufferedContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadCharacters
-  // Il2CppName: ReadCharacters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadCharacters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadReference
-  // Il2CppName: ReadReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadCharacterReference
-  // Il2CppName: ReadCharacterReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SmallXmlParser::*)()>(&SmallXmlParser::ReadCharacterReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadCharacterReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadAttribute
-  // Il2CppName: ReadAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(Mono::Xml::SmallXmlParser::AttrListImpl*)>(&SmallXmlParser::ReadAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::AttrListImpl*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadCDATASection
-  // Il2CppName: ReadCDATASection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadCDATASection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadCDATASection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::ReadComment
-  // Il2CppName: ReadComment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadComment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SmallXmlParser::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");
+// Writing MetadataGetter for method: SmallXmlParser::Error
+// Il2CppName: Error
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (SmallXmlParser::*)(::Il2CppString*)>(&SmallXmlParser::Error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::UnexpectedEndError
+// Il2CppName: UnexpectedEndError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (SmallXmlParser::*)()>(&SmallXmlParser::UnexpectedEndError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "UnexpectedEndError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::IsNameChar
+// Il2CppName: IsNameChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SmallXmlParser::*)(::Il2CppChar, bool)>(&SmallXmlParser::IsNameChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "IsNameChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::IsWhitespace
+// Il2CppName: IsWhitespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SmallXmlParser::*)(int)>(&SmallXmlParser::IsWhitespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "IsWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::SkipWhitespaces
+// Il2CppName: SkipWhitespaces
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::SkipWhitespaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "SkipWhitespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::HandleWhitespaces
+// Il2CppName: HandleWhitespaces
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::HandleWhitespaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "HandleWhitespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::SkipWhitespaces
+// Il2CppName: SkipWhitespaces
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(bool)>(&SmallXmlParser::SkipWhitespaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "SkipWhitespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::Peek
+// Il2CppName: Peek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SmallXmlParser::*)()>(&SmallXmlParser::Peek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::Read
+// Il2CppName: Read
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SmallXmlParser::*)()>(&SmallXmlParser::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::Expect
+// Il2CppName: Expect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(int)>(&SmallXmlParser::Expect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Expect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadUntil
+// Il2CppName: ReadUntil
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SmallXmlParser::*)(::Il2CppChar, bool)>(&SmallXmlParser::ReadUntil)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadUntil", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadName
+// Il2CppName: ReadName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SmallXmlParser::*)()>(&SmallXmlParser::ReadName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(System::IO::TextReader*, Mono::Xml::SmallXmlParser::IContentHandler*)>(&SmallXmlParser::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IContentHandler*>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::Cleanup
+// Il2CppName: Cleanup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::Cleanup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadContent
+// Il2CppName: ReadContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::HandleBufferedContent
+// Il2CppName: HandleBufferedContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::HandleBufferedContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "HandleBufferedContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadCharacters
+// Il2CppName: ReadCharacters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadReference
+// Il2CppName: ReadReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadCharacterReference
+// Il2CppName: ReadCharacterReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SmallXmlParser::*)()>(&SmallXmlParser::ReadCharacterReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadCharacterReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadAttribute
+// Il2CppName: ReadAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)(Mono::Xml::SmallXmlParser::AttrListImpl*)>(&SmallXmlParser::ReadAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::AttrListImpl*>()});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadCDATASection
+// Il2CppName: ReadCDATASection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadCDATASection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadCDATASection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::ReadComment
+// Il2CppName: ReadComment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::ReadComment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), "ReadComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SmallXmlParser::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SmallXmlParser::*)()>(&SmallXmlParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

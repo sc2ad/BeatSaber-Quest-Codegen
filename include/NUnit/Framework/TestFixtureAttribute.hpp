@@ -125,46 +125,46 @@ namespace NUnit::Framework {
   #pragma pack(pop)
   static check_size<sizeof(TestFixtureAttribute), 48 + sizeof(::Array<System::Type*>*)> __NUnit_Framework_TestFixtureAttributeSizeCheck;
   static_assert(sizeof(TestFixtureAttribute) == 0x38);
-  // Writing MetadataGetter for method: TestFixtureAttribute::get_RunState
-  // Il2CppName: get_RunState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::RunState (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_RunState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_RunState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestFixtureAttribute::get_Arguments
-  // Il2CppName: get_Arguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_Arguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestFixtureAttribute::get_Properties
-  // Il2CppName: get_Properties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::IPropertyBag* (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_Properties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestFixtureAttribute::get_TypeArgs
-  // Il2CppName: get_TypeArgs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_TypeArgs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestFixtureAttribute::BuildFrom
-  // Il2CppName: BuildFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* (TestFixtureAttribute::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&TestFixtureAttribute::BuildFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute*, "NUnit.Framework", "TestFixtureAttribute");
+// Writing MetadataGetter for method: TestFixtureAttribute::get_RunState
+// Il2CppName: get_RunState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::RunState (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_RunState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_RunState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestFixtureAttribute::get_Arguments
+// Il2CppName: get_Arguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestFixtureAttribute::get_Properties
+// Il2CppName: get_Properties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::IPropertyBag* (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_Properties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestFixtureAttribute::get_TypeArgs
+// Il2CppName: get_TypeArgs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (TestFixtureAttribute::*)()>(&TestFixtureAttribute::get_TypeArgs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestFixtureAttribute::BuildFrom
+// Il2CppName: BuildFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* (TestFixtureAttribute::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&TestFixtureAttribute::BuildFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestFixtureAttribute*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+  }
+};

@@ -91,67 +91,67 @@ namespace UnityEngine::ProBuilder {
     }
   }; // UnityEngine.ProBuilder.ProBuilderMesh/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ProBuilderMesh::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ProBuilderMesh::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderMesh::$$c::$SetUVs$b__102_0
-  // Il2CppName: <SetUVs>b__102_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (ProBuilderMesh::$$c::*)(UnityEngine::Vector4)>(&ProBuilderMesh::$$c::$SetUVs$b__102_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<SetUVs>b__102_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderMesh::$$c::$SetUVs$b__102_1
-  // Il2CppName: <SetUVs>b__102_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (ProBuilderMesh::$$c::*)(UnityEngine::Vector4)>(&ProBuilderMesh::$$c::$SetUVs$b__102_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<SetUVs>b__102_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderMesh::$$c::$get_indexCount$b__110_0
-  // Il2CppName: <get_indexCount>b__110_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ProBuilderMesh::$$c::$get_indexCount$b__110_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<get_indexCount>b__110_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderMesh::$$c::$get_triangleCount$b__112_0
-  // Il2CppName: <get_triangleCount>b__112_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ProBuilderMesh::$$c::$get_triangleCount$b__112_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<get_triangleCount>b__112_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderMesh::$$c::$CopyFrom$b__147_0
-  // Il2CppName: <CopyFrom>b__147_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ProBuilderMesh::$$c::$CopyFrom$b__147_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<CopyFrom>b__147_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderMesh::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProBuilderMesh::$$c::*)()>(&ProBuilderMesh::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProBuilderMesh::$$c::*)()>(&ProBuilderMesh::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c");
+// Writing MetadataGetter for method: ProBuilderMesh::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ProBuilderMesh::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderMesh::$$c::$SetUVs$b__102_0
+// Il2CppName: <SetUVs>b__102_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (ProBuilderMesh::$$c::*)(UnityEngine::Vector4)>(&ProBuilderMesh::$$c::$SetUVs$b__102_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<SetUVs>b__102_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderMesh::$$c::$SetUVs$b__102_1
+// Il2CppName: <SetUVs>b__102_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (ProBuilderMesh::$$c::*)(UnityEngine::Vector4)>(&ProBuilderMesh::$$c::$SetUVs$b__102_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<SetUVs>b__102_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderMesh::$$c::$get_indexCount$b__110_0
+// Il2CppName: <get_indexCount>b__110_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ProBuilderMesh::$$c::$get_indexCount$b__110_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<get_indexCount>b__110_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderMesh::$$c::$get_triangleCount$b__112_0
+// Il2CppName: <get_triangleCount>b__112_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ProBuilderMesh::$$c::$get_triangleCount$b__112_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<get_triangleCount>b__112_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderMesh::$$c::$CopyFrom$b__147_0
+// Il2CppName: <CopyFrom>b__147_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ProBuilderMesh::$$c::$CopyFrom$b__147_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), "<CopyFrom>b__147_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderMesh::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProBuilderMesh::$$c::*)()>(&ProBuilderMesh::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProBuilderMesh::$$c::*)()>(&ProBuilderMesh::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderMesh::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

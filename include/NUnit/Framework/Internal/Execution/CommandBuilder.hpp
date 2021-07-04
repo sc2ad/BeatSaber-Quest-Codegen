@@ -73,54 +73,54 @@ namespace NUnit::Framework::Internal::Execution {
     static System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* SelectMethodsByDeclaringType(System::Type* type, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* methods);
   }; // NUnit.Framework.Internal.Execution.CommandBuilder
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CommandBuilder::MakeOneTimeSetUpCommand
-  // Il2CppName: MakeOneTimeSetUpCommand
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&CommandBuilder::MakeOneTimeSetUpCommand)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "MakeOneTimeSetUpCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CommandBuilder::MakeOneTimeTearDownCommand
-  // Il2CppName: MakeOneTimeTearDownCommand
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&CommandBuilder::MakeOneTimeTearDownCommand)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "MakeOneTimeTearDownCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CommandBuilder::MakeSkipCommand
-  // Il2CppName: MakeSkipCommand
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::SkipCommand* (*)(NUnit::Framework::Internal::Test*)>(&CommandBuilder::MakeSkipCommand)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "MakeSkipCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CommandBuilder::BuildSetUpTearDownList
-  // Il2CppName: BuildSetUpTearDownList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* (*)(System::Type*, System::Type*, System::Type*)>(&CommandBuilder::BuildSetUpTearDownList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "BuildSetUpTearDownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CommandBuilder::BuildNode
-  // Il2CppName: BuildNode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::SetUpTearDownItem* (*)(System::Type*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&CommandBuilder::BuildNode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "BuildNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CommandBuilder::SelectMethodsByDeclaringType
-  // Il2CppName: SelectMethodsByDeclaringType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* (*)(System::Type*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&CommandBuilder::SelectMethodsByDeclaringType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "SelectMethodsByDeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CommandBuilder*, "NUnit.Framework.Internal.Execution", "CommandBuilder");
+// Writing MetadataGetter for method: CommandBuilder::MakeOneTimeSetUpCommand
+// Il2CppName: MakeOneTimeSetUpCommand
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&CommandBuilder::MakeOneTimeSetUpCommand)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "MakeOneTimeSetUpCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CommandBuilder::MakeOneTimeTearDownCommand
+// Il2CppName: MakeOneTimeTearDownCommand
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&CommandBuilder::MakeOneTimeTearDownCommand)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "MakeOneTimeTearDownCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CommandBuilder::MakeSkipCommand
+// Il2CppName: MakeSkipCommand
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::SkipCommand* (*)(NUnit::Framework::Internal::Test*)>(&CommandBuilder::MakeSkipCommand)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "MakeSkipCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};
+// Writing MetadataGetter for method: CommandBuilder::BuildSetUpTearDownList
+// Il2CppName: BuildSetUpTearDownList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* (*)(System::Type*, System::Type*, System::Type*)>(&CommandBuilder::BuildSetUpTearDownList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "BuildSetUpTearDownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: CommandBuilder::BuildNode
+// Il2CppName: BuildNode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::SetUpTearDownItem* (*)(System::Type*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&CommandBuilder::BuildNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "BuildNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CommandBuilder::SelectMethodsByDeclaringType
+// Il2CppName: SelectMethodsByDeclaringType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* (*)(System::Type*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&CommandBuilder::SelectMethodsByDeclaringType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CommandBuilder*), "SelectMethodsByDeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
+  }
+};

@@ -148,147 +148,147 @@ namespace GlobalNamespace {
     }
   }; // ColorGraphicStateTransition
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::StartTween
-  // Il2CppName: StartTween
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)(UnityEngine::Color)>(&ColorGraphicStateTransition::StartTween)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::$StartTween$b__16_0
-  // Il2CppName: <StartTween>b__16_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)(UnityEngine::Color)>(&ColorGraphicStateTransition::$StartTween$b__16_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "<StartTween>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::$StartTween$b__16_1
-  // Il2CppName: <StartTween>b__16_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::$StartTween$b__16_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "<StartTween>b__16_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::get_transition
-  // Il2CppName: get_transition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::get_transition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToNormalState
-  // Il2CppName: TransitionToNormalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToNormalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToHighlightedState
-  // Il2CppName: TransitionToHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToPressedState
-  // Il2CppName: TransitionToPressedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToPressedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToDisabledState
-  // Il2CppName: TransitionToDisabledState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToDisabledState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToSelectedState
-  // Il2CppName: TransitionToSelectedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToSelectedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToSelectedAndHighlightedState
-  // Il2CppName: TransitionToSelectedAndHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToSelectedAndHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::SetNormalState
-  // Il2CppName: SetNormalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetNormalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::SetHighlightedState
-  // Il2CppName: SetHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::SetPressedState
-  // Il2CppName: SetPressedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetPressedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::SetDisabledState
-  // Il2CppName: SetDisabledState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetDisabledState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::SetSelectedState
-  // Il2CppName: SetSelectedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetSelectedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::SetSelectedAndHighlightedState
-  // Il2CppName: SetSelectedAndHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetSelectedAndHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorGraphicStateTransition::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorGraphicStateTransition*, "", "ColorGraphicStateTransition");
+// Writing MetadataGetter for method: ColorGraphicStateTransition::StartTween
+// Il2CppName: StartTween
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)(UnityEngine::Color)>(&ColorGraphicStateTransition::StartTween)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::$StartTween$b__16_0
+// Il2CppName: <StartTween>b__16_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)(UnityEngine::Color)>(&ColorGraphicStateTransition::$StartTween$b__16_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "<StartTween>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::$StartTween$b__16_1
+// Il2CppName: <StartTween>b__16_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::$StartTween$b__16_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "<StartTween>b__16_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::get_transition
+// Il2CppName: get_transition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::get_transition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToNormalState
+// Il2CppName: TransitionToNormalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToHighlightedState
+// Il2CppName: TransitionToHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToPressedState
+// Il2CppName: TransitionToPressedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToDisabledState
+// Il2CppName: TransitionToDisabledState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToSelectedState
+// Il2CppName: TransitionToSelectedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::TransitionToSelectedAndHighlightedState
+// Il2CppName: TransitionToSelectedAndHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::TransitionToSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::SetNormalState
+// Il2CppName: SetNormalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::SetHighlightedState
+// Il2CppName: SetHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::SetPressedState
+// Il2CppName: SetPressedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::SetDisabledState
+// Il2CppName: SetDisabledState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::SetSelectedState
+// Il2CppName: SetSelectedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::SetSelectedAndHighlightedState
+// Il2CppName: SetSelectedAndHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::SetSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorGraphicStateTransition::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGraphicStateTransition::*)()>(&ColorGraphicStateTransition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorGraphicStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -28,22 +28,22 @@ namespace GlobalNamespace {
     void CancelGame();
   }; // ILobbyHostGameStateController
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ILobbyHostGameStateController::StartGame
-  // Il2CppName: StartGame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyHostGameStateController::*)()>(&ILobbyHostGameStateController::StartGame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ILobbyHostGameStateController*), "StartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ILobbyHostGameStateController::CancelGame
-  // Il2CppName: CancelGame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyHostGameStateController::*)()>(&ILobbyHostGameStateController::CancelGame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ILobbyHostGameStateController*), "CancelGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyHostGameStateController*, "", "ILobbyHostGameStateController");
+// Writing MetadataGetter for method: ILobbyHostGameStateController::StartGame
+// Il2CppName: StartGame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyHostGameStateController::*)()>(&ILobbyHostGameStateController::StartGame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ILobbyHostGameStateController*), "StartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ILobbyHostGameStateController::CancelGame
+// Il2CppName: CancelGame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyHostGameStateController::*)()>(&ILobbyHostGameStateController::CancelGame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ILobbyHostGameStateController*), "CancelGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

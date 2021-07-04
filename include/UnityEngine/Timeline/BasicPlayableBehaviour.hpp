@@ -103,107 +103,107 @@ namespace UnityEngine::Timeline {
     }
   }; // UnityEngine.Timeline.BasicPlayableBehaviour
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::get_duration
-  // Il2CppName: get_duration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::get_duration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::get_outputs
-  // Il2CppName: get_outputs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::get_outputs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::OnGraphStart
-  // Il2CppName: OnGraphStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnGraphStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::OnGraphStop
-  // Il2CppName: OnGraphStop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnGraphStop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnGraphStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::OnPlayableCreate
-  // Il2CppName: OnPlayableCreate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnPlayableCreate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::OnPlayableDestroy
-  // Il2CppName: OnPlayableDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnPlayableDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::OnBehaviourPlay
-  // Il2CppName: OnBehaviourPlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&BasicPlayableBehaviour::OnBehaviourPlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::OnBehaviourPause
-  // Il2CppName: OnBehaviourPause
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&BasicPlayableBehaviour::OnBehaviourPause)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::PrepareFrame
-  // Il2CppName: PrepareFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&BasicPlayableBehaviour::PrepareFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::ProcessFrame
-  // Il2CppName: ProcessFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&BasicPlayableBehaviour::ProcessFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::CreatePlayable
-  // Il2CppName: CreatePlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (BasicPlayableBehaviour::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&BasicPlayableBehaviour::CreatePlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicPlayableBehaviour::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::BasicPlayableBehaviour*, "UnityEngine.Timeline", "BasicPlayableBehaviour");
+// Writing MetadataGetter for method: BasicPlayableBehaviour::get_duration
+// Il2CppName: get_duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::get_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::get_outputs
+// Il2CppName: get_outputs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::get_outputs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::OnGraphStart
+// Il2CppName: OnGraphStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnGraphStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::OnGraphStop
+// Il2CppName: OnGraphStop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnGraphStop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnGraphStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::OnPlayableCreate
+// Il2CppName: OnPlayableCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnPlayableCreate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::OnPlayableDestroy
+// Il2CppName: OnPlayableDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&BasicPlayableBehaviour::OnPlayableDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::OnBehaviourPlay
+// Il2CppName: OnBehaviourPlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&BasicPlayableBehaviour::OnBehaviourPlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::OnBehaviourPause
+// Il2CppName: OnBehaviourPause
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&BasicPlayableBehaviour::OnBehaviourPause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::PrepareFrame
+// Il2CppName: PrepareFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&BasicPlayableBehaviour::PrepareFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::ProcessFrame
+// Il2CppName: ProcessFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&BasicPlayableBehaviour::ProcessFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::CreatePlayable
+// Il2CppName: CreatePlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (BasicPlayableBehaviour::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&BasicPlayableBehaviour::CreatePlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: BasicPlayableBehaviour::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicPlayableBehaviour::*)()>(&BasicPlayableBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicPlayableBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

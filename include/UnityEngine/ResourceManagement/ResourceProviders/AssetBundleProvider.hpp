@@ -65,43 +65,43 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AssetBundleProvider::Provide
-  // Il2CppName: Provide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&AssetBundleProvider::Provide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), "Provide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleProvider::GetDefaultType
-  // Il2CppName: GetDefaultType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (AssetBundleProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AssetBundleProvider::GetDefaultType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), "GetDefaultType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleProvider::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppObject*)>(&AssetBundleProvider::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)()>(&AssetBundleProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)()>(&AssetBundleProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleProvider");
+// Writing MetadataGetter for method: AssetBundleProvider::Provide
+// Il2CppName: Provide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&AssetBundleProvider::Provide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), "Provide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleProvider::GetDefaultType
+// Il2CppName: GetDefaultType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (AssetBundleProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AssetBundleProvider::GetDefaultType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), "GetDefaultType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleProvider::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppObject*)>(&AssetBundleProvider::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)()>(&AssetBundleProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleProvider::*)()>(&AssetBundleProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

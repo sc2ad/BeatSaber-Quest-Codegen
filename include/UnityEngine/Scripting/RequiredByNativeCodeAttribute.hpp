@@ -76,57 +76,57 @@ namespace UnityEngine::Scripting {
   #pragma pack(pop)
   static check_size<sizeof(RequiredByNativeCodeAttribute), 25 + sizeof(bool)> __UnityEngine_Scripting_RequiredByNativeCodeAttributeSizeCheck;
   static_assert(sizeof(RequiredByNativeCodeAttribute) == 0x1A);
-  // Writing MetadataGetter for method: RequiredByNativeCodeAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RequiredByNativeCodeAttribute::set_Name
-  // Il2CppName: set_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&RequiredByNativeCodeAttribute::set_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RequiredByNativeCodeAttribute::set_Optional
-  // Il2CppName: set_Optional
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(bool)>(&RequiredByNativeCodeAttribute::set_Optional)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RequiredByNativeCodeAttribute::set_GenerateProxy
-  // Il2CppName: set_GenerateProxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(bool)>(&RequiredByNativeCodeAttribute::set_GenerateProxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), "set_GenerateProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RequiredByNativeCodeAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)()>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)()>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::RequiredByNativeCodeAttribute*, "UnityEngine.Scripting", "RequiredByNativeCodeAttribute");
+// Writing MetadataGetter for method: RequiredByNativeCodeAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RequiredByNativeCodeAttribute::set_Name
+// Il2CppName: set_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&RequiredByNativeCodeAttribute::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RequiredByNativeCodeAttribute::set_Optional
+// Il2CppName: set_Optional
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(bool)>(&RequiredByNativeCodeAttribute::set_Optional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RequiredByNativeCodeAttribute::set_GenerateProxy
+// Il2CppName: set_GenerateProxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)(bool)>(&RequiredByNativeCodeAttribute::set_GenerateProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), "set_GenerateProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RequiredByNativeCodeAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)()>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RequiredByNativeCodeAttribute::*)()>(&RequiredByNativeCodeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RequiredByNativeCodeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

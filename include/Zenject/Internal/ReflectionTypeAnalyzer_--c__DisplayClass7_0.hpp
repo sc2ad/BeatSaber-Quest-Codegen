@@ -66,27 +66,27 @@ namespace Zenject::Internal {
   #pragma pack(pop)
   static check_size<sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0), 24 + sizeof(System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*)> __Zenject_Internal_ReflectionTypeAnalyzer_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0) == 0x20);
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c__DisplayClass7_0::$GetMethodInfos$b__2
-  // Il2CppName: <GetMethodInfos>b__2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* (ReflectionTypeAnalyzer::$$c__DisplayClass7_0::*)(System::Reflection::ParameterInfo*)>(&ReflectionTypeAnalyzer::$$c__DisplayClass7_0::$GetMethodInfos$b__2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0*), "<GetMethodInfos>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c__DisplayClass7_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c__DisplayClass7_0::*)()>(&ReflectionTypeAnalyzer::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c__DisplayClass7_0::*)()>(&ReflectionTypeAnalyzer::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass7_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass7_0");
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c__DisplayClass7_0::$GetMethodInfos$b__2
+// Il2CppName: <GetMethodInfos>b__2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* (ReflectionTypeAnalyzer::$$c__DisplayClass7_0::*)(System::Reflection::ParameterInfo*)>(&ReflectionTypeAnalyzer::$$c__DisplayClass7_0::$GetMethodInfos$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0*), "<GetMethodInfos>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c__DisplayClass7_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c__DisplayClass7_0::*)()>(&ReflectionTypeAnalyzer::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c__DisplayClass7_0::*)()>(&ReflectionTypeAnalyzer::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

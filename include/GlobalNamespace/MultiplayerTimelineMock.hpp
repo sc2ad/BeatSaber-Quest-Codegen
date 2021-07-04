@@ -189,131 +189,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerTimelineMock), 144 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MultiplayerTimelineMockSizeCheck;
   static_assert(sizeof(MultiplayerTimelineMock) == 0x98);
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedPlayerIntroAnimators
-  // Il2CppName: get_connectedPlayerIntroAnimators
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedPlayerIntroAnimators)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedPlayerIntroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedPlayerScoreRings
-  // Il2CppName: get_connectedPlayerScoreRings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedPlayerScoreRings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedPlayerScoreRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedPlayerOutroAnimators
-  // Il2CppName: get_connectedPlayerOutroAnimators
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedPlayerOutroAnimators)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedPlayerOutroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_localPlayerIntroAnimator
-  // Il2CppName: get_localPlayerIntroAnimator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localPlayerIntroAnimator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localPlayerIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_localPlayerScoreRingItem
-  // Il2CppName: get_localPlayerScoreRingItem
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localPlayerScoreRingItem)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localPlayerScoreRingItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_localPlayerOutroAnimator
-  // Il2CppName: get_localPlayerOutroAnimator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localPlayerOutroAnimator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localPlayerOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedDuelIntroAnimator
-  // Il2CppName: get_connectedDuelIntroAnimator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedDuelIntroAnimator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedDuelIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedDuelOutroAnimator
-  // Il2CppName: get_connectedDuelOutroAnimator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedDuelOutroAnimator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedDuelOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_localDuelIntroAnimator
-  // Il2CppName: get_localDuelIntroAnimator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localDuelIntroAnimator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localDuelIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_localDuelOutroAnimator
-  // Il2CppName: get_localDuelOutroAnimator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localDuelOutroAnimator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localDuelOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_resultAvatars
-  // Il2CppName: get_resultAvatars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_resultAvatars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_resultAvatars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_badgeTimelines
-  // Il2CppName: get_badgeTimelines
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_badgeTimelines)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::get_resultsMocks
-  // Il2CppName: get_resultsMocks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_resultsMocks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_resultsMocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::HandleActivations
-  // Il2CppName: HandleActivations
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerTimelineMock::*)(bool)>(&MultiplayerTimelineMock::HandleActivations)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "HandleActivations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerTimelineMock::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerTimelineMock*, "", "MultiplayerTimelineMock");
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedPlayerIntroAnimators
+// Il2CppName: get_connectedPlayerIntroAnimators
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedPlayerIntroAnimators)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedPlayerIntroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedPlayerScoreRings
+// Il2CppName: get_connectedPlayerScoreRings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedPlayerScoreRings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedPlayerScoreRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedPlayerOutroAnimators
+// Il2CppName: get_connectedPlayerOutroAnimators
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedPlayerOutroAnimators)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedPlayerOutroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_localPlayerIntroAnimator
+// Il2CppName: get_localPlayerIntroAnimator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localPlayerIntroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localPlayerIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_localPlayerScoreRingItem
+// Il2CppName: get_localPlayerScoreRingItem
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localPlayerScoreRingItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localPlayerScoreRingItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_localPlayerOutroAnimator
+// Il2CppName: get_localPlayerOutroAnimator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localPlayerOutroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localPlayerOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedDuelIntroAnimator
+// Il2CppName: get_connectedDuelIntroAnimator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedDuelIntroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedDuelIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_connectedDuelOutroAnimator
+// Il2CppName: get_connectedDuelOutroAnimator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_connectedDuelOutroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_connectedDuelOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_localDuelIntroAnimator
+// Il2CppName: get_localDuelIntroAnimator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localDuelIntroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localDuelIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_localDuelOutroAnimator
+// Il2CppName: get_localDuelOutroAnimator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_localDuelOutroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_localDuelOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_resultAvatars
+// Il2CppName: get_resultAvatars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_resultAvatars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_resultAvatars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_badgeTimelines
+// Il2CppName: get_badgeTimelines
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_badgeTimelines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::get_resultsMocks
+// Il2CppName: get_resultsMocks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::get_resultsMocks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "get_resultsMocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::HandleActivations
+// Il2CppName: HandleActivations
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerTimelineMock::*)(bool)>(&MultiplayerTimelineMock::HandleActivations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), "HandleActivations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerTimelineMock::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerTimelineMock::*)()>(&MultiplayerTimelineMock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerTimelineMock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

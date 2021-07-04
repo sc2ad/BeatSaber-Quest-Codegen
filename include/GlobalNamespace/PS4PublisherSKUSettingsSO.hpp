@@ -85,59 +85,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PS4PublisherSKUSettingsSO), 56 + sizeof(int)> __GlobalNamespace_PS4PublisherSKUSettingsSOSizeCheck;
   static_assert(sizeof(PS4PublisherSKUSettingsSO) == 0x3C);
-  // Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_skuName
-  // Il2CppName: get_skuName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_skuName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_skuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_contentId
-  // Il2CppName: get_contentId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_contentId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_contentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_parentalLockLevel
-  // Il2CppName: get_parentalLockLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_parentalLockLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_parentalLockLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_npTitleFilenamePath
-  // Il2CppName: get_npTitleFilenamePath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_npTitleFilenamePath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_npTitleFilenamePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_defaultAgeRestriction
-  // Il2CppName: get_defaultAgeRestriction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_defaultAgeRestriction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_defaultAgeRestriction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
+// Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_skuName
+// Il2CppName: get_skuName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_skuName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_skuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_contentId
+// Il2CppName: get_contentId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_contentId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_contentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_parentalLockLevel
+// Il2CppName: get_parentalLockLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_parentalLockLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_parentalLockLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_npTitleFilenamePath
+// Il2CppName: get_npTitleFilenamePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_npTitleFilenamePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_npTitleFilenamePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::get_defaultAgeRestriction
+// Il2CppName: get_defaultAgeRestriction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::get_defaultAgeRestriction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), "get_defaultAgeRestriction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PS4PublisherSKUSettingsSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4PublisherSKUSettingsSO::*)()>(&PS4PublisherSKUSettingsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PS4PublisherSKUSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

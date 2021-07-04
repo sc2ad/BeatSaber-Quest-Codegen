@@ -73,51 +73,51 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   #pragma pack(pop)
   static check_size<sizeof(PbeS2Parameters), 24 + sizeof(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*)> __Org_BouncyCastle_Asn1_Pkcs_PbeS2ParametersSizeCheck;
   static_assert(sizeof(PbeS2Parameters) == 0x20);
-  // Writing MetadataGetter for method: PbeS2Parameters::GetInstance
-  // Il2CppName: GetInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* (*)(::Il2CppObject*)>(&PbeS2Parameters::GetInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PbeS2Parameters::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeS2Parameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeS2Parameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeS2Parameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeS2Parameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PbeS2Parameters::get_KeyDerivationFunc
-  // Il2CppName: get_KeyDerivationFunc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* (PbeS2Parameters::*)()>(&PbeS2Parameters::get_KeyDerivationFunc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "get_KeyDerivationFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PbeS2Parameters::get_EncryptionScheme
-  // Il2CppName: get_EncryptionScheme
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* (PbeS2Parameters::*)()>(&PbeS2Parameters::get_EncryptionScheme)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "get_EncryptionScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PbeS2Parameters::ToAsn1Object
-  // Il2CppName: ToAsn1Object
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (PbeS2Parameters::*)()>(&PbeS2Parameters::ToAsn1Object)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*, "Org.BouncyCastle.Asn1.Pkcs", "PbeS2Parameters");
+// Writing MetadataGetter for method: PbeS2Parameters::GetInstance
+// Il2CppName: GetInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* (*)(::Il2CppObject*)>(&PbeS2Parameters::GetInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: PbeS2Parameters::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeS2Parameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeS2Parameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeS2Parameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeS2Parameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+// Writing MetadataGetter for method: PbeS2Parameters::get_KeyDerivationFunc
+// Il2CppName: get_KeyDerivationFunc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* (PbeS2Parameters::*)()>(&PbeS2Parameters::get_KeyDerivationFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "get_KeyDerivationFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PbeS2Parameters::get_EncryptionScheme
+// Il2CppName: get_EncryptionScheme
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* (PbeS2Parameters::*)()>(&PbeS2Parameters::get_EncryptionScheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "get_EncryptionScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PbeS2Parameters::ToAsn1Object
+// Il2CppName: ToAsn1Object
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (PbeS2Parameters::*)()>(&PbeS2Parameters::ToAsn1Object)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

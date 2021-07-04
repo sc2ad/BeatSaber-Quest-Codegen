@@ -148,163 +148,163 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(AesManaged), 72 + sizeof(System::Security::Cryptography::RijndaelManaged*)> __System_Security_Cryptography_AesManagedSizeCheck;
   static_assert(sizeof(AesManaged) == 0x50);
-  // Writing MetadataGetter for method: AesManaged::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::get_FeedbackSize
-  // Il2CppName: get_FeedbackSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AesManaged::*)()>(&AesManaged::get_FeedbackSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_FeedbackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::get_IV
-  // Il2CppName: get_IV
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AesManaged::*)()>(&AesManaged::get_IV)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::set_IV
-  // Il2CppName: set_IV
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(::Array<uint8_t>*)>(&AesManaged::set_IV)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::get_Key
-  // Il2CppName: get_Key
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AesManaged::*)()>(&AesManaged::get_Key)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::set_Key
-  // Il2CppName: set_Key
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(::Array<uint8_t>*)>(&AesManaged::set_Key)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::get_KeySize
-  // Il2CppName: get_KeySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AesManaged::*)()>(&AesManaged::get_KeySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::set_KeySize
-  // Il2CppName: set_KeySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(int)>(&AesManaged::set_KeySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::get_Mode
-  // Il2CppName: get_Mode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CipherMode (AesManaged::*)()>(&AesManaged::get_Mode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::set_Mode
-  // Il2CppName: set_Mode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(System::Security::Cryptography::CipherMode)>(&AesManaged::set_Mode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CipherMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::get_Padding
-  // Il2CppName: get_Padding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::PaddingMode (AesManaged::*)()>(&AesManaged::get_Padding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::set_Padding
-  // Il2CppName: set_Padding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(System::Security::Cryptography::PaddingMode)>(&AesManaged::set_Padding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::CreateDecryptor
-  // Il2CppName: CreateDecryptor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)()>(&AesManaged::CreateDecryptor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::CreateDecryptor
-  // Il2CppName: CreateDecryptor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&AesManaged::CreateDecryptor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::CreateEncryptor
-  // Il2CppName: CreateEncryptor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)()>(&AesManaged::CreateEncryptor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::CreateEncryptor
-  // Il2CppName: CreateEncryptor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&AesManaged::CreateEncryptor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(bool)>(&AesManaged::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::GenerateIV
-  // Il2CppName: GenerateIV
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::GenerateIV)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AesManaged::GenerateKey
-  // Il2CppName: GenerateKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::GenerateKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AesManaged*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesManaged*, "System.Security.Cryptography", "AesManaged");
+// Writing MetadataGetter for method: AesManaged::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::get_FeedbackSize
+// Il2CppName: get_FeedbackSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AesManaged::*)()>(&AesManaged::get_FeedbackSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_FeedbackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::get_IV
+// Il2CppName: get_IV
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AesManaged::*)()>(&AesManaged::get_IV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::set_IV
+// Il2CppName: set_IV
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(::Array<uint8_t>*)>(&AesManaged::set_IV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::get_Key
+// Il2CppName: get_Key
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AesManaged::*)()>(&AesManaged::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::set_Key
+// Il2CppName: set_Key
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(::Array<uint8_t>*)>(&AesManaged::set_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::get_KeySize
+// Il2CppName: get_KeySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AesManaged::*)()>(&AesManaged::get_KeySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::set_KeySize
+// Il2CppName: set_KeySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(int)>(&AesManaged::set_KeySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::get_Mode
+// Il2CppName: get_Mode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CipherMode (AesManaged::*)()>(&AesManaged::get_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::set_Mode
+// Il2CppName: set_Mode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(System::Security::Cryptography::CipherMode)>(&AesManaged::set_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CipherMode>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::get_Padding
+// Il2CppName: get_Padding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::PaddingMode (AesManaged::*)()>(&AesManaged::get_Padding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "get_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::set_Padding
+// Il2CppName: set_Padding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(System::Security::Cryptography::PaddingMode)>(&AesManaged::set_Padding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "set_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::CreateDecryptor
+// Il2CppName: CreateDecryptor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)()>(&AesManaged::CreateDecryptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::CreateDecryptor
+// Il2CppName: CreateDecryptor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&AesManaged::CreateDecryptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::CreateEncryptor
+// Il2CppName: CreateEncryptor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)()>(&AesManaged::CreateEncryptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::CreateEncryptor
+// Il2CppName: CreateEncryptor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (AesManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&AesManaged::CreateEncryptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)(bool)>(&AesManaged::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::GenerateIV
+// Il2CppName: GenerateIV
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::GenerateIV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AesManaged::GenerateKey
+// Il2CppName: GenerateKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesManaged::*)()>(&AesManaged::GenerateKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AesManaged*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

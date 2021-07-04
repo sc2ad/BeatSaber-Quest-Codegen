@@ -49,27 +49,27 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown::$$c__DisplayClass60_0), 24 + sizeof(TMPro::TMP_Dropdown*)> __TMPro_TMP_Dropdown_$$c__DisplayClass60_0SizeCheck;
   static_assert(sizeof(TMP_Dropdown::$$c__DisplayClass60_0) == 0x20);
-  // Writing MetadataGetter for method: TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0
-  // Il2CppName: <Show>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::$$c__DisplayClass60_0::*)(bool)>(&TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::$$c__DisplayClass60_0*), "<Show>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_Dropdown::$$c__DisplayClass60_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::$$c__DisplayClass60_0::*)()>(&TMP_Dropdown::$$c__DisplayClass60_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::$$c__DisplayClass60_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::$$c__DisplayClass60_0::*)()>(&TMP_Dropdown::$$c__DisplayClass60_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::$$c__DisplayClass60_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$$c__DisplayClass60_0*, "TMPro", "TMP_Dropdown/<>c__DisplayClass60_0");
+// Writing MetadataGetter for method: TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0
+// Il2CppName: <Show>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::$$c__DisplayClass60_0::*)(bool)>(&TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::$$c__DisplayClass60_0*), "<Show>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_Dropdown::$$c__DisplayClass60_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::$$c__DisplayClass60_0::*)()>(&TMP_Dropdown::$$c__DisplayClass60_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::$$c__DisplayClass60_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::$$c__DisplayClass60_0::*)()>(&TMP_Dropdown::$$c__DisplayClass60_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::$$c__DisplayClass60_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

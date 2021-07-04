@@ -38,14 +38,14 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   #pragma pack(pop)
   static check_size<sizeof(TriangulationDebugContext), 16 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationDebugContextSizeCheck;
   static_assert(sizeof(TriangulationDebugContext) == 0x18);
-  // Writing MetadataGetter for method: TriangulationDebugContext::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationDebugContext::*)()>(&TriangulationDebugContext::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TriangulationDebugContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationDebugContext");
+// Writing MetadataGetter for method: TriangulationDebugContext::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationDebugContext::*)()>(&TriangulationDebugContext::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TriangulationDebugContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

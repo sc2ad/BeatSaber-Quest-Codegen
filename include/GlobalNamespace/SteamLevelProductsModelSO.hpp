@@ -85,51 +85,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamLevelProductsModelSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*)> __GlobalNamespace_SteamLevelProductsModelSOSizeCheck;
   static_assert(sizeof(SteamLevelProductsModelSO) == 0x30);
-  // Writing MetadataGetter for method: SteamLevelProductsModelSO::get_levelPackProductsData
-  // Il2CppName: get_levelPackProductsData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::get_levelPackProductsData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "get_levelPackProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamLevelProductsModelSO::GetLevelProductData
-  // Il2CppName: GetLevelProductData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* (SteamLevelProductsModelSO::*)(::Il2CppString*)>(&SteamLevelProductsModelSO::GetLevelProductData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "GetLevelProductData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamLevelProductsModelSO::GetLevelPackProductData
-  // Il2CppName: GetLevelPackProductData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* (SteamLevelProductsModelSO::*)(::Il2CppString*)>(&SteamLevelProductsModelSO::GetLevelPackProductData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "GetLevelPackProductData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamLevelProductsModelSO::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamLevelProductsModelSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO*, "", "SteamLevelProductsModelSO");
+// Writing MetadataGetter for method: SteamLevelProductsModelSO::get_levelPackProductsData
+// Il2CppName: get_levelPackProductsData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::get_levelPackProductsData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "get_levelPackProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamLevelProductsModelSO::GetLevelProductData
+// Il2CppName: GetLevelProductData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* (SteamLevelProductsModelSO::*)(::Il2CppString*)>(&SteamLevelProductsModelSO::GetLevelProductData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "GetLevelProductData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SteamLevelProductsModelSO::GetLevelPackProductData
+// Il2CppName: GetLevelPackProductData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* (SteamLevelProductsModelSO::*)(::Il2CppString*)>(&SteamLevelProductsModelSO::GetLevelPackProductData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "GetLevelPackProductData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SteamLevelProductsModelSO::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamLevelProductsModelSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamLevelProductsModelSO::*)()>(&SteamLevelProductsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamLevelProductsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

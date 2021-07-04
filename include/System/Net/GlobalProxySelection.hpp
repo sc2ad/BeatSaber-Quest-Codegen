@@ -30,22 +30,22 @@ namespace System::Net {
     static System::Net::IWebProxy* GetEmptyWebProxy();
   }; // System.Net.GlobalProxySelection
   #pragma pack(pop)
-  // Writing MetadataGetter for method: GlobalProxySelection::get_Select
-  // Il2CppName: get_Select
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&GlobalProxySelection::get_Select)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlobalProxySelection*), "get_Select", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GlobalProxySelection::GetEmptyWebProxy
-  // Il2CppName: GetEmptyWebProxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&GlobalProxySelection::GetEmptyWebProxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlobalProxySelection*), "GetEmptyWebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::GlobalProxySelection*, "System.Net", "GlobalProxySelection");
+// Writing MetadataGetter for method: GlobalProxySelection::get_Select
+// Il2CppName: get_Select
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&GlobalProxySelection::get_Select)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalProxySelection*), "get_Select", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalProxySelection::GetEmptyWebProxy
+// Il2CppName: GetEmptyWebProxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&GlobalProxySelection::GetEmptyWebProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalProxySelection*), "GetEmptyWebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

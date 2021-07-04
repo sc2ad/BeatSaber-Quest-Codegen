@@ -80,35 +80,35 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(AnimationPreviewUpdateCallback), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*)> __UnityEngine_Timeline_AnimationPreviewUpdateCallbackSizeCheck;
   static_assert(sizeof(AnimationPreviewUpdateCallback) == 0x38);
-  // Writing MetadataGetter for method: AnimationPreviewUpdateCallback::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationPreviewUpdateCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationPreviewUpdateCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationPreviewUpdateCallback::Evaluate
-  // Il2CppName: Evaluate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)()>(&AnimationPreviewUpdateCallback::Evaluate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimationPreviewUpdateCallback::FetchPreviewComponents
-  // Il2CppName: FetchPreviewComponents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)()>(&AnimationPreviewUpdateCallback::FetchPreviewComponents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), "FetchPreviewComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPreviewUpdateCallback*, "UnityEngine.Timeline", "AnimationPreviewUpdateCallback");
+// Writing MetadataGetter for method: AnimationPreviewUpdateCallback::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationPreviewUpdateCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)(UnityEngine::Animations::AnimationPlayableOutput)>(&AnimationPreviewUpdateCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPlayableOutput>()});
+  }
+};
+// Writing MetadataGetter for method: AnimationPreviewUpdateCallback::Evaluate
+// Il2CppName: Evaluate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)()>(&AnimationPreviewUpdateCallback::Evaluate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationPreviewUpdateCallback::FetchPreviewComponents
+// Il2CppName: FetchPreviewComponents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPreviewUpdateCallback::*)()>(&AnimationPreviewUpdateCallback::FetchPreviewComponents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationPreviewUpdateCallback*), "FetchPreviewComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -90,43 +90,43 @@ namespace System::Runtime::Remoting::Metadata {
   #pragma pack(pop)
   static check_size<sizeof(SoapMethodAttribute), 80 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Metadata_SoapMethodAttributeSizeCheck;
   static_assert(sizeof(SoapMethodAttribute) == 0x58);
-  // Writing MetadataGetter for method: SoapMethodAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SoapMethodAttribute::*)()>(&SoapMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SoapMethodAttribute::*)()>(&SoapMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SoapMethodAttribute::get_UseAttribute
-  // Il2CppName: get_UseAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SoapMethodAttribute::*)()>(&SoapMethodAttribute::get_UseAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), "get_UseAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SoapMethodAttribute::get_XmlNamespace
-  // Il2CppName: get_XmlNamespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SoapMethodAttribute::*)()>(&SoapMethodAttribute::get_XmlNamespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), "get_XmlNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SoapMethodAttribute::SetReflectionObject
-  // Il2CppName: SetReflectionObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SoapMethodAttribute::*)(::Il2CppObject*)>(&SoapMethodAttribute::SetReflectionObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), "SetReflectionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapMethodAttribute*, "System.Runtime.Remoting.Metadata", "SoapMethodAttribute");
+// Writing MetadataGetter for method: SoapMethodAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SoapMethodAttribute::*)()>(&SoapMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SoapMethodAttribute::*)()>(&SoapMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SoapMethodAttribute::get_UseAttribute
+// Il2CppName: get_UseAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SoapMethodAttribute::*)()>(&SoapMethodAttribute::get_UseAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), "get_UseAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SoapMethodAttribute::get_XmlNamespace
+// Il2CppName: get_XmlNamespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SoapMethodAttribute::*)()>(&SoapMethodAttribute::get_XmlNamespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), "get_XmlNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SoapMethodAttribute::SetReflectionObject
+// Il2CppName: SetReflectionObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SoapMethodAttribute::*)(::Il2CppObject*)>(&SoapMethodAttribute::SetReflectionObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapMethodAttribute*), "SetReflectionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

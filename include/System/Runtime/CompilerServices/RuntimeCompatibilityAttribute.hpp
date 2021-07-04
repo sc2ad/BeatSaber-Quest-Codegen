@@ -48,27 +48,27 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
   static check_size<sizeof(RuntimeCompatibilityAttribute), 16 + sizeof(bool)> __System_Runtime_CompilerServices_RuntimeCompatibilityAttributeSizeCheck;
   static_assert(sizeof(RuntimeCompatibilityAttribute) == 0x11);
-  // Writing MetadataGetter for method: RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows
-  // Il2CppName: set_WrapNonExceptionThrows
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeCompatibilityAttribute::*)(bool)>(&RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeCompatibilityAttribute*), "set_WrapNonExceptionThrows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RuntimeCompatibilityAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeCompatibilityAttribute::*)()>(&RuntimeCompatibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeCompatibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeCompatibilityAttribute::*)()>(&RuntimeCompatibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RuntimeCompatibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeCompatibilityAttribute*, "System.Runtime.CompilerServices", "RuntimeCompatibilityAttribute");
+// Writing MetadataGetter for method: RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows
+// Il2CppName: set_WrapNonExceptionThrows
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeCompatibilityAttribute::*)(bool)>(&RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeCompatibilityAttribute*), "set_WrapNonExceptionThrows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RuntimeCompatibilityAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeCompatibilityAttribute::*)()>(&RuntimeCompatibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeCompatibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeCompatibilityAttribute::*)()>(&RuntimeCompatibilityAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RuntimeCompatibilityAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

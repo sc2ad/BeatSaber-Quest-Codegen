@@ -48,54 +48,54 @@ namespace System::Threading::Tasks {
     static void TraceSynchronousWorkCompletion(System::Threading::Tasks::CausalityTraceLevel traceLevel, System::Threading::Tasks::CausalitySynchronousWork work);
   }; // System.Threading.Tasks.AsyncCausalityTracer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AsyncCausalityTracer::get_LoggingOn
-  // Il2CppName: get_LoggingOn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AsyncCausalityTracer::get_LoggingOn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "get_LoggingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncCausalityTracer::TraceOperationCreation
-  // Il2CppName: TraceOperationCreation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, ::Il2CppString*, uint64_t)>(&AsyncCausalityTracer::TraceOperationCreation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceOperationCreation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncCausalityTracer::TraceOperationCompletion
-  // Il2CppName: TraceOperationCompletion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::AsyncCausalityStatus)>(&AsyncCausalityTracer::TraceOperationCompletion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceOperationCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::AsyncCausalityStatus>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncCausalityTracer::TraceOperationRelation
-  // Il2CppName: TraceOperationRelation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::CausalityRelation)>(&AsyncCausalityTracer::TraceOperationRelation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceOperationRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityRelation>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncCausalityTracer::TraceSynchronousWorkStart
-  // Il2CppName: TraceSynchronousWorkStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::CausalitySynchronousWork)>(&AsyncCausalityTracer::TraceSynchronousWorkStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceSynchronousWorkStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalitySynchronousWork>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncCausalityTracer::TraceSynchronousWorkCompletion
-  // Il2CppName: TraceSynchronousWorkCompletion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, System::Threading::Tasks::CausalitySynchronousWork)>(&AsyncCausalityTracer::TraceSynchronousWorkCompletion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceSynchronousWorkCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalitySynchronousWork>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityTracer*, "System.Threading.Tasks", "AsyncCausalityTracer");
+// Writing MetadataGetter for method: AsyncCausalityTracer::get_LoggingOn
+// Il2CppName: get_LoggingOn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AsyncCausalityTracer::get_LoggingOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "get_LoggingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncCausalityTracer::TraceOperationCreation
+// Il2CppName: TraceOperationCreation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, ::Il2CppString*, uint64_t)>(&AsyncCausalityTracer::TraceOperationCreation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceOperationCreation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncCausalityTracer::TraceOperationCompletion
+// Il2CppName: TraceOperationCompletion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::AsyncCausalityStatus)>(&AsyncCausalityTracer::TraceOperationCompletion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceOperationCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::AsyncCausalityStatus>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncCausalityTracer::TraceOperationRelation
+// Il2CppName: TraceOperationRelation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::CausalityRelation)>(&AsyncCausalityTracer::TraceOperationRelation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceOperationRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityRelation>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncCausalityTracer::TraceSynchronousWorkStart
+// Il2CppName: TraceSynchronousWorkStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::CausalitySynchronousWork)>(&AsyncCausalityTracer::TraceSynchronousWorkStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceSynchronousWorkStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalitySynchronousWork>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncCausalityTracer::TraceSynchronousWorkCompletion
+// Il2CppName: TraceSynchronousWorkCompletion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, System::Threading::Tasks::CausalitySynchronousWork)>(&AsyncCausalityTracer::TraceSynchronousWorkCompletion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncCausalityTracer*), "TraceSynchronousWorkCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalityTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::CausalitySynchronousWork>()});
+  }
+};

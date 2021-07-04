@@ -53,19 +53,19 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(InjectTypeInfo::InjectConstructorInfo), 24 + sizeof(::Array<Zenject::InjectableInfo*>*)> __Zenject_InjectTypeInfo_InjectConstructorInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo::InjectConstructorInfo) == 0x20);
-  // Writing MetadataGetter for method: InjectTypeInfo::InjectConstructorInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectConstructorInfo*, "Zenject", "InjectTypeInfo/InjectConstructorInfo");
+// Writing MetadataGetter for method: InjectTypeInfo::InjectConstructorInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
+  }
+};

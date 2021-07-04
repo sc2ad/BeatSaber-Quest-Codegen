@@ -163,99 +163,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorNoteVisuals), 72 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorNoteVisualsSizeCheck;
   static_assert(sizeof(ColorNoteVisuals) == 0x58);
-  // Writing MetadataGetter for method: ColorNoteVisuals::add_didInitEvent
-  // Il2CppName: add_didInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*)>(&ColorNoteVisuals::add_didInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::remove_didInitEvent
-  // Il2CppName: remove_didInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*)>(&ColorNoteVisuals::remove_didInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::set_showArrow
-  // Il2CppName: set_showArrow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(bool)>(&ColorNoteVisuals::set_showArrow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "set_showArrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::set_showCircle
-  // Il2CppName: set_showCircle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(bool)>(&ColorNoteVisuals::set_showCircle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "set_showCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerDidInit
-  // Il2CppName: HandleNoteControllerDidInit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&ColorNoteVisuals::HandleNoteControllerDidInit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters
-  // Il2CppName: HandleNoteControllerNoteDidPassJumpThreeQuarters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerNoteDidPassJumpThreeQuarters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving
-  // Il2CppName: HandleNoteControllerNoteDidStartDissolving
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*, float)>(&ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorNoteVisuals::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ColorNoteVisuals::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");
+// Writing MetadataGetter for method: ColorNoteVisuals::add_didInitEvent
+// Il2CppName: add_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*)>(&ColorNoteVisuals::add_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::remove_didInitEvent
+// Il2CppName: remove_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*)>(&ColorNoteVisuals::remove_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::set_showArrow
+// Il2CppName: set_showArrow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(bool)>(&ColorNoteVisuals::set_showArrow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "set_showArrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::set_showCircle
+// Il2CppName: set_showCircle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(bool)>(&ColorNoteVisuals::set_showCircle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "set_showCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerDidInit
+// Il2CppName: HandleNoteControllerDidInit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&ColorNoteVisuals::HandleNoteControllerDidInit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters
+// Il2CppName: HandleNoteControllerNoteDidPassJumpThreeQuarters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerNoteDidPassJumpThreeQuarters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving
+// Il2CppName: HandleNoteControllerNoteDidStartDissolving
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*, float)>(&ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorNoteVisuals::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ColorNoteVisuals::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

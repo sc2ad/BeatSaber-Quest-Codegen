@@ -41,30 +41,30 @@ namespace UnityEngine::SceneManagement {
     static UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::Il2CppString* sceneName, int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters& parameters, bool mustCompleteNextFrame);
   }; // UnityEngine.SceneManagement.SceneManagerAPIInternal
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal
-  // Il2CppName: LoadSceneAsyncNameIndexInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters, bool)>(&SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneManagerAPIInternal::UnloadSceneNameIndexInternal
-  // Il2CppName: UnloadSceneNameIndexInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, bool, UnityEngine::SceneManagement::UnloadSceneOptions, bool&)>(&SceneManagerAPIInternal::UnloadSceneNameIndexInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneManagerAPIInternal*), "UnloadSceneNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::UnloadSceneOptions>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
-  // Il2CppName: LoadSceneAsyncNameIndexInternal_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters&, bool)>(&SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneParameters&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManagerAPIInternal*, "UnityEngine.SceneManagement", "SceneManagerAPIInternal");
+// Writing MetadataGetter for method: SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal
+// Il2CppName: LoadSceneAsyncNameIndexInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters, bool)>(&SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SceneManagerAPIInternal::UnloadSceneNameIndexInternal
+// Il2CppName: UnloadSceneNameIndexInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, bool, UnityEngine::SceneManagement::UnloadSceneOptions, bool&)>(&SceneManagerAPIInternal::UnloadSceneNameIndexInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneManagerAPIInternal*), "UnloadSceneNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::UnloadSceneOptions>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
+// Il2CppName: LoadSceneAsyncNameIndexInternal_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters&, bool)>(&SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneParameters&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

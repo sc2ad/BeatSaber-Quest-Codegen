@@ -37,14 +37,14 @@ namespace UnityEngine::UI {
     static UnityEngine::Rect FindCullAndClipWorldRect(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* rectMaskParents, bool& validRect);
   }; // UnityEngine.UI.Clipping
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Clipping::FindCullAndClipWorldRect
-  // Il2CppName: FindCullAndClipWorldRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*, bool&)>(&Clipping::FindCullAndClipWorldRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Clipping*), "FindCullAndClipWorldRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Clipping*, "UnityEngine.UI", "Clipping");
+// Writing MetadataGetter for method: Clipping::FindCullAndClipWorldRect
+// Il2CppName: FindCullAndClipWorldRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*, bool&)>(&Clipping::FindCullAndClipWorldRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Clipping*), "FindCullAndClipWorldRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};

@@ -95,49 +95,49 @@ namespace Zenject {
     }
   }; // Zenject.ConditionCopyNonLazyBinder
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ConditionCopyNonLazyBinder::When
-  // Il2CppName: When
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (ConditionCopyNonLazyBinder::*)(Zenject::BindingCondition*)>(&ConditionCopyNonLazyBinder::When)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), "When", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingCondition*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenInjectedIntoInstance
-  // Il2CppName: WhenInjectedIntoInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (ConditionCopyNonLazyBinder::*)(::Il2CppObject*)>(&ConditionCopyNonLazyBinder::WhenInjectedIntoInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), "WhenInjectedIntoInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenInjectedInto
-  // Il2CppName: WhenInjectedInto
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (ConditionCopyNonLazyBinder::*)(::Array<System::Type*>*)>(&ConditionCopyNonLazyBinder::WhenInjectedInto)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), "WhenInjectedInto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenInjectedInto
-  // Il2CppName: WhenInjectedInto
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenNotInjectedInto
-  // Il2CppName: WhenNotInjectedInto
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ConditionCopyNonLazyBinder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder*, "Zenject", "ConditionCopyNonLazyBinder");
+// Writing MetadataGetter for method: ConditionCopyNonLazyBinder::When
+// Il2CppName: When
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (ConditionCopyNonLazyBinder::*)(Zenject::BindingCondition*)>(&ConditionCopyNonLazyBinder::When)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), "When", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingCondition*>()});
+  }
+};
+// Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenInjectedIntoInstance
+// Il2CppName: WhenInjectedIntoInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (ConditionCopyNonLazyBinder::*)(::Il2CppObject*)>(&ConditionCopyNonLazyBinder::WhenInjectedIntoInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), "WhenInjectedIntoInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenInjectedInto
+// Il2CppName: WhenInjectedInto
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (ConditionCopyNonLazyBinder::*)(::Array<System::Type*>*)>(&ConditionCopyNonLazyBinder::WhenInjectedInto)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), "WhenInjectedInto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenInjectedInto
+// Il2CppName: WhenInjectedInto
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ConditionCopyNonLazyBinder::WhenNotInjectedInto
+// Il2CppName: WhenNotInjectedInto
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ConditionCopyNonLazyBinder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};

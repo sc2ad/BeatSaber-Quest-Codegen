@@ -29,14 +29,14 @@ namespace System::Runtime::Serialization {
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.IObjectReference
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IObjectReference::GetRealObject
-  // Il2CppName: GetRealObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IObjectReference::*)(System::Runtime::Serialization::StreamingContext)>(&IObjectReference::GetRealObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IObjectReference*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IObjectReference*, "System.Runtime.Serialization", "IObjectReference");
+// Writing MetadataGetter for method: IObjectReference::GetRealObject
+// Il2CppName: GetRealObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IObjectReference::*)(System::Runtime::Serialization::StreamingContext)>(&IObjectReference::GetRealObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IObjectReference*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};

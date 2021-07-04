@@ -69,43 +69,43 @@ namespace UnityEngine::Assertions {
     static void _cctor();
   }; // UnityEngine.Assertions.Assert
   #pragma pack(pop)
-  // Writing MetadataGetter for method: _Assert::Fail
-  // Il2CppName: Fail
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&_Assert::Fail)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_Assert*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _Assert::AreEqual
-  // Il2CppName: AreEqual
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: _Assert::AreEqual
-  // Il2CppName: AreEqual
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: _Assert::AreEqual
-  // Il2CppName: AreEqual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, UnityEngine::Object*, ::Il2CppString*)>(&_Assert::AreEqual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_Assert*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: _Assert::AreEqual
-  // Il2CppName: AreEqual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&_Assert::AreEqual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_Assert*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: _Assert::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&_Assert::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(_Assert*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::_Assert*, "UnityEngine.Assertions", "Assert");
+// Writing MetadataGetter for method: _Assert::Fail
+// Il2CppName: Fail
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&_Assert::Fail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_Assert*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: _Assert::AreEqual
+// Il2CppName: AreEqual
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: _Assert::AreEqual
+// Il2CppName: AreEqual
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: _Assert::AreEqual
+// Il2CppName: AreEqual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, UnityEngine::Object*, ::Il2CppString*)>(&_Assert::AreEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_Assert*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: _Assert::AreEqual
+// Il2CppName: AreEqual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&_Assert::AreEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_Assert*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: _Assert::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&_Assert::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(_Assert*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

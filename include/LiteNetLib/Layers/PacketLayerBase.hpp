@@ -52,35 +52,35 @@ namespace LiteNetLib::Layers {
   #pragma pack(pop)
   static check_size<sizeof(PacketLayerBase), 16 + sizeof(int)> __LiteNetLib_Layers_PacketLayerBaseSizeCheck;
   static_assert(sizeof(PacketLayerBase) == 0x14);
-  // Writing MetadataGetter for method: PacketLayerBase::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(int)>(&PacketLayerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(int)>(&PacketLayerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PacketLayerBase::ProcessInboundPacket
-  // Il2CppName: ProcessInboundPacket
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&PacketLayerBase::ProcessInboundPacket)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), "ProcessInboundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: PacketLayerBase::ProcessOutBoundPacket
-  // Il2CppName: ProcessOutBoundPacket
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&PacketLayerBase::ProcessOutBoundPacket)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), "ProcessOutBoundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::PacketLayerBase*, "LiteNetLib.Layers", "PacketLayerBase");
+// Writing MetadataGetter for method: PacketLayerBase::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(int)>(&PacketLayerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(int)>(&PacketLayerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PacketLayerBase::ProcessInboundPacket
+// Il2CppName: ProcessInboundPacket
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&PacketLayerBase::ProcessInboundPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), "ProcessInboundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: PacketLayerBase::ProcessOutBoundPacket
+// Il2CppName: ProcessOutBoundPacket
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketLayerBase::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&PacketLayerBase::ProcessOutBoundPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PacketLayerBase*), "ProcessOutBoundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};

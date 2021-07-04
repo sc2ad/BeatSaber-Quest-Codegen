@@ -51,35 +51,35 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
   static check_size<sizeof(IllogicalCallContext::Reader), 0 + sizeof(System::Runtime::Remoting::Messaging::IllogicalCallContext*)> __System_Runtime_Remoting_Messaging_IllogicalCallContext_ReaderSizeCheck;
   static_assert(sizeof(IllogicalCallContext::Reader) == 0x8);
-  // Writing MetadataGetter for method: IllogicalCallContext::Reader::Reader
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::Reader::*)(System::Runtime::Remoting::Messaging::IllogicalCallContext*)>(&IllogicalCallContext::Reader::Reader<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IllogicalCallContext*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::Reader::*)(System::Runtime::Remoting::Messaging::IllogicalCallContext*)>(&IllogicalCallContext::Reader::Reader<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IllogicalCallContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IllogicalCallContext::Reader::get_IsNull
-  // Il2CppName: get_IsNull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IllogicalCallContext::Reader::*)()>(&IllogicalCallContext::Reader::get_IsNull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IllogicalCallContext::Reader::GetData
-  // Il2CppName: GetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IllogicalCallContext::Reader::*)(::Il2CppString*)>(&IllogicalCallContext::Reader::GetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "IllogicalCallContext/Reader");
+// Writing MetadataGetter for method: IllogicalCallContext::Reader::Reader
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::Reader::*)(System::Runtime::Remoting::Messaging::IllogicalCallContext*)>(&IllogicalCallContext::Reader::Reader<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IllogicalCallContext*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::Reader::*)(System::Runtime::Remoting::Messaging::IllogicalCallContext*)>(&IllogicalCallContext::Reader::Reader<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IllogicalCallContext*>()});
+  }
+};
+// Writing MetadataGetter for method: IllogicalCallContext::Reader::get_IsNull
+// Il2CppName: get_IsNull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IllogicalCallContext::Reader::*)()>(&IllogicalCallContext::Reader::get_IsNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IllogicalCallContext::Reader::GetData
+// Il2CppName: GetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IllogicalCallContext::Reader::*)(::Il2CppString*)>(&IllogicalCallContext::Reader::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext::Reader), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

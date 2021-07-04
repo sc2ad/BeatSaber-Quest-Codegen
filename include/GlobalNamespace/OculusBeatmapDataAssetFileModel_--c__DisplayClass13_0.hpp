@@ -82,27 +82,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0), 40 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0) == 0x30);
-  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::$TryDeleteAssetBundleFileForPreviewLevelAsync$b__0
-  // Il2CppName: <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>*)>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::$TryDeleteAssetBundleFileForPreviewLevelAsync$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*), "<TryDeleteAssetBundleFileForPreviewLevelAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::*)()>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::*)()>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass13_0");
+// Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::$TryDeleteAssetBundleFileForPreviewLevelAsync$b__0
+// Il2CppName: <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>*)>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::$TryDeleteAssetBundleFileForPreviewLevelAsync$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*), "<TryDeleteAssetBundleFileForPreviewLevelAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::*)()>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::*)()>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

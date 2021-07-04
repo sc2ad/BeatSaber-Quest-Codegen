@@ -54,46 +54,46 @@ namespace UnityEngine::ProBuilder {
     static void _cctor();
   }; // UnityEngine.ProBuilder.TransformUtility
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TransformUtility::UnparentChildren
-  // Il2CppName: UnparentChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&TransformUtility::UnparentChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "UnparentChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TransformUtility::ReparentChildren
-  // Il2CppName: ReparentChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&TransformUtility::ReparentChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "ReparentChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TransformUtility::TransformVertex
-  // Il2CppName: TransformVertex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vertex* (*)(UnityEngine::Transform*, UnityEngine::ProBuilder::Vertex*)>(&TransformUtility::TransformVertex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "TransformVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vertex*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TransformUtility::InverseTransformVertex
-  // Il2CppName: InverseTransformVertex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vertex* (*)(UnityEngine::Transform*, UnityEngine::ProBuilder::Vertex*)>(&TransformUtility::InverseTransformVertex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "InverseTransformVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vertex*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TransformUtility::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TransformUtility::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TransformUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TransformUtility*, "UnityEngine.ProBuilder", "TransformUtility");
+// Writing MetadataGetter for method: TransformUtility::UnparentChildren
+// Il2CppName: UnparentChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&TransformUtility::UnparentChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "UnparentChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: TransformUtility::ReparentChildren
+// Il2CppName: ReparentChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&TransformUtility::ReparentChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "ReparentChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: TransformUtility::TransformVertex
+// Il2CppName: TransformVertex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vertex* (*)(UnityEngine::Transform*, UnityEngine::ProBuilder::Vertex*)>(&TransformUtility::TransformVertex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "TransformVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vertex*>()});
+  }
+};
+// Writing MetadataGetter for method: TransformUtility::InverseTransformVertex
+// Il2CppName: InverseTransformVertex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vertex* (*)(UnityEngine::Transform*, UnityEngine::ProBuilder::Vertex*)>(&TransformUtility::InverseTransformVertex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TransformUtility*), "InverseTransformVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vertex*>()});
+  }
+};
+// Writing MetadataGetter for method: TransformUtility::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TransformUtility::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TransformUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

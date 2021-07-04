@@ -97,35 +97,35 @@ namespace NUnit::Framework {
   #pragma pack(pop)
   static check_size<sizeof(CombiningStrategyAttribute), 32 + sizeof(NUnit::Framework::Interfaces::IParameterDataProvider*)> __NUnit_Framework_CombiningStrategyAttributeSizeCheck;
   static_assert(sizeof(CombiningStrategyAttribute) == 0x28);
-  // Writing MetadataGetter for method: CombiningStrategyAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombiningStrategyAttribute::*)(NUnit::Framework::Interfaces::ICombiningStrategy*, NUnit::Framework::Interfaces::IParameterDataProvider*)>(&CombiningStrategyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ICombiningStrategy*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IParameterDataProvider*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombiningStrategyAttribute::*)(NUnit::Framework::Interfaces::ICombiningStrategy*, NUnit::Framework::Interfaces::IParameterDataProvider*)>(&CombiningStrategyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ICombiningStrategy*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IParameterDataProvider*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CombiningStrategyAttribute::BuildFrom
-  // Il2CppName: BuildFrom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* (CombiningStrategyAttribute::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&CombiningStrategyAttribute::BuildFrom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CombiningStrategyAttribute::ApplyToTest
-  // Il2CppName: ApplyToTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombiningStrategyAttribute::*)(NUnit::Framework::Internal::Test*)>(&CombiningStrategyAttribute::ApplyToTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), "ApplyToTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombiningStrategyAttribute*, "NUnit.Framework", "CombiningStrategyAttribute");
+// Writing MetadataGetter for method: CombiningStrategyAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombiningStrategyAttribute::*)(NUnit::Framework::Interfaces::ICombiningStrategy*, NUnit::Framework::Interfaces::IParameterDataProvider*)>(&CombiningStrategyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ICombiningStrategy*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IParameterDataProvider*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombiningStrategyAttribute::*)(NUnit::Framework::Interfaces::ICombiningStrategy*, NUnit::Framework::Interfaces::IParameterDataProvider*)>(&CombiningStrategyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ICombiningStrategy*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IParameterDataProvider*>()});
+  }
+};
+// Writing MetadataGetter for method: CombiningStrategyAttribute::BuildFrom
+// Il2CppName: BuildFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* (CombiningStrategyAttribute::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&CombiningStrategyAttribute::BuildFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};
+// Writing MetadataGetter for method: CombiningStrategyAttribute::ApplyToTest
+// Il2CppName: ApplyToTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombiningStrategyAttribute::*)(NUnit::Framework::Internal::Test*)>(&CombiningStrategyAttribute::ApplyToTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CombiningStrategyAttribute*), "ApplyToTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};

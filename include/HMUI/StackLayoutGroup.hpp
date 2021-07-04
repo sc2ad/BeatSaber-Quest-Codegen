@@ -89,99 +89,99 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(StackLayoutGroup), 89 + sizeof(bool)> __HMUI_StackLayoutGroupSizeCheck;
   static_assert(sizeof(StackLayoutGroup) == 0x5A);
-  // Writing MetadataGetter for method: StackLayoutGroup::get_childForceExpandWidth
-  // Il2CppName: get_childForceExpandWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackLayoutGroup::*)()>(&StackLayoutGroup::get_childForceExpandWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "get_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::set_childForceExpandWidth
-  // Il2CppName: set_childForceExpandWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(bool)>(&StackLayoutGroup::set_childForceExpandWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "set_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::get_childForceExpandHeight
-  // Il2CppName: get_childForceExpandHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackLayoutGroup::*)()>(&StackLayoutGroup::get_childForceExpandHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "get_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::set_childForceExpandHeight
-  // Il2CppName: set_childForceExpandHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(bool)>(&StackLayoutGroup::set_childForceExpandHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "set_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::CalcAlongAxis
-  // Il2CppName: CalcAlongAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(int)>(&StackLayoutGroup::CalcAlongAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "CalcAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::SetChildrenAlongAxis
-  // Il2CppName: SetChildrenAlongAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(int)>(&StackLayoutGroup::SetChildrenAlongAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "SetChildrenAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::CalculateLayoutInputHorizontal
-  // Il2CppName: CalculateLayoutInputHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::CalculateLayoutInputHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::CalculateLayoutInputVertical
-  // Il2CppName: CalculateLayoutInputVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::CalculateLayoutInputVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::SetLayoutHorizontal
-  // Il2CppName: SetLayoutHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::SetLayoutHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackLayoutGroup::SetLayoutVertical
-  // Il2CppName: SetLayoutVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::SetLayoutVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
+// Writing MetadataGetter for method: StackLayoutGroup::get_childForceExpandWidth
+// Il2CppName: get_childForceExpandWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackLayoutGroup::*)()>(&StackLayoutGroup::get_childForceExpandWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "get_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::set_childForceExpandWidth
+// Il2CppName: set_childForceExpandWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(bool)>(&StackLayoutGroup::set_childForceExpandWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "set_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::get_childForceExpandHeight
+// Il2CppName: get_childForceExpandHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackLayoutGroup::*)()>(&StackLayoutGroup::get_childForceExpandHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "get_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::set_childForceExpandHeight
+// Il2CppName: set_childForceExpandHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(bool)>(&StackLayoutGroup::set_childForceExpandHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "set_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::CalcAlongAxis
+// Il2CppName: CalcAlongAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(int)>(&StackLayoutGroup::CalcAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "CalcAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::SetChildrenAlongAxis
+// Il2CppName: SetChildrenAlongAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)(int)>(&StackLayoutGroup::SetChildrenAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "SetChildrenAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::CalculateLayoutInputHorizontal
+// Il2CppName: CalculateLayoutInputHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::CalculateLayoutInputVertical
+// Il2CppName: CalculateLayoutInputVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::SetLayoutHorizontal
+// Il2CppName: SetLayoutHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackLayoutGroup::SetLayoutVertical
+// Il2CppName: SetLayoutVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackLayoutGroup::*)()>(&StackLayoutGroup::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackLayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

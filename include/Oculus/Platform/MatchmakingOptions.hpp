@@ -94,131 +94,131 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(MatchmakingOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_MatchmakingOptionsSizeCheck;
   static_assert(sizeof(MatchmakingOptions) == 0x18);
-  // Writing MetadataGetter for method: MatchmakingOptions::SetCreateRoomDataStore
-  // Il2CppName: SetCreateRoomDataStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&MatchmakingOptions::SetCreateRoomDataStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::ClearCreateRoomDataStore
-  // Il2CppName: ClearCreateRoomDataStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::ClearCreateRoomDataStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "ClearCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::SetCreateRoomJoinPolicy
-  // Il2CppName: SetCreateRoomJoinPolicy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(Oculus::Platform::RoomJoinPolicy)>(&MatchmakingOptions::SetCreateRoomJoinPolicy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetCreateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::SetCreateRoomMaxUsers
-  // Il2CppName: SetCreateRoomMaxUsers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(uint)>(&MatchmakingOptions::SetCreateRoomMaxUsers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetCreateRoomMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::AddEnqueueAdditionalUser
-  // Il2CppName: AddEnqueueAdditionalUser
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(uint64_t)>(&MatchmakingOptions::AddEnqueueAdditionalUser)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "AddEnqueueAdditionalUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::ClearEnqueueAdditionalUsers
-  // Il2CppName: ClearEnqueueAdditionalUsers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::ClearEnqueueAdditionalUsers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "ClearEnqueueAdditionalUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueDataSettings
-  // Il2CppName: SetEnqueueDataSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, int)>(&MatchmakingOptions::SetEnqueueDataSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueDataSettings
-  // Il2CppName: SetEnqueueDataSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, double)>(&MatchmakingOptions::SetEnqueueDataSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueDataSettings
-  // Il2CppName: SetEnqueueDataSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&MatchmakingOptions::SetEnqueueDataSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::ClearEnqueueDataSettings
-  // Il2CppName: ClearEnqueueDataSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::ClearEnqueueDataSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "ClearEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueIsDebug
-  // Il2CppName: SetEnqueueIsDebug
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(bool)>(&MatchmakingOptions::SetEnqueueIsDebug)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueIsDebug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueQueryKey
-  // Il2CppName: SetEnqueueQueryKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*)>(&MatchmakingOptions::SetEnqueueQueryKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueQueryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::operator System::IntPtr
-  // Il2CppName: op_Explicit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MatchmakingOptions::operator System::IntPtr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingOptions::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingOptions*, "Oculus.Platform", "MatchmakingOptions");
+// Writing MetadataGetter for method: MatchmakingOptions::SetCreateRoomDataStore
+// Il2CppName: SetCreateRoomDataStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&MatchmakingOptions::SetCreateRoomDataStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::ClearCreateRoomDataStore
+// Il2CppName: ClearCreateRoomDataStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::ClearCreateRoomDataStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "ClearCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::SetCreateRoomJoinPolicy
+// Il2CppName: SetCreateRoomJoinPolicy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(Oculus::Platform::RoomJoinPolicy)>(&MatchmakingOptions::SetCreateRoomJoinPolicy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetCreateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::SetCreateRoomMaxUsers
+// Il2CppName: SetCreateRoomMaxUsers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(uint)>(&MatchmakingOptions::SetCreateRoomMaxUsers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetCreateRoomMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::AddEnqueueAdditionalUser
+// Il2CppName: AddEnqueueAdditionalUser
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(uint64_t)>(&MatchmakingOptions::AddEnqueueAdditionalUser)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "AddEnqueueAdditionalUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::ClearEnqueueAdditionalUsers
+// Il2CppName: ClearEnqueueAdditionalUsers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::ClearEnqueueAdditionalUsers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "ClearEnqueueAdditionalUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueDataSettings
+// Il2CppName: SetEnqueueDataSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, int)>(&MatchmakingOptions::SetEnqueueDataSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueDataSettings
+// Il2CppName: SetEnqueueDataSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, double)>(&MatchmakingOptions::SetEnqueueDataSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueDataSettings
+// Il2CppName: SetEnqueueDataSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&MatchmakingOptions::SetEnqueueDataSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::ClearEnqueueDataSettings
+// Il2CppName: ClearEnqueueDataSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::ClearEnqueueDataSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "ClearEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueIsDebug
+// Il2CppName: SetEnqueueIsDebug
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(bool)>(&MatchmakingOptions::SetEnqueueIsDebug)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueIsDebug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::SetEnqueueQueryKey
+// Il2CppName: SetEnqueueQueryKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)(::Il2CppString*)>(&MatchmakingOptions::SetEnqueueQueryKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "SetEnqueueQueryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::operator System::IntPtr
+// Il2CppName: op_Explicit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&MatchmakingOptions::operator System::IntPtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingOptions::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingOptions::*)()>(&MatchmakingOptions::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

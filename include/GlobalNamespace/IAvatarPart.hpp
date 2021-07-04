@@ -24,22 +24,22 @@ namespace GlobalNamespace {
     ::Il2CppString* get_localizedName();
   }; // IAvatarPart
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IAvatarPart::get_id
-  // Il2CppName: get_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAvatarPart::*)()>(&IAvatarPart::get_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IAvatarPart*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IAvatarPart::get_localizedName
-  // Il2CppName: get_localizedName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAvatarPart::*)()>(&IAvatarPart::get_localizedName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IAvatarPart*), "get_localizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAvatarPart*, "", "IAvatarPart");
+// Writing MetadataGetter for method: IAvatarPart::get_id
+// Il2CppName: get_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAvatarPart::*)()>(&IAvatarPart::get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IAvatarPart*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IAvatarPart::get_localizedName
+// Il2CppName: get_localizedName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAvatarPart::*)()>(&IAvatarPart::get_localizedName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IAvatarPart*), "get_localizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -98,51 +98,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter), 56 + sizeof(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>*)> __GlobalNamespace_MaterialPropertyValuesSetterSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter) == 0x40);
-  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::RefreshPropertyIds
-  // Il2CppName: RefreshPropertyIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::RefreshPropertyIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "RefreshPropertyIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::ApplyParams
-  // Il2CppName: ApplyParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::ApplyParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "ApplyParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter*, "", "MaterialPropertyValuesSetter");
+// Writing MetadataGetter for method: MaterialPropertyValuesSetter::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyValuesSetter::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyValuesSetter::RefreshPropertyIds
+// Il2CppName: RefreshPropertyIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::RefreshPropertyIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "RefreshPropertyIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyValuesSetter::ApplyParams
+// Il2CppName: ApplyParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::ApplyParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "ApplyParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyValuesSetter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

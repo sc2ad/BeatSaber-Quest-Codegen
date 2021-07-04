@@ -94,123 +94,123 @@ namespace GlobalNamespace {
     void SetIsReady(bool isReady);
   }; // MockPlayerFiniteStateMachine
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::IMenuRpcManager*, GlobalNamespace::IMockBeatmapDataProvider*, GlobalNamespace::MockPlayerLobbyPoseGenerator*, GlobalNamespace::MockPlayerGamePoseGenerator*)>(&MockPlayerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMenuRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMockBeatmapDataProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerLobbyPoseGenerator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerGamePoseGenerator*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::IMenuRpcManager*, GlobalNamespace::IMockBeatmapDataProvider*, GlobalNamespace::MockPlayerLobbyPoseGenerator*, GlobalNamespace::MockPlayerGamePoseGenerator*)>(&MockPlayerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMenuRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMockBeatmapDataProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerLobbyPoseGenerator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerGamePoseGenerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_saberAColor
-  // Il2CppName: get_saberAColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_saberAColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_saberAColor
-  // Il2CppName: set_saberAColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&MockPlayerFiniteStateMachine::set_saberAColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_saberBColor
-  // Il2CppName: get_saberBColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_saberBColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_saberBColor
-  // Il2CppName: set_saberBColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&MockPlayerFiniteStateMachine::set_saberBColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_obstaclesColor
-  // Il2CppName: get_obstaclesColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_obstaclesColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_obstaclesColor
-  // Il2CppName: set_obstaclesColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&MockPlayerFiniteStateMachine::set_obstaclesColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_leftHanded
-  // Il2CppName: get_leftHanded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_leftHanded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_leftHanded
-  // Il2CppName: set_leftHanded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(bool)>(&MockPlayerFiniteStateMachine::set_leftHanded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_inactiveByDefault
-  // Il2CppName: get_inactiveByDefault
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_inactiveByDefault)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_inactiveByDefault
-  // Il2CppName: set_inactiveByDefault
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(bool)>(&MockPlayerFiniteStateMachine::set_inactiveByDefault)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_gamePoseGenerator
-  // Il2CppName: get_gamePoseGenerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayerGamePoseGenerator* (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_gamePoseGenerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_gamePoseGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockPlayerFiniteStateMachine::SetIsReady
-  // Il2CppName: SetIsReady
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(bool)>(&MockPlayerFiniteStateMachine::SetIsReady)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "SetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerFiniteStateMachine*, "", "MockPlayerFiniteStateMachine");
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::IMenuRpcManager*, GlobalNamespace::IMockBeatmapDataProvider*, GlobalNamespace::MockPlayerLobbyPoseGenerator*, GlobalNamespace::MockPlayerGamePoseGenerator*)>(&MockPlayerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMenuRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMockBeatmapDataProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerLobbyPoseGenerator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerGamePoseGenerator*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::IMenuRpcManager*, GlobalNamespace::IMockBeatmapDataProvider*, GlobalNamespace::MockPlayerLobbyPoseGenerator*, GlobalNamespace::MockPlayerGamePoseGenerator*)>(&MockPlayerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMenuRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMockBeatmapDataProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerLobbyPoseGenerator*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerGamePoseGenerator*>()});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_saberAColor
+// Il2CppName: get_saberAColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_saberAColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_saberAColor
+// Il2CppName: set_saberAColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&MockPlayerFiniteStateMachine::set_saberAColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_saberBColor
+// Il2CppName: get_saberBColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_saberBColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_saberBColor
+// Il2CppName: set_saberBColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&MockPlayerFiniteStateMachine::set_saberBColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_obstaclesColor
+// Il2CppName: get_obstaclesColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_obstaclesColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_obstaclesColor
+// Il2CppName: set_obstaclesColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&MockPlayerFiniteStateMachine::set_obstaclesColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_leftHanded
+// Il2CppName: get_leftHanded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_leftHanded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_leftHanded
+// Il2CppName: set_leftHanded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(bool)>(&MockPlayerFiniteStateMachine::set_leftHanded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_inactiveByDefault
+// Il2CppName: get_inactiveByDefault
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_inactiveByDefault)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::set_inactiveByDefault
+// Il2CppName: set_inactiveByDefault
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(bool)>(&MockPlayerFiniteStateMachine::set_inactiveByDefault)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "set_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::get_gamePoseGenerator
+// Il2CppName: get_gamePoseGenerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayerGamePoseGenerator* (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::get_gamePoseGenerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "get_gamePoseGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)()>(&MockPlayerFiniteStateMachine::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockPlayerFiniteStateMachine::SetIsReady
+// Il2CppName: SetIsReady
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerFiniteStateMachine::*)(bool)>(&MockPlayerFiniteStateMachine::SetIsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockPlayerFiniteStateMachine*), "SetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

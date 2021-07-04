@@ -274,220 +274,220 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
   static check_size<sizeof(PreferenceDictionary), 160 + sizeof(System::Collections::Generic::List_1<UnityEngine::Material*>*)> __UnityEngine_ProBuilder_PreferenceDictionarySizeCheck;
   static_assert(sizeof(PreferenceDictionary) == 0xA8);
-  // Writing MetadataGetter for method: PreferenceDictionary::OnBeforeSerialize
-  // Il2CppName: OnBeforeSerialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::OnBeforeSerialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::OnAfterDeserialize
-  // Il2CppName: OnAfterDeserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::OnAfterDeserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::SetDefaultValues
-  // Il2CppName: SetDefaultValues
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::SetDefaultValues)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::HasKey
-  // Il2CppName: HasKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PreferenceDictionary::*)(::Il2CppString*)>(&PreferenceDictionary::HasKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "HasKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::HasKey
-  // Il2CppName: HasKey
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PreferenceDictionary::DeleteKey
-  // Il2CppName: DeleteKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*)>(&PreferenceDictionary::DeleteKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "DeleteKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::Get
-  // Il2CppName: Get
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PreferenceDictionary::Set
-  // Il2CppName: Set
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PreferenceDictionary::GetBool
-  // Il2CppName: GetBool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PreferenceDictionary::*)(::Il2CppString*, bool)>(&PreferenceDictionary::GetBool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetInt
-  // Il2CppName: GetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PreferenceDictionary::*)(::Il2CppString*, int)>(&PreferenceDictionary::GetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetFloat
-  // Il2CppName: GetFloat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PreferenceDictionary::*)(::Il2CppString*, float)>(&PreferenceDictionary::GetFloat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetString
-  // Il2CppName: GetString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PreferenceDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&PreferenceDictionary::GetString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetColor
-  // Il2CppName: GetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Color)>(&PreferenceDictionary::GetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetMaterial
-  // Il2CppName: GetMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Material*)>(&PreferenceDictionary::GetMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::SetBool
-  // Il2CppName: SetBool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, bool)>(&PreferenceDictionary::SetBool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::SetInt
-  // Il2CppName: SetInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, int)>(&PreferenceDictionary::SetInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::SetFloat
-  // Il2CppName: SetFloat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, float)>(&PreferenceDictionary::SetFloat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::SetString
-  // Il2CppName: SetString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&PreferenceDictionary::SetString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::SetColor
-  // Il2CppName: SetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Color)>(&PreferenceDictionary::SetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::SetMaterial
-  // Il2CppName: SetMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Material*)>(&PreferenceDictionary::SetMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetBoolDictionary
-  // Il2CppName: GetBoolDictionary
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, bool>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetBoolDictionary)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetBoolDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetIntDictionary
-  // Il2CppName: GetIntDictionary
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetIntDictionary)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetIntDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetFloatDictionary
-  // Il2CppName: GetFloatDictionary
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetFloatDictionary)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetFloatDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetStringDictionary
-  // Il2CppName: GetStringDictionary
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetStringDictionary)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetStringDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetColorDictionary
-  // Il2CppName: GetColorDictionary
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Color>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetColorDictionary)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetColorDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::GetMaterialDictionary
-  // Il2CppName: GetMaterialDictionary
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Material*>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetMaterialDictionary)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetMaterialDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PreferenceDictionary::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEngine.ProBuilder", "PreferenceDictionary");
+// Writing MetadataGetter for method: PreferenceDictionary::OnBeforeSerialize
+// Il2CppName: OnBeforeSerialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::OnBeforeSerialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::OnAfterDeserialize
+// Il2CppName: OnAfterDeserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::OnAfterDeserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::SetDefaultValues
+// Il2CppName: SetDefaultValues
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::SetDefaultValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::HasKey
+// Il2CppName: HasKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PreferenceDictionary::*)(::Il2CppString*)>(&PreferenceDictionary::HasKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "HasKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::HasKey
+// Il2CppName: HasKey
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PreferenceDictionary::DeleteKey
+// Il2CppName: DeleteKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*)>(&PreferenceDictionary::DeleteKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "DeleteKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::Get
+// Il2CppName: Get
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PreferenceDictionary::Set
+// Il2CppName: Set
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PreferenceDictionary::GetBool
+// Il2CppName: GetBool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PreferenceDictionary::*)(::Il2CppString*, bool)>(&PreferenceDictionary::GetBool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetInt
+// Il2CppName: GetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PreferenceDictionary::*)(::Il2CppString*, int)>(&PreferenceDictionary::GetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetFloat
+// Il2CppName: GetFloat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PreferenceDictionary::*)(::Il2CppString*, float)>(&PreferenceDictionary::GetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetString
+// Il2CppName: GetString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PreferenceDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&PreferenceDictionary::GetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetColor
+// Il2CppName: GetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Color)>(&PreferenceDictionary::GetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetMaterial
+// Il2CppName: GetMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Material*)>(&PreferenceDictionary::GetMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::SetBool
+// Il2CppName: SetBool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, bool)>(&PreferenceDictionary::SetBool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::SetInt
+// Il2CppName: SetInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, int)>(&PreferenceDictionary::SetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::SetFloat
+// Il2CppName: SetFloat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, float)>(&PreferenceDictionary::SetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::SetString
+// Il2CppName: SetString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&PreferenceDictionary::SetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::SetColor
+// Il2CppName: SetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Color)>(&PreferenceDictionary::SetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::SetMaterial
+// Il2CppName: SetMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Material*)>(&PreferenceDictionary::SetMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "SetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetBoolDictionary
+// Il2CppName: GetBoolDictionary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, bool>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetBoolDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetBoolDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetIntDictionary
+// Il2CppName: GetIntDictionary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetIntDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetIntDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetFloatDictionary
+// Il2CppName: GetFloatDictionary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetFloatDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetFloatDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetStringDictionary
+// Il2CppName: GetStringDictionary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetStringDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetStringDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetColorDictionary
+// Il2CppName: GetColorDictionary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Color>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetColorDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetColorDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::GetMaterialDictionary
+// Il2CppName: GetMaterialDictionary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Material*>* (PreferenceDictionary::*)()>(&PreferenceDictionary::GetMaterialDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "GetMaterialDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PreferenceDictionary::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreferenceDictionary::*)()>(&PreferenceDictionary::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreferenceDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

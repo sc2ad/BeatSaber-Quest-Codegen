@@ -32,14 +32,14 @@ namespace System::ComponentModel::Design {
     System::ComponentModel::IComponent* get_RootComponent();
   }; // System.ComponentModel.Design.IDesignerHost
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IDesignerHost::get_RootComponent
-  // Il2CppName: get_RootComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::IComponent* (IDesignerHost::*)()>(&IDesignerHost::get_RootComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IDesignerHost*), "get_RootComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDesignerHost*, "System.ComponentModel.Design", "IDesignerHost");
+// Writing MetadataGetter for method: IDesignerHost::get_RootComponent
+// Il2CppName: get_RootComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::IComponent* (IDesignerHost::*)()>(&IDesignerHost::get_RootComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IDesignerHost*), "get_RootComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

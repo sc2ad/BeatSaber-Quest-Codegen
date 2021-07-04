@@ -181,203 +181,203 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
   static check_size<sizeof(ConfigHandler), 72 + sizeof(bool)> __System_Runtime_Remoting_ConfigHandlerSizeCheck;
   static_assert(sizeof(ConfigHandler) == 0x49);
-  // Writing MetadataGetter for method: ConfigHandler::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(bool)>(&ConfigHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(bool)>(&ConfigHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ValidatePath
-  // Il2CppName: ValidatePath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&ConfigHandler::ValidatePath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ValidatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::CheckPath
-  // Il2CppName: CheckPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::CheckPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "CheckPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::OnStartParsing
-  // Il2CppName: OnStartParsing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&ConfigHandler::OnStartParsing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnStartParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::OnProcessingInstruction
-  // Il2CppName: OnProcessingInstruction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, ::Il2CppString*)>(&ConfigHandler::OnProcessingInstruction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::OnIgnorableWhitespace
-  // Il2CppName: OnIgnorableWhitespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnIgnorableWhitespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnIgnorableWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::OnStartElement
-  // Il2CppName: OnStartElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::OnStartElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ParseElement
-  // Il2CppName: ParseElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ParseElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::OnEndElement
-  // Il2CppName: OnEndElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnEndElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadCustomProviderData
-  // Il2CppName: ReadCustomProviderData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadCustomProviderData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadCustomProviderData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadLifetine
-  // Il2CppName: ReadLifetine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadLifetine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadLifetine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ParseTime
-  // Il2CppName: ParseTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::ParseTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ParseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadChannel
-  // Il2CppName: ReadChannel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadChannel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadProvider
-  // Il2CppName: ReadProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ProviderData* (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadClientActivated
-  // Il2CppName: ReadClientActivated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadClientActivated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadClientActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadServiceActivated
-  // Il2CppName: ReadServiceActivated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadServiceActivated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadServiceActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadClientWellKnown
-  // Il2CppName: ReadClientWellKnown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadClientWellKnown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadClientWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadServiceWellKnown
-  // Il2CppName: ReadServiceWellKnown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadServiceWellKnown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadServiceWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadInteropXml
-  // Il2CppName: ReadInteropXml
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadInteropXml)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadInteropXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ReadPreload
-  // Il2CppName: ReadPreload
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadPreload)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadPreload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::GetNotNull
-  // Il2CppName: GetNotNull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, ::Il2CppString*)>(&ConfigHandler::GetNotNull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "GetNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::ExtractAssembly
-  // Il2CppName: ExtractAssembly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConfigHandler::*)(::Il2CppString*&)>(&ConfigHandler::ExtractAssembly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ExtractAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::OnChars
-  // Il2CppName: OnChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConfigHandler::OnEndParsing
-  // Il2CppName: OnEndParsing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&ConfigHandler::OnEndParsing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnEndParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ConfigHandler*, "System.Runtime.Remoting", "ConfigHandler");
+// Writing MetadataGetter for method: ConfigHandler::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(bool)>(&ConfigHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(bool)>(&ConfigHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ValidatePath
+// Il2CppName: ValidatePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&ConfigHandler::ValidatePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ValidatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::CheckPath
+// Il2CppName: CheckPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::CheckPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "CheckPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::OnStartParsing
+// Il2CppName: OnStartParsing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&ConfigHandler::OnStartParsing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnStartParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::OnProcessingInstruction
+// Il2CppName: OnProcessingInstruction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, ::Il2CppString*)>(&ConfigHandler::OnProcessingInstruction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::OnIgnorableWhitespace
+// Il2CppName: OnIgnorableWhitespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnIgnorableWhitespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnIgnorableWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::OnStartElement
+// Il2CppName: OnStartElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::OnStartElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ParseElement
+// Il2CppName: ParseElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ParseElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::OnEndElement
+// Il2CppName: OnEndElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnEndElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadCustomProviderData
+// Il2CppName: ReadCustomProviderData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadCustomProviderData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadCustomProviderData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadLifetine
+// Il2CppName: ReadLifetine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadLifetine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadLifetine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ParseTime
+// Il2CppName: ParseTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::ParseTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ParseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadChannel
+// Il2CppName: ReadChannel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadChannel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadProvider
+// Il2CppName: ReadProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ProviderData* (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadClientActivated
+// Il2CppName: ReadClientActivated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadClientActivated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadClientActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadServiceActivated
+// Il2CppName: ReadServiceActivated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadServiceActivated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadServiceActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadClientWellKnown
+// Il2CppName: ReadClientWellKnown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadClientWellKnown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadClientWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadServiceWellKnown
+// Il2CppName: ReadServiceWellKnown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadServiceWellKnown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadServiceWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadInteropXml
+// Il2CppName: ReadInteropXml
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadInteropXml)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadInteropXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ReadPreload
+// Il2CppName: ReadPreload
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadPreload)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadPreload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::GetNotNull
+// Il2CppName: GetNotNull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, ::Il2CppString*)>(&ConfigHandler::GetNotNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "GetNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::ExtractAssembly
+// Il2CppName: ExtractAssembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConfigHandler::*)(::Il2CppString*&)>(&ConfigHandler::ExtractAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ExtractAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::OnChars
+// Il2CppName: OnChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigHandler::OnEndParsing
+// Il2CppName: OnEndParsing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&ConfigHandler::OnEndParsing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnEndParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
+  }
+};

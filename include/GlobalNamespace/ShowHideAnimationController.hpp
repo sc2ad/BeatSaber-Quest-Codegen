@@ -102,51 +102,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ShowHideAnimationController), 44 + sizeof(int)> __GlobalNamespace_ShowHideAnimationControllerSizeCheck;
   static_assert(sizeof(ShowHideAnimationController) == 0x30);
-  // Writing MetadataGetter for method: ShowHideAnimationController::set_Show
-  // Il2CppName: set_Show
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)(bool)>(&ShowHideAnimationController::set_Show)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "set_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ShowHideAnimationController::get_Show
-  // Il2CppName: get_Show
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ShowHideAnimationController::*)()>(&ShowHideAnimationController::get_Show)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "get_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ShowHideAnimationController::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine
-  // Il2CppName: DeactivateSelfAfterDelayCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ShowHideAnimationController::*)(float)>(&ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "DeactivateSelfAfterDelayCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ShowHideAnimationController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController*, "", "ShowHideAnimationController");
+// Writing MetadataGetter for method: ShowHideAnimationController::set_Show
+// Il2CppName: set_Show
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)(bool)>(&ShowHideAnimationController::set_Show)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "set_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ShowHideAnimationController::get_Show
+// Il2CppName: get_Show
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ShowHideAnimationController::*)()>(&ShowHideAnimationController::get_Show)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "get_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ShowHideAnimationController::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine
+// Il2CppName: DeactivateSelfAfterDelayCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ShowHideAnimationController::*)(float)>(&ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "DeactivateSelfAfterDelayCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ShowHideAnimationController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

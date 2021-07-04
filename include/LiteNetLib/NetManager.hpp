@@ -600,587 +600,587 @@ namespace LiteNetLib {
   #pragma pack(pop)
   static check_size<sizeof(NetManager), 236 + sizeof(System::Threading::ThreadPriority)> __LiteNetLib_NetManagerSizeCheck;
   static_assert(sizeof(NetManager) == 0xF0);
-  // Writing MetadataGetter for method: NetManager::get_IsRunning
-  // Il2CppName: get_IsRunning
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)()>(&NetManager::get_IsRunning)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_IsRunning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::get_LocalPort
-  // Il2CppName: get_LocalPort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)()>(&NetManager::get_LocalPort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_LocalPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::get_FirstPeer
-  // Il2CppName: get_FirstPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)()>(&NetManager::get_FirstPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_FirstPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::get_ChannelsCount
-  // Il2CppName: get_ChannelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (NetManager::*)()>(&NetManager::get_ChannelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_ChannelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::set_ChannelsCount
-  // Il2CppName: set_ChannelsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(uint8_t)>(&NetManager::set_ChannelsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "set_ChannelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::get_ConnectedPeerList
-  // Il2CppName: get_ConnectedPeerList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<LiteNetLib::NetPeer*>* (NetManager::*)()>(&NetManager::get_ConnectedPeerList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_ConnectedPeerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::GetPeerById
-  // Il2CppName: GetPeerById
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(int)>(&NetManager::GetPeerById)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetPeerById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::get_ConnectedPeersCount
-  // Il2CppName: get_ConnectedPeersCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)()>(&NetManager::get_ConnectedPeersCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_ConnectedPeersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::TryGetPeer
-  // Il2CppName: TryGetPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPeer*&)>(&NetManager::TryGetPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "TryGetPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::AddPeer
-  // Il2CppName: AddPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::AddPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "AddPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::RemovePeer
-  // Il2CppName: RemovePeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::RemovePeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "RemovePeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::RemovePeerInternal
-  // Il2CppName: RemovePeerInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::RemovePeerInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "RemovePeerInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::INetEventListener*, LiteNetLib::Layers::PacketLayerBase*)>(&NetManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetEventListener*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Layers::PacketLayerBase*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::INetEventListener*, LiteNetLib::Layers::PacketLayerBase*)>(&NetManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetEventListener*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Layers::PacketLayerBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::ConnectionLatencyUpdated
-  // Il2CppName: ConnectionLatencyUpdated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, int)>(&NetManager::ConnectionLatencyUpdated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "ConnectionLatencyUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::MessageDelivered
-  // Il2CppName: MessageDelivered
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, ::Il2CppObject*)>(&NetManager::MessageDelivered)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "MessageDelivered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendRawAndRecycle
-  // Il2CppName: SendRawAndRecycle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(LiteNetLib::NetPacket*, System::Net::IPEndPoint*)>(&NetManager::SendRawAndRecycle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendRawAndRecycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendRaw
-  // Il2CppName: SendRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(LiteNetLib::NetPacket*, System::Net::IPEndPoint*)>(&NetManager::SendRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendRaw
-  // Il2CppName: SendRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*)>(&NetManager::SendRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectPeerForce
-  // Il2CppName: DisconnectPeerForce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectReason, System::Net::Sockets::SocketError, LiteNetLib::NetPacket*)>(&NetManager::DisconnectPeerForce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeerForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectPeer
-  // Il2CppName: DisconnectPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectReason, System::Net::Sockets::SocketError, bool, ::Array<uint8_t>*, int, int, LiteNetLib::NetPacket*)>(&NetManager::DisconnectPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::CreateEvent
-  // Il2CppName: CreateEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetEvent::EType, LiteNetLib::NetPeer*, System::Net::IPEndPoint*, System::Net::Sockets::SocketError, int, LiteNetLib::DisconnectReason, LiteNetLib::ConnectionRequest*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPacket*, ::Il2CppObject*)>(&NetManager::CreateEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "CreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent::EType>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::ProcessEvent
-  // Il2CppName: ProcessEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetEvent*)>(&NetManager::ProcessEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "ProcessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::RecycleEvent
-  // Il2CppName: RecycleEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetEvent*)>(&NetManager::RecycleEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "RecycleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::UpdateLogic
-  // Il2CppName: UpdateLogic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::UpdateLogic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "UpdateLogic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::LiteNetLib_INetSocketListener_OnMessageReceived
-  // Il2CppName: LiteNetLib.INetSocketListener.OnMessageReceived
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&NetManager::LiteNetLib_INetSocketListener_OnMessageReceived)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "LiteNetLib.INetSocketListener.OnMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::OnConnectionSolved
-  // Il2CppName: OnConnectionSolved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(LiteNetLib::ConnectionRequest*, ::Array<uint8_t>*, int, int)>(&NetManager::OnConnectionSolved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "OnConnectionSolved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::GetNextPeerId
-  // Il2CppName: GetNextPeerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)()>(&NetManager::GetNextPeerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetNextPeerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::ProcessConnectRequest
-  // Il2CppName: ProcessConnectRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPeer*, LiteNetLib::NetConnectRequestPacket*)>(&NetManager::ProcessConnectRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "ProcessConnectRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetConnectRequestPacket*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DataReceived
-  // Il2CppName: DataReceived
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, System::Net::IPEndPoint*)>(&NetManager::DataReceived)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DataReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::CreateReceiveEvent
-  // Il2CppName: CreateReceiveEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPacket*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::CreateReceiveEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "CreateReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, uint8_t, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, uint8_t, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, uint8_t, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendToAll
-  // Il2CppName: SendToAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)()>(&NetManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(System::Net::IPAddress*, System::Net::IPAddress*, int)>(&NetManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Il2CppString*, ::Il2CppString*, int)>(&NetManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(int)>(&NetManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendUnconnectedMessage
-  // Il2CppName: SendUnconnectedMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, System::Net::IPEndPoint*)>(&NetManager::SendUnconnectedMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendUnconnectedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendUnconnectedMessage
-  // Il2CppName: SendUnconnectedMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, System::Net::IPEndPoint*)>(&NetManager::SendUnconnectedMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendUnconnectedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendUnconnectedMessage
-  // Il2CppName: SendUnconnectedMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*)>(&NetManager::SendUnconnectedMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendUnconnectedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendBroadcast
-  // Il2CppName: SendBroadcast
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, int)>(&NetManager::SendBroadcast)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendBroadcast
-  // Il2CppName: SendBroadcast
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, int)>(&NetManager::SendBroadcast)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::SendBroadcast
-  // Il2CppName: SendBroadcast
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, int, int, int)>(&NetManager::SendBroadcast)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Flush
-  // Il2CppName: Flush
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::Flush)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::PollEvents
-  // Il2CppName: PollEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::PollEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "PollEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Connect
-  // Il2CppName: Connect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(::Il2CppString*, int, ::Il2CppString*)>(&NetManager::Connect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Connect
-  // Il2CppName: Connect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(::Il2CppString*, int, LiteNetLib::Utils::NetDataWriter*)>(&NetManager::Connect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Connect
-  // Il2CppName: Connect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(System::Net::IPEndPoint*, ::Il2CppString*)>(&NetManager::Connect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Connect
-  // Il2CppName: Connect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataWriter*)>(&NetManager::Connect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Stop
-  // Il2CppName: Stop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::Stop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::Stop
-  // Il2CppName: Stop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(bool)>(&NetManager::Stop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::GetPeersCount
-  // Il2CppName: GetPeersCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(LiteNetLib::ConnectionState)>(&NetManager::GetPeersCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetPeersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionState>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::GetPeersNonAlloc
-  // Il2CppName: GetPeersNonAlloc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(System::Collections::Generic::List_1<LiteNetLib::NetPeer*>*, LiteNetLib::ConnectionState)>(&NetManager::GetPeersNonAlloc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetPeersNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<LiteNetLib::NetPeer*>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionState>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectAll
-  // Il2CppName: DisconnectAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::DisconnectAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectAll
-  // Il2CppName: DisconnectAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int)>(&NetManager::DisconnectAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectPeerForce
-  // Il2CppName: DisconnectPeerForce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::DisconnectPeerForce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeerForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectPeer
-  // Il2CppName: DisconnectPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::DisconnectPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectPeer
-  // Il2CppName: DisconnectPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, ::Array<uint8_t>*)>(&NetManager::DisconnectPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectPeer
-  // Il2CppName: DisconnectPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, LiteNetLib::Utils::NetDataWriter*)>(&NetManager::DisconnectPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::DisconnectPeer
-  // Il2CppName: DisconnectPeer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, ::Array<uint8_t>*, int, int)>(&NetManager::DisconnectPeer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::GetEnumerator
-  // Il2CppName: GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetManager::NetPeerEnumerator (NetManager::*)()>(&NetManager::GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::System_Collections_Generic_IEnumerable$LiteNetLib_NetPeer$_GetEnumerator
-  // Il2CppName: System.Collections.Generic.IEnumerable<LiteNetLib.NetPeer>.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>* (NetManager::*)()>(&NetManager::System_Collections_Generic_IEnumerable$LiteNetLib_NetPeer$_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "System.Collections.Generic.IEnumerable<LiteNetLib.NetPeer>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NetManager::System_Collections_IEnumerable_GetEnumerator
-  // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (NetManager::*)()>(&NetManager::System_Collections_IEnumerable_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetManager*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager*, "LiteNetLib", "NetManager");
+// Writing MetadataGetter for method: NetManager::get_IsRunning
+// Il2CppName: get_IsRunning
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)()>(&NetManager::get_IsRunning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_IsRunning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::get_LocalPort
+// Il2CppName: get_LocalPort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)()>(&NetManager::get_LocalPort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_LocalPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::get_FirstPeer
+// Il2CppName: get_FirstPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)()>(&NetManager::get_FirstPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_FirstPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::get_ChannelsCount
+// Il2CppName: get_ChannelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (NetManager::*)()>(&NetManager::get_ChannelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_ChannelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::set_ChannelsCount
+// Il2CppName: set_ChannelsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(uint8_t)>(&NetManager::set_ChannelsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "set_ChannelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::get_ConnectedPeerList
+// Il2CppName: get_ConnectedPeerList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<LiteNetLib::NetPeer*>* (NetManager::*)()>(&NetManager::get_ConnectedPeerList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_ConnectedPeerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::GetPeerById
+// Il2CppName: GetPeerById
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(int)>(&NetManager::GetPeerById)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetPeerById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::get_ConnectedPeersCount
+// Il2CppName: get_ConnectedPeersCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)()>(&NetManager::get_ConnectedPeersCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "get_ConnectedPeersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::TryGetPeer
+// Il2CppName: TryGetPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPeer*&)>(&NetManager::TryGetPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "TryGetPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*&>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::AddPeer
+// Il2CppName: AddPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::AddPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "AddPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::RemovePeer
+// Il2CppName: RemovePeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::RemovePeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "RemovePeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::RemovePeerInternal
+// Il2CppName: RemovePeerInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::RemovePeerInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "RemovePeerInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::INetEventListener*, LiteNetLib::Layers::PacketLayerBase*)>(&NetManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetEventListener*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Layers::PacketLayerBase*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::INetEventListener*, LiteNetLib::Layers::PacketLayerBase*)>(&NetManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetEventListener*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Layers::PacketLayerBase*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::ConnectionLatencyUpdated
+// Il2CppName: ConnectionLatencyUpdated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, int)>(&NetManager::ConnectionLatencyUpdated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "ConnectionLatencyUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::MessageDelivered
+// Il2CppName: MessageDelivered
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, ::Il2CppObject*)>(&NetManager::MessageDelivered)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "MessageDelivered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendRawAndRecycle
+// Il2CppName: SendRawAndRecycle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(LiteNetLib::NetPacket*, System::Net::IPEndPoint*)>(&NetManager::SendRawAndRecycle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendRawAndRecycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendRaw
+// Il2CppName: SendRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(LiteNetLib::NetPacket*, System::Net::IPEndPoint*)>(&NetManager::SendRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendRaw
+// Il2CppName: SendRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*)>(&NetManager::SendRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectPeerForce
+// Il2CppName: DisconnectPeerForce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectReason, System::Net::Sockets::SocketError, LiteNetLib::NetPacket*)>(&NetManager::DisconnectPeerForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeerForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectPeer
+// Il2CppName: DisconnectPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectReason, System::Net::Sockets::SocketError, bool, ::Array<uint8_t>*, int, int, LiteNetLib::NetPacket*)>(&NetManager::DisconnectPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::CreateEvent
+// Il2CppName: CreateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetEvent::EType, LiteNetLib::NetPeer*, System::Net::IPEndPoint*, System::Net::Sockets::SocketError, int, LiteNetLib::DisconnectReason, LiteNetLib::ConnectionRequest*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPacket*, ::Il2CppObject*)>(&NetManager::CreateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "CreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent::EType>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::ProcessEvent
+// Il2CppName: ProcessEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetEvent*)>(&NetManager::ProcessEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "ProcessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::RecycleEvent
+// Il2CppName: RecycleEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetEvent*)>(&NetManager::RecycleEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "RecycleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::UpdateLogic
+// Il2CppName: UpdateLogic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::UpdateLogic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "UpdateLogic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::LiteNetLib_INetSocketListener_OnMessageReceived
+// Il2CppName: LiteNetLib.INetSocketListener.OnMessageReceived
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&NetManager::LiteNetLib_INetSocketListener_OnMessageReceived)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "LiteNetLib.INetSocketListener.OnMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::OnConnectionSolved
+// Il2CppName: OnConnectionSolved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(LiteNetLib::ConnectionRequest*, ::Array<uint8_t>*, int, int)>(&NetManager::OnConnectionSolved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "OnConnectionSolved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::GetNextPeerId
+// Il2CppName: GetNextPeerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)()>(&NetManager::GetNextPeerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetNextPeerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::ProcessConnectRequest
+// Il2CppName: ProcessConnectRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPeer*, LiteNetLib::NetConnectRequestPacket*)>(&NetManager::ProcessConnectRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "ProcessConnectRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetConnectRequestPacket*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DataReceived
+// Il2CppName: DataReceived
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, System::Net::IPEndPoint*)>(&NetManager::DataReceived)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DataReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::CreateReceiveEvent
+// Il2CppName: CreateReceiveEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPacket*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::CreateReceiveEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "CreateReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, uint8_t, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, uint8_t, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, uint8_t, LiteNetLib::DeliveryMethod)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendToAll
+// Il2CppName: SendToAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&NetManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)()>(&NetManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(System::Net::IPAddress*, System::Net::IPAddress*, int)>(&NetManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Il2CppString*, ::Il2CppString*, int)>(&NetManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(int)>(&NetManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendUnconnectedMessage
+// Il2CppName: SendUnconnectedMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, System::Net::IPEndPoint*)>(&NetManager::SendUnconnectedMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendUnconnectedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendUnconnectedMessage
+// Il2CppName: SendUnconnectedMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, System::Net::IPEndPoint*)>(&NetManager::SendUnconnectedMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendUnconnectedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendUnconnectedMessage
+// Il2CppName: SendUnconnectedMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*)>(&NetManager::SendUnconnectedMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendUnconnectedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendBroadcast
+// Il2CppName: SendBroadcast
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(LiteNetLib::Utils::NetDataWriter*, int)>(&NetManager::SendBroadcast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendBroadcast
+// Il2CppName: SendBroadcast
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, int)>(&NetManager::SendBroadcast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::SendBroadcast
+// Il2CppName: SendBroadcast
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::*)(::Array<uint8_t>*, int, int, int)>(&NetManager::SendBroadcast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Flush
+// Il2CppName: Flush
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::PollEvents
+// Il2CppName: PollEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::PollEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "PollEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Connect
+// Il2CppName: Connect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(::Il2CppString*, int, ::Il2CppString*)>(&NetManager::Connect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Connect
+// Il2CppName: Connect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(::Il2CppString*, int, LiteNetLib::Utils::NetDataWriter*)>(&NetManager::Connect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Connect
+// Il2CppName: Connect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(System::Net::IPEndPoint*, ::Il2CppString*)>(&NetManager::Connect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Connect
+// Il2CppName: Connect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataWriter*)>(&NetManager::Connect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Stop
+// Il2CppName: Stop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::Stop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::Stop
+// Il2CppName: Stop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(bool)>(&NetManager::Stop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::GetPeersCount
+// Il2CppName: GetPeersCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetManager::*)(LiteNetLib::ConnectionState)>(&NetManager::GetPeersCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetPeersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionState>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::GetPeersNonAlloc
+// Il2CppName: GetPeersNonAlloc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(System::Collections::Generic::List_1<LiteNetLib::NetPeer*>*, LiteNetLib::ConnectionState)>(&NetManager::GetPeersNonAlloc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetPeersNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<LiteNetLib::NetPeer*>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionState>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectAll
+// Il2CppName: DisconnectAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)()>(&NetManager::DisconnectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectAll
+// Il2CppName: DisconnectAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(::Array<uint8_t>*, int, int)>(&NetManager::DisconnectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectPeerForce
+// Il2CppName: DisconnectPeerForce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::DisconnectPeerForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeerForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectPeer
+// Il2CppName: DisconnectPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*)>(&NetManager::DisconnectPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectPeer
+// Il2CppName: DisconnectPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, ::Array<uint8_t>*)>(&NetManager::DisconnectPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectPeer
+// Il2CppName: DisconnectPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, LiteNetLib::Utils::NetDataWriter*)>(&NetManager::DisconnectPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::DisconnectPeer
+// Il2CppName: DisconnectPeer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::*)(LiteNetLib::NetPeer*, ::Array<uint8_t>*, int, int)>(&NetManager::DisconnectPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NetManager::GetEnumerator
+// Il2CppName: GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetManager::NetPeerEnumerator (NetManager::*)()>(&NetManager::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::System_Collections_Generic_IEnumerable$LiteNetLib_NetPeer$_GetEnumerator
+// Il2CppName: System.Collections.Generic.IEnumerable<LiteNetLib.NetPeer>.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>* (NetManager::*)()>(&NetManager::System_Collections_Generic_IEnumerable$LiteNetLib_NetPeer$_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "System.Collections.Generic.IEnumerable<LiteNetLib.NetPeer>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NetManager::System_Collections_IEnumerable_GetEnumerator
+// Il2CppName: System.Collections.IEnumerable.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (NetManager::*)()>(&NetManager::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetManager*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

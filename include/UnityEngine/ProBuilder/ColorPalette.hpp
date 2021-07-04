@@ -101,83 +101,83 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
   static check_size<sizeof(ColorPalette), 40 + sizeof(System::Collections::Generic::List_1<UnityEngine::Color>*)> __UnityEngine_ProBuilder_ColorPaletteSizeCheck;
   static_assert(sizeof(ColorPalette) == 0x30);
-  // Writing MetadataGetter for method: ColorPalette::get_current
-  // Il2CppName: get_current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorPalette::*)()>(&ColorPalette::get_current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::set_current
-  // Il2CppName: set_current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)(UnityEngine::Color)>(&ColorPalette::set_current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "set_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::get_colors
-  // Il2CppName: get_colors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Color>* (ColorPalette::*)()>(&ColorPalette::get_colors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::SetColors
-  // Il2CppName: SetColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::Color>*)>(&ColorPalette::SetColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::SetDefaultValues
-  // Il2CppName: SetDefaultValues
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)()>(&ColorPalette::SetDefaultValues)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "SetDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::get_Item
-  // Il2CppName: get_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorPalette::*)(int)>(&ColorPalette::get_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::set_Item
-  // Il2CppName: set_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)(int, UnityEngine::Color)>(&ColorPalette::set_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::get_Count
-  // Il2CppName: get_Count
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ColorPalette::*)()>(&ColorPalette::get_Count)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorPalette::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)()>(&ColorPalette::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)()>(&ColorPalette::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorPalette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorPalette*, "UnityEngine.ProBuilder", "ColorPalette");
+// Writing MetadataGetter for method: ColorPalette::get_current
+// Il2CppName: get_current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorPalette::*)()>(&ColorPalette::get_current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::set_current
+// Il2CppName: set_current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)(UnityEngine::Color)>(&ColorPalette::set_current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "set_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::get_colors
+// Il2CppName: get_colors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Color>* (ColorPalette::*)()>(&ColorPalette::get_colors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::SetColors
+// Il2CppName: SetColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::Color>*)>(&ColorPalette::SetColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::SetDefaultValues
+// Il2CppName: SetDefaultValues
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)()>(&ColorPalette::SetDefaultValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "SetDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::get_Item
+// Il2CppName: get_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorPalette::*)(int)>(&ColorPalette::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::set_Item
+// Il2CppName: set_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)(int, UnityEngine::Color)>(&ColorPalette::set_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::get_Count
+// Il2CppName: get_Count
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ColorPalette::*)()>(&ColorPalette::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorPalette::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)()>(&ColorPalette::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPalette::*)()>(&ColorPalette::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorPalette*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -130,139 +130,139 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.WarningHeaderValue
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: WarningHeaderValue::get_Agent
-  // Il2CppName: get_Agent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Agent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Agent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::set_Agent
-  // Il2CppName: set_Agent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(::Il2CppString*)>(&WarningHeaderValue::set_Agent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Agent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::get_Code
-  // Il2CppName: get_Code
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Code)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::set_Code
-  // Il2CppName: set_Code
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(int)>(&WarningHeaderValue::set_Code)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::get_Date
-  // Il2CppName: get_Date
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTimeOffset> (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Date)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::set_Date
-  // Il2CppName: set_Date
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(System::Nullable_1<System::DateTimeOffset>)>(&WarningHeaderValue::set_Date)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTimeOffset>>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::get_Text
-  // Il2CppName: get_Text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::set_Text
-  // Il2CppName: set_Text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(::Il2CppString*)>(&WarningHeaderValue::set_Text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::IsCodeValid
-  // Il2CppName: IsCodeValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&WarningHeaderValue::IsCodeValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "IsCodeValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::System_ICloneable_Clone
-  // Il2CppName: System.ICloneable.Clone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (WarningHeaderValue::*)()>(&WarningHeaderValue::System_ICloneable_Clone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::TryParse
-  // Il2CppName: TryParse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*&)>(&WarningHeaderValue::TryParse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::TryParseElement
-  // Il2CppName: TryParseElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::WarningHeaderValue*&, System::Net::Http::Headers::Token&)>(&WarningHeaderValue::TryParseElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::WarningHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)()>(&WarningHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)()>(&WarningHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WarningHeaderValue::*)(::Il2CppObject*)>(&WarningHeaderValue::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WarningHeaderValue::*)()>(&WarningHeaderValue::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WarningHeaderValue::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WarningHeaderValue::*)()>(&WarningHeaderValue::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::WarningHeaderValue*, "System.Net.Http.Headers", "WarningHeaderValue");
+// Writing MetadataGetter for method: WarningHeaderValue::get_Agent
+// Il2CppName: get_Agent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Agent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Agent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::set_Agent
+// Il2CppName: set_Agent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(::Il2CppString*)>(&WarningHeaderValue::set_Agent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Agent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::get_Code
+// Il2CppName: get_Code
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Code)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::set_Code
+// Il2CppName: set_Code
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(int)>(&WarningHeaderValue::set_Code)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::get_Date
+// Il2CppName: get_Date
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTimeOffset> (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Date)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::set_Date
+// Il2CppName: set_Date
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(System::Nullable_1<System::DateTimeOffset>)>(&WarningHeaderValue::set_Date)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTimeOffset>>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::get_Text
+// Il2CppName: get_Text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WarningHeaderValue::*)()>(&WarningHeaderValue::get_Text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "get_Text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::set_Text
+// Il2CppName: set_Text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)(::Il2CppString*)>(&WarningHeaderValue::set_Text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "set_Text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::IsCodeValid
+// Il2CppName: IsCodeValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&WarningHeaderValue::IsCodeValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "IsCodeValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::System_ICloneable_Clone
+// Il2CppName: System.ICloneable.Clone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (WarningHeaderValue::*)()>(&WarningHeaderValue::System_ICloneable_Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::TryParse
+// Il2CppName: TryParse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*&)>(&WarningHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::TryParseElement
+// Il2CppName: TryParseElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::WarningHeaderValue*&, System::Net::Http::Headers::Token&)>(&WarningHeaderValue::TryParseElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::WarningHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)()>(&WarningHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WarningHeaderValue::*)()>(&WarningHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WarningHeaderValue::*)(::Il2CppObject*)>(&WarningHeaderValue::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WarningHeaderValue::*)()>(&WarningHeaderValue::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WarningHeaderValue::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WarningHeaderValue::*)()>(&WarningHeaderValue::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WarningHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

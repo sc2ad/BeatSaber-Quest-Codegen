@@ -57,22 +57,22 @@ namespace UnityEngine::TextCore::LowLevel {
   #pragma pack(pop)
   static check_size<sizeof(GlyphPairAdjustmentRecord), 40 + sizeof(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags)> __UnityEngine_TextCore_LowLevel_GlyphPairAdjustmentRecordSizeCheck;
   static_assert(sizeof(GlyphPairAdjustmentRecord) == 0x2C);
-  // Writing MetadataGetter for method: GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
-  // Il2CppName: get_firstAdjustmentRecord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (GlyphPairAdjustmentRecord::*)()>(&GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlyphPairAdjustmentRecord), "get_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GlyphPairAdjustmentRecord::get_secondAdjustmentRecord
-  // Il2CppName: get_secondAdjustmentRecord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (GlyphPairAdjustmentRecord::*)()>(&GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GlyphPairAdjustmentRecord), "get_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
+// Writing MetadataGetter for method: GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
+// Il2CppName: get_firstAdjustmentRecord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (GlyphPairAdjustmentRecord::*)()>(&GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlyphPairAdjustmentRecord), "get_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlyphPairAdjustmentRecord::get_secondAdjustmentRecord
+// Il2CppName: get_secondAdjustmentRecord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (GlyphPairAdjustmentRecord::*)()>(&GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlyphPairAdjustmentRecord), "get_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

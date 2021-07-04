@@ -61,43 +61,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SpawnRotationProcessor), 24 + sizeof(::Array<float>*)> __GlobalNamespace_SpawnRotationProcessorSizeCheck;
   static_assert(sizeof(SpawnRotationProcessor) == 0x20);
-  // Writing MetadataGetter for method: SpawnRotationProcessor::get_rotation
-  // Il2CppName: get_rotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SpawnRotationProcessor::*)()>(&SpawnRotationProcessor::get_rotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationProcessor::ProcessBeatmapEventData
-  // Il2CppName: ProcessBeatmapEventData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpawnRotationProcessor::*)(GlobalNamespace::BeatmapEventData*)>(&SpawnRotationProcessor::ProcessBeatmapEventData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), "ProcessBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationProcessor::RotationForEventValue
-  // Il2CppName: RotationForEventValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SpawnRotationProcessor::*)(int)>(&SpawnRotationProcessor::RotationForEventValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), "RotationForEventValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpawnRotationProcessor::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationProcessor::*)()>(&SpawnRotationProcessor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationProcessor::*)()>(&SpawnRotationProcessor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");
+// Writing MetadataGetter for method: SpawnRotationProcessor::get_rotation
+// Il2CppName: get_rotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SpawnRotationProcessor::*)()>(&SpawnRotationProcessor::get_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationProcessor::ProcessBeatmapEventData
+// Il2CppName: ProcessBeatmapEventData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpawnRotationProcessor::*)(GlobalNamespace::BeatmapEventData*)>(&SpawnRotationProcessor::ProcessBeatmapEventData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), "ProcessBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationProcessor::RotationForEventValue
+// Il2CppName: RotationForEventValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SpawnRotationProcessor::*)(int)>(&SpawnRotationProcessor::RotationForEventValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), "RotationForEventValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SpawnRotationProcessor::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationProcessor::*)()>(&SpawnRotationProcessor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationProcessor::*)()>(&SpawnRotationProcessor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpawnRotationProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

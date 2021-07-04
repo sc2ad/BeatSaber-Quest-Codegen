@@ -93,107 +93,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TrailElementCollection), 32 + sizeof(int)> __GlobalNamespace_TrailElementCollectionSizeCheck;
   static_assert(sizeof(TrailElementCollection) == 0x24);
-  // Writing MetadataGetter for method: TrailElementCollection::get_capacity
-  // Il2CppName: get_capacity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrailElementCollection::*)()>(&TrailElementCollection::get_capacity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "get_capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::get_head
-  // Il2CppName: get_head
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (TrailElementCollection::*)()>(&TrailElementCollection::get_head)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "get_head", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::get_Item
-  // Il2CppName: get_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (TrailElementCollection::*)(int)>(&TrailElementCollection::get_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)(int, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&TrailElementCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)(int, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&TrailElementCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::InitSnapshots
-  // Il2CppName: InitSnapshots
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&TrailElementCollection::InitSnapshots)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InitSnapshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::MoveTailToHead
-  // Il2CppName: MoveTailToHead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)()>(&TrailElementCollection::MoveTailToHead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "MoveTailToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::UpdateDistances
-  // Il2CppName: UpdateDistances
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)()>(&TrailElementCollection::UpdateDistances)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "UpdateDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::InterpolateByLen
-  // Il2CppName: InterpolateByLen
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (TrailElementCollection::*)(float)>(&TrailElementCollection::InterpolateByLen)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InterpolateByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::InterpolateNormalByLen
-  // Il2CppName: InterpolateNormalByLen
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (TrailElementCollection::*)(float)>(&TrailElementCollection::InterpolateNormalByLen)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InterpolateNormalByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::InterpolateTimeByLen
-  // Il2CppName: InterpolateTimeByLen
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TrailElementCollection::*)(float)>(&TrailElementCollection::InterpolateTimeByLen)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InterpolateTimeByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::LenToSegment
-  // Il2CppName: LenToSegment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrailElementCollection::*)(float, float&)>(&TrailElementCollection::LenToSegment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "LenToSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TrailElementCollection::GetElementWithinBoundary
-  // Il2CppName: GetElementWithinBoundary
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (TrailElementCollection::*)(int)>(&TrailElementCollection::GetElementWithinBoundary)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "GetElementWithinBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElementCollection*, "", "TrailElementCollection");
+// Writing MetadataGetter for method: TrailElementCollection::get_capacity
+// Il2CppName: get_capacity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrailElementCollection::*)()>(&TrailElementCollection::get_capacity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "get_capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::get_head
+// Il2CppName: get_head
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (TrailElementCollection::*)()>(&TrailElementCollection::get_head)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "get_head", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::get_Item
+// Il2CppName: get_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (TrailElementCollection::*)(int)>(&TrailElementCollection::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)(int, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&TrailElementCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)(int, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&TrailElementCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::InitSnapshots
+// Il2CppName: InitSnapshots
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&TrailElementCollection::InitSnapshots)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InitSnapshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::MoveTailToHead
+// Il2CppName: MoveTailToHead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)()>(&TrailElementCollection::MoveTailToHead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "MoveTailToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::UpdateDistances
+// Il2CppName: UpdateDistances
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrailElementCollection::*)()>(&TrailElementCollection::UpdateDistances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "UpdateDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::InterpolateByLen
+// Il2CppName: InterpolateByLen
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (TrailElementCollection::*)(float)>(&TrailElementCollection::InterpolateByLen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InterpolateByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::InterpolateNormalByLen
+// Il2CppName: InterpolateNormalByLen
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (TrailElementCollection::*)(float)>(&TrailElementCollection::InterpolateNormalByLen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InterpolateNormalByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::InterpolateTimeByLen
+// Il2CppName: InterpolateTimeByLen
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TrailElementCollection::*)(float)>(&TrailElementCollection::InterpolateTimeByLen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "InterpolateTimeByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::LenToSegment
+// Il2CppName: LenToSegment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrailElementCollection::*)(float, float&)>(&TrailElementCollection::LenToSegment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "LenToSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: TrailElementCollection::GetElementWithinBoundary
+// Il2CppName: GetElementWithinBoundary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (TrailElementCollection::*)(int)>(&TrailElementCollection::GetElementWithinBoundary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TrailElementCollection*), "GetElementWithinBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

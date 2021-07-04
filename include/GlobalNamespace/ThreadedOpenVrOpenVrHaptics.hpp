@@ -67,20 +67,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), 4 + sizeof(float)> __GlobalNamespace_ThreadedOpenVrOpenVrHaptics_OpenVrHapticDataSizeCheck;
     static_assert(sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) == 0x8);
-    // Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::OpenVrHapticData::OpenVrHapticData
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::OpenVrHapticData::*)(float, float)>(&ThreadedOpenVrOpenVrHaptics::OpenVrHapticData::OpenVrHapticData<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::OpenVrHapticData::*)(float, float)>(&ThreadedOpenVrOpenVrHaptics::OpenVrHapticData::OpenVrHapticData<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-      }
-    };
     // private System.Single _currentTime
     // Size: 0x4
     // Offset: 0x10
@@ -138,52 +124,52 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ThreadedOpenVrOpenVrHaptics), 40 + sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData)> __GlobalNamespace_ThreadedOpenVrOpenVrHapticsSizeCheck;
   static_assert(sizeof(ThreadedOpenVrOpenVrHaptics) == 0x30);
-  // Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse
-  // Il2CppName: TriggerHapticPulse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)(UnityEngine::XR::XRNode, float, float, float)>(&ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::UpdateHaptics
-  // Il2CppName: UpdateHaptics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::UpdateHaptics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "UpdateHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::UpdateHandHaptics
-  // Il2CppName: UpdateHandHaptics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)(UnityEngine::XR::XRNode)>(&ThreadedOpenVrOpenVrHaptics::UpdateHandHaptics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "UpdateHandHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::Destroy
-  // Il2CppName: Destroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::Destroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*, "", "ThreadedOpenVrOpenVrHaptics");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData, "", "ThreadedOpenVrOpenVrHaptics/OpenVrHapticData");
+// Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse
+// Il2CppName: TriggerHapticPulse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)(UnityEngine::XR::XRNode, float, float, float)>(&ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::UpdateHaptics
+// Il2CppName: UpdateHaptics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::UpdateHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "UpdateHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::UpdateHandHaptics
+// Il2CppName: UpdateHandHaptics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)(UnityEngine::XR::XRNode)>(&ThreadedOpenVrOpenVrHaptics::UpdateHandHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "UpdateHandHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::Destroy
+// Il2CppName: Destroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ThreadedOpenVrOpenVrHaptics::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadedOpenVrOpenVrHaptics::*)()>(&ThreadedOpenVrOpenVrHaptics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThreadedOpenVrOpenVrHaptics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

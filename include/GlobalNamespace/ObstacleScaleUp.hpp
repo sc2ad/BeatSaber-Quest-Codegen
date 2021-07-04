@@ -89,59 +89,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ObstacleScaleUp), 40 + sizeof(GlobalNamespace::ObstacleController*)> __GlobalNamespace_ObstacleScaleUpSizeCheck;
   static_assert(sizeof(ObstacleScaleUp) == 0x30);
-  // Writing MetadataGetter for method: ObstacleScaleUp::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleScaleUp::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleScaleUp::UpdateScale
-  // Il2CppName: UpdateScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)(float)>(&ObstacleScaleUp::UpdateScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "UpdateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleScaleUp::HandleObstacleControllerDidUpdateProgress
-  // Il2CppName: HandleObstacleControllerDidUpdateProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)(GlobalNamespace::ObstacleController*, float)>(&ObstacleScaleUp::HandleObstacleControllerDidUpdateProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "HandleObstacleControllerDidUpdateProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleScaleUp::HandleObstacleControllerDidInit
-  // Il2CppName: HandleObstacleControllerDidInit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)(GlobalNamespace::ObstacleControllerBase*)>(&ObstacleScaleUp::HandleObstacleControllerDidInit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "HandleObstacleControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleScaleUp::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleScaleUp*, "", "ObstacleScaleUp");
+// Writing MetadataGetter for method: ObstacleScaleUp::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ObstacleScaleUp::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ObstacleScaleUp::UpdateScale
+// Il2CppName: UpdateScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)(float)>(&ObstacleScaleUp::UpdateScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "UpdateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleScaleUp::HandleObstacleControllerDidUpdateProgress
+// Il2CppName: HandleObstacleControllerDidUpdateProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)(GlobalNamespace::ObstacleController*, float)>(&ObstacleScaleUp::HandleObstacleControllerDidUpdateProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "HandleObstacleControllerDidUpdateProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleScaleUp::HandleObstacleControllerDidInit
+// Il2CppName: HandleObstacleControllerDidInit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)(GlobalNamespace::ObstacleControllerBase*)>(&ObstacleScaleUp::HandleObstacleControllerDidInit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), "HandleObstacleControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleScaleUp::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleScaleUp::*)()>(&ObstacleScaleUp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

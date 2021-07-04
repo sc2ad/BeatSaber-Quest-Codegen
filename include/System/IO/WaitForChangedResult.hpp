@@ -62,30 +62,30 @@ namespace System::IO {
   #pragma pack(pop)
   static check_size<sizeof(WaitForChangedResult), 24 + sizeof(bool)> __System_IO_WaitForChangedResultSizeCheck;
   static_assert(sizeof(WaitForChangedResult) == 0x19);
-  // Writing MetadataGetter for method: WaitForChangedResult::set_ChangeType
-  // Il2CppName: set_ChangeType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForChangedResult::*)(System::IO::WatcherChangeTypes)>(&WaitForChangedResult::set_ChangeType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForChangedResult), "set_ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::WatcherChangeTypes>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitForChangedResult::set_Name
-  // Il2CppName: set_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForChangedResult::*)(::Il2CppString*)>(&WaitForChangedResult::set_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForChangedResult), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaitForChangedResult::set_OldName
-  // Il2CppName: set_OldName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForChangedResult::*)(::Il2CppString*)>(&WaitForChangedResult::set_OldName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaitForChangedResult), "set_OldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
+// Writing MetadataGetter for method: WaitForChangedResult::set_ChangeType
+// Il2CppName: set_ChangeType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForChangedResult::*)(System::IO::WatcherChangeTypes)>(&WaitForChangedResult::set_ChangeType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForChangedResult), "set_ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::WatcherChangeTypes>()});
+  }
+};
+// Writing MetadataGetter for method: WaitForChangedResult::set_Name
+// Il2CppName: set_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForChangedResult::*)(::Il2CppString*)>(&WaitForChangedResult::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForChangedResult), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: WaitForChangedResult::set_OldName
+// Il2CppName: set_OldName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitForChangedResult::*)(::Il2CppString*)>(&WaitForChangedResult::set_OldName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaitForChangedResult), "set_OldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

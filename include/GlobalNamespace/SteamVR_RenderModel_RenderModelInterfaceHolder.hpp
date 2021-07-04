@@ -72,35 +72,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_RenderModel::RenderModelInterfaceHolder), 24 + sizeof(Valve::VR::CVRRenderModels*)> __GlobalNamespace_SteamVR_RenderModel_RenderModelInterfaceHolderSizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::RenderModelInterfaceHolder) == 0x20);
-  // Writing MetadataGetter for method: SteamVR_RenderModel::RenderModelInterfaceHolder::get_instance
-  // Il2CppName: get_instance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRRenderModels* (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::get_instance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::RenderModelInterfaceHolder::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_RenderModel::RenderModelInterfaceHolder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, "", "SteamVR_RenderModel/RenderModelInterfaceHolder");
+// Writing MetadataGetter for method: SteamVR_RenderModel::RenderModelInterfaceHolder::get_instance
+// Il2CppName: get_instance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRRenderModels* (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::RenderModelInterfaceHolder::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_RenderModel::RenderModelInterfaceHolder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_RenderModel::RenderModelInterfaceHolder::*)()>(&SteamVR_RenderModel::RenderModelInterfaceHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_RenderModel::RenderModelInterfaceHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

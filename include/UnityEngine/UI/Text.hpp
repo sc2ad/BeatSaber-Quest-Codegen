@@ -278,403 +278,403 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(Text), 232 + sizeof(::Array<UnityEngine::UIVertex>*)> __UnityEngine_UI_TextSizeCheck;
   static_assert(sizeof(Text) == 0xF0);
-  // Writing MetadataGetter for method: Text::get_cachedTextGenerator
-  // Il2CppName: get_cachedTextGenerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerator* (Text::*)()>(&Text::get_cachedTextGenerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_cachedTextGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_cachedTextGeneratorForLayout
-  // Il2CppName: get_cachedTextGeneratorForLayout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerator* (Text::*)()>(&Text::get_cachedTextGeneratorForLayout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_cachedTextGeneratorForLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::FontTextureChanged
-  // Il2CppName: FontTextureChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::FontTextureChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "FontTextureChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_font
-  // Il2CppName: get_font
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (Text::*)()>(&Text::get_font)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_font
-  // Il2CppName: set_font
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::Font*)>(&Text::set_font)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_text
-  // Il2CppName: get_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Text::*)()>(&Text::get_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_text
-  // Il2CppName: set_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(::Il2CppString*)>(&Text::set_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_supportRichText
-  // Il2CppName: get_supportRichText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Text::*)()>(&Text::get_supportRichText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_supportRichText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_supportRichText
-  // Il2CppName: set_supportRichText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(bool)>(&Text::set_supportRichText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_supportRichText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_resizeTextForBestFit
-  // Il2CppName: get_resizeTextForBestFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Text::*)()>(&Text::get_resizeTextForBestFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_resizeTextForBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_resizeTextForBestFit
-  // Il2CppName: set_resizeTextForBestFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(bool)>(&Text::set_resizeTextForBestFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_resizeTextForBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_resizeTextMinSize
-  // Il2CppName: get_resizeTextMinSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_resizeTextMinSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_resizeTextMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_resizeTextMinSize
-  // Il2CppName: set_resizeTextMinSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(int)>(&Text::set_resizeTextMinSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_resizeTextMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_resizeTextMaxSize
-  // Il2CppName: get_resizeTextMaxSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_resizeTextMaxSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_resizeTextMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_resizeTextMaxSize
-  // Il2CppName: set_resizeTextMaxSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(int)>(&Text::set_resizeTextMaxSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_resizeTextMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_alignment
-  // Il2CppName: get_alignment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAnchor (Text::*)()>(&Text::get_alignment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_alignment
-  // Il2CppName: set_alignment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::TextAnchor)>(&Text::set_alignment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_alignByGeometry
-  // Il2CppName: get_alignByGeometry
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Text::*)()>(&Text::get_alignByGeometry)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_alignByGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_alignByGeometry
-  // Il2CppName: set_alignByGeometry
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(bool)>(&Text::set_alignByGeometry)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_alignByGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_fontSize
-  // Il2CppName: get_fontSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_fontSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_fontSize
-  // Il2CppName: set_fontSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(int)>(&Text::set_fontSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_horizontalOverflow
-  // Il2CppName: get_horizontalOverflow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HorizontalWrapMode (Text::*)()>(&Text::get_horizontalOverflow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_horizontalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_horizontalOverflow
-  // Il2CppName: set_horizontalOverflow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::HorizontalWrapMode)>(&Text::set_horizontalOverflow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_horizontalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HorizontalWrapMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_verticalOverflow
-  // Il2CppName: get_verticalOverflow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::VerticalWrapMode (Text::*)()>(&Text::get_verticalOverflow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_verticalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_verticalOverflow
-  // Il2CppName: set_verticalOverflow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::VerticalWrapMode)>(&Text::set_verticalOverflow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_verticalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::VerticalWrapMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_lineSpacing
-  // Il2CppName: get_lineSpacing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_lineSpacing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_lineSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_lineSpacing
-  // Il2CppName: set_lineSpacing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(float)>(&Text::set_lineSpacing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_lineSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_fontStyle
-  // Il2CppName: get_fontStyle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::FontStyle (Text::*)()>(&Text::get_fontStyle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_fontStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::set_fontStyle
-  // Il2CppName: set_fontStyle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::FontStyle)>(&Text::set_fontStyle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "set_fontStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::FontStyle>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_pixelsPerUnit
-  // Il2CppName: get_pixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_pixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_pixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::AssignDefaultFont
-  // Il2CppName: AssignDefaultFont
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::AssignDefaultFont)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "AssignDefaultFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::GetGenerationSettings
-  // Il2CppName: GetGenerationSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationSettings (Text::*)(UnityEngine::Vector2)>(&Text::GetGenerationSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "GetGenerationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::GetTextAnchorPivot
-  // Il2CppName: GetTextAnchorPivot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::TextAnchor)>(&Text::GetTextAnchorPivot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "GetTextAnchorPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::CalculateLayoutInputHorizontal
-  // Il2CppName: CalculateLayoutInputHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::CalculateLayoutInputHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::CalculateLayoutInputVertical
-  // Il2CppName: CalculateLayoutInputVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::CalculateLayoutInputVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_minWidth
-  // Il2CppName: get_minWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_minWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_preferredWidth
-  // Il2CppName: get_preferredWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_preferredWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_flexibleWidth
-  // Il2CppName: get_flexibleWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_flexibleWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_minHeight
-  // Il2CppName: get_minHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_minHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_preferredHeight
-  // Il2CppName: get_preferredHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_preferredHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_flexibleHeight
-  // Il2CppName: get_flexibleHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_flexibleHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_layoutPriority
-  // Il2CppName: get_layoutPriority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_layoutPriority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::get_mainTexture
-  // Il2CppName: get_mainTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Text::*)()>(&Text::get_mainTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::UpdateGeometry
-  // Il2CppName: UpdateGeometry
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::UpdateGeometry)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Text::OnPopulateMesh
-  // Il2CppName: OnPopulateMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::UI::VertexHelper*)>(&Text::OnPopulateMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Text::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Text::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Text*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text*, "UnityEngine.UI", "Text");
+// Writing MetadataGetter for method: Text::get_cachedTextGenerator
+// Il2CppName: get_cachedTextGenerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerator* (Text::*)()>(&Text::get_cachedTextGenerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_cachedTextGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_cachedTextGeneratorForLayout
+// Il2CppName: get_cachedTextGeneratorForLayout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerator* (Text::*)()>(&Text::get_cachedTextGeneratorForLayout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_cachedTextGeneratorForLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::FontTextureChanged
+// Il2CppName: FontTextureChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::FontTextureChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "FontTextureChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_font
+// Il2CppName: get_font
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (Text::*)()>(&Text::get_font)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_font
+// Il2CppName: set_font
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::Font*)>(&Text::set_font)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Text::*)()>(&Text::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(::Il2CppString*)>(&Text::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_supportRichText
+// Il2CppName: get_supportRichText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Text::*)()>(&Text::get_supportRichText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_supportRichText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_supportRichText
+// Il2CppName: set_supportRichText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(bool)>(&Text::set_supportRichText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_supportRichText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_resizeTextForBestFit
+// Il2CppName: get_resizeTextForBestFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Text::*)()>(&Text::get_resizeTextForBestFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_resizeTextForBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_resizeTextForBestFit
+// Il2CppName: set_resizeTextForBestFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(bool)>(&Text::set_resizeTextForBestFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_resizeTextForBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_resizeTextMinSize
+// Il2CppName: get_resizeTextMinSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_resizeTextMinSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_resizeTextMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_resizeTextMinSize
+// Il2CppName: set_resizeTextMinSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(int)>(&Text::set_resizeTextMinSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_resizeTextMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_resizeTextMaxSize
+// Il2CppName: get_resizeTextMaxSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_resizeTextMaxSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_resizeTextMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_resizeTextMaxSize
+// Il2CppName: set_resizeTextMaxSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(int)>(&Text::set_resizeTextMaxSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_resizeTextMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_alignment
+// Il2CppName: get_alignment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAnchor (Text::*)()>(&Text::get_alignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_alignment
+// Il2CppName: set_alignment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::TextAnchor)>(&Text::set_alignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_alignByGeometry
+// Il2CppName: get_alignByGeometry
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Text::*)()>(&Text::get_alignByGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_alignByGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_alignByGeometry
+// Il2CppName: set_alignByGeometry
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(bool)>(&Text::set_alignByGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_alignByGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_fontSize
+// Il2CppName: get_fontSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_fontSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_fontSize
+// Il2CppName: set_fontSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(int)>(&Text::set_fontSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_horizontalOverflow
+// Il2CppName: get_horizontalOverflow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HorizontalWrapMode (Text::*)()>(&Text::get_horizontalOverflow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_horizontalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_horizontalOverflow
+// Il2CppName: set_horizontalOverflow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::HorizontalWrapMode)>(&Text::set_horizontalOverflow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_horizontalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HorizontalWrapMode>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_verticalOverflow
+// Il2CppName: get_verticalOverflow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::VerticalWrapMode (Text::*)()>(&Text::get_verticalOverflow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_verticalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_verticalOverflow
+// Il2CppName: set_verticalOverflow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::VerticalWrapMode)>(&Text::set_verticalOverflow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_verticalOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::VerticalWrapMode>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_lineSpacing
+// Il2CppName: get_lineSpacing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_lineSpacing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_lineSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_lineSpacing
+// Il2CppName: set_lineSpacing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(float)>(&Text::set_lineSpacing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_lineSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_fontStyle
+// Il2CppName: get_fontStyle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::FontStyle (Text::*)()>(&Text::get_fontStyle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_fontStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::set_fontStyle
+// Il2CppName: set_fontStyle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::FontStyle)>(&Text::set_fontStyle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "set_fontStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::FontStyle>()});
+  }
+};
+// Writing MetadataGetter for method: Text::get_pixelsPerUnit
+// Il2CppName: get_pixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_pixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_pixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::AssignDefaultFont
+// Il2CppName: AssignDefaultFont
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::AssignDefaultFont)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "AssignDefaultFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::GetGenerationSettings
+// Il2CppName: GetGenerationSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationSettings (Text::*)(UnityEngine::Vector2)>(&Text::GetGenerationSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "GetGenerationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: Text::GetTextAnchorPivot
+// Il2CppName: GetTextAnchorPivot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::TextAnchor)>(&Text::GetTextAnchorPivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "GetTextAnchorPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
+  }
+};
+// Writing MetadataGetter for method: Text::CalculateLayoutInputHorizontal
+// Il2CppName: CalculateLayoutInputHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::CalculateLayoutInputVertical
+// Il2CppName: CalculateLayoutInputVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_minWidth
+// Il2CppName: get_minWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_minWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_preferredWidth
+// Il2CppName: get_preferredWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_preferredWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_flexibleWidth
+// Il2CppName: get_flexibleWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_flexibleWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_minHeight
+// Il2CppName: get_minHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_minHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_preferredHeight
+// Il2CppName: get_preferredHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_preferredHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_flexibleHeight
+// Il2CppName: get_flexibleHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Text::*)()>(&Text::get_flexibleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_layoutPriority
+// Il2CppName: get_layoutPriority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Text::*)()>(&Text::get_layoutPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::get_mainTexture
+// Il2CppName: get_mainTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (Text::*)()>(&Text::get_mainTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::UpdateGeometry
+// Il2CppName: UpdateGeometry
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)()>(&Text::UpdateGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Text::OnPopulateMesh
+// Il2CppName: OnPopulateMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Text::*)(UnityEngine::UI::VertexHelper*)>(&Text::OnPopulateMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+  }
+};
+// Writing MetadataGetter for method: Text::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Text::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Text*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

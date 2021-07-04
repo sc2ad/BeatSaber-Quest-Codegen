@@ -182,187 +182,187 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
   static check_size<sizeof(AssetBundleRequestOptions), 65 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_AssetBundleRequestOptionsSizeCheck;
   static_assert(sizeof(AssetBundleRequestOptions) == 0x42);
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_Hash
-  // Il2CppName: get_Hash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_Hash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_Hash
-  // Il2CppName: set_Hash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(::Il2CppString*)>(&AssetBundleRequestOptions::set_Hash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_Crc
-  // Il2CppName: get_Crc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_Crc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_Crc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_Crc
-  // Il2CppName: set_Crc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(uint)>(&AssetBundleRequestOptions::set_Crc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_Crc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_Timeout
-  // Il2CppName: get_Timeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_Timeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_Timeout
-  // Il2CppName: set_Timeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int)>(&AssetBundleRequestOptions::set_Timeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_ChunkedTransfer
-  // Il2CppName: get_ChunkedTransfer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_ChunkedTransfer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_ChunkedTransfer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_ChunkedTransfer
-  // Il2CppName: set_ChunkedTransfer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(bool)>(&AssetBundleRequestOptions::set_ChunkedTransfer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_ChunkedTransfer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_RedirectLimit
-  // Il2CppName: get_RedirectLimit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_RedirectLimit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_RedirectLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_RedirectLimit
-  // Il2CppName: set_RedirectLimit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int)>(&AssetBundleRequestOptions::set_RedirectLimit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_RedirectLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_RetryCount
-  // Il2CppName: get_RetryCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_RetryCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_RetryCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_RetryCount
-  // Il2CppName: set_RetryCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int)>(&AssetBundleRequestOptions::set_RetryCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_RetryCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_BundleName
-  // Il2CppName: get_BundleName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_BundleName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_BundleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_BundleName
-  // Il2CppName: set_BundleName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(::Il2CppString*)>(&AssetBundleRequestOptions::set_BundleName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_BundleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_BundleSize
-  // Il2CppName: get_BundleSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_BundleSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_BundleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_BundleSize
-  // Il2CppName: set_BundleSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int64_t)>(&AssetBundleRequestOptions::set_BundleSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_BundleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_UseCrcForCachedBundle
-  // Il2CppName: get_UseCrcForCachedBundle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_UseCrcForCachedBundle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_UseCrcForCachedBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_UseCrcForCachedBundle
-  // Il2CppName: set_UseCrcForCachedBundle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(bool)>(&AssetBundleRequestOptions::set_UseCrcForCachedBundle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_UseCrcForCachedBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::get_ClearOtherCachedVersionsWhenLoaded
-  // Il2CppName: get_ClearOtherCachedVersionsWhenLoaded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_ClearOtherCachedVersionsWhenLoaded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_ClearOtherCachedVersionsWhenLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::set_ClearOtherCachedVersionsWhenLoaded
-  // Il2CppName: set_ClearOtherCachedVersionsWhenLoaded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(bool)>(&AssetBundleRequestOptions::set_ClearOtherCachedVersionsWhenLoaded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_ClearOtherCachedVersionsWhenLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::ComputeSize
-  // Il2CppName: ComputeSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (AssetBundleRequestOptions::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceManager*)>(&AssetBundleRequestOptions::ComputeSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "ComputeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AssetBundleRequestOptions::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleRequestOptions");
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_Hash
+// Il2CppName: get_Hash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_Hash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_Hash
+// Il2CppName: set_Hash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(::Il2CppString*)>(&AssetBundleRequestOptions::set_Hash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_Crc
+// Il2CppName: get_Crc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_Crc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_Crc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_Crc
+// Il2CppName: set_Crc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(uint)>(&AssetBundleRequestOptions::set_Crc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_Crc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_Timeout
+// Il2CppName: get_Timeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_Timeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_Timeout
+// Il2CppName: set_Timeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int)>(&AssetBundleRequestOptions::set_Timeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_ChunkedTransfer
+// Il2CppName: get_ChunkedTransfer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_ChunkedTransfer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_ChunkedTransfer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_ChunkedTransfer
+// Il2CppName: set_ChunkedTransfer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(bool)>(&AssetBundleRequestOptions::set_ChunkedTransfer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_ChunkedTransfer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_RedirectLimit
+// Il2CppName: get_RedirectLimit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_RedirectLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_RedirectLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_RedirectLimit
+// Il2CppName: set_RedirectLimit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int)>(&AssetBundleRequestOptions::set_RedirectLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_RedirectLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_RetryCount
+// Il2CppName: get_RetryCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_RetryCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_RetryCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_RetryCount
+// Il2CppName: set_RetryCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int)>(&AssetBundleRequestOptions::set_RetryCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_RetryCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_BundleName
+// Il2CppName: get_BundleName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_BundleName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_BundleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_BundleName
+// Il2CppName: set_BundleName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(::Il2CppString*)>(&AssetBundleRequestOptions::set_BundleName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_BundleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_BundleSize
+// Il2CppName: get_BundleSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_BundleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_BundleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_BundleSize
+// Il2CppName: set_BundleSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(int64_t)>(&AssetBundleRequestOptions::set_BundleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_BundleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_UseCrcForCachedBundle
+// Il2CppName: get_UseCrcForCachedBundle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_UseCrcForCachedBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_UseCrcForCachedBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_UseCrcForCachedBundle
+// Il2CppName: set_UseCrcForCachedBundle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(bool)>(&AssetBundleRequestOptions::set_UseCrcForCachedBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_UseCrcForCachedBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::get_ClearOtherCachedVersionsWhenLoaded
+// Il2CppName: get_ClearOtherCachedVersionsWhenLoaded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::get_ClearOtherCachedVersionsWhenLoaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "get_ClearOtherCachedVersionsWhenLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::set_ClearOtherCachedVersionsWhenLoaded
+// Il2CppName: set_ClearOtherCachedVersionsWhenLoaded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)(bool)>(&AssetBundleRequestOptions::set_ClearOtherCachedVersionsWhenLoaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "set_ClearOtherCachedVersionsWhenLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::ComputeSize
+// Il2CppName: ComputeSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (AssetBundleRequestOptions::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceManager*)>(&AssetBundleRequestOptions::ComputeSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), "ComputeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
+  }
+};
+// Writing MetadataGetter for method: AssetBundleRequestOptions::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequestOptions::*)()>(&AssetBundleRequestOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequestOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

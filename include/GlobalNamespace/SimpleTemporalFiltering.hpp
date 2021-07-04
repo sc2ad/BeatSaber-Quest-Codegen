@@ -72,35 +72,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SimpleTemporalFiltering), 40 + sizeof(int)> __GlobalNamespace_SimpleTemporalFilteringSizeCheck;
   static_assert(sizeof(SimpleTemporalFiltering) == 0x2C);
-  // Writing MetadataGetter for method: SimpleTemporalFiltering::FilterTexture
-  // Il2CppName: FilterTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (SimpleTemporalFiltering::*)(UnityEngine::RenderTexture*)>(&SimpleTemporalFiltering::FilterTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), "FilterTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleTemporalFiltering::CreateRenderTexturesIfNeeded
-  // Il2CppName: CreateRenderTexturesIfNeeded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTemporalFiltering::*)(int, int)>(&SimpleTemporalFiltering::CreateRenderTexturesIfNeeded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), "CreateRenderTexturesIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleTemporalFiltering::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTemporalFiltering::*)()>(&SimpleTemporalFiltering::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTemporalFiltering::*)()>(&SimpleTemporalFiltering::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTemporalFiltering*, "", "SimpleTemporalFiltering");
+// Writing MetadataGetter for method: SimpleTemporalFiltering::FilterTexture
+// Il2CppName: FilterTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (SimpleTemporalFiltering::*)(UnityEngine::RenderTexture*)>(&SimpleTemporalFiltering::FilterTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), "FilterTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleTemporalFiltering::CreateRenderTexturesIfNeeded
+// Il2CppName: CreateRenderTexturesIfNeeded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTemporalFiltering::*)(int, int)>(&SimpleTemporalFiltering::CreateRenderTexturesIfNeeded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), "CreateRenderTexturesIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleTemporalFiltering::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTemporalFiltering::*)()>(&SimpleTemporalFiltering::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTemporalFiltering::*)()>(&SimpleTemporalFiltering::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleTemporalFiltering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

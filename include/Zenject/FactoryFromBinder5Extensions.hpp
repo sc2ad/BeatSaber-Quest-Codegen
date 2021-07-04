@@ -145,26 +145,26 @@ namespace Zenject {
     }
   }; // Zenject.FactoryFromBinder5Extensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromIFactory
-  // Il2CppName: FromIFactory
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
-  // Il2CppName: FromPoolableMemoryPool
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
-  // Il2CppName: FromPoolableMemoryPool
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromMonoPoolableMemoryPool
-  // Il2CppName: FromMonoPoolableMemoryPool
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromMonoPoolableMemoryPool
-  // Il2CppName: FromMonoPoolableMemoryPool
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
-  // Il2CppName: FromPoolableMemoryPool
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
-  // Il2CppName: FromPoolableMemoryPool
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder5Extensions*, "Zenject", "FactoryFromBinder5Extensions");
+// Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromIFactory
+// Il2CppName: FromIFactory
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
+// Il2CppName: FromPoolableMemoryPool
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
+// Il2CppName: FromPoolableMemoryPool
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromMonoPoolableMemoryPool
+// Il2CppName: FromMonoPoolableMemoryPool
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromMonoPoolableMemoryPool
+// Il2CppName: FromMonoPoolableMemoryPool
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
+// Il2CppName: FromPoolableMemoryPool
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FactoryFromBinder5Extensions::FromPoolableMemoryPool
+// Il2CppName: FromPoolableMemoryPool
+// Cannot write MetadataGetter for generic methods!

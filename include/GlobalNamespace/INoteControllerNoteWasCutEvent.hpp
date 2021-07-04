@@ -27,14 +27,14 @@ namespace GlobalNamespace {
     void HandleNoteControllerNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
   }; // INoteControllerNoteWasCutEvent
   #pragma pack(pop)
-  // Writing MetadataGetter for method: INoteControllerNoteWasCutEvent::HandleNoteControllerNoteWasCut
-  // Il2CppName: HandleNoteControllerNoteWasCut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INoteControllerNoteWasCutEvent::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&INoteControllerNoteWasCutEvent::HandleNoteControllerNoteWasCut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(INoteControllerNoteWasCutEvent*), "HandleNoteControllerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteWasCutEvent*, "", "INoteControllerNoteWasCutEvent");
+// Writing MetadataGetter for method: INoteControllerNoteWasCutEvent::HandleNoteControllerNoteWasCut
+// Il2CppName: HandleNoteControllerNoteWasCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INoteControllerNoteWasCutEvent::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&INoteControllerNoteWasCutEvent::HandleNoteControllerNoteWasCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(INoteControllerNoteWasCutEvent*), "HandleNoteControllerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+  }
+};

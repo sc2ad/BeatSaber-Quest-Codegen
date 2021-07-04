@@ -65,49 +65,49 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
   static check_size<sizeof(AsyncProtocolResult), 24 + sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)> __Mono_Net_Security_AsyncProtocolResultSizeCheck;
   static_assert(sizeof(AsyncProtocolResult) == 0x20);
-  // Writing MetadataGetter for method: AsyncProtocolResult::get_UserResult
-  // Il2CppName: get_UserResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AsyncProtocolResult::*)()>(&AsyncProtocolResult::get_UserResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), "get_UserResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncProtocolResult::get_Error
-  // Il2CppName: get_Error
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (AsyncProtocolResult::*)()>(&AsyncProtocolResult::get_Error)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncProtocolResult::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(int)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(int)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncProtocolResult::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");
+// Writing MetadataGetter for method: AsyncProtocolResult::get_UserResult
+// Il2CppName: get_UserResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AsyncProtocolResult::*)()>(&AsyncProtocolResult::get_UserResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), "get_UserResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncProtocolResult::get_Error
+// Il2CppName: get_Error
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (AsyncProtocolResult::*)()>(&AsyncProtocolResult::get_Error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncProtocolResult::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(int)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(int)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AsyncProtocolResult::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolResult::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&AsyncProtocolResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()});
+  }
+};

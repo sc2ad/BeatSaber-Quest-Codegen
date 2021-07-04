@@ -86,59 +86,59 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_InputField::$MouseDragOutsideRect$d__285), 40 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __TMPro_TMP_InputField_$MouseDragOutsideRect$d__285SizeCheck;
   static_assert(sizeof(TMP_InputField::$MouseDragOutsideRect$d__285) == 0x30);
-  // Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)(int)>(&TMP_InputField::$MouseDragOutsideRect$d__285::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)(int)>(&TMP_InputField::$MouseDragOutsideRect$d__285::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$MouseDragOutsideRect$d__285*, "TMPro", "TMP_InputField/<MouseDragOutsideRect>d__285");
+// Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)(int)>(&TMP_InputField::$MouseDragOutsideRect$d__285::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)(int)>(&TMP_InputField::$MouseDragOutsideRect$d__285::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TMP_InputField::$MouseDragOutsideRect$d__285::*)()>(&TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_InputField::$MouseDragOutsideRect$d__285*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

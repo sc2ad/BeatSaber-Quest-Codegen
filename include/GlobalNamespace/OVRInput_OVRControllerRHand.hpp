@@ -64,67 +64,67 @@ namespace GlobalNamespace {
     uint8_t GetBatteryPercentRemaining();
   }; // OVRInput/OVRControllerRHand
   #pragma pack(pop)
-  // Writing MetadataGetter for method: OVRInput::OVRControllerRHand::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureButtonMap
-  // Il2CppName: ConfigureButtonMap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureButtonMap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureTouchMap
-  // Il2CppName: ConfigureTouchMap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureTouchMap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureNearTouchMap
-  // Il2CppName: ConfigureNearTouchMap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureNearTouchMap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureAxis1DMap
-  // Il2CppName: ConfigureAxis1DMap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureAxis1DMap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureAxis2DMap
-  // Il2CppName: ConfigureAxis2DMap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureAxis2DMap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInput::OVRControllerRHand::GetBatteryPercentRemaining
-  // Il2CppName: GetBatteryPercentRemaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::GetBatteryPercentRemaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "GetBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerRHand*, "", "OVRInput/OVRControllerRHand");
+// Writing MetadataGetter for method: OVRInput::OVRControllerRHand::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureButtonMap
+// Il2CppName: ConfigureButtonMap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureButtonMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureTouchMap
+// Il2CppName: ConfigureTouchMap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureTouchMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureNearTouchMap
+// Il2CppName: ConfigureNearTouchMap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureNearTouchMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureAxis1DMap
+// Il2CppName: ConfigureAxis1DMap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureAxis1DMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::OVRControllerRHand::ConfigureAxis2DMap
+// Il2CppName: ConfigureAxis2DMap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::ConfigureAxis2DMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInput::OVRControllerRHand::GetBatteryPercentRemaining
+// Il2CppName: GetBatteryPercentRemaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (OVRInput::OVRControllerRHand::*)()>(&OVRInput::OVRControllerRHand::GetBatteryPercentRemaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRHand*), "GetBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

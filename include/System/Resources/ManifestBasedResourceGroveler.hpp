@@ -69,35 +69,35 @@ namespace System::Resources {
   #pragma pack(pop)
   static check_size<sizeof(ManifestBasedResourceGroveler), 16 + sizeof(System::Resources::ResourceManager::ResourceManagerMediator*)> __System_Resources_ManifestBasedResourceGrovelerSizeCheck;
   static_assert(sizeof(ManifestBasedResourceGroveler) == 0x18);
-  // Writing MetadataGetter for method: ManifestBasedResourceGroveler::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ManifestBasedResourceGroveler::GetNeutralResourcesLanguage
-  // Il2CppName: GetNeutralResourcesLanguage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Reflection::Assembly*, System::Resources::UltimateResourceFallbackLocation&)>(&ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::UltimateResourceFallbackLocation&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute
-  // Il2CppName: GetNeutralResourcesLanguageAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::Assembly*, ::Il2CppString*&, int16_t&)>(&ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguageAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int16_t&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");
+// Writing MetadataGetter for method: ManifestBasedResourceGroveler::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
+  }
+};
+// Writing MetadataGetter for method: ManifestBasedResourceGroveler::GetNeutralResourcesLanguage
+// Il2CppName: GetNeutralResourcesLanguage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Reflection::Assembly*, System::Resources::UltimateResourceFallbackLocation&)>(&ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::UltimateResourceFallbackLocation&>()});
+  }
+};
+// Writing MetadataGetter for method: ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute
+// Il2CppName: GetNeutralResourcesLanguageAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::Assembly*, ::Il2CppString*&, int16_t&)>(&ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguageAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int16_t&>()});
+  }
+};

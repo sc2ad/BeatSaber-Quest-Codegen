@@ -44,38 +44,38 @@ namespace GlobalNamespace {
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
   }; // INoteMirrorable
   #pragma pack(pop)
-  // Writing MetadataGetter for method: INoteMirrorable::get_transform
-  // Il2CppName: get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (INoteMirrorable::*)()>(&INoteMirrorable::get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: INoteMirrorable::get_noteTransform
-  // Il2CppName: get_noteTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (INoteMirrorable::*)()>(&INoteMirrorable::get_noteTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_noteTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: INoteMirrorable::get_noteData
-  // Il2CppName: get_noteData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (INoteMirrorable::*)()>(&INoteMirrorable::get_noteData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_noteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: INoteMirrorable::get_noteDidStartDissolvingEvent
-  // Il2CppName: get_noteDidStartDissolvingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* (INoteMirrorable::*)()>(&INoteMirrorable::get_noteDidStartDissolvingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_noteDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMirrorable*, "", "INoteMirrorable");
+// Writing MetadataGetter for method: INoteMirrorable::get_transform
+// Il2CppName: get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (INoteMirrorable::*)()>(&INoteMirrorable::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: INoteMirrorable::get_noteTransform
+// Il2CppName: get_noteTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (INoteMirrorable::*)()>(&INoteMirrorable::get_noteTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_noteTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: INoteMirrorable::get_noteData
+// Il2CppName: get_noteData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (INoteMirrorable::*)()>(&INoteMirrorable::get_noteData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_noteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: INoteMirrorable::get_noteDidStartDissolvingEvent
+// Il2CppName: get_noteDidStartDissolvingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* (INoteMirrorable::*)()>(&INoteMirrorable::get_noteDidStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(INoteMirrorable*), "get_noteDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

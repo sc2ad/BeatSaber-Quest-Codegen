@@ -171,179 +171,179 @@ namespace GlobalNamespace {
     }
   }; // GradientImageViewStateTransition
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::StartTweens
-  // Il2CppName: StartTweens
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GradientImageViewStateTransition::StartTweens)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "StartTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::StartTween
-  // Il2CppName: StartTween
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color, System::Action_1<UnityEngine::Color>*, System::Action*, Tweening::ColorTween*&)>(&GradientImageViewStateTransition::StartTween)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<Tweening::ColorTween*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::SetColors
-  // Il2CppName: SetColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GradientImageViewStateTransition::SetColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$g__Color1CompleteAction_17_0
-  // Il2CppName: <StartTweens>g__Color1CompleteAction|17_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::$StartTweens$g__Color1CompleteAction_17_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>g__Color1CompleteAction|17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$g__Color2CompleteAction_17_1
-  // Il2CppName: <StartTweens>g__Color2CompleteAction|17_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::$StartTweens$g__Color2CompleteAction_17_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>g__Color2CompleteAction|17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$b__17_2
-  // Il2CppName: <StartTweens>b__17_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GradientImageViewStateTransition::$StartTweens$b__17_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>b__17_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$b__17_3
-  // Il2CppName: <StartTweens>b__17_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GradientImageViewStateTransition::$StartTweens$b__17_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>b__17_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::get_transition
-  // Il2CppName: get_transition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::get_transition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToNormalState
-  // Il2CppName: TransitionToNormalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToNormalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToHighlightedState
-  // Il2CppName: TransitionToHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToPressedState
-  // Il2CppName: TransitionToPressedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToPressedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToDisabledState
-  // Il2CppName: TransitionToDisabledState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToDisabledState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToSelectedState
-  // Il2CppName: TransitionToSelectedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToSelectedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState
-  // Il2CppName: TransitionToSelectedAndHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::SetNormalState
-  // Il2CppName: SetNormalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetNormalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::SetHighlightedState
-  // Il2CppName: SetHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::SetPressedState
-  // Il2CppName: SetPressedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetPressedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::SetDisabledState
-  // Il2CppName: SetDisabledState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetDisabledState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::SetSelectedState
-  // Il2CppName: SetSelectedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetSelectedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::SetSelectedAndHighlightedState
-  // Il2CppName: SetSelectedAndHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetSelectedAndHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GradientImageViewStateTransition::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientImageViewStateTransition*, "", "GradientImageViewStateTransition");
+// Writing MetadataGetter for method: GradientImageViewStateTransition::StartTweens
+// Il2CppName: StartTweens
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GradientImageViewStateTransition::StartTweens)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "StartTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::StartTween
+// Il2CppName: StartTween
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color, System::Action_1<UnityEngine::Color>*, System::Action*, Tweening::ColorTween*&)>(&GradientImageViewStateTransition::StartTween)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<Tweening::ColorTween*&>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::SetColors
+// Il2CppName: SetColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GradientImageViewStateTransition::SetColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$g__Color1CompleteAction_17_0
+// Il2CppName: <StartTweens>g__Color1CompleteAction|17_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::$StartTweens$g__Color1CompleteAction_17_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>g__Color1CompleteAction|17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$g__Color2CompleteAction_17_1
+// Il2CppName: <StartTweens>g__Color2CompleteAction|17_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::$StartTweens$g__Color2CompleteAction_17_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>g__Color2CompleteAction|17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$b__17_2
+// Il2CppName: <StartTweens>b__17_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GradientImageViewStateTransition::$StartTweens$b__17_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>b__17_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::$StartTweens$b__17_3
+// Il2CppName: <StartTweens>b__17_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GradientImageViewStateTransition::$StartTweens$b__17_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "<StartTweens>b__17_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::get_transition
+// Il2CppName: get_transition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::get_transition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToNormalState
+// Il2CppName: TransitionToNormalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToHighlightedState
+// Il2CppName: TransitionToHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToPressedState
+// Il2CppName: TransitionToPressedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToDisabledState
+// Il2CppName: TransitionToDisabledState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToSelectedState
+// Il2CppName: TransitionToSelectedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState
+// Il2CppName: TransitionToSelectedAndHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::SetNormalState
+// Il2CppName: SetNormalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::SetHighlightedState
+// Il2CppName: SetHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::SetPressedState
+// Il2CppName: SetPressedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::SetDisabledState
+// Il2CppName: SetDisabledState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::SetSelectedState
+// Il2CppName: SetSelectedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::SetSelectedAndHighlightedState
+// Il2CppName: SetSelectedAndHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::SetSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GradientImageViewStateTransition::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientImageViewStateTransition::*)()>(&GradientImageViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GradientImageViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

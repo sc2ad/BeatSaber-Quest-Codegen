@@ -49,27 +49,27 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(Dropdown::$$c__DisplayClass62_0), 24 + sizeof(UnityEngine::UI::Dropdown*)> __UnityEngine_UI_Dropdown_$$c__DisplayClass62_0SizeCheck;
   static_assert(sizeof(Dropdown::$$c__DisplayClass62_0) == 0x20);
-  // Writing MetadataGetter for method: Dropdown::$$c__DisplayClass62_0::$Show$b__0
-  // Il2CppName: <Show>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::$$c__DisplayClass62_0::*)(bool)>(&Dropdown::$$c__DisplayClass62_0::$Show$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Dropdown::$$c__DisplayClass62_0*), "<Show>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Dropdown::$$c__DisplayClass62_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::$$c__DisplayClass62_0::*)()>(&Dropdown::$$c__DisplayClass62_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Dropdown::$$c__DisplayClass62_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::$$c__DisplayClass62_0::*)()>(&Dropdown::$$c__DisplayClass62_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Dropdown::$$c__DisplayClass62_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0*, "UnityEngine.UI", "Dropdown/<>c__DisplayClass62_0");
+// Writing MetadataGetter for method: Dropdown::$$c__DisplayClass62_0::$Show$b__0
+// Il2CppName: <Show>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::$$c__DisplayClass62_0::*)(bool)>(&Dropdown::$$c__DisplayClass62_0::$Show$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Dropdown::$$c__DisplayClass62_0*), "<Show>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Dropdown::$$c__DisplayClass62_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::$$c__DisplayClass62_0::*)()>(&Dropdown::$$c__DisplayClass62_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Dropdown::$$c__DisplayClass62_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::$$c__DisplayClass62_0::*)()>(&Dropdown::$$c__DisplayClass62_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Dropdown::$$c__DisplayClass62_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -118,99 +118,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NodePoseSyncStateNetSerializable), 92 + sizeof(float)> __GlobalNamespace_NodePoseSyncStateNetSerializableSizeCheck;
   static_assert(sizeof(NodePoseSyncStateNetSerializable) == 0x60);
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_pool
-  // Il2CppName: get_pool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* (*)()>(&NodePoseSyncStateNetSerializable::get_pool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_id
-  // Il2CppName: get_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::get_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::set_id
-  // Il2CppName: set_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(GlobalNamespace::SyncStateId)>(&NodePoseSyncStateNetSerializable::set_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "set_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_time
-  // Il2CppName: get_time
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::get_time)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::set_time
-  // Il2CppName: set_time
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(float)>(&NodePoseSyncStateNetSerializable::set_time)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_state
-  // Il2CppName: get_state
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::get_state)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::set_state
-  // Il2CppName: set_state
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(GlobalNamespace::NodePoseSyncState)>(&NodePoseSyncStateNetSerializable::set_state)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState>()});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&NodePoseSyncStateNetSerializable::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&NodePoseSyncStateNetSerializable::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateNetSerializable*, "", "NodePoseSyncStateNetSerializable");
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_pool
+// Il2CppName: get_pool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* (*)()>(&NodePoseSyncStateNetSerializable::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_id
+// Il2CppName: get_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::set_id
+// Il2CppName: set_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(GlobalNamespace::SyncStateId)>(&NodePoseSyncStateNetSerializable::set_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "set_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_time
+// Il2CppName: get_time
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::get_time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::set_time
+// Il2CppName: set_time
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(float)>(&NodePoseSyncStateNetSerializable::set_time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::get_state
+// Il2CppName: get_state
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::get_state)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::set_state
+// Il2CppName: set_state
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(GlobalNamespace::NodePoseSyncState)>(&NodePoseSyncStateNetSerializable::set_state)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState>()});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&NodePoseSyncStateNetSerializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&NodePoseSyncStateNetSerializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NodePoseSyncStateNetSerializable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateNetSerializable::*)()>(&NodePoseSyncStateNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

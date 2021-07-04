@@ -83,27 +83,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRSkeletonRenderer::BoneVisualization), 56 + sizeof(UnityEngine::Material*)> __GlobalNamespace_OVRSkeletonRenderer_BoneVisualizationSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer::BoneVisualization) == 0x40);
-  // Writing MetadataGetter for method: OVRSkeletonRenderer::BoneVisualization::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::BoneVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, UnityEngine::Transform*, UnityEngine::Transform*)>(&OVRSkeletonRenderer::BoneVisualization::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::BoneVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::BoneVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, UnityEngine::Transform*, UnityEngine::Transform*)>(&OVRSkeletonRenderer::BoneVisualization::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::BoneVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRSkeletonRenderer::BoneVisualization::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::BoneVisualization::*)(float, bool, bool, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior)>(&OVRSkeletonRenderer::BoneVisualization::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::BoneVisualization*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*, "", "OVRSkeletonRenderer/BoneVisualization");
+// Writing MetadataGetter for method: OVRSkeletonRenderer::BoneVisualization::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::BoneVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, UnityEngine::Transform*, UnityEngine::Transform*)>(&OVRSkeletonRenderer::BoneVisualization::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::BoneVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::BoneVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, UnityEngine::Transform*, UnityEngine::Transform*)>(&OVRSkeletonRenderer::BoneVisualization::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::BoneVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRSkeletonRenderer::BoneVisualization::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::BoneVisualization::*)(float, bool, bool, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior)>(&OVRSkeletonRenderer::BoneVisualization::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::BoneVisualization*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior>()});
+  }
+};

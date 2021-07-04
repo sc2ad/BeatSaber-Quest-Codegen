@@ -65,54 +65,54 @@ namespace UnityEngine::U2D {
     static void _cctor();
   }; // UnityEngine.U2D.SpriteAtlasManager
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SpriteAtlasManager::RequestAtlas
-  // Il2CppName: RequestAtlas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&SpriteAtlasManager::RequestAtlas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "RequestAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpriteAtlasManager::add_atlasRegistered
-  // Il2CppName: add_atlasRegistered
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::U2D::SpriteAtlas*>*)>(&SpriteAtlasManager::add_atlasRegistered)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "add_atlasRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpriteAtlasManager::remove_atlasRegistered
-  // Il2CppName: remove_atlasRegistered
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::U2D::SpriteAtlas*>*)>(&SpriteAtlasManager::remove_atlasRegistered)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "remove_atlasRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpriteAtlasManager::PostRegisteredAtlas
-  // Il2CppName: PostRegisteredAtlas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::U2D::SpriteAtlas*)>(&SpriteAtlasManager::PostRegisteredAtlas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "PostRegisteredAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::U2D::SpriteAtlas*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpriteAtlasManager::Register
-  // Il2CppName: Register
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::U2D::SpriteAtlas*)>(&SpriteAtlasManager::Register)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::U2D::SpriteAtlas*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpriteAtlasManager::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SpriteAtlasManager::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlasManager*, "UnityEngine.U2D", "SpriteAtlasManager");
+// Writing MetadataGetter for method: SpriteAtlasManager::RequestAtlas
+// Il2CppName: RequestAtlas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&SpriteAtlasManager::RequestAtlas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "RequestAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SpriteAtlasManager::add_atlasRegistered
+// Il2CppName: add_atlasRegistered
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::U2D::SpriteAtlas*>*)>(&SpriteAtlasManager::add_atlasRegistered)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "add_atlasRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SpriteAtlasManager::remove_atlasRegistered
+// Il2CppName: remove_atlasRegistered
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::U2D::SpriteAtlas*>*)>(&SpriteAtlasManager::remove_atlasRegistered)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "remove_atlasRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SpriteAtlasManager::PostRegisteredAtlas
+// Il2CppName: PostRegisteredAtlas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::U2D::SpriteAtlas*)>(&SpriteAtlasManager::PostRegisteredAtlas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "PostRegisteredAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::U2D::SpriteAtlas*>()});
+  }
+};
+// Writing MetadataGetter for method: SpriteAtlasManager::Register
+// Il2CppName: Register
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::U2D::SpriteAtlas*)>(&SpriteAtlasManager::Register)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::U2D::SpriteAtlas*>()});
+  }
+};
+// Writing MetadataGetter for method: SpriteAtlasManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SpriteAtlasManager::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpriteAtlasManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -76,27 +76,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0), 40 + sizeof(Zenject::InjectContext*)> __Zenject_ScriptableObjectInstanceProvider_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0) == 0x30);
-  // Writing MetadataGetter for method: ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::$GetAllInstancesWithInjectSplit$b__0
-  // Il2CppName: <GetAllInstancesWithInjectSplit>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::*)()>(&ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::$GetAllInstancesWithInjectSplit$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*), "<GetAllInstancesWithInjectSplit>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::*)()>(&ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::*)()>(&ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*, "Zenject", "ScriptableObjectInstanceProvider/<>c__DisplayClass13_0");
+// Writing MetadataGetter for method: ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::$GetAllInstancesWithInjectSplit$b__0
+// Il2CppName: <GetAllInstancesWithInjectSplit>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::*)()>(&ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::$GetAllInstancesWithInjectSplit$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*), "<GetAllInstancesWithInjectSplit>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::*)()>(&ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::*)()>(&ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -91,75 +91,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayersSpecificSettingsAtGameStartModel), 32 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_PlayersSpecificSettingsAtGameStartModelSizeCheck;
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel) == 0x28);
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStart
-  // Il2CppName: get_playersAtGameStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* (PlayersSpecificSettingsAtGameStartModel::*)()>(&PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "get_playersAtGameStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::get_localPlayerSpecificSettings
-  // Il2CppName: get_localPlayerSpecificSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsNetSerializable* (PlayersSpecificSettingsAtGameStartModel::*)()>(&PlayersSpecificSettingsAtGameStartModel::get_localPlayerSpecificSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "get_localPlayerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::set_localPlayerSpecificSettings
-  // Il2CppName: set_localPlayerSpecificSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::set_localPlayerSpecificSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "set_localPlayerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStartNetSerializable
-  // Il2CppName: get_playersAtGameStartNetSerializable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* (PlayersSpecificSettingsAtGameStartModel::*)()>(&PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStartNetSerializable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "get_playersAtGameStartNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::set_playersAtGameStartNetSerializable
-  // Il2CppName: set_playersAtGameStartNetSerializable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::set_playersAtGameStartNetSerializable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "set_playersAtGameStartNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::GetPlayerSpecificSettingsForUserId
-  // Il2CppName: GetPlayerSpecificSettingsForUserId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsNetSerializable* (PlayersSpecificSettingsAtGameStartModel::*)(::Il2CppString*)>(&PlayersSpecificSettingsAtGameStartModel::GetPlayerSpecificSettingsForUserId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "GetPlayerSpecificSettingsForUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::SaveFromNetSerializable
-  // Il2CppName: SaveFromNetSerializable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::SaveFromNetSerializable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "SaveFromNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*, "", "PlayersSpecificSettingsAtGameStartModel");
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStart
+// Il2CppName: get_playersAtGameStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* (PlayersSpecificSettingsAtGameStartModel::*)()>(&PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "get_playersAtGameStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::get_localPlayerSpecificSettings
+// Il2CppName: get_localPlayerSpecificSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsNetSerializable* (PlayersSpecificSettingsAtGameStartModel::*)()>(&PlayersSpecificSettingsAtGameStartModel::get_localPlayerSpecificSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "get_localPlayerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::set_localPlayerSpecificSettings
+// Il2CppName: set_localPlayerSpecificSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::set_localPlayerSpecificSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "set_localPlayerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStartNetSerializable
+// Il2CppName: get_playersAtGameStartNetSerializable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* (PlayersSpecificSettingsAtGameStartModel::*)()>(&PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStartNetSerializable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "get_playersAtGameStartNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::set_playersAtGameStartNetSerializable
+// Il2CppName: set_playersAtGameStartNetSerializable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::set_playersAtGameStartNetSerializable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "set_playersAtGameStartNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::GetPlayerSpecificSettingsForUserId
+// Il2CppName: GetPlayerSpecificSettingsForUserId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsNetSerializable* (PlayersSpecificSettingsAtGameStartModel::*)(::Il2CppString*)>(&PlayersSpecificSettingsAtGameStartModel::GetPlayerSpecificSettingsForUserId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "GetPlayerSpecificSettingsForUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::SaveFromNetSerializable
+// Il2CppName: SaveFromNetSerializable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::*)(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(&PlayersSpecificSettingsAtGameStartModel::SaveFromNetSerializable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel*), "SaveFromNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>()});
+  }
+};

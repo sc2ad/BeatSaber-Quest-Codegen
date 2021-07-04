@@ -79,67 +79,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VisibilityChecker), 32 + sizeof(System::Action*)> __GlobalNamespace_VisibilityCheckerSizeCheck;
   static_assert(sizeof(VisibilityChecker) == 0x28);
-  // Writing MetadataGetter for method: VisibilityChecker::add_OnBecameVisibleEvent
-  // Il2CppName: add_OnBecameVisibleEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::add_OnBecameVisibleEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "add_OnBecameVisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VisibilityChecker::remove_OnBecameVisibleEvent
-  // Il2CppName: remove_OnBecameVisibleEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::remove_OnBecameVisibleEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "remove_OnBecameVisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VisibilityChecker::add_OnBecameInvisibleEvent
-  // Il2CppName: add_OnBecameInvisibleEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::add_OnBecameInvisibleEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "add_OnBecameInvisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VisibilityChecker::remove_OnBecameInvisibleEvent
-  // Il2CppName: remove_OnBecameInvisibleEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::remove_OnBecameInvisibleEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "remove_OnBecameInvisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VisibilityChecker::OnBecameVisible
-  // Il2CppName: OnBecameVisible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::OnBecameVisible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VisibilityChecker::OnBecameInvisible
-  // Il2CppName: OnBecameInvisible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::OnBecameInvisible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VisibilityChecker::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisibilityChecker*, "", "VisibilityChecker");
+// Writing MetadataGetter for method: VisibilityChecker::add_OnBecameVisibleEvent
+// Il2CppName: add_OnBecameVisibleEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::add_OnBecameVisibleEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "add_OnBecameVisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VisibilityChecker::remove_OnBecameVisibleEvent
+// Il2CppName: remove_OnBecameVisibleEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::remove_OnBecameVisibleEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "remove_OnBecameVisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VisibilityChecker::add_OnBecameInvisibleEvent
+// Il2CppName: add_OnBecameInvisibleEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::add_OnBecameInvisibleEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "add_OnBecameInvisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VisibilityChecker::remove_OnBecameInvisibleEvent
+// Il2CppName: remove_OnBecameInvisibleEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)(System::Action*)>(&VisibilityChecker::remove_OnBecameInvisibleEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "remove_OnBecameInvisibleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VisibilityChecker::OnBecameVisible
+// Il2CppName: OnBecameVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::OnBecameVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VisibilityChecker::OnBecameInvisible
+// Il2CppName: OnBecameInvisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::OnBecameInvisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VisibilityChecker::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisibilityChecker::*)()>(&VisibilityChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VisibilityChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

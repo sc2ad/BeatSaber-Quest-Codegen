@@ -84,43 +84,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlaylistSO), 40 + sizeof(GlobalNamespace::BeatmapLevelCollectionSO*)> __GlobalNamespace_PlaylistSOSizeCheck;
   static_assert(sizeof(PlaylistSO) == 0x30);
-  // Writing MetadataGetter for method: PlaylistSO::get_collectionName
-  // Il2CppName: get_collectionName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlaylistSO::*)()>(&PlaylistSO::get_collectionName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaylistSO::get_coverImage
-  // Il2CppName: get_coverImage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (PlaylistSO::*)()>(&PlaylistSO::get_coverImage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), "get_coverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaylistSO::get_beatmapLevelCollection
-  // Il2CppName: get_beatmapLevelCollection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelCollection* (PlaylistSO::*)()>(&PlaylistSO::get_beatmapLevelCollection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), "get_beatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaylistSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaylistSO::*)()>(&PlaylistSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaylistSO::*)()>(&PlaylistSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlaylistSO*, "", "PlaylistSO");
+// Writing MetadataGetter for method: PlaylistSO::get_collectionName
+// Il2CppName: get_collectionName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlaylistSO::*)()>(&PlaylistSO::get_collectionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaylistSO::get_coverImage
+// Il2CppName: get_coverImage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (PlaylistSO::*)()>(&PlaylistSO::get_coverImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), "get_coverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaylistSO::get_beatmapLevelCollection
+// Il2CppName: get_beatmapLevelCollection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelCollection* (PlaylistSO::*)()>(&PlaylistSO::get_beatmapLevelCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), "get_beatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaylistSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaylistSO::*)()>(&PlaylistSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaylistSO::*)()>(&PlaylistSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaylistSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

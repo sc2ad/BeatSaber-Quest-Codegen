@@ -113,115 +113,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardPlayerInfo), 64 + sizeof(bool)> __GlobalNamespace_LeaderboardPlayerInfoSizeCheck;
   static_assert(sizeof(LeaderboardPlayerInfo) == 0x41);
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerId
-  // Il2CppName: get_playerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerId
-  // Il2CppName: set_playerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerName
-  // Il2CppName: get_playerName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerName
-  // Il2CppName: set_playerName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerKey
-  // Il2CppName: get_playerKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerKey
-  // Il2CppName: set_playerKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::get_authType
-  // Il2CppName: get_authType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_authType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_authType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::set_authType
-  // Il2CppName: set_authType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_authType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_authType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerFriends
-  // Il2CppName: get_playerFriends
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerFriends)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerFriends
-  // Il2CppName: set_playerFriends
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerFriends)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::get_succeeded
-  // Il2CppName: get_succeeded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_succeeded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_succeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::set_succeeded
-  // Il2CppName: set_succeeded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(bool)>(&LeaderboardPlayerInfo::set_succeeded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_succeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaderboardPlayerInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(bool, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&LeaderboardPlayerInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(bool, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&LeaderboardPlayerInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardPlayerInfo*, "", "LeaderboardPlayerInfo");
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerId
+// Il2CppName: get_playerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerId
+// Il2CppName: set_playerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerName
+// Il2CppName: get_playerName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerName
+// Il2CppName: set_playerName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerKey
+// Il2CppName: get_playerKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerKey
+// Il2CppName: set_playerKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::get_authType
+// Il2CppName: get_authType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_authType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_authType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::set_authType
+// Il2CppName: set_authType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_authType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_authType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::get_playerFriends
+// Il2CppName: get_playerFriends
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_playerFriends)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_playerFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::set_playerFriends
+// Il2CppName: set_playerFriends
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(::Il2CppString*)>(&LeaderboardPlayerInfo::set_playerFriends)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_playerFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::get_succeeded
+// Il2CppName: get_succeeded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LeaderboardPlayerInfo::*)()>(&LeaderboardPlayerInfo::get_succeeded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "get_succeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::set_succeeded
+// Il2CppName: set_succeeded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(bool)>(&LeaderboardPlayerInfo::set_succeeded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), "set_succeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LeaderboardPlayerInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(bool, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&LeaderboardPlayerInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardPlayerInfo::*)(bool, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&LeaderboardPlayerInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaderboardPlayerInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

@@ -106,51 +106,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PCArcadeAppInit), 96 + sizeof(GlobalNamespace::VRsenalLogger*)> __GlobalNamespace_PCArcadeAppInitSizeCheck;
   static_assert(sizeof(PCArcadeAppInit) == 0x68);
-  // Writing MetadataGetter for method: PCArcadeAppInit::AppStartAndMultiSceneEditorSetup
-  // Il2CppName: AppStartAndMultiSceneEditorSetup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::AppStartAndMultiSceneEditorSetup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PCArcadeAppInit::RepeatableSetup
-  // Il2CppName: RepeatableSetup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::RepeatableSetup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PCArcadeAppInit::TransitionToNextScene
-  // Il2CppName: TransitionToNextScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::TransitionToNextScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PCArcadeAppInit::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PCArcadeAppInit::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCArcadeAppInit*, "", "PCArcadeAppInit");
+// Writing MetadataGetter for method: PCArcadeAppInit::AppStartAndMultiSceneEditorSetup
+// Il2CppName: AppStartAndMultiSceneEditorSetup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::AppStartAndMultiSceneEditorSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PCArcadeAppInit::RepeatableSetup
+// Il2CppName: RepeatableSetup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::RepeatableSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PCArcadeAppInit::TransitionToNextScene
+// Il2CppName: TransitionToNextScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::TransitionToNextScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PCArcadeAppInit::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PCArcadeAppInit::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

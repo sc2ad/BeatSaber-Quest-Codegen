@@ -100,75 +100,75 @@ namespace Zenject::Internal {
     }
   }; // Zenject.Internal.ReflectionTypeAnalyzer/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ReflectionTypeAnalyzer::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$GetPropertyInfos$b__5_0
-  // Il2CppName: <GetPropertyInfos>b__5_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::PropertyInfo*)>(&ReflectionTypeAnalyzer::$$c::$GetPropertyInfos$b__5_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<GetPropertyInfos>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::PropertyInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$GetFieldInfos$b__6_0
-  // Il2CppName: <GetFieldInfos>b__6_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::FieldInfo*)>(&ReflectionTypeAnalyzer::$$c::$GetFieldInfos$b__6_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<GetFieldInfos>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$GetMethodInfos$b__7_0
-  // Il2CppName: <GetMethodInfos>b__7_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::MethodInfo*)>(&ReflectionTypeAnalyzer::$$c::$GetMethodInfos$b__7_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<GetMethodInfos>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_0
-  // Il2CppName: <TryGetInjectConstructor>b__11_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::ConstructorInfo*)>(&ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<TryGetInjectConstructor>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_1
-  // Il2CppName: <TryGetInjectConstructor>b__11_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::ConstructorInfo*)>(&ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<TryGetInjectConstructor>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_2
-  // Il2CppName: <TryGetInjectConstructor>b__11_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::ConstructorInfo*)>(&ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<TryGetInjectConstructor>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c::*)()>(&ReflectionTypeAnalyzer::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c::*)()>(&ReflectionTypeAnalyzer::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c");
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ReflectionTypeAnalyzer::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$GetPropertyInfos$b__5_0
+// Il2CppName: <GetPropertyInfos>b__5_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::PropertyInfo*)>(&ReflectionTypeAnalyzer::$$c::$GetPropertyInfos$b__5_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<GetPropertyInfos>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::PropertyInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$GetFieldInfos$b__6_0
+// Il2CppName: <GetFieldInfos>b__6_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::FieldInfo*)>(&ReflectionTypeAnalyzer::$$c::$GetFieldInfos$b__6_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<GetFieldInfos>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$GetMethodInfos$b__7_0
+// Il2CppName: <GetMethodInfos>b__7_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::MethodInfo*)>(&ReflectionTypeAnalyzer::$$c::$GetMethodInfos$b__7_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<GetMethodInfos>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_0
+// Il2CppName: <TryGetInjectConstructor>b__11_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::ConstructorInfo*)>(&ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<TryGetInjectConstructor>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_1
+// Il2CppName: <TryGetInjectConstructor>b__11_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::ConstructorInfo*)>(&ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<TryGetInjectConstructor>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_2
+// Il2CppName: <TryGetInjectConstructor>b__11_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReflectionTypeAnalyzer::$$c::*)(System::Reflection::ConstructorInfo*)>(&ReflectionTypeAnalyzer::$$c::$TryGetInjectConstructor$b__11_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), "<TryGetInjectConstructor>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c::*)()>(&ReflectionTypeAnalyzer::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c::*)()>(&ReflectionTypeAnalyzer::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

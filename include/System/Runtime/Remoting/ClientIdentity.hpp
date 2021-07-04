@@ -73,51 +73,51 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
   static check_size<sizeof(ClientIdentity), 72 + sizeof(System::WeakReference*)> __System_Runtime_Remoting_ClientIdentitySizeCheck;
   static_assert(sizeof(ClientIdentity) == 0x50);
-  // Writing MetadataGetter for method: ClientIdentity::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientIdentity::*)(::Il2CppString*, System::Runtime::Remoting::ObjRef*)>(&ClientIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientIdentity::*)(::Il2CppString*, System::Runtime::Remoting::ObjRef*)>(&ClientIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientIdentity::get_ClientProxy
-  // Il2CppName: get_ClientProxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::MarshalByRefObject* (ClientIdentity::*)()>(&ClientIdentity::get_ClientProxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "get_ClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientIdentity::set_ClientProxy
-  // Il2CppName: set_ClientProxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientIdentity::*)(System::MarshalByRefObject*)>(&ClientIdentity::set_ClientProxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "set_ClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientIdentity::get_TargetUri
-  // Il2CppName: get_TargetUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ClientIdentity::*)()>(&ClientIdentity::get_TargetUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "get_TargetUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientIdentity::CreateObjRef
-  // Il2CppName: CreateObjRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (ClientIdentity::*)(System::Type*)>(&ClientIdentity::CreateObjRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientIdentity*, "System.Runtime.Remoting", "ClientIdentity");
+// Writing MetadataGetter for method: ClientIdentity::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientIdentity::*)(::Il2CppString*, System::Runtime::Remoting::ObjRef*)>(&ClientIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientIdentity::*)(::Il2CppString*, System::Runtime::Remoting::ObjRef*)>(&ClientIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientIdentity::get_ClientProxy
+// Il2CppName: get_ClientProxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::MarshalByRefObject* (ClientIdentity::*)()>(&ClientIdentity::get_ClientProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "get_ClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientIdentity::set_ClientProxy
+// Il2CppName: set_ClientProxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientIdentity::*)(System::MarshalByRefObject*)>(&ClientIdentity::set_ClientProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "set_ClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientIdentity::get_TargetUri
+// Il2CppName: get_TargetUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ClientIdentity::*)()>(&ClientIdentity::get_TargetUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "get_TargetUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientIdentity::CreateObjRef
+// Il2CppName: CreateObjRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (ClientIdentity::*)(System::Type*)>(&ClientIdentity::CreateObjRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientIdentity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

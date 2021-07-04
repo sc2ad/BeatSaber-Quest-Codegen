@@ -152,22 +152,22 @@ namespace MasterServer {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.MessageHandler/<SendMultipartMessageWithRetryAsync>d__100
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::*)()>(&MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::$SendMultipartMessageWithRetryAsync$d__100), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::$SendMultipartMessageWithRetryAsync$d__100), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::$SendMultipartMessageWithRetryAsync$d__100, "MasterServer", "MessageHandler/<SendMultipartMessageWithRetryAsync>d__100");
+// Writing MetadataGetter for method: MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::*)()>(&MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::$SendMultipartMessageWithRetryAsync$d__100), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::$SendMultipartMessageWithRetryAsync$d__100), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

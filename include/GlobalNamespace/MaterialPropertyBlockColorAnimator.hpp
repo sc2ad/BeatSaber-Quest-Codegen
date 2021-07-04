@@ -61,43 +61,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockColorAnimator), 48 + sizeof(UnityEngine::Color)> __GlobalNamespace_MaterialPropertyBlockColorAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockColorAnimator) == 0x40);
-  // Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::get_color
-  // Il2CppName: get_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::get_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::set_color
-  // Il2CppName: set_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)(UnityEngine::Color)>(&MaterialPropertyBlockColorAnimator::set_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::SetProperty
-  // Il2CppName: SetProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::SetProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorAnimator*, "", "MaterialPropertyBlockColorAnimator");
+// Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::get_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)(UnityEngine::Color)>(&MaterialPropertyBlockColorAnimator::set_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::SetProperty
+// Il2CppName: SetProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::SetProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MaterialPropertyBlockColorAnimator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockColorAnimator::*)()>(&MaterialPropertyBlockColorAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockColorAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

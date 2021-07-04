@@ -62,67 +62,67 @@ namespace System::Security::Cryptography {
     ::Il2CppString* ToXmlString(bool includePrivateParameters);
   }; // System.Security.Cryptography.DSA
   #pragma pack(pop)
-  // Writing MetadataGetter for method: DSA::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSA* (*)()>(&DSA::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DSA::VerifySignature
-  // Il2CppName: VerifySignature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSA::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&DSA::VerifySignature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSA::ExportParameters
-  // Il2CppName: ExportParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (DSA::*)(bool)>(&DSA::ExportParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSA::ImportParameters
-  // Il2CppName: ImportParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)(System::Security::Cryptography::DSAParameters)>(&DSA::ImportParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::DSAParameters>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSA::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)()>(&DSA::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)()>(&DSA::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DSA::FromXmlString
-  // Il2CppName: FromXmlString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)(::Il2CppString*)>(&DSA::FromXmlString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), "FromXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DSA::ToXmlString
-  // Il2CppName: ToXmlString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DSA::*)(bool)>(&DSA::ToXmlString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DSA*), "ToXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSA*, "System.Security.Cryptography", "DSA");
+// Writing MetadataGetter for method: DSA::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSA* (*)()>(&DSA::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DSA::VerifySignature
+// Il2CppName: VerifySignature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSA::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&DSA::VerifySignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: DSA::ExportParameters
+// Il2CppName: ExportParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (DSA::*)(bool)>(&DSA::ExportParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DSA::ImportParameters
+// Il2CppName: ImportParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)(System::Security::Cryptography::DSAParameters)>(&DSA::ImportParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::DSAParameters>()});
+  }
+};
+// Writing MetadataGetter for method: DSA::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)()>(&DSA::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)()>(&DSA::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DSA::FromXmlString
+// Il2CppName: FromXmlString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSA::*)(::Il2CppString*)>(&DSA::FromXmlString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), "FromXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: DSA::ToXmlString
+// Il2CppName: ToXmlString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DSA::*)(bool)>(&DSA::ToXmlString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DSA*), "ToXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

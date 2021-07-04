@@ -78,43 +78,43 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   #pragma pack(pop)
   static check_size<sizeof(WNafUtilities::PrecomputeCallback), 28 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_WNafUtilities_PrecomputeCallbackSizeCheck;
   static_assert(sizeof(WNafUtilities::PrecomputeCallback) == 0x1D);
-  // Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, int, bool)>(&WNafUtilities::PrecomputeCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, int, bool)>(&WNafUtilities::PrecomputeCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::Precompute
-  // Il2CppName: Precompute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&WNafUtilities::PrecomputeCallback::Precompute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::CheckExisting
-  // Il2CppName: CheckExisting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, int, int, bool)>(&WNafUtilities::PrecomputeCallback::CheckExisting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), "CheckExisting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::CheckTable
-  // Il2CppName: CheckTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WNafUtilities::PrecomputeCallback::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, int)>(&WNafUtilities::PrecomputeCallback::CheckTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), "CheckTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/PrecomputeCallback");
+// Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, int, bool)>(&WNafUtilities::PrecomputeCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, int, bool)>(&WNafUtilities::PrecomputeCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::Precompute
+// Il2CppName: Precompute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&WNafUtilities::PrecomputeCallback::Precompute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::CheckExisting
+// Il2CppName: CheckExisting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WNafUtilities::PrecomputeCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, int, int, bool)>(&WNafUtilities::PrecomputeCallback::CheckExisting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), "CheckExisting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: WNafUtilities::PrecomputeCallback::CheckTable
+// Il2CppName: CheckTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WNafUtilities::PrecomputeCallback::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, int)>(&WNafUtilities::PrecomputeCallback::CheckTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WNafUtilities::PrecomputeCallback*), "CheckTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

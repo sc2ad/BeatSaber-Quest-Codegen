@@ -48,27 +48,27 @@ namespace Zenject {
     }
   }; // Zenject.ConcreteIdBinderNonGeneric
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ConcreteIdBinderNonGeneric::WithId
-  // Il2CppName: WithId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (ConcreteIdBinderNonGeneric::*)(::Il2CppObject*)>(&ConcreteIdBinderNonGeneric::WithId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConcreteIdBinderNonGeneric*), "WithId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConcreteIdBinderNonGeneric::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConcreteIdBinderNonGeneric::*)(Zenject::DiContainer*, Zenject::BindInfo*, Zenject::BindStatement*)>(&ConcreteIdBinderNonGeneric::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConcreteIdBinderNonGeneric*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConcreteIdBinderNonGeneric::*)(Zenject::DiContainer*, Zenject::BindInfo*, Zenject::BindStatement*)>(&ConcreteIdBinderNonGeneric::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConcreteIdBinderNonGeneric*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "ConcreteIdBinderNonGeneric");
+// Writing MetadataGetter for method: ConcreteIdBinderNonGeneric::WithId
+// Il2CppName: WithId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (ConcreteIdBinderNonGeneric::*)(::Il2CppObject*)>(&ConcreteIdBinderNonGeneric::WithId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConcreteIdBinderNonGeneric*), "WithId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ConcreteIdBinderNonGeneric::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConcreteIdBinderNonGeneric::*)(Zenject::DiContainer*, Zenject::BindInfo*, Zenject::BindStatement*)>(&ConcreteIdBinderNonGeneric::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConcreteIdBinderNonGeneric*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConcreteIdBinderNonGeneric::*)(Zenject::DiContainer*, Zenject::BindInfo*, Zenject::BindStatement*)>(&ConcreteIdBinderNonGeneric::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConcreteIdBinderNonGeneric*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
+  }
+};

@@ -245,395 +245,395 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
   static check_size<sizeof(CVRSystem), 16 + sizeof(OVR::OpenVR::IVRSystem)> __OVR_OpenVR_CVRSystemSizeCheck;
   static_assert(sizeof(CVRSystem) == 0x188);
-  // Writing MetadataGetter for method: CVRSystem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(System::IntPtr)>(&CVRSystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(System::IntPtr)>(&CVRSystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetRecommendedRenderTargetSize
-  // Il2CppName: GetRecommendedRenderTargetSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(uint&, uint&)>(&CVRSystem::GetRecommendedRenderTargetSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetRecommendedRenderTargetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetProjectionMatrix
-  // Il2CppName: GetProjectionMatrix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix44_t (CVRSystem::*)(OVR::OpenVR::EVREye, float, float)>(&CVRSystem::GetProjectionMatrix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetProjectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetProjectionRaw
-  // Il2CppName: GetProjectionRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(OVR::OpenVR::EVREye, float&, float&, float&, float&)>(&CVRSystem::GetProjectionRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetProjectionRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::ComputeDistortion
-  // Il2CppName: ComputeDistortion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::EVREye, float, float, OVR::OpenVR::DistortionCoordinates_t&)>(&CVRSystem::ComputeDistortion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ComputeDistortion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::DistortionCoordinates_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetEyeToHeadTransform
-  // Il2CppName: GetEyeToHeadTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)(OVR::OpenVR::EVREye)>(&CVRSystem::GetEyeToHeadTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetEyeToHeadTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetTimeSinceLastVsync
-  // Il2CppName: GetTimeSinceLastVsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(float&, uint64_t&)>(&CVRSystem::GetTimeSinceLastVsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTimeSinceLastVsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetD3D9AdapterIndex
-  // Il2CppName: GetD3D9AdapterIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CVRSystem::*)()>(&CVRSystem::GetD3D9AdapterIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetD3D9AdapterIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetDXGIOutputInfo
-  // Il2CppName: GetDXGIOutputInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(int&)>(&CVRSystem::GetDXGIOutputInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetOutputDevice
-  // Il2CppName: GetOutputDevice
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(uint64_t&, OVR::OpenVR::ETextureType, System::IntPtr)>(&CVRSystem::GetOutputDevice)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetOutputDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETextureType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::IsDisplayOnDesktop
-  // Il2CppName: IsDisplayOnDesktop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::IsDisplayOnDesktop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsDisplayOnDesktop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::SetDisplayVisibility
-  // Il2CppName: SetDisplayVisibility
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(bool)>(&CVRSystem::SetDisplayVisibility)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "SetDisplayVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetDeviceToAbsoluteTrackingPose
-  // Il2CppName: GetDeviceToAbsoluteTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ::Array<OVR::OpenVR::TrackedDevicePose_t>*)>(&CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetDeviceToAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::TrackedDevicePose_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::ResetSeatedZeroPose
-  // Il2CppName: ResetSeatedZeroPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)()>(&CVRSystem::ResetSeatedZeroPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ResetSeatedZeroPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose
-  // Il2CppName: GetSeatedZeroPoseToStandingAbsoluteTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)()>(&CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose
-  // Il2CppName: GetRawZeroPoseToStandingAbsoluteTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)()>(&CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetRawZeroPoseToStandingAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetSortedTrackedDeviceIndicesOfClass
-  // Il2CppName: GetSortedTrackedDeviceIndicesOfClass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*, uint)>(&CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetSortedTrackedDeviceIndicesOfClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceClass>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetTrackedDeviceActivityLevel
-  // Il2CppName: GetTrackedDeviceActivityLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EDeviceActivityLevel (CVRSystem::*)(uint)>(&CVRSystem::GetTrackedDeviceActivityLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTrackedDeviceActivityLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::ApplyTransform
-  // Il2CppName: ApplyTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(OVR::OpenVR::TrackedDevicePose_t&, OVR::OpenVR::TrackedDevicePose_t&, OVR::OpenVR::HmdMatrix34_t&)>(&CVRSystem::ApplyTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ApplyTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetTrackedDeviceIndexForControllerRole
-  // Il2CppName: GetTrackedDeviceIndexForControllerRole
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(OVR::OpenVR::ETrackedControllerRole)>(&CVRSystem::GetTrackedDeviceIndexForControllerRole)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTrackedDeviceIndexForControllerRole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedControllerRole>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetControllerRoleForTrackedDeviceIndex
-  // Il2CppName: GetControllerRoleForTrackedDeviceIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ETrackedControllerRole (CVRSystem::*)(uint)>(&CVRSystem::GetControllerRoleForTrackedDeviceIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerRoleForTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetTrackedDeviceClass
-  // Il2CppName: GetTrackedDeviceClass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ETrackedDeviceClass (CVRSystem::*)(uint)>(&CVRSystem::GetTrackedDeviceClass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTrackedDeviceClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::IsTrackedDeviceConnected
-  // Il2CppName: IsTrackedDeviceConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(uint)>(&CVRSystem::IsTrackedDeviceConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsTrackedDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetBoolTrackedDeviceProperty
-  // Il2CppName: GetBoolTrackedDeviceProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetBoolTrackedDeviceProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetBoolTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetFloatTrackedDeviceProperty
-  // Il2CppName: GetFloatTrackedDeviceProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetFloatTrackedDeviceProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetFloatTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetInt32TrackedDeviceProperty
-  // Il2CppName: GetInt32TrackedDeviceProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetInt32TrackedDeviceProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetInt32TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetUint64TrackedDeviceProperty
-  // Il2CppName: GetUint64TrackedDeviceProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetUint64TrackedDeviceProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetUint64TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetMatrix34TrackedDeviceProperty
-  // Il2CppName: GetMatrix34TrackedDeviceProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetMatrix34TrackedDeviceProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetMatrix34TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetArrayTrackedDeviceProperty
-  // Il2CppName: GetArrayTrackedDeviceProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, uint, System::IntPtr, uint, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetArrayTrackedDeviceProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetArrayTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetStringTrackedDeviceProperty
-  // Il2CppName: GetStringTrackedDeviceProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, System::Text::StringBuilder*, uint, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetStringTrackedDeviceProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetStringTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetPropErrorNameFromEnum
-  // Il2CppName: GetPropErrorNameFromEnum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::ETrackedPropertyError)>(&CVRSystem::GetPropErrorNameFromEnum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetPropErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::PollNextEvent
-  // Il2CppName: PollNextEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::VREvent_t&, uint)>(&CVRSystem::PollNextEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "PollNextEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::PollNextEventWithPose
-  // Il2CppName: PollNextEventWithPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::VREvent_t&, uint, OVR::OpenVR::TrackedDevicePose_t&)>(&CVRSystem::PollNextEventWithPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "PollNextEventWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetEventTypeNameFromEnum
-  // Il2CppName: GetEventTypeNameFromEnum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::EVREventType)>(&CVRSystem::GetEventTypeNameFromEnum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetEventTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREventType>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetHiddenAreaMesh
-  // Il2CppName: GetHiddenAreaMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HiddenAreaMesh_t (CVRSystem::*)(OVR::OpenVR::EVREye, OVR::OpenVR::EHiddenAreaMeshType)>(&CVRSystem::GetHiddenAreaMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetHiddenAreaMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EHiddenAreaMeshType>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetControllerState
-  // Il2CppName: GetControllerState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(uint, OVR::OpenVR::VRControllerState_t&, uint)>(&CVRSystem::GetControllerState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetControllerStateWithPose
-  // Il2CppName: GetControllerStateWithPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, uint, OVR::OpenVR::VRControllerState_t&, uint, OVR::OpenVR::TrackedDevicePose_t&)>(&CVRSystem::GetControllerStateWithPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerStateWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::TriggerHapticPulse
-  // Il2CppName: TriggerHapticPulse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(uint, uint, uint16_t)>(&CVRSystem::TriggerHapticPulse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetButtonIdNameFromEnum
-  // Il2CppName: GetButtonIdNameFromEnum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::EVRButtonId)>(&CVRSystem::GetButtonIdNameFromEnum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetButtonIdNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::GetControllerAxisTypeNameFromEnum
-  // Il2CppName: GetControllerAxisTypeNameFromEnum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::EVRControllerAxisType)>(&CVRSystem::GetControllerAxisTypeNameFromEnum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerAxisTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRControllerAxisType>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::IsInputAvailable
-  // Il2CppName: IsInputAvailable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::IsInputAvailable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsInputAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::IsSteamVRDrawingControllers
-  // Il2CppName: IsSteamVRDrawingControllers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::IsSteamVRDrawingControllers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsSteamVRDrawingControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::ShouldApplicationPause
-  // Il2CppName: ShouldApplicationPause
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::ShouldApplicationPause)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ShouldApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::ShouldApplicationReduceRenderingWork
-  // Il2CppName: ShouldApplicationReduceRenderingWork
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::ShouldApplicationReduceRenderingWork)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ShouldApplicationReduceRenderingWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::DriverDebugRequest
-  // Il2CppName: DriverDebugRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(uint, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRSystem::DriverDebugRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "DriverDebugRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::PerformFirmwareUpdate
-  // Il2CppName: PerformFirmwareUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRFirmwareError (CVRSystem::*)(uint)>(&CVRSystem::PerformFirmwareUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "PerformFirmwareUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::AcknowledgeQuit_Exiting
-  // Il2CppName: AcknowledgeQuit_Exiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)()>(&CVRSystem::AcknowledgeQuit_Exiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "AcknowledgeQuit_Exiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRSystem::AcknowledgeQuit_UserPrompt
-  // Il2CppName: AcknowledgeQuit_UserPrompt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)()>(&CVRSystem::AcknowledgeQuit_UserPrompt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "AcknowledgeQuit_UserPrompt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem*, "OVR.OpenVR", "CVRSystem");
+// Writing MetadataGetter for method: CVRSystem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(System::IntPtr)>(&CVRSystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(System::IntPtr)>(&CVRSystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetRecommendedRenderTargetSize
+// Il2CppName: GetRecommendedRenderTargetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(uint&, uint&)>(&CVRSystem::GetRecommendedRenderTargetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetRecommendedRenderTargetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetProjectionMatrix
+// Il2CppName: GetProjectionMatrix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix44_t (CVRSystem::*)(OVR::OpenVR::EVREye, float, float)>(&CVRSystem::GetProjectionMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetProjectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetProjectionRaw
+// Il2CppName: GetProjectionRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(OVR::OpenVR::EVREye, float&, float&, float&, float&)>(&CVRSystem::GetProjectionRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetProjectionRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::ComputeDistortion
+// Il2CppName: ComputeDistortion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::EVREye, float, float, OVR::OpenVR::DistortionCoordinates_t&)>(&CVRSystem::ComputeDistortion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ComputeDistortion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::DistortionCoordinates_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetEyeToHeadTransform
+// Il2CppName: GetEyeToHeadTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)(OVR::OpenVR::EVREye)>(&CVRSystem::GetEyeToHeadTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetEyeToHeadTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetTimeSinceLastVsync
+// Il2CppName: GetTimeSinceLastVsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(float&, uint64_t&)>(&CVRSystem::GetTimeSinceLastVsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTimeSinceLastVsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetD3D9AdapterIndex
+// Il2CppName: GetD3D9AdapterIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CVRSystem::*)()>(&CVRSystem::GetD3D9AdapterIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetD3D9AdapterIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetDXGIOutputInfo
+// Il2CppName: GetDXGIOutputInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(int&)>(&CVRSystem::GetDXGIOutputInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetOutputDevice
+// Il2CppName: GetOutputDevice
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(uint64_t&, OVR::OpenVR::ETextureType, System::IntPtr)>(&CVRSystem::GetOutputDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetOutputDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETextureType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::IsDisplayOnDesktop
+// Il2CppName: IsDisplayOnDesktop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::IsDisplayOnDesktop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsDisplayOnDesktop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::SetDisplayVisibility
+// Il2CppName: SetDisplayVisibility
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(bool)>(&CVRSystem::SetDisplayVisibility)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "SetDisplayVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetDeviceToAbsoluteTrackingPose
+// Il2CppName: GetDeviceToAbsoluteTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ::Array<OVR::OpenVR::TrackedDevicePose_t>*)>(&CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetDeviceToAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::TrackedDevicePose_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::ResetSeatedZeroPose
+// Il2CppName: ResetSeatedZeroPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)()>(&CVRSystem::ResetSeatedZeroPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ResetSeatedZeroPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose
+// Il2CppName: GetSeatedZeroPoseToStandingAbsoluteTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)()>(&CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose
+// Il2CppName: GetRawZeroPoseToStandingAbsoluteTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)()>(&CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetRawZeroPoseToStandingAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetSortedTrackedDeviceIndicesOfClass
+// Il2CppName: GetSortedTrackedDeviceIndicesOfClass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*, uint)>(&CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetSortedTrackedDeviceIndicesOfClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceClass>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetTrackedDeviceActivityLevel
+// Il2CppName: GetTrackedDeviceActivityLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EDeviceActivityLevel (CVRSystem::*)(uint)>(&CVRSystem::GetTrackedDeviceActivityLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTrackedDeviceActivityLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::ApplyTransform
+// Il2CppName: ApplyTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(OVR::OpenVR::TrackedDevicePose_t&, OVR::OpenVR::TrackedDevicePose_t&, OVR::OpenVR::HmdMatrix34_t&)>(&CVRSystem::ApplyTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ApplyTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetTrackedDeviceIndexForControllerRole
+// Il2CppName: GetTrackedDeviceIndexForControllerRole
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(OVR::OpenVR::ETrackedControllerRole)>(&CVRSystem::GetTrackedDeviceIndexForControllerRole)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTrackedDeviceIndexForControllerRole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedControllerRole>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetControllerRoleForTrackedDeviceIndex
+// Il2CppName: GetControllerRoleForTrackedDeviceIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ETrackedControllerRole (CVRSystem::*)(uint)>(&CVRSystem::GetControllerRoleForTrackedDeviceIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerRoleForTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetTrackedDeviceClass
+// Il2CppName: GetTrackedDeviceClass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ETrackedDeviceClass (CVRSystem::*)(uint)>(&CVRSystem::GetTrackedDeviceClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetTrackedDeviceClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::IsTrackedDeviceConnected
+// Il2CppName: IsTrackedDeviceConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(uint)>(&CVRSystem::IsTrackedDeviceConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsTrackedDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetBoolTrackedDeviceProperty
+// Il2CppName: GetBoolTrackedDeviceProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetBoolTrackedDeviceProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetBoolTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetFloatTrackedDeviceProperty
+// Il2CppName: GetFloatTrackedDeviceProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetFloatTrackedDeviceProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetFloatTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetInt32TrackedDeviceProperty
+// Il2CppName: GetInt32TrackedDeviceProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetInt32TrackedDeviceProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetInt32TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetUint64TrackedDeviceProperty
+// Il2CppName: GetUint64TrackedDeviceProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetUint64TrackedDeviceProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetUint64TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetMatrix34TrackedDeviceProperty
+// Il2CppName: GetMatrix34TrackedDeviceProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetMatrix34TrackedDeviceProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetMatrix34TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetArrayTrackedDeviceProperty
+// Il2CppName: GetArrayTrackedDeviceProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, uint, System::IntPtr, uint, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetArrayTrackedDeviceProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetArrayTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetStringTrackedDeviceProperty
+// Il2CppName: GetStringTrackedDeviceProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, System::Text::StringBuilder*, uint, OVR::OpenVR::ETrackedPropertyError&)>(&CVRSystem::GetStringTrackedDeviceProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetStringTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetPropErrorNameFromEnum
+// Il2CppName: GetPropErrorNameFromEnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::ETrackedPropertyError)>(&CVRSystem::GetPropErrorNameFromEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetPropErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedPropertyError>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::PollNextEvent
+// Il2CppName: PollNextEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::VREvent_t&, uint)>(&CVRSystem::PollNextEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "PollNextEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::PollNextEventWithPose
+// Il2CppName: PollNextEventWithPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::VREvent_t&, uint, OVR::OpenVR::TrackedDevicePose_t&)>(&CVRSystem::PollNextEventWithPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "PollNextEventWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetEventTypeNameFromEnum
+// Il2CppName: GetEventTypeNameFromEnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::EVREventType)>(&CVRSystem::GetEventTypeNameFromEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetEventTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREventType>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetHiddenAreaMesh
+// Il2CppName: GetHiddenAreaMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HiddenAreaMesh_t (CVRSystem::*)(OVR::OpenVR::EVREye, OVR::OpenVR::EHiddenAreaMeshType)>(&CVRSystem::GetHiddenAreaMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetHiddenAreaMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EHiddenAreaMeshType>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetControllerState
+// Il2CppName: GetControllerState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(uint, OVR::OpenVR::VRControllerState_t&, uint)>(&CVRSystem::GetControllerState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetControllerStateWithPose
+// Il2CppName: GetControllerStateWithPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, uint, OVR::OpenVR::VRControllerState_t&, uint, OVR::OpenVR::TrackedDevicePose_t&)>(&CVRSystem::GetControllerStateWithPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerStateWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::TrackedDevicePose_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::TriggerHapticPulse
+// Il2CppName: TriggerHapticPulse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)(uint, uint, uint16_t)>(&CVRSystem::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetButtonIdNameFromEnum
+// Il2CppName: GetButtonIdNameFromEnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::EVRButtonId)>(&CVRSystem::GetButtonIdNameFromEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetButtonIdNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::GetControllerAxisTypeNameFromEnum
+// Il2CppName: GetControllerAxisTypeNameFromEnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSystem::*)(OVR::OpenVR::EVRControllerAxisType)>(&CVRSystem::GetControllerAxisTypeNameFromEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "GetControllerAxisTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRControllerAxisType>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::IsInputAvailable
+// Il2CppName: IsInputAvailable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::IsInputAvailable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsInputAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::IsSteamVRDrawingControllers
+// Il2CppName: IsSteamVRDrawingControllers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::IsSteamVRDrawingControllers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "IsSteamVRDrawingControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::ShouldApplicationPause
+// Il2CppName: ShouldApplicationPause
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::ShouldApplicationPause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ShouldApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::ShouldApplicationReduceRenderingWork
+// Il2CppName: ShouldApplicationReduceRenderingWork
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSystem::*)()>(&CVRSystem::ShouldApplicationReduceRenderingWork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "ShouldApplicationReduceRenderingWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::DriverDebugRequest
+// Il2CppName: DriverDebugRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRSystem::*)(uint, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRSystem::DriverDebugRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "DriverDebugRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::PerformFirmwareUpdate
+// Il2CppName: PerformFirmwareUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRFirmwareError (CVRSystem::*)(uint)>(&CVRSystem::PerformFirmwareUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "PerformFirmwareUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::AcknowledgeQuit_Exiting
+// Il2CppName: AcknowledgeQuit_Exiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)()>(&CVRSystem::AcknowledgeQuit_Exiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "AcknowledgeQuit_Exiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRSystem::AcknowledgeQuit_UserPrompt
+// Il2CppName: AcknowledgeQuit_UserPrompt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSystem::*)()>(&CVRSystem::AcknowledgeQuit_UserPrompt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRSystem*), "AcknowledgeQuit_UserPrompt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

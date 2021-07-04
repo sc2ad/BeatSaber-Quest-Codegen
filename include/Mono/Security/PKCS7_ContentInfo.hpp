@@ -91,109 +91,109 @@ namespace Mono::Security {
   #pragma pack(pop)
   static check_size<sizeof(PKCS7::ContentInfo), 24 + sizeof(Mono::Security::ASN1*)> __Mono_Security_PKCS7_ContentInfoSizeCheck;
   static_assert(sizeof(PKCS7::ContentInfo) == 0x20);
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Il2CppString*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Il2CppString*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Array<uint8_t>*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Array<uint8_t>*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(Mono::Security::ASN1*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(Mono::Security::ASN1*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::get_ASN1
-  // Il2CppName: get_ASN1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::get_ASN1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::get_Content
-  // Il2CppName: get_Content
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::get_Content)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::set_Content
-  // Il2CppName: set_Content
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(Mono::Security::ASN1*)>(&PKCS7::ContentInfo::set_Content)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "set_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::get_ContentType
-  // Il2CppName: get_ContentType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::get_ContentType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::set_ContentType
-  // Il2CppName: set_ContentType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Il2CppString*)>(&PKCS7::ContentInfo::set_ContentType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::GetASN1
-  // Il2CppName: GetASN1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::GetASN1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "GetASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::ContentInfo*, "Mono.Security", "PKCS7/ContentInfo");
+// Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Il2CppString*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Il2CppString*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Array<uint8_t>*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Array<uint8_t>*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(Mono::Security::ASN1*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(Mono::Security::ASN1*)>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::get_ASN1
+// Il2CppName: get_ASN1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::get_ASN1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::get_Content
+// Il2CppName: get_Content
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::get_Content)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::set_Content
+// Il2CppName: set_Content
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(Mono::Security::ASN1*)>(&PKCS7::ContentInfo::set_Content)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "set_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::get_ContentType
+// Il2CppName: get_ContentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::get_ContentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::set_ContentType
+// Il2CppName: set_ContentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)(::Il2CppString*)>(&PKCS7::ContentInfo::set_ContentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::GetASN1
+// Il2CppName: GetASN1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::GetASN1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), "GetASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PKCS7::ContentInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::ContentInfo::*)()>(&PKCS7::ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PKCS7::ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

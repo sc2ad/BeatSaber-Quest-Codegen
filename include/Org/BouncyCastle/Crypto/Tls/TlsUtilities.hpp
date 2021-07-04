@@ -84,94 +84,94 @@ namespace Org::BouncyCastle::Crypto::Tls {
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Tls.TlsUtilities
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TlsUtilities::WriteUint8
-  // Il2CppName: WriteUint8
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t, System::IO::Stream*)>(&TlsUtilities::WriteUint8)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteUint8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::WriteUint16
-  // Il2CppName: WriteUint16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::IO::Stream*)>(&TlsUtilities::WriteUint16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteUint16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::WriteOpaque8
-  // Il2CppName: WriteOpaque8
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&TlsUtilities::WriteOpaque8)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteOpaque8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::WriteOpaque16
-  // Il2CppName: WriteOpaque16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&TlsUtilities::WriteOpaque16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteOpaque16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::ReadUint8
-  // Il2CppName: ReadUint8
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IO::Stream*)>(&TlsUtilities::ReadUint8)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadUint8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::ReadUint16
-  // Il2CppName: ReadUint16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*)>(&TlsUtilities::ReadUint16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadUint16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::ReadFully
-  // Il2CppName: ReadFully
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&TlsUtilities::ReadFully)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::ReadOpaque8
-  // Il2CppName: ReadOpaque8
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IO::Stream*)>(&TlsUtilities::ReadOpaque8)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadOpaque8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::ReadOpaque16
-  // Il2CppName: ReadOpaque16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IO::Stream*)>(&TlsUtilities::ReadOpaque16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadOpaque16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::GenSsl3Const
-  // Il2CppName: GenSsl3Const
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Array<uint8_t>*>* (*)()>(&TlsUtilities::GenSsl3Const)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "GenSsl3Const", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TlsUtilities::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TlsUtilities::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsUtilities");
+// Writing MetadataGetter for method: TlsUtilities::WriteUint8
+// Il2CppName: WriteUint8
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t, System::IO::Stream*)>(&TlsUtilities::WriteUint8)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteUint8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::WriteUint16
+// Il2CppName: WriteUint16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::IO::Stream*)>(&TlsUtilities::WriteUint16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteUint16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::WriteOpaque8
+// Il2CppName: WriteOpaque8
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&TlsUtilities::WriteOpaque8)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteOpaque8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::WriteOpaque16
+// Il2CppName: WriteOpaque16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&TlsUtilities::WriteOpaque16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "WriteOpaque16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::ReadUint8
+// Il2CppName: ReadUint8
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IO::Stream*)>(&TlsUtilities::ReadUint8)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadUint8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::ReadUint16
+// Il2CppName: ReadUint16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*)>(&TlsUtilities::ReadUint16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadUint16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::ReadFully
+// Il2CppName: ReadFully
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&TlsUtilities::ReadFully)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::ReadOpaque8
+// Il2CppName: ReadOpaque8
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IO::Stream*)>(&TlsUtilities::ReadOpaque8)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadOpaque8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::ReadOpaque16
+// Il2CppName: ReadOpaque16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IO::Stream*)>(&TlsUtilities::ReadOpaque16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "ReadOpaque16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::GenSsl3Const
+// Il2CppName: GenSsl3Const
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Array<uint8_t>*>* (*)()>(&TlsUtilities::GenSsl3Const)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), "GenSsl3Const", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TlsUtilities::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TlsUtilities::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

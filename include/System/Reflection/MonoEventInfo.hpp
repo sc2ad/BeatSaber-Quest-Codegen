@@ -97,22 +97,22 @@ namespace System::Reflection {
   #pragma pack(pop)
   static check_size<sizeof(MonoEventInfo), 56 + sizeof(::Array<System::Reflection::MethodInfo*>*)> __System_Reflection_MonoEventInfoSizeCheck;
   static_assert(sizeof(MonoEventInfo) == 0x40);
-  // Writing MetadataGetter for method: MonoEventInfo::get_event_info
-  // Il2CppName: get_event_info
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MonoEvent*, System::Reflection::MonoEventInfo&)>(&MonoEventInfo::get_event_info)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoEventInfo), "get_event_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEventInfo&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MonoEventInfo::GetEventInfo
-  // Il2CppName: GetEventInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MonoEventInfo (*)(System::Reflection::MonoEvent*)>(&MonoEventInfo::GetEventInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MonoEventInfo), "GetEventInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
+// Writing MetadataGetter for method: MonoEventInfo::get_event_info
+// Il2CppName: get_event_info
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MonoEvent*, System::Reflection::MonoEventInfo&)>(&MonoEventInfo::get_event_info)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoEventInfo), "get_event_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEventInfo&>()});
+  }
+};
+// Writing MetadataGetter for method: MonoEventInfo::GetEventInfo
+// Il2CppName: GetEventInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MonoEventInfo (*)(System::Reflection::MonoEvent*)>(&MonoEventInfo::GetEventInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonoEventInfo), "GetEventInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>()});
+  }
+};

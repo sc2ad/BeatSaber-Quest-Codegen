@@ -100,83 +100,83 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(RawImage), 200 + sizeof(UnityEngine::Rect)> __UnityEngine_UI_RawImageSizeCheck;
   static_assert(sizeof(RawImage) == 0xD8);
-  // Writing MetadataGetter for method: RawImage::get_texture
-  // Il2CppName: get_texture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (RawImage::*)()>(&RawImage::get_texture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::set_texture
-  // Il2CppName: set_texture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)(UnityEngine::Texture*)>(&RawImage::set_texture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "set_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::get_uvRect
-  // Il2CppName: get_uvRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (RawImage::*)()>(&RawImage::get_uvRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "get_uvRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::set_uvRect
-  // Il2CppName: set_uvRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)(UnityEngine::Rect)>(&RawImage::set_uvRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "set_uvRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::get_mainTexture
-  // Il2CppName: get_mainTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (RawImage::*)()>(&RawImage::get_mainTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::SetNativeSize
-  // Il2CppName: SetNativeSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::SetNativeSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "SetNativeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::OnPopulateMesh
-  // Il2CppName: OnPopulateMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)(UnityEngine::UI::VertexHelper*)>(&RawImage::OnPopulateMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RawImage::OnDidApplyAnimationProperties
-  // Il2CppName: OnDidApplyAnimationProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::OnDidApplyAnimationProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RawImage*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");
+// Writing MetadataGetter for method: RawImage::get_texture
+// Il2CppName: get_texture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (RawImage::*)()>(&RawImage::get_texture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RawImage::set_texture
+// Il2CppName: set_texture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)(UnityEngine::Texture*)>(&RawImage::set_texture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "set_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+  }
+};
+// Writing MetadataGetter for method: RawImage::get_uvRect
+// Il2CppName: get_uvRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (RawImage::*)()>(&RawImage::get_uvRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "get_uvRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RawImage::set_uvRect
+// Il2CppName: set_uvRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)(UnityEngine::Rect)>(&RawImage::set_uvRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "set_uvRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+  }
+};
+// Writing MetadataGetter for method: RawImage::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RawImage::get_mainTexture
+// Il2CppName: get_mainTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (RawImage::*)()>(&RawImage::get_mainTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RawImage::SetNativeSize
+// Il2CppName: SetNativeSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::SetNativeSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "SetNativeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RawImage::OnPopulateMesh
+// Il2CppName: OnPopulateMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)(UnityEngine::UI::VertexHelper*)>(&RawImage::OnPopulateMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+  }
+};
+// Writing MetadataGetter for method: RawImage::OnDidApplyAnimationProperties
+// Il2CppName: OnDidApplyAnimationProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RawImage::*)()>(&RawImage::OnDidApplyAnimationProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RawImage*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

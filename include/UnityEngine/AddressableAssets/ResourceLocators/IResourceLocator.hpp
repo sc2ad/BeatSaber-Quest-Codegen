@@ -49,30 +49,30 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     bool Locate(::Il2CppObject* key, System::Type* type, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& locations);
   }; // UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IResourceLocator::get_LocatorId
-  // Il2CppName: get_LocatorId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IResourceLocator::*)()>(&IResourceLocator::get_LocatorId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IResourceLocator*), "get_LocatorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IResourceLocator::get_Keys
-  // Il2CppName: get_Keys
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (IResourceLocator::*)()>(&IResourceLocator::get_Keys)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IResourceLocator*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IResourceLocator::Locate
-  // Il2CppName: Locate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IResourceLocator::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&IResourceLocator::Locate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IResourceLocator*), "Locate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "IResourceLocator");
+// Writing MetadataGetter for method: IResourceLocator::get_LocatorId
+// Il2CppName: get_LocatorId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IResourceLocator::*)()>(&IResourceLocator::get_LocatorId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IResourceLocator*), "get_LocatorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IResourceLocator::get_Keys
+// Il2CppName: get_Keys
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (IResourceLocator::*)()>(&IResourceLocator::get_Keys)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IResourceLocator*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IResourceLocator::Locate
+// Il2CppName: Locate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IResourceLocator::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&IResourceLocator::Locate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IResourceLocator*), "Locate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
+  }
+};

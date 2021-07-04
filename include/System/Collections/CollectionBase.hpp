@@ -131,203 +131,203 @@ namespace System::Collections {
   #pragma pack(pop)
   static check_size<sizeof(CollectionBase), 16 + sizeof(System::Collections::ArrayList*)> __System_Collections_CollectionBaseSizeCheck;
   static_assert(sizeof(CollectionBase) == 0x18);
-  // Writing MetadataGetter for method: CollectionBase::get_InnerList
-  // Il2CppName: get_InnerList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (CollectionBase::*)()>(&CollectionBase::get_InnerList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "get_InnerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::get_Count
-  // Il2CppName: get_Count
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionBase::*)()>(&CollectionBase::get_Count)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::RemoveAt
-  // Il2CppName: RemoveAt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int)>(&CollectionBase::RemoveAt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_get_IsReadOnly
-  // Il2CppName: System.Collections.IList.get_IsReadOnly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionBase::*)()>(&CollectionBase::System_Collections_IList_get_IsReadOnly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_ICollection_CopyTo
-  // Il2CppName: System.Collections.ICollection.CopyTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(System::Array*, int)>(&CollectionBase::System_Collections_ICollection_CopyTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_get_Item
-  // Il2CppName: System.Collections.IList.get_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CollectionBase::*)(int)>(&CollectionBase::System_Collections_IList_get_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_set_Item
-  // Il2CppName: System.Collections.IList.set_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::System_Collections_IList_set_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Contains
-  // Il2CppName: System.Collections.IList.Contains
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Contains)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Add
-  // Il2CppName: System.Collections.IList.Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Remove
-  // Il2CppName: System.Collections.IList.Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_IndexOf
-  // Il2CppName: System.Collections.IList.IndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_IndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Insert
-  // Il2CppName: System.Collections.IList.Insert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Insert)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::GetEnumerator
-  // Il2CppName: GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CollectionBase::*)()>(&CollectionBase::GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnSet
-  // Il2CppName: OnSet
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*, ::Il2CppObject*)>(&CollectionBase::OnSet)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnInsert
-  // Il2CppName: OnInsert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnInsert)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnInsert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnClear
-  // Il2CppName: OnClear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::OnClear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnRemove
-  // Il2CppName: OnRemove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnRemove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnSetComplete
-  // Il2CppName: OnSetComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*, ::Il2CppObject*)>(&CollectionBase::OnSetComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnSetComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnInsertComplete
-  // Il2CppName: OnInsertComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnInsertComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnInsertComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnClearComplete
-  // Il2CppName: OnClearComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::OnClearComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnClearComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::OnRemoveComplete
-  // Il2CppName: OnRemoveComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnRemoveComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnRemoveComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CollectionBase::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CollectionBase*, "System.Collections", "CollectionBase");
+// Writing MetadataGetter for method: CollectionBase::get_InnerList
+// Il2CppName: get_InnerList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (CollectionBase::*)()>(&CollectionBase::get_InnerList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "get_InnerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::get_Count
+// Il2CppName: get_Count
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionBase::*)()>(&CollectionBase::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::RemoveAt
+// Il2CppName: RemoveAt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int)>(&CollectionBase::RemoveAt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_get_IsReadOnly
+// Il2CppName: System.Collections.IList.get_IsReadOnly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionBase::*)()>(&CollectionBase::System_Collections_IList_get_IsReadOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_ICollection_CopyTo
+// Il2CppName: System.Collections.ICollection.CopyTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(System::Array*, int)>(&CollectionBase::System_Collections_ICollection_CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_get_Item
+// Il2CppName: System.Collections.IList.get_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CollectionBase::*)(int)>(&CollectionBase::System_Collections_IList_get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_set_Item
+// Il2CppName: System.Collections.IList.set_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::System_Collections_IList_set_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Contains
+// Il2CppName: System.Collections.IList.Contains
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Add
+// Il2CppName: System.Collections.IList.Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Remove
+// Il2CppName: System.Collections.IList.Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_IndexOf
+// Il2CppName: System.Collections.IList.IndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::System_Collections_IList_IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::System_Collections_IList_Insert
+// Il2CppName: System.Collections.IList.Insert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::System_Collections_IList_Insert)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "System.Collections.IList.Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::GetEnumerator
+// Il2CppName: GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CollectionBase::*)()>(&CollectionBase::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnSet
+// Il2CppName: OnSet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*, ::Il2CppObject*)>(&CollectionBase::OnSet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnInsert
+// Il2CppName: OnInsert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnInsert)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnInsert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnClear
+// Il2CppName: OnClear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::OnClear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnRemove
+// Il2CppName: OnRemove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnRemove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(::Il2CppObject*)>(&CollectionBase::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnSetComplete
+// Il2CppName: OnSetComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*, ::Il2CppObject*)>(&CollectionBase::OnSetComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnSetComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnInsertComplete
+// Il2CppName: OnInsertComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnInsertComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnInsertComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnClearComplete
+// Il2CppName: OnClearComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::OnClearComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnClearComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::OnRemoveComplete
+// Il2CppName: OnRemoveComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)(int, ::Il2CppObject*)>(&CollectionBase::OnRemoveComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), "OnRemoveComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CollectionBase::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionBase::*)()>(&CollectionBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

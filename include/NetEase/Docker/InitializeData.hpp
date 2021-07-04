@@ -51,30 +51,30 @@ namespace NetEase::Docker {
   #pragma pack(pop)
   static check_size<sizeof(InitializeData), 4 + sizeof(int)> __NetEase_Docker_InitializeDataSizeCheck;
   static_assert(sizeof(InitializeData) == 0x8);
-  // Writing MetadataGetter for method: InitializeData::get_InitializeSuccessful
-  // Il2CppName: get_InitializeSuccessful
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InitializeData::*)()>(&InitializeData::get_InitializeSuccessful)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializeData), "get_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InitializeData::set_InitializeSuccessful
-  // Il2CppName: set_InitializeSuccessful
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializeData::*)(bool)>(&InitializeData::set_InitializeSuccessful)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializeData), "set_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InitializeData::set_InitializeCode
-  // Il2CppName: set_InitializeCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializeData::*)(int)>(&InitializeData::set_InitializeCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializeData), "set_InitializeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
+// Writing MetadataGetter for method: InitializeData::get_InitializeSuccessful
+// Il2CppName: get_InitializeSuccessful
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InitializeData::*)()>(&InitializeData::get_InitializeSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializeData), "get_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InitializeData::set_InitializeSuccessful
+// Il2CppName: set_InitializeSuccessful
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializeData::*)(bool)>(&InitializeData::set_InitializeSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializeData), "set_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InitializeData::set_InitializeCode
+// Il2CppName: set_InitializeCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializeData::*)(int)>(&InitializeData::set_InitializeCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializeData), "set_InitializeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

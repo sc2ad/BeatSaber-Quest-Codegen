@@ -42,19 +42,19 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MenuRpcManager::StartLevelRpc*, creationType>()));
     }
   }; // MenuRpcManager/StartLevelRpc
-  // Writing MetadataGetter for method: MenuRpcManager::StartLevelRpc::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::StartLevelRpc::*)()>(&MenuRpcManager::StartLevelRpc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::StartLevelRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::StartLevelRpc::*)()>(&MenuRpcManager::StartLevelRpc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::StartLevelRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::StartLevelRpc*, "", "MenuRpcManager/StartLevelRpc");
+// Writing MetadataGetter for method: MenuRpcManager::StartLevelRpc::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::StartLevelRpc::*)()>(&MenuRpcManager::StartLevelRpc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::StartLevelRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::StartLevelRpc::*)()>(&MenuRpcManager::StartLevelRpc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::StartLevelRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

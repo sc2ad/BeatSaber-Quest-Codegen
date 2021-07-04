@@ -112,203 +112,203 @@ namespace UnityEngine {
     }
   }; // UnityEngine.Avatar
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Avatar::get_isValid
-  // Il2CppName: get_isValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Avatar::*)()>(&Avatar::get_isValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::get_isHuman
-  // Il2CppName: get_isHuman
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Avatar::*)()>(&Avatar::get_isHuman)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_isHuman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::get_humanDescription
-  // Il2CppName: get_humanDescription
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HumanDescription (Avatar::*)()>(&Avatar::get_humanDescription)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_humanDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::SetMuscleMinMax
-  // Il2CppName: SetMuscleMinMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, float, float)>(&Avatar::SetMuscleMinMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "SetMuscleMinMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::SetParameter
-  // Il2CppName: SetParameter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, float)>(&Avatar::SetParameter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "SetParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::GetAxisLength
-  // Il2CppName: GetAxisLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Avatar::*)(int)>(&Avatar::GetAxisLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetAxisLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::GetPreRotation
-  // Il2CppName: GetPreRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::GetPreRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetPreRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::GetPostRotation
-  // Il2CppName: GetPostRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::GetPostRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::GetZYPostQ
-  // Il2CppName: GetZYPostQ
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&Avatar::GetZYPostQ)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetZYPostQ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::GetZYRoll
-  // Il2CppName: GetZYRoll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Vector3)>(&Avatar::GetZYRoll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetZYRoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::GetLimitSign
-  // Il2CppName: GetLimitSign
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Avatar::*)(int)>(&Avatar::GetLimitSign)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetLimitSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetAxisLength
-  // Il2CppName: Internal_GetAxisLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Avatar::*)(int)>(&Avatar::Internal_GetAxisLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetAxisLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetPreRotation
-  // Il2CppName: Internal_GetPreRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::Internal_GetPreRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPreRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetPostRotation
-  // Il2CppName: Internal_GetPostRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::Internal_GetPostRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetZYPostQ
-  // Il2CppName: Internal_GetZYPostQ
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&Avatar::Internal_GetZYPostQ)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYPostQ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetZYRoll
-  // Il2CppName: Internal_GetZYRoll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Vector3)>(&Avatar::Internal_GetZYRoll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYRoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetLimitSign
-  // Il2CppName: Internal_GetLimitSign
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Avatar::*)(int)>(&Avatar::Internal_GetLimitSign)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetLimitSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::get_humanDescription_Injected
-  // Il2CppName: get_humanDescription_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(UnityEngine::HumanDescription&)>(&Avatar::get_humanDescription_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_humanDescription_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanDescription&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetPreRotation_Injected
-  // Il2CppName: Internal_GetPreRotation_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Quaternion&)>(&Avatar::Internal_GetPreRotation_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPreRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetPostRotation_Injected
-  // Il2CppName: Internal_GetPostRotation_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Quaternion&)>(&Avatar::Internal_GetPostRotation_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPostRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetZYPostQ_Injected
-  // Il2CppName: Internal_GetZYPostQ_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Quaternion&, UnityEngine::Quaternion&, UnityEngine::Quaternion&)>(&Avatar::Internal_GetZYPostQ_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYPostQ_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetZYRoll_Injected
-  // Il2CppName: Internal_GetZYRoll_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&Avatar::Internal_GetZYRoll_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYRoll_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::Internal_GetLimitSign_Injected
-  // Il2CppName: Internal_GetLimitSign_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Vector3&)>(&Avatar::Internal_GetLimitSign_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetLimitSign_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Avatar::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)()>(&Avatar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)()>(&Avatar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Avatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Avatar*, "UnityEngine", "Avatar");
+// Writing MetadataGetter for method: Avatar::get_isValid
+// Il2CppName: get_isValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Avatar::*)()>(&Avatar::get_isValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Avatar::get_isHuman
+// Il2CppName: get_isHuman
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Avatar::*)()>(&Avatar::get_isHuman)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_isHuman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Avatar::get_humanDescription
+// Il2CppName: get_humanDescription
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HumanDescription (Avatar::*)()>(&Avatar::get_humanDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_humanDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Avatar::SetMuscleMinMax
+// Il2CppName: SetMuscleMinMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, float, float)>(&Avatar::SetMuscleMinMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "SetMuscleMinMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::SetParameter
+// Il2CppName: SetParameter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, float)>(&Avatar::SetParameter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "SetParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::GetAxisLength
+// Il2CppName: GetAxisLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Avatar::*)(int)>(&Avatar::GetAxisLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetAxisLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::GetPreRotation
+// Il2CppName: GetPreRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::GetPreRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetPreRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::GetPostRotation
+// Il2CppName: GetPostRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::GetPostRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::GetZYPostQ
+// Il2CppName: GetZYPostQ
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&Avatar::GetZYPostQ)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetZYPostQ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::GetZYRoll
+// Il2CppName: GetZYRoll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Vector3)>(&Avatar::GetZYRoll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetZYRoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::GetLimitSign
+// Il2CppName: GetLimitSign
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Avatar::*)(int)>(&Avatar::GetLimitSign)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "GetLimitSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetAxisLength
+// Il2CppName: Internal_GetAxisLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Avatar::*)(int)>(&Avatar::Internal_GetAxisLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetAxisLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetPreRotation
+// Il2CppName: Internal_GetPreRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::Internal_GetPreRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPreRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetPostRotation
+// Il2CppName: Internal_GetPostRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int)>(&Avatar::Internal_GetPostRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetZYPostQ
+// Il2CppName: Internal_GetZYPostQ
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&Avatar::Internal_GetZYPostQ)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYPostQ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetZYRoll
+// Il2CppName: Internal_GetZYRoll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Avatar::*)(int, UnityEngine::Vector3)>(&Avatar::Internal_GetZYRoll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYRoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetLimitSign
+// Il2CppName: Internal_GetLimitSign
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Avatar::*)(int)>(&Avatar::Internal_GetLimitSign)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetLimitSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::get_humanDescription_Injected
+// Il2CppName: get_humanDescription_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(UnityEngine::HumanDescription&)>(&Avatar::get_humanDescription_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "get_humanDescription_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanDescription&>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetPreRotation_Injected
+// Il2CppName: Internal_GetPreRotation_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Quaternion&)>(&Avatar::Internal_GetPreRotation_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPreRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetPostRotation_Injected
+// Il2CppName: Internal_GetPostRotation_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Quaternion&)>(&Avatar::Internal_GetPostRotation_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetPostRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetZYPostQ_Injected
+// Il2CppName: Internal_GetZYPostQ_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Quaternion&, UnityEngine::Quaternion&, UnityEngine::Quaternion&)>(&Avatar::Internal_GetZYPostQ_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYPostQ_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetZYRoll_Injected
+// Il2CppName: Internal_GetZYRoll_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&Avatar::Internal_GetZYRoll_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetZYRoll_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::Internal_GetLimitSign_Injected
+// Il2CppName: Internal_GetLimitSign_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)(int, UnityEngine::Vector3&)>(&Avatar::Internal_GetLimitSign_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), "Internal_GetLimitSign_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
+// Writing MetadataGetter for method: Avatar::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)()>(&Avatar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Avatar::*)()>(&Avatar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Avatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

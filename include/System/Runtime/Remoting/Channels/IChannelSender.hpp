@@ -36,14 +36,14 @@ namespace System::Runtime::Remoting::Channels {
     System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* remoteChannelData, ::Il2CppString*& objectURI);
   }; // System.Runtime.Remoting.Channels.IChannelSender
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IChannelSender::CreateMessageSink
-  // Il2CppName: CreateMessageSink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (IChannelSender::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&IChannelSender::CreateMessageSink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IChannelSender*), "CreateMessageSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelSender*, "System.Runtime.Remoting.Channels", "IChannelSender");
+// Writing MetadataGetter for method: IChannelSender::CreateMessageSink
+// Il2CppName: CreateMessageSink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (IChannelSender::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&IChannelSender::CreateMessageSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IChannelSender*), "CreateMessageSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};

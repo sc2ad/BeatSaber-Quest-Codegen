@@ -219,171 +219,171 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(HostLobbySetupViewController), 208 + sizeof(System::Action*)> __GlobalNamespace_HostLobbySetupViewControllerSizeCheck;
   static_assert(sizeof(HostLobbySetupViewController) == 0xD8);
-  // Writing MetadataGetter for method: HostLobbySetupViewController::add_selectBeatmapEvent
-  // Il2CppName: add_selectBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_selectBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_selectBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_selectBeatmapEvent
-  // Il2CppName: remove_selectBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_selectBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_selectBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::add_selectModifiersEvent
-  // Il2CppName: add_selectModifiersEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_selectModifiersEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_selectModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_selectModifiersEvent
-  // Il2CppName: remove_selectModifiersEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_selectModifiersEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_selectModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::add_startGameEvent
-  // Il2CppName: add_startGameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_startGameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_startGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_startGameEvent
-  // Il2CppName: remove_startGameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_startGameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_startGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::add_cancelStartGameEvent
-  // Il2CppName: add_cancelStartGameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_cancelStartGameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_cancelStartGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_cancelStartGameEvent
-  // Il2CppName: remove_cancelStartGameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_cancelStartGameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_cancelStartGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::SetLobbyPlayerData
-  // Il2CppName: SetLobbyPlayerData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&HostLobbySetupViewController::SetLobbyPlayerData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::SetPlayersMissingLevelText
-  // Il2CppName: SetPlayersMissingLevelText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(::Il2CppString*)>(&HostLobbySetupViewController::SetPlayersMissingLevelText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetPlayersMissingLevelText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::SetPlayerActiveState
-  // Il2CppName: SetPlayerActiveState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool)>(&HostLobbySetupViewController::SetPlayerActiveState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetPlayerActiveState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::SetStartGameEnabled
-  // Il2CppName: SetStartGameEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool, GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason)>(&HostLobbySetupViewController::SetStartGameEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetStartGameEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::SetLobbyState
-  // Il2CppName: SetLobbyState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(GlobalNamespace::MultiplayerLobbyState)>(&HostLobbySetupViewController::SetLobbyState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetLobbyState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyState>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_0
-  // Il2CppName: <DidActivate>b__27_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_1
-  // Il2CppName: <DidActivate>b__27_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_2
-  // Il2CppName: <DidActivate>b__27_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_3
-  // Il2CppName: <DidActivate>b__27_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool, bool, bool)>(&HostLobbySetupViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HostLobbySetupViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostLobbySetupViewController*, "", "HostLobbySetupViewController");
+// Writing MetadataGetter for method: HostLobbySetupViewController::add_selectBeatmapEvent
+// Il2CppName: add_selectBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_selectBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_selectBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::remove_selectBeatmapEvent
+// Il2CppName: remove_selectBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_selectBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_selectBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::add_selectModifiersEvent
+// Il2CppName: add_selectModifiersEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_selectModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_selectModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::remove_selectModifiersEvent
+// Il2CppName: remove_selectModifiersEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_selectModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_selectModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::add_startGameEvent
+// Il2CppName: add_startGameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_startGameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_startGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::remove_startGameEvent
+// Il2CppName: remove_startGameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_startGameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_startGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::add_cancelStartGameEvent
+// Il2CppName: add_cancelStartGameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_cancelStartGameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_cancelStartGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::remove_cancelStartGameEvent
+// Il2CppName: remove_cancelStartGameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_cancelStartGameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_cancelStartGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::SetLobbyPlayerData
+// Il2CppName: SetLobbyPlayerData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&HostLobbySetupViewController::SetLobbyPlayerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::SetPlayersMissingLevelText
+// Il2CppName: SetPlayersMissingLevelText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(::Il2CppString*)>(&HostLobbySetupViewController::SetPlayersMissingLevelText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetPlayersMissingLevelText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::SetPlayerActiveState
+// Il2CppName: SetPlayerActiveState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool)>(&HostLobbySetupViewController::SetPlayerActiveState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetPlayerActiveState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::SetStartGameEnabled
+// Il2CppName: SetStartGameEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool, GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason)>(&HostLobbySetupViewController::SetStartGameEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetStartGameEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::SetLobbyState
+// Il2CppName: SetLobbyState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(GlobalNamespace::MultiplayerLobbyState)>(&HostLobbySetupViewController::SetLobbyState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetLobbyState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyState>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_0
+// Il2CppName: <DidActivate>b__27_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_1
+// Il2CppName: <DidActivate>b__27_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_2
+// Il2CppName: <DidActivate>b__27_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_3
+// Il2CppName: <DidActivate>b__27_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool, bool, bool)>(&HostLobbySetupViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HostLobbySetupViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

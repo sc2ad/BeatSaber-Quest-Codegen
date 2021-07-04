@@ -138,222 +138,222 @@ namespace System::IO {
     static int FillAttributeInfo(::Il2CppString* path, System::IO::MonoIOStat& data, bool tryagain, bool returnErrorOnNotFound);
   }; // System.IO.File
   #pragma pack(pop)
-  // Writing MetadataGetter for method: File::AppendText
-  // Il2CppName: AppendText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::StreamWriter* (*)(::Il2CppString*)>(&File::AppendText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "AppendText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*)>(&File::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*, int)>(&File::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::CreateText
-  // Il2CppName: CreateText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::StreamWriter* (*)(::Il2CppString*)>(&File::CreateText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Delete
-  // Il2CppName: Delete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&File::Delete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Exists
-  // Il2CppName: Exists
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&File::Exists)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Exists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::GetAttributes
-  // Il2CppName: GetAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::Il2CppString*)>(&File::GetAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "GetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::GetCreationTime
-  // Il2CppName: GetCreationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*)>(&File::GetCreationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "GetCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::GetLastWriteTime
-  // Il2CppName: GetLastWriteTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*)>(&File::GetLastWriteTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "GetLastWriteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Open
-  // Il2CppName: Open
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*, System::IO::FileMode)>(&File::Open)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Open
-  // Il2CppName: Open
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare)>(&File::Open)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::OpenRead
-  // Il2CppName: OpenRead
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*)>(&File::OpenRead)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "OpenRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::OpenText
-  // Il2CppName: OpenText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::StreamReader* (*)(::Il2CppString*)>(&File::OpenText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "OpenText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Replace
-  // Il2CppName: Replace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&File::Replace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Replace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::Replace
-  // Il2CppName: Replace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool)>(&File::Replace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "Replace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::ReadAllBytes
-  // Il2CppName: ReadAllBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&File::ReadAllBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::ReadAllLines
-  // Il2CppName: ReadAllLines
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&File::ReadAllLines)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::ReadAllLines
-  // Il2CppName: ReadAllLines
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(System::IO::StreamReader*)>(&File::ReadAllLines)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::ReadAllText
-  // Il2CppName: ReadAllText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&File::ReadAllText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::WriteAllBytes
-  // Il2CppName: WriteAllBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<uint8_t>*)>(&File::WriteAllBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::WriteAllLines
-  // Il2CppName: WriteAllLines
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&File::WriteAllLines)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::WriteAllLines
-  // Il2CppName: WriteAllLines
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::StreamWriter*, ::Array<::Il2CppString*>*)>(&File::WriteAllLines)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamWriter*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::WriteAllText
-  // Il2CppName: WriteAllText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&File::WriteAllText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::WriteAllText
-  // Il2CppName: WriteAllText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Text::Encoding*)>(&File::WriteAllText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::get_DefaultLocalFileTime
-  // Il2CppName: get_DefaultLocalFileTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)()>(&File::get_DefaultLocalFileTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "get_DefaultLocalFileTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: File::AppendAllLines
-  // Il2CppName: AppendAllLines
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&File::AppendAllLines)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "AppendAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: File::FillAttributeInfo
-  // Il2CppName: FillAttributeInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::IO::MonoIOStat&, bool, bool)>(&File::FillAttributeInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(File*), "FillAttributeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOStat&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::File*, "System.IO", "File");
+// Writing MetadataGetter for method: File::AppendText
+// Il2CppName: AppendText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::StreamWriter* (*)(::Il2CppString*)>(&File::AppendText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "AppendText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*)>(&File::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*, int)>(&File::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: File::CreateText
+// Il2CppName: CreateText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::StreamWriter* (*)(::Il2CppString*)>(&File::CreateText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::Delete
+// Il2CppName: Delete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&File::Delete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::Exists
+// Il2CppName: Exists
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&File::Exists)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Exists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::GetAttributes
+// Il2CppName: GetAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::Il2CppString*)>(&File::GetAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "GetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::GetCreationTime
+// Il2CppName: GetCreationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*)>(&File::GetCreationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "GetCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::GetLastWriteTime
+// Il2CppName: GetLastWriteTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*)>(&File::GetLastWriteTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "GetLastWriteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::Open
+// Il2CppName: Open
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*, System::IO::FileMode)>(&File::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>()});
+  }
+};
+// Writing MetadataGetter for method: File::Open
+// Il2CppName: Open
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare)>(&File::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>()});
+  }
+};
+// Writing MetadataGetter for method: File::OpenRead
+// Il2CppName: OpenRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileStream* (*)(::Il2CppString*)>(&File::OpenRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "OpenRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::OpenText
+// Il2CppName: OpenText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::StreamReader* (*)(::Il2CppString*)>(&File::OpenText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "OpenText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::Replace
+// Il2CppName: Replace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&File::Replace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Replace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::Replace
+// Il2CppName: Replace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool)>(&File::Replace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "Replace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: File::ReadAllBytes
+// Il2CppName: ReadAllBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&File::ReadAllBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::ReadAllLines
+// Il2CppName: ReadAllLines
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&File::ReadAllLines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::ReadAllLines
+// Il2CppName: ReadAllLines
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(System::IO::StreamReader*)>(&File::ReadAllLines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamReader*>()});
+  }
+};
+// Writing MetadataGetter for method: File::ReadAllText
+// Il2CppName: ReadAllText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&File::ReadAllText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "ReadAllText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::WriteAllBytes
+// Il2CppName: WriteAllBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<uint8_t>*)>(&File::WriteAllBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: File::WriteAllLines
+// Il2CppName: WriteAllLines
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&File::WriteAllLines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: File::WriteAllLines
+// Il2CppName: WriteAllLines
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::StreamWriter*, ::Array<::Il2CppString*>*)>(&File::WriteAllLines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamWriter*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: File::WriteAllText
+// Il2CppName: WriteAllText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&File::WriteAllText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: File::WriteAllText
+// Il2CppName: WriteAllText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Text::Encoding*)>(&File::WriteAllText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "WriteAllText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+  }
+};
+// Writing MetadataGetter for method: File::get_DefaultLocalFileTime
+// Il2CppName: get_DefaultLocalFileTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)()>(&File::get_DefaultLocalFileTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "get_DefaultLocalFileTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: File::AppendAllLines
+// Il2CppName: AppendAllLines
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&File::AppendAllLines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "AppendAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: File::FillAttributeInfo
+// Il2CppName: FillAttributeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::IO::MonoIOStat&, bool, bool)>(&File::FillAttributeInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(File*), "FillAttributeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::MonoIOStat&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

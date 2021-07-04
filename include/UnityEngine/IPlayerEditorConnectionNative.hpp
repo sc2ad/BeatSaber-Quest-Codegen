@@ -51,70 +51,70 @@ namespace UnityEngine {
     bool IsConnected();
   }; // UnityEngine.IPlayerEditorConnectionNative
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::Initialize
-  // Il2CppName: Initialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::Initialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::DisconnectAll
-  // Il2CppName: DisconnectAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::DisconnectAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::SendMessage
-  // Il2CppName: SendMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&IPlayerEditorConnectionNative::SendMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::TrySendMessage
-  // Il2CppName: TrySendMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&IPlayerEditorConnectionNative::TrySendMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "TrySendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::Poll
-  // Il2CppName: Poll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::Poll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::RegisterInternal
-  // Il2CppName: RegisterInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)(System::Guid)>(&IPlayerEditorConnectionNative::RegisterInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
-    }
-  };
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::UnregisterInternal
-  // Il2CppName: UnregisterInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)(System::Guid)>(&IPlayerEditorConnectionNative::UnregisterInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
-    }
-  };
-  // Writing MetadataGetter for method: IPlayerEditorConnectionNative::IsConnected
-  // Il2CppName: IsConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::IsConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IPlayerEditorConnectionNative*, "UnityEngine", "IPlayerEditorConnectionNative");
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::Initialize
+// Il2CppName: Initialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::DisconnectAll
+// Il2CppName: DisconnectAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::DisconnectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::SendMessage
+// Il2CppName: SendMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&IPlayerEditorConnectionNative::SendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::TrySendMessage
+// Il2CppName: TrySendMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&IPlayerEditorConnectionNative::TrySendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "TrySendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::Poll
+// Il2CppName: Poll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::Poll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::RegisterInternal
+// Il2CppName: RegisterInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)(System::Guid)>(&IPlayerEditorConnectionNative::RegisterInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+  }
+};
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::UnregisterInternal
+// Il2CppName: UnregisterInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPlayerEditorConnectionNative::*)(System::Guid)>(&IPlayerEditorConnectionNative::UnregisterInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+  }
+};
+// Writing MetadataGetter for method: IPlayerEditorConnectionNative::IsConnected
+// Il2CppName: IsConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IPlayerEditorConnectionNative::*)()>(&IPlayerEditorConnectionNative::IsConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPlayerEditorConnectionNative*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

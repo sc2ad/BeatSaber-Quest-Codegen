@@ -280,203 +280,203 @@ namespace System::IO {
   #pragma pack(pop)
   static check_size<sizeof(FileSystemWatcher), 192 + sizeof(System::IO::RenamedEventHandler*)> __System_IO_FileSystemWatcherSizeCheck;
   static_assert(sizeof(FileSystemWatcher) == 0xC8);
-  // Writing MetadataGetter for method: FileSystemWatcher::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(::Il2CppString*, ::Il2CppString*)>(&FileSystemWatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(::Il2CppString*, ::Il2CppString*)>(&FileSystemWatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::InitWatcher
-  // Il2CppName: InitWatcher
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::InitWatcher)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "InitWatcher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::get_Waiting
-  // Il2CppName: get_Waiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileSystemWatcher::*)()>(&FileSystemWatcher::get_Waiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_Waiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::set_Waiting
-  // Il2CppName: set_Waiting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(bool)>(&FileSystemWatcher::set_Waiting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "set_Waiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::get_MangledFilter
-  // Il2CppName: get_MangledFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileSystemWatcher::*)()>(&FileSystemWatcher::get_MangledFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_MangledFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::get_Pattern
-  // Il2CppName: get_Pattern
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::SearchPattern2* (FileSystemWatcher::*)()>(&FileSystemWatcher::get_Pattern)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_Pattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::get_FullPath
-  // Il2CppName: get_FullPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileSystemWatcher::*)()>(&FileSystemWatcher::get_FullPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_FullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::set_EnableRaisingEvents
-  // Il2CppName: set_EnableRaisingEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(bool)>(&FileSystemWatcher::set_EnableRaisingEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "set_EnableRaisingEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::get_IncludeSubdirectories
-  // Il2CppName: get_IncludeSubdirectories
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileSystemWatcher::*)()>(&FileSystemWatcher::get_IncludeSubdirectories)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_IncludeSubdirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::set_NotifyFilter
-  // Il2CppName: set_NotifyFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::NotifyFilters)>(&FileSystemWatcher::set_NotifyFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "set_NotifyFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::NotifyFilters>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::RaiseEvent
-  // Il2CppName: RaiseEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::Delegate*, System::EventArgs*, System::IO::FileSystemWatcher::EventType)>(&FileSystemWatcher::RaiseEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "RaiseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher::EventType>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::OnChanged
-  // Il2CppName: OnChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventArgs*)>(&FileSystemWatcher::OnChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::OnCreated
-  // Il2CppName: OnCreated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventArgs*)>(&FileSystemWatcher::OnCreated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::OnDeleted
-  // Il2CppName: OnDeleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventArgs*)>(&FileSystemWatcher::OnDeleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnDeleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::OnRenamed
-  // Il2CppName: OnRenamed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::RenamedEventArgs*)>(&FileSystemWatcher::OnRenamed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnRenamed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::RenamedEventArgs*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::DispatchEvents
-  // Il2CppName: DispatchEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileAction, ::Il2CppString*, System::IO::RenamedEventArgs*&)>(&FileSystemWatcher::DispatchEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "DispatchEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileAction>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::RenamedEventArgs*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::Stop
-  // Il2CppName: Stop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::Stop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::add_Changed
-  // Il2CppName: add_Changed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventHandler*)>(&FileSystemWatcher::add_Changed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "add_Changed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventHandler*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::remove_Changed
-  // Il2CppName: remove_Changed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventHandler*)>(&FileSystemWatcher::remove_Changed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "remove_Changed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventHandler*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::InternalSupportsFSW
-  // Il2CppName: InternalSupportsFSW
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&FileSystemWatcher::InternalSupportsFSW)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "InternalSupportsFSW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(bool)>(&FileSystemWatcher::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FileSystemWatcher::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FileSystemWatcher::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemWatcher*, "System.IO", "FileSystemWatcher");
+// Writing MetadataGetter for method: FileSystemWatcher::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(::Il2CppString*, ::Il2CppString*)>(&FileSystemWatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(::Il2CppString*, ::Il2CppString*)>(&FileSystemWatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::InitWatcher
+// Il2CppName: InitWatcher
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::InitWatcher)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "InitWatcher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::get_Waiting
+// Il2CppName: get_Waiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileSystemWatcher::*)()>(&FileSystemWatcher::get_Waiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_Waiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::set_Waiting
+// Il2CppName: set_Waiting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(bool)>(&FileSystemWatcher::set_Waiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "set_Waiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::get_MangledFilter
+// Il2CppName: get_MangledFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileSystemWatcher::*)()>(&FileSystemWatcher::get_MangledFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_MangledFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::get_Pattern
+// Il2CppName: get_Pattern
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::SearchPattern2* (FileSystemWatcher::*)()>(&FileSystemWatcher::get_Pattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_Pattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::get_FullPath
+// Il2CppName: get_FullPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FileSystemWatcher::*)()>(&FileSystemWatcher::get_FullPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_FullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::set_EnableRaisingEvents
+// Il2CppName: set_EnableRaisingEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(bool)>(&FileSystemWatcher::set_EnableRaisingEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "set_EnableRaisingEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::get_IncludeSubdirectories
+// Il2CppName: get_IncludeSubdirectories
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileSystemWatcher::*)()>(&FileSystemWatcher::get_IncludeSubdirectories)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "get_IncludeSubdirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::set_NotifyFilter
+// Il2CppName: set_NotifyFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::NotifyFilters)>(&FileSystemWatcher::set_NotifyFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "set_NotifyFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::NotifyFilters>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::RaiseEvent
+// Il2CppName: RaiseEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::Delegate*, System::EventArgs*, System::IO::FileSystemWatcher::EventType)>(&FileSystemWatcher::RaiseEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "RaiseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher::EventType>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::OnChanged
+// Il2CppName: OnChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventArgs*)>(&FileSystemWatcher::OnChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::OnCreated
+// Il2CppName: OnCreated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventArgs*)>(&FileSystemWatcher::OnCreated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::OnDeleted
+// Il2CppName: OnDeleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventArgs*)>(&FileSystemWatcher::OnDeleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnDeleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::OnRenamed
+// Il2CppName: OnRenamed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::RenamedEventArgs*)>(&FileSystemWatcher::OnRenamed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "OnRenamed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::RenamedEventArgs*>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::DispatchEvents
+// Il2CppName: DispatchEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileAction, ::Il2CppString*, System::IO::RenamedEventArgs*&)>(&FileSystemWatcher::DispatchEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "DispatchEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileAction>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::RenamedEventArgs*&>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::Stop
+// Il2CppName: Stop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::Stop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::add_Changed
+// Il2CppName: add_Changed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventHandler*)>(&FileSystemWatcher::add_Changed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "add_Changed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventHandler*>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::remove_Changed
+// Il2CppName: remove_Changed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(System::IO::FileSystemEventHandler*)>(&FileSystemWatcher::remove_Changed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "remove_Changed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventHandler*>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::InternalSupportsFSW
+// Il2CppName: InternalSupportsFSW
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&FileSystemWatcher::InternalSupportsFSW)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "InternalSupportsFSW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)(bool)>(&FileSystemWatcher::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemWatcher::*)()>(&FileSystemWatcher::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileSystemWatcher::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FileSystemWatcher::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileSystemWatcher*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

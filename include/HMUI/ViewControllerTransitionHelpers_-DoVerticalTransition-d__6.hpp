@@ -100,59 +100,59 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6), 56 + sizeof(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0*)> __HMUI_ViewControllerTransitionHelpers_$DoVerticalTransition$d__6SizeCheck;
   static_assert(sizeof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6) == 0x40);
-  // Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)(int)>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)(int)>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*, "HMUI", "ViewControllerTransitionHelpers/<DoVerticalTransition>d__6");
+// Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)(int)>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)(int)>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::*)()>(&ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -67,43 +67,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MockNodePoseSyncStateSender), 16 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_MockNodePoseSyncStateSenderSizeCheck;
   static_assert(sizeof(MockNodePoseSyncStateSender) == 0x18);
-  // Writing MetadataGetter for method: MockNodePoseSyncStateSender::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::IMultiplayerSessionManager*)>(&MockNodePoseSyncStateSender::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::IMultiplayerSessionManager*)>(&MockNodePoseSyncStateSender::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockNodePoseSyncStateSender::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)()>(&MockNodePoseSyncStateSender::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MockNodePoseSyncStateSender::SendPose
-  // Il2CppName: SendPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable)>(&MockNodePoseSyncStateSender::SendPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), "SendPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockNodePoseSyncStateSender::HandleNodePoseSyncStateUpdate
-  // Il2CppName: HandleNodePoseSyncStateUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::NodePoseSyncStateNetSerializable*, GlobalNamespace::IConnectedPlayer*)>(&MockNodePoseSyncStateSender::HandleNodePoseSyncStateUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), "HandleNodePoseSyncStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNodePoseSyncStateSender*, "", "MockNodePoseSyncStateSender");
+// Writing MetadataGetter for method: MockNodePoseSyncStateSender::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::IMultiplayerSessionManager*)>(&MockNodePoseSyncStateSender::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::IMultiplayerSessionManager*)>(&MockNodePoseSyncStateSender::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
+  }
+};
+// Writing MetadataGetter for method: MockNodePoseSyncStateSender::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)()>(&MockNodePoseSyncStateSender::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MockNodePoseSyncStateSender::SendPose
+// Il2CppName: SendPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable)>(&MockNodePoseSyncStateSender::SendPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), "SendPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>()});
+  }
+};
+// Writing MetadataGetter for method: MockNodePoseSyncStateSender::HandleNodePoseSyncStateUpdate
+// Il2CppName: HandleNodePoseSyncStateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNodePoseSyncStateSender::*)(GlobalNamespace::NodePoseSyncStateNetSerializable*, GlobalNamespace::IConnectedPlayer*)>(&MockNodePoseSyncStateSender::HandleNodePoseSyncStateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockNodePoseSyncStateSender*), "HandleNodePoseSyncStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};

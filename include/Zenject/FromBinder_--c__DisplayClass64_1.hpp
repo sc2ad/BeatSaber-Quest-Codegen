@@ -56,27 +56,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(FromBinder::$$c__DisplayClass64_1), 16 + sizeof(UnityEngine::MonoBehaviour*)> __Zenject_FromBinder_$$c__DisplayClass64_1SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass64_1) == 0x18);
-  // Writing MetadataGetter for method: FromBinder::$$c__DisplayClass64_1::$FromComponentsSibling$b__2
-  // Il2CppName: <FromComponentsSibling>b__2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FromBinder::$$c__DisplayClass64_1::*)(UnityEngine::Component*)>(&FromBinder::$$c__DisplayClass64_1::$FromComponentsSibling$b__2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass64_1*), "<FromComponentsSibling>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c__DisplayClass64_1::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass64_1::*)()>(&FromBinder::$$c__DisplayClass64_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass64_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass64_1::*)()>(&FromBinder::$$c__DisplayClass64_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass64_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass64_1*, "Zenject", "FromBinder/<>c__DisplayClass64_1");
+// Writing MetadataGetter for method: FromBinder::$$c__DisplayClass64_1::$FromComponentsSibling$b__2
+// Il2CppName: <FromComponentsSibling>b__2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FromBinder::$$c__DisplayClass64_1::*)(UnityEngine::Component*)>(&FromBinder::$$c__DisplayClass64_1::$FromComponentsSibling$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass64_1*), "<FromComponentsSibling>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c__DisplayClass64_1::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass64_1::*)()>(&FromBinder::$$c__DisplayClass64_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass64_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass64_1::*)()>(&FromBinder::$$c__DisplayClass64_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass64_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

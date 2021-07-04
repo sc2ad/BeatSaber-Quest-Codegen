@@ -75,67 +75,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BaseMasterServerReliableRequest), 16 + sizeof(uint)> __GlobalNamespace_BaseMasterServerReliableRequestSizeCheck;
   static_assert(sizeof(BaseMasterServerReliableRequest) == 0x14);
-  // Writing MetadataGetter for method: BaseMasterServerReliableRequest::get_requestId
-  // Il2CppName: get_requestId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::get_requestId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "get_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerReliableRequest::set_requestId
-  // Il2CppName: set_requestId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)(uint)>(&BaseMasterServerReliableRequest::set_requestId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "set_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerReliableRequest::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&BaseMasterServerReliableRequest::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerReliableRequest::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&BaseMasterServerReliableRequest::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerReliableRequest::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerReliableRequest::MasterServer_IMasterServerReliableRequest_WithRequestId
-  // Il2CppName: MasterServer.IMasterServerReliableRequest.WithRequestId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableRequest* (BaseMasterServerReliableRequest::*)(uint)>(&BaseMasterServerReliableRequest::MasterServer_IMasterServerReliableRequest_WithRequestId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "MasterServer.IMasterServerReliableRequest.WithRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerReliableRequest::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerReliableRequest*, "", "BaseMasterServerReliableRequest");
+// Writing MetadataGetter for method: BaseMasterServerReliableRequest::get_requestId
+// Il2CppName: get_requestId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::get_requestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "get_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerReliableRequest::set_requestId
+// Il2CppName: set_requestId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)(uint)>(&BaseMasterServerReliableRequest::set_requestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "set_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerReliableRequest::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&BaseMasterServerReliableRequest::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerReliableRequest::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&BaseMasterServerReliableRequest::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerReliableRequest::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerReliableRequest::MasterServer_IMasterServerReliableRequest_WithRequestId
+// Il2CppName: MasterServer.IMasterServerReliableRequest.WithRequestId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableRequest* (BaseMasterServerReliableRequest::*)(uint)>(&BaseMasterServerReliableRequest::MasterServer_IMasterServerReliableRequest_WithRequestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), "MasterServer.IMasterServerReliableRequest.WithRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerReliableRequest::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerReliableRequest::*)()>(&BaseMasterServerReliableRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerReliableRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

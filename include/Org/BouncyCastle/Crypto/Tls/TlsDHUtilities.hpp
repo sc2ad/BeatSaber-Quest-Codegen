@@ -110,62 +110,62 @@ namespace Org::BouncyCastle::Crypto::Tls {
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Tls.TlsDHUtilities
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TlsDHUtilities::FromHex
-  // Il2CppName: FromHex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&TlsDHUtilities::FromHex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsDHUtilities::FromSafeP
-  // Il2CppName: FromSafeP
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::Il2CppString*)>(&TlsDHUtilities::FromSafeP)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "FromSafeP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsDHUtilities::GenerateDHKeyPair
-  // Il2CppName: GenerateDHKeyPair
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (*)(Org::BouncyCastle::Security::SecureRandom*, Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&TlsDHUtilities::GenerateDHKeyPair)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "GenerateDHKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DHParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsDHUtilities::GenerateEphemeralClientKeyExchange
-  // Il2CppName: GenerateEphemeralClientKeyExchange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* (*)(Org::BouncyCastle::Security::SecureRandom*, Org::BouncyCastle::Crypto::Parameters::DHParameters*, System::IO::Stream*)>(&TlsDHUtilities::GenerateEphemeralClientKeyExchange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "GenerateEphemeralClientKeyExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsDHUtilities::ReadDHParameter
-  // Il2CppName: ReadDHParameter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(System::IO::Stream*)>(&TlsDHUtilities::ReadDHParameter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "ReadDHParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsDHUtilities::WriteDHParameter
-  // Il2CppName: WriteDHParameter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::BigInteger*, System::IO::Stream*)>(&TlsDHUtilities::WriteDHParameter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "WriteDHParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TlsDHUtilities::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TlsDHUtilities::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsDHUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsDHUtilities");
+// Writing MetadataGetter for method: TlsDHUtilities::FromHex
+// Il2CppName: FromHex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&TlsDHUtilities::FromHex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsDHUtilities::FromSafeP
+// Il2CppName: FromSafeP
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::Il2CppString*)>(&TlsDHUtilities::FromSafeP)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "FromSafeP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsDHUtilities::GenerateDHKeyPair
+// Il2CppName: GenerateDHKeyPair
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (*)(Org::BouncyCastle::Security::SecureRandom*, Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&TlsDHUtilities::GenerateDHKeyPair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "GenerateDHKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DHParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsDHUtilities::GenerateEphemeralClientKeyExchange
+// Il2CppName: GenerateEphemeralClientKeyExchange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* (*)(Org::BouncyCastle::Security::SecureRandom*, Org::BouncyCastle::Crypto::Parameters::DHParameters*, System::IO::Stream*)>(&TlsDHUtilities::GenerateEphemeralClientKeyExchange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "GenerateEphemeralClientKeyExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsDHUtilities::ReadDHParameter
+// Il2CppName: ReadDHParameter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(System::IO::Stream*)>(&TlsDHUtilities::ReadDHParameter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "ReadDHParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsDHUtilities::WriteDHParameter
+// Il2CppName: WriteDHParameter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::BigInteger*, System::IO::Stream*)>(&TlsDHUtilities::WriteDHParameter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), "WriteDHParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TlsDHUtilities::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TlsDHUtilities::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TlsDHUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

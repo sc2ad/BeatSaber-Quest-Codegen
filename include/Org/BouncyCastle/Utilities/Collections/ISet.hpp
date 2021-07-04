@@ -27,14 +27,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
     void Add(::Il2CppObject* o);
   }; // Org.BouncyCastle.Utilities.Collections.ISet
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ISet::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISet::*)(::Il2CppObject*)>(&ISet::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ISet*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::ISet*, "Org.BouncyCastle.Utilities.Collections", "ISet");
+// Writing MetadataGetter for method: ISet::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISet::*)(::Il2CppObject*)>(&ISet::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ISet*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

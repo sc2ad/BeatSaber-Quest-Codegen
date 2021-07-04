@@ -30,22 +30,22 @@ namespace HMUI {
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
   }; // HMUI.SegmentedControl/IDataSource
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SegmentedControl::IDataSource::NumberOfCells
-  // Il2CppName: NumberOfCells
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SegmentedControl::IDataSource::*)()>(&SegmentedControl::IDataSource::NumberOfCells)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SegmentedControl::IDataSource*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SegmentedControl::IDataSource::CellForCellNumber
-  // Il2CppName: CellForCellNumber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (SegmentedControl::IDataSource::*)(int)>(&SegmentedControl::IDataSource::CellForCellNumber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SegmentedControl::IDataSource*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl::IDataSource*, "HMUI", "SegmentedControl/IDataSource");
+// Writing MetadataGetter for method: SegmentedControl::IDataSource::NumberOfCells
+// Il2CppName: NumberOfCells
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SegmentedControl::IDataSource::*)()>(&SegmentedControl::IDataSource::NumberOfCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SegmentedControl::IDataSource*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SegmentedControl::IDataSource::CellForCellNumber
+// Il2CppName: CellForCellNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (SegmentedControl::IDataSource::*)(int)>(&SegmentedControl::IDataSource::CellForCellNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SegmentedControl::IDataSource*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

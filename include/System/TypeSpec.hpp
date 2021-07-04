@@ -151,123 +151,123 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(TypeSpec), 64 + sizeof(::Il2CppString*)> __System_TypeSpecSizeCheck;
   static_assert(sizeof(TypeSpec) == 0x48);
-  // Writing MetadataGetter for method: TypeSpec::get_HasModifiers
-  // Il2CppName: get_HasModifiers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeSpec::*)()>(&TypeSpec::get_HasModifiers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "get_HasModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::GetDisplayFullName
-  // Il2CppName: GetDisplayFullName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeSpec::*)(System::TypeSpec::DisplayNameFormat)>(&TypeSpec::GetDisplayFullName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "GetDisplayFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypeSpec::DisplayNameFormat>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::GetModifierString
-  // Il2CppName: GetModifierString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (TypeSpec::*)(System::Text::StringBuilder*)>(&TypeSpec::GetModifierString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "GetModifierString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::get_DisplayFullName
-  // Il2CppName: get_DisplayFullName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeSpec::*)()>(&TypeSpec::get_DisplayFullName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "get_DisplayFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::Parse
-  // Il2CppName: Parse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*)>(&TypeSpec::Parse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::UnescapeInternalName
-  // Il2CppName: UnescapeInternalName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TypeSpec::UnescapeInternalName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "UnescapeInternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::Resolve
-  // Il2CppName: Resolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeSpec::*)(System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*, bool, bool)>(&TypeSpec::Resolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::AddName
-  // Il2CppName: AddName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)(::Il2CppString*)>(&TypeSpec::AddName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "AddName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::AddModifier
-  // Il2CppName: AddModifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)(System::ModifierSpec*)>(&TypeSpec::AddModifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "AddModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ModifierSpec*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::SkipSpace
-  // Il2CppName: SkipSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int&)>(&TypeSpec::SkipSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "SkipSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::BoundCheck
-  // Il2CppName: BoundCheck
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&TypeSpec::BoundCheck)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "BoundCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::ParsedTypeIdentifier
-  // Il2CppName: ParsedTypeIdentifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeIdentifier* (*)(::Il2CppString*)>(&TypeSpec::ParsedTypeIdentifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "ParsedTypeIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::Parse
-  // Il2CppName: Parse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*, int&, bool, bool)>(&TypeSpec::Parse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeSpec::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)()>(&TypeSpec::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)()>(&TypeSpec::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec*, "System", "TypeSpec");
+// Writing MetadataGetter for method: TypeSpec::get_HasModifiers
+// Il2CppName: get_HasModifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeSpec::*)()>(&TypeSpec::get_HasModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "get_HasModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::GetDisplayFullName
+// Il2CppName: GetDisplayFullName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeSpec::*)(System::TypeSpec::DisplayNameFormat)>(&TypeSpec::GetDisplayFullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "GetDisplayFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypeSpec::DisplayNameFormat>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::GetModifierString
+// Il2CppName: GetModifierString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (TypeSpec::*)(System::Text::StringBuilder*)>(&TypeSpec::GetModifierString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "GetModifierString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::get_DisplayFullName
+// Il2CppName: get_DisplayFullName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeSpec::*)()>(&TypeSpec::get_DisplayFullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "get_DisplayFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*)>(&TypeSpec::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::UnescapeInternalName
+// Il2CppName: UnescapeInternalName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TypeSpec::UnescapeInternalName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "UnescapeInternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::Resolve
+// Il2CppName: Resolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeSpec::*)(System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*, bool, bool)>(&TypeSpec::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::AddName
+// Il2CppName: AddName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)(::Il2CppString*)>(&TypeSpec::AddName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "AddName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::AddModifier
+// Il2CppName: AddModifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)(System::ModifierSpec*)>(&TypeSpec::AddModifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "AddModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ModifierSpec*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::SkipSpace
+// Il2CppName: SkipSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int&)>(&TypeSpec::SkipSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "SkipSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::BoundCheck
+// Il2CppName: BoundCheck
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&TypeSpec::BoundCheck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "BoundCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::ParsedTypeIdentifier
+// Il2CppName: ParsedTypeIdentifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeIdentifier* (*)(::Il2CppString*)>(&TypeSpec::ParsedTypeIdentifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "ParsedTypeIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*, int&, bool, bool)>(&TypeSpec::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TypeSpec::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)()>(&TypeSpec::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeSpec::*)()>(&TypeSpec::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

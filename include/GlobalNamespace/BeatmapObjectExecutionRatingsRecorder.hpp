@@ -131,52 +131,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler), 40 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>*)> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorder_CutScoreHandlerSizeCheck;
     static_assert(sizeof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler) == 0x30);
-    // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::get_didFinishEvent
-    // Il2CppName: get_didFinishEvent
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::*)()>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::get_didFinishEvent)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*), "get_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Set
-    // Il2CppName: Set
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::*)(GlobalNamespace::NoteCutInfo&, GlobalNamespace::NoteExecutionRating*, GlobalNamespace::ISaberSwingRatingCounter*)>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Set)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteExecutionRating*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
-      }
-    };
-    // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Reinitialize
-    // Il2CppName: Reinitialize
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::*)()>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Reinitialize)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*), "Reinitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::HandleSaberSwingRatingCounterDidFinish
-    // Il2CppName: HandleSaberSwingRatingCounterDidFinish
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::HandleSaberSwingRatingCounterDidFinish)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
-      }
-    };
-    // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::New_ctor
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::*)()>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::*)()>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
     // [InjectAttribute] Offset: 0xE18D70
     // private readonly IScoreController _scoreController
     // Size: 0x8
@@ -279,84 +233,84 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectExecutionRatingsRecorder), 80 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorderSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRatingsRecorder) == 0x58);
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings
-  // Il2CppName: get_beatmapObjectExecutionRatings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "get_beatmapObjectExecutionRatings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleCutScoreHandlerDidFinish
-  // Il2CppName: HandleCutScoreHandlerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*)>(&BeatmapObjectExecutionRatingsRecorder::HandleCutScoreHandlerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleCutScoreHandlerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut
-  // Il2CppName: HandleScoreControllerNoteWasCut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int)>(&BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleScoreControllerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasMissed
-  // Il2CppName: HandleScoreControllerNoteWasMissed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, int)>(&BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasMissed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleScoreControllerNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleObstacleDidPassAvoidedMark
-  // Il2CppName: HandleObstacleDidPassAvoidedMark
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::ObstacleController*)>(&BeatmapObjectExecutionRatingsRecorder::HandleObstacleDidPassAvoidedMark)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleObstacleDidPassAvoidedMark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*, "", "BeatmapObjectExecutionRatingsRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler");
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings
+// Il2CppName: get_beatmapObjectExecutionRatings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "get_beatmapObjectExecutionRatings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleCutScoreHandlerDidFinish
+// Il2CppName: HandleCutScoreHandlerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*)>(&BeatmapObjectExecutionRatingsRecorder::HandleCutScoreHandlerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleCutScoreHandlerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>()});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut
+// Il2CppName: HandleScoreControllerNoteWasCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int)>(&BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleScoreControllerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasMissed
+// Il2CppName: HandleScoreControllerNoteWasMissed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, int)>(&BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasMissed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleScoreControllerNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::HandleObstacleDidPassAvoidedMark
+// Il2CppName: HandleObstacleDidPassAvoidedMark
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::ObstacleController*)>(&BeatmapObjectExecutionRatingsRecorder::HandleObstacleDidPassAvoidedMark)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), "HandleObstacleDidPassAvoidedMark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+  }
+};
+// Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::*)()>(&BeatmapObjectExecutionRatingsRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

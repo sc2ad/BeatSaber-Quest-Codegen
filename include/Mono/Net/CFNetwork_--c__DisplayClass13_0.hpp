@@ -63,27 +63,27 @@ namespace Mono::Net {
   #pragma pack(pop)
   static check_size<sizeof(CFNetwork::$$c__DisplayClass13_0), 24 + sizeof(Mono::Net::CFRunLoop*)> __Mono_Net_CFNetwork_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(CFNetwork::$$c__DisplayClass13_0) == 0x20);
-  // Writing MetadataGetter for method: CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0
-  // Il2CppName: <ExecuteProxyAutoConfigurationURL>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::$$c__DisplayClass13_0::*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CFNetwork::$$c__DisplayClass13_0*), "<ExecuteProxyAutoConfigurationURL>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: CFNetwork::$$c__DisplayClass13_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::$$c__DisplayClass13_0::*)()>(&CFNetwork::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CFNetwork::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::$$c__DisplayClass13_0::*)()>(&CFNetwork::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CFNetwork::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::$$c__DisplayClass13_0*, "Mono.Net", "CFNetwork/<>c__DisplayClass13_0");
+// Writing MetadataGetter for method: CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0
+// Il2CppName: <ExecuteProxyAutoConfigurationURL>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::$$c__DisplayClass13_0::*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CFNetwork::$$c__DisplayClass13_0*), "<ExecuteProxyAutoConfigurationURL>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: CFNetwork::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::$$c__DisplayClass13_0::*)()>(&CFNetwork::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CFNetwork::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::$$c__DisplayClass13_0::*)()>(&CFNetwork::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CFNetwork::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

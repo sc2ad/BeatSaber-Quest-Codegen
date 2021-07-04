@@ -382,236 +382,236 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifiers), 43 + sizeof(bool)> __GlobalNamespace_GameplayModifiersSizeCheck;
   static_assert(sizeof(GameplayModifiers) == 0x2C);
-  // Writing MetadataGetter for method: GameplayModifiers::get_energyType
-  // Il2CppName: get_energyType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::EnergyType (GameplayModifiers::*)()>(&GameplayModifiers::get_energyType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_energyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_noFailOn0Energy
-  // Il2CppName: get_noFailOn0Energy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_noFailOn0Energy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_noFailOn0Energy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_demoNoFail
-  // Il2CppName: get_demoNoFail
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_demoNoFail)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_demoNoFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_instaFail
-  // Il2CppName: get_instaFail
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_instaFail)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_instaFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_failOnSaberClash
-  // Il2CppName: get_failOnSaberClash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_failOnSaberClash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_failOnSaberClash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_enabledObstacleType
-  // Il2CppName: get_enabledObstacleType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::EnabledObstacleType (GameplayModifiers::*)()>(&GameplayModifiers::get_enabledObstacleType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_enabledObstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_demoNoObstacles
-  // Il2CppName: get_demoNoObstacles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_demoNoObstacles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_demoNoObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_fastNotes
-  // Il2CppName: get_fastNotes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_fastNotes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_fastNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_strictAngles
-  // Il2CppName: get_strictAngles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_strictAngles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_strictAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_disappearingArrows
-  // Il2CppName: get_disappearingArrows
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_disappearingArrows)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_disappearingArrows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_ghostNotes
-  // Il2CppName: get_ghostNotes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_ghostNotes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_ghostNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_noBombs
-  // Il2CppName: get_noBombs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_noBombs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_noBombs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_songSpeed
-  // Il2CppName: get_songSpeed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::SongSpeed (GameplayModifiers::*)()>(&GameplayModifiers::get_songSpeed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_songSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_noArrows
-  // Il2CppName: get_noArrows
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_noArrows)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_noArrows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_proMode
-  // Il2CppName: get_proMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_proMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_proMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_zenMode
-  // Il2CppName: get_zenMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_zenMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_zenMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_smallCubes
-  // Il2CppName: get_smallCubes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_smallCubes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_smallCubes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_songSpeedMul
-  // Il2CppName: get_songSpeedMul
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayModifiers::*)()>(&GameplayModifiers::get_songSpeedMul)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_songSpeedMul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_cutAngleTolerance
-  // Il2CppName: get_cutAngleTolerance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayModifiers::*)()>(&GameplayModifiers::get_cutAngleTolerance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_cutAngleTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::get_notesUniformScale
-  // Il2CppName: get_notesUniformScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayModifiers::*)()>(&GameplayModifiers::get_notesUniformScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_notesUniformScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)(bool, bool, GlobalNamespace::GameplayModifiers::EnergyType, bool, bool, bool, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool, bool, bool, bool, GlobalNamespace::GameplayModifiers::SongSpeed, bool, bool, bool, bool, bool)>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnergyType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::SongSpeed>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)(bool, bool, GlobalNamespace::GameplayModifiers::EnergyType, bool, bool, bool, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool, bool, bool, bool, GlobalNamespace::GameplayModifiers::SongSpeed, bool, bool, bool, bool, bool)>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnergyType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::SongSpeed>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::CopyWith
-  // Il2CppName: CopyWith
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GameplayModifiers::*)(System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::GameplayModifiers::EnergyType>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::GameplayModifiers::EnabledObstacleType>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::GameplayModifiers::SongSpeed>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>)>(&GameplayModifiers::CopyWith)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::GameplayModifiers::EnergyType>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::GameplayModifiers::EnabledObstacleType>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::GameplayModifiers::SongSpeed>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::IsWithoutModifiers
-  // Il2CppName: IsWithoutModifiers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::IsWithoutModifiers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "IsWithoutModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)(LiteNetLib::Utils::NetDataWriter*)>(&GameplayModifiers::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::LiteNetLib_Utils_INetImmutableSerializable$GameplayModifiers$_CreateFromSerializedData
-  // Il2CppName: LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GameplayModifiers::*)(LiteNetLib::Utils::NetDataReader*)>(&GameplayModifiers::LiteNetLib_Utils_INetImmutableSerializable$GameplayModifiers$_CreateFromSerializedData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::CreateFromSerializedData
-  // Il2CppName: CreateFromSerializedData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (*)(LiteNetLib::Utils::NetDataReader*)>(&GameplayModifiers::CreateFromSerializedData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiers::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)()>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)()>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers*, "", "GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnabledObstacleType, "", "GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnergyType, "", "GameplayModifiers/EnergyType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::SongSpeed, "", "GameplayModifiers/SongSpeed");
+// Writing MetadataGetter for method: GameplayModifiers::get_energyType
+// Il2CppName: get_energyType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::EnergyType (GameplayModifiers::*)()>(&GameplayModifiers::get_energyType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_energyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_noFailOn0Energy
+// Il2CppName: get_noFailOn0Energy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_noFailOn0Energy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_noFailOn0Energy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_demoNoFail
+// Il2CppName: get_demoNoFail
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_demoNoFail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_demoNoFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_instaFail
+// Il2CppName: get_instaFail
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_instaFail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_instaFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_failOnSaberClash
+// Il2CppName: get_failOnSaberClash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_failOnSaberClash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_failOnSaberClash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_enabledObstacleType
+// Il2CppName: get_enabledObstacleType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::EnabledObstacleType (GameplayModifiers::*)()>(&GameplayModifiers::get_enabledObstacleType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_enabledObstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_demoNoObstacles
+// Il2CppName: get_demoNoObstacles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_demoNoObstacles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_demoNoObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_fastNotes
+// Il2CppName: get_fastNotes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_fastNotes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_fastNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_strictAngles
+// Il2CppName: get_strictAngles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_strictAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_strictAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_disappearingArrows
+// Il2CppName: get_disappearingArrows
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_disappearingArrows)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_disappearingArrows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_ghostNotes
+// Il2CppName: get_ghostNotes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_ghostNotes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_ghostNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_noBombs
+// Il2CppName: get_noBombs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_noBombs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_noBombs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_songSpeed
+// Il2CppName: get_songSpeed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::SongSpeed (GameplayModifiers::*)()>(&GameplayModifiers::get_songSpeed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_songSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_noArrows
+// Il2CppName: get_noArrows
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_noArrows)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_noArrows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_proMode
+// Il2CppName: get_proMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_proMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_proMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_zenMode
+// Il2CppName: get_zenMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_zenMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_zenMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_smallCubes
+// Il2CppName: get_smallCubes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::get_smallCubes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_smallCubes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_songSpeedMul
+// Il2CppName: get_songSpeedMul
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayModifiers::*)()>(&GameplayModifiers::get_songSpeedMul)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_songSpeedMul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_cutAngleTolerance
+// Il2CppName: get_cutAngleTolerance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayModifiers::*)()>(&GameplayModifiers::get_cutAngleTolerance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_cutAngleTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::get_notesUniformScale
+// Il2CppName: get_notesUniformScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayModifiers::*)()>(&GameplayModifiers::get_notesUniformScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "get_notesUniformScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)(bool, bool, GlobalNamespace::GameplayModifiers::EnergyType, bool, bool, bool, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool, bool, bool, bool, GlobalNamespace::GameplayModifiers::SongSpeed, bool, bool, bool, bool, bool)>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnergyType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::SongSpeed>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)(bool, bool, GlobalNamespace::GameplayModifiers::EnergyType, bool, bool, bool, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool, bool, bool, bool, GlobalNamespace::GameplayModifiers::SongSpeed, bool, bool, bool, bool, bool)>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnergyType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::SongSpeed>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::CopyWith
+// Il2CppName: CopyWith
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GameplayModifiers::*)(System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::GameplayModifiers::EnergyType>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::GameplayModifiers::EnabledObstacleType>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::GameplayModifiers::SongSpeed>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>)>(&GameplayModifiers::CopyWith)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::GameplayModifiers::EnergyType>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::GameplayModifiers::EnabledObstacleType>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::GameplayModifiers::SongSpeed>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::IsWithoutModifiers
+// Il2CppName: IsWithoutModifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiers::*)()>(&GameplayModifiers::IsWithoutModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "IsWithoutModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)(LiteNetLib::Utils::NetDataWriter*)>(&GameplayModifiers::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::LiteNetLib_Utils_INetImmutableSerializable$GameplayModifiers$_CreateFromSerializedData
+// Il2CppName: LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GameplayModifiers::*)(LiteNetLib::Utils::NetDataReader*)>(&GameplayModifiers::LiteNetLib_Utils_INetImmutableSerializable$GameplayModifiers$_CreateFromSerializedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::CreateFromSerializedData
+// Il2CppName: CreateFromSerializedData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (*)(LiteNetLib::Utils::NetDataReader*)>(&GameplayModifiers::CreateFromSerializedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)()>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiers::*)()>(&GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

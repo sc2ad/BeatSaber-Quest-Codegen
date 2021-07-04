@@ -101,30 +101,30 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_FontStyleStack), 9 + sizeof(uint8_t)> __TMPro_TMP_FontStyleStackSizeCheck;
   static_assert(sizeof(TMP_FontStyleStack) == 0xA);
-  // Writing MetadataGetter for method: TMP_FontStyleStack::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontStyleStack::*)()>(&TMP_FontStyleStack::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_FontStyleStack), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_FontStyleStack::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (TMP_FontStyleStack::*)(TMPro::FontStyles)>(&TMP_FontStyleStack::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_FontStyleStack), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontStyles>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_FontStyleStack::Remove
-  // Il2CppName: Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (TMP_FontStyleStack::*)(TMPro::FontStyles)>(&TMP_FontStyleStack::Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_FontStyleStack), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontStyles>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");
+// Writing MetadataGetter for method: TMP_FontStyleStack::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontStyleStack::*)()>(&TMP_FontStyleStack::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_FontStyleStack), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_FontStyleStack::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (TMP_FontStyleStack::*)(TMPro::FontStyles)>(&TMP_FontStyleStack::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_FontStyleStack), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontStyles>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_FontStyleStack::Remove
+// Il2CppName: Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (TMP_FontStyleStack::*)(TMPro::FontStyles)>(&TMP_FontStyleStack::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_FontStyleStack), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontStyles>()});
+  }
+};

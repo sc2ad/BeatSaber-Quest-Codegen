@@ -22,22 +22,22 @@ namespace System::Threading {
     static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout);
   }; // System.Threading.TimeoutHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TimeoutHelper::GetTime
-  // Il2CppName: GetTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&TimeoutHelper::GetTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeoutHelper*), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeoutHelper::UpdateTimeOut
-  // Il2CppName: UpdateTimeOut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint, int)>(&TimeoutHelper::UpdateTimeOut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeoutHelper*), "UpdateTimeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimeoutHelper*, "System.Threading", "TimeoutHelper");
+// Writing MetadataGetter for method: TimeoutHelper::GetTime
+// Il2CppName: GetTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&TimeoutHelper::GetTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeoutHelper*), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeoutHelper::UpdateTimeOut
+// Il2CppName: UpdateTimeOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint, int)>(&TimeoutHelper::UpdateTimeOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeoutHelper*), "UpdateTimeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

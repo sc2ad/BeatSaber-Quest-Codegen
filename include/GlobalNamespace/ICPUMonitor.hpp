@@ -21,22 +21,22 @@ namespace GlobalNamespace {
     void PollUpdate();
   }; // ICPUMonitor
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ICPUMonitor::get_utilization
-  // Il2CppName: get_utilization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ICPUMonitor::*)()>(&ICPUMonitor::get_utilization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ICPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ICPUMonitor::PollUpdate
-  // Il2CppName: PollUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICPUMonitor::*)()>(&ICPUMonitor::PollUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ICPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICPUMonitor*, "", "ICPUMonitor");
+// Writing MetadataGetter for method: ICPUMonitor::get_utilization
+// Il2CppName: get_utilization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ICPUMonitor::*)()>(&ICPUMonitor::get_utilization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ICPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ICPUMonitor::PollUpdate
+// Il2CppName: PollUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICPUMonitor::*)()>(&ICPUMonitor::PollUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ICPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

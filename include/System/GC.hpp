@@ -58,102 +58,102 @@ namespace System {
     static void _cctor();
   }; // System.GC
   #pragma pack(pop)
-  // Writing MetadataGetter for method: GC::GetMaxGeneration
-  // Il2CppName: GetMaxGeneration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GC::GetMaxGeneration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "GetMaxGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GC::InternalCollect
-  // Il2CppName: InternalCollect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GC::InternalCollect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "InternalCollect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GC::register_ephemeron_array
-  // Il2CppName: register_ephemeron_array
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::Runtime::CompilerServices::Ephemeron>*)>(&GC::register_ephemeron_array)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "register_ephemeron_array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::CompilerServices::Ephemeron>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GC::get_ephemeron_tombstone
-  // Il2CppName: get_ephemeron_tombstone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&GC::get_ephemeron_tombstone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "get_ephemeron_tombstone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GC::Collect
-  // Il2CppName: Collect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GC::Collect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "Collect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GC::KeepAlive
-  // Il2CppName: KeepAlive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::KeepAlive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "KeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GC::get_MaxGeneration
-  // Il2CppName: get_MaxGeneration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GC::get_MaxGeneration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "get_MaxGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GC::_SuppressFinalize
-  // Il2CppName: _SuppressFinalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::_SuppressFinalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "_SuppressFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GC::SuppressFinalize
-  // Il2CppName: SuppressFinalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::SuppressFinalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "SuppressFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GC::_ReRegisterForFinalize
-  // Il2CppName: _ReRegisterForFinalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::_ReRegisterForFinalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "_ReRegisterForFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GC::ReRegisterForFinalize
-  // Il2CppName: ReRegisterForFinalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::ReRegisterForFinalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), "ReRegisterForFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GC::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GC::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GC*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::GC*, "System", "GC");
+// Writing MetadataGetter for method: GC::GetMaxGeneration
+// Il2CppName: GetMaxGeneration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GC::GetMaxGeneration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "GetMaxGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GC::InternalCollect
+// Il2CppName: InternalCollect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GC::InternalCollect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "InternalCollect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GC::register_ephemeron_array
+// Il2CppName: register_ephemeron_array
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::Runtime::CompilerServices::Ephemeron>*)>(&GC::register_ephemeron_array)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "register_ephemeron_array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::CompilerServices::Ephemeron>*>()});
+  }
+};
+// Writing MetadataGetter for method: GC::get_ephemeron_tombstone
+// Il2CppName: get_ephemeron_tombstone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&GC::get_ephemeron_tombstone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "get_ephemeron_tombstone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GC::Collect
+// Il2CppName: Collect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GC::Collect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "Collect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GC::KeepAlive
+// Il2CppName: KeepAlive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::KeepAlive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "KeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GC::get_MaxGeneration
+// Il2CppName: get_MaxGeneration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GC::get_MaxGeneration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "get_MaxGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GC::_SuppressFinalize
+// Il2CppName: _SuppressFinalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::_SuppressFinalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "_SuppressFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GC::SuppressFinalize
+// Il2CppName: SuppressFinalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::SuppressFinalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "SuppressFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GC::_ReRegisterForFinalize
+// Il2CppName: _ReRegisterForFinalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::_ReRegisterForFinalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "_ReRegisterForFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GC::ReRegisterForFinalize
+// Il2CppName: ReRegisterForFinalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&GC::ReRegisterForFinalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), "ReRegisterForFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GC::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GC::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GC*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

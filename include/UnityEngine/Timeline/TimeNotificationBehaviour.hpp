@@ -105,30 +105,6 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(TimeNotificationBehaviour::NotificationEntry), 18 + sizeof(UnityEngine::Timeline::NotificationFlags)> __UnityEngine_Timeline_TimeNotificationBehaviour_NotificationEntrySizeCheck;
     static_assert(sizeof(TimeNotificationBehaviour::NotificationEntry) == 0x14);
-    // Writing MetadataGetter for method: TimeNotificationBehaviour::NotificationEntry::get_triggerInEditor
-    // Il2CppName: get_triggerInEditor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeNotificationBehaviour::NotificationEntry::*)()>(&TimeNotificationBehaviour::NotificationEntry::get_triggerInEditor)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour::NotificationEntry), "get_triggerInEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: TimeNotificationBehaviour::NotificationEntry::get_prewarm
-    // Il2CppName: get_prewarm
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeNotificationBehaviour::NotificationEntry::*)()>(&TimeNotificationBehaviour::NotificationEntry::get_prewarm)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour::NotificationEntry), "get_prewarm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: TimeNotificationBehaviour::NotificationEntry::get_triggerOnce
-    // Il2CppName: get_triggerOnce
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeNotificationBehaviour::NotificationEntry::*)()>(&TimeNotificationBehaviour::NotificationEntry::get_triggerOnce)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour::NotificationEntry), "get_triggerOnce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry> m_Notifications
     // Size: 0x8
     // Offset: 0x10
@@ -213,116 +189,116 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(TimeNotificationBehaviour), 40 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_TimeNotificationBehaviourSizeCheck;
   static_assert(sizeof(TimeNotificationBehaviour) == 0x34);
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::set_timeSource
-  // Il2CppName: set_timeSource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&TimeNotificationBehaviour::set_timeSource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "set_timeSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> (*)(UnityEngine::Playables::PlayableGraph, double, UnityEngine::Playables::DirectorWrapMode)>(&TimeNotificationBehaviour::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::DirectorWrapMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::AddNotification
-  // Il2CppName: AddNotification
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(double, UnityEngine::Playables::INotification*, UnityEngine::Timeline::NotificationFlags)>(&TimeNotificationBehaviour::AddNotification)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "AddNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::NotificationFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::SortNotifications
-  // Il2CppName: SortNotifications
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)()>(&TimeNotificationBehaviour::SortNotifications)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "SortNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::CanRestoreNotification
-  // Il2CppName: CanRestoreNotification
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, UnityEngine::Playables::FrameData, double, double)>(&TimeNotificationBehaviour::CanRestoreNotification)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "CanRestoreNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::TriggerNotificationsInRange
-  // Il2CppName: TriggerNotificationsInRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(double, double, UnityEngine::Playables::FrameData, UnityEngine::Playables::Playable, bool)>(&TimeNotificationBehaviour::TriggerNotificationsInRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "TriggerNotificationsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::SyncDurationWithExternalSource
-  // Il2CppName: SyncDurationWithExternalSource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&TimeNotificationBehaviour::SyncDurationWithExternalSource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "SyncDurationWithExternalSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::Trigger_internal
-  // Il2CppName: Trigger_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::Playable, UnityEngine::Playables::PlayableOutput, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&TimeNotificationBehaviour::Trigger_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "Trigger_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::Restore_internal
-  // Il2CppName: Restore_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&TimeNotificationBehaviour::Restore_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "Restore_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::OnGraphStart
-  // Il2CppName: OnGraphStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&TimeNotificationBehaviour::OnGraphStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::OnBehaviourPause
-  // Il2CppName: OnBehaviourPause
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&TimeNotificationBehaviour::OnBehaviourPause)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::PrepareFrame
-  // Il2CppName: PrepareFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&TimeNotificationBehaviour::PrepareFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeNotificationBehaviour::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)()>(&TimeNotificationBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)()>(&TimeNotificationBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "UnityEngine.Timeline", "TimeNotificationBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, "UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry");
+// Writing MetadataGetter for method: TimeNotificationBehaviour::set_timeSource
+// Il2CppName: set_timeSource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&TimeNotificationBehaviour::set_timeSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "set_timeSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> (*)(UnityEngine::Playables::PlayableGraph, double, UnityEngine::Playables::DirectorWrapMode)>(&TimeNotificationBehaviour::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::DirectorWrapMode>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::AddNotification
+// Il2CppName: AddNotification
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(double, UnityEngine::Playables::INotification*, UnityEngine::Timeline::NotificationFlags)>(&TimeNotificationBehaviour::AddNotification)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "AddNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::NotificationFlags>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::SortNotifications
+// Il2CppName: SortNotifications
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)()>(&TimeNotificationBehaviour::SortNotifications)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "SortNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::CanRestoreNotification
+// Il2CppName: CanRestoreNotification
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, UnityEngine::Playables::FrameData, double, double)>(&TimeNotificationBehaviour::CanRestoreNotification)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "CanRestoreNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::TriggerNotificationsInRange
+// Il2CppName: TriggerNotificationsInRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(double, double, UnityEngine::Playables::FrameData, UnityEngine::Playables::Playable, bool)>(&TimeNotificationBehaviour::TriggerNotificationsInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "TriggerNotificationsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::SyncDurationWithExternalSource
+// Il2CppName: SyncDurationWithExternalSource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&TimeNotificationBehaviour::SyncDurationWithExternalSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "SyncDurationWithExternalSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::Trigger_internal
+// Il2CppName: Trigger_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::Playable, UnityEngine::Playables::PlayableOutput, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&TimeNotificationBehaviour::Trigger_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "Trigger_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::Restore_internal
+// Il2CppName: Restore_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&TimeNotificationBehaviour::Restore_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "Restore_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::OnGraphStart
+// Il2CppName: OnGraphStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&TimeNotificationBehaviour::OnGraphStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::OnBehaviourPause
+// Il2CppName: OnBehaviourPause
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&TimeNotificationBehaviour::OnBehaviourPause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::PrepareFrame
+// Il2CppName: PrepareFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&TimeNotificationBehaviour::PrepareFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: TimeNotificationBehaviour::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)()>(&TimeNotificationBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeNotificationBehaviour::*)()>(&TimeNotificationBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeNotificationBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

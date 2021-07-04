@@ -25,14 +25,14 @@ namespace UnityEngine::TestTools {
     System::Collections::IEnumerator* Perform();
   }; // UnityEngine.TestTools.IEditModeTestYieldInstruction
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IEditModeTestYieldInstruction::Perform
-  // Il2CppName: Perform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (IEditModeTestYieldInstruction::*)()>(&IEditModeTestYieldInstruction::Perform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IEditModeTestYieldInstruction*), "Perform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::IEditModeTestYieldInstruction*, "UnityEngine.TestTools", "IEditModeTestYieldInstruction");
+// Writing MetadataGetter for method: IEditModeTestYieldInstruction::Perform
+// Il2CppName: Perform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (IEditModeTestYieldInstruction::*)()>(&IEditModeTestYieldInstruction::Perform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IEditModeTestYieldInstruction*), "Perform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

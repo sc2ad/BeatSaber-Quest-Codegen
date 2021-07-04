@@ -22,14 +22,14 @@ namespace System::Runtime::Serialization {
     void OnDeserialization(::Il2CppObject* sender);
   }; // System.Runtime.Serialization.IDeserializationCallback
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IDeserializationCallback::OnDeserialization
-  // Il2CppName: OnDeserialization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDeserializationCallback::*)(::Il2CppObject*)>(&IDeserializationCallback::OnDeserialization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IDeserializationCallback*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IDeserializationCallback*, "System.Runtime.Serialization", "IDeserializationCallback");
+// Writing MetadataGetter for method: IDeserializationCallback::OnDeserialization
+// Il2CppName: OnDeserialization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDeserializationCallback::*)(::Il2CppObject*)>(&IDeserializationCallback::OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IDeserializationCallback*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

@@ -173,203 +173,203 @@ namespace System::Collections {
   #pragma pack(pop)
   static check_size<sizeof(ArrayList::ReadOnlyArrayList), 40 + sizeof(System::Collections::ArrayList*)> __System_Collections_ArrayList_ReadOnlyArrayListSizeCheck;
   static_assert(sizeof(ArrayList::ReadOnlyArrayList) == 0x30);
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Collections::ArrayList*)>(&ArrayList::ReadOnlyArrayList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Collections::ArrayList*)>(&ArrayList::ReadOnlyArrayList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_Count
-  // Il2CppName: get_Count
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::get_Count)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_IsReadOnly
-  // Il2CppName: get_IsReadOnly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::get_IsReadOnly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_Item
-  // Il2CppName: get_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ReadOnlyArrayList::*)(int)>(&ArrayList::ReadOnlyArrayList::get_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::set_Item
-  // Il2CppName: set_Item
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, ::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::set_Item)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_SyncRoot
-  // Il2CppName: get_SyncRoot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::get_SyncRoot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::AddRange
-  // Il2CppName: AddRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Collections::ICollection*)>(&ArrayList::ReadOnlyArrayList::AddRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "AddRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::set_Capacity
-  // Il2CppName: set_Capacity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int)>(&ArrayList::ReadOnlyArrayList::set_Capacity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "set_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Clone
-  // Il2CppName: Clone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::Clone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Contains
-  // Il2CppName: Contains
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Contains)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::CopyTo
-  // Il2CppName: CopyTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Array*, int)>(&ArrayList::ReadOnlyArrayList::CopyTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::CopyTo
-  // Il2CppName: CopyTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, System::Array*, int, int)>(&ArrayList::ReadOnlyArrayList::CopyTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::GetEnumerator
-  // Il2CppName: GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::IndexOf
-  // Il2CppName: IndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::IndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Insert
-  // Il2CppName: Insert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, ::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Insert)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::InsertRange
-  // Il2CppName: InsertRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, System::Collections::ICollection*)>(&ArrayList::ReadOnlyArrayList::InsertRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "InsertRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Remove
-  // Il2CppName: Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::RemoveAt
-  // Il2CppName: RemoveAt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int)>(&ArrayList::ReadOnlyArrayList::RemoveAt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::RemoveRange
-  // Il2CppName: RemoveRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, int)>(&ArrayList::ReadOnlyArrayList::RemoveRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "RemoveRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Reverse
-  // Il2CppName: Reverse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, int)>(&ArrayList::ReadOnlyArrayList::Reverse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::ToArray
-  // Il2CppName: ToArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::ToArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::ToArray
-  // Il2CppName: ToArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (ArrayList::ReadOnlyArrayList::*)(System::Type*)>(&ArrayList::ReadOnlyArrayList::ToArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ReadOnlyArrayList*, "System.Collections", "ArrayList/ReadOnlyArrayList");
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Collections::ArrayList*)>(&ArrayList::ReadOnlyArrayList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Collections::ArrayList*)>(&ArrayList::ReadOnlyArrayList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_Count
+// Il2CppName: get_Count
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_IsReadOnly
+// Il2CppName: get_IsReadOnly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::get_IsReadOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_Item
+// Il2CppName: get_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ReadOnlyArrayList::*)(int)>(&ArrayList::ReadOnlyArrayList::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::set_Item
+// Il2CppName: set_Item
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, ::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::set_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::get_SyncRoot
+// Il2CppName: get_SyncRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::get_SyncRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::AddRange
+// Il2CppName: AddRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Collections::ICollection*)>(&ArrayList::ReadOnlyArrayList::AddRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "AddRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::set_Capacity
+// Il2CppName: set_Capacity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int)>(&ArrayList::ReadOnlyArrayList::set_Capacity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "set_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Clone
+// Il2CppName: Clone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Contains
+// Il2CppName: Contains
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::CopyTo
+// Il2CppName: CopyTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(System::Array*, int)>(&ArrayList::ReadOnlyArrayList::CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::CopyTo
+// Il2CppName: CopyTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, System::Array*, int, int)>(&ArrayList::ReadOnlyArrayList::CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::GetEnumerator
+// Il2CppName: GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::IndexOf
+// Il2CppName: IndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Insert
+// Il2CppName: Insert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, ::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Insert)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::InsertRange
+// Il2CppName: InsertRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, System::Collections::ICollection*)>(&ArrayList::ReadOnlyArrayList::InsertRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "InsertRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Remove
+// Il2CppName: Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(::Il2CppObject*)>(&ArrayList::ReadOnlyArrayList::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::RemoveAt
+// Il2CppName: RemoveAt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int)>(&ArrayList::ReadOnlyArrayList::RemoveAt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::RemoveRange
+// Il2CppName: RemoveRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, int)>(&ArrayList::ReadOnlyArrayList::RemoveRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "RemoveRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::Reverse
+// Il2CppName: Reverse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ReadOnlyArrayList::*)(int, int)>(&ArrayList::ReadOnlyArrayList::Reverse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::ToArray
+// Il2CppName: ToArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ArrayList::ReadOnlyArrayList::*)()>(&ArrayList::ReadOnlyArrayList::ToArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ArrayList::ReadOnlyArrayList::ToArray
+// Il2CppName: ToArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (ArrayList::ReadOnlyArrayList::*)(System::Type*)>(&ArrayList::ReadOnlyArrayList::ToArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ArrayList::ReadOnlyArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

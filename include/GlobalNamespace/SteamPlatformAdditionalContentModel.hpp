@@ -160,115 +160,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamPlatformAdditionalContentModel), 72 + sizeof(bool)> __GlobalNamespace_SteamPlatformAdditionalContentModelSizeCheck;
   static_assert(sizeof(SteamPlatformAdditionalContentModel) == 0x49);
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::DataIsValidAsync
-  // Il2CppName: DataIsValidAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (SteamPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::DataIsValidAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "DataIsValidAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenProductStore
-  // Il2CppName: OpenProductStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)(uint)>(&SteamPlatformAdditionalContentModel::OpenProductStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenProductStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenBundleUrl
-  // Il2CppName: OpenBundleUrl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)(uint)>(&SteamPlatformAdditionalContentModel::OpenBundleUrl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenBundleUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::CheckForNewEntitlementsAsync
-  // Il2CppName: CheckForNewEntitlementsAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* (SteamPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::CheckForNewEntitlementsAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "CheckForNewEntitlementsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::HasLevelEntitlement
-  // Il2CppName: HasLevelEntitlement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamPlatformAdditionalContentModel::*)(::Il2CppString*)>(&SteamPlatformAdditionalContentModel::HasLevelEntitlement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "HasLevelEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::HasLevelPackEntitlement
-  // Il2CppName: HasLevelPackEntitlement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamPlatformAdditionalContentModel::*)(::Il2CppString*)>(&SteamPlatformAdditionalContentModel::HasLevelPackEntitlement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "HasLevelPackEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::InvalidateDataInternal
-  // Il2CppName: InvalidateDataInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)()>(&SteamPlatformAdditionalContentModel::InvalidateDataInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "InvalidateDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync
-  // Il2CppName: GetLevelEntitlementStatusInternalAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "GetLevelEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync
-  // Il2CppName: GetPackEntitlementStatusInternalAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "GetPackEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenLevelProductStoreAsync
-  // Il2CppName: OpenLevelProductStoreAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync
-  // Il2CppName: OpenLevelPackProductStoreAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync
-  // Il2CppName: IsPackBetterBuyThanLevelAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "IsPackBetterBuyThanLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)()>(&SteamPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)()>(&SteamPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel*, "", "SteamPlatformAdditionalContentModel");
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::DataIsValidAsync
+// Il2CppName: DataIsValidAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (SteamPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::DataIsValidAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "DataIsValidAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenProductStore
+// Il2CppName: OpenProductStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)(uint)>(&SteamPlatformAdditionalContentModel::OpenProductStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenProductStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenBundleUrl
+// Il2CppName: OpenBundleUrl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)(uint)>(&SteamPlatformAdditionalContentModel::OpenBundleUrl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenBundleUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::CheckForNewEntitlementsAsync
+// Il2CppName: CheckForNewEntitlementsAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* (SteamPlatformAdditionalContentModel::*)(System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::CheckForNewEntitlementsAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "CheckForNewEntitlementsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::HasLevelEntitlement
+// Il2CppName: HasLevelEntitlement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamPlatformAdditionalContentModel::*)(::Il2CppString*)>(&SteamPlatformAdditionalContentModel::HasLevelEntitlement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "HasLevelEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::HasLevelPackEntitlement
+// Il2CppName: HasLevelPackEntitlement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamPlatformAdditionalContentModel::*)(::Il2CppString*)>(&SteamPlatformAdditionalContentModel::HasLevelPackEntitlement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "HasLevelPackEntitlement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::InvalidateDataInternal
+// Il2CppName: InvalidateDataInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)()>(&SteamPlatformAdditionalContentModel::InvalidateDataInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "InvalidateDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync
+// Il2CppName: GetLevelEntitlementStatusInternalAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "GetLevelEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync
+// Il2CppName: GetPackEntitlementStatusInternalAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "GetPackEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenLevelProductStoreAsync
+// Il2CppName: OpenLevelProductStoreAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync
+// Il2CppName: OpenLevelPackProductStoreAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync
+// Il2CppName: IsPackBetterBuyThanLevelAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* (SteamPlatformAdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&SteamPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), "IsPackBetterBuyThanLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)()>(&SteamPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::*)()>(&SteamPlatformAdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -296,341 +296,341 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelFilterParams), 100 + sizeof(float)> __GlobalNamespace_LevelFilterParamsSizeCheck;
   static_assert(sizeof(LevelFilterParams) == 0x68);
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterByLevelIds
-  // Il2CppName: get_filterByLevelIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByLevelIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterByLevelIds
-  // Il2CppName: set_filterByLevelIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByLevelIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_beatmapLevelIds
-  // Il2CppName: get_beatmapLevelIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (LevelFilterParams::*)()>(&LevelFilterParams::get_beatmapLevelIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_beatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_beatmapLevelIds
-  // Il2CppName: set_beatmapLevelIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::set_beatmapLevelIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_beatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterByOwned
-  // Il2CppName: get_filterByOwned
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByOwned)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterByOwned
-  // Il2CppName: set_filterByOwned
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByOwned)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_searchText
-  // Il2CppName: get_searchText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LevelFilterParams::*)()>(&LevelFilterParams::get_searchText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_searchText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_searchText
-  // Il2CppName: set_searchText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(::Il2CppString*)>(&LevelFilterParams::set_searchText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_searchText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterByDifficulty
-  // Il2CppName: get_filterByDifficulty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByDifficulty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterByDifficulty
-  // Il2CppName: set_filterByDifficulty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByDifficulty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filteredDifficulty
-  // Il2CppName: get_filteredDifficulty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredDifficulty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filteredDifficulty
-  // Il2CppName: set_filteredDifficulty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapDifficultyMask)>(&LevelFilterParams::set_filteredDifficulty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterBySongPacks
-  // Il2CppName: get_filterBySongPacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterBySongPacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterBySongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterBySongPacks
-  // Il2CppName: set_filterBySongPacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterBySongPacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterBySongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filteredSongPacks
-  // Il2CppName: get_filteredSongPacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredSongPacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filteredSongPacks
-  // Il2CppName: set_filteredSongPacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::SongPackMask)>(&LevelFilterParams::set_filteredSongPacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterByCharacteristic
-  // Il2CppName: get_filterByCharacteristic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByCharacteristic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterByCharacteristic
-  // Il2CppName: set_filterByCharacteristic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByCharacteristic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filteredCharacteristic
-  // Il2CppName: get_filteredCharacteristic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredCharacteristic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filteredCharacteristic
-  // Il2CppName: set_filteredCharacteristic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::set_filteredCharacteristic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterByNotPlayedYet
-  // Il2CppName: get_filterByNotPlayedYet
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByNotPlayedYet)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByNotPlayedYet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterByNotPlayedYet
-  // Il2CppName: set_filterByNotPlayedYet
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByNotPlayedYet)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByNotPlayedYet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterByMinBpm
-  // Il2CppName: get_filterByMinBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByMinBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterByMinBpm
-  // Il2CppName: set_filterByMinBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByMinBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filteredMinBpm
-  // Il2CppName: get_filteredMinBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredMinBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filteredMinBpm
-  // Il2CppName: set_filteredMinBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(float)>(&LevelFilterParams::set_filteredMinBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filterByMaxBpm
-  // Il2CppName: get_filterByMaxBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByMaxBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filterByMaxBpm
-  // Il2CppName: set_filterByMaxBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByMaxBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::get_filteredMaxBpm
-  // Il2CppName: get_filteredMaxBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredMaxBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::set_filteredMaxBpm
-  // Il2CppName: set_filteredMaxBpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(float)>(&LevelFilterParams::set_filteredMaxBpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool, System::Collections::Generic::HashSet_1<::Il2CppString*>*, ::Il2CppString*, bool, bool, GlobalNamespace::BeatmapDifficultyMask, bool, GlobalNamespace::BeatmapCharacteristicSO*, bool, GlobalNamespace::SongPackMask, bool, bool, float, bool, float)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool, System::Collections::Generic::HashSet_1<::Il2CppString*>*, ::Il2CppString*, bool, bool, GlobalNamespace::BeatmapDifficultyMask, bool, GlobalNamespace::BeatmapCharacteristicSO*, bool, GlobalNamespace::SongPackMask, bool, bool, float, bool, float)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::IsWithoutFilter
-  // Il2CppName: IsWithoutFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)(bool)>(&LevelFilterParams::IsWithoutFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "IsWithoutFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::NoFilter
-  // Il2CppName: NoFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelFilterParams* (*)()>(&LevelFilterParams::NoFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "NoFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::ByBeatmapLevelIds
-  // Il2CppName: ByBeatmapLevelIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelFilterParams* (*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::ByBeatmapLevelIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "ByBeatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::ByBeatmapCharacteristic
-  // Il2CppName: ByBeatmapCharacteristic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelFilterParams* (*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::ByBeatmapCharacteristic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "ByBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LevelFilterParams::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelFilterParams::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)()>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)()>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilterParams*, "", "LevelFilterParams");
+// Writing MetadataGetter for method: LevelFilterParams::get_filterByLevelIds
+// Il2CppName: get_filterByLevelIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByLevelIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterByLevelIds
+// Il2CppName: set_filterByLevelIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByLevelIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_beatmapLevelIds
+// Il2CppName: get_beatmapLevelIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (LevelFilterParams::*)()>(&LevelFilterParams::get_beatmapLevelIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_beatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_beatmapLevelIds
+// Il2CppName: set_beatmapLevelIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::set_beatmapLevelIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_beatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filterByOwned
+// Il2CppName: get_filterByOwned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByOwned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterByOwned
+// Il2CppName: set_filterByOwned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByOwned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_searchText
+// Il2CppName: get_searchText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LevelFilterParams::*)()>(&LevelFilterParams::get_searchText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_searchText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_searchText
+// Il2CppName: set_searchText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(::Il2CppString*)>(&LevelFilterParams::set_searchText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_searchText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filterByDifficulty
+// Il2CppName: get_filterByDifficulty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByDifficulty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterByDifficulty
+// Il2CppName: set_filterByDifficulty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByDifficulty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filteredDifficulty
+// Il2CppName: get_filteredDifficulty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredDifficulty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filteredDifficulty
+// Il2CppName: set_filteredDifficulty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapDifficultyMask)>(&LevelFilterParams::set_filteredDifficulty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filterBySongPacks
+// Il2CppName: get_filterBySongPacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterBySongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterBySongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterBySongPacks
+// Il2CppName: set_filterBySongPacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterBySongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterBySongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filteredSongPacks
+// Il2CppName: get_filteredSongPacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredSongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filteredSongPacks
+// Il2CppName: set_filteredSongPacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::SongPackMask)>(&LevelFilterParams::set_filteredSongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filterByCharacteristic
+// Il2CppName: get_filterByCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByCharacteristic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterByCharacteristic
+// Il2CppName: set_filterByCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByCharacteristic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filteredCharacteristic
+// Il2CppName: get_filteredCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredCharacteristic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filteredCharacteristic
+// Il2CppName: set_filteredCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::set_filteredCharacteristic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filterByNotPlayedYet
+// Il2CppName: get_filterByNotPlayedYet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByNotPlayedYet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByNotPlayedYet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterByNotPlayedYet
+// Il2CppName: set_filterByNotPlayedYet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByNotPlayedYet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByNotPlayedYet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filterByMinBpm
+// Il2CppName: get_filterByMinBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByMinBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterByMinBpm
+// Il2CppName: set_filterByMinBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByMinBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filteredMinBpm
+// Il2CppName: get_filteredMinBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredMinBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filteredMinBpm
+// Il2CppName: set_filteredMinBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(float)>(&LevelFilterParams::set_filteredMinBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredMinBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filterByMaxBpm
+// Il2CppName: get_filterByMaxBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)()>(&LevelFilterParams::get_filterByMaxBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filterByMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filterByMaxBpm
+// Il2CppName: set_filterByMaxBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool)>(&LevelFilterParams::set_filterByMaxBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filterByMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::get_filteredMaxBpm
+// Il2CppName: get_filteredMaxBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LevelFilterParams::*)()>(&LevelFilterParams::get_filteredMaxBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "get_filteredMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::set_filteredMaxBpm
+// Il2CppName: set_filteredMaxBpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(float)>(&LevelFilterParams::set_filteredMaxBpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "set_filteredMaxBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool, System::Collections::Generic::HashSet_1<::Il2CppString*>*, ::Il2CppString*, bool, bool, GlobalNamespace::BeatmapDifficultyMask, bool, GlobalNamespace::BeatmapCharacteristicSO*, bool, GlobalNamespace::SongPackMask, bool, bool, float, bool, float)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(bool, System::Collections::Generic::HashSet_1<::Il2CppString*>*, ::Il2CppString*, bool, bool, GlobalNamespace::BeatmapDifficultyMask, bool, GlobalNamespace::BeatmapCharacteristicSO*, bool, GlobalNamespace::SongPackMask, bool, bool, float, bool, float)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::IsWithoutFilter
+// Il2CppName: IsWithoutFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilterParams::*)(bool)>(&LevelFilterParams::IsWithoutFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "IsWithoutFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::NoFilter
+// Il2CppName: NoFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelFilterParams* (*)()>(&LevelFilterParams::NoFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "NoFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::ByBeatmapLevelIds
+// Il2CppName: ByBeatmapLevelIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelFilterParams* (*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelFilterParams::ByBeatmapLevelIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "ByBeatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::ByBeatmapCharacteristic
+// Il2CppName: ByBeatmapCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelFilterParams* (*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilterParams::ByBeatmapCharacteristic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), "ByBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LevelFilterParams::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelFilterParams::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)()>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilterParams::*)()>(&LevelFilterParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelFilterParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

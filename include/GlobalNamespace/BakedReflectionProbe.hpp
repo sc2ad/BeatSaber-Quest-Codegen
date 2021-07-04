@@ -141,83 +141,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BakedReflectionProbe), 64 + sizeof(UnityEngine::Cubemap*)> __GlobalNamespace_BakedReflectionProbeSizeCheck;
   static_assert(sizeof(BakedReflectionProbe) == 0x48);
-  // Writing MetadataGetter for method: BakedReflectionProbe::get_reflectionProbeData
-  // Il2CppName: get_reflectionProbeData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ReflectionProbeDataSO* (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_reflectionProbeData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_reflectionProbeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::set_reflectionProbeData
-  // Il2CppName: set_reflectionProbeData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)(GlobalNamespace::ReflectionProbeDataSO*)>(&BakedReflectionProbe::set_reflectionProbeData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "set_reflectionProbeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ReflectionProbeDataSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::get_position
-  // Il2CppName: get_position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::get_resolutionBeforeDownsample
-  // Il2CppName: get_resolutionBeforeDownsample
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_resolutionBeforeDownsample)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_resolutionBeforeDownsample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::get_downsampleByHalfCount
-  // Il2CppName: get_downsampleByHalfCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_downsampleByHalfCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_downsampleByHalfCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::SendDataToShaders
-  // Il2CppName: SendDataToShaders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::SendDataToShaders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "SendDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BakedReflectionProbe::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedReflectionProbe::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedReflectionProbe*, "", "BakedReflectionProbe");
+// Writing MetadataGetter for method: BakedReflectionProbe::get_reflectionProbeData
+// Il2CppName: get_reflectionProbeData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ReflectionProbeDataSO* (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_reflectionProbeData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_reflectionProbeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::set_reflectionProbeData
+// Il2CppName: set_reflectionProbeData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)(GlobalNamespace::ReflectionProbeDataSO*)>(&BakedReflectionProbe::set_reflectionProbeData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "set_reflectionProbeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ReflectionProbeDataSO*>()});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::get_position
+// Il2CppName: get_position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::get_resolutionBeforeDownsample
+// Il2CppName: get_resolutionBeforeDownsample
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_resolutionBeforeDownsample)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_resolutionBeforeDownsample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::get_downsampleByHalfCount
+// Il2CppName: get_downsampleByHalfCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BakedReflectionProbe::*)()>(&BakedReflectionProbe::get_downsampleByHalfCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "get_downsampleByHalfCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::SendDataToShaders
+// Il2CppName: SendDataToShaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::SendDataToShaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), "SendDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedReflectionProbe::*)()>(&BakedReflectionProbe::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BakedReflectionProbe::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedReflectionProbe::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BakedReflectionProbe*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

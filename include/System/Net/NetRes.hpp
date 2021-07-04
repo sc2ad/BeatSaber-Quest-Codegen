@@ -29,22 +29,22 @@ namespace System::Net {
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus Status);
   }; // System.Net.NetRes
   #pragma pack(pop)
-  // Writing MetadataGetter for method: NetRes::GetWebStatusString
-  // Il2CppName: GetWebStatusString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Net::WebExceptionStatus)>(&NetRes::GetWebStatusString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
-    }
-  };
-  // Writing MetadataGetter for method: NetRes::GetWebStatusString
-  // Il2CppName: GetWebStatusString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&NetRes::GetWebStatusString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetRes*, "System.Net", "NetRes");
+// Writing MetadataGetter for method: NetRes::GetWebStatusString
+// Il2CppName: GetWebStatusString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Net::WebExceptionStatus)>(&NetRes::GetWebStatusString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
+  }
+};
+// Writing MetadataGetter for method: NetRes::GetWebStatusString
+// Il2CppName: GetWebStatusString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&NetRes::GetWebStatusString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
+  }
+};

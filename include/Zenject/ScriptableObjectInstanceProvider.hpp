@@ -127,51 +127,51 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ScriptableObjectInstanceProvider), 64 + sizeof(UnityEngine::Object*)> __Zenject_ScriptableObjectInstanceProviderSizeCheck;
   static_assert(sizeof(ScriptableObjectInstanceProvider) == 0x48);
-  // Writing MetadataGetter for method: ScriptableObjectInstanceProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::*)(UnityEngine::Object*, System::Type*, Zenject::DiContainer*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, bool, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&ScriptableObjectInstanceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::*)(UnityEngine::Object*, System::Type*, Zenject::DiContainer*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, bool, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&ScriptableObjectInstanceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstanceProvider::get_IsCached
-  // Il2CppName: get_IsCached
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ScriptableObjectInstanceProvider::*)()>(&ScriptableObjectInstanceProvider::get_IsCached)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "get_IsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstanceProvider::get_TypeVariesBasedOnMemberType
-  // Il2CppName: get_TypeVariesBasedOnMemberType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ScriptableObjectInstanceProvider::*)()>(&ScriptableObjectInstanceProvider::get_TypeVariesBasedOnMemberType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstanceProvider::GetInstanceType
-  // Il2CppName: GetInstanceType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ScriptableObjectInstanceProvider::*)(Zenject::InjectContext*)>(&ScriptableObjectInstanceProvider::GetInstanceType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "GetInstanceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableObjectInstanceProvider::GetAllInstancesWithInjectSplit
-  // Il2CppName: GetAllInstancesWithInjectSplit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&ScriptableObjectInstanceProvider::GetAllInstancesWithInjectSplit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstanceProvider*, "Zenject", "ScriptableObjectInstanceProvider");
+// Writing MetadataGetter for method: ScriptableObjectInstanceProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::*)(UnityEngine::Object*, System::Type*, Zenject::DiContainer*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, bool, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&ScriptableObjectInstanceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::*)(UnityEngine::Object*, System::Type*, Zenject::DiContainer*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, bool, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&ScriptableObjectInstanceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstanceProvider::get_IsCached
+// Il2CppName: get_IsCached
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ScriptableObjectInstanceProvider::*)()>(&ScriptableObjectInstanceProvider::get_IsCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "get_IsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstanceProvider::get_TypeVariesBasedOnMemberType
+// Il2CppName: get_TypeVariesBasedOnMemberType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ScriptableObjectInstanceProvider::*)()>(&ScriptableObjectInstanceProvider::get_TypeVariesBasedOnMemberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstanceProvider::GetInstanceType
+// Il2CppName: GetInstanceType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ScriptableObjectInstanceProvider::*)(Zenject::InjectContext*)>(&ScriptableObjectInstanceProvider::GetInstanceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "GetInstanceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
+// Writing MetadataGetter for method: ScriptableObjectInstanceProvider::GetAllInstancesWithInjectSplit
+// Il2CppName: GetAllInstancesWithInjectSplit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableObjectInstanceProvider::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&ScriptableObjectInstanceProvider::GetAllInstancesWithInjectSplit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableObjectInstanceProvider*), "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
+  }
+};

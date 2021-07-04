@@ -77,43 +77,43 @@ namespace Zenject::Internal {
     }
   }; // Zenject.Internal.ZenUtilInternal/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ZenUtilInternal::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ZenUtilInternal::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenUtilInternal::$$c::$GetAllSceneContexts$b__3_0
-  // Il2CppName: <GetAllSceneContexts>b__3_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (ZenUtilInternal::$$c::*)(UnityEngine::GameObject*)>(&ZenUtilInternal::$$c::$GetAllSceneContexts$b__3_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), "<GetAllSceneContexts>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ZenUtilInternal::$$c::$GetRootGameObjects$b__10_0
-  // Il2CppName: <GetRootGameObjects>b__10_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenUtilInternal::$$c::*)(UnityEngine::GameObject*)>(&ZenUtilInternal::$$c::$GetRootGameObjects$b__10_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), "<GetRootGameObjects>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ZenUtilInternal::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenUtilInternal::$$c::*)()>(&ZenUtilInternal::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenUtilInternal::$$c::*)()>(&ZenUtilInternal::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c*, "Zenject.Internal", "ZenUtilInternal/<>c");
+// Writing MetadataGetter for method: ZenUtilInternal::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ZenUtilInternal::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenUtilInternal::$$c::$GetAllSceneContexts$b__3_0
+// Il2CppName: <GetAllSceneContexts>b__3_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (ZenUtilInternal::$$c::*)(UnityEngine::GameObject*)>(&ZenUtilInternal::$$c::$GetAllSceneContexts$b__3_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), "<GetAllSceneContexts>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ZenUtilInternal::$$c::$GetRootGameObjects$b__10_0
+// Il2CppName: <GetRootGameObjects>b__10_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenUtilInternal::$$c::*)(UnityEngine::GameObject*)>(&ZenUtilInternal::$$c::$GetRootGameObjects$b__10_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), "<GetRootGameObjects>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ZenUtilInternal::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenUtilInternal::$$c::*)()>(&ZenUtilInternal::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenUtilInternal::$$c::*)()>(&ZenUtilInternal::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

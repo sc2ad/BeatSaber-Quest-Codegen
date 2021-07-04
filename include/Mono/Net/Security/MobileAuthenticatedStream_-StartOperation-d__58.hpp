@@ -91,22 +91,22 @@ namespace Mono::Net::Security {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.MobileAuthenticatedStream/<StartOperation>d__58
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::$StartOperation$d__58::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::$StartOperation$d__58::*)()>(&MobileAuthenticatedStream::$StartOperation$d__58::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream::$StartOperation$d__58), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MobileAuthenticatedStream::$StartOperation$d__58::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::$StartOperation$d__58::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MobileAuthenticatedStream::$StartOperation$d__58::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream::$StartOperation$d__58), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$StartOperation$d__58, "Mono.Net.Security", "MobileAuthenticatedStream/<StartOperation>d__58");
+// Writing MetadataGetter for method: MobileAuthenticatedStream::$StartOperation$d__58::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::$StartOperation$d__58::*)()>(&MobileAuthenticatedStream::$StartOperation$d__58::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream::$StartOperation$d__58), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MobileAuthenticatedStream::$StartOperation$d__58::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileAuthenticatedStream::$StartOperation$d__58::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MobileAuthenticatedStream::$StartOperation$d__58::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MobileAuthenticatedStream::$StartOperation$d__58), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

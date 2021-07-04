@@ -66,22 +66,22 @@ namespace MasterServer {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass39_0/<<GetPublicServers>b__0>d
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::*)()>(&UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d, "MasterServer", "UserMessageHandler/<>c__DisplayClass39_0/<<GetPublicServers>b__0>d");
+// Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::*)()>(&UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass39_0::$$GetPublicServers$b__0$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

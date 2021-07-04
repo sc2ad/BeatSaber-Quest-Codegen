@@ -55,35 +55,35 @@ namespace MasterServer {
     }
   }; // MasterServer.DedicatedServerMessageReceivedAcknowledge
   #pragma pack(pop)
-  // Writing MetadataGetter for method: DedicatedServerMessageReceivedAcknowledge::get_pool
-  // Il2CppName: get_pool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerMessageReceivedAcknowledge*>* (*)()>(&DedicatedServerMessageReceivedAcknowledge::get_pool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerMessageReceivedAcknowledge::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerMessageReceivedAcknowledge::*)()>(&DedicatedServerMessageReceivedAcknowledge::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerMessageReceivedAcknowledge::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerMessageReceivedAcknowledge::*)()>(&DedicatedServerMessageReceivedAcknowledge::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerMessageReceivedAcknowledge::*)()>(&DedicatedServerMessageReceivedAcknowledge::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerMessageReceivedAcknowledge*, "MasterServer", "DedicatedServerMessageReceivedAcknowledge");
+// Writing MetadataGetter for method: DedicatedServerMessageReceivedAcknowledge::get_pool
+// Il2CppName: get_pool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerMessageReceivedAcknowledge*>* (*)()>(&DedicatedServerMessageReceivedAcknowledge::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerMessageReceivedAcknowledge::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerMessageReceivedAcknowledge::*)()>(&DedicatedServerMessageReceivedAcknowledge::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerMessageReceivedAcknowledge::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerMessageReceivedAcknowledge::*)()>(&DedicatedServerMessageReceivedAcknowledge::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerMessageReceivedAcknowledge::*)()>(&DedicatedServerMessageReceivedAcknowledge::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerMessageReceivedAcknowledge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -120,147 +120,147 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(SHA512Managed), 64 + sizeof(::Array<uint64_t>*)> __System_Security_Cryptography_SHA512ManagedSizeCheck;
   static_assert(sizeof(SHA512Managed) == 0x48);
-  // Writing MetadataGetter for method: SHA512Managed::InitializeState
-  // Il2CppName: InitializeState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::InitializeState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "InitializeState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::_HashData
-  // Il2CppName: _HashData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)(::Array<uint8_t>*, int, int)>(&SHA512Managed::_HashData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::_EndHash
-  // Il2CppName: _EndHash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA512Managed::*)()>(&SHA512Managed::_EndHash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::SHATransform
-  // Il2CppName: SHATransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*, uint64_t*, uint8_t*)>(&SHA512Managed::SHATransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "SHATransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::RotateRight
-  // Il2CppName: RotateRight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int)>(&SHA512Managed::RotateRight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::Ch
-  // Il2CppName: Ch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&SHA512Managed::Ch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Ch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::Maj
-  // Il2CppName: Maj
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&SHA512Managed::Maj)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Maj", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::Sigma_0
-  // Il2CppName: Sigma_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::Sigma_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::Sigma_1
-  // Il2CppName: Sigma_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::Sigma_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::sigma_0
-  // Il2CppName: sigma_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::sigma_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::sigma_1
-  // Il2CppName: sigma_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::sigma_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::SHA512Expand
-  // Il2CppName: SHA512Expand
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*)>(&SHA512Managed::SHA512Expand)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "SHA512Expand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SHA512Managed::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::Initialize
-  // Il2CppName: Initialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::Initialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::HashCore
-  // Il2CppName: HashCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)(::Array<uint8_t>*, int, int)>(&SHA512Managed::HashCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SHA512Managed::HashFinal
-  // Il2CppName: HashFinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA512Managed::*)()>(&SHA512Managed::HashFinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA512Managed*, "System.Security.Cryptography", "SHA512Managed");
+// Writing MetadataGetter for method: SHA512Managed::InitializeState
+// Il2CppName: InitializeState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::InitializeState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "InitializeState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::_HashData
+// Il2CppName: _HashData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)(::Array<uint8_t>*, int, int)>(&SHA512Managed::_HashData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::_EndHash
+// Il2CppName: _EndHash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA512Managed::*)()>(&SHA512Managed::_EndHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::SHATransform
+// Il2CppName: SHATransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*, uint64_t*, uint8_t*)>(&SHA512Managed::SHATransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "SHATransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::RotateRight
+// Il2CppName: RotateRight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int)>(&SHA512Managed::RotateRight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::Ch
+// Il2CppName: Ch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&SHA512Managed::Ch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Ch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::Maj
+// Il2CppName: Maj
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&SHA512Managed::Maj)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Maj", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::Sigma_0
+// Il2CppName: Sigma_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::Sigma_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::Sigma_1
+// Il2CppName: Sigma_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::Sigma_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::sigma_0
+// Il2CppName: sigma_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::sigma_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::sigma_1
+// Il2CppName: sigma_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA512Managed::sigma_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::SHA512Expand
+// Il2CppName: SHA512Expand
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*)>(&SHA512Managed::SHA512Expand)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "SHA512Expand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SHA512Managed::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::Initialize
+// Il2CppName: Initialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)()>(&SHA512Managed::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::HashCore
+// Il2CppName: HashCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA512Managed::*)(::Array<uint8_t>*, int, int)>(&SHA512Managed::HashCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SHA512Managed::HashFinal
+// Il2CppName: HashFinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA512Managed::*)()>(&SHA512Managed::HashFinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SHA512Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

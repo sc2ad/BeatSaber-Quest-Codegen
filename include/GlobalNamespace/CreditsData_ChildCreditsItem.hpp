@@ -51,35 +51,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CreditsData::ChildCreditsItem), 24 + sizeof(GlobalNamespace::CreditsData::Text*)> __GlobalNamespace_CreditsData_ChildCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::ChildCreditsItem) == 0x20);
-  // Writing MetadataGetter for method: CreditsData::ChildCreditsItem::HasTitle
-  // Il2CppName: HasTitle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::HasTitle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), "HasTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsData::ChildCreditsItem::HasText
-  // Il2CppName: HasText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::HasText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CreditsData::ChildCreditsItem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::ChildCreditsItem*, "", "CreditsData/ChildCreditsItem");
+// Writing MetadataGetter for method: CreditsData::ChildCreditsItem::HasTitle
+// Il2CppName: HasTitle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::HasTitle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), "HasTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsData::ChildCreditsItem::HasText
+// Il2CppName: HasText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::HasText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CreditsData::ChildCreditsItem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

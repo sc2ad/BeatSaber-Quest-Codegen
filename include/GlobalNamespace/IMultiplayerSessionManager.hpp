@@ -223,337 +223,337 @@ namespace GlobalNamespace {
     void PerformAtSyncTime(float syncTime, System::Action* action);
   }; // IMultiplayerSessionManager
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_localPlayer
-  // Il2CppName: get_localPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_localPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnectionOwner
-  // Il2CppName: get_isConnectionOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnectionOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_syncTime
-  // Il2CppName: get_syncTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_syncTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_isSyncTimeInitialized
-  // Il2CppName: get_isSyncTimeInitialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isSyncTimeInitialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isSyncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_syncTimeDelay
-  // Il2CppName: get_syncTimeDelay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_syncTimeDelay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_maxPlayerCount
-  // Il2CppName: get_maxPlayerCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_maxPlayerCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_maxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_connectedPlayerCount
-  // Il2CppName: get_connectedPlayerCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_connectedPlayerCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_connectedPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnectingOrConnected
-  // Il2CppName: get_isConnectingOrConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnectingOrConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnectingOrConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnected
-  // Il2CppName: get_isConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnecting
-  // Il2CppName: get_isConnecting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnecting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_isDisconnecting
-  // Il2CppName: get_isDisconnecting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isDisconnecting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_isSpectating
-  // Il2CppName: get_isSpectating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isSpectating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_connectedPlayers
-  // Il2CppName: get_connectedPlayers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_connectedPlayers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_connectedPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::get_connectionOwner
-  // Il2CppName: get_connectionOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_connectionOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_connectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::add_connectedEvent
-  // Il2CppName: add_connectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action*)>(&IMultiplayerSessionManager::add_connectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_connectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::remove_connectedEvent
-  // Il2CppName: remove_connectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action*)>(&IMultiplayerSessionManager::remove_connectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_connectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::add_connectionFailedEvent
-  // Il2CppName: add_connectionFailedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&IMultiplayerSessionManager::add_connectionFailedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::remove_connectionFailedEvent
-  // Il2CppName: remove_connectionFailedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&IMultiplayerSessionManager::remove_connectionFailedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerConnectedEvent
-  // Il2CppName: add_playerConnectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerConnectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerConnectedEvent
-  // Il2CppName: remove_playerConnectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerConnectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerDisconnectedEvent
-  // Il2CppName: add_playerDisconnectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerDisconnectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerDisconnectedEvent
-  // Il2CppName: remove_playerDisconnectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerDisconnectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerAvatarChangedEvent
-  // Il2CppName: add_playerAvatarChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerAvatarChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerAvatarChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerAvatarChangedEvent
-  // Il2CppName: remove_playerAvatarChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerAvatarChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerAvatarChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerStateChangedEvent
-  // Il2CppName: add_playerStateChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerStateChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerStateChangedEvent
-  // Il2CppName: remove_playerStateChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerStateChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::add_disconnectedEvent
-  // Il2CppName: add_disconnectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&IMultiplayerSessionManager::add_disconnectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::remove_disconnectedEvent
-  // Il2CppName: remove_disconnectedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&IMultiplayerSessionManager::remove_disconnectedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::SetMaxPlayerCount
-  // Il2CppName: SetMaxPlayerCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(int)>(&IMultiplayerSessionManager::SetMaxPlayerCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "SetMaxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::StartSession
-  // Il2CppName: StartSession
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(GlobalNamespace::ConnectedPlayerManager*)>(&IMultiplayerSessionManager::StartSession)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "StartSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::EndSession
-  // Il2CppName: EndSession
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::EndSession)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "EndSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::GetPlayerByUserId
-  // Il2CppName: GetPlayerByUserId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)(::Il2CppString*)>(&IMultiplayerSessionManager::GetPlayerByUserId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "GetPlayerByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::GetConnectedPlayer
-  // Il2CppName: GetConnectedPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)(int)>(&IMultiplayerSessionManager::GetConnectedPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "GetConnectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::GetConnectedPlayerByUserId
-  // Il2CppName: GetConnectedPlayerByUserId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)(::Il2CppString*)>(&IMultiplayerSessionManager::GetConnectedPlayerByUserId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "GetConnectedPlayerByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::Disconnect
-  // Il2CppName: Disconnect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::Disconnect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::Send
-  // Il2CppName: Send
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::SendUnreliable
-  // Il2CppName: SendUnreliable
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::RegisterCallback
-  // Il2CppName: RegisterCallback
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::UnregisterCallback
-  // Il2CppName: UnregisterCallback
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::SetLocalPlayerState
-  // Il2CppName: SetLocalPlayerState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(::Il2CppString*, bool)>(&IMultiplayerSessionManager::SetLocalPlayerState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "SetLocalPlayerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::LocalPlayerHasState
-  // Il2CppName: LocalPlayerHasState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)(::Il2CppString*)>(&IMultiplayerSessionManager::LocalPlayerHasState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "LocalPlayerHasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::RegisterSerializer
-  // Il2CppName: RegisterSerializer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::RegisterSerializer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "RegisterSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSessionManager_MessageType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::UnregisterSerializer
-  // Il2CppName: UnregisterSerializer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::UnregisterSerializer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "UnregisterSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSessionManager_MessageType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerSessionManager::PerformAtSyncTime
-  // Il2CppName: PerformAtSyncTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(float, System::Action*)>(&IMultiplayerSessionManager::PerformAtSyncTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "PerformAtSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerSessionManager*, "", "IMultiplayerSessionManager");
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_localPlayer
+// Il2CppName: get_localPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_localPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnectionOwner
+// Il2CppName: get_isConnectionOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnectionOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_syncTime
+// Il2CppName: get_syncTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_syncTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_isSyncTimeInitialized
+// Il2CppName: get_isSyncTimeInitialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isSyncTimeInitialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isSyncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_syncTimeDelay
+// Il2CppName: get_syncTimeDelay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_syncTimeDelay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_maxPlayerCount
+// Il2CppName: get_maxPlayerCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_maxPlayerCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_maxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_connectedPlayerCount
+// Il2CppName: get_connectedPlayerCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_connectedPlayerCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_connectedPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnectingOrConnected
+// Il2CppName: get_isConnectingOrConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnectingOrConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnectingOrConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnected
+// Il2CppName: get_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_isConnecting
+// Il2CppName: get_isConnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isConnecting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_isDisconnecting
+// Il2CppName: get_isDisconnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isDisconnecting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_isSpectating
+// Il2CppName: get_isSpectating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_isSpectating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_connectedPlayers
+// Il2CppName: get_connectedPlayers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_connectedPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_connectedPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::get_connectionOwner
+// Il2CppName: get_connectionOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::get_connectionOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "get_connectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::add_connectedEvent
+// Il2CppName: add_connectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action*)>(&IMultiplayerSessionManager::add_connectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_connectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::remove_connectedEvent
+// Il2CppName: remove_connectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action*)>(&IMultiplayerSessionManager::remove_connectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_connectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::add_connectionFailedEvent
+// Il2CppName: add_connectionFailedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&IMultiplayerSessionManager::add_connectionFailedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::remove_connectionFailedEvent
+// Il2CppName: remove_connectionFailedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&IMultiplayerSessionManager::remove_connectionFailedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerConnectedEvent
+// Il2CppName: add_playerConnectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerConnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerConnectedEvent
+// Il2CppName: remove_playerConnectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerConnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerDisconnectedEvent
+// Il2CppName: add_playerDisconnectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerDisconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerDisconnectedEvent
+// Il2CppName: remove_playerDisconnectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerDisconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerAvatarChangedEvent
+// Il2CppName: add_playerAvatarChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerAvatarChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerAvatarChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerAvatarChangedEvent
+// Il2CppName: remove_playerAvatarChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerAvatarChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerAvatarChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::add_playerStateChangedEvent
+// Il2CppName: add_playerStateChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::add_playerStateChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_playerStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::remove_playerStateChangedEvent
+// Il2CppName: remove_playerStateChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::remove_playerStateChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_playerStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::add_disconnectedEvent
+// Il2CppName: add_disconnectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&IMultiplayerSessionManager::add_disconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "add_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::remove_disconnectedEvent
+// Il2CppName: remove_disconnectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&IMultiplayerSessionManager::remove_disconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "remove_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::SetMaxPlayerCount
+// Il2CppName: SetMaxPlayerCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(int)>(&IMultiplayerSessionManager::SetMaxPlayerCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "SetMaxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::StartSession
+// Il2CppName: StartSession
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(GlobalNamespace::ConnectedPlayerManager*)>(&IMultiplayerSessionManager::StartSession)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "StartSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::EndSession
+// Il2CppName: EndSession
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::EndSession)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "EndSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::GetPlayerByUserId
+// Il2CppName: GetPlayerByUserId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)(::Il2CppString*)>(&IMultiplayerSessionManager::GetPlayerByUserId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "GetPlayerByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::GetConnectedPlayer
+// Il2CppName: GetConnectedPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)(int)>(&IMultiplayerSessionManager::GetConnectedPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "GetConnectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::GetConnectedPlayerByUserId
+// Il2CppName: GetConnectedPlayerByUserId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (IMultiplayerSessionManager::*)(::Il2CppString*)>(&IMultiplayerSessionManager::GetConnectedPlayerByUserId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "GetConnectedPlayerByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::Disconnect
+// Il2CppName: Disconnect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)()>(&IMultiplayerSessionManager::Disconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::Send
+// Il2CppName: Send
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IMultiplayerSessionManager::SendUnreliable
+// Il2CppName: SendUnreliable
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IMultiplayerSessionManager::RegisterCallback
+// Il2CppName: RegisterCallback
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IMultiplayerSessionManager::UnregisterCallback
+// Il2CppName: UnregisterCallback
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: IMultiplayerSessionManager::SetLocalPlayerState
+// Il2CppName: SetLocalPlayerState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(::Il2CppString*, bool)>(&IMultiplayerSessionManager::SetLocalPlayerState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "SetLocalPlayerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::LocalPlayerHasState
+// Il2CppName: LocalPlayerHasState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerSessionManager::*)(::Il2CppString*)>(&IMultiplayerSessionManager::LocalPlayerHasState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "LocalPlayerHasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::RegisterSerializer
+// Il2CppName: RegisterSerializer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::RegisterSerializer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "RegisterSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSessionManager_MessageType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::UnregisterSerializer
+// Il2CppName: UnregisterSerializer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*)>(&IMultiplayerSessionManager::UnregisterSerializer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "UnregisterSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSessionManager_MessageType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerSessionManager::PerformAtSyncTime
+// Il2CppName: PerformAtSyncTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerSessionManager::*)(float, System::Action*)>(&IMultiplayerSessionManager::PerformAtSyncTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerSessionManager*), "PerformAtSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};

@@ -27,22 +27,22 @@ namespace GlobalNamespace {
     static GlobalNamespace::UserInfo::Platform ToUserInfoPlatform(GlobalNamespace::AuthenticationToken::Platform platform);
   }; // AuthenticationTokenPlatformExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform
-  // Il2CppName: ToAuthenticationTokenPlatform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AuthenticationToken::Platform (*)(GlobalNamespace::UserInfo::Platform)>(&AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AuthenticationTokenPlatformExtensions*), "ToAuthenticationTokenPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UserInfo::Platform>()});
-    }
-  };
-  // Writing MetadataGetter for method: AuthenticationTokenPlatformExtensions::ToUserInfoPlatform
-  // Il2CppName: ToUserInfoPlatform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UserInfo::Platform (*)(GlobalNamespace::AuthenticationToken::Platform)>(&AuthenticationTokenPlatformExtensions::ToUserInfoPlatform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AuthenticationTokenPlatformExtensions*), "ToUserInfoPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AuthenticationToken::Platform>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationTokenPlatformExtensions*, "", "AuthenticationTokenPlatformExtensions");
+// Writing MetadataGetter for method: AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform
+// Il2CppName: ToAuthenticationTokenPlatform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AuthenticationToken::Platform (*)(GlobalNamespace::UserInfo::Platform)>(&AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AuthenticationTokenPlatformExtensions*), "ToAuthenticationTokenPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UserInfo::Platform>()});
+  }
+};
+// Writing MetadataGetter for method: AuthenticationTokenPlatformExtensions::ToUserInfoPlatform
+// Il2CppName: ToUserInfoPlatform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UserInfo::Platform (*)(GlobalNamespace::AuthenticationToken::Platform)>(&AuthenticationTokenPlatformExtensions::ToUserInfoPlatform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AuthenticationTokenPlatformExtensions*), "ToUserInfoPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AuthenticationToken::Platform>()});
+  }
+};

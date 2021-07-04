@@ -120,91 +120,91 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(VoipAudioSourceHiLevel), 48 + sizeof(Oculus::Platform::IVoipPCMSource*)> __Oculus_Platform_VoipAudioSourceHiLevelSizeCheck;
   static_assert(sizeof(VoipAudioSourceHiLevel) == 0x38);
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::set_senderID
-  // Il2CppName: set_senderID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)(uint64_t)>(&VoipAudioSourceHiLevel::set_senderID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "set_senderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::Stop
-  // Il2CppName: Stop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Stop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::SampleRateToEnum
-  // Il2CppName: SampleRateToEnum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipSampleRate (VoipAudioSourceHiLevel::*)(int)>(&VoipAudioSourceHiLevel::SampleRateToEnum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "SampleRateToEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::CreatePCMSource
-  // Il2CppName: CreatePCMSource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::CreatePCMSource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "CreatePCMSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::MSToElements
-  // Il2CppName: MSToElements
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&VoipAudioSourceHiLevel::MSToElements)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "MSToElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VoipAudioSourceHiLevel::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel*, "Oculus.Platform", "VoipAudioSourceHiLevel");
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::set_senderID
+// Il2CppName: set_senderID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)(uint64_t)>(&VoipAudioSourceHiLevel::set_senderID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "set_senderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::Stop
+// Il2CppName: Stop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Stop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::SampleRateToEnum
+// Il2CppName: SampleRateToEnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipSampleRate (VoipAudioSourceHiLevel::*)(int)>(&VoipAudioSourceHiLevel::SampleRateToEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "SampleRateToEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::CreatePCMSource
+// Il2CppName: CreatePCMSource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::CreatePCMSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "CreatePCMSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::MSToElements
+// Il2CppName: MSToElements
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&VoipAudioSourceHiLevel::MSToElements)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "MSToElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::*)()>(&VoipAudioSourceHiLevel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VoipAudioSourceHiLevel::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VoipAudioSourceHiLevel::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

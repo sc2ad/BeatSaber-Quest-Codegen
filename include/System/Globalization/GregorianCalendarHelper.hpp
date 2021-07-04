@@ -151,171 +151,171 @@ namespace System::Globalization {
   #pragma pack(pop)
   static check_size<sizeof(GregorianCalendarHelper), 48 + sizeof(System::DateTime)> __System_Globalization_GregorianCalendarHelperSizeCheck;
   static_assert(sizeof(GregorianCalendarHelper) == 0x38);
-  // Writing MetadataGetter for method: GregorianCalendarHelper::get_MaxYear
-  // Il2CppName: get_MaxYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)()>(&GregorianCalendarHelper::get_MaxYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "get_MaxYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GregorianCalendarHelper::*)(System::Globalization::Calendar*, ::Array<System::Globalization::EraInfo*>*)>(&GregorianCalendarHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::Calendar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Globalization::EraInfo*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GregorianCalendarHelper::*)(System::Globalization::Calendar*, ::Array<System::Globalization::EraInfo*>*)>(&GregorianCalendarHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::Calendar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Globalization::EraInfo*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetGregorianYear
-  // Il2CppName: GetGregorianYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::GetGregorianYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetGregorianYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::IsValidYear
-  // Il2CppName: IsValidYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::IsValidYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "IsValidYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetDatePart
-  // Il2CppName: GetDatePart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int64_t, int)>(&GregorianCalendarHelper::GetDatePart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDatePart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetAbsoluteDate
-  // Il2CppName: GetAbsoluteDate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int)>(&GregorianCalendarHelper::GetAbsoluteDate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetAbsoluteDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::DateToTicks
-  // Il2CppName: DateToTicks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int)>(&GregorianCalendarHelper::DateToTicks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "DateToTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::TimeToTicks
-  // Il2CppName: TimeToTicks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int, int)>(&GregorianCalendarHelper::TimeToTicks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "TimeToTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::CheckTicksRange
-  // Il2CppName: CheckTicksRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GregorianCalendarHelper::*)(int64_t)>(&GregorianCalendarHelper::CheckTicksRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "CheckTicksRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetDayOfMonth
-  // Il2CppName: GetDayOfMonth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetDayOfMonth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDayOfMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetDayOfWeek
-  // Il2CppName: GetDayOfWeek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DayOfWeek (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetDayOfWeek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDayOfWeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetDaysInMonth
-  // Il2CppName: GetDaysInMonth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int, int, int)>(&GregorianCalendarHelper::GetDaysInMonth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDaysInMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetEra
-  // Il2CppName: GetEra
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetEra)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetEra", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::get_Eras
-  // Il2CppName: get_Eras
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (GregorianCalendarHelper::*)()>(&GregorianCalendarHelper::get_Eras)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetMonth
-  // Il2CppName: GetMonth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetMonth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetMonthsInYear
-  // Il2CppName: GetMonthsInYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::GetMonthsInYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetMonthsInYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::GetYear
-  // Il2CppName: GetYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::IsLeapYear
-  // Il2CppName: IsLeapYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::IsLeapYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "IsLeapYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::ToDateTime
-  // Il2CppName: ToDateTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (GregorianCalendarHelper::*)(int, int, int, int, int, int, int, int)>(&GregorianCalendarHelper::ToDateTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GregorianCalendarHelper::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GregorianCalendarHelper::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");
+// Writing MetadataGetter for method: GregorianCalendarHelper::get_MaxYear
+// Il2CppName: get_MaxYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)()>(&GregorianCalendarHelper::get_MaxYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "get_MaxYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GregorianCalendarHelper::*)(System::Globalization::Calendar*, ::Array<System::Globalization::EraInfo*>*)>(&GregorianCalendarHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::Calendar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Globalization::EraInfo*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GregorianCalendarHelper::*)(System::Globalization::Calendar*, ::Array<System::Globalization::EraInfo*>*)>(&GregorianCalendarHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::Calendar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Globalization::EraInfo*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetGregorianYear
+// Il2CppName: GetGregorianYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::GetGregorianYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetGregorianYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::IsValidYear
+// Il2CppName: IsValidYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::IsValidYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "IsValidYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetDatePart
+// Il2CppName: GetDatePart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int64_t, int)>(&GregorianCalendarHelper::GetDatePart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDatePart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetAbsoluteDate
+// Il2CppName: GetAbsoluteDate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int)>(&GregorianCalendarHelper::GetAbsoluteDate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetAbsoluteDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::DateToTicks
+// Il2CppName: DateToTicks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int)>(&GregorianCalendarHelper::DateToTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "DateToTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::TimeToTicks
+// Il2CppName: TimeToTicks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int, int)>(&GregorianCalendarHelper::TimeToTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "TimeToTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::CheckTicksRange
+// Il2CppName: CheckTicksRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GregorianCalendarHelper::*)(int64_t)>(&GregorianCalendarHelper::CheckTicksRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "CheckTicksRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetDayOfMonth
+// Il2CppName: GetDayOfMonth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetDayOfMonth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDayOfMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetDayOfWeek
+// Il2CppName: GetDayOfWeek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DayOfWeek (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetDayOfWeek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDayOfWeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetDaysInMonth
+// Il2CppName: GetDaysInMonth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int, int, int)>(&GregorianCalendarHelper::GetDaysInMonth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetDaysInMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetEra
+// Il2CppName: GetEra
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetEra)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetEra", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::get_Eras
+// Il2CppName: get_Eras
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (GregorianCalendarHelper::*)()>(&GregorianCalendarHelper::get_Eras)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetMonth
+// Il2CppName: GetMonth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetMonth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetMonthsInYear
+// Il2CppName: GetMonthsInYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::GetMonthsInYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetMonthsInYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::GetYear
+// Il2CppName: GetYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GregorianCalendarHelper::*)(System::DateTime)>(&GregorianCalendarHelper::GetYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "GetYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::IsLeapYear
+// Il2CppName: IsLeapYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GregorianCalendarHelper::*)(int, int)>(&GregorianCalendarHelper::IsLeapYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "IsLeapYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::ToDateTime
+// Il2CppName: ToDateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (GregorianCalendarHelper::*)(int, int, int, int, int, int, int, int)>(&GregorianCalendarHelper::ToDateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GregorianCalendarHelper::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GregorianCalendarHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GregorianCalendarHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

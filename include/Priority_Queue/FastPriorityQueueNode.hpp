@@ -57,51 +57,51 @@ namespace Priority_Queue {
   #pragma pack(pop)
   static check_size<sizeof(FastPriorityQueueNode), 20 + sizeof(int)> __Priority_Queue_FastPriorityQueueNodeSizeCheck;
   static_assert(sizeof(FastPriorityQueueNode) == 0x18);
-  // Writing MetadataGetter for method: FastPriorityQueueNode::get_Priority
-  // Il2CppName: get_Priority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::get_Priority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "get_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FastPriorityQueueNode::set_Priority
-  // Il2CppName: set_Priority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)(float)>(&FastPriorityQueueNode::set_Priority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: FastPriorityQueueNode::get_QueueIndex
-  // Il2CppName: get_QueueIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::get_QueueIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "get_QueueIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FastPriorityQueueNode::set_QueueIndex
-  // Il2CppName: set_QueueIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)(int)>(&FastPriorityQueueNode::set_QueueIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "set_QueueIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: FastPriorityQueueNode::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
+// Writing MetadataGetter for method: FastPriorityQueueNode::get_Priority
+// Il2CppName: get_Priority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::get_Priority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "get_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FastPriorityQueueNode::set_Priority
+// Il2CppName: set_Priority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)(float)>(&FastPriorityQueueNode::set_Priority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FastPriorityQueueNode::get_QueueIndex
+// Il2CppName: get_QueueIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::get_QueueIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "get_QueueIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FastPriorityQueueNode::set_QueueIndex
+// Il2CppName: set_QueueIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)(int)>(&FastPriorityQueueNode::set_QueueIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), "set_QueueIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FastPriorityQueueNode::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastPriorityQueueNode::*)()>(&FastPriorityQueueNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FastPriorityQueueNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -143,243 +143,243 @@ namespace UnityEngine {
     }
   }; // UnityEngine.Canvas
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Canvas::add_willRenderCanvases
-  // Il2CppName: add_willRenderCanvases
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&Canvas::add_willRenderCanvases)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "add_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas::WillRenderCanvases*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::remove_willRenderCanvases
-  // Il2CppName: remove_willRenderCanvases
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&Canvas::remove_willRenderCanvases)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "remove_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas::WillRenderCanvases*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_renderMode
-  // Il2CppName: get_renderMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderMode (Canvas::*)()>(&Canvas::get_renderMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_renderMode
-  // Il2CppName: set_renderMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::RenderMode)>(&Canvas::set_renderMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_isRootCanvas
-  // Il2CppName: get_isRootCanvas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_isRootCanvas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_isRootCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_scaleFactor
-  // Il2CppName: get_scaleFactor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Canvas::*)()>(&Canvas::get_scaleFactor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_scaleFactor
-  // Il2CppName: set_scaleFactor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(float)>(&Canvas::set_scaleFactor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_referencePixelsPerUnit
-  // Il2CppName: get_referencePixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Canvas::*)()>(&Canvas::get_referencePixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_referencePixelsPerUnit
-  // Il2CppName: set_referencePixelsPerUnit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(float)>(&Canvas::set_referencePixelsPerUnit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_pixelPerfect
-  // Il2CppName: get_pixelPerfect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_pixelPerfect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_pixelPerfect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_pixelPerfect
-  // Il2CppName: set_pixelPerfect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(bool)>(&Canvas::set_pixelPerfect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_pixelPerfect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_renderOrder
-  // Il2CppName: get_renderOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_renderOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_renderOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_overrideSorting
-  // Il2CppName: get_overrideSorting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_overrideSorting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_overrideSorting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_overrideSorting
-  // Il2CppName: set_overrideSorting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(bool)>(&Canvas::set_overrideSorting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_overrideSorting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_sortingOrder
-  // Il2CppName: get_sortingOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_sortingOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_sortingOrder
-  // Il2CppName: set_sortingOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(int)>(&Canvas::set_sortingOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_targetDisplay
-  // Il2CppName: get_targetDisplay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_targetDisplay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_targetDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_sortingLayerID
-  // Il2CppName: get_sortingLayerID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_sortingLayerID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_sortingLayerID
-  // Il2CppName: set_sortingLayerID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(int)>(&Canvas::set_sortingLayerID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_additionalShaderChannels
-  // Il2CppName: get_additionalShaderChannels
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AdditionalCanvasShaderChannels (Canvas::*)()>(&Canvas::get_additionalShaderChannels)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_additionalShaderChannels
-  // Il2CppName: set_additionalShaderChannels
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::AdditionalCanvasShaderChannels)>(&Canvas::set_additionalShaderChannels)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AdditionalCanvasShaderChannels>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_rootCanvas
-  // Il2CppName: get_rootCanvas
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (Canvas::*)()>(&Canvas::get_rootCanvas)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_rootCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::get_worldCamera
-  // Il2CppName: get_worldCamera
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (Canvas::*)()>(&Canvas::get_worldCamera)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::set_worldCamera
-  // Il2CppName: set_worldCamera
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::Camera*)>(&Canvas::set_worldCamera)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::GetDefaultCanvasMaterial
-  // Il2CppName: GetDefaultCanvasMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Canvas::GetDefaultCanvasMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "GetDefaultCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::GetETC1SupportedCanvasMaterial
-  // Il2CppName: GetETC1SupportedCanvasMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Canvas::GetETC1SupportedCanvasMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "GetETC1SupportedCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::ForceUpdateCanvases
-  // Il2CppName: ForceUpdateCanvases
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Canvas::ForceUpdateCanvases)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "ForceUpdateCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::SendWillRenderCanvases
-  // Il2CppName: SendWillRenderCanvases
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Canvas::SendWillRenderCanvases)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), "SendWillRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Canvas::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)()>(&Canvas::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)()>(&Canvas::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Canvas*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas*, "UnityEngine", "Canvas");
+// Writing MetadataGetter for method: Canvas::add_willRenderCanvases
+// Il2CppName: add_willRenderCanvases
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&Canvas::add_willRenderCanvases)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "add_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas::WillRenderCanvases*>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::remove_willRenderCanvases
+// Il2CppName: remove_willRenderCanvases
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&Canvas::remove_willRenderCanvases)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "remove_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas::WillRenderCanvases*>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_renderMode
+// Il2CppName: get_renderMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderMode (Canvas::*)()>(&Canvas::get_renderMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_renderMode
+// Il2CppName: set_renderMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::RenderMode)>(&Canvas::set_renderMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderMode>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_isRootCanvas
+// Il2CppName: get_isRootCanvas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_isRootCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_isRootCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_scaleFactor
+// Il2CppName: get_scaleFactor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Canvas::*)()>(&Canvas::get_scaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_scaleFactor
+// Il2CppName: set_scaleFactor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(float)>(&Canvas::set_scaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_referencePixelsPerUnit
+// Il2CppName: get_referencePixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Canvas::*)()>(&Canvas::get_referencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_referencePixelsPerUnit
+// Il2CppName: set_referencePixelsPerUnit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(float)>(&Canvas::set_referencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_pixelPerfect
+// Il2CppName: get_pixelPerfect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_pixelPerfect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_pixelPerfect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_pixelPerfect
+// Il2CppName: set_pixelPerfect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(bool)>(&Canvas::set_pixelPerfect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_pixelPerfect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_renderOrder
+// Il2CppName: get_renderOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_renderOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_renderOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_overrideSorting
+// Il2CppName: get_overrideSorting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Canvas::*)()>(&Canvas::get_overrideSorting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_overrideSorting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_overrideSorting
+// Il2CppName: set_overrideSorting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(bool)>(&Canvas::set_overrideSorting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_overrideSorting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_sortingOrder
+// Il2CppName: get_sortingOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_sortingOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_sortingOrder
+// Il2CppName: set_sortingOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(int)>(&Canvas::set_sortingOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_targetDisplay
+// Il2CppName: get_targetDisplay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_targetDisplay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_targetDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_sortingLayerID
+// Il2CppName: get_sortingLayerID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Canvas::*)()>(&Canvas::get_sortingLayerID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_sortingLayerID
+// Il2CppName: set_sortingLayerID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(int)>(&Canvas::set_sortingLayerID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_additionalShaderChannels
+// Il2CppName: get_additionalShaderChannels
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AdditionalCanvasShaderChannels (Canvas::*)()>(&Canvas::get_additionalShaderChannels)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_additionalShaderChannels
+// Il2CppName: set_additionalShaderChannels
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::AdditionalCanvasShaderChannels)>(&Canvas::set_additionalShaderChannels)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AdditionalCanvasShaderChannels>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_rootCanvas
+// Il2CppName: get_rootCanvas
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (Canvas::*)()>(&Canvas::get_rootCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_rootCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::get_worldCamera
+// Il2CppName: get_worldCamera
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (Canvas::*)()>(&Canvas::get_worldCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "get_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::set_worldCamera
+// Il2CppName: set_worldCamera
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)(UnityEngine::Camera*)>(&Canvas::set_worldCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "set_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};
+// Writing MetadataGetter for method: Canvas::GetDefaultCanvasMaterial
+// Il2CppName: GetDefaultCanvasMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Canvas::GetDefaultCanvasMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "GetDefaultCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::GetETC1SupportedCanvasMaterial
+// Il2CppName: GetETC1SupportedCanvasMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&Canvas::GetETC1SupportedCanvasMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "GetETC1SupportedCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::ForceUpdateCanvases
+// Il2CppName: ForceUpdateCanvases
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Canvas::ForceUpdateCanvases)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "ForceUpdateCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::SendWillRenderCanvases
+// Il2CppName: SendWillRenderCanvases
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Canvas::SendWillRenderCanvases)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), "SendWillRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Canvas::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)()>(&Canvas::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Canvas::*)()>(&Canvas::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Canvas*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

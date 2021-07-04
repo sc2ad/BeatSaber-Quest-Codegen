@@ -56,27 +56,27 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1), 24 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityLogCheckDelegatingCommand_$$c__DisplayClass3_1SizeCheck;
   static_assert(sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1) == 0x20);
-  // Writing MetadataGetter for method: UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::$ExecuteEnumerable$b__0
-  // Il2CppName: <ExecuteEnumerable>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::$ExecuteEnumerable$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*), "<ExecuteEnumerable>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityLogCheckDelegatingCommand/<>c__DisplayClass3_1");
+// Writing MetadataGetter for method: UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::$ExecuteEnumerable$b__0
+// Il2CppName: <ExecuteEnumerable>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::$ExecuteEnumerable$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*), "<ExecuteEnumerable>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::*)()>(&UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

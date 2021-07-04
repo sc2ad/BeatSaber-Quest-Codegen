@@ -31,14 +31,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static System::Action* get_RestoringTestContext();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.EditModeTestCallbacks
   #pragma pack(pop)
-  // Writing MetadataGetter for method: EditModeTestCallbacks::get_RestoringTestContext
-  // Il2CppName: get_RestoringTestContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (*)()>(&EditModeTestCallbacks::get_RestoringTestContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditModeTestCallbacks*), "get_RestoringTestContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "EditModeTestCallbacks");
+// Writing MetadataGetter for method: EditModeTestCallbacks::get_RestoringTestContext
+// Il2CppName: get_RestoringTestContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (*)()>(&EditModeTestCallbacks::get_RestoringTestContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditModeTestCallbacks*), "get_RestoringTestContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

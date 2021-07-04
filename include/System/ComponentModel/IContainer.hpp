@@ -32,14 +32,14 @@ namespace System::ComponentModel {
     void Remove(System::ComponentModel::IComponent* component);
   }; // System.ComponentModel.IContainer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IContainer::Remove
-  // Il2CppName: Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IContainer::*)(System::ComponentModel::IComponent*)>(&IContainer::Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IContainer*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::IComponent*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IContainer*, "System.ComponentModel", "IContainer");
+// Writing MetadataGetter for method: IContainer::Remove
+// Il2CppName: Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IContainer::*)(System::ComponentModel::IComponent*)>(&IContainer::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IContainer*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ComponentModel::IComponent*>()});
+  }
+};

@@ -78,43 +78,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FlyingCar), 40 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_FlyingCarSizeCheck;
   static_assert(sizeof(FlyingCar) == 0x34);
-  // Writing MetadataGetter for method: FlyingCar::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FlyingCar*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FlyingCar::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FlyingCar*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FlyingCar::UpdatePos
-  // Il2CppName: UpdatePos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::UpdatePos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FlyingCar*), "UpdatePos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FlyingCar::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FlyingCar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FlyingCar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar*, "", "FlyingCar");
+// Writing MetadataGetter for method: FlyingCar::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlyingCar*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FlyingCar::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlyingCar*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FlyingCar::UpdatePos
+// Il2CppName: UpdatePos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::UpdatePos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlyingCar*), "UpdatePos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FlyingCar::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlyingCar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingCar::*)()>(&FlyingCar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlyingCar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

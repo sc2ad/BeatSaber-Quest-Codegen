@@ -372,451 +372,451 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer), 126 + sizeof(bool)> __GlobalNamespace_LocalNetworkPlayerModel_LocalNetworkPlayerSizeCheck;
   static_assert(sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer) == 0x7F);
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId
-  // Il2CppName: get_userId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_userName
-  // Il2CppName: get_userName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_userName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_ipAddress
-  // Il2CppName: get_ipAddress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_ipAddress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_ipAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMe
-  // Il2CppName: get_isMe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPartyOwner
-  // Il2CppName: get_isPartyOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPartyOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_currentPartySize
-  // Il2CppName: get_currentPartySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_currentPartySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_maxPartySize
-  // Il2CppName: get_maxPartySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_maxPartySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_difficulties
-  // Il2CppName: get_difficulties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_difficulties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_modifiers
-  // Il2CppName: get_modifiers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_modifiers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_songPacks
-  // Il2CppName: get_songPacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_songPacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isOpenParty
-  // Il2CppName: get_isOpenParty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isOpenParty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPlayer
-  // Il2CppName: get_isPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isSpectating
-  // Il2CppName: get_isSpectating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isSpectating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isDedicatedServer
-  // Il2CppName: get_isDedicatedServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isDedicatedServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_otherPlayersCanInvite
-  // Il2CppName: get_otherPlayersCanInvite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_otherPlayersCanInvite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_otherPlayersCanInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isBlocked
-  // Il2CppName: get_isBlocked
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isBlocked)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isBlocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_hasBlockedMe
-  // Il2CppName: get_hasBlockedMe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_hasBlockedMe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_hasBlockedMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_secret
-  // Il2CppName: get_secret
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_secret)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_multiplayerPort
-  // Il2CppName: get_multiplayerPort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_multiplayerPort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_multiplayerPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMyPartyOwner
-  // Il2CppName: get_isMyPartyOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMyPartyOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnected
-  // Il2CppName: get_isConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_allowedJoinToMyParty
-  // Il2CppName: get_allowedJoinToMyParty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_allowedJoinToMyParty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_allowedJoinToMyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnecting
-  // Il2CppName: get_isConnecting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnecting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_wasConnecting
-  // Il2CppName: get_wasConnecting
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_wasConnecting)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_wasConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isTimedOut
-  // Il2CppName: get_isTimedOut
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isTimedOut)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isTimedOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel*, ::Il2CppString*, ::Il2CppString*, System::Net::IPAddress*, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel*, ::Il2CppString*, ::Il2CppString*, System::Net::IPAddress*, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnJoin
-  // Il2CppName: get_isWaitingOnJoin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnJoin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canJoin
-  // Il2CppName: get_canJoin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canJoin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Join
-  // Il2CppName: Join
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Join)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_requiresPassword
-  // Il2CppName: get_requiresPassword
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_requiresPassword)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Join
-  // Il2CppName: Join
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(::Il2CppString*)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Join)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnInvite
-  // Il2CppName: get_isWaitingOnInvite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnInvite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canInvite
-  // Il2CppName: get_canInvite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canInvite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Invite
-  // Il2CppName: Invite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Invite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canKick
-  // Il2CppName: get_canKick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canKick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Kick
-  // Il2CppName: Kick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Kick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canLeave
-  // Il2CppName: get_canLeave
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canLeave)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Leave
-  // Il2CppName: Leave
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Leave)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canBlock
-  // Il2CppName: get_canBlock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canBlock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Block
-  // Il2CppName: Block
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Block)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canUnblock
-  // Il2CppName: get_canUnblock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canUnblock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Unblock
-  // Il2CppName: Unblock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Unblock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SendJoinResponse
-  // Il2CppName: SendJoinResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SendJoinResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SendInviteResponse
-  // Il2CppName: SendInviteResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SendInviteResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags, int, int, GlobalNamespace::GameplayServerConfiguration)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::HasFailedToConnect
-  // Il2CppName: HasFailedToConnect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::HasFailedToConnect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "HasFailedToConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetInvited
-  // Il2CppName: SetInvited
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags, ::Il2CppString*, int)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetInvited)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetInvited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinResponse
-  // Il2CppName: SetJoinResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(::Il2CppString*, int, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetInviteResponse
-  // Il2CppName: SetInviteResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetInviteResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinRequested
-  // Il2CppName: SetJoinRequested
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinRequested)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetJoinRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetConnected
-  // Il2CppName: SetConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetDisconnected
-  // Il2CppName: SetDisconnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetDisconnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::UpdateState
-  // Il2CppName: UpdateState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::IConnectedPlayer*)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::UpdateState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnectable
-  // Il2CppName: get_isConnectable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnectable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isConnectable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Connect
-  // Il2CppName: Connect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Connect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*, "", "LocalNetworkPlayerModel/LocalNetworkPlayer");
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId
+// Il2CppName: get_userId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_userName
+// Il2CppName: get_userName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_userName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_ipAddress
+// Il2CppName: get_ipAddress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_ipAddress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_ipAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMe
+// Il2CppName: get_isMe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPartyOwner
+// Il2CppName: get_isPartyOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPartyOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_currentPartySize
+// Il2CppName: get_currentPartySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_currentPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_maxPartySize
+// Il2CppName: get_maxPartySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_maxPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_difficulties
+// Il2CppName: get_difficulties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_difficulties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_modifiers
+// Il2CppName: get_modifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_modifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_songPacks
+// Il2CppName: get_songPacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_songPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isOpenParty
+// Il2CppName: get_isOpenParty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isOpenParty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPlayer
+// Il2CppName: get_isPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isSpectating
+// Il2CppName: get_isSpectating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isSpectating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isDedicatedServer
+// Il2CppName: get_isDedicatedServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isDedicatedServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_otherPlayersCanInvite
+// Il2CppName: get_otherPlayersCanInvite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_otherPlayersCanInvite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_otherPlayersCanInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isBlocked
+// Il2CppName: get_isBlocked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isBlocked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isBlocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_hasBlockedMe
+// Il2CppName: get_hasBlockedMe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_hasBlockedMe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_hasBlockedMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_secret
+// Il2CppName: get_secret
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_secret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_multiplayerPort
+// Il2CppName: get_multiplayerPort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_multiplayerPort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_multiplayerPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMyPartyOwner
+// Il2CppName: get_isMyPartyOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isMyPartyOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnected
+// Il2CppName: get_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_allowedJoinToMyParty
+// Il2CppName: get_allowedJoinToMyParty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_allowedJoinToMyParty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_allowedJoinToMyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnecting
+// Il2CppName: get_isConnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnecting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_wasConnecting
+// Il2CppName: get_wasConnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_wasConnecting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_wasConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isTimedOut
+// Il2CppName: get_isTimedOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isTimedOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isTimedOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel*, ::Il2CppString*, ::Il2CppString*, System::Net::IPAddress*, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel*, ::Il2CppString*, ::Il2CppString*, System::Net::IPAddress*, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnJoin
+// Il2CppName: get_isWaitingOnJoin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnJoin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canJoin
+// Il2CppName: get_canJoin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canJoin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Join
+// Il2CppName: Join
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_requiresPassword
+// Il2CppName: get_requiresPassword
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_requiresPassword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Join
+// Il2CppName: Join
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(::Il2CppString*)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnInvite
+// Il2CppName: get_isWaitingOnInvite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isWaitingOnInvite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canInvite
+// Il2CppName: get_canInvite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canInvite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Invite
+// Il2CppName: Invite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Invite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canKick
+// Il2CppName: get_canKick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canKick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Kick
+// Il2CppName: Kick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Kick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canLeave
+// Il2CppName: get_canLeave
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canLeave)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Leave
+// Il2CppName: Leave
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Leave)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canBlock
+// Il2CppName: get_canBlock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canBlock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Block
+// Il2CppName: Block
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Block)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_canUnblock
+// Il2CppName: get_canUnblock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_canUnblock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Unblock
+// Il2CppName: Unblock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Unblock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SendJoinResponse
+// Il2CppName: SendJoinResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SendJoinResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SendInviteResponse
+// Il2CppName: SendInviteResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SendInviteResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags, int, int, GlobalNamespace::GameplayServerConfiguration)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::HasFailedToConnect
+// Il2CppName: HasFailedToConnect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::HasFailedToConnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "HasFailedToConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetInvited
+// Il2CppName: SetInvited
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags, ::Il2CppString*, int)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetInvited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetInvited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinResponse
+// Il2CppName: SetJoinResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(::Il2CppString*, int, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetInviteResponse
+// Il2CppName: SetInviteResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool, bool)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetInviteResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinRequested
+// Il2CppName: SetJoinRequested
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinRequested)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetJoinRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetConnected
+// Il2CppName: SetConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::SetDisconnected
+// Il2CppName: SetDisconnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::SetDisconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "SetDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::UpdateState
+// Il2CppName: UpdateState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)(GlobalNamespace::IConnectedPlayer*)>(&LocalNetworkPlayerModel::LocalNetworkPlayer::UpdateState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnectable
+// Il2CppName: get_isConnectable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::get_isConnectable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_isConnectable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::LocalNetworkPlayer::Connect
+// Il2CppName: Connect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&LocalNetworkPlayerModel::LocalNetworkPlayer::Connect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::LocalNetworkPlayer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

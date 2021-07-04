@@ -241,243 +241,243 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SinglePlayerLevelSelectionFlowCoordinator), 264 + sizeof(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)> __GlobalNamespace_SinglePlayerLevelSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(SinglePlayerLevelSelectionFlowCoordinator) == 0x110);
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_gameMode
-  // Il2CppName: get_gameMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_gameMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_isInPracticeView
-  // Il2CppName: get_isInPracticeView
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_isInPracticeView)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_isInPracticeView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_playerSettings
-  // Il2CppName: get_playerSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_playerSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_playerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_gameplayModifiers
-  // Il2CppName: get_gameplayModifiers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_gameplayModifiers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_hideGameplaySetup
-  // Il2CppName: get_hideGameplaySetup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_hideGameplaySetup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_hideGameplaySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController
-  // Il2CppName: get_leaderboardViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LeaderboardViewController* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_leaderboardViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate
-  // Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
-  // Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(&SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish
-  // Il2CppName: ProcessLevelCompletionResultsAfterLevelDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "ProcessLevelCompletionResultsAfterLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent
-  // Il2CppName: add_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent
-  // Il2CppName: remove_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::StartLevelOrShow360Prompt
-  // Il2CppName: StartLevelOrShow360Prompt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::StartLevelOrShow360Prompt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "StartLevelOrShow360Prompt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::StartLevel
-  // Il2CppName: StartLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::StartLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::HandlePracticeViewControllerDidPressPlayButton
-  // Il2CppName: HandlePracticeViewControllerDidPressPlayButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::HandlePracticeViewControllerDidPressPlayButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "HandlePracticeViewControllerDidPressPlayButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelDidFinish
-  // Il2CppName: HandleStandardLevelDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "HandleStandardLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SetupGameplaySetupViewController
-  // Il2CppName: SetupGameplaySetupViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::SetupGameplaySetupViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SetupGameplaySetupViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::HandleBasicLevelCompletionResults
-  // Il2CppName: HandleBasicLevelCompletionResults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::HandleBasicLevelCompletionResults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "HandleBasicLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::DismissPracticeViewController
-  // Il2CppName: DismissPracticeViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::DismissPracticeViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "DismissPracticeViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_enableCustomLevels
-  // Il2CppName: get_enableCustomLevels
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_enableCustomLevels)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_enableCustomLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController
-  // Il2CppName: get_initialTopScreenViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_initialLeftScreenViewController
-  // Il2CppName: get_initialLeftScreenViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_initialLeftScreenViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_initialLeftScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate
-  // Il2CppName: LevelSelectionFlowCoordinatorDidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate
-  // Il2CppName: LevelSelectionFlowCoordinatorDidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(&SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange
-  // Il2CppName: LevelSelectionFlowCoordinatorTopViewControllerWillChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorTopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::ActionButtonWasPressed
-  // Il2CppName: ActionButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::ActionButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "ActionButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::PracticeButtonWasPressed
-  // Il2CppName: PracticeButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::PracticeButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "PracticeButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SelectionDidChange
-  // Il2CppName: SelectionDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IDifficultyBeatmap*)>(&SinglePlayerLevelSelectionFlowCoordinator::SelectionDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::BackButtonWasPressed
-  // Il2CppName: BackButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(HMUI::ViewController*)>(&SinglePlayerLevelSelectionFlowCoordinator::BackButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*, "", "SinglePlayerLevelSelectionFlowCoordinator");
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_gameMode
+// Il2CppName: get_gameMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_gameMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_isInPracticeView
+// Il2CppName: get_isInPracticeView
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_isInPracticeView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_isInPracticeView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_playerSettings
+// Il2CppName: get_playerSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_playerSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_playerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_gameplayModifiers
+// Il2CppName: get_gameplayModifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_gameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_hideGameplaySetup
+// Il2CppName: get_hideGameplaySetup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_hideGameplaySetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_hideGameplaySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController
+// Il2CppName: get_leaderboardViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LeaderboardViewController* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_leaderboardViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate
+// Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
+// Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(&SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish
+// Il2CppName: ProcessLevelCompletionResultsAfterLevelDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "ProcessLevelCompletionResultsAfterLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::StartLevelOrShow360Prompt
+// Il2CppName: StartLevelOrShow360Prompt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::StartLevelOrShow360Prompt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "StartLevelOrShow360Prompt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::StartLevel
+// Il2CppName: StartLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::StartLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::HandlePracticeViewControllerDidPressPlayButton
+// Il2CppName: HandlePracticeViewControllerDidPressPlayButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::HandlePracticeViewControllerDidPressPlayButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "HandlePracticeViewControllerDidPressPlayButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelDidFinish
+// Il2CppName: HandleStandardLevelDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "HandleStandardLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SetupGameplaySetupViewController
+// Il2CppName: SetupGameplaySetupViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::SetupGameplaySetupViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SetupGameplaySetupViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::HandleBasicLevelCompletionResults
+// Il2CppName: HandleBasicLevelCompletionResults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::HandleBasicLevelCompletionResults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "HandleBasicLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::DismissPracticeViewController
+// Il2CppName: DismissPracticeViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action*, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::DismissPracticeViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "DismissPracticeViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_enableCustomLevels
+// Il2CppName: get_enableCustomLevels
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_enableCustomLevels)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_enableCustomLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController
+// Il2CppName: get_initialTopScreenViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::get_initialLeftScreenViewController
+// Il2CppName: get_initialLeftScreenViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::get_initialLeftScreenViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "get_initialLeftScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate
+// Il2CppName: LevelSelectionFlowCoordinatorDidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(&SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate
+// Il2CppName: LevelSelectionFlowCoordinatorDidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(&SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange
+// Il2CppName: LevelSelectionFlowCoordinatorTopViewControllerWillChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorTopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::ActionButtonWasPressed
+// Il2CppName: ActionButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::ActionButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "ActionButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::PracticeButtonWasPressed
+// Il2CppName: PracticeButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::PracticeButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "PracticeButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::SelectionDidChange
+// Il2CppName: SelectionDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IDifficultyBeatmap*)>(&SinglePlayerLevelSelectionFlowCoordinator::SelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::BackButtonWasPressed
+// Il2CppName: BackButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)(HMUI::ViewController*)>(&SinglePlayerLevelSelectionFlowCoordinator::BackButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: SinglePlayerLevelSelectionFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SinglePlayerLevelSelectionFlowCoordinator::*)()>(&SinglePlayerLevelSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SinglePlayerLevelSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

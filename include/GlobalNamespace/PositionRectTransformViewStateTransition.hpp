@@ -144,147 +144,147 @@ namespace GlobalNamespace {
     }
   }; // PositionRectTransformViewStateTransition
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::StartTween
-  // Il2CppName: StartTween
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)(UnityEngine::Vector3)>(&PositionRectTransformViewStateTransition::StartTween)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::$StartTween$b__16_0
-  // Il2CppName: <StartTween>b__16_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)(UnityEngine::Vector3)>(&PositionRectTransformViewStateTransition::$StartTween$b__16_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "<StartTween>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::$StartTween$b__16_1
-  // Il2CppName: <StartTween>b__16_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::$StartTween$b__16_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "<StartTween>b__16_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::get_transition
-  // Il2CppName: get_transition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::get_transition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToNormalState
-  // Il2CppName: TransitionToNormalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToNormalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToHighlightedState
-  // Il2CppName: TransitionToHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToPressedState
-  // Il2CppName: TransitionToPressedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToPressedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToDisabledState
-  // Il2CppName: TransitionToDisabledState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToDisabledState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToSelectedState
-  // Il2CppName: TransitionToSelectedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToSelectedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToSelectedAndHighlightedState
-  // Il2CppName: TransitionToSelectedAndHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToSelectedAndHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetNormalState
-  // Il2CppName: SetNormalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetNormalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetHighlightedState
-  // Il2CppName: SetHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetPressedState
-  // Il2CppName: SetPressedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetPressedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetDisabledState
-  // Il2CppName: SetDisabledState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetDisabledState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetSelectedState
-  // Il2CppName: SetSelectedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetSelectedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetSelectedAndHighlightedState
-  // Il2CppName: SetSelectedAndHighlightedState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetSelectedAndHighlightedState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PositionRectTransformViewStateTransition::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PositionRectTransformViewStateTransition*, "", "PositionRectTransformViewStateTransition");
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::StartTween
+// Il2CppName: StartTween
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)(UnityEngine::Vector3)>(&PositionRectTransformViewStateTransition::StartTween)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::$StartTween$b__16_0
+// Il2CppName: <StartTween>b__16_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)(UnityEngine::Vector3)>(&PositionRectTransformViewStateTransition::$StartTween$b__16_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "<StartTween>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::$StartTween$b__16_1
+// Il2CppName: <StartTween>b__16_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::$StartTween$b__16_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "<StartTween>b__16_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::get_transition
+// Il2CppName: get_transition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::get_transition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToNormalState
+// Il2CppName: TransitionToNormalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToHighlightedState
+// Il2CppName: TransitionToHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToPressedState
+// Il2CppName: TransitionToPressedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToDisabledState
+// Il2CppName: TransitionToDisabledState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToSelectedState
+// Il2CppName: TransitionToSelectedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::TransitionToSelectedAndHighlightedState
+// Il2CppName: TransitionToSelectedAndHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::TransitionToSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetNormalState
+// Il2CppName: SetNormalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetHighlightedState
+// Il2CppName: SetHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetPressedState
+// Il2CppName: SetPressedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetDisabledState
+// Il2CppName: SetDisabledState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetSelectedState
+// Il2CppName: SetSelectedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::SetSelectedAndHighlightedState
+// Il2CppName: SetSelectedAndHighlightedState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::SetSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PositionRectTransformViewStateTransition::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionRectTransformViewStateTransition::*)()>(&PositionRectTransformViewStateTransition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PositionRectTransformViewStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

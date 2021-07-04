@@ -51,19 +51,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassGraphicsSettingsPresetsSO::Preset), 24 + sizeof(GlobalNamespace::BloomPrePassEffectSO*)> __GlobalNamespace_BloomPrePassGraphicsSettingsPresetsSO_PresetSizeCheck;
   static_assert(sizeof(BloomPrePassGraphicsSettingsPresetsSO::Preset) == 0x20);
-  // Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::Preset::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO::Preset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::Preset::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO::Preset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*, "", "BloomPrePassGraphicsSettingsPresetsSO/Preset");
+// Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::Preset::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO::Preset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::Preset::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO::Preset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

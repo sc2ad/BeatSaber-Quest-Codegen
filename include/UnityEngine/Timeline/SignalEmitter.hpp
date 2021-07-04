@@ -108,83 +108,83 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(SignalEmitter), 48 + sizeof(UnityEngine::Timeline::SignalAsset*)> __UnityEngine_Timeline_SignalEmitterSizeCheck;
   static_assert(sizeof(SignalEmitter) == 0x38);
-  // Writing MetadataGetter for method: SignalEmitter::get_retroactive
-  // Il2CppName: get_retroactive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SignalEmitter::*)()>(&SignalEmitter::get_retroactive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "get_retroactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::set_retroactive
-  // Il2CppName: set_retroactive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)(bool)>(&SignalEmitter::set_retroactive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "set_retroactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::get_emitOnce
-  // Il2CppName: get_emitOnce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SignalEmitter::*)()>(&SignalEmitter::get_emitOnce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "get_emitOnce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::set_emitOnce
-  // Il2CppName: set_emitOnce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)(bool)>(&SignalEmitter::set_emitOnce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "set_emitOnce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::get_asset
-  // Il2CppName: get_asset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::SignalAsset* (SignalEmitter::*)()>(&SignalEmitter::get_asset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::set_asset
-  // Il2CppName: set_asset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)(UnityEngine::Timeline::SignalAsset*)>(&SignalEmitter::set_asset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "set_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::UnityEngine_Playables_INotification_get_id
-  // Il2CppName: UnityEngine.Playables.INotification.get_id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (SignalEmitter::*)()>(&SignalEmitter::UnityEngine_Playables_INotification_get_id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "UnityEngine.Playables.INotification.get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags
-  // Il2CppName: UnityEngine.Timeline.INotificationOptionProvider.get_flags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::NotificationFlags (SignalEmitter::*)()>(&SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "UnityEngine.Timeline.INotificationOptionProvider.get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SignalEmitter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)()>(&SignalEmitter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)()>(&SignalEmitter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");
+// Writing MetadataGetter for method: SignalEmitter::get_retroactive
+// Il2CppName: get_retroactive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SignalEmitter::*)()>(&SignalEmitter::get_retroactive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "get_retroactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::set_retroactive
+// Il2CppName: set_retroactive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)(bool)>(&SignalEmitter::set_retroactive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "set_retroactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::get_emitOnce
+// Il2CppName: get_emitOnce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SignalEmitter::*)()>(&SignalEmitter::get_emitOnce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "get_emitOnce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::set_emitOnce
+// Il2CppName: set_emitOnce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)(bool)>(&SignalEmitter::set_emitOnce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "set_emitOnce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::get_asset
+// Il2CppName: get_asset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::SignalAsset* (SignalEmitter::*)()>(&SignalEmitter::get_asset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::set_asset
+// Il2CppName: set_asset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)(UnityEngine::Timeline::SignalAsset*)>(&SignalEmitter::set_asset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "set_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::UnityEngine_Playables_INotification_get_id
+// Il2CppName: UnityEngine.Playables.INotification.get_id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (SignalEmitter::*)()>(&SignalEmitter::UnityEngine_Playables_INotification_get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "UnityEngine.Playables.INotification.get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags
+// Il2CppName: UnityEngine.Timeline.INotificationOptionProvider.get_flags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::NotificationFlags (SignalEmitter::*)()>(&SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), "UnityEngine.Timeline.INotificationOptionProvider.get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SignalEmitter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)()>(&SignalEmitter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalEmitter::*)()>(&SignalEmitter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SignalEmitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

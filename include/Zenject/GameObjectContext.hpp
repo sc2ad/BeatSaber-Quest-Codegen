@@ -163,131 +163,131 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(GameObjectContext), 112 + sizeof(Zenject::DiContainer*)> __Zenject_GameObjectContextSizeCheck;
   static_assert(sizeof(GameObjectContext) == 0x78);
-  // Writing MetadataGetter for method: GameObjectContext::add_PreInstall
-  // Il2CppName: add_PreInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PreInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::remove_PreInstall
-  // Il2CppName: remove_PreInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PreInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::add_PostInstall
-  // Il2CppName: add_PostInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PostInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::remove_PostInstall
-  // Il2CppName: remove_PostInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PostInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::add_PreResolve
-  // Il2CppName: add_PreResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PreResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::remove_PreResolve
-  // Il2CppName: remove_PreResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PreResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::add_PostResolve
-  // Il2CppName: add_PostResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PostResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::remove_PostResolve
-  // Il2CppName: remove_PostResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PostResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::Construct
-  // Il2CppName: Construct
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(Zenject::DiContainer*)>(&GameObjectContext::Construct)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&GameObjectContext::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::get_Container
-  // Il2CppName: get_Container
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GameObjectContext::*)()>(&GameObjectContext::get_Container)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::GetRootGameObjects
-  // Il2CppName: GetRootGameObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (GameObjectContext::*)()>(&GameObjectContext::GetRootGameObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::RunInternal
-  // Il2CppName: RunInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::RunInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "RunInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::GetInjectableMonoBehaviours
-  // Il2CppName: GetInjectableMonoBehaviours
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&GameObjectContext::GetInjectableMonoBehaviours)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectContext*, "Zenject", "GameObjectContext");
+// Writing MetadataGetter for method: GameObjectContext::add_PreInstall
+// Il2CppName: add_PreInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PreInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::remove_PreInstall
+// Il2CppName: remove_PreInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PreInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::add_PostInstall
+// Il2CppName: add_PostInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PostInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::remove_PostInstall
+// Il2CppName: remove_PostInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PostInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::add_PreResolve
+// Il2CppName: add_PreResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PreResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::remove_PreResolve
+// Il2CppName: remove_PreResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PreResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::add_PostResolve
+// Il2CppName: add_PostResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PostResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::remove_PostResolve
+// Il2CppName: remove_PostResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PostResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::Construct
+// Il2CppName: Construct
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(Zenject::DiContainer*)>(&GameObjectContext::Construct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&GameObjectContext::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::get_Container
+// Il2CppName: get_Container
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GameObjectContext::*)()>(&GameObjectContext::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::GetRootGameObjects
+// Il2CppName: GetRootGameObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (GameObjectContext::*)()>(&GameObjectContext::GetRootGameObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::RunInternal
+// Il2CppName: RunInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::RunInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "RunInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::GetInjectableMonoBehaviours
+// Il2CppName: GetInjectableMonoBehaviours
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&GameObjectContext::GetInjectableMonoBehaviours)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -91,75 +91,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FeverModeUIPanel), 40 + sizeof(float)> __GlobalNamespace_FeverModeUIPanelSizeCheck;
   static_assert(sizeof(FeverModeUIPanel) == 0x2C);
-  // Writing MetadataGetter for method: FeverModeUIPanel::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FeverModeUIPanel::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FeverModeUIPanel::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FeverModeUIPanel::SetProgress
-  // Il2CppName: SetProgress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)(float)>(&FeverModeUIPanel::SetProgress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "SetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeDidStart
-  // Il2CppName: HandleFeverModeDidStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::HandleFeverModeDidStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeDidFinish
-  // Il2CppName: HandleFeverModeDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::HandleFeverModeDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeChargeProgressDidChange
-  // Il2CppName: HandleFeverModeChargeProgressDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)(float)>(&FeverModeUIPanel::HandleFeverModeChargeProgressDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeChargeProgressDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: FeverModeUIPanel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel");
+// Writing MetadataGetter for method: FeverModeUIPanel::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FeverModeUIPanel::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FeverModeUIPanel::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FeverModeUIPanel::SetProgress
+// Il2CppName: SetProgress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)(float)>(&FeverModeUIPanel::SetProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "SetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeDidStart
+// Il2CppName: HandleFeverModeDidStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::HandleFeverModeDidStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeDidFinish
+// Il2CppName: HandleFeverModeDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::HandleFeverModeDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeChargeProgressDidChange
+// Il2CppName: HandleFeverModeChargeProgressDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)(float)>(&FeverModeUIPanel::HandleFeverModeChargeProgressDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeChargeProgressDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FeverModeUIPanel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

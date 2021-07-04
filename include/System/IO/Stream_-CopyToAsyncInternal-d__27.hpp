@@ -104,22 +104,22 @@ namespace System::IO {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.IO.Stream/<CopyToAsyncInternal>d__27
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: Stream::$CopyToAsyncInternal$d__27::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::$CopyToAsyncInternal$d__27::*)()>(&Stream::$CopyToAsyncInternal$d__27::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Stream::$CopyToAsyncInternal$d__27), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Stream::$CopyToAsyncInternal$d__27::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::$CopyToAsyncInternal$d__27::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&Stream::$CopyToAsyncInternal$d__27::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Stream::$CopyToAsyncInternal$d__27), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$CopyToAsyncInternal$d__27, "System.IO", "Stream/<CopyToAsyncInternal>d__27");
+// Writing MetadataGetter for method: Stream::$CopyToAsyncInternal$d__27::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::$CopyToAsyncInternal$d__27::*)()>(&Stream::$CopyToAsyncInternal$d__27::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Stream::$CopyToAsyncInternal$d__27), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Stream::$CopyToAsyncInternal$d__27::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::$CopyToAsyncInternal$d__27::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&Stream::$CopyToAsyncInternal$d__27::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Stream::$CopyToAsyncInternal$d__27), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

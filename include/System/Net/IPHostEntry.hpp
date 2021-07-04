@@ -77,59 +77,59 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(IPHostEntry), 40 + sizeof(bool)> __System_Net_IPHostEntrySizeCheck;
   static_assert(sizeof(IPHostEntry) == 0x29);
-  // Writing MetadataGetter for method: IPHostEntry::get_HostName
-  // Il2CppName: get_HostName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPHostEntry::*)()>(&IPHostEntry::get_HostName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "get_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IPHostEntry::set_HostName
-  // Il2CppName: set_HostName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)(::Il2CppString*)>(&IPHostEntry::set_HostName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "set_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IPHostEntry::set_Aliases
-  // Il2CppName: set_Aliases
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)(::Array<::Il2CppString*>*)>(&IPHostEntry::set_Aliases)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "set_Aliases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IPHostEntry::get_AddressList
-  // Il2CppName: get_AddressList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (IPHostEntry::*)()>(&IPHostEntry::get_AddressList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "get_AddressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IPHostEntry::set_AddressList
-  // Il2CppName: set_AddressList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)(::Array<System::Net::IPAddress*>*)>(&IPHostEntry::set_AddressList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "set_AddressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Net::IPAddress*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IPHostEntry::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)()>(&IPHostEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)()>(&IPHostEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPHostEntry*, "System.Net", "IPHostEntry");
+// Writing MetadataGetter for method: IPHostEntry::get_HostName
+// Il2CppName: get_HostName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPHostEntry::*)()>(&IPHostEntry::get_HostName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "get_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IPHostEntry::set_HostName
+// Il2CppName: set_HostName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)(::Il2CppString*)>(&IPHostEntry::set_HostName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "set_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IPHostEntry::set_Aliases
+// Il2CppName: set_Aliases
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)(::Array<::Il2CppString*>*)>(&IPHostEntry::set_Aliases)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "set_Aliases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IPHostEntry::get_AddressList
+// Il2CppName: get_AddressList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (IPHostEntry::*)()>(&IPHostEntry::get_AddressList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "get_AddressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IPHostEntry::set_AddressList
+// Il2CppName: set_AddressList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)(::Array<System::Net::IPAddress*>*)>(&IPHostEntry::set_AddressList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), "set_AddressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Net::IPAddress*>*>()});
+  }
+};
+// Writing MetadataGetter for method: IPHostEntry::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)()>(&IPHostEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPHostEntry::*)()>(&IPHostEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IPHostEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

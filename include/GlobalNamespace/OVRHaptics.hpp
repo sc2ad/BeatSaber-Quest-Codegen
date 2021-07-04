@@ -49,22 +49,22 @@ namespace GlobalNamespace {
     static void Process();
   }; // OVRHaptics
   #pragma pack(pop)
-  // Writing MetadataGetter for method: OVRHaptics::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRHaptics::Process
-  // Il2CppName: Process
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::Process)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics*, "", "OVRHaptics");
+// Writing MetadataGetter for method: OVRHaptics::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRHaptics::Process
+// Il2CppName: Process
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::Process)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

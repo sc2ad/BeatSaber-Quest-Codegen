@@ -65,27 +65,27 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(VRIKCalibrator::CalibrationData::Target), 32 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_VRIKCalibrator_CalibrationData_TargetSizeCheck;
   static_assert(sizeof(VRIKCalibrator::CalibrationData::Target) == 0x30);
-  // Writing MetadataGetter for method: VRIKCalibrator::CalibrationData::Target::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&VRIKCalibrator::CalibrationData::Target::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData::Target*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&VRIKCalibrator::CalibrationData::Target::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData::Target*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRIKCalibrator::CalibrationData::Target::SetTo
-  // Il2CppName: SetTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&VRIKCalibrator::CalibrationData::Target::SetTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData::Target*), "SetTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData/Target");
+// Writing MetadataGetter for method: VRIKCalibrator::CalibrationData::Target::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&VRIKCalibrator::CalibrationData::Target::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData::Target*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&VRIKCalibrator::CalibrationData::Target::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData::Target*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: VRIKCalibrator::CalibrationData::Target::SetTo
+// Il2CppName: SetTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&VRIKCalibrator::CalibrationData::Target::SetTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData::Target*), "SetTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};

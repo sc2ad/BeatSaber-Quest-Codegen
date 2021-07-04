@@ -410,196 +410,196 @@ namespace System::Diagnostics {
   #pragma pack(pop)
   static check_size<sizeof(Process), 216 + sizeof(::Il2CppString*)> __System_Diagnostics_ProcessSizeCheck;
   static_assert(sizeof(Process) == 0xE0);
-  // Writing MetadataGetter for method: Process::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(::Il2CppString*, bool, int, System::Diagnostics::ProcessInfo*)>(&Process::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Diagnostics::ProcessInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(::Il2CppString*, bool, int, System::Diagnostics::ProcessInfo*)>(&Process::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Diagnostics::ProcessInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::get_Associated
-  // Il2CppName: get_Associated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Process::*)()>(&Process::get_Associated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "get_Associated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::get_HasExited
-  // Il2CppName: get_HasExited
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Process::*)()>(&Process::get_HasExited)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "get_HasExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::GetProcessTimes
-  // Il2CppName: GetProcessTimes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::ProcessThreadTimes* (Process::*)()>(&Process::GetProcessTimes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::get_Id
-  // Il2CppName: get_Id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Process::*)()>(&Process::get_Id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::get_SynchronizingObject
-  // Il2CppName: get_SynchronizingObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::ISynchronizeInvoke* (Process::*)()>(&Process::get_SynchronizingObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "get_SynchronizingObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::get_TotalProcessorTime
-  // Il2CppName: get_TotalProcessorTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (Process::*)()>(&Process::get_TotalProcessorTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "get_TotalProcessorTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::ReleaseProcessHandle
-  // Il2CppName: ReleaseProcessHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&Process::ReleaseProcessHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "ReleaseProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::EnsureState
-  // Il2CppName: EnsureState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(System::Diagnostics::Process::State)>(&Process::EnsureState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "EnsureState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::Process::State>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::GetCurrentProcess
-  // Il2CppName: GetCurrentProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::Process* (*)()>(&Process::GetCurrentProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "GetCurrentProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::OnExited
-  // Il2CppName: OnExited
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::OnExited)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "OnExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::GetProcessHandle
-  // Il2CppName: GetProcessHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (Process::*)(int, bool)>(&Process::GetProcessHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::GetProcessHandle
-  // Il2CppName: GetProcessHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (Process::*)(int)>(&Process::GetProcessHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::Refresh
-  // Il2CppName: Refresh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::Refresh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::Kill
-  // Il2CppName: Kill
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::Kill)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "Kill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::StopWatchingForExit
-  // Il2CppName: StopWatchingForExit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::StopWatchingForExit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "StopWatchingForExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::ProcessName_internal
-  // Il2CppName: ProcessName_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Process::ProcessName_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::ProcessName_internal
-  // Il2CppName: ProcessName_internal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&Process::ProcessName_internal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::get_ProcessName
-  // Il2CppName: get_ProcessName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Process::*)()>(&Process::get_ProcessName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "get_ProcessName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::RaiseOnExited
-  // Il2CppName: RaiseOnExited
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::RaiseOnExited)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "RaiseOnExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Process::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(bool)>(&Process::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Process::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Process::*)()>(&Process::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Process*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process*, "System.Diagnostics", "Process");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::StreamReadMode, "System.Diagnostics", "Process/StreamReadMode");
+// Writing MetadataGetter for method: Process::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(::Il2CppString*, bool, int, System::Diagnostics::ProcessInfo*)>(&Process::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Diagnostics::ProcessInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(::Il2CppString*, bool, int, System::Diagnostics::ProcessInfo*)>(&Process::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Diagnostics::ProcessInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: Process::get_Associated
+// Il2CppName: get_Associated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Process::*)()>(&Process::get_Associated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "get_Associated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::get_HasExited
+// Il2CppName: get_HasExited
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Process::*)()>(&Process::get_HasExited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "get_HasExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::GetProcessTimes
+// Il2CppName: GetProcessTimes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::ProcessThreadTimes* (Process::*)()>(&Process::GetProcessTimes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::get_Id
+// Il2CppName: get_Id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Process::*)()>(&Process::get_Id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::get_SynchronizingObject
+// Il2CppName: get_SynchronizingObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::ISynchronizeInvoke* (Process::*)()>(&Process::get_SynchronizingObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "get_SynchronizingObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::get_TotalProcessorTime
+// Il2CppName: get_TotalProcessorTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (Process::*)()>(&Process::get_TotalProcessorTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "get_TotalProcessorTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::ReleaseProcessHandle
+// Il2CppName: ReleaseProcessHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&Process::ReleaseProcessHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "ReleaseProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+  }
+};
+// Writing MetadataGetter for method: Process::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::EnsureState
+// Il2CppName: EnsureState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(System::Diagnostics::Process::State)>(&Process::EnsureState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "EnsureState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::Process::State>()});
+  }
+};
+// Writing MetadataGetter for method: Process::GetCurrentProcess
+// Il2CppName: GetCurrentProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::Process* (*)()>(&Process::GetCurrentProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "GetCurrentProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::OnExited
+// Il2CppName: OnExited
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::OnExited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "OnExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::GetProcessHandle
+// Il2CppName: GetProcessHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (Process::*)(int, bool)>(&Process::GetProcessHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Process::GetProcessHandle
+// Il2CppName: GetProcessHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (Process::*)(int)>(&Process::GetProcessHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Process::Refresh
+// Il2CppName: Refresh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::Kill
+// Il2CppName: Kill
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::Kill)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "Kill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::StopWatchingForExit
+// Il2CppName: StopWatchingForExit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::StopWatchingForExit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "StopWatchingForExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::ProcessName_internal
+// Il2CppName: ProcessName_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Process::ProcessName_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: Process::ProcessName_internal
+// Il2CppName: ProcessName_internal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&Process::ProcessName_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+  }
+};
+// Writing MetadataGetter for method: Process::get_ProcessName
+// Il2CppName: get_ProcessName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Process::*)()>(&Process::get_ProcessName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "get_ProcessName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::RaiseOnExited
+// Il2CppName: RaiseOnExited
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)()>(&Process::RaiseOnExited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "RaiseOnExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Process::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Process::*)(bool)>(&Process::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Process::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Process::*)()>(&Process::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Process*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

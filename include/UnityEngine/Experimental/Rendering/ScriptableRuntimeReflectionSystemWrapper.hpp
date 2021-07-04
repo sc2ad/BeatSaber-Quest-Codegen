@@ -60,43 +60,43 @@ namespace UnityEngine::Experimental::Rendering {
   #pragma pack(pop)
   static check_size<sizeof(ScriptableRuntimeReflectionSystemWrapper), 16 + sizeof(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)> __UnityEngine_Experimental_Rendering_ScriptableRuntimeReflectionSystemWrapperSizeCheck;
   static_assert(sizeof(ScriptableRuntimeReflectionSystemWrapper) == 0x18);
-  // Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::get_implementation
-  // Il2CppName: get_implementation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* (ScriptableRuntimeReflectionSystemWrapper::*)()>(&ScriptableRuntimeReflectionSystemWrapper::get_implementation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), "get_implementation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::set_implementation
-  // Il2CppName: set_implementation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)>(&ScriptableRuntimeReflectionSystemWrapper::set_implementation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), "set_implementation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes
-  // Il2CppName: Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)(bool&)>(&ScriptableRuntimeReflectionSystemWrapper::Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), "Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)()>(&ScriptableRuntimeReflectionSystemWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)()>(&ScriptableRuntimeReflectionSystemWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");
+// Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::get_implementation
+// Il2CppName: get_implementation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* (ScriptableRuntimeReflectionSystemWrapper::*)()>(&ScriptableRuntimeReflectionSystemWrapper::get_implementation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), "get_implementation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::set_implementation
+// Il2CppName: set_implementation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)>(&ScriptableRuntimeReflectionSystemWrapper::set_implementation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), "set_implementation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>()});
+  }
+};
+// Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes
+// Il2CppName: Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)(bool&)>(&ScriptableRuntimeReflectionSystemWrapper::Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), "Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: ScriptableRuntimeReflectionSystemWrapper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)()>(&ScriptableRuntimeReflectionSystemWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScriptableRuntimeReflectionSystemWrapper::*)()>(&ScriptableRuntimeReflectionSystemWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScriptableRuntimeReflectionSystemWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

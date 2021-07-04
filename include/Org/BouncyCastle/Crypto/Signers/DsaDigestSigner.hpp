@@ -104,73 +104,73 @@ namespace Org::BouncyCastle::Crypto::Signers {
   #pragma pack(pop)
   static check_size<sizeof(DsaDigestSigner), 40 + sizeof(bool)> __Org_BouncyCastle_Crypto_Signers_DsaDigestSignerSizeCheck;
   static_assert(sizeof(DsaDigestSigner) == 0x29);
-  // Writing MetadataGetter for method: DsaDigestSigner::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsa*, Org::BouncyCastle::Crypto::IDigest*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsa*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsa*, Org::BouncyCastle::Crypto::IDigest*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsa*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DsaDigestSigner::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsaExt*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::Signers::IDsaEncoding*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsaExt*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsaExt*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::Signers::IDsaEncoding*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsaExt*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DsaDigestSigner::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&DsaDigestSigner::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DsaDigestSigner::BlockUpdate
-  // Il2CppName: BlockUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(::Array<uint8_t>*, int, int)>(&DsaDigestSigner::BlockUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: DsaDigestSigner::GenerateSignature
-  // Il2CppName: GenerateSignature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DsaDigestSigner::*)()>(&DsaDigestSigner::GenerateSignature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DsaDigestSigner::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)()>(&DsaDigestSigner::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DsaDigestSigner::GetOrder
-  // Il2CppName: GetOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DsaDigestSigner::*)()>(&DsaDigestSigner::GetOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "GetOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::DsaDigestSigner*, "Org.BouncyCastle.Crypto.Signers", "DsaDigestSigner");
+// Writing MetadataGetter for method: DsaDigestSigner::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsa*, Org::BouncyCastle::Crypto::IDigest*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsa*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsa*, Org::BouncyCastle::Crypto::IDigest*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsa*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+  }
+};
+// Writing MetadataGetter for method: DsaDigestSigner::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsaExt*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::Signers::IDsaEncoding*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsaExt*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(Org::BouncyCastle::Crypto::IDsaExt*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::Signers::IDsaEncoding*)>(&DsaDigestSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDsaExt*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>()});
+  }
+};
+// Writing MetadataGetter for method: DsaDigestSigner::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&DsaDigestSigner::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: DsaDigestSigner::BlockUpdate
+// Il2CppName: BlockUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)(::Array<uint8_t>*, int, int)>(&DsaDigestSigner::BlockUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: DsaDigestSigner::GenerateSignature
+// Il2CppName: GenerateSignature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DsaDigestSigner::*)()>(&DsaDigestSigner::GenerateSignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DsaDigestSigner::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaDigestSigner::*)()>(&DsaDigestSigner::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DsaDigestSigner::GetOrder
+// Il2CppName: GetOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DsaDigestSigner::*)()>(&DsaDigestSigner::GetOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DsaDigestSigner*), "GetOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

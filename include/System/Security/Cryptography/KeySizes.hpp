@@ -63,59 +63,59 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(KeySizes), 24 + sizeof(int)> __System_Security_Cryptography_KeySizesSizeCheck;
   static_assert(sizeof(KeySizes) == 0x1C);
-  // Writing MetadataGetter for method: KeySizes::get_MinSize
-  // Il2CppName: get_MinSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeySizes::*)()>(&KeySizes::get_MinSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeySizes*), "get_MinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeySizes::get_MaxSize
-  // Il2CppName: get_MaxSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeySizes::*)()>(&KeySizes::get_MaxSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeySizes*), "get_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeySizes::get_SkipSize
-  // Il2CppName: get_SkipSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeySizes::*)()>(&KeySizes::get_SkipSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeySizes*), "get_SkipSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeySizes::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeySizes::*)(int, int, int)>(&KeySizes::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeySizes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeySizes::*)(int, int, int)>(&KeySizes::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeySizes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeySizes::IsLegal
-  // Il2CppName: IsLegal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeySizes::*)(int)>(&KeySizes::IsLegal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeySizes*), "IsLegal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeySizes::IsLegalKeySize
-  // Il2CppName: IsLegalKeySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Security::Cryptography::KeySizes*>*, int)>(&KeySizes::IsLegalKeySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeySizes*), "IsLegalKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Security::Cryptography::KeySizes*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");
+// Writing MetadataGetter for method: KeySizes::get_MinSize
+// Il2CppName: get_MinSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeySizes::*)()>(&KeySizes::get_MinSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeySizes*), "get_MinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeySizes::get_MaxSize
+// Il2CppName: get_MaxSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeySizes::*)()>(&KeySizes::get_MaxSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeySizes*), "get_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeySizes::get_SkipSize
+// Il2CppName: get_SkipSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeySizes::*)()>(&KeySizes::get_SkipSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeySizes*), "get_SkipSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeySizes::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeySizes::*)(int, int, int)>(&KeySizes::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeySizes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeySizes::*)(int, int, int)>(&KeySizes::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeySizes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: KeySizes::IsLegal
+// Il2CppName: IsLegal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeySizes::*)(int)>(&KeySizes::IsLegal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeySizes*), "IsLegal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: KeySizes::IsLegalKeySize
+// Il2CppName: IsLegalKeySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Security::Cryptography::KeySizes*>*, int)>(&KeySizes::IsLegalKeySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeySizes*), "IsLegalKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Security::Cryptography::KeySizes*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

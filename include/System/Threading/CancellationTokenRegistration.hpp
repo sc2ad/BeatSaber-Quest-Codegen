@@ -82,59 +82,59 @@ namespace System::Threading {
     int GetHashCode();
   }; // System.Threading.CancellationTokenRegistration
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: CancellationTokenRegistration::CancellationTokenRegistration
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationTokenRegistration::*)(System::Threading::CancellationCallbackInfo*, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>)>(&CancellationTokenRegistration::CancellationTokenRegistration<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationCallbackInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationTokenRegistration::*)(System::Threading::CancellationCallbackInfo*, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>)>(&CancellationTokenRegistration::CancellationTokenRegistration<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationCallbackInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationTokenRegistration::TryDeregister
-  // Il2CppName: TryDeregister
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationTokenRegistration::*)()>(&CancellationTokenRegistration::TryDeregister)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "TryDeregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationTokenRegistration::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationTokenRegistration::*)()>(&CancellationTokenRegistration::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationTokenRegistration::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationTokenRegistration::*)(System::Threading::CancellationTokenRegistration)>(&CancellationTokenRegistration::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenRegistration>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationTokenRegistration::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationTokenRegistration::*)(::Il2CppObject*)>(&CancellationTokenRegistration::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CancellationTokenRegistration::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CancellationTokenRegistration::*)()>(&CancellationTokenRegistration::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");
+// Writing MetadataGetter for method: CancellationTokenRegistration::CancellationTokenRegistration
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationTokenRegistration::*)(System::Threading::CancellationCallbackInfo*, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>)>(&CancellationTokenRegistration::CancellationTokenRegistration<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationCallbackInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationTokenRegistration::*)(System::Threading::CancellationCallbackInfo*, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>)>(&CancellationTokenRegistration::CancellationTokenRegistration<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationCallbackInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationTokenRegistration::TryDeregister
+// Il2CppName: TryDeregister
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationTokenRegistration::*)()>(&CancellationTokenRegistration::TryDeregister)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "TryDeregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationTokenRegistration::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CancellationTokenRegistration::*)()>(&CancellationTokenRegistration::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CancellationTokenRegistration::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationTokenRegistration::*)(System::Threading::CancellationTokenRegistration)>(&CancellationTokenRegistration::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenRegistration>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationTokenRegistration::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CancellationTokenRegistration::*)(::Il2CppObject*)>(&CancellationTokenRegistration::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CancellationTokenRegistration::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CancellationTokenRegistration::*)()>(&CancellationTokenRegistration::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CancellationTokenRegistration), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

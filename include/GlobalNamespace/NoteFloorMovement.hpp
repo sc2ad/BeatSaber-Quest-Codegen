@@ -166,123 +166,123 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteFloorMovement), 120 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteFloorMovementSizeCheck;
   static_assert(sizeof(NoteFloorMovement) == 0x84);
-  // Writing MetadataGetter for method: NoteFloorMovement::add_floorMovementDidFinishEvent
-  // Il2CppName: add_floorMovementDidFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)(System::Action*)>(&NoteFloorMovement::add_floorMovementDidFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "add_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::remove_floorMovementDidFinishEvent
-  // Il2CppName: remove_floorMovementDidFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)(System::Action*)>(&NoteFloorMovement::remove_floorMovementDidFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "remove_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_distanceToPlayer
-  // Il2CppName: get_distanceToPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteFloorMovement::*)()>(&NoteFloorMovement::get_distanceToPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_distanceToPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_startPos
-  // Il2CppName: get_startPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::get_startPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_startPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_endPos
-  // Il2CppName: get_endPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::get_endPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_endPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_startTime
-  // Il2CppName: get_startTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteFloorMovement::*)()>(&NoteFloorMovement::get_startTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_startTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_moveDuration
-  // Il2CppName: get_moveDuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteFloorMovement::*)()>(&NoteFloorMovement::get_moveDuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_worldRotation
-  // Il2CppName: get_worldRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteFloorMovement::*)()>(&NoteFloorMovement::get_worldRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_worldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_inverseWorldRotation
-  // Il2CppName: get_inverseWorldRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteFloorMovement::*)()>(&NoteFloorMovement::get_inverseWorldRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_inverseWorldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::get_localPosition
-  // Il2CppName: get_localPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::get_localPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)(float, UnityEngine::Vector3, UnityEngine::Vector3, float, float)>(&NoteFloorMovement::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::SetToStart
-  // Il2CppName: SetToStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::SetToStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "SetToStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::ManualUpdate
-  // Il2CppName: ManualUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::ManualUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteFloorMovement::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)()>(&NoteFloorMovement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)()>(&NoteFloorMovement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");
+// Writing MetadataGetter for method: NoteFloorMovement::add_floorMovementDidFinishEvent
+// Il2CppName: add_floorMovementDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)(System::Action*)>(&NoteFloorMovement::add_floorMovementDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "add_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::remove_floorMovementDidFinishEvent
+// Il2CppName: remove_floorMovementDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)(System::Action*)>(&NoteFloorMovement::remove_floorMovementDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "remove_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_distanceToPlayer
+// Il2CppName: get_distanceToPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteFloorMovement::*)()>(&NoteFloorMovement::get_distanceToPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_distanceToPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_startPos
+// Il2CppName: get_startPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::get_startPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_startPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_endPos
+// Il2CppName: get_endPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::get_endPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_endPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_startTime
+// Il2CppName: get_startTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteFloorMovement::*)()>(&NoteFloorMovement::get_startTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_startTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_moveDuration
+// Il2CppName: get_moveDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteFloorMovement::*)()>(&NoteFloorMovement::get_moveDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_worldRotation
+// Il2CppName: get_worldRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteFloorMovement::*)()>(&NoteFloorMovement::get_worldRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_worldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_inverseWorldRotation
+// Il2CppName: get_inverseWorldRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteFloorMovement::*)()>(&NoteFloorMovement::get_inverseWorldRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_inverseWorldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::get_localPosition
+// Il2CppName: get_localPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::get_localPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)(float, UnityEngine::Vector3, UnityEngine::Vector3, float, float)>(&NoteFloorMovement::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::SetToStart
+// Il2CppName: SetToStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::SetToStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "SetToStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::ManualUpdate
+// Il2CppName: ManualUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteFloorMovement::*)()>(&NoteFloorMovement::ManualUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteFloorMovement::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)()>(&NoteFloorMovement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteFloorMovement::*)()>(&NoteFloorMovement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteFloorMovement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

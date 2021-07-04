@@ -81,43 +81,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FilteredBeatmapLevel::FilteredBeatmapLevelData), 24 + sizeof(GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_FilteredBeatmapLevel_FilteredBeatmapLevelDataSizeCheck;
   static_assert(sizeof(FilteredBeatmapLevel::FilteredBeatmapLevelData) == 0x20);
-  // Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::get_audioClip
-  // Il2CppName: get_audioClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)()>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::get_audioClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), "get_audioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::get_difficultyBeatmapSets
-  // Il2CppName: get_difficultyBeatmapSets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmapSet*>* (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)()>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::get_difficultyBeatmapSets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::set_difficultyBeatmapSets
-  // Il2CppName: set_difficultyBeatmapSets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(::Array<GlobalNamespace::IDifficultyBeatmapSet*>*)>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::set_difficultyBeatmapSets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), "set_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmapSet*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(GlobalNamespace::IBeatmapLevelData*, GlobalNamespace::BeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(GlobalNamespace::IBeatmapLevelData*, GlobalNamespace::BeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData*, "", "FilteredBeatmapLevel/FilteredBeatmapLevelData");
+// Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::get_audioClip
+// Il2CppName: get_audioClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)()>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::get_audioClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), "get_audioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::get_difficultyBeatmapSets
+// Il2CppName: get_difficultyBeatmapSets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmapSet*>* (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)()>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::get_difficultyBeatmapSets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::set_difficultyBeatmapSets
+// Il2CppName: set_difficultyBeatmapSets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(::Array<GlobalNamespace::IDifficultyBeatmapSet*>*)>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::set_difficultyBeatmapSets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), "set_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmapSet*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FilteredBeatmapLevel::FilteredBeatmapLevelData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(GlobalNamespace::IBeatmapLevelData*, GlobalNamespace::BeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(GlobalNamespace::IBeatmapLevelData*, GlobalNamespace::BeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&FilteredBeatmapLevel::FilteredBeatmapLevelData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FilteredBeatmapLevel::FilteredBeatmapLevelData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};

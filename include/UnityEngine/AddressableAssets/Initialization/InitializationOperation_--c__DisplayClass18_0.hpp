@@ -87,27 +87,27 @@ namespace UnityEngine::AddressableAssets::Initialization {
   #pragma pack(pop)
   static check_size<sizeof(InitializationOperation::$$c__DisplayClass18_0), 40 + sizeof(int)> __UnityEngine_AddressableAssets_Initialization_InitializationOperation_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(InitializationOperation::$$c__DisplayClass18_0) == 0x2C);
-  // Writing MetadataGetter for method: InitializationOperation::$$c__DisplayClass18_0::$LoadContentCatalogInternal$b__0
-  // Il2CppName: <LoadContentCatalogInternal>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializationOperation::$$c__DisplayClass18_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>)>(&InitializationOperation::$$c__DisplayClass18_0::$LoadContentCatalogInternal$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializationOperation::$$c__DisplayClass18_0*), "<LoadContentCatalogInternal>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: InitializationOperation::$$c__DisplayClass18_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializationOperation::$$c__DisplayClass18_0::*)()>(&InitializationOperation::$$c__DisplayClass18_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializationOperation::$$c__DisplayClass18_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializationOperation::$$c__DisplayClass18_0::*)()>(&InitializationOperation::$$c__DisplayClass18_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InitializationOperation::$$c__DisplayClass18_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass18_0*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c__DisplayClass18_0");
+// Writing MetadataGetter for method: InitializationOperation::$$c__DisplayClass18_0::$LoadContentCatalogInternal$b__0
+// Il2CppName: <LoadContentCatalogInternal>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializationOperation::$$c__DisplayClass18_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>)>(&InitializationOperation::$$c__DisplayClass18_0::$LoadContentCatalogInternal$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializationOperation::$$c__DisplayClass18_0*), "<LoadContentCatalogInternal>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>()});
+  }
+};
+// Writing MetadataGetter for method: InitializationOperation::$$c__DisplayClass18_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializationOperation::$$c__DisplayClass18_0::*)()>(&InitializationOperation::$$c__DisplayClass18_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializationOperation::$$c__DisplayClass18_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializationOperation::$$c__DisplayClass18_0::*)()>(&InitializationOperation::$$c__DisplayClass18_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InitializationOperation::$$c__DisplayClass18_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

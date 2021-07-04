@@ -141,83 +141,83 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(GenericBaker), 168 + sizeof(int)> __RootMotion_GenericBakerSizeCheck;
   static_assert(sizeof(GenericBaker) == 0xAC);
-  // Writing MetadataGetter for method: GenericBaker::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::IsIgnored
-  // Il2CppName: IsIgnored
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GenericBaker::*)(UnityEngine::Transform*)>(&GenericBaker::IsIgnored)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "IsIgnored", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::BakePosition
-  // Il2CppName: BakePosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GenericBaker::*)(UnityEngine::Transform*)>(&GenericBaker::BakePosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "BakePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::GetCharacterRoot
-  // Il2CppName: GetCharacterRoot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GenericBaker::*)()>(&GenericBaker::GetCharacterRoot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "GetCharacterRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::OnStartBaking
-  // Il2CppName: OnStartBaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::OnStartBaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnStartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::OnSetLoopFrame
-  // Il2CppName: OnSetLoopFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)(float)>(&GenericBaker::OnSetLoopFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnSetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::OnSetCurves
-  // Il2CppName: OnSetCurves
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)(UnityEngine::AnimationClip*&)>(&GenericBaker::OnSetCurves)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnSetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::OnSetKeyframes
-  // Il2CppName: OnSetKeyframes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)(float, bool)>(&GenericBaker::OnSetKeyframes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnSetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GenericBaker::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GenericBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::GenericBaker*, "RootMotion", "GenericBaker");
+// Writing MetadataGetter for method: GenericBaker::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::IsIgnored
+// Il2CppName: IsIgnored
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GenericBaker::*)(UnityEngine::Transform*)>(&GenericBaker::IsIgnored)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "IsIgnored", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::BakePosition
+// Il2CppName: BakePosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GenericBaker::*)(UnityEngine::Transform*)>(&GenericBaker::BakePosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "BakePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::GetCharacterRoot
+// Il2CppName: GetCharacterRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GenericBaker::*)()>(&GenericBaker::GetCharacterRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "GetCharacterRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::OnStartBaking
+// Il2CppName: OnStartBaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::OnStartBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnStartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::OnSetLoopFrame
+// Il2CppName: OnSetLoopFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)(float)>(&GenericBaker::OnSetLoopFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnSetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::OnSetCurves
+// Il2CppName: OnSetCurves
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)(UnityEngine::AnimationClip*&)>(&GenericBaker::OnSetCurves)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnSetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::OnSetKeyframes
+// Il2CppName: OnSetKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)(float, bool)>(&GenericBaker::OnSetKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), "OnSetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GenericBaker::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericBaker::*)()>(&GenericBaker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GenericBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -56,19 +56,19 @@ namespace Zenject::Internal {
   #pragma pack(pop)
   static check_size<sizeof(ReflectionTypeInfo::InjectParameterInfo), 24 + sizeof(Zenject::InjectableInfo*)> __Zenject_Internal_ReflectionTypeInfo_InjectParameterInfoSizeCheck;
   static_assert(sizeof(ReflectionTypeInfo::InjectParameterInfo) == 0x20);
-  // Writing MetadataGetter for method: ReflectionTypeInfo::InjectParameterInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeInfo::InjectParameterInfo::*)(System::Reflection::ParameterInfo*, Zenject::InjectableInfo*)>(&ReflectionTypeInfo::InjectParameterInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeInfo::InjectParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeInfo::InjectParameterInfo::*)(System::Reflection::ParameterInfo*, Zenject::InjectableInfo*)>(&ReflectionTypeInfo::InjectParameterInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReflectionTypeInfo::InjectParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectParameterInfo");
+// Writing MetadataGetter for method: ReflectionTypeInfo::InjectParameterInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeInfo::InjectParameterInfo::*)(System::Reflection::ParameterInfo*, Zenject::InjectableInfo*)>(&ReflectionTypeInfo::InjectParameterInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeInfo::InjectParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeInfo::InjectParameterInfo::*)(System::Reflection::ParameterInfo*, Zenject::InjectableInfo*)>(&ReflectionTypeInfo::InjectParameterInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeInfo::InjectParameterInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>()});
+  }
+};

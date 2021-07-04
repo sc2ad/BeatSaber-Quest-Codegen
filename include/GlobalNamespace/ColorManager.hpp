@@ -73,59 +73,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorManager), 16 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorManagerSizeCheck;
   static_assert(sizeof(ColorManager) == 0x18);
-  // Writing MetadataGetter for method: ColorManager::get_obstaclesColor
-  // Il2CppName: get_obstaclesColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)()>(&ColorManager::get_obstaclesColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorManager*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorManager::ColorForType
-  // Il2CppName: ColorForType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)(GlobalNamespace::ColorType)>(&ColorManager::ColorForType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorManager*), "ColorForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorManager::ColorForSaberType
-  // Il2CppName: ColorForSaberType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)(GlobalNamespace::SaberType)>(&ColorManager::ColorForSaberType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorManager*), "ColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorManager::EffectsColorForSaberType
-  // Il2CppName: EffectsColorForSaberType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)(GlobalNamespace::SaberType)>(&ColorManager::EffectsColorForSaberType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorManager*), "EffectsColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorManager::GetObstacleEffectColor
-  // Il2CppName: GetObstacleEffectColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)()>(&ColorManager::GetObstacleEffectColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorManager*), "GetObstacleEffectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorManager::*)()>(&ColorManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorManager::*)()>(&ColorManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");
+// Writing MetadataGetter for method: ColorManager::get_obstaclesColor
+// Il2CppName: get_obstaclesColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)()>(&ColorManager::get_obstaclesColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorManager*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorManager::ColorForType
+// Il2CppName: ColorForType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)(GlobalNamespace::ColorType)>(&ColorManager::ColorForType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorManager*), "ColorForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+  }
+};
+// Writing MetadataGetter for method: ColorManager::ColorForSaberType
+// Il2CppName: ColorForSaberType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)(GlobalNamespace::SaberType)>(&ColorManager::ColorForSaberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorManager*), "ColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+  }
+};
+// Writing MetadataGetter for method: ColorManager::EffectsColorForSaberType
+// Il2CppName: EffectsColorForSaberType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)(GlobalNamespace::SaberType)>(&ColorManager::EffectsColorForSaberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorManager*), "EffectsColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+  }
+};
+// Writing MetadataGetter for method: ColorManager::GetObstacleEffectColor
+// Il2CppName: GetObstacleEffectColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorManager::*)()>(&ColorManager::GetObstacleEffectColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorManager*), "GetObstacleEffectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorManager::*)()>(&ColorManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorManager::*)()>(&ColorManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

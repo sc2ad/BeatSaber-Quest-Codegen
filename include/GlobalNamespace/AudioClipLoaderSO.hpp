@@ -78,43 +78,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AudioClipLoaderSO), 24 + sizeof(bool)> __GlobalNamespace_AudioClipLoaderSOSizeCheck;
   static_assert(sizeof(AudioClipLoaderSO) == 0x19);
-  // Writing MetadataGetter for method: AudioClipLoaderSO::LoadAudioFile
-  // Il2CppName: LoadAudioFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&AudioClipLoaderSO::LoadAudioFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), "LoadAudioFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AudioClip*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioClipLoaderSO::LoadAudioFileCoroutine
-  // Il2CppName: LoadAudioFileCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&AudioClipLoaderSO::LoadAudioFileCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), "LoadAudioFileCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AudioClip*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioClipLoaderSO::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)()>(&AudioClipLoaderSO::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioClipLoaderSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)()>(&AudioClipLoaderSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)()>(&AudioClipLoaderSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO*, "", "AudioClipLoaderSO");
+// Writing MetadataGetter for method: AudioClipLoaderSO::LoadAudioFile
+// Il2CppName: LoadAudioFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&AudioClipLoaderSO::LoadAudioFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), "LoadAudioFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AudioClip*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AudioClipLoaderSO::LoadAudioFileCoroutine
+// Il2CppName: LoadAudioFileCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&AudioClipLoaderSO::LoadAudioFileCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), "LoadAudioFileCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AudioClip*>*>()});
+  }
+};
+// Writing MetadataGetter for method: AudioClipLoaderSO::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)()>(&AudioClipLoaderSO::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioClipLoaderSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)()>(&AudioClipLoaderSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipLoaderSO::*)()>(&AudioClipLoaderSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioClipLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -115,99 +115,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FPSCounter), 48 + sizeof(float)> __GlobalNamespace_FPSCounterSizeCheck;
   static_assert(sizeof(FPSCounter) == 0x34);
-  // Writing MetadataGetter for method: FPSCounter::get_currentFPS
-  // Il2CppName: get_currentFPS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_currentFPS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_currentFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::set_currentFPS
-  // Il2CppName: set_currentFPS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_currentFPS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_currentFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::get_lowestFPS
-  // Il2CppName: get_lowestFPS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_lowestFPS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_lowestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::set_lowestFPS
-  // Il2CppName: set_lowestFPS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_lowestFPS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_lowestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::get_highestFPS
-  // Il2CppName: get_highestFPS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_highestFPS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_highestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::set_highestFPS
-  // Il2CppName: set_highestFPS
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_highestFPS)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_highestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::get_droppedFrames
-  // Il2CppName: get_droppedFrames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_droppedFrames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_droppedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::set_droppedFrames
-  // Il2CppName: set_droppedFrames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_droppedFrames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_droppedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FPSCounter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FPSCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounter*, "", "FPSCounter");
+// Writing MetadataGetter for method: FPSCounter::get_currentFPS
+// Il2CppName: get_currentFPS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_currentFPS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_currentFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::set_currentFPS
+// Il2CppName: set_currentFPS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_currentFPS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_currentFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::get_lowestFPS
+// Il2CppName: get_lowestFPS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_lowestFPS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_lowestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::set_lowestFPS
+// Il2CppName: set_lowestFPS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_lowestFPS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_lowestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::get_highestFPS
+// Il2CppName: get_highestFPS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_highestFPS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_highestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::set_highestFPS
+// Il2CppName: set_highestFPS
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_highestFPS)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_highestFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::get_droppedFrames
+// Il2CppName: get_droppedFrames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FPSCounter::*)()>(&FPSCounter::get_droppedFrames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "get_droppedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::set_droppedFrames
+// Il2CppName: set_droppedFrames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)(int)>(&FPSCounter::set_droppedFrames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "set_droppedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FPSCounter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FPSCounter::*)()>(&FPSCounter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FPSCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

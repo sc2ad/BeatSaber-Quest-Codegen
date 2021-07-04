@@ -53,19 +53,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PatternFightSceneSetupData), 24 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_PatternFightSceneSetupDataSizeCheck;
   static_assert(sizeof(PatternFightSceneSetupData) == 0x20);
-  // Writing MetadataGetter for method: PatternFightSceneSetupData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PatternFightSceneSetupData::*)(GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::ColorScheme*)>(&PatternFightSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PatternFightSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PatternFightSceneSetupData::*)(GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::ColorScheme*)>(&PatternFightSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PatternFightSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetupData*, "", "PatternFightSceneSetupData");
+// Writing MetadataGetter for method: PatternFightSceneSetupData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PatternFightSceneSetupData::*)(GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::ColorScheme*)>(&PatternFightSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PatternFightSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PatternFightSceneSetupData::*)(GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::ColorScheme*)>(&PatternFightSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PatternFightSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+  }
+};

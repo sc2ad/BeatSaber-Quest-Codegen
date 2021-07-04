@@ -303,259 +303,259 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(SceneContext), 177 + sizeof(bool)> __Zenject_SceneContextSizeCheck;
   static_assert(sizeof(SceneContext) == 0xB2);
-  // Writing MetadataGetter for method: SceneContext::add_PreInstall
-  // Il2CppName: add_PreInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PreInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::remove_PreInstall
-  // Il2CppName: remove_PreInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PreInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::add_PostInstall
-  // Il2CppName: add_PostInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PostInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::remove_PostInstall
-  // Il2CppName: remove_PostInstall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PostInstall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::add_PreResolve
-  // Il2CppName: add_PreResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PreResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::remove_PreResolve
-  // Il2CppName: remove_PreResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PreResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::add_PostResolve
-  // Il2CppName: add_PostResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PostResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::remove_PostResolve
-  // Il2CppName: remove_PostResolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PostResolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::get_HasResolved
-  // Il2CppName: get_HasResolved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_HasResolved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_HasResolved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::get_HasInstalled
-  // Il2CppName: get_HasInstalled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_HasInstalled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_HasInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::get_IsValidating
-  // Il2CppName: get_IsValidating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_IsValidating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_IsValidating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::get_ContractNames
-  // Il2CppName: get_ContractNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (SceneContext::*)()>(&SceneContext::get_ContractNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_ContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::set_ContractNames
-  // Il2CppName: set_ContractNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&SceneContext::set_ContractNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "set_ContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::get_ParentContractNames
-  // Il2CppName: get_ParentContractNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (SceneContext::*)()>(&SceneContext::get_ParentContractNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_ParentContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::set_ParentContractNames
-  // Il2CppName: set_ParentContractNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&SceneContext::set_ParentContractNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "set_ParentContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::get_ParentNewObjectsUnderSceneContext
-  // Il2CppName: get_ParentNewObjectsUnderSceneContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_ParentNewObjectsUnderSceneContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_ParentNewObjectsUnderSceneContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::set_ParentNewObjectsUnderSceneContext
-  // Il2CppName: set_ParentNewObjectsUnderSceneContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(bool)>(&SceneContext::set_ParentNewObjectsUnderSceneContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "set_ParentNewObjectsUnderSceneContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::Validate
-  // Il2CppName: Validate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Validate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::GetParentContainers
-  // Il2CppName: GetParentContainers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* (SceneContext::*)()>(&SceneContext::GetParentContainers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "GetParentContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::LookupDecoratorContexts
-  // Il2CppName: LookupDecoratorContexts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* (SceneContext::*)()>(&SceneContext::LookupDecoratorContexts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "LookupDecoratorContexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::Install
-  // Il2CppName: Install
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Install)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Install", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::Resolve
-  // Il2CppName: Resolve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Resolve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&SceneContext::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SceneContext* (*)()>(&SceneContext::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::$LookupDecoratorContexts$b__50_2
-  // Il2CppName: <LookupDecoratorContexts>b__50_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)(Zenject::SceneDecoratorContext*)>(&SceneContext::$LookupDecoratorContexts$b__50_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "<LookupDecoratorContexts>b__50_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneDecoratorContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::get_Container
-  // Il2CppName: get_Container
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (SceneContext::*)()>(&SceneContext::get_Container)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::RunInternal
-  // Il2CppName: RunInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::RunInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "RunInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::GetRootGameObjects
-  // Il2CppName: GetRootGameObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (SceneContext::*)()>(&SceneContext::GetRootGameObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::GetInjectableMonoBehaviours
-  // Il2CppName: GetInjectableMonoBehaviours
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&SceneContext::GetInjectableMonoBehaviours)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SceneContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SceneContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext*, "Zenject", "SceneContext");
+// Writing MetadataGetter for method: SceneContext::add_PreInstall
+// Il2CppName: add_PreInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PreInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::remove_PreInstall
+// Il2CppName: remove_PreInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PreInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::add_PostInstall
+// Il2CppName: add_PostInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PostInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::remove_PostInstall
+// Il2CppName: remove_PostInstall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PostInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::add_PreResolve
+// Il2CppName: add_PreResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PreResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::remove_PreResolve
+// Il2CppName: remove_PreResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PreResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::add_PostResolve
+// Il2CppName: add_PostResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::add_PostResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "add_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::remove_PostResolve
+// Il2CppName: remove_PostResolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Action*)>(&SceneContext::remove_PostResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "remove_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::get_HasResolved
+// Il2CppName: get_HasResolved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_HasResolved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_HasResolved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::get_HasInstalled
+// Il2CppName: get_HasInstalled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_HasInstalled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_HasInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::get_IsValidating
+// Il2CppName: get_IsValidating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_IsValidating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_IsValidating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::get_ContractNames
+// Il2CppName: get_ContractNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (SceneContext::*)()>(&SceneContext::get_ContractNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_ContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::set_ContractNames
+// Il2CppName: set_ContractNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&SceneContext::set_ContractNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "set_ContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::get_ParentContractNames
+// Il2CppName: get_ParentContractNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (SceneContext::*)()>(&SceneContext::get_ParentContractNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_ParentContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::set_ParentContractNames
+// Il2CppName: set_ParentContractNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&SceneContext::set_ParentContractNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "set_ParentContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::get_ParentNewObjectsUnderSceneContext
+// Il2CppName: get_ParentNewObjectsUnderSceneContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)()>(&SceneContext::get_ParentNewObjectsUnderSceneContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_ParentNewObjectsUnderSceneContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::set_ParentNewObjectsUnderSceneContext
+// Il2CppName: set_ParentNewObjectsUnderSceneContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(bool)>(&SceneContext::set_ParentNewObjectsUnderSceneContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "set_ParentNewObjectsUnderSceneContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::Validate
+// Il2CppName: Validate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Validate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::GetParentContainers
+// Il2CppName: GetParentContainers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* (SceneContext::*)()>(&SceneContext::GetParentContainers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "GetParentContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::LookupDecoratorContexts
+// Il2CppName: LookupDecoratorContexts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* (SceneContext::*)()>(&SceneContext::LookupDecoratorContexts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "LookupDecoratorContexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::Install
+// Il2CppName: Install
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Install)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Install", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::Resolve
+// Il2CppName: Resolve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&SceneContext::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SceneContext* (*)()>(&SceneContext::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::$LookupDecoratorContexts$b__50_2
+// Il2CppName: <LookupDecoratorContexts>b__50_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneContext::*)(Zenject::SceneDecoratorContext*)>(&SceneContext::$LookupDecoratorContexts$b__50_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "<LookupDecoratorContexts>b__50_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneDecoratorContext*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::get_Container
+// Il2CppName: get_Container
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (SceneContext::*)()>(&SceneContext::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::RunInternal
+// Il2CppName: RunInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::RunInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "RunInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::GetRootGameObjects
+// Il2CppName: GetRootGameObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (SceneContext::*)()>(&SceneContext::GetRootGameObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::GetInjectableMonoBehaviours
+// Il2CppName: GetInjectableMonoBehaviours
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&SceneContext::GetInjectableMonoBehaviours)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SceneContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneContext::*)()>(&SceneContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

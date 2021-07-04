@@ -57,35 +57,35 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: LegacyResourcesProvider::Provide
-  // Il2CppName: Provide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&LegacyResourcesProvider::Provide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), "Provide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: LegacyResourcesProvider::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppObject*)>(&LegacyResourcesProvider::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LegacyResourcesProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)()>(&LegacyResourcesProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)()>(&LegacyResourcesProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider");
+// Writing MetadataGetter for method: LegacyResourcesProvider::Provide
+// Il2CppName: Provide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&LegacyResourcesProvider::Provide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), "Provide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
+  }
+};
+// Writing MetadataGetter for method: LegacyResourcesProvider::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppObject*)>(&LegacyResourcesProvider::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: LegacyResourcesProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)()>(&LegacyResourcesProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::*)()>(&LegacyResourcesProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

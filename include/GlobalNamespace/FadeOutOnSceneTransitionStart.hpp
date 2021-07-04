@@ -71,43 +71,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FadeOutOnSceneTransitionStart), 32 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_FadeOutOnSceneTransitionStartSizeCheck;
   static_assert(sizeof(FadeOutOnSceneTransitionStart) == 0x28);
-  // Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart
-  // Il2CppName: HandleGameScenesManagerTransitionDidStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)(float)>(&FadeOutOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), "HandleGameScenesManagerTransitionDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutOnSceneTransitionStart*, "", "FadeOutOnSceneTransitionStart");
+// Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart
+// Il2CppName: HandleGameScenesManagerTransitionDidStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)(float)>(&FadeOutOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), "HandleGameScenesManagerTransitionDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FadeOutOnSceneTransitionStart::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutOnSceneTransitionStart::*)()>(&FadeOutOnSceneTransitionStart::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeOutOnSceneTransitionStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -213,22 +213,22 @@ namespace MasterServer {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.BaseClientMessageHandler/<AuthenticateWithMasterServerAsyncInternal>d__29
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::*)()>(&BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29, "MasterServer", "BaseClientMessageHandler/<AuthenticateWithMasterServerAsyncInternal>d__29");
+// Writing MetadataGetter for method: BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::*)()>(&BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

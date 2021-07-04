@@ -38,14 +38,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
   static check_size<sizeof(RsaBlindingParameters), 16 + sizeof(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*)> __Org_BouncyCastle_Crypto_Parameters_RsaBlindingParametersSizeCheck;
   static_assert(sizeof(RsaBlindingParameters) == 0x18);
-  // Writing MetadataGetter for method: RsaBlindingParameters::get_PublicKey
-  // Il2CppName: get_PublicKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* (RsaBlindingParameters::*)()>(&RsaBlindingParameters::get_PublicKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaBlindingParameters*), "get_PublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaBlindingParameters");
+// Writing MetadataGetter for method: RsaBlindingParameters::get_PublicKey
+// Il2CppName: get_PublicKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* (RsaBlindingParameters::*)()>(&RsaBlindingParameters::get_PublicKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaBlindingParameters*), "get_PublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

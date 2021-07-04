@@ -116,123 +116,123 @@ namespace Org::BouncyCastle::Asn1::X509 {
   #pragma pack(pop)
   static check_size<sizeof(X509CertificateStructure), 32 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_X509_X509CertificateStructureSizeCheck;
   static_assert(sizeof(X509CertificateStructure) == 0x28);
-  // Writing MetadataGetter for method: X509CertificateStructure::GetInstance
-  // Il2CppName: GetInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509CertificateStructure* (*)(::Il2CppObject*)>(&X509CertificateStructure::GetInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&X509CertificateStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&X509CertificateStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_TbsCertificate
-  // Il2CppName: get_TbsCertificate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_TbsCertificate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_TbsCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_Version
-  // Il2CppName: get_Version
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Version)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_SerialNumber
-  // Il2CppName: get_SerialNumber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_SerialNumber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_SerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_Issuer
-  // Il2CppName: get_Issuer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Issuer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Issuer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_StartDate
-  // Il2CppName: get_StartDate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_StartDate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_StartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_EndDate
-  // Il2CppName: get_EndDate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_EndDate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_EndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_Subject
-  // Il2CppName: get_Subject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Subject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Subject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_SubjectPublicKeyInfo
-  // Il2CppName: get_SubjectPublicKeyInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_SubjectPublicKeyInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_SubjectPublicKeyInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_SignatureAlgorithm
-  // Il2CppName: get_SignatureAlgorithm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_SignatureAlgorithm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_SignatureAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::get_Signature
-  // Il2CppName: get_Signature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Signature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Signature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::GetSignatureOctets
-  // Il2CppName: GetSignatureOctets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509CertificateStructure::*)()>(&X509CertificateStructure::GetSignatureOctets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "GetSignatureOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509CertificateStructure::ToAsn1Object
-  // Il2CppName: ToAsn1Object
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (X509CertificateStructure::*)()>(&X509CertificateStructure::ToAsn1Object)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, "Org.BouncyCastle.Asn1.X509", "X509CertificateStructure");
+// Writing MetadataGetter for method: X509CertificateStructure::GetInstance
+// Il2CppName: GetInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509CertificateStructure* (*)(::Il2CppObject*)>(&X509CertificateStructure::GetInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&X509CertificateStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&X509CertificateStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_TbsCertificate
+// Il2CppName: get_TbsCertificate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_TbsCertificate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_TbsCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_Version
+// Il2CppName: get_Version
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_SerialNumber
+// Il2CppName: get_SerialNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_SerialNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_SerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_Issuer
+// Il2CppName: get_Issuer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Issuer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Issuer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_StartDate
+// Il2CppName: get_StartDate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_StartDate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_StartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_EndDate
+// Il2CppName: get_EndDate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_EndDate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_EndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_Subject
+// Il2CppName: get_Subject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Subject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Subject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_SubjectPublicKeyInfo
+// Il2CppName: get_SubjectPublicKeyInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_SubjectPublicKeyInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_SubjectPublicKeyInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_SignatureAlgorithm
+// Il2CppName: get_SignatureAlgorithm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_SignatureAlgorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_SignatureAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::get_Signature
+// Il2CppName: get_Signature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (X509CertificateStructure::*)()>(&X509CertificateStructure::get_Signature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "get_Signature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::GetSignatureOctets
+// Il2CppName: GetSignatureOctets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509CertificateStructure::*)()>(&X509CertificateStructure::GetSignatureOctets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "GetSignatureOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509CertificateStructure::ToAsn1Object
+// Il2CppName: ToAsn1Object
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (X509CertificateStructure::*)()>(&X509CertificateStructure::ToAsn1Object)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509CertificateStructure*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

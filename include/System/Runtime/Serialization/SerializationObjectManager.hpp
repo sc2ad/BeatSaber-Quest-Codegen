@@ -70,43 +70,43 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
   static check_size<sizeof(SerializationObjectManager), 32 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_SerializationObjectManagerSizeCheck;
   static_assert(sizeof(SerializationObjectManager) == 0x2C);
-  // Writing MetadataGetter for method: SerializationObjectManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(System::Runtime::Serialization::StreamingContext)>(&SerializationObjectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(System::Runtime::Serialization::StreamingContext)>(&SerializationObjectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: SerializationObjectManager::RegisterObject
-  // Il2CppName: RegisterObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(::Il2CppObject*)>(&SerializationObjectManager::RegisterObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SerializationObjectManager::RaiseOnSerializedEvent
-  // Il2CppName: RaiseOnSerializedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)()>(&SerializationObjectManager::RaiseOnSerializedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), "RaiseOnSerializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SerializationObjectManager::AddOnSerialized
-  // Il2CppName: AddOnSerialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(::Il2CppObject*)>(&SerializationObjectManager::AddOnSerialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), "AddOnSerialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationObjectManager*, "System.Runtime.Serialization", "SerializationObjectManager");
+// Writing MetadataGetter for method: SerializationObjectManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(System::Runtime::Serialization::StreamingContext)>(&SerializationObjectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(System::Runtime::Serialization::StreamingContext)>(&SerializationObjectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: SerializationObjectManager::RegisterObject
+// Il2CppName: RegisterObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(::Il2CppObject*)>(&SerializationObjectManager::RegisterObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: SerializationObjectManager::RaiseOnSerializedEvent
+// Il2CppName: RaiseOnSerializedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)()>(&SerializationObjectManager::RaiseOnSerializedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), "RaiseOnSerializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SerializationObjectManager::AddOnSerialized
+// Il2CppName: AddOnSerialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationObjectManager::*)(::Il2CppObject*)>(&SerializationObjectManager::AddOnSerialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SerializationObjectManager*), "AddOnSerialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

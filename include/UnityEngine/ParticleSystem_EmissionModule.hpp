@@ -55,51 +55,51 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::EmissionModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_EmissionModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::EmissionModule) == 0x8);
-  // Writing MetadataGetter for method: ParticleSystem::EmissionModule::EmissionModule
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmissionModule::*)(UnityEngine::ParticleSystem*)>(&ParticleSystem::EmissionModule::EmissionModule<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmissionModule::*)(UnityEngine::ParticleSystem*)>(&ParticleSystem::EmissionModule::EmissionModule<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::EmissionModule::get_enabled
-  // Il2CppName: get_enabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParticleSystem::EmissionModule::*)()>(&ParticleSystem::EmissionModule::get_enabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::EmissionModule::set_enabled
-  // Il2CppName: set_enabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmissionModule::*)(bool)>(&ParticleSystem::EmissionModule::set_enabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::EmissionModule::get_enabled_Injected
-  // Il2CppName: get_enabled_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ParticleSystem::EmissionModule&)>(&ParticleSystem::EmissionModule::get_enabled_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "get_enabled_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::EmissionModule&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::EmissionModule::set_enabled_Injected
-  // Il2CppName: set_enabled_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::EmissionModule&, bool)>(&ParticleSystem::EmissionModule::set_enabled_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "set_enabled_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::EmissionModule&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");
+// Writing MetadataGetter for method: ParticleSystem::EmissionModule::EmissionModule
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmissionModule::*)(UnityEngine::ParticleSystem*)>(&ParticleSystem::EmissionModule::EmissionModule<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmissionModule::*)(UnityEngine::ParticleSystem*)>(&ParticleSystem::EmissionModule::EmissionModule<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::EmissionModule::get_enabled
+// Il2CppName: get_enabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParticleSystem::EmissionModule::*)()>(&ParticleSystem::EmissionModule::get_enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::EmissionModule::set_enabled
+// Il2CppName: set_enabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmissionModule::*)(bool)>(&ParticleSystem::EmissionModule::set_enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::EmissionModule::get_enabled_Injected
+// Il2CppName: get_enabled_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ParticleSystem::EmissionModule&)>(&ParticleSystem::EmissionModule::get_enabled_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "get_enabled_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::EmissionModule&>()});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::EmissionModule::set_enabled_Injected
+// Il2CppName: set_enabled_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::EmissionModule&, bool)>(&ParticleSystem::EmissionModule::set_enabled_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmissionModule), "set_enabled_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::EmissionModule&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

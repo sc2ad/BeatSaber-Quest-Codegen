@@ -64,20 +64,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_PackedPlayModeBuildLogs_RuntimeBuildLogSizeCheck;
     static_assert(sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog) == 0x10);
-    // Writing MetadataGetter for method: PackedPlayModeBuildLogs::RuntimeBuildLog::RuntimeBuildLog
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::RuntimeBuildLog::*)(UnityEngine::LogType, ::Il2CppString*)>(&PackedPlayModeBuildLogs::RuntimeBuildLog::RuntimeBuildLog<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs::RuntimeBuildLog), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::RuntimeBuildLog::*)(UnityEngine::LogType, ::Il2CppString*)>(&PackedPlayModeBuildLogs::RuntimeBuildLog::RuntimeBuildLog<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs::RuntimeBuildLog), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
     // private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
     // Size: 0x8
     // Offset: 0x10
@@ -109,36 +95,36 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PackedPlayModeBuildLogs), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*)> __GlobalNamespace_PackedPlayModeBuildLogsSizeCheck;
   static_assert(sizeof(PackedPlayModeBuildLogs) == 0x18);
-  // Writing MetadataGetter for method: PackedPlayModeBuildLogs::get_RuntimeBuildLogs
-  // Il2CppName: get_RuntimeBuildLogs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* (PackedPlayModeBuildLogs::*)()>(&PackedPlayModeBuildLogs::get_RuntimeBuildLogs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), "get_RuntimeBuildLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PackedPlayModeBuildLogs::set_RuntimeBuildLogs
-  // Il2CppName: set_RuntimeBuildLogs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::*)(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*)>(&PackedPlayModeBuildLogs::set_RuntimeBuildLogs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), "set_RuntimeBuildLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PackedPlayModeBuildLogs::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::*)()>(&PackedPlayModeBuildLogs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::*)()>(&PackedPlayModeBuildLogs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs*, "", "PackedPlayModeBuildLogs");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog, "", "PackedPlayModeBuildLogs/RuntimeBuildLog");
+// Writing MetadataGetter for method: PackedPlayModeBuildLogs::get_RuntimeBuildLogs
+// Il2CppName: get_RuntimeBuildLogs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* (PackedPlayModeBuildLogs::*)()>(&PackedPlayModeBuildLogs::get_RuntimeBuildLogs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), "get_RuntimeBuildLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PackedPlayModeBuildLogs::set_RuntimeBuildLogs
+// Il2CppName: set_RuntimeBuildLogs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::*)(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*)>(&PackedPlayModeBuildLogs::set_RuntimeBuildLogs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), "set_RuntimeBuildLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*>()});
+  }
+};
+// Writing MetadataGetter for method: PackedPlayModeBuildLogs::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::*)()>(&PackedPlayModeBuildLogs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PackedPlayModeBuildLogs::*)()>(&PackedPlayModeBuildLogs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PackedPlayModeBuildLogs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

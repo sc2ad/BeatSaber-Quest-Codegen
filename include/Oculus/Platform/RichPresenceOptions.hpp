@@ -93,115 +93,115 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(RichPresenceOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RichPresenceOptionsSizeCheck;
   static_assert(sizeof(RichPresenceOptions) == 0x18);
-  // Writing MetadataGetter for method: RichPresenceOptions::SetApiName
-  // Il2CppName: SetApiName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(::Il2CppString*)>(&RichPresenceOptions::SetApiName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetCurrentCapacity
-  // Il2CppName: SetCurrentCapacity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(uint)>(&RichPresenceOptions::SetCurrentCapacity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetCurrentCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetDeeplinkMessageOverride
-  // Il2CppName: SetDeeplinkMessageOverride
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(::Il2CppString*)>(&RichPresenceOptions::SetDeeplinkMessageOverride)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetDeeplinkMessageOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetEndTime
-  // Il2CppName: SetEndTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(System::DateTime)>(&RichPresenceOptions::SetEndTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetExtraContext
-  // Il2CppName: SetExtraContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(Oculus::Platform::RichPresenceExtraContext)>(&RichPresenceOptions::SetExtraContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetExtraContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RichPresenceExtraContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetInstanceId
-  // Il2CppName: SetInstanceId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(::Il2CppString*)>(&RichPresenceOptions::SetInstanceId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetInstanceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetIsIdle
-  // Il2CppName: SetIsIdle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(bool)>(&RichPresenceOptions::SetIsIdle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetIsIdle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetIsJoinable
-  // Il2CppName: SetIsJoinable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(bool)>(&RichPresenceOptions::SetIsJoinable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetIsJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetMaxCapacity
-  // Il2CppName: SetMaxCapacity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(uint)>(&RichPresenceOptions::SetMaxCapacity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetMaxCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::SetStartTime
-  // Il2CppName: SetStartTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(System::DateTime)>(&RichPresenceOptions::SetStartTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::operator System::IntPtr
-  // Il2CppName: op_Explicit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&RichPresenceOptions::operator System::IntPtr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)()>(&RichPresenceOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)()>(&RichPresenceOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RichPresenceOptions::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)()>(&RichPresenceOptions::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresenceOptions*, "Oculus.Platform", "RichPresenceOptions");
+// Writing MetadataGetter for method: RichPresenceOptions::SetApiName
+// Il2CppName: SetApiName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(::Il2CppString*)>(&RichPresenceOptions::SetApiName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetCurrentCapacity
+// Il2CppName: SetCurrentCapacity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(uint)>(&RichPresenceOptions::SetCurrentCapacity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetCurrentCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetDeeplinkMessageOverride
+// Il2CppName: SetDeeplinkMessageOverride
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(::Il2CppString*)>(&RichPresenceOptions::SetDeeplinkMessageOverride)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetDeeplinkMessageOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetEndTime
+// Il2CppName: SetEndTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(System::DateTime)>(&RichPresenceOptions::SetEndTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetExtraContext
+// Il2CppName: SetExtraContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(Oculus::Platform::RichPresenceExtraContext)>(&RichPresenceOptions::SetExtraContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetExtraContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RichPresenceExtraContext>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetInstanceId
+// Il2CppName: SetInstanceId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(::Il2CppString*)>(&RichPresenceOptions::SetInstanceId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetInstanceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetIsIdle
+// Il2CppName: SetIsIdle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(bool)>(&RichPresenceOptions::SetIsIdle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetIsIdle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetIsJoinable
+// Il2CppName: SetIsJoinable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(bool)>(&RichPresenceOptions::SetIsJoinable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetIsJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetMaxCapacity
+// Il2CppName: SetMaxCapacity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(uint)>(&RichPresenceOptions::SetMaxCapacity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetMaxCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::SetStartTime
+// Il2CppName: SetStartTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)(System::DateTime)>(&RichPresenceOptions::SetStartTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "SetStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::operator System::IntPtr
+// Il2CppName: op_Explicit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&RichPresenceOptions::operator System::IntPtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)()>(&RichPresenceOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)()>(&RichPresenceOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RichPresenceOptions::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceOptions::*)()>(&RichPresenceOptions::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RichPresenceOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

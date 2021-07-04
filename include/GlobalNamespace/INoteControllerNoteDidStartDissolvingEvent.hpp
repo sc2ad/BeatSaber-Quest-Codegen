@@ -25,14 +25,14 @@ namespace GlobalNamespace {
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
   }; // INoteControllerNoteDidStartDissolvingEvent
   #pragma pack(pop)
-  // Writing MetadataGetter for method: INoteControllerNoteDidStartDissolvingEvent::HandleNoteControllerNoteDidStartDissolving
-  // Il2CppName: HandleNoteControllerNoteDidStartDissolving
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INoteControllerNoteDidStartDissolvingEvent::*)(GlobalNamespace::NoteControllerBase*, float)>(&INoteControllerNoteDidStartDissolvingEvent::HandleNoteControllerNoteDidStartDissolving)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(INoteControllerNoteDidStartDissolvingEvent*), "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*, "", "INoteControllerNoteDidStartDissolvingEvent");
+// Writing MetadataGetter for method: INoteControllerNoteDidStartDissolvingEvent::HandleNoteControllerNoteDidStartDissolving
+// Il2CppName: HandleNoteControllerNoteDidStartDissolving
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INoteControllerNoteDidStartDissolvingEvent::*)(GlobalNamespace::NoteControllerBase*, float)>(&INoteControllerNoteDidStartDissolvingEvent::HandleNoteControllerNoteDidStartDissolving)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(INoteControllerNoteDidStartDissolvingEvent*), "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

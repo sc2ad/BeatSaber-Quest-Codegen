@@ -80,43 +80,43 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ScopableBindingFinalizer), 24 + sizeof(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)> __Zenject_ScopableBindingFinalizerSizeCheck;
   static_assert(sizeof(ScopableBindingFinalizer) == 0x20);
-  // Writing MetadataGetter for method: ScopableBindingFinalizer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::BindInfo*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ScopableBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::BindInfo*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ScopableBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScopableBindingFinalizer::FinalizeBindingConcrete
-  // Il2CppName: FinalizeBindingConcrete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&ScopableBindingFinalizer::FinalizeBindingConcrete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScopableBindingFinalizer::FinalizeBindingSelf
-  // Il2CppName: FinalizeBindingSelf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::DiContainer*)>(&ScopableBindingFinalizer::FinalizeBindingSelf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScopableBindingFinalizer::OnFinalizeBinding
-  // Il2CppName: OnFinalizeBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::DiContainer*)>(&ScopableBindingFinalizer::OnFinalizeBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer*, "Zenject", "ScopableBindingFinalizer");
+// Writing MetadataGetter for method: ScopableBindingFinalizer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::BindInfo*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ScopableBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::BindInfo*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&ScopableBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ScopableBindingFinalizer::FinalizeBindingConcrete
+// Il2CppName: FinalizeBindingConcrete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&ScopableBindingFinalizer::FinalizeBindingConcrete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ScopableBindingFinalizer::FinalizeBindingSelf
+// Il2CppName: FinalizeBindingSelf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::DiContainer*)>(&ScopableBindingFinalizer::FinalizeBindingSelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: ScopableBindingFinalizer::OnFinalizeBinding
+// Il2CppName: OnFinalizeBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopableBindingFinalizer::*)(Zenject::DiContainer*)>(&ScopableBindingFinalizer::OnFinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopableBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};

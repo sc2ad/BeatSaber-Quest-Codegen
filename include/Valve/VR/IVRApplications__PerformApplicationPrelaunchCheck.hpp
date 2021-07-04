@@ -55,43 +55,43 @@ namespace Valve::VR {
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_PerformApplicationPrelaunchCheck
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_PerformApplicationPrelaunchCheck::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_PerformApplicationPrelaunchCheck::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppString*)>(&IVRApplications::_PerformApplicationPrelaunchCheck::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&IVRApplications::_PerformApplicationPrelaunchCheck::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (IVRApplications::_PerformApplicationPrelaunchCheck::*)(System::IAsyncResult*)>(&IVRApplications::_PerformApplicationPrelaunchCheck::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck*, "Valve.VR", "IVRApplications/_PerformApplicationPrelaunchCheck");
+// Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_PerformApplicationPrelaunchCheck::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_PerformApplicationPrelaunchCheck::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppString*)>(&IVRApplications::_PerformApplicationPrelaunchCheck::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRApplications::_PerformApplicationPrelaunchCheck::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&IVRApplications::_PerformApplicationPrelaunchCheck::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRApplications::_PerformApplicationPrelaunchCheck::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (IVRApplications::_PerformApplicationPrelaunchCheck::*)(System::IAsyncResult*)>(&IVRApplications::_PerformApplicationPrelaunchCheck::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_PerformApplicationPrelaunchCheck*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

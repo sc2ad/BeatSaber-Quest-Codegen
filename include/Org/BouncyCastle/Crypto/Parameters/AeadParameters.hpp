@@ -67,38 +67,38 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
   static check_size<sizeof(AeadParameters), 40 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_AeadParametersSizeCheck;
   static_assert(sizeof(AeadParameters) == 0x2C);
-  // Writing MetadataGetter for method: AeadParameters::get_Key
-  // Il2CppName: get_Key
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::KeyParameter* (AeadParameters::*)()>(&AeadParameters::get_Key)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AeadParameters::get_MacSize
-  // Il2CppName: get_MacSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AeadParameters::*)()>(&AeadParameters::get_MacSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "get_MacSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AeadParameters::GetAssociatedText
-  // Il2CppName: GetAssociatedText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AeadParameters::*)()>(&AeadParameters::GetAssociatedText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "GetAssociatedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AeadParameters::GetNonce
-  // Il2CppName: GetNonce
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AeadParameters::*)()>(&AeadParameters::GetNonce)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "GetNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::AeadParameters*, "Org.BouncyCastle.Crypto.Parameters", "AeadParameters");
+// Writing MetadataGetter for method: AeadParameters::get_Key
+// Il2CppName: get_Key
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::KeyParameter* (AeadParameters::*)()>(&AeadParameters::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AeadParameters::get_MacSize
+// Il2CppName: get_MacSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AeadParameters::*)()>(&AeadParameters::get_MacSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "get_MacSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AeadParameters::GetAssociatedText
+// Il2CppName: GetAssociatedText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AeadParameters::*)()>(&AeadParameters::GetAssociatedText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "GetAssociatedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AeadParameters::GetNonce
+// Il2CppName: GetNonce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AeadParameters::*)()>(&AeadParameters::GetNonce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AeadParameters*), "GetNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -53,35 +53,35 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP160t1Holder
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TeleTrusTNamedCurves::BrainpoolP160t1Holder::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TeleTrusTNamedCurves::BrainpoolP160t1Holder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TeleTrusTNamedCurves::BrainpoolP160t1Holder::*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TeleTrusTNamedCurves::BrainpoolP160t1Holder::*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TeleTrusTNamedCurves::BrainpoolP160t1Holder::CreateParameters
-  // Il2CppName: CreateParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (TeleTrusTNamedCurves::BrainpoolP160t1Holder::*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::CreateParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP160t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP160t1Holder");
+// Writing MetadataGetter for method: TeleTrusTNamedCurves::BrainpoolP160t1Holder::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TeleTrusTNamedCurves::BrainpoolP160t1Holder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TeleTrusTNamedCurves::BrainpoolP160t1Holder::*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TeleTrusTNamedCurves::BrainpoolP160t1Holder::*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TeleTrusTNamedCurves::BrainpoolP160t1Holder::CreateParameters
+// Il2CppName: CreateParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (TeleTrusTNamedCurves::BrainpoolP160t1Holder::*)()>(&TeleTrusTNamedCurves::BrainpoolP160t1Holder::CreateParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves::BrainpoolP160t1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

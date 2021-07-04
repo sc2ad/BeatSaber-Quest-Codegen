@@ -63,22 +63,22 @@ namespace OnlineServices::API {
   #pragma pack(pop)
   static check_size<sizeof(TestApiLeaderboardsModel::$LogoutAsync$d__0), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)> __OnlineServices_API_TestApiLeaderboardsModel_$LogoutAsync$d__0SizeCheck;
   static_assert(sizeof(TestApiLeaderboardsModel::$LogoutAsync$d__0) == 0x30);
-  // Writing MetadataGetter for method: TestApiLeaderboardsModel::$LogoutAsync$d__0::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestApiLeaderboardsModel::$LogoutAsync$d__0::*)()>(&TestApiLeaderboardsModel::$LogoutAsync$d__0::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestApiLeaderboardsModel::$LogoutAsync$d__0), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TestApiLeaderboardsModel::$LogoutAsync$d__0::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestApiLeaderboardsModel::$LogoutAsync$d__0::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&TestApiLeaderboardsModel::$LogoutAsync$d__0::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestApiLeaderboardsModel::$LogoutAsync$d__0), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0, "OnlineServices.API", "TestApiLeaderboardsModel/<LogoutAsync>d__0");
+// Writing MetadataGetter for method: TestApiLeaderboardsModel::$LogoutAsync$d__0::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestApiLeaderboardsModel::$LogoutAsync$d__0::*)()>(&TestApiLeaderboardsModel::$LogoutAsync$d__0::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestApiLeaderboardsModel::$LogoutAsync$d__0), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TestApiLeaderboardsModel::$LogoutAsync$d__0::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestApiLeaderboardsModel::$LogoutAsync$d__0::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&TestApiLeaderboardsModel::$LogoutAsync$d__0::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestApiLeaderboardsModel::$LogoutAsync$d__0), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

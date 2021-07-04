@@ -53,19 +53,19 @@ namespace System::IO {
   #pragma pack(pop)
   static check_size<sizeof(SearchPattern2::Op), 32 + sizeof(System::IO::SearchPattern2::Op*)> __System_IO_SearchPattern2_OpSizeCheck;
   static_assert(sizeof(SearchPattern2::Op) == 0x28);
-  // Writing MetadataGetter for method: SearchPattern2::Op::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchPattern2::Op::*)(System::IO::SearchPattern2::OpCode)>(&SearchPattern2::Op::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SearchPattern2::Op*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchPattern2::OpCode>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchPattern2::Op::*)(System::IO::SearchPattern2::OpCode)>(&SearchPattern2::Op::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SearchPattern2::Op*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchPattern2::OpCode>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::Op*, "System.IO", "SearchPattern2/Op");
+// Writing MetadataGetter for method: SearchPattern2::Op::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchPattern2::Op::*)(System::IO::SearchPattern2::OpCode)>(&SearchPattern2::Op::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SearchPattern2::Op*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchPattern2::OpCode>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchPattern2::Op::*)(System::IO::SearchPattern2::OpCode)>(&SearchPattern2::Op::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SearchPattern2::Op*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchPattern2::OpCode>()});
+  }
+};

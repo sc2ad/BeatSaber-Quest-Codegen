@@ -42,46 +42,46 @@ namespace UnityEngine {
     static void _cctor();
   }; // UnityEngine.StackTraceUtility
   #pragma pack(pop)
-  // Writing MetadataGetter for method: StackTraceUtility::SetProjectFolder
-  // Il2CppName: SetProjectFolder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&StackTraceUtility::SetProjectFolder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "SetProjectFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StackTraceUtility::ExtractStackTrace
-  // Il2CppName: ExtractStackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&StackTraceUtility::ExtractStackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "ExtractStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackTraceUtility::ExtractStringFromExceptionInternal
-  // Il2CppName: ExtractStringFromExceptionInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*&, ::Il2CppString*&)>(&StackTraceUtility::ExtractStringFromExceptionInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "ExtractStringFromExceptionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: StackTraceUtility::ExtractFormattedStackTrace
-  // Il2CppName: ExtractFormattedStackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Diagnostics::StackTrace*)>(&StackTraceUtility::ExtractFormattedStackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "ExtractFormattedStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::StackTrace*>()});
-    }
-  };
-  // Writing MetadataGetter for method: StackTraceUtility::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StackTraceUtility::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StackTraceUtility*, "UnityEngine", "StackTraceUtility");
+// Writing MetadataGetter for method: StackTraceUtility::SetProjectFolder
+// Il2CppName: SetProjectFolder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&StackTraceUtility::SetProjectFolder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "SetProjectFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: StackTraceUtility::ExtractStackTrace
+// Il2CppName: ExtractStackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&StackTraceUtility::ExtractStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "ExtractStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackTraceUtility::ExtractStringFromExceptionInternal
+// Il2CppName: ExtractStringFromExceptionInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*&, ::Il2CppString*&)>(&StackTraceUtility::ExtractStringFromExceptionInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "ExtractStringFromExceptionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: StackTraceUtility::ExtractFormattedStackTrace
+// Il2CppName: ExtractFormattedStackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Diagnostics::StackTrace*)>(&StackTraceUtility::ExtractFormattedStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), "ExtractFormattedStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::StackTrace*>()});
+  }
+};
+// Writing MetadataGetter for method: StackTraceUtility::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StackTraceUtility::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackTraceUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

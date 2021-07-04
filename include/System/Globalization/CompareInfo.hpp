@@ -328,297 +328,297 @@ namespace System::Globalization {
   #pragma pack(pop)
   static check_size<sizeof(CompareInfo), 48 + sizeof(Mono::Globalization::Unicode::SimpleCollator*)> __System_Globalization_CompareInfoSizeCheck;
   static_assert(sizeof(CompareInfo) == 0x38);
-  // Writing MetadataGetter for method: CompareInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Globalization::CultureInfo*)>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Globalization::CultureInfo*)>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::GetCompareInfo
-  // Il2CppName: GetCompareInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CompareInfo* (*)(::Il2CppString*)>(&CompareInfo::GetCompareInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetCompareInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::OnDeserializing
-  // Il2CppName: OnDeserializing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Runtime::Serialization::StreamingContext)>(&CompareInfo::OnDeserializing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::OnDeserialized
-  // Il2CppName: OnDeserialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)()>(&CompareInfo::OnDeserialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::OnDeserialized
-  // Il2CppName: OnDeserialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Runtime::Serialization::StreamingContext)>(&CompareInfo::OnDeserialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::OnSerializing
-  // Il2CppName: OnSerializing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Runtime::Serialization::StreamingContext)>(&CompareInfo::OnSerializing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
-  // Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(::Il2CppObject*)>(&CompareInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::get_Name
-  // Il2CppName: get_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompareInfo::*)()>(&CompareInfo::get_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::Compare
-  // Il2CppName: Compare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*)>(&CompareInfo::Compare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::Compare
-  // Il2CppName: Compare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::Compare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::Compare
-  // Il2CppName: Compare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::Compare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::CompareOrdinal
-  // Il2CppName: CompareOrdinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int, ::Il2CppString*, int, int)>(&CompareInfo::CompareOrdinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "CompareOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::IsPrefix
-  // Il2CppName: IsPrefix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::IsPrefix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::IsSuffix
-  // Il2CppName: IsSuffix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::IsSuffix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::IndexOf
-  // Il2CppName: IndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::IndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::IndexOf
-  // Il2CppName: IndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::IndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::LastIndexOf
-  // Il2CppName: LastIndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::LastIndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::GetSortKey
-  // Il2CppName: GetSortKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::GetSortKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::CreateSortKey
-  // Il2CppName: CreateSortKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::CreateSortKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "CreateSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::GetHashCodeOfString
-  // Il2CppName: GetHashCodeOfString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::GetHashCodeOfString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetHashCodeOfString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::GetHashCodeOfString
-  // Il2CppName: GetHashCodeOfString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions, bool, int64_t)>(&CompareInfo::GetHashCodeOfString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetHashCodeOfString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::get_UseManagedCollation
-  // Il2CppName: get_UseManagedCollation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CompareInfo::get_UseManagedCollation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "get_UseManagedCollation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::GetCollator
-  // Il2CppName: GetCollator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::SimpleCollator* (CompareInfo::*)()>(&CompareInfo::GetCollator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetCollator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::CreateSortKeyCore
-  // Il2CppName: CreateSortKeyCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::CreateSortKeyCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "CreateSortKeyCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::internal_index_switch
-  // Il2CppName: internal_index_switch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, System::Globalization::CompareOptions, bool)>(&CompareInfo::internal_index_switch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_index_switch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::internal_compare_switch
-  // Il2CppName: internal_compare_switch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::internal_compare_switch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_compare_switch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::internal_compare_managed
-  // Il2CppName: internal_compare_managed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::internal_compare_managed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_compare_managed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::internal_index_managed
-  // Il2CppName: internal_index_managed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, System::Globalization::CompareOptions, bool)>(&CompareInfo::internal_index_managed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_index_managed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::assign_sortkey
-  // Il2CppName: assign_sortkey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(::Il2CppObject*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::assign_sortkey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "assign_sortkey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::internal_compare
-  // Il2CppName: internal_compare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::internal_compare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::internal_index
-  // Il2CppName: internal_index
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, System::Globalization::CompareOptions, bool)>(&CompareInfo::internal_index)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompareInfo::*)(::Il2CppObject*)>(&CompareInfo::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)()>(&CompareInfo::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompareInfo::*)()>(&CompareInfo::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CompareInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)()>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)()>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CompareInfo*, "System.Globalization", "CompareInfo");
+// Writing MetadataGetter for method: CompareInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Globalization::CultureInfo*)>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Globalization::CultureInfo*)>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::GetCompareInfo
+// Il2CppName: GetCompareInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CompareInfo* (*)(::Il2CppString*)>(&CompareInfo::GetCompareInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetCompareInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::OnDeserializing
+// Il2CppName: OnDeserializing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Runtime::Serialization::StreamingContext)>(&CompareInfo::OnDeserializing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::OnDeserialized
+// Il2CppName: OnDeserialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)()>(&CompareInfo::OnDeserialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::OnDeserialized
+// Il2CppName: OnDeserialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Runtime::Serialization::StreamingContext)>(&CompareInfo::OnDeserialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::OnSerializing
+// Il2CppName: OnSerializing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(System::Runtime::Serialization::StreamingContext)>(&CompareInfo::OnSerializing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
+// Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(::Il2CppObject*)>(&CompareInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::get_Name
+// Il2CppName: get_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompareInfo::*)()>(&CompareInfo::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::Compare
+// Il2CppName: Compare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*)>(&CompareInfo::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::Compare
+// Il2CppName: Compare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::Compare
+// Il2CppName: Compare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::CompareOrdinal
+// Il2CppName: CompareOrdinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int, ::Il2CppString*, int, int)>(&CompareInfo::CompareOrdinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "CompareOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::IsPrefix
+// Il2CppName: IsPrefix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::IsPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::IsSuffix
+// Il2CppName: IsSuffix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::IsSuffix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::IndexOf
+// Il2CppName: IndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::IndexOf
+// Il2CppName: IndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::LastIndexOf
+// Il2CppName: LastIndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::LastIndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::GetSortKey
+// Il2CppName: GetSortKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::GetSortKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::CreateSortKey
+// Il2CppName: CreateSortKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::CreateSortKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "CreateSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::GetHashCodeOfString
+// Il2CppName: GetHashCodeOfString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::GetHashCodeOfString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetHashCodeOfString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::GetHashCodeOfString
+// Il2CppName: GetHashCodeOfString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions, bool, int64_t)>(&CompareInfo::GetHashCodeOfString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetHashCodeOfString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::get_UseManagedCollation
+// Il2CppName: get_UseManagedCollation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CompareInfo::get_UseManagedCollation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "get_UseManagedCollation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::GetCollator
+// Il2CppName: GetCollator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::SimpleCollator* (CompareInfo::*)()>(&CompareInfo::GetCollator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetCollator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::CreateSortKeyCore
+// Il2CppName: CreateSortKeyCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (CompareInfo::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::CreateSortKeyCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "CreateSortKeyCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::internal_index_switch
+// Il2CppName: internal_index_switch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, System::Globalization::CompareOptions, bool)>(&CompareInfo::internal_index_switch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_index_switch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::internal_compare_switch
+// Il2CppName: internal_compare_switch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::internal_compare_switch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_compare_switch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::internal_compare_managed
+// Il2CppName: internal_compare_managed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::internal_compare_managed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_compare_managed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::internal_index_managed
+// Il2CppName: internal_index_managed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, System::Globalization::CompareOptions, bool)>(&CompareInfo::internal_index_managed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_index_managed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::assign_sortkey
+// Il2CppName: assign_sortkey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)(::Il2CppObject*, ::Il2CppString*, System::Globalization::CompareOptions)>(&CompareInfo::assign_sortkey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "assign_sortkey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::internal_compare
+// Il2CppName: internal_compare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&CompareInfo::internal_compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::internal_index
+// Il2CppName: internal_index
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)(::Il2CppString*, int, int, ::Il2CppString*, System::Globalization::CompareOptions, bool)>(&CompareInfo::internal_index)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "internal_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompareInfo::*)(::Il2CppObject*)>(&CompareInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompareInfo::*)()>(&CompareInfo::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompareInfo::*)()>(&CompareInfo::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CompareInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)()>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompareInfo::*)()>(&CompareInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CompareInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -145,115 +145,115 @@ namespace Zenject {
     }
   }; // Zenject.FromBinder/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: FromBinder::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FromBinder::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsOnRoot$b__33_0
-  // Il2CppName: <FromComponentsOnRoot>b__33_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (FromBinder::$$c::*)(Zenject::InjectContext*)>(&FromBinder::$$c::$FromComponentsOnRoot$b__33_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsOnRoot>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentOnRoot$b__34_0
-  // Il2CppName: <FromComponentOnRoot>b__34_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (FromBinder::$$c::*)(Zenject::InjectContext*)>(&FromBinder::$$c::$FromComponentOnRoot$b__34_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentOnRoot>b__34_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromNewComponentOnRoot$b__38_0
-  // Il2CppName: <FromNewComponentOnRoot>b__38_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (FromBinder::$$c::*)(Zenject::InjectContext*)>(&FromBinder::$$c::$FromNewComponentOnRoot$b__38_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromNewComponentOnRoot>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromNewComponentOnNewPrefabResource$b__40_0
-  // Il2CppName: <FromNewComponentOnNewPrefabResource>b__40_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromNewComponentOnNewPrefabResource$b__40_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromNewComponentOnNewPrefabResource>b__40_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromNewComponentOnNewPrefab$b__42_0
-  // Il2CppName: <FromNewComponentOnNewPrefab>b__42_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromNewComponentOnNewPrefab$b__42_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromNewComponentOnNewPrefab>b__42_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentInNewPrefab$b__44_0
-  // Il2CppName: <FromComponentInNewPrefab>b__44_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentInNewPrefab$b__44_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentInNewPrefab>b__44_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsInNewPrefab$b__46_0
-  // Il2CppName: <FromComponentsInNewPrefab>b__46_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentsInNewPrefab$b__46_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsInNewPrefab>b__46_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentInNewPrefabResource$b__48_0
-  // Il2CppName: <FromComponentInNewPrefabResource>b__48_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentInNewPrefabResource$b__48_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentInNewPrefabResource>b__48_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsInNewPrefabResource$b__50_0
-  // Il2CppName: <FromComponentsInNewPrefabResource>b__50_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentsInNewPrefabResource$b__50_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsInNewPrefabResource>b__50_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentSibling$b__63_0
-  // Il2CppName: <FromComponentSibling>b__63_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(Zenject::DiContainer*, System::Type*)>(&FromBinder::$$c::$FromComponentSibling$b__63_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentSibling>b__63_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsSibling$b__64_0
-  // Il2CppName: <FromComponentsSibling>b__64_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(Zenject::DiContainer*, System::Type*)>(&FromBinder::$$c::$FromComponentsSibling$b__64_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsSibling>b__64_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c::*)()>(&FromBinder::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c::*)()>(&FromBinder::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c*, "Zenject", "FromBinder/<>c");
+// Writing MetadataGetter for method: FromBinder::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FromBinder::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsOnRoot$b__33_0
+// Il2CppName: <FromComponentsOnRoot>b__33_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (FromBinder::$$c::*)(Zenject::InjectContext*)>(&FromBinder::$$c::$FromComponentsOnRoot$b__33_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsOnRoot>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentOnRoot$b__34_0
+// Il2CppName: <FromComponentOnRoot>b__34_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (FromBinder::$$c::*)(Zenject::InjectContext*)>(&FromBinder::$$c::$FromComponentOnRoot$b__34_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentOnRoot>b__34_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromNewComponentOnRoot$b__38_0
+// Il2CppName: <FromNewComponentOnRoot>b__38_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (FromBinder::$$c::*)(Zenject::InjectContext*)>(&FromBinder::$$c::$FromNewComponentOnRoot$b__38_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromNewComponentOnRoot>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromNewComponentOnNewPrefabResource$b__40_0
+// Il2CppName: <FromNewComponentOnNewPrefabResource>b__40_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromNewComponentOnNewPrefabResource$b__40_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromNewComponentOnNewPrefabResource>b__40_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromNewComponentOnNewPrefab$b__42_0
+// Il2CppName: <FromNewComponentOnNewPrefab>b__42_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromNewComponentOnNewPrefab$b__42_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromNewComponentOnNewPrefab>b__42_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentInNewPrefab$b__44_0
+// Il2CppName: <FromComponentInNewPrefab>b__44_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentInNewPrefab$b__44_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentInNewPrefab>b__44_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsInNewPrefab$b__46_0
+// Il2CppName: <FromComponentsInNewPrefab>b__46_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentsInNewPrefab$b__46_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsInNewPrefab>b__46_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentInNewPrefabResource$b__48_0
+// Il2CppName: <FromComponentInNewPrefabResource>b__48_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentInNewPrefabResource$b__48_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentInNewPrefabResource>b__48_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsInNewPrefabResource$b__50_0
+// Il2CppName: <FromComponentsInNewPrefabResource>b__50_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&FromBinder::$$c::$FromComponentsInNewPrefabResource$b__50_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsInNewPrefabResource>b__50_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentSibling$b__63_0
+// Il2CppName: <FromComponentSibling>b__63_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(Zenject::DiContainer*, System::Type*)>(&FromBinder::$$c::$FromComponentSibling$b__63_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentSibling>b__63_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::$FromComponentsSibling$b__64_0
+// Il2CppName: <FromComponentsSibling>b__64_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c::*)(Zenject::DiContainer*, System::Type*)>(&FromBinder::$$c::$FromComponentsSibling$b__64_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), "<FromComponentsSibling>b__64_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c::*)()>(&FromBinder::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c::*)()>(&FromBinder::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -66,51 +66,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker), 24 + sizeof(GlobalNamespace::OVRHapticsClip*)> __GlobalNamespace_OVRHaptics_OVRHapticsOutput_ClipPlaybackTrackerSizeCheck;
   static_assert(sizeof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker) == 0x20);
-  // Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_ReadCount
-  // Il2CppName: get_ReadCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)()>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_ReadCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "get_ReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_ReadCount
-  // Il2CppName: set_ReadCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(int)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_ReadCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "set_ReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_Clip
-  // Il2CppName: get_Clip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRHapticsClip* (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)()>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_Clip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "get_Clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_Clip
-  // Il2CppName: set_Clip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_Clip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "set_Clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*, "", "OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker");
+// Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_ReadCount
+// Il2CppName: get_ReadCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)()>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_ReadCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "get_ReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_ReadCount
+// Il2CppName: set_ReadCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(int)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_ReadCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "set_ReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_Clip
+// Il2CppName: get_Clip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRHapticsClip* (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)()>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_Clip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "get_Clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_Clip
+// Il2CppName: set_Clip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_Clip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "set_Clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
+  }
+};

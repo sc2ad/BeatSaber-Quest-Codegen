@@ -129,262 +129,262 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static void RotateTrianglePair(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ot, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* op);
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweep
   #pragma pack(pop)
-  // Writing MetadataGetter for method: DTSweep::Triangulate
-  // Il2CppName: Triangulate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::Triangulate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Triangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::Sweep
-  // Il2CppName: Sweep
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::Sweep)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Sweep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FinalizationConvexHull
-  // Il2CppName: FinalizationConvexHull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::FinalizationConvexHull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FinalizationConvexHull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::TurnAdvancingFrontConvex
-  // Il2CppName: TurnAdvancingFrontConvex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::TurnAdvancingFrontConvex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "TurnAdvancingFrontConvex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FinalizationPolygon
-  // Il2CppName: FinalizationPolygon
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::FinalizationPolygon)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FinalizationPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::PointEvent
-  // Il2CppName: PointEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::PointEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "PointEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::NewFrontTriangle
-  // Il2CppName: NewFrontTriangle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::NewFrontTriangle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "NewFrontTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::EdgeEvent
-  // Il2CppName: EdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::EdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "EdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillEdgeEvent
-  // Il2CppName: FillEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillRightConcaveEdgeEvent
-  // Il2CppName: FillRightConcaveEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightConcaveEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightConcaveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillRightConvexEdgeEvent
-  // Il2CppName: FillRightConvexEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightConvexEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightConvexEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillRightBelowEdgeEvent
-  // Il2CppName: FillRightBelowEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightBelowEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightBelowEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillRightAboveEdgeEvent
-  // Il2CppName: FillRightAboveEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightAboveEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightAboveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillLeftConvexEdgeEvent
-  // Il2CppName: FillLeftConvexEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftConvexEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftConvexEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillLeftConcaveEdgeEvent
-  // Il2CppName: FillLeftConcaveEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftConcaveEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftConcaveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillLeftBelowEdgeEvent
-  // Il2CppName: FillLeftBelowEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftBelowEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftBelowEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillLeftAboveEdgeEvent
-  // Il2CppName: FillLeftAboveEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftAboveEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftAboveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::IsEdgeSideOfTriangle
-  // Il2CppName: IsEdgeSideOfTriangle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::IsEdgeSideOfTriangle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "IsEdgeSideOfTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::EdgeEvent
-  // Il2CppName: EdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::EdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "EdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FlipEdgeEvent
-  // Il2CppName: FlipEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::FlipEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FlipEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::NextFlipPoint
-  // Il2CppName: NextFlipPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::NextFlipPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "NextFlipPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::NextFlipTriangle
-  // Il2CppName: NextFlipTriangle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::Orientation, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::NextFlipTriangle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "NextFlipTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Orientation>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FlipScanEdgeEvent
-  // Il2CppName: FlipScanEdgeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::FlipScanEdgeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FlipScanEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillAdvancingFront
-  // Il2CppName: FillAdvancingFront
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillAdvancingFront)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillAdvancingFront", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillBasin
-  // Il2CppName: FillBasin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillBasin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillBasin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::FillBasinReq
-  // Il2CppName: FillBasinReq
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillBasinReq)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillBasinReq", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::IsShallow
-  // Il2CppName: IsShallow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::IsShallow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "IsShallow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::HoleAngle
-  // Il2CppName: HoleAngle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::HoleAngle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "HoleAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::BasinAngle
-  // Il2CppName: BasinAngle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::BasinAngle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "BasinAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::Fill
-  // Il2CppName: Fill
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::Fill)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::Legalize
-  // Il2CppName: Legalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&DTSweep::Legalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Legalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DTSweep::RotateTrianglePair
-  // Il2CppName: RotateTrianglePair
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::RotateTrianglePair)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DTSweep*), "RotateTrianglePair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweep*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweep");
+// Writing MetadataGetter for method: DTSweep::Triangulate
+// Il2CppName: Triangulate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::Triangulate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Triangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::Sweep
+// Il2CppName: Sweep
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::Sweep)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Sweep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FinalizationConvexHull
+// Il2CppName: FinalizationConvexHull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::FinalizationConvexHull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FinalizationConvexHull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::TurnAdvancingFrontConvex
+// Il2CppName: TurnAdvancingFrontConvex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::TurnAdvancingFrontConvex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "TurnAdvancingFrontConvex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FinalizationPolygon
+// Il2CppName: FinalizationPolygon
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(&DTSweep::FinalizationPolygon)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FinalizationPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::PointEvent
+// Il2CppName: PointEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::PointEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "PointEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::NewFrontTriangle
+// Il2CppName: NewFrontTriangle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::NewFrontTriangle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "NewFrontTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::EdgeEvent
+// Il2CppName: EdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::EdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "EdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillEdgeEvent
+// Il2CppName: FillEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillRightConcaveEdgeEvent
+// Il2CppName: FillRightConcaveEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightConcaveEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightConcaveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillRightConvexEdgeEvent
+// Il2CppName: FillRightConvexEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightConvexEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightConvexEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillRightBelowEdgeEvent
+// Il2CppName: FillRightBelowEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightBelowEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightBelowEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillRightAboveEdgeEvent
+// Il2CppName: FillRightAboveEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillRightAboveEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillRightAboveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillLeftConvexEdgeEvent
+// Il2CppName: FillLeftConvexEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftConvexEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftConvexEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillLeftConcaveEdgeEvent
+// Il2CppName: FillLeftConcaveEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftConcaveEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftConcaveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillLeftBelowEdgeEvent
+// Il2CppName: FillLeftBelowEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftBelowEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftBelowEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillLeftAboveEdgeEvent
+// Il2CppName: FillLeftAboveEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillLeftAboveEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillLeftAboveEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::IsEdgeSideOfTriangle
+// Il2CppName: IsEdgeSideOfTriangle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::IsEdgeSideOfTriangle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "IsEdgeSideOfTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::EdgeEvent
+// Il2CppName: EdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::EdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "EdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FlipEdgeEvent
+// Il2CppName: FlipEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::FlipEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FlipEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::NextFlipPoint
+// Il2CppName: NextFlipPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::NextFlipPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "NextFlipPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::NextFlipTriangle
+// Il2CppName: NextFlipTriangle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::Orientation, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::NextFlipTriangle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "NextFlipTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Orientation>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FlipScanEdgeEvent
+// Il2CppName: FlipScanEdgeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::FlipScanEdgeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FlipScanEdgeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillAdvancingFront
+// Il2CppName: FillAdvancingFront
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillAdvancingFront)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillAdvancingFront", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillBasin
+// Il2CppName: FillBasin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillBasin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillBasin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::FillBasinReq
+// Il2CppName: FillBasinReq
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::FillBasinReq)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "FillBasinReq", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::IsShallow
+// Il2CppName: IsShallow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::IsShallow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "IsShallow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::HoleAngle
+// Il2CppName: HoleAngle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::HoleAngle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "HoleAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::BasinAngle
+// Il2CppName: BasinAngle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::BasinAngle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "BasinAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::Fill
+// Il2CppName: Fill
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&DTSweep::Fill)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::Legalize
+// Il2CppName: Legalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&DTSweep::Legalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "Legalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
+  }
+};
+// Writing MetadataGetter for method: DTSweep::RotateTrianglePair
+// Il2CppName: RotateTrianglePair
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&DTSweep::RotateTrianglePair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DTSweep*), "RotateTrianglePair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};

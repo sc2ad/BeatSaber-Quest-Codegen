@@ -53,19 +53,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0), 24 + sizeof(System::Action*)> __GlobalNamespace_HostGameServerLobbyFlowCoordinator_$$c__DisplayClass23_0SizeCheck;
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0) == 0x20);
-  // Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::*)()>(&HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::*)()>(&HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0*, "", "HostGameServerLobbyFlowCoordinator/<>c__DisplayClass23_0");
+// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::*)()>(&HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::*)()>(&HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

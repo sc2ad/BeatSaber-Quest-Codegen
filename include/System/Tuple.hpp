@@ -70,38 +70,38 @@ namespace System {
     static int CombineHashCodes(int h1, int h2, int h3, int h4);
   }; // System.Tuple
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Tuple::Create
-  // Il2CppName: Create
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Tuple::Create
-  // Il2CppName: Create
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Tuple::Create
-  // Il2CppName: Create
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Tuple::CombineHashCodes
-  // Il2CppName: CombineHashCodes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&Tuple::CombineHashCodes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Tuple::CombineHashCodes
-  // Il2CppName: CombineHashCodes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&Tuple::CombineHashCodes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Tuple::CombineHashCodes
-  // Il2CppName: CombineHashCodes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int, int)>(&Tuple::CombineHashCodes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Tuple*, "System", "Tuple");
+// Writing MetadataGetter for method: Tuple::Create
+// Il2CppName: Create
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Tuple::Create
+// Il2CppName: Create
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Tuple::Create
+// Il2CppName: Create
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Tuple::CombineHashCodes
+// Il2CppName: CombineHashCodes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&Tuple::CombineHashCodes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Tuple::CombineHashCodes
+// Il2CppName: CombineHashCodes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&Tuple::CombineHashCodes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Tuple::CombineHashCodes
+// Il2CppName: CombineHashCodes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int, int)>(&Tuple::CombineHashCodes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

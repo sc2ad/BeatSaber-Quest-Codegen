@@ -32,14 +32,14 @@ namespace UnityEngine::Timeline {
     UnityEngine::Playables::Playable CreateLayerMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, int inputCount);
   }; // UnityEngine.Timeline.ILayerable
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ILayerable::CreateLayerMixer
-  // Il2CppName: CreateLayerMixer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ILayerable::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&ILayerable::CreateLayerMixer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ILayerable*), "CreateLayerMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ILayerable*, "UnityEngine.Timeline", "ILayerable");
+// Writing MetadataGetter for method: ILayerable::CreateLayerMixer
+// Il2CppName: CreateLayerMixer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ILayerable::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&ILayerable::CreateLayerMixer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ILayerable*), "CreateLayerMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

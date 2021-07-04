@@ -117,119 +117,119 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(KerningPair), 60 + sizeof(bool)> __TMPro_KerningPairSizeCheck;
   static_assert(sizeof(KerningPair) == 0x3D);
-  // Writing MetadataGetter for method: KerningPair::get_firstGlyph
-  // Il2CppName: get_firstGlyph
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (KerningPair::*)()>(&KerningPair::get_firstGlyph)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_firstGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::set_firstGlyph
-  // Il2CppName: set_firstGlyph
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint)>(&KerningPair::set_firstGlyph)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "set_firstGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::get_firstGlyphAdjustments
-  // Il2CppName: get_firstGlyphAdjustments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::GlyphValueRecord_Legacy (KerningPair::*)()>(&KerningPair::get_firstGlyphAdjustments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_firstGlyphAdjustments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::get_secondGlyph
-  // Il2CppName: get_secondGlyph
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (KerningPair::*)()>(&KerningPair::get_secondGlyph)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_secondGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::set_secondGlyph
-  // Il2CppName: set_secondGlyph
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint)>(&KerningPair::set_secondGlyph)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "set_secondGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::get_secondGlyphAdjustments
-  // Il2CppName: get_secondGlyphAdjustments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::GlyphValueRecord_Legacy (KerningPair::*)()>(&KerningPair::get_secondGlyphAdjustments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_secondGlyphAdjustments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::get_ignoreSpacingAdjustments
-  // Il2CppName: get_ignoreSpacingAdjustments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KerningPair::*)()>(&KerningPair::get_ignoreSpacingAdjustments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_ignoreSpacingAdjustments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, uint, float)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, uint, float)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::ConvertLegacyKerningData
-  // Il2CppName: ConvertLegacyKerningData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)()>(&KerningPair::ConvertLegacyKerningData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), "ConvertLegacyKerningData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KerningPair::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KerningPair::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)()>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)()>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPair*, "TMPro", "KerningPair");
+// Writing MetadataGetter for method: KerningPair::get_firstGlyph
+// Il2CppName: get_firstGlyph
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (KerningPair::*)()>(&KerningPair::get_firstGlyph)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_firstGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::set_firstGlyph
+// Il2CppName: set_firstGlyph
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint)>(&KerningPair::set_firstGlyph)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "set_firstGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::get_firstGlyphAdjustments
+// Il2CppName: get_firstGlyphAdjustments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::GlyphValueRecord_Legacy (KerningPair::*)()>(&KerningPair::get_firstGlyphAdjustments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_firstGlyphAdjustments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::get_secondGlyph
+// Il2CppName: get_secondGlyph
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (KerningPair::*)()>(&KerningPair::get_secondGlyph)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_secondGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::set_secondGlyph
+// Il2CppName: set_secondGlyph
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint)>(&KerningPair::set_secondGlyph)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "set_secondGlyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::get_secondGlyphAdjustments
+// Il2CppName: get_secondGlyphAdjustments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::GlyphValueRecord_Legacy (KerningPair::*)()>(&KerningPair::get_secondGlyphAdjustments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_secondGlyphAdjustments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::get_ignoreSpacingAdjustments
+// Il2CppName: get_ignoreSpacingAdjustments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KerningPair::*)()>(&KerningPair::get_ignoreSpacingAdjustments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "get_ignoreSpacingAdjustments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, uint, float)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, uint, float)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::ConvertLegacyKerningData
+// Il2CppName: ConvertLegacyKerningData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)()>(&KerningPair::ConvertLegacyKerningData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), "ConvertLegacyKerningData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KerningPair::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KerningPair::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)()>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningPair::*)()>(&KerningPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KerningPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

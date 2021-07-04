@@ -82,38 +82,38 @@ namespace System::Reflection {
     }
   }; // System.Reflection.CustomAttributeExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttribute
-  // Il2CppName: GetCustomAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::Assembly*, System::Type*)>(&CustomAttributeExtensions::GetCustomAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttribute
-  // Il2CppName: GetCustomAttribute
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::Assembly*, System::Type*)>(&CustomAttributeExtensions::GetCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::MemberInfo*, System::Type*, bool)>(&CustomAttributeExtensions::GetCustomAttributes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
-  // Il2CppName: GetCustomAttributes
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeExtensions*, "System.Reflection", "CustomAttributeExtensions");
+// Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttribute
+// Il2CppName: GetCustomAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::Assembly*, System::Type*)>(&CustomAttributeExtensions::GetCustomAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttribute
+// Il2CppName: GetCustomAttribute
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::Assembly*, System::Type*)>(&CustomAttributeExtensions::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::MemberInfo*, System::Type*, bool)>(&CustomAttributeExtensions::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+// Il2CppName: GetCustomAttributes
+// Cannot write MetadataGetter for generic methods!

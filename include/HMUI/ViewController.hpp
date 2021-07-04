@@ -292,307 +292,307 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ViewController), 104 + sizeof(UnityEngine::EventSystems::BaseRaycaster*)> __HMUI_ViewControllerSizeCheck;
   static_assert(sizeof(ViewController) == 0x70);
-  // Writing MetadataGetter for method: ViewController::get_containerViewController
-  // Il2CppName: get_containerViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ContainerViewController* (ViewController::*)()>(&ViewController::get_containerViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_containerViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_screen
-  // Il2CppName: get_screen
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Screen* (ViewController::*)()>(&ViewController::get_screen)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_screen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_parentViewController
-  // Il2CppName: get_parentViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (ViewController::*)()>(&ViewController::get_parentViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_parentViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_childViewController
-  // Il2CppName: get_childViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (ViewController::*)()>(&ViewController::get_childViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_childViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_isInViewControllerHierarchy
-  // Il2CppName: get_isInViewControllerHierarchy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_isInViewControllerHierarchy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_isInViewControllerHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_isActivated
-  // Il2CppName: get_isActivated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_isActivated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_isActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_wasActivatedBefore
-  // Il2CppName: get_wasActivatedBefore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_wasActivatedBefore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_wasActivatedBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_isInTransition
-  // Il2CppName: get_isInTransition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_isInTransition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_isInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::set_isInTransition
-  // Il2CppName: set_isInTransition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool)>(&ViewController::set_isInTransition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "set_isInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_enableUserInteractions
-  // Il2CppName: get_enableUserInteractions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_enableUserInteractions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_enableUserInteractions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::set_enableUserInteractions
-  // Il2CppName: set_enableUserInteractions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool)>(&ViewController::set_enableUserInteractions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "set_enableUserInteractions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::add_didActivateEvent
-  // Il2CppName: add_didActivateEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidActivateDelegate*)>(&ViewController::add_didActivateEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "add_didActivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidActivateDelegate*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::remove_didActivateEvent
-  // Il2CppName: remove_didActivateEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidActivateDelegate*)>(&ViewController::remove_didActivateEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "remove_didActivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidActivateDelegate*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::add_didDeactivateEvent
-  // Il2CppName: add_didDeactivateEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidDeactivateDelegate*)>(&ViewController::add_didDeactivateEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "add_didDeactivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidDeactivateDelegate*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::remove_didDeactivateEvent
-  // Il2CppName: remove_didDeactivateEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidDeactivateDelegate*)>(&ViewController::remove_didDeactivateEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "remove_didDeactivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidDeactivateDelegate*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_buttonBinder
-  // Il2CppName: get_buttonBinder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ButtonBinder* (ViewController::*)()>(&ViewController::get_buttonBinder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_buttonBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::set_buttonBinder
-  // Il2CppName: set_buttonBinder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ButtonBinder*)>(&ViewController::set_buttonBinder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "set_buttonBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ButtonBinder*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_rectTransform
-  // Il2CppName: get_rectTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (ViewController::*)()>(&ViewController::get_rectTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_canvasGroup
-  // Il2CppName: get_canvasGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasGroup* (ViewController::*)()>(&ViewController::get_canvasGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_canvasGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::get_graphicRaycaster
-  // Il2CppName: get_graphicRaycaster
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseRaycaster* (ViewController::*)()>(&ViewController::get_graphicRaycaster)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_graphicRaycaster", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool, bool)>(&ViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool)>(&ViewController::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::__Init
-  // Il2CppName: __Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::Screen*, HMUI::ViewController*, HMUI::ContainerViewController*)>(&ViewController::__Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::Screen*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ContainerViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::__ResetViewController
-  // Il2CppName: __ResetViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::__ResetViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "__ResetViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::__PresentViewController
-  // Il2CppName: __PresentViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::__PresentViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "__PresentViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::PresentViewControllerCoroutine
-  // Il2CppName: PresentViewControllerCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::PresentViewControllerCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "PresentViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::__ReplaceViewController
-  // Il2CppName: __ReplaceViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&ViewController::__ReplaceViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "__ReplaceViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::ReplaceViewControllerCoroutine
-  // Il2CppName: ReplaceViewControllerCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&ViewController::ReplaceViewControllerCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "ReplaceViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::__DismissViewController
-  // Il2CppName: __DismissViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::__DismissViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "__DismissViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::DismissViewControllerCoroutine
-  // Il2CppName: DismissViewControllerCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ViewController::*)(System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::DismissViewControllerCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "DismissViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::__Activate
-  // Il2CppName: __Activate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool)>(&ViewController::__Activate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "__Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::__Deactivate
-  // Il2CppName: __Deactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool, bool)>(&ViewController::__Deactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "__Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::DeactivateGameObject
-  // Il2CppName: DeactivateGameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::DeactivateGameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "DeactivateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::IsViewControllerInHierarchy
-  // Il2CppName: IsViewControllerInHierarchy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)(HMUI::ViewController*)>(&ViewController::IsViewControllerInHierarchy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "IsViewControllerInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::Log
-  // Il2CppName: Log
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ViewController::Log)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController*, "HMUI", "ViewController");
+// Writing MetadataGetter for method: ViewController::get_containerViewController
+// Il2CppName: get_containerViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ContainerViewController* (ViewController::*)()>(&ViewController::get_containerViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_containerViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_screen
+// Il2CppName: get_screen
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Screen* (ViewController::*)()>(&ViewController::get_screen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_screen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_parentViewController
+// Il2CppName: get_parentViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (ViewController::*)()>(&ViewController::get_parentViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_parentViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_childViewController
+// Il2CppName: get_childViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (ViewController::*)()>(&ViewController::get_childViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_childViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_isInViewControllerHierarchy
+// Il2CppName: get_isInViewControllerHierarchy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_isInViewControllerHierarchy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_isInViewControllerHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_isActivated
+// Il2CppName: get_isActivated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_isActivated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_isActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_wasActivatedBefore
+// Il2CppName: get_wasActivatedBefore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_wasActivatedBefore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_wasActivatedBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_isInTransition
+// Il2CppName: get_isInTransition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_isInTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_isInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::set_isInTransition
+// Il2CppName: set_isInTransition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool)>(&ViewController::set_isInTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "set_isInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_enableUserInteractions
+// Il2CppName: get_enableUserInteractions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)()>(&ViewController::get_enableUserInteractions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_enableUserInteractions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::set_enableUserInteractions
+// Il2CppName: set_enableUserInteractions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool)>(&ViewController::set_enableUserInteractions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "set_enableUserInteractions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::add_didActivateEvent
+// Il2CppName: add_didActivateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidActivateDelegate*)>(&ViewController::add_didActivateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "add_didActivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidActivateDelegate*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::remove_didActivateEvent
+// Il2CppName: remove_didActivateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidActivateDelegate*)>(&ViewController::remove_didActivateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "remove_didActivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidActivateDelegate*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::add_didDeactivateEvent
+// Il2CppName: add_didDeactivateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidDeactivateDelegate*)>(&ViewController::add_didDeactivateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "add_didDeactivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidDeactivateDelegate*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::remove_didDeactivateEvent
+// Il2CppName: remove_didDeactivateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController::DidDeactivateDelegate*)>(&ViewController::remove_didDeactivateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "remove_didDeactivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::DidDeactivateDelegate*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_buttonBinder
+// Il2CppName: get_buttonBinder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ButtonBinder* (ViewController::*)()>(&ViewController::get_buttonBinder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_buttonBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::set_buttonBinder
+// Il2CppName: set_buttonBinder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ButtonBinder*)>(&ViewController::set_buttonBinder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "set_buttonBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ButtonBinder*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_rectTransform
+// Il2CppName: get_rectTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (ViewController::*)()>(&ViewController::get_rectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_canvasGroup
+// Il2CppName: get_canvasGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasGroup* (ViewController::*)()>(&ViewController::get_canvasGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_canvasGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::get_graphicRaycaster
+// Il2CppName: get_graphicRaycaster
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseRaycaster* (ViewController::*)()>(&ViewController::get_graphicRaycaster)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "get_graphicRaycaster", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool, bool)>(&ViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool)>(&ViewController::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::__Init
+// Il2CppName: __Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::Screen*, HMUI::ViewController*, HMUI::ContainerViewController*)>(&ViewController::__Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::Screen*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ContainerViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::__ResetViewController
+// Il2CppName: __ResetViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::__ResetViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "__ResetViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::__PresentViewController
+// Il2CppName: __PresentViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::__PresentViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "__PresentViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::PresentViewControllerCoroutine
+// Il2CppName: PresentViewControllerCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::PresentViewControllerCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "PresentViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::__ReplaceViewController
+// Il2CppName: __ReplaceViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&ViewController::__ReplaceViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "__ReplaceViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::ReplaceViewControllerCoroutine
+// Il2CppName: ReplaceViewControllerCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&ViewController::ReplaceViewControllerCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "ReplaceViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::__DismissViewController
+// Il2CppName: __DismissViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::__DismissViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "__DismissViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::DismissViewControllerCoroutine
+// Il2CppName: DismissViewControllerCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ViewController::*)(System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&ViewController::DismissViewControllerCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "DismissViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::__Activate
+// Il2CppName: __Activate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool)>(&ViewController::__Activate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "__Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::__Deactivate
+// Il2CppName: __Deactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)(bool, bool, bool)>(&ViewController::__Deactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "__Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::DeactivateGameObject
+// Il2CppName: DeactivateGameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::DeactivateGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "DeactivateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ViewController::IsViewControllerInHierarchy
+// Il2CppName: IsViewControllerInHierarchy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ViewController::*)(HMUI::ViewController*)>(&ViewController::IsViewControllerInHierarchy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "IsViewControllerInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::Log
+// Il2CppName: Log
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ViewController::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ViewController::*)()>(&ViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

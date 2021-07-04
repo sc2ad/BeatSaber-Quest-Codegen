@@ -78,51 +78,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveTypeSO), 40 + sizeof(GlobalNamespace::ObjectiveValueFormatterSO*)> __GlobalNamespace_MissionObjectiveTypeSOSizeCheck;
   static_assert(sizeof(MissionObjectiveTypeSO) == 0x30);
-  // Writing MetadataGetter for method: MissionObjectiveTypeSO::get_objectiveName
-  // Il2CppName: get_objectiveName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_objectiveName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_objectiveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveTypeSO::get_objectiveNameLocalized
-  // Il2CppName: get_objectiveNameLocalized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_objectiveNameLocalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveTypeSO::get_noConditionValue
-  // Il2CppName: get_noConditionValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_noConditionValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_noConditionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveTypeSO::get_objectiveValueFormater
-  // Il2CppName: get_objectiveValueFormater
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObjectiveValueFormatterSO* (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_objectiveValueFormater)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_objectiveValueFormater", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveTypeSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveTypeSO*, "", "MissionObjectiveTypeSO");
+// Writing MetadataGetter for method: MissionObjectiveTypeSO::get_objectiveName
+// Il2CppName: get_objectiveName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_objectiveName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_objectiveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveTypeSO::get_objectiveNameLocalized
+// Il2CppName: get_objectiveNameLocalized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_objectiveNameLocalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveTypeSO::get_noConditionValue
+// Il2CppName: get_noConditionValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_noConditionValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_noConditionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveTypeSO::get_objectiveValueFormater
+// Il2CppName: get_objectiveValueFormater
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObjectiveValueFormatterSO* (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::get_objectiveValueFormater)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), "get_objectiveValueFormater", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveTypeSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveTypeSO::*)()>(&MissionObjectiveTypeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

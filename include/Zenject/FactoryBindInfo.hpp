@@ -94,67 +94,67 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(FactoryBindInfo), 32 + sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)> __Zenject_FactoryBindInfoSizeCheck;
   static_assert(sizeof(FactoryBindInfo) == 0x28);
-  // Writing MetadataGetter for method: FactoryBindInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Type*)>(&FactoryBindInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Type*)>(&FactoryBindInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FactoryBindInfo::get_FactoryType
-  // Il2CppName: get_FactoryType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (FactoryBindInfo::*)()>(&FactoryBindInfo::get_FactoryType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "get_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FactoryBindInfo::set_FactoryType
-  // Il2CppName: set_FactoryType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Type*)>(&FactoryBindInfo::set_FactoryType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "set_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FactoryBindInfo::get_ProviderFunc
-  // Il2CppName: get_ProviderFunc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* (FactoryBindInfo::*)()>(&FactoryBindInfo::get_ProviderFunc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "get_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FactoryBindInfo::set_ProviderFunc
-  // Il2CppName: set_ProviderFunc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*)>(&FactoryBindInfo::set_ProviderFunc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "set_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FactoryBindInfo::get_Arguments
-  // Il2CppName: get_Arguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (FactoryBindInfo::*)()>(&FactoryBindInfo::get_Arguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FactoryBindInfo::set_Arguments
-  // Il2CppName: set_Arguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&FactoryBindInfo::set_Arguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryBindInfo*, "Zenject", "FactoryBindInfo");
+// Writing MetadataGetter for method: FactoryBindInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Type*)>(&FactoryBindInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Type*)>(&FactoryBindInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FactoryBindInfo::get_FactoryType
+// Il2CppName: get_FactoryType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (FactoryBindInfo::*)()>(&FactoryBindInfo::get_FactoryType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "get_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FactoryBindInfo::set_FactoryType
+// Il2CppName: set_FactoryType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Type*)>(&FactoryBindInfo::set_FactoryType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "set_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FactoryBindInfo::get_ProviderFunc
+// Il2CppName: get_ProviderFunc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* (FactoryBindInfo::*)()>(&FactoryBindInfo::get_ProviderFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "get_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FactoryBindInfo::set_ProviderFunc
+// Il2CppName: set_ProviderFunc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*)>(&FactoryBindInfo::set_ProviderFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "set_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FactoryBindInfo::get_Arguments
+// Il2CppName: get_Arguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (FactoryBindInfo::*)()>(&FactoryBindInfo::get_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FactoryBindInfo::set_Arguments
+// Il2CppName: set_Arguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FactoryBindInfo::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&FactoryBindInfo::set_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FactoryBindInfo*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};

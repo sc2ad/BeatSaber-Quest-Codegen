@@ -117,203 +117,203 @@ namespace UnityEngine {
     }
   }; // UnityEngine.SkinnedMeshRenderer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_quality
-  // Il2CppName: get_quality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SkinQuality (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_quality)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_quality
-  // Il2CppName: set_quality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::SkinQuality)>(&SkinnedMeshRenderer::set_quality)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SkinQuality>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_updateWhenOffscreen
-  // Il2CppName: get_updateWhenOffscreen
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_updateWhenOffscreen)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_updateWhenOffscreen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_updateWhenOffscreen
-  // Il2CppName: set_updateWhenOffscreen
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(bool)>(&SkinnedMeshRenderer::set_updateWhenOffscreen)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_updateWhenOffscreen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_forceMatrixRecalculationPerRender
-  // Il2CppName: get_forceMatrixRecalculationPerRender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_forceMatrixRecalculationPerRender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_forceMatrixRecalculationPerRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_forceMatrixRecalculationPerRender
-  // Il2CppName: set_forceMatrixRecalculationPerRender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(bool)>(&SkinnedMeshRenderer::set_forceMatrixRecalculationPerRender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_forceMatrixRecalculationPerRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_rootBone
-  // Il2CppName: get_rootBone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_rootBone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_rootBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_rootBone
-  // Il2CppName: set_rootBone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Transform*)>(&SkinnedMeshRenderer::set_rootBone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_rootBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_bones
-  // Il2CppName: get_bones
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_bones)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_bones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_bones
-  // Il2CppName: set_bones
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(::Array<UnityEngine::Transform*>*)>(&SkinnedMeshRenderer::set_bones)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_bones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_sharedMesh
-  // Il2CppName: get_sharedMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_sharedMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_sharedMesh
-  // Il2CppName: set_sharedMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Mesh*)>(&SkinnedMeshRenderer::set_sharedMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_skinnedMotionVectors
-  // Il2CppName: get_skinnedMotionVectors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_skinnedMotionVectors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_skinnedMotionVectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_skinnedMotionVectors
-  // Il2CppName: set_skinnedMotionVectors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(bool)>(&SkinnedMeshRenderer::set_skinnedMotionVectors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_skinnedMotionVectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::GetBlendShapeWeight
-  // Il2CppName: GetBlendShapeWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SkinnedMeshRenderer::*)(int)>(&SkinnedMeshRenderer::GetBlendShapeWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "GetBlendShapeWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::SetBlendShapeWeight
-  // Il2CppName: SetBlendShapeWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(int, float)>(&SkinnedMeshRenderer::SetBlendShapeWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "SetBlendShapeWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::BakeMesh
-  // Il2CppName: BakeMesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Mesh*)>(&SkinnedMeshRenderer::BakeMesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "BakeMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::GetLocalAABB
-  // Il2CppName: GetLocalAABB
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::GetLocalAABB)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "GetLocalAABB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::SetLocalAABB
-  // Il2CppName: SetLocalAABB
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds)>(&SkinnedMeshRenderer::SetLocalAABB)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "SetLocalAABB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::get_localBounds
-  // Il2CppName: get_localBounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_localBounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::set_localBounds
-  // Il2CppName: set_localBounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds)>(&SkinnedMeshRenderer::set_localBounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::GetLocalAABB_Injected
-  // Il2CppName: GetLocalAABB_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds&)>(&SkinnedMeshRenderer::GetLocalAABB_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "GetLocalAABB_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::SetLocalAABB_Injected
-  // Il2CppName: SetLocalAABB_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds&)>(&SkinnedMeshRenderer::SetLocalAABB_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "SetLocalAABB_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SkinnedMeshRenderer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkinnedMeshRenderer*, "UnityEngine", "SkinnedMeshRenderer");
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_quality
+// Il2CppName: get_quality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SkinQuality (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_quality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_quality
+// Il2CppName: set_quality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::SkinQuality)>(&SkinnedMeshRenderer::set_quality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_quality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SkinQuality>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_updateWhenOffscreen
+// Il2CppName: get_updateWhenOffscreen
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_updateWhenOffscreen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_updateWhenOffscreen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_updateWhenOffscreen
+// Il2CppName: set_updateWhenOffscreen
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(bool)>(&SkinnedMeshRenderer::set_updateWhenOffscreen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_updateWhenOffscreen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_forceMatrixRecalculationPerRender
+// Il2CppName: get_forceMatrixRecalculationPerRender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_forceMatrixRecalculationPerRender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_forceMatrixRecalculationPerRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_forceMatrixRecalculationPerRender
+// Il2CppName: set_forceMatrixRecalculationPerRender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(bool)>(&SkinnedMeshRenderer::set_forceMatrixRecalculationPerRender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_forceMatrixRecalculationPerRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_rootBone
+// Il2CppName: get_rootBone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_rootBone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_rootBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_rootBone
+// Il2CppName: set_rootBone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Transform*)>(&SkinnedMeshRenderer::set_rootBone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_rootBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_bones
+// Il2CppName: get_bones
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_bones)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_bones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_bones
+// Il2CppName: set_bones
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(::Array<UnityEngine::Transform*>*)>(&SkinnedMeshRenderer::set_bones)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_bones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_sharedMesh
+// Il2CppName: get_sharedMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_sharedMesh
+// Il2CppName: set_sharedMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Mesh*)>(&SkinnedMeshRenderer::set_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_skinnedMotionVectors
+// Il2CppName: get_skinnedMotionVectors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_skinnedMotionVectors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_skinnedMotionVectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_skinnedMotionVectors
+// Il2CppName: set_skinnedMotionVectors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(bool)>(&SkinnedMeshRenderer::set_skinnedMotionVectors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_skinnedMotionVectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::GetBlendShapeWeight
+// Il2CppName: GetBlendShapeWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SkinnedMeshRenderer::*)(int)>(&SkinnedMeshRenderer::GetBlendShapeWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "GetBlendShapeWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::SetBlendShapeWeight
+// Il2CppName: SetBlendShapeWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(int, float)>(&SkinnedMeshRenderer::SetBlendShapeWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "SetBlendShapeWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::BakeMesh
+// Il2CppName: BakeMesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Mesh*)>(&SkinnedMeshRenderer::BakeMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "BakeMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::GetLocalAABB
+// Il2CppName: GetLocalAABB
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::GetLocalAABB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "GetLocalAABB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::SetLocalAABB
+// Il2CppName: SetLocalAABB
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds)>(&SkinnedMeshRenderer::SetLocalAABB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "SetLocalAABB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::get_localBounds
+// Il2CppName: get_localBounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::get_localBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "get_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::set_localBounds
+// Il2CppName: set_localBounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds)>(&SkinnedMeshRenderer::set_localBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "set_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::GetLocalAABB_Injected
+// Il2CppName: GetLocalAABB_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds&)>(&SkinnedMeshRenderer::GetLocalAABB_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "GetLocalAABB_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::SetLocalAABB_Injected
+// Il2CppName: SetLocalAABB_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)(UnityEngine::Bounds&)>(&SkinnedMeshRenderer::SetLocalAABB_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), "SetLocalAABB_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
+  }
+};
+// Writing MetadataGetter for method: SkinnedMeshRenderer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkinnedMeshRenderer::*)()>(&SkinnedMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SkinnedMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

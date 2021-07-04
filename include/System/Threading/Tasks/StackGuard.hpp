@@ -58,43 +58,43 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
   static check_size<sizeof(StackGuard), 16 + sizeof(int)> __System_Threading_Tasks_StackGuardSizeCheck;
   static_assert(sizeof(StackGuard) == 0x14);
-  // Writing MetadataGetter for method: StackGuard::TryBeginInliningScope
-  // Il2CppName: TryBeginInliningScope
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackGuard::*)()>(&StackGuard::TryBeginInliningScope)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackGuard*), "TryBeginInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackGuard::EndInliningScope
-  // Il2CppName: EndInliningScope
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::EndInliningScope)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackGuard*), "EndInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackGuard::CheckForSufficientStack
-  // Il2CppName: CheckForSufficientStack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackGuard::*)()>(&StackGuard::CheckForSufficientStack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackGuard*), "CheckForSufficientStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: StackGuard::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
+// Writing MetadataGetter for method: StackGuard::TryBeginInliningScope
+// Il2CppName: TryBeginInliningScope
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackGuard::*)()>(&StackGuard::TryBeginInliningScope)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackGuard*), "TryBeginInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackGuard::EndInliningScope
+// Il2CppName: EndInliningScope
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::EndInliningScope)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackGuard*), "EndInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackGuard::CheckForSufficientStack
+// Il2CppName: CheckForSufficientStack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackGuard::*)()>(&StackGuard::CheckForSufficientStack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackGuard*), "CheckForSufficientStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: StackGuard::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

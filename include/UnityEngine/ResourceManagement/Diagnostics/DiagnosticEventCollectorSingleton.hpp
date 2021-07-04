@@ -137,83 +137,83 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     }
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::get_PlayerConnectionGuid
-  // Il2CppName: get_PlayerConnectionGuid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&DiagnosticEventCollectorSingleton::get_PlayerConnectionGuid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "get_PlayerConnectionGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::RegisterEventHandler
-  // Il2CppName: RegisterEventHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*, bool, bool)>(&DiagnosticEventCollectorSingleton::RegisterEventHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "RegisterEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::RegisterEventHandler
-  // Il2CppName: RegisterEventHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*)>(&DiagnosticEventCollectorSingleton::RegisterEventHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "RegisterEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::UnregisterEventHandler
-  // Il2CppName: UnregisterEventHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*)>(&DiagnosticEventCollectorSingleton::UnregisterEventHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "UnregisterEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::PostEvent
-  // Il2CppName: PostEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&DiagnosticEventCollectorSingleton::PostEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "PostEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>()});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::GetGameObjectName
-  // Il2CppName: GetGameObjectName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::GetGameObjectName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "GetGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton");
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::get_PlayerConnectionGuid
+// Il2CppName: get_PlayerConnectionGuid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&DiagnosticEventCollectorSingleton::get_PlayerConnectionGuid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "get_PlayerConnectionGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::RegisterEventHandler
+// Il2CppName: RegisterEventHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*, bool, bool)>(&DiagnosticEventCollectorSingleton::RegisterEventHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "RegisterEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::RegisterEventHandler
+// Il2CppName: RegisterEventHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*)>(&DiagnosticEventCollectorSingleton::RegisterEventHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "RegisterEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*>()});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::UnregisterEventHandler
+// Il2CppName: UnregisterEventHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*)>(&DiagnosticEventCollectorSingleton::UnregisterEventHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "UnregisterEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*>()});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::PostEvent
+// Il2CppName: PostEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&DiagnosticEventCollectorSingleton::PostEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "PostEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>()});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::GetGameObjectName
+// Il2CppName: GetGameObjectName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::GetGameObjectName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "GetGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DiagnosticEventCollectorSingleton::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticEventCollectorSingleton::*)()>(&DiagnosticEventCollectorSingleton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiagnosticEventCollectorSingleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

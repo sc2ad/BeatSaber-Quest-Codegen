@@ -72,59 +72,59 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(AttributeUsageAttribute), 21 + sizeof(bool)> __System_AttributeUsageAttributeSizeCheck;
   static_assert(sizeof(AttributeUsageAttribute) == 0x16);
-  // Writing MetadataGetter for method: AttributeUsageAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(System::AttributeTargets)>(&AttributeUsageAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AttributeTargets>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(System::AttributeTargets)>(&AttributeUsageAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AttributeTargets>()});
-    }
-  };
-  // Writing MetadataGetter for method: AttributeUsageAttribute::get_AllowMultiple
-  // Il2CppName: get_AllowMultiple
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AttributeUsageAttribute::*)()>(&AttributeUsageAttribute::get_AllowMultiple)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "get_AllowMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AttributeUsageAttribute::set_AllowMultiple
-  // Il2CppName: set_AllowMultiple
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(bool)>(&AttributeUsageAttribute::set_AllowMultiple)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "set_AllowMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AttributeUsageAttribute::get_Inherited
-  // Il2CppName: get_Inherited
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AttributeUsageAttribute::*)()>(&AttributeUsageAttribute::get_Inherited)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "get_Inherited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AttributeUsageAttribute::set_Inherited
-  // Il2CppName: set_Inherited
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(bool)>(&AttributeUsageAttribute::set_Inherited)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "set_Inherited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AttributeUsageAttribute::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AttributeUsageAttribute::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");
+// Writing MetadataGetter for method: AttributeUsageAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(System::AttributeTargets)>(&AttributeUsageAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AttributeTargets>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(System::AttributeTargets)>(&AttributeUsageAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AttributeTargets>()});
+  }
+};
+// Writing MetadataGetter for method: AttributeUsageAttribute::get_AllowMultiple
+// Il2CppName: get_AllowMultiple
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AttributeUsageAttribute::*)()>(&AttributeUsageAttribute::get_AllowMultiple)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "get_AllowMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AttributeUsageAttribute::set_AllowMultiple
+// Il2CppName: set_AllowMultiple
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(bool)>(&AttributeUsageAttribute::set_AllowMultiple)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "set_AllowMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AttributeUsageAttribute::get_Inherited
+// Il2CppName: get_Inherited
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AttributeUsageAttribute::*)()>(&AttributeUsageAttribute::get_Inherited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "get_Inherited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AttributeUsageAttribute::set_Inherited
+// Il2CppName: set_Inherited
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributeUsageAttribute::*)(bool)>(&AttributeUsageAttribute::set_Inherited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), "set_Inherited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AttributeUsageAttribute::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AttributeUsageAttribute::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AttributeUsageAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

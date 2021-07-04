@@ -55,43 +55,43 @@ namespace Valve::VR {
     bool EndInvoke(Valve::VR::HmdMatrix34_t& pmatSeatedZeroPoseToRawTrackingPose, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetWorkingSeatedZeroPoseToRawTrackingPose
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(Valve::VR::HmdMatrix34_t&)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(Valve::VR::HmdMatrix34_t&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(Valve::VR::HmdMatrix34_t&, System::IAsyncResult*)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*, "Valve.VR", "IVRChaperoneSetup/_GetWorkingSeatedZeroPoseToRawTrackingPose");
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(Valve::VR::HmdMatrix34_t&)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(Valve::VR::HmdMatrix34_t&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::*)(Valve::VR::HmdMatrix34_t&, System::IAsyncResult*)>(&IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

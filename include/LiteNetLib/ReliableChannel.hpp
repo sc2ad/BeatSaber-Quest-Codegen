@@ -81,38 +81,6 @@ namespace LiteNetLib {
     #pragma pack(pop)
     static check_size<sizeof(ReliableChannel::PendingPacket), 16 + sizeof(bool)> __LiteNetLib_ReliableChannel_PendingPacketSizeCheck;
     static_assert(sizeof(ReliableChannel::PendingPacket) == 0x11);
-    // Writing MetadataGetter for method: ReliableChannel::PendingPacket::Init
-    // Il2CppName: Init
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::PendingPacket::*)(LiteNetLib::NetPacket*)>(&ReliableChannel::PendingPacket::Init)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ReliableChannel::PendingPacket), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
-      }
-    };
-    // Writing MetadataGetter for method: ReliableChannel::PendingPacket::TrySend
-    // Il2CppName: TrySend
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::PendingPacket::*)(int64_t, LiteNetLib::NetPeer*)>(&ReliableChannel::PendingPacket::TrySend)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ReliableChannel::PendingPacket), "TrySend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-      }
-    };
-    // Writing MetadataGetter for method: ReliableChannel::PendingPacket::Clear
-    // Il2CppName: Clear
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReliableChannel::PendingPacket::*)(LiteNetLib::NetPeer*)>(&ReliableChannel::PendingPacket::Clear)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ReliableChannel::PendingPacket), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
-      }
-    };
-    // Writing MetadataGetter for method: ReliableChannel::PendingPacket::ToString
-    // Il2CppName: ToString
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ReliableChannel::PendingPacket::*)()>(&ReliableChannel::PendingPacket::ToString)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ReliableChannel::PendingPacket), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
     // private readonly LiteNetLib.NetPacket _outgoingAcks
     // Size: 0x8
     // Offset: 0x28
@@ -225,44 +193,44 @@ namespace LiteNetLib {
   #pragma pack(pop)
   static check_size<sizeof(ReliableChannel), 96 + sizeof(uint8_t)> __LiteNetLib_ReliableChannelSizeCheck;
   static_assert(sizeof(ReliableChannel) == 0x61);
-  // Writing MetadataGetter for method: ReliableChannel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)(LiteNetLib::NetPeer*, bool, uint8_t)>(&ReliableChannel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)(LiteNetLib::NetPeer*, bool, uint8_t)>(&ReliableChannel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReliableChannel::ProcessAck
-  // Il2CppName: ProcessAck
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)(LiteNetLib::NetPacket*)>(&ReliableChannel::ProcessAck)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), "ProcessAck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReliableChannel::SendNextPackets
-  // Il2CppName: SendNextPackets
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)()>(&ReliableChannel::SendNextPackets)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReliableChannel::ProcessPacket
-  // Il2CppName: ProcessPacket
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReliableChannel::*)(LiteNetLib::NetPacket*)>(&ReliableChannel::ProcessPacket)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");
+// Writing MetadataGetter for method: ReliableChannel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)(LiteNetLib::NetPeer*, bool, uint8_t)>(&ReliableChannel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)(LiteNetLib::NetPeer*, bool, uint8_t)>(&ReliableChannel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: ReliableChannel::ProcessAck
+// Il2CppName: ProcessAck
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)(LiteNetLib::NetPacket*)>(&ReliableChannel::ProcessAck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), "ProcessAck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
+// Writing MetadataGetter for method: ReliableChannel::SendNextPackets
+// Il2CppName: SendNextPackets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliableChannel::*)()>(&ReliableChannel::SendNextPackets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReliableChannel::ProcessPacket
+// Il2CppName: ProcessPacket
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReliableChannel::*)(LiteNetLib::NetPacket*)>(&ReliableChannel::ProcessPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReliableChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};

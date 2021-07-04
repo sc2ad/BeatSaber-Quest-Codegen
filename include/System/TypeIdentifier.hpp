@@ -27,14 +27,14 @@ namespace System {
     ::Il2CppString* get_InternalName();
   }; // System.TypeIdentifier
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TypeIdentifier::get_InternalName
-  // Il2CppName: get_InternalName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeIdentifier::*)()>(&TypeIdentifier::get_InternalName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeIdentifier*), "get_InternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifier*, "System", "TypeIdentifier");
+// Writing MetadataGetter for method: TypeIdentifier::get_InternalName
+// Il2CppName: get_InternalName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeIdentifier::*)()>(&TypeIdentifier::get_InternalName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeIdentifier*), "get_InternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

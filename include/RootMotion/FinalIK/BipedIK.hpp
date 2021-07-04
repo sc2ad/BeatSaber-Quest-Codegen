@@ -153,211 +153,211 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(BipedIK), 64 + sizeof(RootMotion::FinalIK::BipedIKSolvers*)> __RootMotion_FinalIK_BipedIKSizeCheck;
   static_assert(sizeof(BipedIK) == 0x48);
-  // Writing MetadataGetter for method: BipedIK::OpenUserManual
-  // Il2CppName: OpenUserManual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::OpenUserManual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::OpenScriptReference
-  // Il2CppName: OpenScriptReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::OpenScriptReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SupportGroup
-  // Il2CppName: SupportGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::SupportGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::ASThread
-  // Il2CppName: ASThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::ASThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::GetIKPositionWeight
-  // Il2CppName: GetIKPositionWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKPositionWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::GetIKRotationWeight
-  // Il2CppName: GetIKRotationWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKRotationWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetIKPositionWeight
-  // Il2CppName: SetIKPositionWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&BipedIK::SetIKPositionWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetIKRotationWeight
-  // Il2CppName: SetIKRotationWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&BipedIK::SetIKRotationWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetIKPosition
-  // Il2CppName: SetIKPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&BipedIK::SetIKPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetIKRotation
-  // Il2CppName: SetIKRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&BipedIK::SetIKRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::GetIKPosition
-  // Il2CppName: GetIKPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::GetIKRotation
-  // Il2CppName: GetIKRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetLookAtWeight
-  // Il2CppName: SetLookAtWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(float, float, float, float, float, float, float)>(&BipedIK::SetLookAtWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetLookAtPosition
-  // Il2CppName: SetLookAtPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::Vector3)>(&BipedIK::SetLookAtPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetLookAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetSpinePosition
-  // Il2CppName: SetSpinePosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::Vector3)>(&BipedIK::SetSpinePosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetSpinePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetSpineWeight
-  // Il2CppName: SetSpineWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(float)>(&BipedIK::SetSpineWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetSpineWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::GetGoalIK
-  // Il2CppName: GetGoalIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverLimb* (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetGoalIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetGoalIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::InitiateBipedIK
-  // Il2CppName: InitiateBipedIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::InitiateBipedIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "InitiateBipedIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::UpdateBipedIK
-  // Il2CppName: UpdateBipedIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::UpdateBipedIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "UpdateBipedIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::SetToDefaults
-  // Il2CppName: SetToDefaults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::SetToDefaults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetToDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::LogWarning
-  // Il2CppName: LogWarning
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(::Il2CppString*)>(&BipedIK::LogWarning)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::FixTransforms
-  // Il2CppName: FixTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::FixTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::InitiateSolver
-  // Il2CppName: InitiateSolver
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::InitiateSolver)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::UpdateSolver
-  // Il2CppName: UpdateSolver
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::UpdateSolver)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIK::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIK*, "RootMotion.FinalIK", "BipedIK");
+// Writing MetadataGetter for method: BipedIK::OpenUserManual
+// Il2CppName: OpenUserManual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::OpenUserManual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::OpenScriptReference
+// Il2CppName: OpenScriptReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::OpenScriptReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SupportGroup
+// Il2CppName: SupportGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::SupportGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::ASThread
+// Il2CppName: ASThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::ASThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::GetIKPositionWeight
+// Il2CppName: GetIKPositionWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKPositionWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::GetIKRotationWeight
+// Il2CppName: GetIKRotationWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKRotationWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetIKPositionWeight
+// Il2CppName: SetIKPositionWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&BipedIK::SetIKPositionWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetIKRotationWeight
+// Il2CppName: SetIKRotationWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&BipedIK::SetIKRotationWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetIKPosition
+// Il2CppName: SetIKPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&BipedIK::SetIKPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetIKRotation
+// Il2CppName: SetIKRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&BipedIK::SetIKRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::GetIKPosition
+// Il2CppName: GetIKPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::GetIKRotation
+// Il2CppName: GetIKRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetIKRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetLookAtWeight
+// Il2CppName: SetLookAtWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(float, float, float, float, float, float, float)>(&BipedIK::SetLookAtWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetLookAtPosition
+// Il2CppName: SetLookAtPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::Vector3)>(&BipedIK::SetLookAtPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetLookAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetSpinePosition
+// Il2CppName: SetSpinePosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(UnityEngine::Vector3)>(&BipedIK::SetSpinePosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetSpinePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetSpineWeight
+// Il2CppName: SetSpineWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(float)>(&BipedIK::SetSpineWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetSpineWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::GetGoalIK
+// Il2CppName: GetGoalIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverLimb* (BipedIK::*)(UnityEngine::AvatarIKGoal)>(&BipedIK::GetGoalIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "GetGoalIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::InitiateBipedIK
+// Il2CppName: InitiateBipedIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::InitiateBipedIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "InitiateBipedIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::UpdateBipedIK
+// Il2CppName: UpdateBipedIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::UpdateBipedIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "UpdateBipedIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::SetToDefaults
+// Il2CppName: SetToDefaults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::SetToDefaults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "SetToDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::LogWarning
+// Il2CppName: LogWarning
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)(::Il2CppString*)>(&BipedIK::LogWarning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::FixTransforms
+// Il2CppName: FixTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::FixTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::InitiateSolver
+// Il2CppName: InitiateSolver
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::InitiateSolver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::UpdateSolver
+// Il2CppName: UpdateSolver
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::UpdateSolver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIK::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIK::*)()>(&BipedIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

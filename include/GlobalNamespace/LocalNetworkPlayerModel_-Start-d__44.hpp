@@ -68,22 +68,22 @@ namespace GlobalNamespace {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LocalNetworkPlayerModel/<Start>d__44
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::$Start$d__44::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::$Start$d__44::*)()>(&LocalNetworkPlayerModel::$Start$d__44::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::$Start$d__44), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LocalNetworkPlayerModel::$Start$d__44::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::$Start$d__44::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&LocalNetworkPlayerModel::$Start$d__44::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::$Start$d__44), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44, "", "LocalNetworkPlayerModel/<Start>d__44");
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::$Start$d__44::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::$Start$d__44::*)()>(&LocalNetworkPlayerModel::$Start$d__44::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::$Start$d__44), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LocalNetworkPlayerModel::$Start$d__44::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::$Start$d__44::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&LocalNetworkPlayerModel::$Start$d__44::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::$Start$d__44), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

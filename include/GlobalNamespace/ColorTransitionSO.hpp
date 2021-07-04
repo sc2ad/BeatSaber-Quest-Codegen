@@ -103,67 +103,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorTransitionSO), 72 + sizeof(GlobalNamespace::ColorSO*)> __GlobalNamespace_ColorTransitionSOSizeCheck;
   static_assert(sizeof(ColorTransitionSO) == 0x50);
-  // Writing MetadataGetter for method: ColorTransitionSO::get_normalColor
-  // Il2CppName: get_normalColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_normalColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_normalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorTransitionSO::get_highlightedColor
-  // Il2CppName: get_highlightedColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_highlightedColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_highlightedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorTransitionSO::get_pressedColor
-  // Il2CppName: get_pressedColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_pressedColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_pressedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorTransitionSO::get_disabledColor
-  // Il2CppName: get_disabledColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_disabledColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_disabledColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorTransitionSO::get_selectedColor
-  // Il2CppName: get_selectedColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_selectedColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_selectedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorTransitionSO::get_selectedAndHighlightedColor
-  // Il2CppName: get_selectedAndHighlightedColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_selectedAndHighlightedColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_selectedAndHighlightedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorTransitionSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorTransitionSO::*)()>(&ColorTransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorTransitionSO::*)()>(&ColorTransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorTransitionSO*, "", "ColorTransitionSO");
+// Writing MetadataGetter for method: ColorTransitionSO::get_normalColor
+// Il2CppName: get_normalColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_normalColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_normalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorTransitionSO::get_highlightedColor
+// Il2CppName: get_highlightedColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_highlightedColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_highlightedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorTransitionSO::get_pressedColor
+// Il2CppName: get_pressedColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_pressedColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_pressedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorTransitionSO::get_disabledColor
+// Il2CppName: get_disabledColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_disabledColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_disabledColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorTransitionSO::get_selectedColor
+// Il2CppName: get_selectedColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_selectedColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_selectedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorTransitionSO::get_selectedAndHighlightedColor
+// Il2CppName: get_selectedAndHighlightedColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorTransitionSO::*)()>(&ColorTransitionSO::get_selectedAndHighlightedColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), "get_selectedAndHighlightedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorTransitionSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorTransitionSO::*)()>(&ColorTransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorTransitionSO::*)()>(&ColorTransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -446,687 +446,687 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo), 72 + sizeof(::Array<System::TimeZoneInfo::AdjustmentRule*>*)> __System_TimeZoneInfoSizeCheck;
   static_assert(sizeof(TimeZoneInfo) == 0x50);
-  // Writing MetadataGetter for method: TimeZoneInfo::UtcOffsetOutOfRange
-  // Il2CppName: UtcOffsetOutOfRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::TimeSpan)>(&TimeZoneInfo::UtcOffsetOutOfRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "UtcOffsetOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::CreateAdjustmentRule
-  // Il2CppName: CreateAdjustmentRule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* (*)(int, ::Array<int64_t>*&, ::Array<::Il2CppString*>*&, ::Il2CppString*, ::Il2CppString*)>(&TimeZoneInfo::CreateAdjustmentRule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::CreateLocalUnity
-  // Il2CppName: CreateLocalUnity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::CreateLocalUnity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateLocalUnity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::EnumDynamicTimeZoneInformation
-  // Il2CppName: EnumDynamicTimeZoneInformation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::EnumDynamicTimeZoneInformation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "EnumDynamicTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetDynamicTimeZoneInformation
-  // Il2CppName: GetDynamicTimeZoneInformation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::GetDynamicTimeZoneInformation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDynamicTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetDynamicTimeZoneInformationWin32
-  // Il2CppName: GetDynamicTimeZoneInformationWin32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::GetDynamicTimeZoneInformationWin32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDynamicTimeZoneInformationWin32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetDynamicTimeZoneInformationEffectiveYears
-  // Il2CppName: GetDynamicTimeZoneInformationEffectiveYears
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&, uint&, uint&)>(&TimeZoneInfo::GetDynamicTimeZoneInformationEffectiveYears)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDynamicTimeZoneInformationEffectiveYears", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetTimeZoneInformationForYear
-  // Il2CppName: GetTimeZoneInformationForYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint16_t, System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&, System::TimeZoneInfo::TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::GetTimeZoneInformationForYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetTimeZoneInformationForYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TIME_ZONE_INFORMATION&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::CreateAdjustmentRuleFromTimeZoneInformation
-  // Il2CppName: CreateAdjustmentRuleFromTimeZoneInformation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::AdjustmentRule* (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&, System::DateTime, System::DateTime, int)>(&TimeZoneInfo::CreateAdjustmentRuleFromTimeZoneInformation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateAdjustmentRuleFromTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTimeFromTimeZoneInformation
-  // Il2CppName: TransitionTimeFromTimeZoneInformation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, System::TimeZoneInfo::TransitionTime&, bool)>(&TimeZoneInfo::TransitionTimeFromTimeZoneInformation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TransitionTimeFromTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TryCreateTimeZone
-  // Il2CppName: TryCreateTimeZone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION)>(&TimeZoneInfo::TryCreateTimeZone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryCreateTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetLocalTimeZoneInfoWinRTFallback
-  // Il2CppName: GetLocalTimeZoneInfoWinRTFallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::GetLocalTimeZoneInfoWinRTFallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetLocalTimeZoneInfoWinRTFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetLocalTimeZoneKeyNameWin32Fallback
-  // Il2CppName: GetLocalTimeZoneKeyNameWin32Fallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TimeZoneInfo::GetLocalTimeZoneKeyNameWin32Fallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetLocalTimeZoneKeyNameWin32Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneByIdWinRTFallback
-  // Il2CppName: FindSystemTimeZoneByIdWinRTFallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneByIdWinRTFallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneByIdWinRTFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetSystemTimeZonesWinRTFallback
-  // Il2CppName: GetSystemTimeZonesWinRTFallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::TimeZoneInfo*>* (*)()>(&TimeZoneInfo::GetSystemTimeZonesWinRTFallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetSystemTimeZonesWinRTFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_BaseUtcOffset
-  // Il2CppName: get_BaseUtcOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)()>(&TimeZoneInfo::get_BaseUtcOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_BaseUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_DisplayName
-  // Il2CppName: get_DisplayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeZoneInfo::*)()>(&TimeZoneInfo::get_DisplayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_Id
-  // Il2CppName: get_Id
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeZoneInfo::*)()>(&TimeZoneInfo::get_Id)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_Local
-  // Il2CppName: get_Local
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::get_Local)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_Local", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::readlink
-  // Il2CppName: readlink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&TimeZoneInfo::readlink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "readlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::readlink
-  // Il2CppName: readlink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TimeZoneInfo::readlink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "readlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TryGetNameFromPath
-  // Il2CppName: TryGetNameFromPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&)>(&TimeZoneInfo::TryGetNameFromPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryGetNameFromPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::CreateLocal
-  // Il2CppName: CreateLocal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::CreateLocal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneByIdCore
-  // Il2CppName: FindSystemTimeZoneByIdCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneByIdCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneByIdCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetSystemTimeZonesCore
-  // Il2CppName: GetSystemTimeZonesCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<System::TimeZoneInfo*>*)>(&TimeZoneInfo::GetSystemTimeZonesCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetSystemTimeZonesCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::TimeZoneInfo*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_SupportsDaylightSavingTime
-  // Il2CppName: get_SupportsDaylightSavingTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)()>(&TimeZoneInfo::get_SupportsDaylightSavingTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_SupportsDaylightSavingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_Utc
-  // Il2CppName: get_Utc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::get_Utc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_Utc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_TimeZoneDirectory
-  // Il2CppName: get_TimeZoneDirectory
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TimeZoneInfo::get_TimeZoneDirectory)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_TimeZoneDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_IsWindows
-  // Il2CppName: get_IsWindows
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TimeZoneInfo::get_IsWindows)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_IsWindows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TrimSpecial
-  // Il2CppName: TrimSpecial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TimeZoneInfo::TrimSpecial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TrimSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_TimeZoneKey
-  // Il2CppName: get_TimeZoneKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (*)()>(&TimeZoneInfo::get_TimeZoneKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_TimeZoneKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::get_LocalZoneKey
-  // Il2CppName: get_LocalZoneKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (*)()>(&TimeZoneInfo::get_LocalZoneKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_LocalZoneKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TryAddTicks
-  // Il2CppName: TryAddTicks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTime, int64_t, System::DateTime&, System::DateTimeKind)>(&TimeZoneInfo::TryAddTicks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryAddTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime&>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeKind>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ConvertTime
-  // Il2CppName: ConvertTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*, System::TimeZoneInfo*)>(&TimeZoneInfo::ConvertTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeFromUtc
-  // Il2CppName: ConvertTimeFromUtc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::ConvertTimeFromUtc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeFromUtc
-  // Il2CppName: ConvertTimeFromUtc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*)>(&TimeZoneInfo::ConvertTimeFromUtc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeToUtc
-  // Il2CppName: ConvertTimeToUtc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfoOptions)>(&TimeZoneInfo::ConvertTimeToUtc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeToUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeToUtc
-  // Il2CppName: ConvertTimeToUtc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*)>(&TimeZoneInfo::ConvertTimeToUtc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeToUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeToUtc
-  // Il2CppName: ConvertTimeToUtc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*, System::TimeZoneInfoOptions)>(&TimeZoneInfo::ConvertTimeToUtc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeToUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetDateTimeNowUtcOffsetFromUtc
-  // Il2CppName: GetDateTimeNowUtcOffsetFromUtc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, bool&)>(&TimeZoneInfo::GetDateTimeNowUtcOffsetFromUtc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDateTimeNowUtcOffsetFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::CreateCustomTimeZone
-  // Il2CppName: CreateCustomTimeZone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*)>(&TimeZoneInfo::CreateCustomTimeZone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::CreateCustomTimeZone
-  // Il2CppName: CreateCustomTimeZone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*)>(&TimeZoneInfo::CreateCustomTimeZone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::CreateCustomTimeZone
-  // Il2CppName: CreateCustomTimeZone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*, bool)>(&TimeZoneInfo::CreateCustomTimeZone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo*)>(&TimeZoneInfo::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneById
-  // Il2CppName: FindSystemTimeZoneById
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneById)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneByFileName
-  // Il2CppName: FindSystemTimeZoneByFileName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, ::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneByFileName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneByFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::FromRegistryKey
-  // Il2CppName: FromRegistryKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, Microsoft::Win32::RegistryKey*)>(&TimeZoneInfo::FromRegistryKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FromRegistryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ParseRegTzi
-  // Il2CppName: ParseRegTzi
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*, int, int, ::Array<uint8_t>*)>(&TimeZoneInfo::ParseRegTzi)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseRegTzi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetAdjustmentRules
-  // Il2CppName: GetAdjustmentRules
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::TimeZoneInfo::AdjustmentRule*>* (TimeZoneInfo::*)()>(&TimeZoneInfo::GetAdjustmentRules)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetAdjustmentRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::System_Runtime_Serialization_ISerializable_GetObjectData
-  // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetSystemTimeZones
-  // Il2CppName: GetSystemTimeZones
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<System::TimeZoneInfo*>* (*)()>(&TimeZoneInfo::GetSystemTimeZones)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetSystemTimeZones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffset
-  // Il2CppName: GetUtcOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::GetUtcOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffset
-  // Il2CppName: GetUtcOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)(System::DateTime, bool&)>(&TimeZoneInfo::GetUtcOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffsetHelper
-  // Il2CppName: GetUtcOffsetHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, System::TimeZoneInfo*, bool&)>(&TimeZoneInfo::GetUtcOffsetHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffsetHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::HasSameRules
-  // Il2CppName: HasSameRules
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo*)>(&TimeZoneInfo::HasSameRules)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "HasSameRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::IsAmbiguousTime
-  // Il2CppName: IsAmbiguousTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::IsAmbiguousTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsAmbiguousTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::IsInDST
-  // Il2CppName: IsInDST
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo::AdjustmentRule*, System::DateTime)>(&TimeZoneInfo::IsInDST)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsInDST", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::AdjustmentRule*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::IsInDSTForYear
-  // Il2CppName: IsInDSTForYear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo::AdjustmentRule*, System::DateTime, int)>(&TimeZoneInfo::IsInDSTForYear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsInDSTForYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::AdjustmentRule*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::IsInvalidTime
-  // Il2CppName: IsInvalidTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::IsInvalidTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsInvalidTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
-  // Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(::Il2CppObject*)>(&TimeZoneInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::Validate
-  // Il2CppName: Validate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::TimeSpan, ::Array<System::TimeZoneInfo::AdjustmentRule*>*)>(&TimeZoneInfo::Validate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*, bool)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*, bool)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetApplicableRule
-  // Il2CppName: GetApplicableRule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::AdjustmentRule* (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::GetApplicableRule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetApplicableRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TryGetTransitionOffset
-  // Il2CppName: TryGetTransitionOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::DateTime, System::TimeSpan&, bool&)>(&TimeZoneInfo::TryGetTransitionOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryGetTransitionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionPoint
-  // Il2CppName: TransitionPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::TimeZoneInfo::TransitionTime, int)>(&TimeZoneInfo::TransitionPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TransitionPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ValidateRules
-  // Il2CppName: ValidateRules
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::TimeZoneInfo::AdjustmentRule*>* (*)(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*)>(&TimeZoneInfo::ValidateRules)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ValidateRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::BuildFromStream
-  // Il2CppName: BuildFromStream
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::IO::Stream*)>(&TimeZoneInfo::BuildFromStream)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "BuildFromStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ValidTZFile
-  // Il2CppName: ValidTZFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, int)>(&TimeZoneInfo::ValidTZFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ValidTZFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::SwapInt32
-  // Il2CppName: SwapInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeZoneInfo::SwapInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "SwapInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ReadBigEndianInt32
-  // Il2CppName: ReadBigEndianInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&TimeZoneInfo::ReadBigEndianInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ReadBigEndianInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ParseTZBuffer
-  // Il2CppName: ParseTZBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&TimeZoneInfo::ParseTZBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseTZBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ParseAbbreviations
-  // Il2CppName: ParseAbbreviations
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* (*)(::Array<uint8_t>*, int, int)>(&TimeZoneInfo::ParseAbbreviations)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseAbbreviations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ParseTimesTypes
-  // Il2CppName: ParseTimesTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, System::TimeType*>* (*)(::Array<uint8_t>*, int, int, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)>(&TimeZoneInfo::ParseTimesTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseTimesTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ParseTransitions
-  // Il2CppName: ParseTransitions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* (*)(::Array<uint8_t>*, int, int, System::Collections::Generic::Dictionary_2<int, System::TimeType*>*)>(&TimeZoneInfo::ParseTransitions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseTransitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, System::TimeType*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::DateTimeFromUnixTime
-  // Il2CppName: DateTimeFromUnixTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int64_t)>(&TimeZoneInfo::DateTimeFromUnixTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "DateTimeFromUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetLocalUtcOffset
-  // Il2CppName: GetLocalUtcOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, System::TimeZoneInfoOptions)>(&TimeZoneInfo::GetLocalUtcOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetLocalUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffset
-  // Il2CppName: GetUtcOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)(System::DateTime, System::TimeZoneInfoOptions)>(&TimeZoneInfo::GetUtcOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffsetFromUtc
-  // Il2CppName: GetUtcOffsetFromUtc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, System::TimeZoneInfo*, bool&, bool&)>(&TimeZoneInfo::GetUtcOffsetFromUtc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffsetFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(::Il2CppObject*)>(&TimeZoneInfo::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::*)()>(&TimeZoneInfo::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeZoneInfo::*)()>(&TimeZoneInfo::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)()>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)()>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo*, "System", "TimeZoneInfo");
+// Writing MetadataGetter for method: TimeZoneInfo::UtcOffsetOutOfRange
+// Il2CppName: UtcOffsetOutOfRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::TimeSpan)>(&TimeZoneInfo::UtcOffsetOutOfRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "UtcOffsetOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::CreateAdjustmentRule
+// Il2CppName: CreateAdjustmentRule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* (*)(int, ::Array<int64_t>*&, ::Array<::Il2CppString*>*&, ::Il2CppString*, ::Il2CppString*)>(&TimeZoneInfo::CreateAdjustmentRule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::CreateLocalUnity
+// Il2CppName: CreateLocalUnity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::CreateLocalUnity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateLocalUnity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::EnumDynamicTimeZoneInformation
+// Il2CppName: EnumDynamicTimeZoneInformation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::EnumDynamicTimeZoneInformation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "EnumDynamicTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetDynamicTimeZoneInformation
+// Il2CppName: GetDynamicTimeZoneInformation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::GetDynamicTimeZoneInformation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDynamicTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetDynamicTimeZoneInformationWin32
+// Il2CppName: GetDynamicTimeZoneInformationWin32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::GetDynamicTimeZoneInformationWin32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDynamicTimeZoneInformationWin32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetDynamicTimeZoneInformationEffectiveYears
+// Il2CppName: GetDynamicTimeZoneInformationEffectiveYears
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&, uint&, uint&)>(&TimeZoneInfo::GetDynamicTimeZoneInformationEffectiveYears)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDynamicTimeZoneInformationEffectiveYears", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetTimeZoneInformationForYear
+// Il2CppName: GetTimeZoneInformationForYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint16_t, System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&, System::TimeZoneInfo::TIME_ZONE_INFORMATION&)>(&TimeZoneInfo::GetTimeZoneInformationForYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetTimeZoneInformationForYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TIME_ZONE_INFORMATION&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::CreateAdjustmentRuleFromTimeZoneInformation
+// Il2CppName: CreateAdjustmentRuleFromTimeZoneInformation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::AdjustmentRule* (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&, System::DateTime, System::DateTime, int)>(&TimeZoneInfo::CreateAdjustmentRuleFromTimeZoneInformation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateAdjustmentRuleFromTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION&>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTimeFromTimeZoneInformation
+// Il2CppName: TransitionTimeFromTimeZoneInformation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, System::TimeZoneInfo::TransitionTime&, bool)>(&TimeZoneInfo::TransitionTimeFromTimeZoneInformation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TransitionTimeFromTimeZoneInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TryCreateTimeZone
+// Il2CppName: TryCreateTimeZone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION)>(&TimeZoneInfo::TryCreateTimeZone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryCreateTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetLocalTimeZoneInfoWinRTFallback
+// Il2CppName: GetLocalTimeZoneInfoWinRTFallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::GetLocalTimeZoneInfoWinRTFallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetLocalTimeZoneInfoWinRTFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetLocalTimeZoneKeyNameWin32Fallback
+// Il2CppName: GetLocalTimeZoneKeyNameWin32Fallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TimeZoneInfo::GetLocalTimeZoneKeyNameWin32Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetLocalTimeZoneKeyNameWin32Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneByIdWinRTFallback
+// Il2CppName: FindSystemTimeZoneByIdWinRTFallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneByIdWinRTFallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneByIdWinRTFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetSystemTimeZonesWinRTFallback
+// Il2CppName: GetSystemTimeZonesWinRTFallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::TimeZoneInfo*>* (*)()>(&TimeZoneInfo::GetSystemTimeZonesWinRTFallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetSystemTimeZonesWinRTFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_BaseUtcOffset
+// Il2CppName: get_BaseUtcOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)()>(&TimeZoneInfo::get_BaseUtcOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_BaseUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_DisplayName
+// Il2CppName: get_DisplayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeZoneInfo::*)()>(&TimeZoneInfo::get_DisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_Id
+// Il2CppName: get_Id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeZoneInfo::*)()>(&TimeZoneInfo::get_Id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_Local
+// Il2CppName: get_Local
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::get_Local)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_Local", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::readlink
+// Il2CppName: readlink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&TimeZoneInfo::readlink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "readlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::readlink
+// Il2CppName: readlink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TimeZoneInfo::readlink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "readlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TryGetNameFromPath
+// Il2CppName: TryGetNameFromPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&)>(&TimeZoneInfo::TryGetNameFromPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryGetNameFromPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::CreateLocal
+// Il2CppName: CreateLocal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::CreateLocal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneByIdCore
+// Il2CppName: FindSystemTimeZoneByIdCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneByIdCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneByIdCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetSystemTimeZonesCore
+// Il2CppName: GetSystemTimeZonesCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<System::TimeZoneInfo*>*)>(&TimeZoneInfo::GetSystemTimeZonesCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetSystemTimeZonesCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::TimeZoneInfo*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_SupportsDaylightSavingTime
+// Il2CppName: get_SupportsDaylightSavingTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)()>(&TimeZoneInfo::get_SupportsDaylightSavingTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_SupportsDaylightSavingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_Utc
+// Il2CppName: get_Utc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)()>(&TimeZoneInfo::get_Utc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_Utc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_TimeZoneDirectory
+// Il2CppName: get_TimeZoneDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TimeZoneInfo::get_TimeZoneDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_TimeZoneDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_IsWindows
+// Il2CppName: get_IsWindows
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TimeZoneInfo::get_IsWindows)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_IsWindows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TrimSpecial
+// Il2CppName: TrimSpecial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TimeZoneInfo::TrimSpecial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TrimSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_TimeZoneKey
+// Il2CppName: get_TimeZoneKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (*)()>(&TimeZoneInfo::get_TimeZoneKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_TimeZoneKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::get_LocalZoneKey
+// Il2CppName: get_LocalZoneKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (*)()>(&TimeZoneInfo::get_LocalZoneKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "get_LocalZoneKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TryAddTicks
+// Il2CppName: TryAddTicks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTime, int64_t, System::DateTime&, System::DateTimeKind)>(&TimeZoneInfo::TryAddTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryAddTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime&>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeKind>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ConvertTime
+// Il2CppName: ConvertTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*, System::TimeZoneInfo*)>(&TimeZoneInfo::ConvertTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeFromUtc
+// Il2CppName: ConvertTimeFromUtc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::ConvertTimeFromUtc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeFromUtc
+// Il2CppName: ConvertTimeFromUtc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*)>(&TimeZoneInfo::ConvertTimeFromUtc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeToUtc
+// Il2CppName: ConvertTimeToUtc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfoOptions)>(&TimeZoneInfo::ConvertTimeToUtc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeToUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeToUtc
+// Il2CppName: ConvertTimeToUtc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*)>(&TimeZoneInfo::ConvertTimeToUtc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeToUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ConvertTimeToUtc
+// Il2CppName: ConvertTimeToUtc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeZoneInfo*, System::TimeZoneInfoOptions)>(&TimeZoneInfo::ConvertTimeToUtc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ConvertTimeToUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetDateTimeNowUtcOffsetFromUtc
+// Il2CppName: GetDateTimeNowUtcOffsetFromUtc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, bool&)>(&TimeZoneInfo::GetDateTimeNowUtcOffsetFromUtc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetDateTimeNowUtcOffsetFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::CreateCustomTimeZone
+// Il2CppName: CreateCustomTimeZone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*)>(&TimeZoneInfo::CreateCustomTimeZone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::CreateCustomTimeZone
+// Il2CppName: CreateCustomTimeZone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*)>(&TimeZoneInfo::CreateCustomTimeZone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::CreateCustomTimeZone
+// Il2CppName: CreateCustomTimeZone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*, bool)>(&TimeZoneInfo::CreateCustomTimeZone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo*)>(&TimeZoneInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneById
+// Il2CppName: FindSystemTimeZoneById
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneById)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::FindSystemTimeZoneByFileName
+// Il2CppName: FindSystemTimeZoneByFileName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, ::Il2CppString*)>(&TimeZoneInfo::FindSystemTimeZoneByFileName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FindSystemTimeZoneByFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::FromRegistryKey
+// Il2CppName: FromRegistryKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, Microsoft::Win32::RegistryKey*)>(&TimeZoneInfo::FromRegistryKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "FromRegistryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ParseRegTzi
+// Il2CppName: ParseRegTzi
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*, int, int, ::Array<uint8_t>*)>(&TimeZoneInfo::ParseRegTzi)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseRegTzi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetAdjustmentRules
+// Il2CppName: GetAdjustmentRules
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::TimeZoneInfo::AdjustmentRule*>* (TimeZoneInfo::*)()>(&TimeZoneInfo::GetAdjustmentRules)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetAdjustmentRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::System_Runtime_Serialization_ISerializable_GetObjectData
+// Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetSystemTimeZones
+// Il2CppName: GetSystemTimeZones
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<System::TimeZoneInfo*>* (*)()>(&TimeZoneInfo::GetSystemTimeZones)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetSystemTimeZones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffset
+// Il2CppName: GetUtcOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::GetUtcOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffset
+// Il2CppName: GetUtcOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)(System::DateTime, bool&)>(&TimeZoneInfo::GetUtcOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffsetHelper
+// Il2CppName: GetUtcOffsetHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, System::TimeZoneInfo*, bool&)>(&TimeZoneInfo::GetUtcOffsetHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffsetHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::HasSameRules
+// Il2CppName: HasSameRules
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo*)>(&TimeZoneInfo::HasSameRules)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "HasSameRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::IsAmbiguousTime
+// Il2CppName: IsAmbiguousTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::IsAmbiguousTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsAmbiguousTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::IsInDST
+// Il2CppName: IsInDST
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo::AdjustmentRule*, System::DateTime)>(&TimeZoneInfo::IsInDST)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsInDST", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::AdjustmentRule*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::IsInDSTForYear
+// Il2CppName: IsInDSTForYear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::TimeZoneInfo::AdjustmentRule*, System::DateTime, int)>(&TimeZoneInfo::IsInDSTForYear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsInDSTForYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::AdjustmentRule*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::IsInvalidTime
+// Il2CppName: IsInvalidTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::IsInvalidTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "IsInvalidTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
+// Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(::Il2CppObject*)>(&TimeZoneInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::Validate
+// Il2CppName: Validate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::TimeSpan, ::Array<System::TimeZoneInfo::AdjustmentRule*>*)>(&TimeZoneInfo::Validate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*, bool)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<System::TimeZoneInfo::AdjustmentRule*>*, bool)>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::TimeZoneInfo::AdjustmentRule*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetApplicableRule
+// Il2CppName: GetApplicableRule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::AdjustmentRule* (TimeZoneInfo::*)(System::DateTime)>(&TimeZoneInfo::GetApplicableRule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetApplicableRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TryGetTransitionOffset
+// Il2CppName: TryGetTransitionOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(System::DateTime, System::TimeSpan&, bool&)>(&TimeZoneInfo::TryGetTransitionOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TryGetTransitionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionPoint
+// Il2CppName: TransitionPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::TimeZoneInfo::TransitionTime, int)>(&TimeZoneInfo::TransitionPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "TransitionPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ValidateRules
+// Il2CppName: ValidateRules
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::TimeZoneInfo::AdjustmentRule*>* (*)(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*)>(&TimeZoneInfo::ValidateRules)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ValidateRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::BuildFromStream
+// Il2CppName: BuildFromStream
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::IO::Stream*)>(&TimeZoneInfo::BuildFromStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "BuildFromStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ValidTZFile
+// Il2CppName: ValidTZFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, int)>(&TimeZoneInfo::ValidTZFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ValidTZFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::SwapInt32
+// Il2CppName: SwapInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeZoneInfo::SwapInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "SwapInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ReadBigEndianInt32
+// Il2CppName: ReadBigEndianInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&TimeZoneInfo::ReadBigEndianInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ReadBigEndianInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ParseTZBuffer
+// Il2CppName: ParseTZBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&TimeZoneInfo::ParseTZBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseTZBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ParseAbbreviations
+// Il2CppName: ParseAbbreviations
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* (*)(::Array<uint8_t>*, int, int)>(&TimeZoneInfo::ParseAbbreviations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseAbbreviations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ParseTimesTypes
+// Il2CppName: ParseTimesTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, System::TimeType*>* (*)(::Array<uint8_t>*, int, int, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)>(&TimeZoneInfo::ParseTimesTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseTimesTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ParseTransitions
+// Il2CppName: ParseTransitions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* (*)(::Array<uint8_t>*, int, int, System::Collections::Generic::Dictionary_2<int, System::TimeType*>*)>(&TimeZoneInfo::ParseTransitions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ParseTransitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, System::TimeType*>*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::DateTimeFromUnixTime
+// Il2CppName: DateTimeFromUnixTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int64_t)>(&TimeZoneInfo::DateTimeFromUnixTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "DateTimeFromUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetLocalUtcOffset
+// Il2CppName: GetLocalUtcOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, System::TimeZoneInfoOptions)>(&TimeZoneInfo::GetLocalUtcOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetLocalUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffset
+// Il2CppName: GetUtcOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeZoneInfo::*)(System::DateTime, System::TimeZoneInfoOptions)>(&TimeZoneInfo::GetUtcOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfoOptions>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetUtcOffsetFromUtc
+// Il2CppName: GetUtcOffsetFromUtc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime, System::TimeZoneInfo*, bool&, bool&)>(&TimeZoneInfo::GetUtcOffsetFromUtc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetUtcOffsetFromUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::*)(::Il2CppObject*)>(&TimeZoneInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::*)()>(&TimeZoneInfo::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeZoneInfo::*)()>(&TimeZoneInfo::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)()>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::*)()>(&TimeZoneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -342,307 +342,307 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelCollectionNavigationController), 288 + sizeof(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_LevelCollectionNavigationControllerSizeCheck;
   static_assert(sizeof(LevelCollectionNavigationController) == 0x128);
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::add_didChangeLevelDetailContentEvent
-  // Il2CppName: add_didChangeLevelDetailContentEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&LevelCollectionNavigationController::add_didChangeLevelDetailContentEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didChangeLevelDetailContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didChangeLevelDetailContentEvent
-  // Il2CppName: remove_didChangeLevelDetailContentEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&LevelCollectionNavigationController::remove_didChangeLevelDetailContentEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didChangeLevelDetailContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::add_didSelectLevelPackEvent
-  // Il2CppName: add_didSelectLevelPackEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::add_didSelectLevelPackEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didSelectLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didSelectLevelPackEvent
-  // Il2CppName: remove_didSelectLevelPackEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::remove_didSelectLevelPackEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didSelectLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::add_didPressActionButtonEvent
-  // Il2CppName: add_didPressActionButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*)>(&LevelCollectionNavigationController::add_didPressActionButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didPressActionButtonEvent
-  // Il2CppName: remove_didPressActionButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*)>(&LevelCollectionNavigationController::remove_didPressActionButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::add_didPressOpenPackButtonEvent
-  // Il2CppName: add_didPressOpenPackButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::add_didPressOpenPackButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didPressOpenPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didPressOpenPackButtonEvent
-  // Il2CppName: remove_didPressOpenPackButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::remove_didPressOpenPackButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didPressOpenPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::add_didPressPracticeButtonEvent
-  // Il2CppName: add_didPressPracticeButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*)>(&LevelCollectionNavigationController::add_didPressPracticeButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didPressPracticeButtonEvent
-  // Il2CppName: remove_didPressPracticeButtonEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*)>(&LevelCollectionNavigationController::remove_didPressPracticeButtonEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::add_didChangeDifficultyBeatmapEvent
-  // Il2CppName: add_didChangeDifficultyBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&LevelCollectionNavigationController::add_didChangeDifficultyBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didChangeDifficultyBeatmapEvent
-  // Il2CppName: remove_didChangeDifficultyBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&LevelCollectionNavigationController::remove_didChangeDifficultyBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::get_selectedDifficultyBeatmap
-  // Il2CppName: get_selectedDifficultyBeatmap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::get_selectedDifficultyBeatmap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::get_selectedBeatmapLevel
-  // Il2CppName: get_selectedBeatmapLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::get_selectedBeatmapLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "get_selectedBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::SetData
-  // Il2CppName: SetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, bool, bool, bool, ::Il2CppString*, UnityEngine::GameObject*, GlobalNamespace::BeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelCollectionNavigationController::SetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::SelectLevel
-  // Il2CppName: SelectLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&LevelCollectionNavigationController::SelectLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::SetDataForPack
-  // Il2CppName: SetDataForPack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelPack*, bool, bool, bool, ::Il2CppString*)>(&LevelCollectionNavigationController::SetDataForPack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SetDataForPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::SetDataForLevelCollection
-  // Il2CppName: SetDataForLevelCollection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelCollection*, bool, bool, ::Il2CppString*, UnityEngine::GameObject*)>(&LevelCollectionNavigationController::SetDataForLevelCollection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SetDataForLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::RefreshDetail
-  // Il2CppName: RefreshDetail
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::RefreshDetail)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "RefreshDetail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::ClearSelected
-  // Il2CppName: ClearSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::ClearSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "ClearSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::ShowLoading
-  // Il2CppName: ShowLoading
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::ShowLoading)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::PresentViewControllersForPack
-  // Il2CppName: PresentViewControllersForPack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::PresentViewControllersForPack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "PresentViewControllersForPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::PresentViewControllersForLevelCollection
-  // Il2CppName: PresentViewControllersForLevelCollection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::PresentViewControllersForLevelCollection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "PresentViewControllersForLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HideLoading
-  // Il2CppName: HideLoading
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::HideLoading)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HideLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HideDetailViewController
-  // Il2CppName: HideDetailViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::HideDetailViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HideDetailViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectLevel
-  // Il2CppName: HandleLevelCollectionViewControllerDidSelectLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*)>(&LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelCollectionViewControllerDidSelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCollectionViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectPack
-  // Il2CppName: HandleLevelCollectionViewControllerDidSelectPack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::LevelCollectionViewController*)>(&LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectPack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelCollectionViewControllerDidSelectPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCollectionViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::PresentDetailViewController
-  // Il2CppName: PresentDetailViewController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(HMUI::ViewController*, bool)>(&LevelCollectionNavigationController::PresentDetailViewController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "PresentDetailViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressActionButton
-  // Il2CppName: HandleLevelDetailViewControllerDidPressActionButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressActionButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPressActionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressPracticeButton
-  // Il2CppName: HandleLevelDetailViewControllerDidPressPracticeButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressPracticeButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPressPracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidChangeDifficultyBeatmap
-  // Il2CppName: HandleLevelDetailViewControllerDidChangeDifficultyBeatmap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidChangeDifficultyBeatmap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidChangeDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPresentContent
-  // Il2CppName: HandleLevelDetailViewControllerDidPresentContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPresentContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPresentContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController::ContentType>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressOpenLevelPackButton
-  // Il2CppName: HandleLevelDetailViewControllerDidPressOpenLevelPackButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressOpenLevelPackButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPressOpenLevelPackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerLevelFavoriteStatusDidChange
-  // Il2CppName: HandleLevelDetailViewControllerLevelFavoriteStatusDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, bool)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerLevelFavoriteStatusDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerLevelFavoriteStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(bool, bool, bool)>(&LevelCollectionNavigationController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::DidDeactivate
-  // Il2CppName: DidDeactivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(bool, bool)>(&LevelCollectionNavigationController::DidDeactivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LevelCollectionNavigationController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionNavigationController*, "", "LevelCollectionNavigationController");
+// Writing MetadataGetter for method: LevelCollectionNavigationController::add_didChangeLevelDetailContentEvent
+// Il2CppName: add_didChangeLevelDetailContentEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&LevelCollectionNavigationController::add_didChangeLevelDetailContentEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didChangeLevelDetailContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didChangeLevelDetailContentEvent
+// Il2CppName: remove_didChangeLevelDetailContentEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*)>(&LevelCollectionNavigationController::remove_didChangeLevelDetailContentEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didChangeLevelDetailContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::add_didSelectLevelPackEvent
+// Il2CppName: add_didSelectLevelPackEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::add_didSelectLevelPackEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didSelectLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didSelectLevelPackEvent
+// Il2CppName: remove_didSelectLevelPackEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::remove_didSelectLevelPackEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didSelectLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::add_didPressActionButtonEvent
+// Il2CppName: add_didPressActionButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*)>(&LevelCollectionNavigationController::add_didPressActionButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didPressActionButtonEvent
+// Il2CppName: remove_didPressActionButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*)>(&LevelCollectionNavigationController::remove_didPressActionButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didPressActionButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionNavigationController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::add_didPressOpenPackButtonEvent
+// Il2CppName: add_didPressOpenPackButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::add_didPressOpenPackButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didPressOpenPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didPressOpenPackButtonEvent
+// Il2CppName: remove_didPressOpenPackButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelCollectionNavigationController::remove_didPressOpenPackButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didPressOpenPackButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::add_didPressPracticeButtonEvent
+// Il2CppName: add_didPressPracticeButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*)>(&LevelCollectionNavigationController::add_didPressPracticeButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didPressPracticeButtonEvent
+// Il2CppName: remove_didPressPracticeButtonEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*)>(&LevelCollectionNavigationController::remove_didPressPracticeButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didPressPracticeButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IBeatmapLevel*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::add_didChangeDifficultyBeatmapEvent
+// Il2CppName: add_didChangeDifficultyBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&LevelCollectionNavigationController::add_didChangeDifficultyBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::remove_didChangeDifficultyBeatmapEvent
+// Il2CppName: remove_didChangeDifficultyBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*)>(&LevelCollectionNavigationController::remove_didChangeDifficultyBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::get_selectedDifficultyBeatmap
+// Il2CppName: get_selectedDifficultyBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::get_selectedDifficultyBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::get_selectedBeatmapLevel
+// Il2CppName: get_selectedBeatmapLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::get_selectedBeatmapLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "get_selectedBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::SetData
+// Il2CppName: SetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, bool, bool, bool, ::Il2CppString*, UnityEngine::GameObject*, GlobalNamespace::BeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelCollectionNavigationController::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::SelectLevel
+// Il2CppName: SelectLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&LevelCollectionNavigationController::SelectLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::SetDataForPack
+// Il2CppName: SetDataForPack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelPack*, bool, bool, bool, ::Il2CppString*)>(&LevelCollectionNavigationController::SetDataForPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SetDataForPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::SetDataForLevelCollection
+// Il2CppName: SetDataForLevelCollection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelCollection*, bool, bool, ::Il2CppString*, UnityEngine::GameObject*)>(&LevelCollectionNavigationController::SetDataForLevelCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "SetDataForLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::RefreshDetail
+// Il2CppName: RefreshDetail
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::RefreshDetail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "RefreshDetail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::ClearSelected
+// Il2CppName: ClearSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::ClearSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "ClearSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::ShowLoading
+// Il2CppName: ShowLoading
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::ShowLoading)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::PresentViewControllersForPack
+// Il2CppName: PresentViewControllersForPack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::PresentViewControllersForPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "PresentViewControllersForPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::PresentViewControllersForLevelCollection
+// Il2CppName: PresentViewControllersForLevelCollection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::PresentViewControllersForLevelCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "PresentViewControllersForLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HideLoading
+// Il2CppName: HideLoading
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::HideLoading)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HideLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HideDetailViewController
+// Il2CppName: HideDetailViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::HideDetailViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HideDetailViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectLevel
+// Il2CppName: HandleLevelCollectionViewControllerDidSelectLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*)>(&LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelCollectionViewControllerDidSelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCollectionViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectPack
+// Il2CppName: HandleLevelCollectionViewControllerDidSelectPack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::LevelCollectionViewController*)>(&LevelCollectionNavigationController::HandleLevelCollectionViewControllerDidSelectPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelCollectionViewControllerDidSelectPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCollectionViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::PresentDetailViewController
+// Il2CppName: PresentDetailViewController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(HMUI::ViewController*, bool)>(&LevelCollectionNavigationController::PresentDetailViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "PresentDetailViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressActionButton
+// Il2CppName: HandleLevelDetailViewControllerDidPressActionButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressActionButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPressActionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressPracticeButton
+// Il2CppName: HandleLevelDetailViewControllerDidPressPracticeButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressPracticeButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPressPracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidChangeDifficultyBeatmap
+// Il2CppName: HandleLevelDetailViewControllerDidChangeDifficultyBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidChangeDifficultyBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidChangeDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPresentContent
+// Il2CppName: HandleLevelDetailViewControllerDidPresentContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPresentContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPresentContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController::ContentType>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressOpenLevelPackButton
+// Il2CppName: HandleLevelDetailViewControllerDidPressOpenLevelPackButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerDidPressOpenLevelPackButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerDidPressOpenLevelPackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::HandleLevelDetailViewControllerLevelFavoriteStatusDidChange
+// Il2CppName: HandleLevelDetailViewControllerLevelFavoriteStatusDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(GlobalNamespace::StandardLevelDetailViewController*, bool)>(&LevelCollectionNavigationController::HandleLevelDetailViewControllerLevelFavoriteStatusDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "HandleLevelDetailViewControllerLevelFavoriteStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(bool, bool, bool)>(&LevelCollectionNavigationController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)(bool, bool)>(&LevelCollectionNavigationController::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LevelCollectionNavigationController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionNavigationController::*)()>(&LevelCollectionNavigationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelCollectionNavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -150,83 +150,83 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
   static check_size<sizeof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3), 80 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_EnumerableRepeatedTestCommand_$ExecuteEnumerable$d__3SizeCheck;
   static_assert(sizeof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3) == 0x58);
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)(int)>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)(int)>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_IDisposable_Dispose
-  // Il2CppName: System.IDisposable.Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_IDisposable_Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::$$m__Finally1
-  // Il2CppName: <>m__Finally1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::$$m__Finally1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current
-  // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_Reset
-  // Il2CppName: System.Collections.IEnumerator.Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_get_Current
-  // Il2CppName: System.Collections.IEnumerator.get_Current
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_get_Current)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator
-  // Il2CppName: System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerable_GetEnumerator
-  // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerable_GetEnumerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*, "UnityEngine.TestTools", "EnumerableRepeatedTestCommand/<ExecuteEnumerable>d__3");
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)(int)>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)(int)>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::$$m__Finally1
+// Il2CppName: <>m__Finally1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::$$m__Finally1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator
+// Il2CppName: System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerable_GetEnumerator
+// Il2CppName: System.Collections.IEnumerable.GetEnumerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::*)()>(&EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

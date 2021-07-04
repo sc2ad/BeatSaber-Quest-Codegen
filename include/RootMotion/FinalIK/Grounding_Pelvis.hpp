@@ -105,83 +105,83 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(Grounding::Pelvis), 60 + sizeof(float)> __RootMotion_FinalIK_Grounding_PelvisSizeCheck;
   static_assert(sizeof(Grounding::Pelvis) == 0x40);
-  // Writing MetadataGetter for method: Grounding::Pelvis::get_IKOffset
-  // Il2CppName: get_IKOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounding::Pelvis::*)()>(&Grounding::Pelvis::get_IKOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "get_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::set_IKOffset
-  // Il2CppName: set_IKOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(UnityEngine::Vector3)>(&Grounding::Pelvis::set_IKOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "set_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::get_heightOffset
-  // Il2CppName: get_heightOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Grounding::Pelvis::*)()>(&Grounding::Pelvis::get_heightOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "get_heightOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::set_heightOffset
-  // Il2CppName: set_heightOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(float)>(&Grounding::Pelvis::set_heightOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "set_heightOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::Initiate
-  // Il2CppName: Initiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(RootMotion::FinalIK::Grounding*)>(&Grounding::Pelvis::Initiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::Process
-  // Il2CppName: Process
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(float, float, bool)>(&Grounding::Pelvis::Process)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Grounding::Pelvis::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
+// Writing MetadataGetter for method: Grounding::Pelvis::get_IKOffset
+// Il2CppName: get_IKOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounding::Pelvis::*)()>(&Grounding::Pelvis::get_IKOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "get_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::set_IKOffset
+// Il2CppName: set_IKOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(UnityEngine::Vector3)>(&Grounding::Pelvis::set_IKOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "set_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::get_heightOffset
+// Il2CppName: get_heightOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Grounding::Pelvis::*)()>(&Grounding::Pelvis::get_heightOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "get_heightOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::set_heightOffset
+// Il2CppName: set_heightOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(float)>(&Grounding::Pelvis::set_heightOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "set_heightOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::Initiate
+// Il2CppName: Initiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(RootMotion::FinalIK::Grounding*)>(&Grounding::Pelvis::Initiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding*>()});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::Process
+// Il2CppName: Process
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)(float, float, bool)>(&Grounding::Pelvis::Process)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Grounding::Pelvis::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::Pelvis::*)()>(&Grounding::Pelvis::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Grounding::Pelvis*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -343,675 +343,675 @@ namespace Valve::VR {
   #pragma pack(pop)
   static check_size<sizeof(CVROverlay), 16 + sizeof(Valve::VR::IVROverlay)> __Valve_VR_CVROverlaySizeCheck;
   static_assert(sizeof(CVROverlay) == 0x2A0);
-  // Writing MetadataGetter for method: CVROverlay::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(System::IntPtr)>(&CVROverlay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(System::IntPtr)>(&CVROverlay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::FindOverlay
-  // Il2CppName: FindOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(::Il2CppString*, uint64_t&)>(&CVROverlay::FindOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "FindOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::CreateOverlay
-  // Il2CppName: CreateOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&)>(&CVROverlay::CreateOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "CreateOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::DestroyOverlay
-  // Il2CppName: DestroyOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::DestroyOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "DestroyOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetHighQualityOverlay
-  // Il2CppName: SetHighQualityOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::SetHighQualityOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetHighQualityOverlay
-  // Il2CppName: GetHighQualityOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVROverlay::*)()>(&CVROverlay::GetHighQualityOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayKey
-  // Il2CppName: GetOverlayKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, Valve::VR::EVROverlayError&)>(&CVROverlay::GetOverlayKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayName
-  // Il2CppName: GetOverlayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, Valve::VR::EVROverlayError&)>(&CVROverlay::GetOverlayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayName
-  // Il2CppName: SetOverlayName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, ::Il2CppString*)>(&CVROverlay::SetOverlayName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayImageData
-  // Il2CppName: GetOverlayImageData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr, uint, uint&, uint&)>(&CVROverlay::GetOverlayImageData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayImageData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayErrorNameFromEnum
-  // Il2CppName: GetOverlayErrorNameFromEnum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVROverlay::*)(Valve::VR::EVROverlayError)>(&CVROverlay::GetOverlayErrorNameFromEnum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayRenderingPid
-  // Il2CppName: SetOverlayRenderingPid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint)>(&CVROverlay::SetOverlayRenderingPid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayRenderingPid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayRenderingPid
-  // Il2CppName: GetOverlayRenderingPid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t)>(&CVROverlay::GetOverlayRenderingPid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayRenderingPid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayFlag
-  // Il2CppName: SetOverlayFlag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayFlags, bool)>(&CVROverlay::SetOverlayFlag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayFlag
-  // Il2CppName: GetOverlayFlag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayFlags, bool&)>(&CVROverlay::GetOverlayFlag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayFlags>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayColor
-  // Il2CppName: SetOverlayColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float, float, float)>(&CVROverlay::SetOverlayColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayColor
-  // Il2CppName: GetOverlayColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&, float&, float&)>(&CVROverlay::GetOverlayColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayAlpha
-  // Il2CppName: SetOverlayAlpha
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float)>(&CVROverlay::SetOverlayAlpha)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayAlpha
-  // Il2CppName: GetOverlayAlpha
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&)>(&CVROverlay::GetOverlayAlpha)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTexelAspect
-  // Il2CppName: SetOverlayTexelAspect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float)>(&CVROverlay::SetOverlayTexelAspect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTexelAspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTexelAspect
-  // Il2CppName: GetOverlayTexelAspect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&)>(&CVROverlay::GetOverlayTexelAspect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTexelAspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlaySortOrder
-  // Il2CppName: SetOverlaySortOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint)>(&CVROverlay::SetOverlaySortOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlaySortOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlaySortOrder
-  // Il2CppName: GetOverlaySortOrder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&)>(&CVROverlay::GetOverlaySortOrder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlaySortOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayWidthInMeters
-  // Il2CppName: SetOverlayWidthInMeters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float)>(&CVROverlay::SetOverlayWidthInMeters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayWidthInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayWidthInMeters
-  // Il2CppName: GetOverlayWidthInMeters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&)>(&CVROverlay::GetOverlayWidthInMeters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayWidthInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters
-  // Il2CppName: SetOverlayAutoCurveDistanceRangeInMeters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float, float)>(&CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayAutoCurveDistanceRangeInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters
-  // Il2CppName: GetOverlayAutoCurveDistanceRangeInMeters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&, float&)>(&CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayAutoCurveDistanceRangeInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTextureColorSpace
-  // Il2CppName: SetOverlayTextureColorSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EColorSpace)>(&CVROverlay::SetOverlayTextureColorSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTextureColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EColorSpace>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTextureColorSpace
-  // Il2CppName: GetOverlayTextureColorSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EColorSpace&)>(&CVROverlay::GetOverlayTextureColorSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTextureColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EColorSpace&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTextureBounds
-  // Il2CppName: SetOverlayTextureBounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VRTextureBounds_t&)>(&CVROverlay::SetOverlayTextureBounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTextureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTextureBounds
-  // Il2CppName: GetOverlayTextureBounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VRTextureBounds_t&)>(&CVROverlay::GetOverlayTextureBounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTextureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayRenderModel
-  // Il2CppName: GetOverlayRenderModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, Valve::VR::HmdColor_t&, Valve::VR::EVROverlayError&)>(&CVROverlay::GetOverlayRenderModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayRenderModel
-  // Il2CppName: SetOverlayRenderModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, ::Il2CppString*, Valve::VR::HmdColor_t&)>(&CVROverlay::SetOverlayRenderModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTransformType
-  // Il2CppName: GetOverlayTransformType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayTransformType&)>(&CVROverlay::GetOverlayTransformType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayTransformType&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTransformAbsolute
-  // Il2CppName: SetOverlayTransformAbsolute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetOverlayTransformAbsolute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTransformAbsolute
-  // Il2CppName: GetOverlayTransformAbsolute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin&, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetOverlayTransformAbsolute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTransformTrackedDeviceRelative
-  // Il2CppName: SetOverlayTransformTrackedDeviceRelative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformTrackedDeviceRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTransformTrackedDeviceRelative
-  // Il2CppName: GetOverlayTransformTrackedDeviceRelative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformTrackedDeviceRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTransformTrackedDeviceComponent
-  // Il2CppName: SetOverlayTransformTrackedDeviceComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint, ::Il2CppString*)>(&CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformTrackedDeviceComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTransformTrackedDeviceComponent
-  // Il2CppName: GetOverlayTransformTrackedDeviceComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&, System::Text::StringBuilder*, uint)>(&CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformTrackedDeviceComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTransformOverlayRelative
-  // Il2CppName: GetOverlayTransformOverlayRelative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint64_t&, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetOverlayTransformOverlayRelative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformOverlayRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTransformOverlayRelative
-  // Il2CppName: SetOverlayTransformOverlayRelative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint64_t, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetOverlayTransformOverlayRelative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformOverlayRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ShowOverlay
-  // Il2CppName: ShowOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::ShowOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::HideOverlay
-  // Il2CppName: HideOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::HideOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "HideOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::IsOverlayVisible
-  // Il2CppName: IsOverlayVisible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t)>(&CVROverlay::IsOverlayVisible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsOverlayVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetTransformForOverlayCoordinates
-  // Il2CppName: GetTransformForOverlayCoordinates
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin, Valve::VR::HmdVector2_t, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetTransformForOverlayCoordinates)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetTransformForOverlayCoordinates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::PollNextOverlayEvent
-  // Il2CppName: PollNextOverlayEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t, Valve::VR::VREvent_t&, uint)>(&CVROverlay::PollNextOverlayEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "PollNextOverlayEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayInputMethod
-  // Il2CppName: GetOverlayInputMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayInputMethod&)>(&CVROverlay::GetOverlayInputMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayInputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayInputMethod&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayInputMethod
-  // Il2CppName: SetOverlayInputMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayInputMethod)>(&CVROverlay::SetOverlayInputMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayInputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayInputMethod>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayMouseScale
-  // Il2CppName: GetOverlayMouseScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::HmdVector2_t&)>(&CVROverlay::GetOverlayMouseScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayMouseScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayMouseScale
-  // Il2CppName: SetOverlayMouseScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::HmdVector2_t&)>(&CVROverlay::SetOverlayMouseScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayMouseScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ComputeOverlayIntersection
-  // Il2CppName: ComputeOverlayIntersection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t, Valve::VR::VROverlayIntersectionParams_t&, Valve::VR::VROverlayIntersectionResults_t&)>(&CVROverlay::ComputeOverlayIntersection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ComputeOverlayIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayIntersectionParams_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayIntersectionResults_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::IsHoverTargetOverlay
-  // Il2CppName: IsHoverTargetOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t)>(&CVROverlay::IsHoverTargetOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsHoverTargetOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetGamepadFocusOverlay
-  // Il2CppName: GetGamepadFocusOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVROverlay::*)()>(&CVROverlay::GetGamepadFocusOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetGamepadFocusOverlay
-  // Il2CppName: SetGamepadFocusOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::SetGamepadFocusOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayNeighbor
-  // Il2CppName: SetOverlayNeighbor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(Valve::VR::EOverlayDirection, uint64_t, uint64_t)>(&CVROverlay::SetOverlayNeighbor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::MoveGamepadFocusToNeighbor
-  // Il2CppName: MoveGamepadFocusToNeighbor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(Valve::VR::EOverlayDirection, uint64_t)>(&CVROverlay::MoveGamepadFocusToNeighbor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "MoveGamepadFocusToNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayDualAnalogTransform
-  // Il2CppName: SetOverlayDualAnalogTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EDualAnalogWhich, System::IntPtr, float)>(&CVROverlay::SetOverlayDualAnalogTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayDualAnalogTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayDualAnalogTransform
-  // Il2CppName: GetOverlayDualAnalogTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EDualAnalogWhich, Valve::VR::HmdVector2_t&, float&)>(&CVROverlay::GetOverlayDualAnalogTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayDualAnalogTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayTexture
-  // Il2CppName: SetOverlayTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::Texture_t&)>(&CVROverlay::SetOverlayTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::Texture_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ClearOverlayTexture
-  // Il2CppName: ClearOverlayTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::ClearOverlayTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ClearOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayRaw
-  // Il2CppName: SetOverlayRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr, uint, uint, uint)>(&CVROverlay::SetOverlayRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayFromFile
-  // Il2CppName: SetOverlayFromFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, ::Il2CppString*)>(&CVROverlay::SetOverlayFromFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTexture
-  // Il2CppName: GetOverlayTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr&, System::IntPtr, uint&, uint&, uint&, Valve::VR::ETextureType&, Valve::VR::EColorSpace&, Valve::VR::VRTextureBounds_t&)>(&CVROverlay::GetOverlayTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETextureType&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EColorSpace&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ReleaseNativeOverlayHandle
-  // Il2CppName: ReleaseNativeOverlayHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr)>(&CVROverlay::ReleaseNativeOverlayHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ReleaseNativeOverlayHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayTextureSize
-  // Il2CppName: GetOverlayTextureSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&, uint&)>(&CVROverlay::GetOverlayTextureSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTextureSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::CreateDashboardOverlay
-  // Il2CppName: CreateDashboardOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&, uint64_t&)>(&CVROverlay::CreateDashboardOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "CreateDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::IsDashboardVisible
-  // Il2CppName: IsDashboardVisible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)()>(&CVROverlay::IsDashboardVisible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsDashboardVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::IsActiveDashboardOverlay
-  // Il2CppName: IsActiveDashboardOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t)>(&CVROverlay::IsActiveDashboardOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsActiveDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetDashboardOverlaySceneProcess
-  // Il2CppName: SetDashboardOverlaySceneProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint)>(&CVROverlay::SetDashboardOverlaySceneProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetDashboardOverlaySceneProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetDashboardOverlaySceneProcess
-  // Il2CppName: GetDashboardOverlaySceneProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&)>(&CVROverlay::GetDashboardOverlaySceneProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetDashboardOverlaySceneProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ShowDashboard
-  // Il2CppName: ShowDashboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(::Il2CppString*)>(&CVROverlay::ShowDashboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowDashboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetPrimaryDashboardDevice
-  // Il2CppName: GetPrimaryDashboardDevice
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)()>(&CVROverlay::GetPrimaryDashboardDevice)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetPrimaryDashboardDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ShowKeyboard
-  // Il2CppName: ShowKeyboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t)>(&CVROverlay::ShowKeyboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ShowKeyboardForOverlay
-  // Il2CppName: ShowKeyboardForOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t)>(&CVROverlay::ShowKeyboardForOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowKeyboardForOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetKeyboardText
-  // Il2CppName: GetKeyboardText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(System::Text::StringBuilder*, uint)>(&CVROverlay::GetKeyboardText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetKeyboardText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::HideKeyboard
-  // Il2CppName: HideKeyboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)()>(&CVROverlay::HideKeyboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "HideKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetKeyboardTransformAbsolute
-  // Il2CppName: SetKeyboardTransformAbsolute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(Valve::VR::ETrackingUniverseOrigin, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetKeyboardTransformAbsolute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetKeyboardTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetKeyboardPositionForOverlay
-  // Il2CppName: SetKeyboardPositionForOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(uint64_t, Valve::VR::HmdRect2_t)>(&CVROverlay::SetKeyboardPositionForOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetKeyboardPositionForOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdRect2_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::SetOverlayIntersectionMask
-  // Il2CppName: SetOverlayIntersectionMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayIntersectionMaskPrimitive_t&, uint, uint)>(&CVROverlay::SetOverlayIntersectionMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayIntersectionMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayIntersectionMaskPrimitive_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::GetOverlayFlags
-  // Il2CppName: GetOverlayFlags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&)>(&CVROverlay::GetOverlayFlags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::ShowMessageOverlay
-  // Il2CppName: ShowMessageOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRMessageOverlayResponse (CVROverlay::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CVROverlay::ShowMessageOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowMessageOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVROverlay::CloseMessageOverlay
-  // Il2CppName: CloseMessageOverlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)()>(&CVROverlay::CloseMessageOverlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "CloseMessageOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay*, "Valve.VR", "CVROverlay");
+// Writing MetadataGetter for method: CVROverlay::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(System::IntPtr)>(&CVROverlay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(System::IntPtr)>(&CVROverlay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::FindOverlay
+// Il2CppName: FindOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(::Il2CppString*, uint64_t&)>(&CVROverlay::FindOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "FindOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::CreateOverlay
+// Il2CppName: CreateOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&)>(&CVROverlay::CreateOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "CreateOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::DestroyOverlay
+// Il2CppName: DestroyOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::DestroyOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "DestroyOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetHighQualityOverlay
+// Il2CppName: SetHighQualityOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::SetHighQualityOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetHighQualityOverlay
+// Il2CppName: GetHighQualityOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVROverlay::*)()>(&CVROverlay::GetHighQualityOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayKey
+// Il2CppName: GetOverlayKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, Valve::VR::EVROverlayError&)>(&CVROverlay::GetOverlayKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayName
+// Il2CppName: GetOverlayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, Valve::VR::EVROverlayError&)>(&CVROverlay::GetOverlayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayName
+// Il2CppName: SetOverlayName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, ::Il2CppString*)>(&CVROverlay::SetOverlayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayImageData
+// Il2CppName: GetOverlayImageData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr, uint, uint&, uint&)>(&CVROverlay::GetOverlayImageData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayImageData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayErrorNameFromEnum
+// Il2CppName: GetOverlayErrorNameFromEnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVROverlay::*)(Valve::VR::EVROverlayError)>(&CVROverlay::GetOverlayErrorNameFromEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayRenderingPid
+// Il2CppName: SetOverlayRenderingPid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint)>(&CVROverlay::SetOverlayRenderingPid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayRenderingPid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayRenderingPid
+// Il2CppName: GetOverlayRenderingPid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t)>(&CVROverlay::GetOverlayRenderingPid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayRenderingPid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayFlag
+// Il2CppName: SetOverlayFlag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayFlags, bool)>(&CVROverlay::SetOverlayFlag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayFlag
+// Il2CppName: GetOverlayFlag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayFlags, bool&)>(&CVROverlay::GetOverlayFlag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayFlags>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayColor
+// Il2CppName: SetOverlayColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float, float, float)>(&CVROverlay::SetOverlayColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayColor
+// Il2CppName: GetOverlayColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&, float&, float&)>(&CVROverlay::GetOverlayColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayAlpha
+// Il2CppName: SetOverlayAlpha
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float)>(&CVROverlay::SetOverlayAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayAlpha
+// Il2CppName: GetOverlayAlpha
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&)>(&CVROverlay::GetOverlayAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTexelAspect
+// Il2CppName: SetOverlayTexelAspect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float)>(&CVROverlay::SetOverlayTexelAspect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTexelAspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTexelAspect
+// Il2CppName: GetOverlayTexelAspect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&)>(&CVROverlay::GetOverlayTexelAspect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTexelAspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlaySortOrder
+// Il2CppName: SetOverlaySortOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint)>(&CVROverlay::SetOverlaySortOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlaySortOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlaySortOrder
+// Il2CppName: GetOverlaySortOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&)>(&CVROverlay::GetOverlaySortOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlaySortOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayWidthInMeters
+// Il2CppName: SetOverlayWidthInMeters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float)>(&CVROverlay::SetOverlayWidthInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayWidthInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayWidthInMeters
+// Il2CppName: GetOverlayWidthInMeters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&)>(&CVROverlay::GetOverlayWidthInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayWidthInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters
+// Il2CppName: SetOverlayAutoCurveDistanceRangeInMeters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float, float)>(&CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayAutoCurveDistanceRangeInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters
+// Il2CppName: GetOverlayAutoCurveDistanceRangeInMeters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, float&, float&)>(&CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayAutoCurveDistanceRangeInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTextureColorSpace
+// Il2CppName: SetOverlayTextureColorSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EColorSpace)>(&CVROverlay::SetOverlayTextureColorSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTextureColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EColorSpace>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTextureColorSpace
+// Il2CppName: GetOverlayTextureColorSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EColorSpace&)>(&CVROverlay::GetOverlayTextureColorSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTextureColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EColorSpace&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTextureBounds
+// Il2CppName: SetOverlayTextureBounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VRTextureBounds_t&)>(&CVROverlay::SetOverlayTextureBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTextureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTextureBounds
+// Il2CppName: GetOverlayTextureBounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VRTextureBounds_t&)>(&CVROverlay::GetOverlayTextureBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTextureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayRenderModel
+// Il2CppName: GetOverlayRenderModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, Valve::VR::HmdColor_t&, Valve::VR::EVROverlayError&)>(&CVROverlay::GetOverlayRenderModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVROverlayError&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayRenderModel
+// Il2CppName: SetOverlayRenderModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, ::Il2CppString*, Valve::VR::HmdColor_t&)>(&CVROverlay::SetOverlayRenderModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTransformType
+// Il2CppName: GetOverlayTransformType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayTransformType&)>(&CVROverlay::GetOverlayTransformType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayTransformType&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTransformAbsolute
+// Il2CppName: SetOverlayTransformAbsolute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetOverlayTransformAbsolute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTransformAbsolute
+// Il2CppName: GetOverlayTransformAbsolute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin&, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetOverlayTransformAbsolute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTransformTrackedDeviceRelative
+// Il2CppName: SetOverlayTransformTrackedDeviceRelative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformTrackedDeviceRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTransformTrackedDeviceRelative
+// Il2CppName: GetOverlayTransformTrackedDeviceRelative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformTrackedDeviceRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTransformTrackedDeviceComponent
+// Il2CppName: SetOverlayTransformTrackedDeviceComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint, ::Il2CppString*)>(&CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformTrackedDeviceComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTransformTrackedDeviceComponent
+// Il2CppName: GetOverlayTransformTrackedDeviceComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&, System::Text::StringBuilder*, uint)>(&CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformTrackedDeviceComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTransformOverlayRelative
+// Il2CppName: GetOverlayTransformOverlayRelative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint64_t&, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetOverlayTransformOverlayRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTransformOverlayRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTransformOverlayRelative
+// Il2CppName: SetOverlayTransformOverlayRelative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint64_t, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetOverlayTransformOverlayRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTransformOverlayRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ShowOverlay
+// Il2CppName: ShowOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::ShowOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::HideOverlay
+// Il2CppName: HideOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::HideOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "HideOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::IsOverlayVisible
+// Il2CppName: IsOverlayVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t)>(&CVROverlay::IsOverlayVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsOverlayVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetTransformForOverlayCoordinates
+// Il2CppName: GetTransformForOverlayCoordinates
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin, Valve::VR::HmdVector2_t, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::GetTransformForOverlayCoordinates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetTransformForOverlayCoordinates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::PollNextOverlayEvent
+// Il2CppName: PollNextOverlayEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t, Valve::VR::VREvent_t&, uint)>(&CVROverlay::PollNextOverlayEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "PollNextOverlayEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayInputMethod
+// Il2CppName: GetOverlayInputMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayInputMethod&)>(&CVROverlay::GetOverlayInputMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayInputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayInputMethod&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayInputMethod
+// Il2CppName: SetOverlayInputMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayInputMethod)>(&CVROverlay::SetOverlayInputMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayInputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayInputMethod>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayMouseScale
+// Il2CppName: GetOverlayMouseScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::HmdVector2_t&)>(&CVROverlay::GetOverlayMouseScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayMouseScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayMouseScale
+// Il2CppName: SetOverlayMouseScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::HmdVector2_t&)>(&CVROverlay::SetOverlayMouseScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayMouseScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ComputeOverlayIntersection
+// Il2CppName: ComputeOverlayIntersection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t, Valve::VR::VROverlayIntersectionParams_t&, Valve::VR::VROverlayIntersectionResults_t&)>(&CVROverlay::ComputeOverlayIntersection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ComputeOverlayIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayIntersectionParams_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayIntersectionResults_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::IsHoverTargetOverlay
+// Il2CppName: IsHoverTargetOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t)>(&CVROverlay::IsHoverTargetOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsHoverTargetOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetGamepadFocusOverlay
+// Il2CppName: GetGamepadFocusOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVROverlay::*)()>(&CVROverlay::GetGamepadFocusOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetGamepadFocusOverlay
+// Il2CppName: SetGamepadFocusOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::SetGamepadFocusOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayNeighbor
+// Il2CppName: SetOverlayNeighbor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(Valve::VR::EOverlayDirection, uint64_t, uint64_t)>(&CVROverlay::SetOverlayNeighbor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::MoveGamepadFocusToNeighbor
+// Il2CppName: MoveGamepadFocusToNeighbor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(Valve::VR::EOverlayDirection, uint64_t)>(&CVROverlay::MoveGamepadFocusToNeighbor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "MoveGamepadFocusToNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayDualAnalogTransform
+// Il2CppName: SetOverlayDualAnalogTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EDualAnalogWhich, System::IntPtr, float)>(&CVROverlay::SetOverlayDualAnalogTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayDualAnalogTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayDualAnalogTransform
+// Il2CppName: GetOverlayDualAnalogTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::EDualAnalogWhich, Valve::VR::HmdVector2_t&, float&)>(&CVROverlay::GetOverlayDualAnalogTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayDualAnalogTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayTexture
+// Il2CppName: SetOverlayTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::Texture_t&)>(&CVROverlay::SetOverlayTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::Texture_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ClearOverlayTexture
+// Il2CppName: ClearOverlayTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t)>(&CVROverlay::ClearOverlayTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ClearOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayRaw
+// Il2CppName: SetOverlayRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr, uint, uint, uint)>(&CVROverlay::SetOverlayRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayFromFile
+// Il2CppName: SetOverlayFromFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, ::Il2CppString*)>(&CVROverlay::SetOverlayFromFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTexture
+// Il2CppName: GetOverlayTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr&, System::IntPtr, uint&, uint&, uint&, Valve::VR::ETextureType&, Valve::VR::EColorSpace&, Valve::VR::VRTextureBounds_t&)>(&CVROverlay::GetOverlayTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETextureType&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EColorSpace&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ReleaseNativeOverlayHandle
+// Il2CppName: ReleaseNativeOverlayHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, System::IntPtr)>(&CVROverlay::ReleaseNativeOverlayHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ReleaseNativeOverlayHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayTextureSize
+// Il2CppName: GetOverlayTextureSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&, uint&)>(&CVROverlay::GetOverlayTextureSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayTextureSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::CreateDashboardOverlay
+// Il2CppName: CreateDashboardOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&, uint64_t&)>(&CVROverlay::CreateDashboardOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "CreateDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::IsDashboardVisible
+// Il2CppName: IsDashboardVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)()>(&CVROverlay::IsDashboardVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsDashboardVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::IsActiveDashboardOverlay
+// Il2CppName: IsActiveDashboardOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVROverlay::*)(uint64_t)>(&CVROverlay::IsActiveDashboardOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "IsActiveDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetDashboardOverlaySceneProcess
+// Il2CppName: SetDashboardOverlaySceneProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint)>(&CVROverlay::SetDashboardOverlaySceneProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetDashboardOverlaySceneProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetDashboardOverlaySceneProcess
+// Il2CppName: GetDashboardOverlaySceneProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&)>(&CVROverlay::GetDashboardOverlaySceneProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetDashboardOverlaySceneProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ShowDashboard
+// Il2CppName: ShowDashboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(::Il2CppString*)>(&CVROverlay::ShowDashboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowDashboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetPrimaryDashboardDevice
+// Il2CppName: GetPrimaryDashboardDevice
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)()>(&CVROverlay::GetPrimaryDashboardDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetPrimaryDashboardDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ShowKeyboard
+// Il2CppName: ShowKeyboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t)>(&CVROverlay::ShowKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ShowKeyboardForOverlay
+// Il2CppName: ShowKeyboardForOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t)>(&CVROverlay::ShowKeyboardForOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowKeyboardForOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetKeyboardText
+// Il2CppName: GetKeyboardText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVROverlay::*)(System::Text::StringBuilder*, uint)>(&CVROverlay::GetKeyboardText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetKeyboardText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::HideKeyboard
+// Il2CppName: HideKeyboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)()>(&CVROverlay::HideKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "HideKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetKeyboardTransformAbsolute
+// Il2CppName: SetKeyboardTransformAbsolute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(Valve::VR::ETrackingUniverseOrigin, Valve::VR::HmdMatrix34_t&)>(&CVROverlay::SetKeyboardTransformAbsolute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetKeyboardTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetKeyboardPositionForOverlay
+// Il2CppName: SetKeyboardPositionForOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)(uint64_t, Valve::VR::HmdRect2_t)>(&CVROverlay::SetKeyboardPositionForOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetKeyboardPositionForOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdRect2_t>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::SetOverlayIntersectionMask
+// Il2CppName: SetOverlayIntersectionMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, Valve::VR::VROverlayIntersectionMaskPrimitive_t&, uint, uint)>(&CVROverlay::SetOverlayIntersectionMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "SetOverlayIntersectionMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VROverlayIntersectionMaskPrimitive_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::GetOverlayFlags
+// Il2CppName: GetOverlayFlags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (CVROverlay::*)(uint64_t, uint&)>(&CVROverlay::GetOverlayFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "GetOverlayFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::ShowMessageOverlay
+// Il2CppName: ShowMessageOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRMessageOverlayResponse (CVROverlay::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CVROverlay::ShowMessageOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "ShowMessageOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CVROverlay::CloseMessageOverlay
+// Il2CppName: CloseMessageOverlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVROverlay::*)()>(&CVROverlay::CloseMessageOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVROverlay*), "CloseMessageOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -96,91 +96,91 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(BindStatement), 24 + sizeof(Zenject::IBindingFinalizer*)> __Zenject_BindStatementSizeCheck;
   static_assert(sizeof(BindStatement) == 0x20);
-  // Writing MetadataGetter for method: BindStatement::get_BindingInheritanceMethod
-  // Il2CppName: get_BindingInheritanceMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (BindStatement::*)()>(&BindStatement::get_BindingInheritanceMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::get_HasFinalizer
-  // Il2CppName: get_HasFinalizer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BindStatement::*)()>(&BindStatement::get_HasFinalizer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "get_HasFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::SetFinalizer
-  // Il2CppName: SetFinalizer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)(Zenject::IBindingFinalizer*)>(&BindStatement::SetFinalizer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "SetFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IBindingFinalizer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::AssertHasFinalizer
-  // Il2CppName: AssertHasFinalizer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::AssertHasFinalizer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "AssertHasFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::AddDisposable
-  // Il2CppName: AddDisposable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)(System::IDisposable*)>(&BindStatement::AddDisposable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "AddDisposable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::SpawnBindInfo
-  // Il2CppName: SpawnBindInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (BindStatement::*)()>(&BindStatement::SpawnBindInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "SpawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::FinalizeBinding
-  // Il2CppName: FinalizeBinding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)(Zenject::DiContainer*)>(&BindStatement::FinalizeBinding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BindStatement::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BindStatement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindStatement*, "Zenject", "BindStatement");
+// Writing MetadataGetter for method: BindStatement::get_BindingInheritanceMethod
+// Il2CppName: get_BindingInheritanceMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (BindStatement::*)()>(&BindStatement::get_BindingInheritanceMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::get_HasFinalizer
+// Il2CppName: get_HasFinalizer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BindStatement::*)()>(&BindStatement::get_HasFinalizer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "get_HasFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::SetFinalizer
+// Il2CppName: SetFinalizer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)(Zenject::IBindingFinalizer*)>(&BindStatement::SetFinalizer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "SetFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IBindingFinalizer*>()});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::AssertHasFinalizer
+// Il2CppName: AssertHasFinalizer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::AssertHasFinalizer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "AssertHasFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::AddDisposable
+// Il2CppName: AddDisposable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)(System::IDisposable*)>(&BindStatement::AddDisposable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "AddDisposable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::SpawnBindInfo
+// Il2CppName: SpawnBindInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (BindStatement::*)()>(&BindStatement::SpawnBindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "SpawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::FinalizeBinding
+// Il2CppName: FinalizeBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)(Zenject::DiContainer*)>(&BindStatement::FinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BindStatement::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindStatement::*)()>(&BindStatement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BindStatement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

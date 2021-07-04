@@ -151,139 +151,139 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveCheckersManager), 72 + sizeof(::Array<GlobalNamespace::MissionObjectiveChecker*>*)> __GlobalNamespace_MissionObjectiveCheckersManagerSizeCheck;
   static_assert(sizeof(MissionObjectiveCheckersManager) == 0x50);
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::add_objectiveDidFailEvent
-  // Il2CppName: add_objectiveDidFailEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::add_objectiveDidFailEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "add_objectiveDidFailEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::remove_objectiveDidFailEvent
-  // Il2CppName: remove_objectiveDidFailEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::remove_objectiveDidFailEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "remove_objectiveDidFailEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::add_objectiveWasClearedEvent
-  // Il2CppName: add_objectiveWasClearedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::add_objectiveWasClearedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "add_objectiveWasClearedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::remove_objectiveWasClearedEvent
-  // Il2CppName: remove_objectiveWasClearedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::remove_objectiveWasClearedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "remove_objectiveWasClearedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::add_objectivesListDidChangeEvent
-  // Il2CppName: add_objectivesListDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::add_objectivesListDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "add_objectivesListDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::remove_objectivesListDidChangeEvent
-  // Il2CppName: remove_objectivesListDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::remove_objectivesListDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "remove_objectivesListDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::get_activeMissionObjectiveCheckers
-  // Il2CppName: get_activeMissionObjectiveCheckers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionObjectiveChecker*>* (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::get_activeMissionObjectiveCheckers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "get_activeMissionObjectiveCheckers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::HandleMissionObjectiveCheckerStatusDidChange
-  // Il2CppName: HandleMissionObjectiveCheckerStatusDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveCheckersManager::HandleMissionObjectiveCheckerStatusDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "HandleMissionObjectiveCheckerStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::GetMissionObjectiveChecker
-  // Il2CppName: GetMissionObjectiveChecker
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjectiveChecker* (MissionObjectiveCheckersManager::*)(GlobalNamespace::MissionObjectiveTypeSO*)>(&MissionObjectiveCheckersManager::GetMissionObjectiveChecker)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "GetMissionObjectiveChecker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveTypeSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::GetResults
-  // Il2CppName: GetResults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionObjectiveResult*>* (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::GetResults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "GetResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::HandleLevelFailed
-  // Il2CppName: HandleLevelFailed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::HandleLevelFailed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "HandleLevelFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::HandleLevelFinished
-  // Il2CppName: HandleLevelFinished
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::HandleLevelFinished)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "HandleLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::StopChecking
-  // Il2CppName: StopChecking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::StopChecking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "StopChecking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveCheckersManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager*, "", "MissionObjectiveCheckersManager");
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::add_objectiveDidFailEvent
+// Il2CppName: add_objectiveDidFailEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::add_objectiveDidFailEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "add_objectiveDidFailEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::remove_objectiveDidFailEvent
+// Il2CppName: remove_objectiveDidFailEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::remove_objectiveDidFailEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "remove_objectiveDidFailEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::add_objectiveWasClearedEvent
+// Il2CppName: add_objectiveWasClearedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::add_objectiveWasClearedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "add_objectiveWasClearedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::remove_objectiveWasClearedEvent
+// Il2CppName: remove_objectiveWasClearedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::remove_objectiveWasClearedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "remove_objectiveWasClearedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::add_objectivesListDidChangeEvent
+// Il2CppName: add_objectivesListDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::add_objectivesListDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "add_objectivesListDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::remove_objectivesListDidChangeEvent
+// Il2CppName: remove_objectivesListDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(System::Action*)>(&MissionObjectiveCheckersManager::remove_objectivesListDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "remove_objectivesListDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::get_activeMissionObjectiveCheckers
+// Il2CppName: get_activeMissionObjectiveCheckers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionObjectiveChecker*>* (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::get_activeMissionObjectiveCheckers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "get_activeMissionObjectiveCheckers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::HandleMissionObjectiveCheckerStatusDidChange
+// Il2CppName: HandleMissionObjectiveCheckerStatusDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveCheckersManager::HandleMissionObjectiveCheckerStatusDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "HandleMissionObjectiveCheckerStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::GetMissionObjectiveChecker
+// Il2CppName: GetMissionObjectiveChecker
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjectiveChecker* (MissionObjectiveCheckersManager::*)(GlobalNamespace::MissionObjectiveTypeSO*)>(&MissionObjectiveCheckersManager::GetMissionObjectiveChecker)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "GetMissionObjectiveChecker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveTypeSO*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::GetResults
+// Il2CppName: GetResults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionObjectiveResult*>* (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::GetResults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "GetResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::HandleLevelFailed
+// Il2CppName: HandleLevelFailed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::HandleLevelFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "HandleLevelFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::HandleLevelFinished
+// Il2CppName: HandleLevelFinished
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::HandleLevelFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "HandleLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::StopChecking
+// Il2CppName: StopChecking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::StopChecking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), "StopChecking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveCheckersManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveCheckersManager::*)()>(&MissionObjectiveCheckersManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveCheckersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

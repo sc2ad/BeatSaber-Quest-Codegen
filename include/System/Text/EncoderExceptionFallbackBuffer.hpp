@@ -57,59 +57,59 @@ namespace System::Text {
     int get_Remaining();
   }; // System.Text.EncoderExceptionFallbackBuffer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::Fallback
-  // Il2CppName: Fallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)(::Il2CppChar, int)>(&EncoderExceptionFallbackBuffer::Fallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::Fallback
-  // Il2CppName: Fallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar, int)>(&EncoderExceptionFallbackBuffer::Fallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::GetNextChar
-  // Il2CppName: GetNextChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::GetNextChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::MovePrevious
-  // Il2CppName: MovePrevious
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::MovePrevious)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::get_Remaining
-  // Il2CppName: get_Remaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::get_Remaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");
+// Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::Fallback
+// Il2CppName: Fallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)(::Il2CppChar, int)>(&EncoderExceptionFallbackBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::Fallback
+// Il2CppName: Fallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar, int)>(&EncoderExceptionFallbackBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::GetNextChar
+// Il2CppName: GetNextChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::GetNextChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::MovePrevious
+// Il2CppName: MovePrevious
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::MovePrevious)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::get_Remaining
+// Il2CppName: get_Remaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::get_Remaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

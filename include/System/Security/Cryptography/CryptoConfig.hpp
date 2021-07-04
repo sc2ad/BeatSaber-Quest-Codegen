@@ -46,62 +46,62 @@ namespace System::Security::Cryptography {
     static ::Il2CppString* MapNameToOID(::Il2CppString* name);
   }; // System.Security.Cryptography.CryptoConfig
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CryptoConfig::EncodeOID
-  // Il2CppName: EncodeOID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&CryptoConfig::EncodeOID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "EncodeOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CryptoConfig::EncodeLongNumber
-  // Il2CppName: EncodeLongNumber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int64_t)>(&CryptoConfig::EncodeLongNumber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "EncodeLongNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: CryptoConfig::get_AllowOnlyFipsAlgorithms
-  // Il2CppName: get_AllowOnlyFipsAlgorithms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CryptoConfig::get_AllowOnlyFipsAlgorithms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "get_AllowOnlyFipsAlgorithms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CryptoConfig::CreateFromName
-  // Il2CppName: CreateFromName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&CryptoConfig::CreateFromName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CryptoConfig::CreateFromName
-  // Il2CppName: CreateFromName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&CryptoConfig::CreateFromName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CryptoConfig::MapNameToOID
-  // Il2CppName: MapNameToOID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&CryptoConfig::MapNameToOID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "MapNameToOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CryptoConfig::MapNameToOID
-  // Il2CppName: MapNameToOID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&CryptoConfig::MapNameToOID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "MapNameToOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoConfig*, "System.Security.Cryptography", "CryptoConfig");
+// Writing MetadataGetter for method: CryptoConfig::EncodeOID
+// Il2CppName: EncodeOID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&CryptoConfig::EncodeOID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "EncodeOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CryptoConfig::EncodeLongNumber
+// Il2CppName: EncodeLongNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int64_t)>(&CryptoConfig::EncodeLongNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "EncodeLongNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: CryptoConfig::get_AllowOnlyFipsAlgorithms
+// Il2CppName: get_AllowOnlyFipsAlgorithms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CryptoConfig::get_AllowOnlyFipsAlgorithms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "get_AllowOnlyFipsAlgorithms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CryptoConfig::CreateFromName
+// Il2CppName: CreateFromName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&CryptoConfig::CreateFromName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CryptoConfig::CreateFromName
+// Il2CppName: CreateFromName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&CryptoConfig::CreateFromName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CryptoConfig::MapNameToOID
+// Il2CppName: MapNameToOID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&CryptoConfig::MapNameToOID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "MapNameToOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: CryptoConfig::MapNameToOID
+// Il2CppName: MapNameToOID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&CryptoConfig::MapNameToOID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CryptoConfig*), "MapNameToOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

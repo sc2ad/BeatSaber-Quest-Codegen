@@ -139,97 +139,97 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
   static check_size<sizeof(ProvideHandle), 16 + sizeof(UnityEngine::ResourceManagement::ResourceManager*)> __UnityEngine_ResourceManagement_ResourceProviders_ProvideHandleSizeCheck;
   static_assert(sizeof(ProvideHandle) == 0x18);
-  // Writing MetadataGetter for method: ProvideHandle::ProvideHandle
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*)>(&ProvideHandle::ProvideHandle<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*)>(&ProvideHandle::ProvideHandle<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::get_InternalOp
-  // Il2CppName: get_InternalOp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* (ProvideHandle::*)()>(&ProvideHandle::get_InternalOp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_InternalOp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::get_ResourceManager
-  // Il2CppName: get_ResourceManager
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceManager* (ProvideHandle::*)()>(&ProvideHandle::get_ResourceManager)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_ResourceManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::get_Type
-  // Il2CppName: get_Type
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ProvideHandle::*)()>(&ProvideHandle::get_Type)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::get_Location
-  // Il2CppName: get_Location
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (ProvideHandle::*)()>(&ProvideHandle::get_Location)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::get_DependencyCount
-  // Il2CppName: get_DependencyCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProvideHandle::*)()>(&ProvideHandle::get_DependencyCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_DependencyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::GetDependency
-  // Il2CppName: GetDependency
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ProvideHandle::GetDependencies
-  // Il2CppName: GetDependencies
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&ProvideHandle::GetDependencies)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::SetProgressCallback
-  // Il2CppName: SetProgressCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Func_1<float>*)>(&ProvideHandle::SetProgressCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "SetProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::SetDownloadProgressCallbacks
-  // Il2CppName: SetDownloadProgressCallbacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*)>(&ProvideHandle::SetDownloadProgressCallbacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "SetDownloadProgressCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::SetWaitForCompletionCallback
-  // Il2CppName: SetWaitForCompletionCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Func_1<bool>*)>(&ProvideHandle::SetWaitForCompletionCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "SetWaitForCompletionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProvideHandle::Complete
-  // Il2CppName: Complete
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, "UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle");
+// Writing MetadataGetter for method: ProvideHandle::ProvideHandle
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*)>(&ProvideHandle::ProvideHandle<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*)>(&ProvideHandle::ProvideHandle<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::get_InternalOp
+// Il2CppName: get_InternalOp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* (ProvideHandle::*)()>(&ProvideHandle::get_InternalOp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_InternalOp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::get_ResourceManager
+// Il2CppName: get_ResourceManager
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceManager* (ProvideHandle::*)()>(&ProvideHandle::get_ResourceManager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_ResourceManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::get_Type
+// Il2CppName: get_Type
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ProvideHandle::*)()>(&ProvideHandle::get_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::get_Location
+// Il2CppName: get_Location
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (ProvideHandle::*)()>(&ProvideHandle::get_Location)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::get_DependencyCount
+// Il2CppName: get_DependencyCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProvideHandle::*)()>(&ProvideHandle::get_DependencyCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "get_DependencyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::GetDependency
+// Il2CppName: GetDependency
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ProvideHandle::GetDependencies
+// Il2CppName: GetDependencies
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&ProvideHandle::GetDependencies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::SetProgressCallback
+// Il2CppName: SetProgressCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Func_1<float>*)>(&ProvideHandle::SetProgressCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "SetProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::SetDownloadProgressCallbacks
+// Il2CppName: SetDownloadProgressCallbacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*)>(&ProvideHandle::SetDownloadProgressCallbacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "SetDownloadProgressCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*>()});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::SetWaitForCompletionCallback
+// Il2CppName: SetWaitForCompletionCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProvideHandle::*)(System::Func_1<bool>*)>(&ProvideHandle::SetWaitForCompletionCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProvideHandle), "SetWaitForCompletionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: ProvideHandle::Complete
+// Il2CppName: Complete
+// Cannot write MetadataGetter for generic methods!

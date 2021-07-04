@@ -101,97 +101,97 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(TermInfoReader), 32 + sizeof(int)> __System_TermInfoReaderSizeCheck;
   static_assert(sizeof(TermInfoReader) == 0x24);
-  // Writing MetadataGetter for method: TermInfoReader::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Il2CppString*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Il2CppString*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Array<uint8_t>*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Array<uint8_t>*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::ReadHeader
-  // Il2CppName: ReadHeader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Array<uint8_t>*, int&)>(&TermInfoReader::ReadHeader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "ReadHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::ReadNames
-  // Il2CppName: ReadNames
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Array<uint8_t>*, int&)>(&TermInfoReader::ReadNames)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "ReadNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TermInfoReader::*)(System::TermInfoNumbers)>(&TermInfoReader::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoNumbers>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::Get
-  // Il2CppName: Get
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TermInfoReader::*)(System::TermInfoStrings)>(&TermInfoReader::Get)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::GetStringBytes
-  // Il2CppName: GetStringBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (TermInfoReader::*)(System::TermInfoStrings)>(&TermInfoReader::GetStringBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::GetInt16
-  // Il2CppName: GetInt16
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (TermInfoReader::*)(::Array<uint8_t>*, int)>(&TermInfoReader::GetInt16)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::GetString
-  // Il2CppName: GetString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TermInfoReader::*)(::Array<uint8_t>*, int)>(&TermInfoReader::GetString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TermInfoReader::GetStringBytes
-  // Il2CppName: GetStringBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (TermInfoReader::*)(::Array<uint8_t>*, int)>(&TermInfoReader::GetStringBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");
+// Writing MetadataGetter for method: TermInfoReader::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Il2CppString*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Il2CppString*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Array<uint8_t>*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Il2CppString*, ::Array<uint8_t>*)>(&TermInfoReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::ReadHeader
+// Il2CppName: ReadHeader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Array<uint8_t>*, int&)>(&TermInfoReader::ReadHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "ReadHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::ReadNames
+// Il2CppName: ReadNames
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TermInfoReader::*)(::Array<uint8_t>*, int&)>(&TermInfoReader::ReadNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "ReadNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TermInfoReader::*)(System::TermInfoNumbers)>(&TermInfoReader::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoNumbers>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::Get
+// Il2CppName: Get
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TermInfoReader::*)(System::TermInfoStrings)>(&TermInfoReader::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::GetStringBytes
+// Il2CppName: GetStringBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (TermInfoReader::*)(System::TermInfoStrings)>(&TermInfoReader::GetStringBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::GetInt16
+// Il2CppName: GetInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (TermInfoReader::*)(::Array<uint8_t>*, int)>(&TermInfoReader::GetInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::GetString
+// Il2CppName: GetString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TermInfoReader::*)(::Array<uint8_t>*, int)>(&TermInfoReader::GetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TermInfoReader::GetStringBytes
+// Il2CppName: GetStringBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (TermInfoReader::*)(::Array<uint8_t>*, int)>(&TermInfoReader::GetStringBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

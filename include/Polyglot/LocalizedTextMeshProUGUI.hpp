@@ -64,59 +64,59 @@ namespace Polyglot {
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextMeshProUGUI*, creationType>()));
     }
   }; // Polyglot.LocalizedTextMeshProUGUI
-  // Writing MetadataGetter for method: LocalizedTextMeshProUGUI::SetText
-  // Il2CppName: SetText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)(TMPro::TextMeshProUGUI*, ::Il2CppString*)>(&LocalizedTextMeshProUGUI::SetText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizedTextMeshProUGUI::UpdateAlignment
-  // Il2CppName: UpdateAlignment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)(TMPro::TextMeshProUGUI*, Polyglot::LanguageDirection)>(&LocalizedTextMeshProUGUI::UpdateAlignment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "UpdateAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::LanguageDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizedTextMeshProUGUI::IsOppositeDirection
-  // Il2CppName: IsOppositeDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizedTextMeshProUGUI::*)(TMPro::TextAlignmentOptions, Polyglot::LanguageDirection)>(&LocalizedTextMeshProUGUI::IsOppositeDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "IsOppositeDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextAlignmentOptions>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::LanguageDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizedTextMeshProUGUI::IsAlignmentRight
-  // Il2CppName: IsAlignmentRight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizedTextMeshProUGUI::*)(TMPro::TextAlignmentOptions)>(&LocalizedTextMeshProUGUI::IsAlignmentRight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "IsAlignmentRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextAlignmentOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizedTextMeshProUGUI::IsAlignmentLeft
-  // Il2CppName: IsAlignmentLeft
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizedTextMeshProUGUI::*)(TMPro::TextAlignmentOptions)>(&LocalizedTextMeshProUGUI::IsAlignmentLeft)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "IsAlignmentLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextAlignmentOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: LocalizedTextMeshProUGUI::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)()>(&LocalizedTextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)()>(&LocalizedTextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMeshProUGUI*, "Polyglot", "LocalizedTextMeshProUGUI");
+// Writing MetadataGetter for method: LocalizedTextMeshProUGUI::SetText
+// Il2CppName: SetText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)(TMPro::TextMeshProUGUI*, ::Il2CppString*)>(&LocalizedTextMeshProUGUI::SetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LocalizedTextMeshProUGUI::UpdateAlignment
+// Il2CppName: UpdateAlignment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)(TMPro::TextMeshProUGUI*, Polyglot::LanguageDirection)>(&LocalizedTextMeshProUGUI::UpdateAlignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "UpdateAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::LanguageDirection>()});
+  }
+};
+// Writing MetadataGetter for method: LocalizedTextMeshProUGUI::IsOppositeDirection
+// Il2CppName: IsOppositeDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizedTextMeshProUGUI::*)(TMPro::TextAlignmentOptions, Polyglot::LanguageDirection)>(&LocalizedTextMeshProUGUI::IsOppositeDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "IsOppositeDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextAlignmentOptions>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::LanguageDirection>()});
+  }
+};
+// Writing MetadataGetter for method: LocalizedTextMeshProUGUI::IsAlignmentRight
+// Il2CppName: IsAlignmentRight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizedTextMeshProUGUI::*)(TMPro::TextAlignmentOptions)>(&LocalizedTextMeshProUGUI::IsAlignmentRight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "IsAlignmentRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextAlignmentOptions>()});
+  }
+};
+// Writing MetadataGetter for method: LocalizedTextMeshProUGUI::IsAlignmentLeft
+// Il2CppName: IsAlignmentLeft
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizedTextMeshProUGUI::*)(TMPro::TextAlignmentOptions)>(&LocalizedTextMeshProUGUI::IsAlignmentLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), "IsAlignmentLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextAlignmentOptions>()});
+  }
+};
+// Writing MetadataGetter for method: LocalizedTextMeshProUGUI::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)()>(&LocalizedTextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextMeshProUGUI::*)()>(&LocalizedTextMeshProUGUI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LocalizedTextMeshProUGUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

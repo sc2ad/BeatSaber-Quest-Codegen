@@ -70,27 +70,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(PoolCleanupChecker), 24 + sizeof(System::Collections::Generic::List_1<System::Type*>*)> __Zenject_PoolCleanupCheckerSizeCheck;
   static_assert(sizeof(PoolCleanupChecker) == 0x20);
-  // Writing MetadataGetter for method: PoolCleanupChecker::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolCleanupChecker::*)(System::Collections::Generic::List_1<Zenject::IMemoryPool*>*, System::Collections::Generic::List_1<System::Type*>*)>(&PoolCleanupChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PoolCleanupChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IMemoryPool*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolCleanupChecker::*)(System::Collections::Generic::List_1<Zenject::IMemoryPool*>*, System::Collections::Generic::List_1<System::Type*>*)>(&PoolCleanupChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PoolCleanupChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IMemoryPool*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PoolCleanupChecker::LateDispose
-  // Il2CppName: LateDispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolCleanupChecker::*)()>(&PoolCleanupChecker::LateDispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PoolCleanupChecker*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker*, "Zenject", "PoolCleanupChecker");
+// Writing MetadataGetter for method: PoolCleanupChecker::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolCleanupChecker::*)(System::Collections::Generic::List_1<Zenject::IMemoryPool*>*, System::Collections::Generic::List_1<System::Type*>*)>(&PoolCleanupChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoolCleanupChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IMemoryPool*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolCleanupChecker::*)(System::Collections::Generic::List_1<Zenject::IMemoryPool*>*, System::Collections::Generic::List_1<System::Type*>*)>(&PoolCleanupChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoolCleanupChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IMemoryPool*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: PoolCleanupChecker::LateDispose
+// Il2CppName: LateDispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoolCleanupChecker::*)()>(&PoolCleanupChecker::LateDispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoolCleanupChecker*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

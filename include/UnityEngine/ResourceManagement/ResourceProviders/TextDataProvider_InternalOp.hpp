@@ -106,67 +106,67 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
   static check_size<sizeof(TextDataProvider::InternalOp), 65 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_TextDataProvider_InternalOpSizeCheck;
   static_assert(sizeof(TextDataProvider::InternalOp) == 0x42);
-  // Writing MetadataGetter for method: TextDataProvider::InternalOp::GetPercentComplete
-  // Il2CppName: GetPercentComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::GetPercentComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "GetPercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextDataProvider::InternalOp::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*, bool)>(&TextDataProvider::InternalOp::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextDataProvider::InternalOp::WaitForCompletionHandler
-  // Il2CppName: WaitForCompletionHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::WaitForCompletionHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "WaitForCompletionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextDataProvider::InternalOp::RequestOperation_completed
-  // Il2CppName: RequestOperation_completed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&TextDataProvider::InternalOp::RequestOperation_completed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "RequestOperation_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextDataProvider::InternalOp::ConvertText
-  // Il2CppName: ConvertText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TextDataProvider::InternalOp::*)(::Il2CppString*)>(&TextDataProvider::InternalOp::ConvertText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "ConvertText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextDataProvider::InternalOp::$Start$b__7_0
-  // Il2CppName: <Start>b__7_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&TextDataProvider::InternalOp::$Start$b__7_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "<Start>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequestAsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextDataProvider::InternalOp::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider/InternalOp");
+// Writing MetadataGetter for method: TextDataProvider::InternalOp::GetPercentComplete
+// Il2CppName: GetPercentComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::GetPercentComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "GetPercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextDataProvider::InternalOp::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*, bool)>(&TextDataProvider::InternalOp::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TextDataProvider::InternalOp::WaitForCompletionHandler
+// Il2CppName: WaitForCompletionHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::WaitForCompletionHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "WaitForCompletionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextDataProvider::InternalOp::RequestOperation_completed
+// Il2CppName: RequestOperation_completed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&TextDataProvider::InternalOp::RequestOperation_completed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "RequestOperation_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: TextDataProvider::InternalOp::ConvertText
+// Il2CppName: ConvertText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TextDataProvider::InternalOp::*)(::Il2CppString*)>(&TextDataProvider::InternalOp::ConvertText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "ConvertText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TextDataProvider::InternalOp::$Start$b__7_0
+// Il2CppName: <Start>b__7_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&TextDataProvider::InternalOp::$Start$b__7_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), "<Start>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequestAsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: TextDataProvider::InternalOp::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextDataProvider::InternalOp::*)()>(&TextDataProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextDataProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

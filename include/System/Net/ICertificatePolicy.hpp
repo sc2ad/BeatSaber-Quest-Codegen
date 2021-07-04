@@ -32,14 +32,14 @@ namespace System::Net {
     bool CheckValidationResult(System::Net::ServicePoint* srvPoint, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Net::WebRequest* request, int certificateProblem);
   }; // System.Net.ICertificatePolicy
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ICertificatePolicy::CheckValidationResult
-  // Il2CppName: CheckValidationResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ICertificatePolicy::*)(System::Net::ServicePoint*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Net::WebRequest*, int)>(&ICertificatePolicy::CheckValidationResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ICertificatePolicy*), "CheckValidationResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICertificatePolicy*, "System.Net", "ICertificatePolicy");
+// Writing MetadataGetter for method: ICertificatePolicy::CheckValidationResult
+// Il2CppName: CheckValidationResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ICertificatePolicy::*)(System::Net::ServicePoint*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Net::WebRequest*, int)>(&ICertificatePolicy::CheckValidationResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ICertificatePolicy*), "CheckValidationResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

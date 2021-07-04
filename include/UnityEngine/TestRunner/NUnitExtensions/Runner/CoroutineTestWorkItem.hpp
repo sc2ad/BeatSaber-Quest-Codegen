@@ -88,43 +88,43 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(CoroutineTestWorkItem), 88 + sizeof(NUnit::Framework::Internal::Commands::TestCommand*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CoroutineTestWorkItemSizeCheck;
   static_assert(sizeof(CoroutineTestWorkItem) == 0x60);
-  // Writing MetadataGetter for method: CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner
-  // Il2CppName: get_monoBehaviourCoroutineRunner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MonoBehaviour* (*)()>(&CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "get_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner
-  // Il2CppName: set_monoBehaviourCoroutineRunner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*)>(&CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "set_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CoroutineTestWorkItem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineTestWorkItem::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&CoroutineTestWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineTestWorkItem::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&CoroutineTestWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CoroutineTestWorkItem::PerformWork
-  // Il2CppName: PerformWork
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CoroutineTestWorkItem::*)()>(&CoroutineTestWorkItem::PerformWork)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");
+// Writing MetadataGetter for method: CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner
+// Il2CppName: get_monoBehaviourCoroutineRunner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MonoBehaviour* (*)()>(&CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "get_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner
+// Il2CppName: set_monoBehaviourCoroutineRunner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*)>(&CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "set_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
+  }
+};
+// Writing MetadataGetter for method: CoroutineTestWorkItem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineTestWorkItem::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&CoroutineTestWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineTestWorkItem::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&CoroutineTestWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
+  }
+};
+// Writing MetadataGetter for method: CoroutineTestWorkItem::PerformWork
+// Il2CppName: PerformWork
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CoroutineTestWorkItem::*)()>(&CoroutineTestWorkItem::PerformWork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

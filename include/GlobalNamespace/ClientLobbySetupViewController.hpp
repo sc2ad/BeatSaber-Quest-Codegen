@@ -208,179 +208,179 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ClientLobbySetupViewController), 192 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_ClientLobbySetupViewControllerSizeCheck;
   static_assert(sizeof(ClientLobbySetupViewController) == 0xC8);
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::add_suggestBeatmapEvent
-  // Il2CppName: add_suggestBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_suggestBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_suggestBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::remove_suggestBeatmapEvent
-  // Il2CppName: remove_suggestBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_suggestBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_suggestBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::add_clearSuggestedBeatmapEvent
-  // Il2CppName: add_clearSuggestedBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_clearSuggestedBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_clearSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::remove_clearSuggestedBeatmapEvent
-  // Il2CppName: remove_clearSuggestedBeatmapEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_clearSuggestedBeatmapEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_clearSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::add_suggestModifiersEvent
-  // Il2CppName: add_suggestModifiersEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_suggestModifiersEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_suggestModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::remove_suggestModifiersEvent
-  // Il2CppName: remove_suggestModifiersEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_suggestModifiersEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_suggestModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::add_clearSuggestedModifiersEvent
-  // Il2CppName: add_clearSuggestedModifiersEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_clearSuggestedModifiersEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_clearSuggestedModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::remove_clearSuggestedModifiersEvent
-  // Il2CppName: remove_clearSuggestedModifiersEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_clearSuggestedModifiersEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_clearSuggestedModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::add_setPlayerReadyEvent
-  // Il2CppName: add_setPlayerReadyEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action_1<bool>*)>(&ClientLobbySetupViewController::add_setPlayerReadyEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_setPlayerReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::remove_setPlayerReadyEvent
-  // Il2CppName: remove_setPlayerReadyEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action_1<bool>*)>(&ClientLobbySetupViewController::remove_setPlayerReadyEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_setPlayerReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::SetLocalLobbyPlayerData
-  // Il2CppName: SetLocalLobbyPlayerData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&ClientLobbySetupViewController::SetLocalLobbyPlayerData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "SetLocalLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::SetLobbyState
-  // Il2CppName: SetLobbyState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(GlobalNamespace::MultiplayerLobbyState)>(&ClientLobbySetupViewController::SetLobbyState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "SetLobbyState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyState>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::SetPlayerActiveState
-  // Il2CppName: SetPlayerActiveState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(bool)>(&ClientLobbySetupViewController::SetPlayerActiveState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "SetPlayerActiveState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_0
-  // Il2CppName: <DidActivate>b__24_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_1
-  // Il2CppName: <DidActivate>b__24_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_2
-  // Il2CppName: <DidActivate>b__24_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_3
-  // Il2CppName: <DidActivate>b__24_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_4
-  // Il2CppName: <DidActivate>b__24_4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_5
-  // Il2CppName: <DidActivate>b__24_5
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_5)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::DidActivate
-  // Il2CppName: DidActivate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(bool, bool, bool)>(&ClientLobbySetupViewController::DidActivate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ClientLobbySetupViewController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClientLobbySetupViewController*, "", "ClientLobbySetupViewController");
+// Writing MetadataGetter for method: ClientLobbySetupViewController::add_suggestBeatmapEvent
+// Il2CppName: add_suggestBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_suggestBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_suggestBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::remove_suggestBeatmapEvent
+// Il2CppName: remove_suggestBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_suggestBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_suggestBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::add_clearSuggestedBeatmapEvent
+// Il2CppName: add_clearSuggestedBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_clearSuggestedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_clearSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::remove_clearSuggestedBeatmapEvent
+// Il2CppName: remove_clearSuggestedBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_clearSuggestedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_clearSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::add_suggestModifiersEvent
+// Il2CppName: add_suggestModifiersEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_suggestModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_suggestModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::remove_suggestModifiersEvent
+// Il2CppName: remove_suggestModifiersEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_suggestModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_suggestModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::add_clearSuggestedModifiersEvent
+// Il2CppName: add_clearSuggestedModifiersEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::add_clearSuggestedModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_clearSuggestedModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::remove_clearSuggestedModifiersEvent
+// Il2CppName: remove_clearSuggestedModifiersEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action*)>(&ClientLobbySetupViewController::remove_clearSuggestedModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_clearSuggestedModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::add_setPlayerReadyEvent
+// Il2CppName: add_setPlayerReadyEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action_1<bool>*)>(&ClientLobbySetupViewController::add_setPlayerReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "add_setPlayerReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::remove_setPlayerReadyEvent
+// Il2CppName: remove_setPlayerReadyEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(System::Action_1<bool>*)>(&ClientLobbySetupViewController::remove_setPlayerReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "remove_setPlayerReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::SetLocalLobbyPlayerData
+// Il2CppName: SetLocalLobbyPlayerData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&ClientLobbySetupViewController::SetLocalLobbyPlayerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "SetLocalLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::SetLobbyState
+// Il2CppName: SetLobbyState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(GlobalNamespace::MultiplayerLobbyState)>(&ClientLobbySetupViewController::SetLobbyState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "SetLobbyState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyState>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::SetPlayerActiveState
+// Il2CppName: SetPlayerActiveState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(bool)>(&ClientLobbySetupViewController::SetPlayerActiveState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "SetPlayerActiveState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_0
+// Il2CppName: <DidActivate>b__24_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_1
+// Il2CppName: <DidActivate>b__24_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_2
+// Il2CppName: <DidActivate>b__24_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_3
+// Il2CppName: <DidActivate>b__24_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_4
+// Il2CppName: <DidActivate>b__24_4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::$DidActivate$b__24_5
+// Il2CppName: <DidActivate>b__24_5
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::$DidActivate$b__24_5)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "<DidActivate>b__24_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::DidActivate
+// Il2CppName: DidActivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)(bool, bool, bool)>(&ClientLobbySetupViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ClientLobbySetupViewController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientLobbySetupViewController::*)()>(&ClientLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClientLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

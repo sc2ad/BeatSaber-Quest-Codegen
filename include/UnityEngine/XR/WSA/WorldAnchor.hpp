@@ -44,14 +44,14 @@ namespace UnityEngine::XR::WSA {
   #pragma pack(pop)
   static check_size<sizeof(WorldAnchor), 24 + sizeof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*)> __UnityEngine_XR_WSA_WorldAnchorSizeCheck;
   static_assert(sizeof(WorldAnchor) == 0x20);
-  // Writing MetadataGetter for method: WorldAnchor::Internal_TriggerEventOnTrackingLost
-  // Il2CppName: Internal_TriggerEventOnTrackingLost
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&WorldAnchor::Internal_TriggerEventOnTrackingLost)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WorldAnchor*), "Internal_TriggerEventOnTrackingLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor*, "UnityEngine.XR.WSA", "WorldAnchor");
+// Writing MetadataGetter for method: WorldAnchor::Internal_TriggerEventOnTrackingLost
+// Il2CppName: Internal_TriggerEventOnTrackingLost
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&WorldAnchor::Internal_TriggerEventOnTrackingLost)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WorldAnchor*), "Internal_TriggerEventOnTrackingLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

@@ -69,102 +69,102 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
     static ::Il2CppString* GetParentUniqueName(NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TestExtensions::GetTestCategories
-  // Il2CppName: GetTestCategories
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetTestCategories)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetTestCategories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetAllCategoriesFromTest
-  // Il2CppName: GetAllCategoriesFromTest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetAllCategoriesFromTest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetAllCategoriesFromTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::ParseForNameDuplicates
-  // Il2CppName: ParseForNameDuplicates
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::ParseForNameDuplicates)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "ParseForNameDuplicates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetChildIndex
-  // Il2CppName: GetChildIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetChildIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetChildIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::HasChildIndex
-  // Il2CppName: HasChildIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::HasChildIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "HasChildIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetAncestorPath
-  // Il2CppName: GetAncestorPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetAncestorPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetAncestorPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetUniqueName
-  // Il2CppName: GetUniqueName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetUniqueName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetUniqueName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetFullName
-  // Il2CppName: GetFullName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetFullName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetSkipReason
-  // Il2CppName: GetSkipReason
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetSkipReason)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetParentId
-  // Il2CppName: GetParentId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetParentId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetParentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetParentFullName
-  // Il2CppName: GetParentFullName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetParentFullName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetParentFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestExtensions::GetParentUniqueName
-  // Il2CppName: GetParentUniqueName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetParentUniqueName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetParentUniqueName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestExtensions");
+// Writing MetadataGetter for method: TestExtensions::GetTestCategories
+// Il2CppName: GetTestCategories
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetTestCategories)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetTestCategories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetAllCategoriesFromTest
+// Il2CppName: GetAllCategoriesFromTest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetAllCategoriesFromTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetAllCategoriesFromTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::ParseForNameDuplicates
+// Il2CppName: ParseForNameDuplicates
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::ParseForNameDuplicates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "ParseForNameDuplicates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetChildIndex
+// Il2CppName: GetChildIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetChildIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetChildIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::HasChildIndex
+// Il2CppName: HasChildIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::HasChildIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "HasChildIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetAncestorPath
+// Il2CppName: GetAncestorPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetAncestorPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetAncestorPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetUniqueName
+// Il2CppName: GetUniqueName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetUniqueName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetUniqueName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetFullName
+// Il2CppName: GetFullName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetFullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetSkipReason
+// Il2CppName: GetSkipReason
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetSkipReason)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetParentId
+// Il2CppName: GetParentId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetParentId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetParentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetParentFullName
+// Il2CppName: GetParentFullName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetParentFullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetParentFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: TestExtensions::GetParentUniqueName
+// Il2CppName: GetParentUniqueName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Interfaces::ITest*)>(&TestExtensions::GetParentUniqueName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestExtensions*), "GetParentUniqueName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};

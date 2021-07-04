@@ -64,35 +64,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BasicLevelParamsPanel), 32 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_BasicLevelParamsPanelSizeCheck;
   static_assert(sizeof(BasicLevelParamsPanel) == 0x28);
-  // Writing MetadataGetter for method: BasicLevelParamsPanel::set_duration
-  // Il2CppName: set_duration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)(float)>(&BasicLevelParamsPanel::set_duration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicLevelParamsPanel::set_bpm
-  // Il2CppName: set_bpm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)(float)>(&BasicLevelParamsPanel::set_bpm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), "set_bpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BasicLevelParamsPanel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)()>(&BasicLevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)()>(&BasicLevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicLevelParamsPanel*, "", "BasicLevelParamsPanel");
+// Writing MetadataGetter for method: BasicLevelParamsPanel::set_duration
+// Il2CppName: set_duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)(float)>(&BasicLevelParamsPanel::set_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BasicLevelParamsPanel::set_bpm
+// Il2CppName: set_bpm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)(float)>(&BasicLevelParamsPanel::set_bpm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), "set_bpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BasicLevelParamsPanel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)()>(&BasicLevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicLevelParamsPanel::*)()>(&BasicLevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BasicLevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

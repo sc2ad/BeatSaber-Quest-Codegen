@@ -171,84 +171,84 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ZenjectBinding), 56 + sizeof(Zenject::ZenjectBinding::BindTypes)> __Zenject_ZenjectBindingSizeCheck;
   static_assert(sizeof(ZenjectBinding) == 0x3C);
-  // Writing MetadataGetter for method: ZenjectBinding::get_UseSceneContext
-  // Il2CppName: get_UseSceneContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectBinding::*)()>(&ZenjectBinding::get_UseSceneContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_UseSceneContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::get_IfNotBound
-  // Il2CppName: get_IfNotBound
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectBinding::*)()>(&ZenjectBinding::get_IfNotBound)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_IfNotBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::get_Context
-  // Il2CppName: get_Context
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Context* (ZenjectBinding::*)()>(&ZenjectBinding::get_Context)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::set_Context
-  // Il2CppName: set_Context
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)(Zenject::Context*)>(&ZenjectBinding::set_Context)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Context*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::get_Components
-  // Il2CppName: get_Components
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (ZenjectBinding::*)()>(&ZenjectBinding::get_Components)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Components", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::get_Identifier
-  // Il2CppName: get_Identifier
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ZenjectBinding::*)()>(&ZenjectBinding::get_Identifier)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::get_BindType
-  // Il2CppName: get_BindType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectBinding::BindTypes (ZenjectBinding::*)()>(&ZenjectBinding::get_BindType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_BindType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectBinding::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding::BindTypes, "Zenject", "ZenjectBinding/BindTypes");
+// Writing MetadataGetter for method: ZenjectBinding::get_UseSceneContext
+// Il2CppName: get_UseSceneContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectBinding::*)()>(&ZenjectBinding::get_UseSceneContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_UseSceneContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::get_IfNotBound
+// Il2CppName: get_IfNotBound
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectBinding::*)()>(&ZenjectBinding::get_IfNotBound)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_IfNotBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::get_Context
+// Il2CppName: get_Context
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Context* (ZenjectBinding::*)()>(&ZenjectBinding::get_Context)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::set_Context
+// Il2CppName: set_Context
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)(Zenject::Context*)>(&ZenjectBinding::set_Context)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Context*>()});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::get_Components
+// Il2CppName: get_Components
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (ZenjectBinding::*)()>(&ZenjectBinding::get_Components)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Components", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::get_Identifier
+// Il2CppName: get_Identifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ZenjectBinding::*)()>(&ZenjectBinding::get_Identifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::get_BindType
+// Il2CppName: get_BindType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectBinding::BindTypes (ZenjectBinding::*)()>(&ZenjectBinding::get_BindType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_BindType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectBinding::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

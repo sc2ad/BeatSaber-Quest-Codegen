@@ -44,35 +44,35 @@ namespace System::Collections::Concurrent {
     static void _cctor();
   }; // System.Collections.Concurrent.CDSCollectionETWBCLProvider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks
-  // Il2CppName: ConcurrentDictionary_AcquiringAllLocks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CDSCollectionETWBCLProvider::*)(int)>(&CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), "ConcurrentDictionary_AcquiringAllLocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: CDSCollectionETWBCLProvider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CDSCollectionETWBCLProvider::*)()>(&CDSCollectionETWBCLProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CDSCollectionETWBCLProvider::*)()>(&CDSCollectionETWBCLProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CDSCollectionETWBCLProvider::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CDSCollectionETWBCLProvider::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
+// Writing MetadataGetter for method: CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks
+// Il2CppName: ConcurrentDictionary_AcquiringAllLocks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CDSCollectionETWBCLProvider::*)(int)>(&CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), "ConcurrentDictionary_AcquiringAllLocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CDSCollectionETWBCLProvider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CDSCollectionETWBCLProvider::*)()>(&CDSCollectionETWBCLProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CDSCollectionETWBCLProvider::*)()>(&CDSCollectionETWBCLProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CDSCollectionETWBCLProvider::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CDSCollectionETWBCLProvider::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CDSCollectionETWBCLProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

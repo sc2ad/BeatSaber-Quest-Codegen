@@ -70,51 +70,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData), 24 + sizeof(GlobalNamespace::MockPlayersModel*)> __GlobalNamespace_AppInitScenesTransitionSetupDataSO_AppInitSceneSetupDataSizeCheck;
   static_assert(sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData) == 0x20);
-  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType
-  // Il2CppName: get_appInitOverrideStartType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)()>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "get_appInitOverrideStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_appInitOverrideStartType
-  // Il2CppName: set_appInitOverrideStartType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_appInitOverrideStartType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "set_appInitOverrideStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>()});
-    }
-  };
-  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_overrideMockPlayersModel
-  // Il2CppName: get_overrideMockPlayersModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayersModel* (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)()>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_overrideMockPlayersModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "get_overrideMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_overrideMockPlayersModel
-  // Il2CppName: set_overrideMockPlayersModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::MockPlayersModel*)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_overrideMockPlayersModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "set_overrideMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, "", "AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData");
+// Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType
+// Il2CppName: get_appInitOverrideStartType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)()>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "get_appInitOverrideStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_appInitOverrideStartType
+// Il2CppName: set_appInitOverrideStartType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_appInitOverrideStartType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "set_appInitOverrideStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>()});
+  }
+};
+// Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_overrideMockPlayersModel
+// Il2CppName: get_overrideMockPlayersModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayersModel* (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)()>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_overrideMockPlayersModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "get_overrideMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_overrideMockPlayersModel
+// Il2CppName: set_overrideMockPlayersModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::MockPlayersModel*)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_overrideMockPlayersModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "set_overrideMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
+  }
+};
+// Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
+  }
+};

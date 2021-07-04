@@ -58,35 +58,35 @@ namespace System::Threading::Tasks {
     bool get_ShouldNotifyDebuggerOfWaitCompletion();
   }; // System.Threading.Tasks.Task/WhenAllPromise
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: Task::WhenAllPromise::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::WhenAllPromise::*)(::Array<System::Threading::Tasks::Task*>*)>(&Task::WhenAllPromise::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::Tasks::Task*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::WhenAllPromise::*)(::Array<System::Threading::Tasks::Task*>*)>(&Task::WhenAllPromise::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::Tasks::Task*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Task::WhenAllPromise::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::WhenAllPromise::*)(System::Threading::Tasks::Task*)>(&Task::WhenAllPromise::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Task::WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion
-  // Il2CppName: get_ShouldNotifyDebuggerOfWaitCompletion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Task::WhenAllPromise::*)()>(&Task::WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), "get_ShouldNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::WhenAllPromise*, "System.Threading.Tasks", "Task/WhenAllPromise");
+// Writing MetadataGetter for method: Task::WhenAllPromise::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::WhenAllPromise::*)(::Array<System::Threading::Tasks::Task*>*)>(&Task::WhenAllPromise::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::Tasks::Task*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::WhenAllPromise::*)(::Array<System::Threading::Tasks::Task*>*)>(&Task::WhenAllPromise::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::Tasks::Task*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Task::WhenAllPromise::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::WhenAllPromise::*)(System::Threading::Tasks::Task*)>(&Task::WhenAllPromise::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+  }
+};
+// Writing MetadataGetter for method: Task::WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion
+// Il2CppName: get_ShouldNotifyDebuggerOfWaitCompletion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Task::WhenAllPromise::*)()>(&Task::WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Task::WhenAllPromise*), "get_ShouldNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

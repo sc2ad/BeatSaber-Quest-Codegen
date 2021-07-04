@@ -94,70 +94,70 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ScenesTransitionSetupDataSO), 32 + sizeof(::Array<GlobalNamespace::SceneSetupData*>*)> __GlobalNamespace_ScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(ScenesTransitionSetupDataSO) == 0x28);
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::get_scenes
-  // Il2CppName: get_scenes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SceneInfo*>* (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::get_scenes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "get_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::set_scenes
-  // Il2CppName: set_scenes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*)>(&ScenesTransitionSetupDataSO::set_scenes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "set_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneInfo*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::get_sceneSetupDataArray
-  // Il2CppName: get_sceneSetupDataArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SceneSetupData*>* (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::get_sceneSetupDataArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "get_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::set_sceneSetupDataArray
-  // Il2CppName: set_sceneSetupDataArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneSetupData*>*)>(&ScenesTransitionSetupDataSO::set_sceneSetupDataArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "set_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneSetupData*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*, ::Array<GlobalNamespace::SceneSetupData*>*)>(&ScenesTransitionSetupDataSO::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneSetupData*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(Zenject::DiContainer*)>(&ScenesTransitionSetupDataSO::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::Get
-  // Il2CppName: Get
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ScenesTransitionSetupDataSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScenesTransitionSetupDataSO*, "", "ScenesTransitionSetupDataSO");
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::get_scenes
+// Il2CppName: get_scenes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SceneInfo*>* (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::get_scenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "get_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::set_scenes
+// Il2CppName: set_scenes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*)>(&ScenesTransitionSetupDataSO::set_scenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "set_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneInfo*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::get_sceneSetupDataArray
+// Il2CppName: get_sceneSetupDataArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SceneSetupData*>* (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::get_sceneSetupDataArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "get_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::set_sceneSetupDataArray
+// Il2CppName: set_sceneSetupDataArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneSetupData*>*)>(&ScenesTransitionSetupDataSO::set_sceneSetupDataArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "set_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneSetupData*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*, ::Array<GlobalNamespace::SceneSetupData*>*)>(&ScenesTransitionSetupDataSO::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneSetupData*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)(Zenject::DiContainer*)>(&ScenesTransitionSetupDataSO::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::Get
+// Il2CppName: Get
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ScenesTransitionSetupDataSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScenesTransitionSetupDataSO::*)()>(&ScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

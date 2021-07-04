@@ -297,155 +297,155 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LightBakingPersistentSettingsSO), 160 + sizeof(UnityEngine::Material*)> __GlobalNamespace_LightBakingPersistentSettingsSOSizeCheck;
   static_assert(sizeof(LightBakingPersistentSettingsSO) == 0xA8);
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_reflectionsCount
-  // Il2CppName: get_reflectionsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_reflectionsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::set_reflectionsCount
-  // Il2CppName: set_reflectionsCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(int)>(&LightBakingPersistentSettingsSO::set_reflectionsCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "set_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha
-  // Il2CppName: get_colorFromSchemeAlpha
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha
-  // Il2CppName: set_colorFromSchemeAlpha
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(float)>(&LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "set_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_bakedLightEditorColors
-  // Il2CppName: get_bakedLightEditorColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_bakedLightEditorColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror
-  // Il2CppName: get_defaultDepthOnlyWriteMaterialForFakeMirror
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn
-  // Il2CppName: get_mainEffectForBakingIsOn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn
-  // Il2CppName: set_mainEffectForBakingIsOn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(bool)>(&LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "set_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab
-  // Il2CppName: get_bakedLightDataLoaderPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedLightDataLoader* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_bakedLightDataLoaderPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab
-  // Il2CppName: get_bakedReflectionProbePrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedReflectionProbe* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_bakedReflectionProbePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_lightmapLightWithIds
-  // Il2CppName: get_lightmapLightWithIds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapLightWithIds* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_lightmapLightWithIds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_lightmapLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab
-  // Il2CppName: get_fakeMirrorObjectsInstallerPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorObjectsInstaller* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_fakeMirrorObjectsInstallerPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab
-  // Il2CppName: get_fakeMirrorSettingsPrefab
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorSettings* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_fakeMirrorSettingsPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking
-  // Il2CppName: SetGraphicsSettingsForBaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "SetGraphicsSettingsForBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::SetPlatformGraphics
-  // Il2CppName: SetPlatformGraphics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::SetPlatformGraphics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "SetPlatformGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::SetToneMappingOn
-  // Il2CppName: SetToneMappingOn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(bool)>(&LightBakingPersistentSettingsSO::SetToneMappingOn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "SetToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::IsToneMappingOn
-  // Il2CppName: IsToneMappingOn
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::IsToneMappingOn)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "IsToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LightBakingPersistentSettingsSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightBakingPersistentSettingsSO*, "", "LightBakingPersistentSettingsSO");
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_reflectionsCount
+// Il2CppName: get_reflectionsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_reflectionsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::set_reflectionsCount
+// Il2CppName: set_reflectionsCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(int)>(&LightBakingPersistentSettingsSO::set_reflectionsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "set_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha
+// Il2CppName: get_colorFromSchemeAlpha
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha
+// Il2CppName: set_colorFromSchemeAlpha
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(float)>(&LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "set_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_bakedLightEditorColors
+// Il2CppName: get_bakedLightEditorColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_bakedLightEditorColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror
+// Il2CppName: get_defaultDepthOnlyWriteMaterialForFakeMirror
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn
+// Il2CppName: get_mainEffectForBakingIsOn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn
+// Il2CppName: set_mainEffectForBakingIsOn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(bool)>(&LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "set_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab
+// Il2CppName: get_bakedLightDataLoaderPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedLightDataLoader* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_bakedLightDataLoaderPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab
+// Il2CppName: get_bakedReflectionProbePrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedReflectionProbe* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_bakedReflectionProbePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_lightmapLightWithIds
+// Il2CppName: get_lightmapLightWithIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapLightWithIds* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_lightmapLightWithIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_lightmapLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab
+// Il2CppName: get_fakeMirrorObjectsInstallerPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorObjectsInstaller* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_fakeMirrorObjectsInstallerPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab
+// Il2CppName: get_fakeMirrorSettingsPrefab
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorSettings* (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "get_fakeMirrorSettingsPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking
+// Il2CppName: SetGraphicsSettingsForBaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "SetGraphicsSettingsForBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::SetPlatformGraphics
+// Il2CppName: SetPlatformGraphics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::SetPlatformGraphics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "SetPlatformGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::SetToneMappingOn
+// Il2CppName: SetToneMappingOn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)(bool)>(&LightBakingPersistentSettingsSO::SetToneMappingOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "SetToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::IsToneMappingOn
+// Il2CppName: IsToneMappingOn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::IsToneMappingOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), "IsToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LightBakingPersistentSettingsSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightBakingPersistentSettingsSO::*)()>(&LightBakingPersistentSettingsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LightBakingPersistentSettingsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

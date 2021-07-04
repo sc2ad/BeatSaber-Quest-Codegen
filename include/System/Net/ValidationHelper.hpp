@@ -40,38 +40,38 @@ namespace System::Net {
     static void _cctor();
   }; // System.Net.ValidationHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ValidationHelper::MakeStringNull
-  // Il2CppName: MakeStringNull
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&ValidationHelper::MakeStringNull)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), "MakeStringNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValidationHelper::IsBlankString
-  // Il2CppName: IsBlankString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&ValidationHelper::IsBlankString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), "IsBlankString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValidationHelper::ValidateTcpPort
-  // Il2CppName: ValidateTcpPort
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&ValidationHelper::ValidateTcpPort)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), "ValidateTcpPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ValidationHelper::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ValidationHelper::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ValidationHelper*, "System.Net", "ValidationHelper");
+// Writing MetadataGetter for method: ValidationHelper::MakeStringNull
+// Il2CppName: MakeStringNull
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&ValidationHelper::MakeStringNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), "MakeStringNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ValidationHelper::IsBlankString
+// Il2CppName: IsBlankString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&ValidationHelper::IsBlankString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), "IsBlankString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ValidationHelper::ValidateTcpPort
+// Il2CppName: ValidateTcpPort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&ValidationHelper::ValidateTcpPort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), "ValidateTcpPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ValidationHelper::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ValidationHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ValidationHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

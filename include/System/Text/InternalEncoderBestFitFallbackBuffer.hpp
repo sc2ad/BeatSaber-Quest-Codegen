@@ -104,83 +104,83 @@ namespace System::Text {
   #pragma pack(pop)
   static check_size<sizeof(InternalEncoderBestFitFallbackBuffer), 68 + sizeof(int)> __System_Text_InternalEncoderBestFitFallbackBufferSizeCheck;
   static_assert(sizeof(InternalEncoderBestFitFallbackBuffer) == 0x48);
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::get_InternalSyncObject
-  // Il2CppName: get_InternalSyncObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&InternalEncoderBestFitFallbackBuffer::get_InternalSyncObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "get_InternalSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallbackBuffer::*)(System::Text::InternalEncoderBestFitFallback*)>(&InternalEncoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalEncoderBestFitFallback*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallbackBuffer::*)(System::Text::InternalEncoderBestFitFallback*)>(&InternalEncoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalEncoderBestFitFallback*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::TryBestFit
-  // Il2CppName: TryBestFit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalEncoderBestFitFallbackBuffer::*)(::Il2CppChar)>(&InternalEncoderBestFitFallbackBuffer::TryBestFit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "TryBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::Fallback
-  // Il2CppName: Fallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalEncoderBestFitFallbackBuffer::*)(::Il2CppChar, int)>(&InternalEncoderBestFitFallbackBuffer::Fallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::Fallback
-  // Il2CppName: Fallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalEncoderBestFitFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar, int)>(&InternalEncoderBestFitFallbackBuffer::Fallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::GetNextChar
-  // Il2CppName: GetNextChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::GetNextChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::MovePrevious
-  // Il2CppName: MovePrevious
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::MovePrevious)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::get_Remaining
-  // Il2CppName: get_Remaining
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::get_Remaining)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::Reset
-  // Il2CppName: Reset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::Reset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallbackBuffer*, "System.Text", "InternalEncoderBestFitFallbackBuffer");
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::get_InternalSyncObject
+// Il2CppName: get_InternalSyncObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&InternalEncoderBestFitFallbackBuffer::get_InternalSyncObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "get_InternalSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallbackBuffer::*)(System::Text::InternalEncoderBestFitFallback*)>(&InternalEncoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalEncoderBestFitFallback*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallbackBuffer::*)(System::Text::InternalEncoderBestFitFallback*)>(&InternalEncoderBestFitFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::InternalEncoderBestFitFallback*>()});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::TryBestFit
+// Il2CppName: TryBestFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalEncoderBestFitFallbackBuffer::*)(::Il2CppChar)>(&InternalEncoderBestFitFallbackBuffer::TryBestFit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "TryBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::Fallback
+// Il2CppName: Fallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalEncoderBestFitFallbackBuffer::*)(::Il2CppChar, int)>(&InternalEncoderBestFitFallbackBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::Fallback
+// Il2CppName: Fallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalEncoderBestFitFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar, int)>(&InternalEncoderBestFitFallbackBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::GetNextChar
+// Il2CppName: GetNextChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::GetNextChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::MovePrevious
+// Il2CppName: MovePrevious
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::MovePrevious)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::get_Remaining
+// Il2CppName: get_Remaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::get_Remaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InternalEncoderBestFitFallbackBuffer::Reset
+// Il2CppName: Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallbackBuffer::*)()>(&InternalEncoderBestFitFallbackBuffer::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

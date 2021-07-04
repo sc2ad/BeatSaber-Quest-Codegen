@@ -179,115 +179,115 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(MessageHandler::ConnectionState), 76 + sizeof(uint)> __MasterServer_MessageHandler_ConnectionStateSizeCheck;
   static_assert(sizeof(MessageHandler::ConnectionState) == 0x50);
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::get_isEncrypted
-  // Il2CppName: get_isEncrypted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::get_isEncrypted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "get_isEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::GetNextRequestId
-  // Il2CppName: GetNextRequestId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::GetNextRequestId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "GetNextRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::BeginSession
-  // Il2CppName: BeginSession
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::BeginSession)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::IsValidSessionStartRequestId
-  // Il2CppName: IsValidSessionStartRequestId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::IsValidSessionStartRequestId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "IsValidSessionStartRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::BeginSession
-  // Il2CppName: BeginSession
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::BeginSession)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::SetEpoch
-  // Il2CppName: SetEpoch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::SetEpoch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "SetEpoch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::CanAcceptRequest
-  // Il2CppName: CanAcceptRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::CanAcceptRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "CanAcceptRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::SetEncryptionState
-  // Il2CppName: SetEncryptionState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&MessageHandler::ConnectionState::SetEncryptionState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "SetEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::SetIdentity
-  // Il2CppName: SetIdentity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MessageHandler::ConnectionState::SetIdentity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "SetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::VerifyIdentity
-  // Il2CppName: VerifyIdentity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MessageHandler::ConnectionState::VerifyIdentity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "VerifyIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::LogD
-  // Il2CppName: LogD
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&MessageHandler::ConnectionState::LogD)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "LogD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MessageHandler::ConnectionState::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::get_isEncrypted
+// Il2CppName: get_isEncrypted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::get_isEncrypted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "get_isEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::GetNextRequestId
+// Il2CppName: GetNextRequestId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::GetNextRequestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "GetNextRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::BeginSession
+// Il2CppName: BeginSession
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::BeginSession)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::IsValidSessionStartRequestId
+// Il2CppName: IsValidSessionStartRequestId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::IsValidSessionStartRequestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "IsValidSessionStartRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::BeginSession
+// Il2CppName: BeginSession
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::BeginSession)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::SetEpoch
+// Il2CppName: SetEpoch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::SetEpoch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "SetEpoch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::CanAcceptRequest
+// Il2CppName: CanAcceptRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)(uint)>(&MessageHandler::ConnectionState::CanAcceptRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "CanAcceptRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::SetEncryptionState
+// Il2CppName: SetEncryptionState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&MessageHandler::ConnectionState::SetEncryptionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "SetEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::SetIdentity
+// Il2CppName: SetIdentity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MessageHandler::ConnectionState::SetIdentity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "SetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::VerifyIdentity
+// Il2CppName: VerifyIdentity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MessageHandler::ConnectionState::VerifyIdentity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "VerifyIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::LogD
+// Il2CppName: LogD
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&MessageHandler::ConnectionState::LogD)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), "LogD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MessageHandler::ConnectionState::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::ConnectionState::*)()>(&MessageHandler::ConnectionState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MessageHandler::ConnectionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

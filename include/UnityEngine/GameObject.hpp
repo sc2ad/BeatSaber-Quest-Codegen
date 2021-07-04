@@ -399,548 +399,548 @@ namespace UnityEngine {
     }
   }; // UnityEngine.GameObject
   #pragma pack(pop)
-  // Writing MetadataGetter for method: GameObject::CreatePrimitive
-  // Il2CppName: CreatePrimitive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::PrimitiveType)>(&GameObject::CreatePrimitive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "CreatePrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PrimitiveType>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponent
-  // Il2CppName: GetComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponent
-  // Il2CppName: GetComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::GetComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentFastPath
-  // Il2CppName: GetComponentFastPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(System::Type*, System::IntPtr)>(&GameObject::GetComponentFastPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentFastPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentByName
-  // Il2CppName: GetComponentByName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(::Il2CppString*)>(&GameObject::GetComponentByName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponent
-  // Il2CppName: GetComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(::Il2CppString*)>(&GameObject::GetComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentInChildren
-  // Il2CppName: GetComponentInChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*, bool)>(&GameObject::GetComponentInChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentInChildren
-  // Il2CppName: GetComponentInChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::GetComponentInChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentInChildren
-  // Il2CppName: GetComponentInChildren
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentInChildren
-  // Il2CppName: GetComponentInChildren
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentInParent
-  // Il2CppName: GetComponentInParent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::GetComponentInParent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentInParent
-  // Il2CppName: GetComponentInParent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInternal
-  // Il2CppName: GetComponentsInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (GameObject::*)(System::Type*, bool, bool, bool, bool, ::Il2CppObject*)>(&GameObject::GetComponentsInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponents
-  // Il2CppName: GetComponents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*)>(&GameObject::GetComponents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponents
-  // Il2CppName: GetComponents
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponents
-  // Il2CppName: GetComponents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(System::Type*, System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&GameObject::GetComponents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponents
-  // Il2CppName: GetComponents
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInChildren
-  // Il2CppName: GetComponentsInChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*)>(&GameObject::GetComponentsInChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentsInChildren
-  // Il2CppName: GetComponentsInChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*, bool)>(&GameObject::GetComponentsInChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentsInChildren
-  // Il2CppName: GetComponentsInChildren
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInChildren
-  // Il2CppName: GetComponentsInChildren
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInChildren
-  // Il2CppName: GetComponentsInChildren
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInChildren
-  // Il2CppName: GetComponentsInChildren
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInParent
-  // Il2CppName: GetComponentsInParent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*)>(&GameObject::GetComponentsInParent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentsInParent
-  // Il2CppName: GetComponentsInParent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*, bool)>(&GameObject::GetComponentsInParent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::GetComponentsInParent
-  // Il2CppName: GetComponentsInParent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInParent
-  // Il2CppName: GetComponentsInParent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::GetComponentsInParent
-  // Il2CppName: GetComponentsInParent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::TryGetComponent
-  // Il2CppName: TryGetComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::TryGetComponent
-  // Il2CppName: TryGetComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)(System::Type*, UnityEngine::Component*&)>(&GameObject::TryGetComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "TryGetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::TryGetComponentInternal
-  // Il2CppName: TryGetComponentInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::TryGetComponentInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "TryGetComponentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::TryGetComponentFastPath
-  // Il2CppName: TryGetComponentFastPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(System::Type*, System::IntPtr)>(&GameObject::TryGetComponentFastPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "TryGetComponentFastPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::FindWithTag
-  // Il2CppName: FindWithTag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&GameObject::FindWithTag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "FindWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessageUpwards
-  // Il2CppName: SendMessageUpwards
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessageUpwards)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessage
-  // Il2CppName: SendMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::BroadcastMessage
-  // Il2CppName: BroadcastMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&GameObject::BroadcastMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::AddComponentInternal
-  // Il2CppName: AddComponentInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(::Il2CppString*)>(&GameObject::AddComponentInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "AddComponentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::Internal_AddComponentWithType
-  // Il2CppName: Internal_AddComponentWithType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::Internal_AddComponentWithType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "Internal_AddComponentWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::AddComponent
-  // Il2CppName: AddComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::AddComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "AddComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::AddComponent
-  // Il2CppName: AddComponent
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: GameObject::get_transform
-  // Il2CppName: get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GameObject::*)()>(&GameObject::get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_layer
-  // Il2CppName: get_layer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameObject::*)()>(&GameObject::get_layer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_layer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::set_layer
-  // Il2CppName: set_layer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(int)>(&GameObject::set_layer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_layer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_active
-  // Il2CppName: get_active
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_active)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::set_active
-  // Il2CppName: set_active
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::set_active)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SetActive
-  // Il2CppName: SetActive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::SetActive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SetActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_activeSelf
-  // Il2CppName: get_activeSelf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_activeSelf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_activeSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_activeInHierarchy
-  // Il2CppName: get_activeInHierarchy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_activeInHierarchy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_activeInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SetActiveRecursively
-  // Il2CppName: SetActiveRecursively
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::SetActiveRecursively)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SetActiveRecursively", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_isStatic
-  // Il2CppName: get_isStatic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_isStatic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_isStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::set_isStatic
-  // Il2CppName: set_isStatic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::set_isStatic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_isStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_isStaticBatchable
-  // Il2CppName: get_isStaticBatchable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_isStaticBatchable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_isStaticBatchable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_tag
-  // Il2CppName: get_tag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GameObject::*)()>(&GameObject::get_tag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::set_tag
-  // Il2CppName: set_tag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::set_tag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::CompareTag
-  // Il2CppName: CompareTag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)(::Il2CppString*)>(&GameObject::CompareTag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "CompareTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::FindGameObjectWithTag
-  // Il2CppName: FindGameObjectWithTag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&GameObject::FindGameObjectWithTag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "FindGameObjectWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::FindGameObjectsWithTag
-  // Il2CppName: FindGameObjectsWithTag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (*)(::Il2CppString*)>(&GameObject::FindGameObjectsWithTag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "FindGameObjectsWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessageUpwards
-  // Il2CppName: SendMessageUpwards
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessageUpwards)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessageUpwards
-  // Il2CppName: SendMessageUpwards
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&GameObject::SendMessageUpwards)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessageUpwards
-  // Il2CppName: SendMessageUpwards
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::SendMessageUpwards)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessage
-  // Il2CppName: SendMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessage
-  // Il2CppName: SendMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&GameObject::SendMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::SendMessage
-  // Il2CppName: SendMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::SendMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::BroadcastMessage
-  // Il2CppName: BroadcastMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&GameObject::BroadcastMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::BroadcastMessage
-  // Il2CppName: BroadcastMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&GameObject::BroadcastMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::BroadcastMessage
-  // Il2CppName: BroadcastMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::BroadcastMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Array<System::Type*>*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Array<System::Type*>*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::Internal_CreateGameObject
-  // Il2CppName: Internal_CreateGameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, ::Il2CppString*)>(&GameObject::Internal_CreateGameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "Internal_CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::Find
-  // Il2CppName: Find
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&GameObject::Find)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_scene
-  // Il2CppName: get_scene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (GameObject::*)()>(&GameObject::get_scene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_scene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_sceneCullingMask
-  // Il2CppName: get_sceneCullingMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GameObject::*)()>(&GameObject::get_sceneCullingMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_sceneCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_gameObject
-  // Il2CppName: get_gameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GameObject::*)()>(&GameObject::get_gameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::get_scene_Injected
-  // Il2CppName: get_scene_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(UnityEngine::SceneManagement::Scene&)>(&GameObject::get_scene_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_scene_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene&>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObject::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)()>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)()>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GameObject*, "UnityEngine", "GameObject");
+// Writing MetadataGetter for method: GameObject::CreatePrimitive
+// Il2CppName: CreatePrimitive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::PrimitiveType)>(&GameObject::CreatePrimitive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "CreatePrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PrimitiveType>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponent
+// Il2CppName: GetComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponent
+// Il2CppName: GetComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::GetComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentFastPath
+// Il2CppName: GetComponentFastPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(System::Type*, System::IntPtr)>(&GameObject::GetComponentFastPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentFastPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentByName
+// Il2CppName: GetComponentByName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(::Il2CppString*)>(&GameObject::GetComponentByName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponent
+// Il2CppName: GetComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(::Il2CppString*)>(&GameObject::GetComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentInChildren
+// Il2CppName: GetComponentInChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*, bool)>(&GameObject::GetComponentInChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentInChildren
+// Il2CppName: GetComponentInChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::GetComponentInChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentInChildren
+// Il2CppName: GetComponentInChildren
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentInChildren
+// Il2CppName: GetComponentInChildren
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentInParent
+// Il2CppName: GetComponentInParent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::GetComponentInParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentInParent
+// Il2CppName: GetComponentInParent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInternal
+// Il2CppName: GetComponentsInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (GameObject::*)(System::Type*, bool, bool, bool, bool, ::Il2CppObject*)>(&GameObject::GetComponentsInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponents
+// Il2CppName: GetComponents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*)>(&GameObject::GetComponents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponents
+// Il2CppName: GetComponents
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponents
+// Il2CppName: GetComponents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(System::Type*, System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&GameObject::GetComponents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponents
+// Il2CppName: GetComponents
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInChildren
+// Il2CppName: GetComponentsInChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*)>(&GameObject::GetComponentsInChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentsInChildren
+// Il2CppName: GetComponentsInChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*, bool)>(&GameObject::GetComponentsInChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentsInChildren
+// Il2CppName: GetComponentsInChildren
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInChildren
+// Il2CppName: GetComponentsInChildren
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInChildren
+// Il2CppName: GetComponentsInChildren
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInChildren
+// Il2CppName: GetComponentsInChildren
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInParent
+// Il2CppName: GetComponentsInParent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*)>(&GameObject::GetComponentsInParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentsInParent
+// Il2CppName: GetComponentsInParent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (GameObject::*)(System::Type*, bool)>(&GameObject::GetComponentsInParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "GetComponentsInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::GetComponentsInParent
+// Il2CppName: GetComponentsInParent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInParent
+// Il2CppName: GetComponentsInParent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::GetComponentsInParent
+// Il2CppName: GetComponentsInParent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::TryGetComponent
+// Il2CppName: TryGetComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::TryGetComponent
+// Il2CppName: TryGetComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)(System::Type*, UnityEngine::Component*&)>(&GameObject::TryGetComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "TryGetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*&>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::TryGetComponentInternal
+// Il2CppName: TryGetComponentInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::TryGetComponentInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "TryGetComponentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::TryGetComponentFastPath
+// Il2CppName: TryGetComponentFastPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(System::Type*, System::IntPtr)>(&GameObject::TryGetComponentFastPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "TryGetComponentFastPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::FindWithTag
+// Il2CppName: FindWithTag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&GameObject::FindWithTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "FindWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessageUpwards
+// Il2CppName: SendMessageUpwards
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessageUpwards)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessage
+// Il2CppName: SendMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::BroadcastMessage
+// Il2CppName: BroadcastMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&GameObject::BroadcastMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::AddComponentInternal
+// Il2CppName: AddComponentInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(::Il2CppString*)>(&GameObject::AddComponentInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "AddComponentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::Internal_AddComponentWithType
+// Il2CppName: Internal_AddComponentWithType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::Internal_AddComponentWithType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "Internal_AddComponentWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::AddComponent
+// Il2CppName: AddComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (GameObject::*)(System::Type*)>(&GameObject::AddComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "AddComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::AddComponent
+// Il2CppName: AddComponent
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GameObject::get_transform
+// Il2CppName: get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GameObject::*)()>(&GameObject::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_layer
+// Il2CppName: get_layer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameObject::*)()>(&GameObject::get_layer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_layer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::set_layer
+// Il2CppName: set_layer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(int)>(&GameObject::set_layer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_layer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_active
+// Il2CppName: get_active
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::set_active
+// Il2CppName: set_active
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::set_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SetActive
+// Il2CppName: SetActive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::SetActive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SetActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_activeSelf
+// Il2CppName: get_activeSelf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_activeSelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_activeSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_activeInHierarchy
+// Il2CppName: get_activeInHierarchy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_activeInHierarchy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_activeInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SetActiveRecursively
+// Il2CppName: SetActiveRecursively
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::SetActiveRecursively)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SetActiveRecursively", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_isStatic
+// Il2CppName: get_isStatic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_isStatic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_isStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::set_isStatic
+// Il2CppName: set_isStatic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(bool)>(&GameObject::set_isStatic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_isStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_isStaticBatchable
+// Il2CppName: get_isStaticBatchable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)()>(&GameObject::get_isStaticBatchable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_isStaticBatchable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_tag
+// Il2CppName: get_tag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GameObject::*)()>(&GameObject::get_tag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::set_tag
+// Il2CppName: set_tag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::set_tag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "set_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::CompareTag
+// Il2CppName: CompareTag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObject::*)(::Il2CppString*)>(&GameObject::CompareTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "CompareTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::FindGameObjectWithTag
+// Il2CppName: FindGameObjectWithTag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&GameObject::FindGameObjectWithTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "FindGameObjectWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::FindGameObjectsWithTag
+// Il2CppName: FindGameObjectsWithTag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (*)(::Il2CppString*)>(&GameObject::FindGameObjectsWithTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "FindGameObjectsWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessageUpwards
+// Il2CppName: SendMessageUpwards
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessageUpwards)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessageUpwards
+// Il2CppName: SendMessageUpwards
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&GameObject::SendMessageUpwards)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessageUpwards
+// Il2CppName: SendMessageUpwards
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::SendMessageUpwards)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessage
+// Il2CppName: SendMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&GameObject::SendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessage
+// Il2CppName: SendMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&GameObject::SendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::SendMessage
+// Il2CppName: SendMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::SendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::BroadcastMessage
+// Il2CppName: BroadcastMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&GameObject::BroadcastMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SendMessageOptions>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::BroadcastMessage
+// Il2CppName: BroadcastMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&GameObject::BroadcastMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::BroadcastMessage
+// Il2CppName: BroadcastMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::BroadcastMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Array<System::Type*>*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(::Il2CppString*, ::Array<System::Type*>*)>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::Internal_CreateGameObject
+// Il2CppName: Internal_CreateGameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, ::Il2CppString*)>(&GameObject::Internal_CreateGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "Internal_CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::Find
+// Il2CppName: Find
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&GameObject::Find)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_scene
+// Il2CppName: get_scene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (GameObject::*)()>(&GameObject::get_scene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_scene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_sceneCullingMask
+// Il2CppName: get_sceneCullingMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GameObject::*)()>(&GameObject::get_sceneCullingMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_sceneCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_gameObject
+// Il2CppName: get_gameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GameObject::*)()>(&GameObject::get_gameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObject::get_scene_Injected
+// Il2CppName: get_scene_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)(UnityEngine::SceneManagement::Scene&)>(&GameObject::get_scene_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), "get_scene_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene&>()});
+  }
+};
+// Writing MetadataGetter for method: GameObject::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)()>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObject::*)()>(&GameObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

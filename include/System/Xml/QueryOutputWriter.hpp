@@ -269,251 +269,251 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(QueryOutputWriter), 96 + sizeof(int)> __System_Xml_QueryOutputWriterSizeCheck;
   static_assert(sizeof(QueryOutputWriter) == 0x64);
-  // Writing MetadataGetter for method: QueryOutputWriter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::XmlRawWriter*, System::Xml::XmlWriterSettings*)>(&QueryOutputWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::XmlRawWriter*, System::Xml::XmlWriterSettings*)>(&QueryOutputWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::StartCDataSection
-  // Il2CppName: StartCDataSection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QueryOutputWriter::*)()>(&QueryOutputWriter::StartCDataSection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "StartCDataSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::EndCDataSection
-  // Il2CppName: EndCDataSection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::EndCDataSection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "EndCDataSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::set_NamespaceResolver
-  // Il2CppName: set_NamespaceResolver
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::IXmlNamespaceResolver*)>(&QueryOutputWriter::set_NamespaceResolver)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "set_NamespaceResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::IXmlNamespaceResolver*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteXmlDeclaration
-  // Il2CppName: WriteXmlDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::XmlStandalone)>(&QueryOutputWriter::WriteXmlDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlStandalone>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteXmlDeclaration
-  // Il2CppName: WriteXmlDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteXmlDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteDocType
-  // Il2CppName: WriteDocType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteDocType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteStartElement
-  // Il2CppName: WriteStartElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteStartElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteEndElement
-  // Il2CppName: WriteEndElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteEndElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteFullEndElement
-  // Il2CppName: WriteFullEndElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteFullEndElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::StartElementContent
-  // Il2CppName: StartElementContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::StartElementContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteStartAttribute
-  // Il2CppName: WriteStartAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteStartAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteEndAttribute
-  // Il2CppName: WriteEndAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::WriteEndAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteNamespaceDeclaration
-  // Il2CppName: WriteNamespaceDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteNamespaceDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::get_SupportsNamespaceDeclarationInChunks
-  // Il2CppName: get_SupportsNamespaceDeclarationInChunks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QueryOutputWriter::*)()>(&QueryOutputWriter::get_SupportsNamespaceDeclarationInChunks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "get_SupportsNamespaceDeclarationInChunks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteStartNamespaceDeclaration
-  // Il2CppName: WriteStartNamespaceDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteStartNamespaceDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteStartNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteEndNamespaceDeclaration
-  // Il2CppName: WriteEndNamespaceDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::WriteEndNamespaceDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEndNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteCData
-  // Il2CppName: WriteCData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteCData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteComment
-  // Il2CppName: WriteComment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteComment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteProcessingInstruction
-  // Il2CppName: WriteProcessingInstruction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteProcessingInstruction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteWhitespace
-  // Il2CppName: WriteWhitespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteWhitespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteString
-  // Il2CppName: WriteString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteChars
-  // Il2CppName: WriteChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Array<::Il2CppChar>*, int, int)>(&QueryOutputWriter::WriteChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteEntityRef
-  // Il2CppName: WriteEntityRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteEntityRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteCharEntity
-  // Il2CppName: WriteCharEntity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppChar)>(&QueryOutputWriter::WriteCharEntity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteSurrogateCharEntity
-  // Il2CppName: WriteSurrogateCharEntity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppChar, ::Il2CppChar)>(&QueryOutputWriter::WriteSurrogateCharEntity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteRaw
-  // Il2CppName: WriteRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Array<::Il2CppChar>*, int, int)>(&QueryOutputWriter::WriteRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::WriteRaw
-  // Il2CppName: WriteRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QueryOutputWriter::Flush
-  // Il2CppName: Flush
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::Flush)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::QueryOutputWriter*, "System.Xml", "QueryOutputWriter");
+// Writing MetadataGetter for method: QueryOutputWriter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::XmlRawWriter*, System::Xml::XmlWriterSettings*)>(&QueryOutputWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::XmlRawWriter*, System::Xml::XmlWriterSettings*)>(&QueryOutputWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::StartCDataSection
+// Il2CppName: StartCDataSection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QueryOutputWriter::*)()>(&QueryOutputWriter::StartCDataSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "StartCDataSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::EndCDataSection
+// Il2CppName: EndCDataSection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::EndCDataSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "EndCDataSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::set_NamespaceResolver
+// Il2CppName: set_NamespaceResolver
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::IXmlNamespaceResolver*)>(&QueryOutputWriter::set_NamespaceResolver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "set_NamespaceResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::IXmlNamespaceResolver*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteXmlDeclaration
+// Il2CppName: WriteXmlDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(System::Xml::XmlStandalone)>(&QueryOutputWriter::WriteXmlDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlStandalone>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteXmlDeclaration
+// Il2CppName: WriteXmlDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteXmlDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteDocType
+// Il2CppName: WriteDocType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteDocType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteStartElement
+// Il2CppName: WriteStartElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteStartElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteEndElement
+// Il2CppName: WriteEndElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteEndElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteFullEndElement
+// Il2CppName: WriteFullEndElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteFullEndElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::StartElementContent
+// Il2CppName: StartElementContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::StartElementContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteStartAttribute
+// Il2CppName: WriteStartAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteStartAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteEndAttribute
+// Il2CppName: WriteEndAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::WriteEndAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteNamespaceDeclaration
+// Il2CppName: WriteNamespaceDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteNamespaceDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::get_SupportsNamespaceDeclarationInChunks
+// Il2CppName: get_SupportsNamespaceDeclarationInChunks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QueryOutputWriter::*)()>(&QueryOutputWriter::get_SupportsNamespaceDeclarationInChunks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "get_SupportsNamespaceDeclarationInChunks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteStartNamespaceDeclaration
+// Il2CppName: WriteStartNamespaceDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteStartNamespaceDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteStartNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteEndNamespaceDeclaration
+// Il2CppName: WriteEndNamespaceDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::WriteEndNamespaceDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEndNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteCData
+// Il2CppName: WriteCData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteCData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteComment
+// Il2CppName: WriteComment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteComment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteProcessingInstruction
+// Il2CppName: WriteProcessingInstruction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*, ::Il2CppString*)>(&QueryOutputWriter::WriteProcessingInstruction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteWhitespace
+// Il2CppName: WriteWhitespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteWhitespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteString
+// Il2CppName: WriteString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteChars
+// Il2CppName: WriteChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Array<::Il2CppChar>*, int, int)>(&QueryOutputWriter::WriteChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteEntityRef
+// Il2CppName: WriteEntityRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteEntityRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteCharEntity
+// Il2CppName: WriteCharEntity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppChar)>(&QueryOutputWriter::WriteCharEntity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteSurrogateCharEntity
+// Il2CppName: WriteSurrogateCharEntity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppChar, ::Il2CppChar)>(&QueryOutputWriter::WriteSurrogateCharEntity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteRaw
+// Il2CppName: WriteRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Array<::Il2CppChar>*, int, int)>(&QueryOutputWriter::WriteRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::WriteRaw
+// Il2CppName: WriteRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)(::Il2CppString*)>(&QueryOutputWriter::WriteRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QueryOutputWriter::Flush
+// Il2CppName: Flush
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueryOutputWriter::*)()>(&QueryOutputWriter::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QueryOutputWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

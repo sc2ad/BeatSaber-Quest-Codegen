@@ -115,76 +115,76 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
   static check_size<sizeof(InstantiationParameters), 41 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_InstantiationParametersSizeCheck;
   static_assert(sizeof(InstantiationParameters) == 0x2A);
-  // Writing MetadataGetter for method: InstantiationParameters::get_Position
-  // Il2CppName: get_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (InstantiationParameters::*)()>(&InstantiationParameters::get_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InstantiationParameters::get_Rotation
-  // Il2CppName: get_Rotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (InstantiationParameters::*)()>(&InstantiationParameters::get_Rotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InstantiationParameters::get_Parent
-  // Il2CppName: get_Parent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (InstantiationParameters::*)()>(&InstantiationParameters::get_Parent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InstantiationParameters::get_InstantiateInWorldPosition
-  // Il2CppName: get_InstantiateInWorldPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InstantiationParameters::*)()>(&InstantiationParameters::get_InstantiateInWorldPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_InstantiateInWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InstantiationParameters::get_SetPositionRotation
-  // Il2CppName: get_SetPositionRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InstantiationParameters::*)()>(&InstantiationParameters::get_SetPositionRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_SetPositionRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InstantiationParameters::InstantiationParameters
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Transform*, bool)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Transform*, bool)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InstantiationParameters::InstantiationParameters
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InstantiationParameters::Instantiate
-  // Il2CppName: Instantiate
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
+// Writing MetadataGetter for method: InstantiationParameters::get_Position
+// Il2CppName: get_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (InstantiationParameters::*)()>(&InstantiationParameters::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InstantiationParameters::get_Rotation
+// Il2CppName: get_Rotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (InstantiationParameters::*)()>(&InstantiationParameters::get_Rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InstantiationParameters::get_Parent
+// Il2CppName: get_Parent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (InstantiationParameters::*)()>(&InstantiationParameters::get_Parent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InstantiationParameters::get_InstantiateInWorldPosition
+// Il2CppName: get_InstantiateInWorldPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InstantiationParameters::*)()>(&InstantiationParameters::get_InstantiateInWorldPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_InstantiateInWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InstantiationParameters::get_SetPositionRotation
+// Il2CppName: get_SetPositionRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InstantiationParameters::*)()>(&InstantiationParameters::get_SetPositionRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), "get_SetPositionRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InstantiationParameters::InstantiationParameters
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Transform*, bool)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Transform*, bool)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InstantiationParameters::InstantiationParameters
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiationParameters::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&InstantiationParameters::InstantiationParameters<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiationParameters), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: InstantiationParameters::Instantiate
+// Il2CppName: Instantiate
+// Cannot write MetadataGetter for generic methods!

@@ -70,27 +70,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ProjectKernel::$$c__DisplayClass4_0), 24 + sizeof(System::Func_2<Zenject::SceneContext*, int>*)> __Zenject_ProjectKernel_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(ProjectKernel::$$c__DisplayClass4_0) == 0x20);
-  // Writing MetadataGetter for method: ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0
-  // Il2CppName: <ForceUnloadAllScenes>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProjectKernel::$$c__DisplayClass4_0::*)(Zenject::SceneContext*)>(&ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProjectKernel::$$c__DisplayClass4_0*), "<ForceUnloadAllScenes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProjectKernel::$$c__DisplayClass4_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::$$c__DisplayClass4_0::*)()>(&ProjectKernel::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProjectKernel::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::$$c__DisplayClass4_0::*)()>(&ProjectKernel::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProjectKernel::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel::$$c__DisplayClass4_0*, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");
+// Writing MetadataGetter for method: ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0
+// Il2CppName: <ForceUnloadAllScenes>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ProjectKernel::$$c__DisplayClass4_0::*)(Zenject::SceneContext*)>(&ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProjectKernel::$$c__DisplayClass4_0*), "<ForceUnloadAllScenes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>()});
+  }
+};
+// Writing MetadataGetter for method: ProjectKernel::$$c__DisplayClass4_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::$$c__DisplayClass4_0::*)()>(&ProjectKernel::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProjectKernel::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::$$c__DisplayClass4_0::*)()>(&ProjectKernel::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProjectKernel::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -102,57 +102,57 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::MinMaxCurve), 28 + sizeof(float)> __UnityEngine_ParticleSystem_MinMaxCurveSizeCheck;
   static_assert(sizeof(ParticleSystem::MinMaxCurve) == 0x20);
-  // Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::MinMaxCurve
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::MinMaxCurve
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float, float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float, float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::set_constantMax
-  // Il2CppName: set_constantMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::set_constantMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), "set_constantMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::set_constantMin
-  // Il2CppName: set_constantMin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::set_constantMin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), "set_constantMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::get_constant
-  // Il2CppName: get_constant
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ParticleSystem::MinMaxCurve::*)()>(&ParticleSystem::MinMaxCurve::get_constant)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), "get_constant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
+// Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::MinMaxCurve
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::MinMaxCurve
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float, float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float, float)>(&ParticleSystem::MinMaxCurve::MinMaxCurve<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::set_constantMax
+// Il2CppName: set_constantMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::set_constantMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), "set_constantMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::set_constantMin
+// Il2CppName: set_constantMin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxCurve::*)(float)>(&ParticleSystem::MinMaxCurve::set_constantMin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), "set_constantMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ParticleSystem::MinMaxCurve::get_constant
+// Il2CppName: get_constant
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ParticleSystem::MinMaxCurve::*)()>(&ParticleSystem::MinMaxCurve::get_constant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxCurve), "get_constant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

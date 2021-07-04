@@ -109,134 +109,134 @@ namespace System::Runtime::Remoting {
     static void _cctor();
   }; // System.Runtime.Remoting.SoapServices
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SoapServices::get_XmlNsForClrTypeWithAssembly
-  // Il2CppName: get_XmlNsForClrTypeWithAssembly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SoapServices::get_XmlNsForClrTypeWithAssembly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "get_XmlNsForClrTypeWithAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::get_XmlNsForClrTypeWithNs
-  // Il2CppName: get_XmlNsForClrTypeWithNs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SoapServices::get_XmlNsForClrTypeWithNs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "get_XmlNsForClrTypeWithNs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::get_XmlNsForClrTypeWithNsAndAssembly
-  // Il2CppName: get_XmlNsForClrTypeWithNsAndAssembly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SoapServices::get_XmlNsForClrTypeWithNsAndAssembly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "get_XmlNsForClrTypeWithNsAndAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::CodeXmlNamespaceForClrTypeNamespace
-  // Il2CppName: CodeXmlNamespaceForClrTypeNamespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&SoapServices::CodeXmlNamespaceForClrTypeNamespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "CodeXmlNamespaceForClrTypeNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::GetNameKey
-  // Il2CppName: GetNameKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&SoapServices::GetNameKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetNameKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::GetAssemblyName
-  // Il2CppName: GetAssemblyName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&SoapServices::GetAssemblyName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::GetXmlElementForInteropType
-  // Il2CppName: GetXmlElementForInteropType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&)>(&SoapServices::GetXmlElementForInteropType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlElementForInteropType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::GetXmlNamespaceForMethodCall
-  // Il2CppName: GetXmlNamespaceForMethodCall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&SoapServices::GetXmlNamespaceForMethodCall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlNamespaceForMethodCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::GetXmlNamespaceForMethodResponse
-  // Il2CppName: GetXmlNamespaceForMethodResponse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&SoapServices::GetXmlNamespaceForMethodResponse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlNamespaceForMethodResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::GetXmlTypeForInteropType
-  // Il2CppName: GetXmlTypeForInteropType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&)>(&SoapServices::GetXmlTypeForInteropType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlTypeForInteropType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::PreLoad
-  // Il2CppName: PreLoad
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*)>(&SoapServices::PreLoad)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::PreLoad
-  // Il2CppName: PreLoad
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&SoapServices::PreLoad)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::RegisterInteropXmlElement
-  // Il2CppName: RegisterInteropXmlElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Type*)>(&SoapServices::RegisterInteropXmlElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "RegisterInteropXmlElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::RegisterInteropXmlType
-  // Il2CppName: RegisterInteropXmlType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Type*)>(&SoapServices::RegisterInteropXmlType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "RegisterInteropXmlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::EncodeNs
-  // Il2CppName: EncodeNs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&SoapServices::EncodeNs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), "EncodeNs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SoapServices::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SoapServices::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SoapServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices*, "System.Runtime.Remoting", "SoapServices");
+// Writing MetadataGetter for method: SoapServices::get_XmlNsForClrTypeWithAssembly
+// Il2CppName: get_XmlNsForClrTypeWithAssembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SoapServices::get_XmlNsForClrTypeWithAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "get_XmlNsForClrTypeWithAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::get_XmlNsForClrTypeWithNs
+// Il2CppName: get_XmlNsForClrTypeWithNs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SoapServices::get_XmlNsForClrTypeWithNs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "get_XmlNsForClrTypeWithNs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::get_XmlNsForClrTypeWithNsAndAssembly
+// Il2CppName: get_XmlNsForClrTypeWithNsAndAssembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&SoapServices::get_XmlNsForClrTypeWithNsAndAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "get_XmlNsForClrTypeWithNsAndAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::CodeXmlNamespaceForClrTypeNamespace
+// Il2CppName: CodeXmlNamespaceForClrTypeNamespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&SoapServices::CodeXmlNamespaceForClrTypeNamespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "CodeXmlNamespaceForClrTypeNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::GetNameKey
+// Il2CppName: GetNameKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&SoapServices::GetNameKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetNameKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::GetAssemblyName
+// Il2CppName: GetAssemblyName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&SoapServices::GetAssemblyName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::GetXmlElementForInteropType
+// Il2CppName: GetXmlElementForInteropType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&)>(&SoapServices::GetXmlElementForInteropType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlElementForInteropType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::GetXmlNamespaceForMethodCall
+// Il2CppName: GetXmlNamespaceForMethodCall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&SoapServices::GetXmlNamespaceForMethodCall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlNamespaceForMethodCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::GetXmlNamespaceForMethodResponse
+// Il2CppName: GetXmlNamespaceForMethodResponse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&SoapServices::GetXmlNamespaceForMethodResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlNamespaceForMethodResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::GetXmlTypeForInteropType
+// Il2CppName: GetXmlTypeForInteropType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&)>(&SoapServices::GetXmlTypeForInteropType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "GetXmlTypeForInteropType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::PreLoad
+// Il2CppName: PreLoad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*)>(&SoapServices::PreLoad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::PreLoad
+// Il2CppName: PreLoad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&SoapServices::PreLoad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::RegisterInteropXmlElement
+// Il2CppName: RegisterInteropXmlElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Type*)>(&SoapServices::RegisterInteropXmlElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "RegisterInteropXmlElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::RegisterInteropXmlType
+// Il2CppName: RegisterInteropXmlType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Type*)>(&SoapServices::RegisterInteropXmlType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "RegisterInteropXmlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::EncodeNs
+// Il2CppName: EncodeNs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&SoapServices::EncodeNs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), "EncodeNs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SoapServices::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SoapServices::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SoapServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

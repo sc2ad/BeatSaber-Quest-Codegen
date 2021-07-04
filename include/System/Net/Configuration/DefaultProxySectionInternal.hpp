@@ -67,59 +67,59 @@ namespace System::Net::Configuration {
   #pragma pack(pop)
   static check_size<sizeof(DefaultProxySectionInternal), 16 + sizeof(System::Net::IWebProxy*)> __System_Net_Configuration_DefaultProxySectionInternalSizeCheck;
   static_assert(sizeof(DefaultProxySectionInternal) == 0x18);
-  // Writing MetadataGetter for method: DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode
-  // Il2CppName: GetDefaultProxy_UsingOldMonoCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "GetDefaultProxy_UsingOldMonoCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DefaultProxySectionInternal::GetSystemWebProxy
-  // Il2CppName: GetSystemWebProxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&DefaultProxySectionInternal::GetSystemWebProxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "GetSystemWebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DefaultProxySectionInternal::get_ClassSyncObject
-  // Il2CppName: get_ClassSyncObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&DefaultProxySectionInternal::get_ClassSyncObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "get_ClassSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DefaultProxySectionInternal::GetSection
-  // Il2CppName: GetSection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Configuration::DefaultProxySectionInternal* (*)()>(&DefaultProxySectionInternal::GetSection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "GetSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DefaultProxySectionInternal::get_WebProxy
-  // Il2CppName: get_WebProxy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (DefaultProxySectionInternal::*)()>(&DefaultProxySectionInternal::get_WebProxy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "get_WebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DefaultProxySectionInternal::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultProxySectionInternal::*)()>(&DefaultProxySectionInternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultProxySectionInternal::*)()>(&DefaultProxySectionInternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySectionInternal*, "System.Net.Configuration", "DefaultProxySectionInternal");
+// Writing MetadataGetter for method: DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode
+// Il2CppName: GetDefaultProxy_UsingOldMonoCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "GetDefaultProxy_UsingOldMonoCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DefaultProxySectionInternal::GetSystemWebProxy
+// Il2CppName: GetSystemWebProxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&DefaultProxySectionInternal::GetSystemWebProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "GetSystemWebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DefaultProxySectionInternal::get_ClassSyncObject
+// Il2CppName: get_ClassSyncObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&DefaultProxySectionInternal::get_ClassSyncObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "get_ClassSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DefaultProxySectionInternal::GetSection
+// Il2CppName: GetSection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Configuration::DefaultProxySectionInternal* (*)()>(&DefaultProxySectionInternal::GetSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "GetSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DefaultProxySectionInternal::get_WebProxy
+// Il2CppName: get_WebProxy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (DefaultProxySectionInternal::*)()>(&DefaultProxySectionInternal::get_WebProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), "get_WebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DefaultProxySectionInternal::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultProxySectionInternal::*)()>(&DefaultProxySectionInternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultProxySectionInternal::*)()>(&DefaultProxySectionInternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DefaultProxySectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

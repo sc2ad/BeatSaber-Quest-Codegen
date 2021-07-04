@@ -111,59 +111,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TweenPosition), 48 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_TweenPositionSizeCheck;
   static_assert(sizeof(TweenPosition) == 0x3C);
-  // Writing MetadataGetter for method: TweenPosition::set_TargetPos
-  // Il2CppName: set_TargetPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)(UnityEngine::Vector3)>(&TweenPosition::set_TargetPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "set_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: TweenPosition::get_TargetPos
-  // Il2CppName: get_TargetPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (TweenPosition::*)()>(&TweenPosition::get_TargetPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "get_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TweenPosition::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)()>(&TweenPosition::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TweenPosition::AnimateToNewPos
-  // Il2CppName: AnimateToNewPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)(UnityEngine::Vector3)>(&TweenPosition::AnimateToNewPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "AnimateToNewPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: TweenPosition::AnimateToNewPosCoroutine
-  // Il2CppName: AnimateToNewPosCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TweenPosition::*)(UnityEngine::Vector3)>(&TweenPosition::AnimateToNewPosCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "AnimateToNewPosCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: TweenPosition::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)()>(&TweenPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TweenPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)()>(&TweenPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TweenPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition*, "", "TweenPosition");
+// Writing MetadataGetter for method: TweenPosition::set_TargetPos
+// Il2CppName: set_TargetPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)(UnityEngine::Vector3)>(&TweenPosition::set_TargetPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "set_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: TweenPosition::get_TargetPos
+// Il2CppName: get_TargetPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (TweenPosition::*)()>(&TweenPosition::get_TargetPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "get_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TweenPosition::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)()>(&TweenPosition::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TweenPosition::AnimateToNewPos
+// Il2CppName: AnimateToNewPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)(UnityEngine::Vector3)>(&TweenPosition::AnimateToNewPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "AnimateToNewPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: TweenPosition::AnimateToNewPosCoroutine
+// Il2CppName: AnimateToNewPosCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TweenPosition::*)(UnityEngine::Vector3)>(&TweenPosition::AnimateToNewPosCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TweenPosition*), "AnimateToNewPosCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: TweenPosition::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)()>(&TweenPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TweenPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweenPosition::*)()>(&TweenPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TweenPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -122,187 +122,187 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(TouchScreenKeyboard), 16 + sizeof(System::IntPtr)> __UnityEngine_TouchScreenKeyboardSizeCheck;
   static_assert(sizeof(TouchScreenKeyboard) == 0x18);
-  // Writing MetadataGetter for method: TouchScreenKeyboard::Internal_Destroy
-  // Il2CppName: Internal_Destroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&TouchScreenKeyboard::Internal_Destroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::Destroy
-  // Il2CppName: Destroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::Destroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool, bool, ::Il2CppString*, int)>(&TouchScreenKeyboard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool, bool, ::Il2CppString*, int)>(&TouchScreenKeyboard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper
-  // Il2CppName: TouchScreenKeyboard_InternalConstructorHelper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&, ::Il2CppString*, ::Il2CppString*)>(&TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "TouchScreenKeyboard_InternalConstructorHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_isSupported
-  // Il2CppName: get_isSupported
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TouchScreenKeyboard::get_isSupported)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_isSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_isInPlaceEditingAllowed
-  // Il2CppName: get_isInPlaceEditingAllowed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TouchScreenKeyboard::get_isInPlaceEditingAllowed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_isInPlaceEditingAllowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::Open
-  // Il2CppName: Open
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool, bool, ::Il2CppString*, int)>(&TouchScreenKeyboard::Open)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::Open
-  // Il2CppName: Open
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool)>(&TouchScreenKeyboard::Open)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_text
-  // Il2CppName: get_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::set_text
-  // Il2CppName: set_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(::Il2CppString*)>(&TouchScreenKeyboard::set_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::set_hideInput
-  // Il2CppName: set_hideInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TouchScreenKeyboard::set_hideInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_hideInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_active
-  // Il2CppName: get_active
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_active)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::set_active
-  // Il2CppName: set_active
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(bool)>(&TouchScreenKeyboard::set_active)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_status
-  // Il2CppName: get_status
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard::Status (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_status)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::set_characterLimit
-  // Il2CppName: set_characterLimit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(int)>(&TouchScreenKeyboard::set_characterLimit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_characterLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_canGetSelection
-  // Il2CppName: get_canGetSelection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_canGetSelection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_canGetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_canSetSelection
-  // Il2CppName: get_canSetSelection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_canSetSelection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_canSetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::get_selection
-  // Il2CppName: get_selection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RangeInt (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_selection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_selection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::set_selection
-  // Il2CppName: set_selection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(UnityEngine::RangeInt)>(&TouchScreenKeyboard::set_selection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_selection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RangeInt>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::GetSelection
-  // Il2CppName: GetSelection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&, int&)>(&TouchScreenKeyboard::GetSelection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "GetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::SetSelection
-  // Il2CppName: SetSelection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&TouchScreenKeyboard::SetSelection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "SetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TouchScreenKeyboard::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard*, "UnityEngine", "TouchScreenKeyboard");
+// Writing MetadataGetter for method: TouchScreenKeyboard::Internal_Destroy
+// Il2CppName: Internal_Destroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&TouchScreenKeyboard::Internal_Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::Destroy
+// Il2CppName: Destroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool, bool, ::Il2CppString*, int)>(&TouchScreenKeyboard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool, bool, ::Il2CppString*, int)>(&TouchScreenKeyboard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper
+// Il2CppName: TouchScreenKeyboard_InternalConstructorHelper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&, ::Il2CppString*, ::Il2CppString*)>(&TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "TouchScreenKeyboard_InternalConstructorHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_isSupported
+// Il2CppName: get_isSupported
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TouchScreenKeyboard::get_isSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_isSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_isInPlaceEditingAllowed
+// Il2CppName: get_isInPlaceEditingAllowed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TouchScreenKeyboard::get_isInPlaceEditingAllowed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_isInPlaceEditingAllowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::Open
+// Il2CppName: Open
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool, bool, ::Il2CppString*, int)>(&TouchScreenKeyboard::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::Open
+// Il2CppName: Open
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool)>(&TouchScreenKeyboard::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(::Il2CppString*)>(&TouchScreenKeyboard::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::set_hideInput
+// Il2CppName: set_hideInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TouchScreenKeyboard::set_hideInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_hideInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_active
+// Il2CppName: get_active
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::set_active
+// Il2CppName: set_active
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(bool)>(&TouchScreenKeyboard::set_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_status
+// Il2CppName: get_status
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard::Status (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::set_characterLimit
+// Il2CppName: set_characterLimit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(int)>(&TouchScreenKeyboard::set_characterLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_characterLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_canGetSelection
+// Il2CppName: get_canGetSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_canGetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_canGetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_canSetSelection
+// Il2CppName: get_canSetSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_canSetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_canSetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::get_selection
+// Il2CppName: get_selection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RangeInt (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::get_selection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "get_selection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::set_selection
+// Il2CppName: set_selection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)(UnityEngine::RangeInt)>(&TouchScreenKeyboard::set_selection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "set_selection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RangeInt>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::GetSelection
+// Il2CppName: GetSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&, int&)>(&TouchScreenKeyboard::GetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "GetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::SetSelection
+// Il2CppName: SetSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&TouchScreenKeyboard::SetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "SetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TouchScreenKeyboard::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TouchScreenKeyboard::*)()>(&TouchScreenKeyboard::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TouchScreenKeyboard*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

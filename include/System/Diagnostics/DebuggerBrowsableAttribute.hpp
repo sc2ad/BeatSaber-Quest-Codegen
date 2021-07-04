@@ -45,19 +45,19 @@ namespace System::Diagnostics {
   #pragma pack(pop)
   static check_size<sizeof(DebuggerBrowsableAttribute), 16 + sizeof(System::Diagnostics::DebuggerBrowsableState)> __System_Diagnostics_DebuggerBrowsableAttributeSizeCheck;
   static_assert(sizeof(DebuggerBrowsableAttribute) == 0x14);
-  // Writing MetadataGetter for method: DebuggerBrowsableAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebuggerBrowsableAttribute::*)(System::Diagnostics::DebuggerBrowsableState)>(&DebuggerBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DebuggerBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::DebuggerBrowsableState>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebuggerBrowsableAttribute::*)(System::Diagnostics::DebuggerBrowsableState)>(&DebuggerBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DebuggerBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::DebuggerBrowsableState>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableAttribute*, "System.Diagnostics", "DebuggerBrowsableAttribute");
+// Writing MetadataGetter for method: DebuggerBrowsableAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebuggerBrowsableAttribute::*)(System::Diagnostics::DebuggerBrowsableState)>(&DebuggerBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DebuggerBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::DebuggerBrowsableState>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebuggerBrowsableAttribute::*)(System::Diagnostics::DebuggerBrowsableState)>(&DebuggerBrowsableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DebuggerBrowsableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::DebuggerBrowsableState>()});
+  }
+};

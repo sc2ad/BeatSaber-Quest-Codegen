@@ -43,19 +43,19 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
   static check_size<sizeof(Win32IPv4InterfaceStatistics), 16 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW)> __System_Net_NetworkInformation_Win32IPv4InterfaceStatisticsSizeCheck;
   static_assert(sizeof(Win32IPv4InterfaceStatistics) == 0x80);
-  // Writing MetadataGetter for method: Win32IPv4InterfaceStatistics::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPv4InterfaceStatistics::*)(System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPv4InterfaceStatistics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Win32IPv4InterfaceStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPv4InterfaceStatistics::*)(System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPv4InterfaceStatistics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Win32IPv4InterfaceStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "Win32IPv4InterfaceStatistics");
+// Writing MetadataGetter for method: Win32IPv4InterfaceStatistics::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPv4InterfaceStatistics::*)(System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPv4InterfaceStatistics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Win32IPv4InterfaceStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Win32IPv4InterfaceStatistics::*)(System::Net::NetworkInformation::Win32_MIB_IFROW)>(&Win32IPv4InterfaceStatistics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Win32IPv4InterfaceStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
+  }
+};

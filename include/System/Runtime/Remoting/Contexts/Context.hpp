@@ -273,299 +273,299 @@ namespace System::Runtime::Remoting::Contexts {
   #pragma pack(pop)
   static check_size<sizeof(Context), 80 + sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*)> __System_Runtime_Remoting_Contexts_ContextSizeCheck;
   static_assert(sizeof(Context) == 0x58);
-  // Writing MetadataGetter for method: Context::RegisterContext
-  // Il2CppName: RegisterContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Contexts::Context*)>(&Context::RegisterContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "RegisterContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::ReleaseContext
-  // Il2CppName: ReleaseContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Contexts::Context*)>(&Context::ReleaseContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "ReleaseContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_DefaultContext
-  // Il2CppName: get_DefaultContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&Context::get_DefaultContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_DefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_ContextID
-  // Il2CppName: get_ContextID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Context::*)()>(&Context::get_ContextID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_ContextID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_ContextProperties
-  // Il2CppName: get_ContextProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Runtime::Remoting::Contexts::IContextProperty*>* (Context::*)()>(&Context::get_ContextProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_ContextProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_IsDefaultContext
-  // Il2CppName: get_IsDefaultContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_IsDefaultContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_IsDefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_NeedsContextSink
-  // Il2CppName: get_NeedsContextSink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_NeedsContextSink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_NeedsContextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::RegisterDynamicProperty
-  // Il2CppName: RegisterDynamicProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Remoting::Contexts::IDynamicProperty*, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&Context::RegisterDynamicProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "RegisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::IDynamicProperty*>(), ::il2cpp_utils::ExtractIndependentType<System::ContextBoundObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::UnregisterDynamicProperty
-  // Il2CppName: UnregisterDynamicProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&Context::UnregisterDynamicProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "UnregisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::ContextBoundObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::GetDynamicPropertyCollection
-  // Il2CppName: GetDynamicPropertyCollection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (*)(System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&Context::GetDynamicPropertyCollection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "GetDynamicPropertyCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ContextBoundObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::NotifyGlobalDynamicSinks
-  // Il2CppName: NotifyGlobalDynamicSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Context::NotifyGlobalDynamicSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "NotifyGlobalDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_HasGlobalDynamicSinks
-  // Il2CppName: get_HasGlobalDynamicSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Context::get_HasGlobalDynamicSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_HasGlobalDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::NotifyDynamicSinks
-  // Il2CppName: NotifyDynamicSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Context::NotifyDynamicSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "NotifyDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_HasDynamicSinks
-  // Il2CppName: get_HasDynamicSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_HasDynamicSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_HasDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_HasExitSinks
-  // Il2CppName: get_HasExitSinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_HasExitSinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_HasExitSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::GetProperty
-  // Il2CppName: GetProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::IContextProperty* (Context::*)(::Il2CppString*)>(&Context::GetProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "GetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::SetProperty
-  // Il2CppName: SetProperty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)(System::Runtime::Remoting::Contexts::IContextProperty*)>(&Context::SetProperty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::IContextProperty*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::Freeze
-  // Il2CppName: Freeze
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::Freeze)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "Freeze", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::GetServerContextSinkChain
-  // Il2CppName: GetServerContextSinkChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)()>(&Context::GetServerContextSinkChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "GetServerContextSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::GetClientContextSinkChain
-  // Il2CppName: GetClientContextSinkChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)()>(&Context::GetClientContextSinkChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "GetClientContextSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::CreateServerObjectSinkChain
-  // Il2CppName: CreateServerObjectSinkChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)(System::MarshalByRefObject*, bool)>(&Context::CreateServerObjectSinkChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "CreateServerObjectSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::CreateEnvoySink
-  // Il2CppName: CreateEnvoySink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)(System::MarshalByRefObject*)>(&Context::CreateEnvoySink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "CreateEnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::SwitchToContext
-  // Il2CppName: SwitchToContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Contexts::Context*)>(&Context::SwitchToContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "SwitchToContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::CreateNewContext
-  // Il2CppName: CreateNewContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&Context::CreateNewContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "CreateNewContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::DoCallBack
-  // Il2CppName: DoCallBack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)(System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&Context::DoCallBack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::CrossContextDelegate*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::get_MyLocalStore
-  // Il2CppName: get_MyLocalStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStore* (Context::*)()>(&Context::get_MyLocalStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "get_MyLocalStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::AllocateDataSlot
-  // Il2CppName: AllocateDataSlot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)()>(&Context::AllocateDataSlot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "AllocateDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::AllocateNamedDataSlot
-  // Il2CppName: AllocateNamedDataSlot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::Il2CppString*)>(&Context::AllocateNamedDataSlot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "AllocateNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::FreeNamedDataSlot
-  // Il2CppName: FreeNamedDataSlot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Context::FreeNamedDataSlot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "FreeNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::GetNamedDataSlot
-  // Il2CppName: GetNamedDataSlot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::Il2CppString*)>(&Context::GetNamedDataSlot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "GetNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::GetData
-  // Il2CppName: GetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::LocalDataStoreSlot*)>(&Context::GetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::SetData
-  // Il2CppName: SetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::LocalDataStoreSlot*, ::Il2CppObject*)>(&Context::SetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Context::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Context::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Context::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Context::*)()>(&Context::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Context*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");
+// Writing MetadataGetter for method: Context::RegisterContext
+// Il2CppName: RegisterContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Contexts::Context*)>(&Context::RegisterContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "RegisterContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::ReleaseContext
+// Il2CppName: ReleaseContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Contexts::Context*)>(&Context::ReleaseContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "ReleaseContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::get_DefaultContext
+// Il2CppName: get_DefaultContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&Context::get_DefaultContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_DefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::get_ContextID
+// Il2CppName: get_ContextID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Context::*)()>(&Context::get_ContextID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_ContextID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::get_ContextProperties
+// Il2CppName: get_ContextProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Runtime::Remoting::Contexts::IContextProperty*>* (Context::*)()>(&Context::get_ContextProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_ContextProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::get_IsDefaultContext
+// Il2CppName: get_IsDefaultContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_IsDefaultContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_IsDefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::get_NeedsContextSink
+// Il2CppName: get_NeedsContextSink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_NeedsContextSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_NeedsContextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::RegisterDynamicProperty
+// Il2CppName: RegisterDynamicProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Remoting::Contexts::IDynamicProperty*, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&Context::RegisterDynamicProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "RegisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::IDynamicProperty*>(), ::il2cpp_utils::ExtractIndependentType<System::ContextBoundObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::UnregisterDynamicProperty
+// Il2CppName: UnregisterDynamicProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&Context::UnregisterDynamicProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "UnregisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::ContextBoundObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::GetDynamicPropertyCollection
+// Il2CppName: GetDynamicPropertyCollection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (*)(System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&Context::GetDynamicPropertyCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "GetDynamicPropertyCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ContextBoundObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::NotifyGlobalDynamicSinks
+// Il2CppName: NotifyGlobalDynamicSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Context::NotifyGlobalDynamicSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "NotifyGlobalDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Context::get_HasGlobalDynamicSinks
+// Il2CppName: get_HasGlobalDynamicSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Context::get_HasGlobalDynamicSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_HasGlobalDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::NotifyDynamicSinks
+// Il2CppName: NotifyDynamicSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&Context::NotifyDynamicSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "NotifyDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Context::get_HasDynamicSinks
+// Il2CppName: get_HasDynamicSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_HasDynamicSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_HasDynamicSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::get_HasExitSinks
+// Il2CppName: get_HasExitSinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Context::*)()>(&Context::get_HasExitSinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_HasExitSinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::GetProperty
+// Il2CppName: GetProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::IContextProperty* (Context::*)(::Il2CppString*)>(&Context::GetProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "GetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::SetProperty
+// Il2CppName: SetProperty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)(System::Runtime::Remoting::Contexts::IContextProperty*)>(&Context::SetProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::IContextProperty*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::Freeze
+// Il2CppName: Freeze
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::Freeze)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "Freeze", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::GetServerContextSinkChain
+// Il2CppName: GetServerContextSinkChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)()>(&Context::GetServerContextSinkChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "GetServerContextSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::GetClientContextSinkChain
+// Il2CppName: GetClientContextSinkChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)()>(&Context::GetClientContextSinkChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "GetClientContextSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::CreateServerObjectSinkChain
+// Il2CppName: CreateServerObjectSinkChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)(System::MarshalByRefObject*, bool)>(&Context::CreateServerObjectSinkChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "CreateServerObjectSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Context::CreateEnvoySink
+// Il2CppName: CreateEnvoySink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (Context::*)(System::MarshalByRefObject*)>(&Context::CreateEnvoySink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "CreateEnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::SwitchToContext
+// Il2CppName: SwitchToContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Contexts::Context*)>(&Context::SwitchToContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "SwitchToContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::CreateNewContext
+// Il2CppName: CreateNewContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&Context::CreateNewContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "CreateNewContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::DoCallBack
+// Il2CppName: DoCallBack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)(System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&Context::DoCallBack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::CrossContextDelegate*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::get_MyLocalStore
+// Il2CppName: get_MyLocalStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStore* (Context::*)()>(&Context::get_MyLocalStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "get_MyLocalStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::AllocateDataSlot
+// Il2CppName: AllocateDataSlot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)()>(&Context::AllocateDataSlot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "AllocateDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::AllocateNamedDataSlot
+// Il2CppName: AllocateNamedDataSlot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::Il2CppString*)>(&Context::AllocateNamedDataSlot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "AllocateNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::FreeNamedDataSlot
+// Il2CppName: FreeNamedDataSlot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Context::FreeNamedDataSlot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "FreeNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::GetNamedDataSlot
+// Il2CppName: GetNamedDataSlot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::Il2CppString*)>(&Context::GetNamedDataSlot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "GetNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::GetData
+// Il2CppName: GetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::LocalDataStoreSlot*)>(&Context::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::SetData
+// Il2CppName: SetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::LocalDataStoreSlot*, ::Il2CppObject*)>(&Context::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Context::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Context::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Context::*)()>(&Context::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Context::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Context::*)()>(&Context::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Context*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

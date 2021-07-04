@@ -99,83 +99,83 @@ namespace Mono::Security::X509 {
   #pragma pack(pop)
   static check_size<sizeof(X509Store), 41 + sizeof(bool)> __Mono_Security_X509_X509StoreSizeCheck;
   static_assert(sizeof(X509Store) == 0x2A);
-  // Writing MetadataGetter for method: X509Store::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)(::Il2CppString*, bool, bool)>(&X509Store::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)(::Il2CppString*, bool, bool)>(&X509Store::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::get_Certificates
-  // Il2CppName: get_Certificates
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509CertificateCollection* (X509Store::*)()>(&X509Store::get_Certificates)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "get_Certificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::get_Crls
-  // Il2CppName: get_Crls
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (X509Store::*)()>(&X509Store::get_Crls)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "get_Crls", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::Load
-  // Il2CppName: Load
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509Store::*)(::Il2CppString*)>(&X509Store::Load)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::LoadCertificate
-  // Il2CppName: LoadCertificate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (X509Store::*)(::Il2CppString*)>(&X509Store::LoadCertificate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "LoadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::LoadCrl
-  // Il2CppName: LoadCrl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl* (X509Store::*)(::Il2CppString*)>(&X509Store::LoadCrl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "LoadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::CheckStore
-  // Il2CppName: CheckStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509Store::*)(::Il2CppString*, bool)>(&X509Store::CheckStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "CheckStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::BuildCertificatesCollection
-  // Il2CppName: BuildCertificatesCollection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509CertificateCollection* (X509Store::*)(::Il2CppString*)>(&X509Store::BuildCertificatesCollection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "BuildCertificatesCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: X509Store::BuildCrlsCollection
-  // Il2CppName: BuildCrlsCollection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (X509Store::*)(::Il2CppString*)>(&X509Store::BuildCrlsCollection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(X509Store*), "BuildCrlsCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Store*, "Mono.Security.X509", "X509Store");
+// Writing MetadataGetter for method: X509Store::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)(::Il2CppString*, bool, bool)>(&X509Store::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)(::Il2CppString*, bool, bool)>(&X509Store::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: X509Store::get_Certificates
+// Il2CppName: get_Certificates
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509CertificateCollection* (X509Store::*)()>(&X509Store::get_Certificates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "get_Certificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509Store::get_Crls
+// Il2CppName: get_Crls
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (X509Store::*)()>(&X509Store::get_Crls)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "get_Crls", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: X509Store::Load
+// Il2CppName: Load
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509Store::*)(::Il2CppString*)>(&X509Store::Load)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: X509Store::LoadCertificate
+// Il2CppName: LoadCertificate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (X509Store::*)(::Il2CppString*)>(&X509Store::LoadCertificate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "LoadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: X509Store::LoadCrl
+// Il2CppName: LoadCrl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl* (X509Store::*)(::Il2CppString*)>(&X509Store::LoadCrl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "LoadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: X509Store::CheckStore
+// Il2CppName: CheckStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509Store::*)(::Il2CppString*, bool)>(&X509Store::CheckStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "CheckStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: X509Store::BuildCertificatesCollection
+// Il2CppName: BuildCertificatesCollection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509CertificateCollection* (X509Store::*)(::Il2CppString*)>(&X509Store::BuildCertificatesCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "BuildCertificatesCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: X509Store::BuildCrlsCollection
+// Il2CppName: BuildCrlsCollection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (X509Store::*)(::Il2CppString*)>(&X509Store::BuildCrlsCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(X509Store*), "BuildCrlsCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

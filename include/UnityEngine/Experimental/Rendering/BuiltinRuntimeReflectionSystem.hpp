@@ -51,59 +51,59 @@ namespace UnityEngine::Experimental::Rendering {
     }
   }; // UnityEngine.Experimental.Rendering.BuiltinRuntimeReflectionSystem
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::TickRealtimeProbes
-  // Il2CppName: TickRealtimeProbes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::TickRealtimeProbes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "TickRealtimeProbes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)(bool)>(&BuiltinRuntimeReflectionSystem::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::BuiltinUpdate
-  // Il2CppName: BuiltinUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&BuiltinRuntimeReflectionSystem::BuiltinUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "BuiltinUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New
-  // Il2CppName: Internal_BuiltinRuntimeReflectionSystem_New
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* (*)()>(&BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "Internal_BuiltinRuntimeReflectionSystem_New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*, "UnityEngine.Experimental.Rendering", "BuiltinRuntimeReflectionSystem");
+// Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::TickRealtimeProbes
+// Il2CppName: TickRealtimeProbes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::TickRealtimeProbes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "TickRealtimeProbes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)(bool)>(&BuiltinRuntimeReflectionSystem::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::BuiltinUpdate
+// Il2CppName: BuiltinUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&BuiltinRuntimeReflectionSystem::BuiltinUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "BuiltinUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New
+// Il2CppName: Internal_BuiltinRuntimeReflectionSystem_New
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* (*)()>(&BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), "Internal_BuiltinRuntimeReflectionSystem_New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BuiltinRuntimeReflectionSystem::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BuiltinRuntimeReflectionSystem::*)()>(&BuiltinRuntimeReflectionSystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BuiltinRuntimeReflectionSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

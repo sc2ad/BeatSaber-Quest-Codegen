@@ -127,99 +127,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifiersDropdown), 48 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>*)> __GlobalNamespace_GameplayModifiersDropdownSizeCheck;
   static_assert(sizeof(GameplayModifiersDropdown) == 0x38);
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::add_didSelectCellWithIdxEvent
-  // Il2CppName: add_didSelectCellWithIdxEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(System::Action_1<int>*)>(&GameplayModifiersDropdown::add_didSelectCellWithIdxEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::remove_didSelectCellWithIdxEvent
-  // Il2CppName: remove_didSelectCellWithIdxEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(System::Action_1<int>*)>(&GameplayModifiersDropdown::remove_didSelectCellWithIdxEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::get_gameplayModifiersData
-  // Il2CppName: get_gameplayModifiersData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::get_gameplayModifiersData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "get_gameplayModifiersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::GetSelectedGameplayModifierMask
-  // Il2CppName: GetSelectedGameplayModifierMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::GetSelectedGameplayModifierMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "GetSelectedGameplayModifierMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::SelectCellWithGameplayModifierMask
-  // Il2CppName: SelectCellWithGameplayModifierMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(GlobalNamespace::GameplayModifierMask)>(&GameplayModifiersDropdown::SelectCellWithGameplayModifierMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "SelectCellWithGameplayModifierMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::GetIdxForGameplayModifierMask
-  // Il2CppName: GetIdxForGameplayModifierMask
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameplayModifiersDropdown::*)(GlobalNamespace::GameplayModifierMask)>(&GameplayModifiersDropdown::GetIdxForGameplayModifierMask)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "GetIdxForGameplayModifierMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx
-  // Il2CppName: HandleSimpleTextDropdownDidSelectCellWithIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(HMUI::DropdownWithTableView*, int)>(&GameplayModifiersDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::$get_gameplayModifiersData$b__7_0
-  // Il2CppName: <get_gameplayModifiersData>b__7_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>* (GameplayModifiersDropdown::*)(GlobalNamespace::GameplayModifierMask)>(&GameplayModifiersDropdown::$get_gameplayModifiersData$b__7_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "<get_gameplayModifiersData>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameplayModifiersDropdown::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");
+// Writing MetadataGetter for method: GameplayModifiersDropdown::add_didSelectCellWithIdxEvent
+// Il2CppName: add_didSelectCellWithIdxEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(System::Action_1<int>*)>(&GameplayModifiersDropdown::add_didSelectCellWithIdxEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::remove_didSelectCellWithIdxEvent
+// Il2CppName: remove_didSelectCellWithIdxEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(System::Action_1<int>*)>(&GameplayModifiersDropdown::remove_didSelectCellWithIdxEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::get_gameplayModifiersData
+// Il2CppName: get_gameplayModifiersData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::get_gameplayModifiersData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "get_gameplayModifiersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::GetSelectedGameplayModifierMask
+// Il2CppName: GetSelectedGameplayModifierMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::GetSelectedGameplayModifierMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "GetSelectedGameplayModifierMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::SelectCellWithGameplayModifierMask
+// Il2CppName: SelectCellWithGameplayModifierMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(GlobalNamespace::GameplayModifierMask)>(&GameplayModifiersDropdown::SelectCellWithGameplayModifierMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "SelectCellWithGameplayModifierMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::GetIdxForGameplayModifierMask
+// Il2CppName: GetIdxForGameplayModifierMask
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameplayModifiersDropdown::*)(GlobalNamespace::GameplayModifierMask)>(&GameplayModifiersDropdown::GetIdxForGameplayModifierMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "GetIdxForGameplayModifierMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx
+// Il2CppName: HandleSimpleTextDropdownDidSelectCellWithIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)(HMUI::DropdownWithTableView*, int)>(&GameplayModifiersDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::$get_gameplayModifiersData$b__7_0
+// Il2CppName: <get_gameplayModifiersData>b__7_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>* (GameplayModifiersDropdown::*)(GlobalNamespace::GameplayModifierMask)>(&GameplayModifiersDropdown::$get_gameplayModifiersData$b__7_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), "<get_gameplayModifiersData>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+  }
+};
+// Writing MetadataGetter for method: GameplayModifiersDropdown::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersDropdown::*)()>(&GameplayModifiersDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

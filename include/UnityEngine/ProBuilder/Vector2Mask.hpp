@@ -99,89 +99,89 @@ namespace UnityEngine::ProBuilder {
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.ProBuilder.Vector2Mask mask, System.Single value)
   // Offset: 0x22C1D4C
   UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
-  // Writing MetadataGetter for method: Vector2Mask::get_x
-  // Il2CppName: get_x
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Vector2Mask::*)()>(&Vector2Mask::get_x)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "get_x", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::get_y
-  // Il2CppName: get_y
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Vector2Mask::*)()>(&Vector2Mask::get_y)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "get_y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::Vector2Mask
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(UnityEngine::Vector3, float)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(UnityEngine::Vector3, float)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::Vector2Mask
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(uint8_t)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(uint8_t)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Vector2Mask::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::operator|
-  // Il2CppName: op_BitwiseOr
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vector2Mask (*)(const UnityEngine::ProBuilder::Vector2Mask&, const UnityEngine::ProBuilder::Vector2Mask&)>(&Vector2Mask::operator|)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_BitwiseOr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::operator&
-  // Il2CppName: op_BitwiseAnd
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vector2Mask (*)(const UnityEngine::ProBuilder::Vector2Mask&, const UnityEngine::ProBuilder::Vector2Mask&)>(&Vector2Mask::operator&)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_BitwiseAnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::operator^
-  // Il2CppName: op_ExclusiveOr
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vector2Mask (*)(const UnityEngine::ProBuilder::Vector2Mask&, const UnityEngine::ProBuilder::Vector2Mask&)>(&Vector2Mask::operator^)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_ExclusiveOr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Vector2Mask::operator*
-  // Il2CppName: op_Multiply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(const UnityEngine::ProBuilder::Vector2Mask&, const float&)>(&Vector2Mask::operator*)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
+// Writing MetadataGetter for method: Vector2Mask::get_x
+// Il2CppName: get_x
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Vector2Mask::*)()>(&Vector2Mask::get_x)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "get_x", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::get_y
+// Il2CppName: get_y
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Vector2Mask::*)()>(&Vector2Mask::get_y)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "get_y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::Vector2Mask
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(UnityEngine::Vector3, float)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(UnityEngine::Vector3, float)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::Vector2Mask
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(uint8_t)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector2Mask::*)(uint8_t)>(&Vector2Mask::Vector2Mask<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Vector2Mask::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::operator|
+// Il2CppName: op_BitwiseOr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vector2Mask (*)(const UnityEngine::ProBuilder::Vector2Mask&, const UnityEngine::ProBuilder::Vector2Mask&)>(&Vector2Mask::operator|)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_BitwiseOr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>()});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::operator&
+// Il2CppName: op_BitwiseAnd
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vector2Mask (*)(const UnityEngine::ProBuilder::Vector2Mask&, const UnityEngine::ProBuilder::Vector2Mask&)>(&Vector2Mask::operator&)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_BitwiseAnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>()});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::operator^
+// Il2CppName: op_ExclusiveOr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vector2Mask (*)(const UnityEngine::ProBuilder::Vector2Mask&, const UnityEngine::ProBuilder::Vector2Mask&)>(&Vector2Mask::operator^)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_ExclusiveOr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>()});
+  }
+};
+// Writing MetadataGetter for method: Vector2Mask::operator*
+// Il2CppName: op_Multiply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(const UnityEngine::ProBuilder::Vector2Mask&, const float&)>(&Vector2Mask::operator*)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector2Mask), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Vector2Mask&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
+  }
+};

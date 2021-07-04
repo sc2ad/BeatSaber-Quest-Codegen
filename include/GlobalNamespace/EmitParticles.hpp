@@ -55,27 +55,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EmitParticles), 24 + sizeof(UnityEngine::ParticleSystem*)> __GlobalNamespace_EmitParticlesSizeCheck;
   static_assert(sizeof(EmitParticles) == 0x20);
-  // Writing MetadataGetter for method: EmitParticles::Emit
-  // Il2CppName: Emit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmitParticles::*)(int)>(&EmitParticles::Emit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EmitParticles*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: EmitParticles::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmitParticles::*)()>(&EmitParticles::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EmitParticles*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmitParticles::*)()>(&EmitParticles::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EmitParticles*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmitParticles*, "", "EmitParticles");
+// Writing MetadataGetter for method: EmitParticles::Emit
+// Il2CppName: Emit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmitParticles::*)(int)>(&EmitParticles::Emit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EmitParticles*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EmitParticles::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmitParticles::*)()>(&EmitParticles::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EmitParticles*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmitParticles::*)()>(&EmitParticles::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EmitParticles*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

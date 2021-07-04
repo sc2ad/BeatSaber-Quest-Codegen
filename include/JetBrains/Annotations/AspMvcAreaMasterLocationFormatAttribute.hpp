@@ -49,35 +49,35 @@ namespace JetBrains::Annotations {
   #pragma pack(pop)
   static check_size<sizeof(AspMvcAreaMasterLocationFormatAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspMvcAreaMasterLocationFormatAttributeSizeCheck;
   static_assert(sizeof(AspMvcAreaMasterLocationFormatAttribute) == 0x18);
-  // Writing MetadataGetter for method: AspMvcAreaMasterLocationFormatAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcAreaMasterLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcAreaMasterLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcAreaMasterLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcAreaMasterLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AspMvcAreaMasterLocationFormatAttribute::get_Format
-  // Il2CppName: get_Format
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AspMvcAreaMasterLocationFormatAttribute::*)()>(&AspMvcAreaMasterLocationFormatAttribute::get_Format)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspMvcAreaMasterLocationFormatAttribute::set_Format
-  // Il2CppName: set_Format
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcAreaMasterLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcAreaMasterLocationFormatAttribute::set_Format)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute*, "JetBrains.Annotations", "AspMvcAreaMasterLocationFormatAttribute");
+// Writing MetadataGetter for method: AspMvcAreaMasterLocationFormatAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcAreaMasterLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcAreaMasterLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcAreaMasterLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcAreaMasterLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AspMvcAreaMasterLocationFormatAttribute::get_Format
+// Il2CppName: get_Format
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AspMvcAreaMasterLocationFormatAttribute::*)()>(&AspMvcAreaMasterLocationFormatAttribute::get_Format)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspMvcAreaMasterLocationFormatAttribute::set_Format
+// Il2CppName: set_Format
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcAreaMasterLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcAreaMasterLocationFormatAttribute::set_Format)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspMvcAreaMasterLocationFormatAttribute*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

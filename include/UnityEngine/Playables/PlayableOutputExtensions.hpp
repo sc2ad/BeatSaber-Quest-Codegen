@@ -125,29 +125,29 @@ namespace UnityEngine::Playables {
     }
   }; // UnityEngine.Playables.PlayableOutputExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: PlayableOutputExtensions::SetReferenceObject
-  // Il2CppName: SetReferenceObject
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutputExtensions::SetUserData
-  // Il2CppName: SetUserData
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutputExtensions::GetSourcePlayable
-  // Il2CppName: GetSourcePlayable
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutputExtensions::SetSourcePlayable
-  // Il2CppName: SetSourcePlayable
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutputExtensions::GetSourceOutputPort
-  // Il2CppName: GetSourceOutputPort
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutputExtensions::SetWeight
-  // Il2CppName: SetWeight
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutputExtensions::PushNotification
-  // Il2CppName: PushNotification
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableOutputExtensions::AddNotificationReceiver
-  // Il2CppName: AddNotificationReceiver
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputExtensions*, "UnityEngine.Playables", "PlayableOutputExtensions");
+// Writing MetadataGetter for method: PlayableOutputExtensions::SetReferenceObject
+// Il2CppName: SetReferenceObject
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutputExtensions::SetUserData
+// Il2CppName: SetUserData
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutputExtensions::GetSourcePlayable
+// Il2CppName: GetSourcePlayable
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutputExtensions::SetSourcePlayable
+// Il2CppName: SetSourcePlayable
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutputExtensions::GetSourceOutputPort
+// Il2CppName: GetSourceOutputPort
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutputExtensions::SetWeight
+// Il2CppName: SetWeight
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutputExtensions::PushNotification
+// Il2CppName: PushNotification
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableOutputExtensions::AddNotificationReceiver
+// Il2CppName: AddNotificationReceiver
+// Cannot write MetadataGetter for generic methods!

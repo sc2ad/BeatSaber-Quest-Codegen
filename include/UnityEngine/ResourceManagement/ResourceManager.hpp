@@ -279,68 +279,6 @@ namespace UnityEngine::ResourceManagement {
     #pragma pack(pop)
     static check_size<sizeof(ResourceManager::DiagnosticEventContext), 48 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventContextSizeCheck;
     static_assert(sizeof(ResourceManager::DiagnosticEventContext) == 0x38);
-    // Writing MetadataGetter for method: ResourceManager::DiagnosticEventContext::get_OperationHandle
-    // Il2CppName: get_OperationHandle
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (ResourceManager::DiagnosticEventContext::*)()>(&ResourceManager::DiagnosticEventContext::get_OperationHandle)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), "get_OperationHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ResourceManager::DiagnosticEventContext::get_Type
-    // Il2CppName: get_Type
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType (ResourceManager::DiagnosticEventContext::*)()>(&ResourceManager::DiagnosticEventContext::get_Type)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ResourceManager::DiagnosticEventContext::get_EventValue
-    // Il2CppName: get_EventValue
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::DiagnosticEventContext::*)()>(&ResourceManager::DiagnosticEventContext::get_EventValue)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), "get_EventValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ResourceManager::DiagnosticEventContext::get_Location
-    // Il2CppName: get_Location
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (ResourceManager::DiagnosticEventContext::*)()>(&ResourceManager::DiagnosticEventContext::get_Location)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ResourceManager::DiagnosticEventContext::get_Context
-    // Il2CppName: get_Context
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceManager::DiagnosticEventContext::*)()>(&ResourceManager::DiagnosticEventContext::get_Context)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ResourceManager::DiagnosticEventContext::get_Error
-    // Il2CppName: get_Error
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManager::DiagnosticEventContext::*)()>(&ResourceManager::DiagnosticEventContext::get_Error)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: ResourceManager::DiagnosticEventContext::DiagnosticEventContext
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::DiagnosticEventContext::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppString*, ::Il2CppObject*)>(&ResourceManager::DiagnosticEventContext::DiagnosticEventContext<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::DiagnosticEventContext::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppString*, ::Il2CppObject*)>(&ResourceManager::DiagnosticEventContext::DiagnosticEventContext<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(ResourceManager::DiagnosticEventContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-      }
-    };
     // System.Boolean postProfilerEvents
     // Size: 0x1
     // Offset: 0x10
@@ -775,460 +713,460 @@ namespace UnityEngine::ResourceManagement {
   #pragma pack(pop)
   static check_size<sizeof(ResourceManager), 176 + sizeof(System::Collections::Generic::Dictionary_2<System::Type*, System::Type*>*)> __UnityEngine_ResourceManagement_ResourceManagerSizeCheck;
   static_assert(sizeof(ResourceManager) == 0xB8);
-  // Writing MetadataGetter for method: ResourceManager::get_ExceptionHandler
-  // Il2CppName: get_ExceptionHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>* (*)()>(&ResourceManager::get_ExceptionHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_ExceptionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::set_ExceptionHandler
-  // Il2CppName: set_ExceptionHandler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>*)>(&ResourceManager::set_ExceptionHandler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_ExceptionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::get_InternalIdTransformFunc
-  // Il2CppName: get_InternalIdTransformFunc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* (ResourceManager::*)()>(&ResourceManager::get_InternalIdTransformFunc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::set_InternalIdTransformFunc
-  // Il2CppName: set_InternalIdTransformFunc
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*)>(&ResourceManager::set_InternalIdTransformFunc)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::TransformInternalId
-  // Il2CppName: TransformInternalId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&ResourceManager::TransformInternalId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "TransformInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::get_OperationCacheCount
-  // Il2CppName: get_OperationCacheCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)()>(&ResourceManager::get_OperationCacheCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_OperationCacheCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::get_InstanceOperationCount
-  // Il2CppName: get_InstanceOperationCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)()>(&ResourceManager::get_InstanceOperationCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_InstanceOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::AddUpdateReceiver
-  // Il2CppName: AddUpdateReceiver
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&ResourceManager::AddUpdateReceiver)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "AddUpdateReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::IUpdateReceiver*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::RemoveUpdateReciever
-  // Il2CppName: RemoveUpdateReciever
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&ResourceManager::RemoveUpdateReciever)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RemoveUpdateReciever", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::IUpdateReceiver*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::get_Allocator
-  // Il2CppName: get_Allocator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy* (ResourceManager::*)()>(&ResourceManager::get_Allocator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_Allocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::set_Allocator
-  // Il2CppName: set_Allocator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&ResourceManager::set_Allocator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_Allocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::get_ResourceProviders
-  // Il2CppName: get_ResourceProviders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* (ResourceManager::*)()>(&ResourceManager::get_ResourceProviders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_ResourceProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::get_CertificateHandlerInstance
-  // Il2CppName: get_CertificateHandlerInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::CertificateHandler* (ResourceManager::*)()>(&ResourceManager::get_CertificateHandlerInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_CertificateHandlerInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::set_CertificateHandlerInstance
-  // Il2CppName: set_CertificateHandlerInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::Networking::CertificateHandler*)>(&ResourceManager::set_CertificateHandlerInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_CertificateHandlerInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::CertificateHandler*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&ResourceManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&ResourceManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::OnObjectAdded
-  // Il2CppName: OnObjectAdded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(::Il2CppObject*)>(&ResourceManager::OnObjectAdded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnObjectAdded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::OnObjectRemoved
-  // Il2CppName: OnObjectRemoved
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(::Il2CppObject*)>(&ResourceManager::OnObjectRemoved)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnObjectRemoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::RegisterForCallbacks
-  // Il2CppName: RegisterForCallbacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::RegisterForCallbacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterForCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ClearDiagnosticsCallback
-  // Il2CppName: ClearDiagnosticsCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::ClearDiagnosticsCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ClearDiagnosticsCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ClearDiagnosticCallbacks
-  // Il2CppName: ClearDiagnosticCallbacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::ClearDiagnosticCallbacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ClearDiagnosticCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::UnregisterDiagnosticCallback
-  // Il2CppName: UnregisterDiagnosticCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*)>(&ResourceManager::UnregisterDiagnosticCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "UnregisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::RegisterDiagnosticCallback
-  // Il2CppName: RegisterDiagnosticCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*)>(&ResourceManager::RegisterDiagnosticCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::RegisterDiagnosticCallback
-  // Il2CppName: RegisterDiagnosticCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*)>(&ResourceManager::RegisterDiagnosticCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::PostDiagnosticEvent
-  // Il2CppName: PostDiagnosticEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext)>(&ResourceManager::PostDiagnosticEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "PostDiagnosticEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::GetResourceProvider
-  // Il2CppName: GetResourceProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* (ResourceManager::*)(System::Type*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&ResourceManager::GetResourceProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "GetResourceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::GetDefaultTypeForLocation
-  // Il2CppName: GetDefaultTypeForLocation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&ResourceManager::GetDefaultTypeForLocation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "GetDefaultTypeForLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::CalculateLocationsHash
-  // Il2CppName: CalculateLocationsHash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, System::Type*)>(&ResourceManager::CalculateLocationsHash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CalculateLocationsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ProvideResource
-  // Il2CppName: ProvideResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, System::Type*, bool)>(&ResourceManager::ProvideResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ProvideResource
-  // Il2CppName: ProvideResource
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::StartOperation
-  // Il2CppName: StartOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::StartOperation
-  // Il2CppName: StartOperation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManager::StartOperation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::OnInstanceOperationDestroy
-  // Il2CppName: OnInstanceOperationDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::OnInstanceOperationDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnInstanceOperationDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::OnOperationDestroyNonCached
-  // Il2CppName: OnOperationDestroyNonCached
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::OnOperationDestroyNonCached)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnOperationDestroyNonCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::OnOperationDestroyCached
-  // Il2CppName: OnOperationDestroyCached
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::OnOperationDestroyCached)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnOperationDestroyCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::CreateOperation
-  // Il2CppName: CreateOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::AddOperationToCache
-  // Il2CppName: AddOperationToCache
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(int, UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::AddOperationToCache)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "AddOperationToCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::RemoveOperationFromCache
-  // Il2CppName: RemoveOperationFromCache
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManager::*)(int)>(&ResourceManager::RemoveOperationFromCache)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RemoveOperationFromCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::IsOperationCached
-  // Il2CppName: IsOperationCached
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManager::*)(int)>(&ResourceManager::IsOperationCached)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "IsOperationCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::CachedOperationCount
-  // Il2CppName: CachedOperationCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)()>(&ResourceManager::CachedOperationCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CachedOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::CreateCompletedOperation
-  // Il2CppName: CreateCompletedOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::CreateCompletedOperationInternal
-  // Il2CppName: CreateCompletedOperationInternal
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManager::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::Acquire
-  // Il2CppName: Acquire
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManager::Acquire)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::AcquireGroupOpFromCache
-  // Il2CppName: AcquireGroupOpFromCache
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* (ResourceManager::*)(int)>(&ResourceManager::AcquireGroupOpFromCache)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "AcquireGroupOpFromCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::CreateGroupOperation
-  // Il2CppName: CreateGroupOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::CreateGroupOperation
-  // Il2CppName: CreateGroupOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::CreateGenericGroupOperation
-  // Il2CppName: CreateGenericGroupOperation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> (ResourceManager::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool)>(&ResourceManager::CreateGenericGroupOperation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CreateGenericGroupOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ProvideResourceGroupCached
-  // Il2CppName: ProvideResourceGroupCached
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> (ResourceManager::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, int, System::Type*, System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool)>(&ResourceManager::ProvideResourceGroupCached)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideResourceGroupCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ProvideResources
-  // Il2CppName: ProvideResources
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::ProvideResources
-  // Il2CppName: ProvideResources
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::CreateChainOperation
-  // Il2CppName: CreateChainOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::CreateChainOperation
-  // Il2CppName: CreateChainOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::CreateChainOperation
-  // Il2CppName: CreateChainOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::CreateChainOperation
-  // Il2CppName: CreateChainOperation
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ResourceManager::ProvideScene
-  // Il2CppName: ProvideScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::SceneManagement::LoadSceneMode, bool, int)>(&ResourceManager::ProvideScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ReleaseScene
-  // Il2CppName: ReleaseScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&ResourceManager::ReleaseScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ReleaseScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ProvideInstance
-  // Il2CppName: ProvideInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters)>(&ResourceManager::ProvideInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::CleanupSceneInstances
-  // Il2CppName: CleanupSceneInstances
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::SceneManagement::Scene)>(&ResourceManager::CleanupSceneInstances)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CleanupSceneInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::ExecuteDeferredCallbacks
-  // Il2CppName: ExecuteDeferredCallbacks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::ExecuteDeferredCallbacks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ExecuteDeferredCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::RegisterForDeferredCallback
-  // Il2CppName: RegisterForDeferredCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, bool)>(&ResourceManager::RegisterForDeferredCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterForDeferredCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(float)>(&ResourceManager::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ResourceManager::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManager::$_ctor$b__45_0
-  // Il2CppName: <.ctor>b__45_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&ResourceManager::$_ctor$b__45_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "<.ctor>b__45_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::IUpdateReceiver*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager*, "UnityEngine.ResourceManagement", "ResourceManager");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext");
+// Writing MetadataGetter for method: ResourceManager::get_ExceptionHandler
+// Il2CppName: get_ExceptionHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>* (*)()>(&ResourceManager::get_ExceptionHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_ExceptionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::set_ExceptionHandler
+// Il2CppName: set_ExceptionHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>*)>(&ResourceManager::set_ExceptionHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_ExceptionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::get_InternalIdTransformFunc
+// Il2CppName: get_InternalIdTransformFunc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* (ResourceManager::*)()>(&ResourceManager::get_InternalIdTransformFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::set_InternalIdTransformFunc
+// Il2CppName: set_InternalIdTransformFunc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*)>(&ResourceManager::set_InternalIdTransformFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::TransformInternalId
+// Il2CppName: TransformInternalId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&ResourceManager::TransformInternalId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "TransformInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::get_OperationCacheCount
+// Il2CppName: get_OperationCacheCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)()>(&ResourceManager::get_OperationCacheCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_OperationCacheCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::get_InstanceOperationCount
+// Il2CppName: get_InstanceOperationCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)()>(&ResourceManager::get_InstanceOperationCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_InstanceOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::AddUpdateReceiver
+// Il2CppName: AddUpdateReceiver
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&ResourceManager::AddUpdateReceiver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "AddUpdateReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::IUpdateReceiver*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::RemoveUpdateReciever
+// Il2CppName: RemoveUpdateReciever
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&ResourceManager::RemoveUpdateReciever)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RemoveUpdateReciever", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::IUpdateReceiver*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::get_Allocator
+// Il2CppName: get_Allocator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy* (ResourceManager::*)()>(&ResourceManager::get_Allocator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_Allocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::set_Allocator
+// Il2CppName: set_Allocator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&ResourceManager::set_Allocator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_Allocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::get_ResourceProviders
+// Il2CppName: get_ResourceProviders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* (ResourceManager::*)()>(&ResourceManager::get_ResourceProviders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_ResourceProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::get_CertificateHandlerInstance
+// Il2CppName: get_CertificateHandlerInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::CertificateHandler* (ResourceManager::*)()>(&ResourceManager::get_CertificateHandlerInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "get_CertificateHandlerInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::set_CertificateHandlerInstance
+// Il2CppName: set_CertificateHandlerInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::Networking::CertificateHandler*)>(&ResourceManager::set_CertificateHandlerInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "set_CertificateHandlerInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::CertificateHandler*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&ResourceManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&ResourceManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::OnObjectAdded
+// Il2CppName: OnObjectAdded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(::Il2CppObject*)>(&ResourceManager::OnObjectAdded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnObjectAdded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::OnObjectRemoved
+// Il2CppName: OnObjectRemoved
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(::Il2CppObject*)>(&ResourceManager::OnObjectRemoved)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnObjectRemoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::RegisterForCallbacks
+// Il2CppName: RegisterForCallbacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::RegisterForCallbacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterForCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ClearDiagnosticsCallback
+// Il2CppName: ClearDiagnosticsCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::ClearDiagnosticsCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ClearDiagnosticsCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ClearDiagnosticCallbacks
+// Il2CppName: ClearDiagnosticCallbacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::ClearDiagnosticCallbacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ClearDiagnosticCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::UnregisterDiagnosticCallback
+// Il2CppName: UnregisterDiagnosticCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*)>(&ResourceManager::UnregisterDiagnosticCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "UnregisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::RegisterDiagnosticCallback
+// Il2CppName: RegisterDiagnosticCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*)>(&ResourceManager::RegisterDiagnosticCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::RegisterDiagnosticCallback
+// Il2CppName: RegisterDiagnosticCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*)>(&ResourceManager::RegisterDiagnosticCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::PostDiagnosticEvent
+// Il2CppName: PostDiagnosticEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext)>(&ResourceManager::PostDiagnosticEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "PostDiagnosticEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::GetResourceProvider
+// Il2CppName: GetResourceProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* (ResourceManager::*)(System::Type*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&ResourceManager::GetResourceProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "GetResourceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::GetDefaultTypeForLocation
+// Il2CppName: GetDefaultTypeForLocation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&ResourceManager::GetDefaultTypeForLocation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "GetDefaultTypeForLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::CalculateLocationsHash
+// Il2CppName: CalculateLocationsHash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, System::Type*)>(&ResourceManager::CalculateLocationsHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CalculateLocationsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ProvideResource
+// Il2CppName: ProvideResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, System::Type*, bool)>(&ResourceManager::ProvideResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ProvideResource
+// Il2CppName: ProvideResource
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::StartOperation
+// Il2CppName: StartOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::StartOperation
+// Il2CppName: StartOperation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManager::StartOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::OnInstanceOperationDestroy
+// Il2CppName: OnInstanceOperationDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::OnInstanceOperationDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnInstanceOperationDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::OnOperationDestroyNonCached
+// Il2CppName: OnOperationDestroyNonCached
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::OnOperationDestroyNonCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnOperationDestroyNonCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::OnOperationDestroyCached
+// Il2CppName: OnOperationDestroyCached
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::OnOperationDestroyCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "OnOperationDestroyCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::CreateOperation
+// Il2CppName: CreateOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::AddOperationToCache
+// Il2CppName: AddOperationToCache
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(int, UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&ResourceManager::AddOperationToCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "AddOperationToCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::RemoveOperationFromCache
+// Il2CppName: RemoveOperationFromCache
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManager::*)(int)>(&ResourceManager::RemoveOperationFromCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RemoveOperationFromCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::IsOperationCached
+// Il2CppName: IsOperationCached
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManager::*)(int)>(&ResourceManager::IsOperationCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "IsOperationCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::CachedOperationCount
+// Il2CppName: CachedOperationCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManager::*)()>(&ResourceManager::CachedOperationCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CachedOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::CreateCompletedOperation
+// Il2CppName: CreateCompletedOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::CreateCompletedOperationInternal
+// Il2CppName: CreateCompletedOperationInternal
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManager::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::Acquire
+// Il2CppName: Acquire
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&ResourceManager::Acquire)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::AcquireGroupOpFromCache
+// Il2CppName: AcquireGroupOpFromCache
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* (ResourceManager::*)(int)>(&ResourceManager::AcquireGroupOpFromCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "AcquireGroupOpFromCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::CreateGroupOperation
+// Il2CppName: CreateGroupOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::CreateGroupOperation
+// Il2CppName: CreateGroupOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::CreateGenericGroupOperation
+// Il2CppName: CreateGenericGroupOperation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> (ResourceManager::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool)>(&ResourceManager::CreateGenericGroupOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CreateGenericGroupOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ProvideResourceGroupCached
+// Il2CppName: ProvideResourceGroupCached
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> (ResourceManager::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, int, System::Type*, System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool)>(&ResourceManager::ProvideResourceGroupCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideResourceGroupCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ProvideResources
+// Il2CppName: ProvideResources
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::ProvideResources
+// Il2CppName: ProvideResources
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::CreateChainOperation
+// Il2CppName: CreateChainOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::CreateChainOperation
+// Il2CppName: CreateChainOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::CreateChainOperation
+// Il2CppName: CreateChainOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::CreateChainOperation
+// Il2CppName: CreateChainOperation
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ResourceManager::ProvideScene
+// Il2CppName: ProvideScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::SceneManagement::LoadSceneMode, bool, int)>(&ResourceManager::ProvideScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ReleaseScene
+// Il2CppName: ReleaseScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&ResourceManager::ReleaseScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ReleaseScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ProvideInstance
+// Il2CppName: ProvideInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters)>(&ResourceManager::ProvideInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ProvideInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::CleanupSceneInstances
+// Il2CppName: CleanupSceneInstances
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::SceneManagement::Scene)>(&ResourceManager::CleanupSceneInstances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "CleanupSceneInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::ExecuteDeferredCallbacks
+// Il2CppName: ExecuteDeferredCallbacks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::ExecuteDeferredCallbacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "ExecuteDeferredCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::RegisterForDeferredCallback
+// Il2CppName: RegisterForDeferredCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, bool)>(&ResourceManager::RegisterForDeferredCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "RegisterForDeferredCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(float)>(&ResourceManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)()>(&ResourceManager::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ResourceManager::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManager::$_ctor$b__45_0
+// Il2CppName: <.ctor>b__45_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&ResourceManager::$_ctor$b__45_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManager*), "<.ctor>b__45_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::IUpdateReceiver*>()});
+  }
+};

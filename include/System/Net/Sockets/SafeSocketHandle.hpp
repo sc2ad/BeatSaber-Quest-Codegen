@@ -104,51 +104,51 @@ namespace System::Net::Sockets {
   #pragma pack(pop)
   static check_size<sizeof(SafeSocketHandle), 48 + sizeof(bool)> __System_Net_Sockets_SafeSocketHandleSizeCheck;
   static_assert(sizeof(SafeSocketHandle) == 0x31);
-  // Writing MetadataGetter for method: SafeSocketHandle::RegisterForBlockingSyscall
-  // Il2CppName: RegisterForBlockingSyscall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)()>(&SafeSocketHandle::RegisterForBlockingSyscall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), "RegisterForBlockingSyscall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SafeSocketHandle::UnRegisterForBlockingSyscall
-  // Il2CppName: UnRegisterForBlockingSyscall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)()>(&SafeSocketHandle::UnRegisterForBlockingSyscall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), "UnRegisterForBlockingSyscall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SafeSocketHandle::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SafeSocketHandle::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SafeSocketHandle::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)(System::IntPtr, bool)>(&SafeSocketHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)(System::IntPtr, bool)>(&SafeSocketHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SafeSocketHandle::ReleaseHandle
-  // Il2CppName: ReleaseHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SafeSocketHandle::*)()>(&SafeSocketHandle::ReleaseHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle*, "System.Net.Sockets", "SafeSocketHandle");
+// Writing MetadataGetter for method: SafeSocketHandle::RegisterForBlockingSyscall
+// Il2CppName: RegisterForBlockingSyscall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)()>(&SafeSocketHandle::RegisterForBlockingSyscall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), "RegisterForBlockingSyscall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SafeSocketHandle::UnRegisterForBlockingSyscall
+// Il2CppName: UnRegisterForBlockingSyscall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)()>(&SafeSocketHandle::UnRegisterForBlockingSyscall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), "UnRegisterForBlockingSyscall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SafeSocketHandle::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SafeSocketHandle::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SafeSocketHandle::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)(System::IntPtr, bool)>(&SafeSocketHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeSocketHandle::*)(System::IntPtr, bool)>(&SafeSocketHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SafeSocketHandle::ReleaseHandle
+// Il2CppName: ReleaseHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SafeSocketHandle::*)()>(&SafeSocketHandle::ReleaseHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SafeSocketHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

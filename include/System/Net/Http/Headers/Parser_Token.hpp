@@ -24,22 +24,22 @@ namespace System::Net::Http::Headers {
     static bool TryCheck(::Il2CppString* s);
   }; // System.Net.Http.Headers.Parser/Token
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Parser::Token::Check
-  // Il2CppName: Check
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Parser::Token::Check)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Parser::Token*), "Check", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Parser::Token::TryCheck
-  // Il2CppName: TryCheck
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Parser::Token::TryCheck)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Parser::Token*), "TryCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Token*, "System.Net.Http.Headers", "Parser/Token");
+// Writing MetadataGetter for method: Parser::Token::Check
+// Il2CppName: Check
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Parser::Token::Check)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Parser::Token*), "Check", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Parser::Token::TryCheck
+// Il2CppName: TryCheck
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Parser::Token::TryCheck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Parser::Token*), "TryCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

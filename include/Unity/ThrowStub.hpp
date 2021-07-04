@@ -21,14 +21,14 @@ namespace Unity {
     static void ThrowNotSupportedException();
   }; // Unity.ThrowStub
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ThrowStub::ThrowNotSupportedException
-  // Il2CppName: ThrowNotSupportedException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ThrowStub::ThrowNotSupportedException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ThrowStub*), "ThrowNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::ThrowStub*, "Unity", "ThrowStub");
+// Writing MetadataGetter for method: ThrowStub::ThrowNotSupportedException
+// Il2CppName: ThrowNotSupportedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ThrowStub::ThrowNotSupportedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ThrowStub*), "ThrowNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

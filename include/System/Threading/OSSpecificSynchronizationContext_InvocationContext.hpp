@@ -53,27 +53,27 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(OSSpecificSynchronizationContext::InvocationContext), 24 + sizeof(::Il2CppObject*)> __System_Threading_OSSpecificSynchronizationContext_InvocationContextSizeCheck;
   static_assert(sizeof(OSSpecificSynchronizationContext::InvocationContext) == 0x20);
-  // Writing MetadataGetter for method: OSSpecificSynchronizationContext::InvocationContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OSSpecificSynchronizationContext::InvocationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&OSSpecificSynchronizationContext::InvocationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OSSpecificSynchronizationContext::InvocationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OSSpecificSynchronizationContext::InvocationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&OSSpecificSynchronizationContext::InvocationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OSSpecificSynchronizationContext::InvocationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OSSpecificSynchronizationContext::InvocationContext::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OSSpecificSynchronizationContext::InvocationContext::*)()>(&OSSpecificSynchronizationContext::InvocationContext::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OSSpecificSynchronizationContext::InvocationContext*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::InvocationContext*, "System.Threading", "OSSpecificSynchronizationContext/InvocationContext");
+// Writing MetadataGetter for method: OSSpecificSynchronizationContext::InvocationContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OSSpecificSynchronizationContext::InvocationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&OSSpecificSynchronizationContext::InvocationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OSSpecificSynchronizationContext::InvocationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OSSpecificSynchronizationContext::InvocationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&OSSpecificSynchronizationContext::InvocationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OSSpecificSynchronizationContext::InvocationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: OSSpecificSynchronizationContext::InvocationContext::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OSSpecificSynchronizationContext::InvocationContext::*)()>(&OSSpecificSynchronizationContext::InvocationContext::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OSSpecificSynchronizationContext::InvocationContext*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

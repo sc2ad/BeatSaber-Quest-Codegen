@@ -127,67 +127,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyAvatarController), 56 + sizeof(::Array<UnityEngine::GameObject*>*)> __GlobalNamespace_MultiplayerLobbyAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarController) == 0x40);
-  // Writing MetadataGetter for method: MultiplayerLobbyAvatarController::ShowSpawnAnimation
-  // Il2CppName: ShowSpawnAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&MultiplayerLobbyAvatarController::ShowSpawnAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "ShowSpawnAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLobbyAvatarController::SpawnAnimationCoroutine
-  // Il2CppName: SpawnAnimationCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::SpawnAnimationCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "SpawnAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLobbyAvatarController::ActivateVisualObjects
-  // Il2CppName: ActivateVisualObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)(bool)>(&MultiplayerLobbyAvatarController::ActivateVisualObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "ActivateVisualObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLobbyAvatarController::ShowDespawnAnimationAndDestroy
-  // Il2CppName: ShowDespawnAnimationAndDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::ShowDespawnAnimationAndDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "ShowDespawnAnimationAndDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLobbyAvatarController::DestroySelf
-  // Il2CppName: DestroySelf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::DestroySelf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "DestroySelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLobbyAvatarController::DespawnAnimationCoroutine
-  // Il2CppName: DespawnAnimationCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::DespawnAnimationCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "DespawnAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerLobbyAvatarController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController*, "", "MultiplayerLobbyAvatarController");
+// Writing MetadataGetter for method: MultiplayerLobbyAvatarController::ShowSpawnAnimation
+// Il2CppName: ShowSpawnAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&MultiplayerLobbyAvatarController::ShowSpawnAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "ShowSpawnAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLobbyAvatarController::SpawnAnimationCoroutine
+// Il2CppName: SpawnAnimationCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::SpawnAnimationCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "SpawnAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLobbyAvatarController::ActivateVisualObjects
+// Il2CppName: ActivateVisualObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)(bool)>(&MultiplayerLobbyAvatarController::ActivateVisualObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "ActivateVisualObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLobbyAvatarController::ShowDespawnAnimationAndDestroy
+// Il2CppName: ShowDespawnAnimationAndDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::ShowDespawnAnimationAndDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "ShowDespawnAnimationAndDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLobbyAvatarController::DestroySelf
+// Il2CppName: DestroySelf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::DestroySelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "DestroySelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLobbyAvatarController::DespawnAnimationCoroutine
+// Il2CppName: DespawnAnimationCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::DespawnAnimationCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), "DespawnAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerLobbyAvatarController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarController::*)()>(&MultiplayerLobbyAvatarController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

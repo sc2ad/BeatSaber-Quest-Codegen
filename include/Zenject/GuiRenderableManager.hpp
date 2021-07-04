@@ -72,27 +72,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(GuiRenderableManager), 16 + sizeof(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*)> __Zenject_GuiRenderableManagerSizeCheck;
   static_assert(sizeof(GuiRenderableManager) == 0x18);
-  // Writing MetadataGetter for method: GuiRenderableManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::*)(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&GuiRenderableManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::*)(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&GuiRenderableManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GuiRenderableManager::OnGui
-  // Il2CppName: OnGui
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::*)()>(&GuiRenderableManager::OnGui)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager*), "OnGui", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager*, "Zenject", "GuiRenderableManager");
+// Writing MetadataGetter for method: GuiRenderableManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::*)(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&GuiRenderableManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::*)(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&GuiRenderableManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IGuiRenderable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GuiRenderableManager::OnGui
+// Il2CppName: OnGui
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::*)()>(&GuiRenderableManager::OnGui)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager*), "OnGui", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

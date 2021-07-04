@@ -223,155 +223,155 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(RagdollUtility), 112 + sizeof(::Array<bool>*)> __RootMotion_FinalIK_RagdollUtilitySizeCheck;
   static_assert(sizeof(RagdollUtility) == 0x78);
-  // Writing MetadataGetter for method: RagdollUtility::EnableRagdoll
-  // Il2CppName: EnableRagdoll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::EnableRagdoll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "EnableRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::DisableRagdoll
-  // Il2CppName: DisableRagdoll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::DisableRagdoll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "DisableRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::DisableRagdollSmooth
-  // Il2CppName: DisableRagdollSmooth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RagdollUtility::*)()>(&RagdollUtility::DisableRagdollSmooth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "DisableRagdollSmooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::FixedUpdate
-  // Il2CppName: FixedUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::FixedUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::LateUpdate
-  // Il2CppName: LateUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::LateUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::AfterLastIK
-  // Il2CppName: AfterLastIK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::AfterLastIK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "AfterLastIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::AfterAnimation
-  // Il2CppName: AfterAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::AfterAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "AfterAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::OnFinalPose
-  // Il2CppName: OnFinalPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::OnFinalPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "OnFinalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::RagdollEnabler
-  // Il2CppName: RagdollEnabler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::RagdollEnabler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "RagdollEnabler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::get_isRagdoll
-  // Il2CppName: get_isRagdoll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RagdollUtility::*)()>(&RagdollUtility::get_isRagdoll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "get_isRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::RecordVelocities
-  // Il2CppName: RecordVelocities
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::RecordVelocities)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "RecordVelocities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::get_ikUsed
-  // Il2CppName: get_ikUsed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RagdollUtility::*)()>(&RagdollUtility::get_ikUsed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "get_ikUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::StoreLocalState
-  // Il2CppName: StoreLocalState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::StoreLocalState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "StoreLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::FixTransforms
-  // Il2CppName: FixTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)(float)>(&RagdollUtility::FixTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RagdollUtility::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility*, "RootMotion.FinalIK", "RagdollUtility");
+// Writing MetadataGetter for method: RagdollUtility::EnableRagdoll
+// Il2CppName: EnableRagdoll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::EnableRagdoll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "EnableRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::DisableRagdoll
+// Il2CppName: DisableRagdoll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::DisableRagdoll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "DisableRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::DisableRagdollSmooth
+// Il2CppName: DisableRagdollSmooth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RagdollUtility::*)()>(&RagdollUtility::DisableRagdollSmooth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "DisableRagdollSmooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::FixedUpdate
+// Il2CppName: FixedUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::AfterLastIK
+// Il2CppName: AfterLastIK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::AfterLastIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "AfterLastIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::AfterAnimation
+// Il2CppName: AfterAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::AfterAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "AfterAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::OnFinalPose
+// Il2CppName: OnFinalPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::OnFinalPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "OnFinalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::RagdollEnabler
+// Il2CppName: RagdollEnabler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::RagdollEnabler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "RagdollEnabler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::get_isRagdoll
+// Il2CppName: get_isRagdoll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RagdollUtility::*)()>(&RagdollUtility::get_isRagdoll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "get_isRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::RecordVelocities
+// Il2CppName: RecordVelocities
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::RecordVelocities)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "RecordVelocities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::get_ikUsed
+// Il2CppName: get_ikUsed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RagdollUtility::*)()>(&RagdollUtility::get_ikUsed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "get_ikUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::StoreLocalState
+// Il2CppName: StoreLocalState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::StoreLocalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "StoreLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::FixTransforms
+// Il2CppName: FixTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)(float)>(&RagdollUtility::FixTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RagdollUtility::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::*)()>(&RagdollUtility::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RagdollUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

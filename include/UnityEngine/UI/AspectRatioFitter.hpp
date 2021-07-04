@@ -200,140 +200,140 @@ namespace UnityEngine::UI {
     void OnRectTransformDimensionsChange();
   }; // UnityEngine.UI.AspectRatioFitter
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: AspectRatioFitter::get_aspectMode
-  // Il2CppName: get_aspectMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::AspectRatioFitter::AspectMode (AspectRatioFitter::*)()>(&AspectRatioFitter::get_aspectMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "get_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::set_aspectMode
-  // Il2CppName: set_aspectMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)(UnityEngine::UI::AspectRatioFitter::AspectMode)>(&AspectRatioFitter::set_aspectMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "set_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::AspectRatioFitter::AspectMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::get_aspectRatio
-  // Il2CppName: get_aspectRatio
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AspectRatioFitter::*)()>(&AspectRatioFitter::get_aspectRatio)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "get_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::set_aspectRatio
-  // Il2CppName: set_aspectRatio
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)(float)>(&AspectRatioFitter::set_aspectRatio)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "set_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::get_rectTransform
-  // Il2CppName: get_rectTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (AspectRatioFitter::*)()>(&AspectRatioFitter::get_rectTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::UpdateRect
-  // Il2CppName: UpdateRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::UpdateRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "UpdateRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::GetSizeDeltaToProduceSize
-  // Il2CppName: GetSizeDeltaToProduceSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AspectRatioFitter::*)(float, int)>(&AspectRatioFitter::GetSizeDeltaToProduceSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "GetSizeDeltaToProduceSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::GetParentSize
-  // Il2CppName: GetParentSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (AspectRatioFitter::*)()>(&AspectRatioFitter::GetParentSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "GetParentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::SetLayoutHorizontal
-  // Il2CppName: SetLayoutHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::SetLayoutHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::SetLayoutVertical
-  // Il2CppName: SetLayoutVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::SetLayoutVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::SetDirty
-  // Il2CppName: SetDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::SetDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AspectRatioFitter::OnRectTransformDimensionsChange
-  // Il2CppName: OnRectTransformDimensionsChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::OnRectTransformDimensionsChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter*, "UnityEngine.UI", "AspectRatioFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter::AspectMode, "UnityEngine.UI", "AspectRatioFitter/AspectMode");
+// Writing MetadataGetter for method: AspectRatioFitter::get_aspectMode
+// Il2CppName: get_aspectMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::AspectRatioFitter::AspectMode (AspectRatioFitter::*)()>(&AspectRatioFitter::get_aspectMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "get_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::set_aspectMode
+// Il2CppName: set_aspectMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)(UnityEngine::UI::AspectRatioFitter::AspectMode)>(&AspectRatioFitter::set_aspectMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "set_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::AspectRatioFitter::AspectMode>()});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::get_aspectRatio
+// Il2CppName: get_aspectRatio
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AspectRatioFitter::*)()>(&AspectRatioFitter::get_aspectRatio)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "get_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::set_aspectRatio
+// Il2CppName: set_aspectRatio
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)(float)>(&AspectRatioFitter::set_aspectRatio)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "set_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::get_rectTransform
+// Il2CppName: get_rectTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (AspectRatioFitter::*)()>(&AspectRatioFitter::get_rectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::UpdateRect
+// Il2CppName: UpdateRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::UpdateRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "UpdateRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::GetSizeDeltaToProduceSize
+// Il2CppName: GetSizeDeltaToProduceSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AspectRatioFitter::*)(float, int)>(&AspectRatioFitter::GetSizeDeltaToProduceSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "GetSizeDeltaToProduceSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::GetParentSize
+// Il2CppName: GetParentSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (AspectRatioFitter::*)()>(&AspectRatioFitter::GetParentSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "GetParentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::SetLayoutHorizontal
+// Il2CppName: SetLayoutHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::SetLayoutVertical
+// Il2CppName: SetLayoutVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::SetDirty
+// Il2CppName: SetDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::SetDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AspectRatioFitter::OnRectTransformDimensionsChange
+// Il2CppName: OnRectTransformDimensionsChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspectRatioFitter::*)()>(&AspectRatioFitter::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AspectRatioFitter*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

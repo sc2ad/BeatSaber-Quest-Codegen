@@ -90,91 +90,91 @@ namespace UnityEngine::TestTools::Logging {
   #pragma pack(pop)
   static check_size<sizeof(LogEvent), 36 + sizeof(bool)> __UnityEngine_TestTools_Logging_LogEventSizeCheck;
   static_assert(sizeof(LogEvent) == 0x25);
-  // Writing MetadataGetter for method: LogEvent::get_Message
-  // Il2CppName: get_Message
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LogEvent::*)()>(&LogEvent::get_Message)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::set_Message
-  // Il2CppName: set_Message
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(::Il2CppString*)>(&LogEvent::set_Message)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::get_StackTrace
-  // Il2CppName: get_StackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LogEvent::*)()>(&LogEvent::get_StackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::set_StackTrace
-  // Il2CppName: set_StackTrace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(::Il2CppString*)>(&LogEvent::set_StackTrace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::get_LogType
-  // Il2CppName: get_LogType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LogType (LogEvent::*)()>(&LogEvent::get_LogType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::set_LogType
-  // Il2CppName: set_LogType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(UnityEngine::LogType)>(&LogEvent::set_LogType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::get_IsHandled
-  // Il2CppName: get_IsHandled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LogEvent::*)()>(&LogEvent::get_IsHandled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_IsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::set_IsHandled
-  // Il2CppName: set_IsHandled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(bool)>(&LogEvent::set_IsHandled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_IsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LogEvent::*)()>(&LogEvent::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LogEvent::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)()>(&LogEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)()>(&LogEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
+// Writing MetadataGetter for method: LogEvent::get_Message
+// Il2CppName: get_Message
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LogEvent::*)()>(&LogEvent::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::set_Message
+// Il2CppName: set_Message
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(::Il2CppString*)>(&LogEvent::set_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::get_StackTrace
+// Il2CppName: get_StackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LogEvent::*)()>(&LogEvent::get_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::set_StackTrace
+// Il2CppName: set_StackTrace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(::Il2CppString*)>(&LogEvent::set_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::get_LogType
+// Il2CppName: get_LogType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LogType (LogEvent::*)()>(&LogEvent::get_LogType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::set_LogType
+// Il2CppName: set_LogType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(UnityEngine::LogType)>(&LogEvent::set_LogType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::get_IsHandled
+// Il2CppName: get_IsHandled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LogEvent::*)()>(&LogEvent::get_IsHandled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "get_IsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::set_IsHandled
+// Il2CppName: set_IsHandled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)(bool)>(&LogEvent::set_IsHandled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "set_IsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LogEvent::*)()>(&LogEvent::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LogEvent::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)()>(&LogEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogEvent::*)()>(&LogEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

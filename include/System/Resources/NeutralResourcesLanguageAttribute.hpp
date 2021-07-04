@@ -53,35 +53,35 @@ namespace System::Resources {
   #pragma pack(pop)
   static check_size<sizeof(NeutralResourcesLanguageAttribute), 24 + sizeof(System::Resources::UltimateResourceFallbackLocation)> __System_Resources_NeutralResourcesLanguageAttributeSizeCheck;
   static_assert(sizeof(NeutralResourcesLanguageAttribute) == 0x1C);
-  // Writing MetadataGetter for method: NeutralResourcesLanguageAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NeutralResourcesLanguageAttribute::*)(::Il2CppString*)>(&NeutralResourcesLanguageAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NeutralResourcesLanguageAttribute::*)(::Il2CppString*)>(&NeutralResourcesLanguageAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NeutralResourcesLanguageAttribute::get_CultureName
-  // Il2CppName: get_CultureName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NeutralResourcesLanguageAttribute::*)()>(&NeutralResourcesLanguageAttribute::get_CultureName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NeutralResourcesLanguageAttribute::get_Location
-  // Il2CppName: get_Location
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Resources::UltimateResourceFallbackLocation (NeutralResourcesLanguageAttribute::*)()>(&NeutralResourcesLanguageAttribute::get_Location)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::NeutralResourcesLanguageAttribute*, "System.Resources", "NeutralResourcesLanguageAttribute");
+// Writing MetadataGetter for method: NeutralResourcesLanguageAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NeutralResourcesLanguageAttribute::*)(::Il2CppString*)>(&NeutralResourcesLanguageAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NeutralResourcesLanguageAttribute::*)(::Il2CppString*)>(&NeutralResourcesLanguageAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: NeutralResourcesLanguageAttribute::get_CultureName
+// Il2CppName: get_CultureName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NeutralResourcesLanguageAttribute::*)()>(&NeutralResourcesLanguageAttribute::get_CultureName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NeutralResourcesLanguageAttribute::get_Location
+// Il2CppName: get_Location
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Resources::UltimateResourceFallbackLocation (NeutralResourcesLanguageAttribute::*)()>(&NeutralResourcesLanguageAttribute::get_Location)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NeutralResourcesLanguageAttribute*), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

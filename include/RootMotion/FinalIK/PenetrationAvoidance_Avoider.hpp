@@ -130,43 +130,43 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(PenetrationAvoidance::Avoider), 84 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_PenetrationAvoidance_AvoiderSizeCheck;
   static_assert(sizeof(PenetrationAvoidance::Avoider) == 0x60);
-  // Writing MetadataGetter for method: PenetrationAvoidance::Avoider::Solve
-  // Il2CppName: Solve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PenetrationAvoidance::Avoider::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float)>(&PenetrationAvoidance::Avoider::Solve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: PenetrationAvoidance::Avoider::GetOffsetTarget
-  // Il2CppName: GetOffsetTarget
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PenetrationAvoidance::Avoider::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*)>(&PenetrationAvoidance::Avoider::GetOffsetTarget)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), "GetOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PenetrationAvoidance::Avoider::Raycast
-  // Il2CppName: Raycast
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PenetrationAvoidance::Avoider::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&PenetrationAvoidance::Avoider::Raycast)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: PenetrationAvoidance::Avoider::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PenetrationAvoidance::Avoider::*)()>(&PenetrationAvoidance::Avoider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PenetrationAvoidance::Avoider::*)()>(&PenetrationAvoidance::Avoider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider");
+// Writing MetadataGetter for method: PenetrationAvoidance::Avoider::Solve
+// Il2CppName: Solve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PenetrationAvoidance::Avoider::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float)>(&PenetrationAvoidance::Avoider::Solve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PenetrationAvoidance::Avoider::GetOffsetTarget
+// Il2CppName: GetOffsetTarget
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PenetrationAvoidance::Avoider::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*)>(&PenetrationAvoidance::Avoider::GetOffsetTarget)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), "GetOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>()});
+  }
+};
+// Writing MetadataGetter for method: PenetrationAvoidance::Avoider::Raycast
+// Il2CppName: Raycast
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PenetrationAvoidance::Avoider::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&PenetrationAvoidance::Avoider::Raycast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: PenetrationAvoidance::Avoider::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PenetrationAvoidance::Avoider::*)()>(&PenetrationAvoidance::Avoider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PenetrationAvoidance::Avoider::*)()>(&PenetrationAvoidance::Avoider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PenetrationAvoidance::Avoider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

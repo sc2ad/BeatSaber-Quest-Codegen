@@ -57,35 +57,35 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(Dropdown::OptionDataList), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*)> __UnityEngine_UI_Dropdown_OptionDataListSizeCheck;
   static_assert(sizeof(Dropdown::OptionDataList) == 0x18);
-  // Writing MetadataGetter for method: Dropdown::OptionDataList::get_options
-  // Il2CppName: get_options
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* (Dropdown::OptionDataList::*)()>(&Dropdown::OptionDataList::get_options)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), "get_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Dropdown::OptionDataList::set_options
-  // Il2CppName: set_options
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::OptionDataList::*)(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*)>(&Dropdown::OptionDataList::set_options)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), "set_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Dropdown::OptionDataList::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::OptionDataList::*)()>(&Dropdown::OptionDataList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::OptionDataList::*)()>(&Dropdown::OptionDataList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::OptionDataList*, "UnityEngine.UI", "Dropdown/OptionDataList");
+// Writing MetadataGetter for method: Dropdown::OptionDataList::get_options
+// Il2CppName: get_options
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* (Dropdown::OptionDataList::*)()>(&Dropdown::OptionDataList::get_options)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), "get_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Dropdown::OptionDataList::set_options
+// Il2CppName: set_options
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::OptionDataList::*)(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*)>(&Dropdown::OptionDataList::set_options)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), "set_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Dropdown::OptionDataList::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::OptionDataList::*)()>(&Dropdown::OptionDataList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Dropdown::OptionDataList::*)()>(&Dropdown::OptionDataList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Dropdown::OptionDataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

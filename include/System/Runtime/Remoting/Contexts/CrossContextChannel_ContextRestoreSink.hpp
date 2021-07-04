@@ -75,35 +75,35 @@ namespace System::Runtime::Remoting::Contexts {
   #pragma pack(pop)
   static check_size<sizeof(CrossContextChannel::ContextRestoreSink), 32 + sizeof(System::Runtime::Remoting::Messaging::IMessage*)> __System_Runtime_Remoting_Contexts_CrossContextChannel_ContextRestoreSinkSizeCheck;
   static_assert(sizeof(CrossContextChannel::ContextRestoreSink) == 0x28);
-  // Writing MetadataGetter for method: CrossContextChannel::ContextRestoreSink::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*, System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Messaging::IMessage*)>(&CrossContextChannel::ContextRestoreSink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*, System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Messaging::IMessage*)>(&CrossContextChannel::ContextRestoreSink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CrossContextChannel::ContextRestoreSink::SyncProcessMessage
-  // Il2CppName: SyncProcessMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&CrossContextChannel::ContextRestoreSink::SyncProcessMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CrossContextChannel::ContextRestoreSink::AsyncProcessMessage
-  // Il2CppName: AsyncProcessMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&CrossContextChannel::ContextRestoreSink::AsyncProcessMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::CrossContextChannel::ContextRestoreSink*, "System.Runtime.Remoting.Contexts", "CrossContextChannel/ContextRestoreSink");
+// Writing MetadataGetter for method: CrossContextChannel::ContextRestoreSink::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*, System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Messaging::IMessage*)>(&CrossContextChannel::ContextRestoreSink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*, System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Messaging::IMessage*)>(&CrossContextChannel::ContextRestoreSink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: CrossContextChannel::ContextRestoreSink::SyncProcessMessage
+// Il2CppName: SyncProcessMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&CrossContextChannel::ContextRestoreSink::SyncProcessMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: CrossContextChannel::ContextRestoreSink::AsyncProcessMessage
+// Il2CppName: AsyncProcessMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (CrossContextChannel::ContextRestoreSink::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&CrossContextChannel::ContextRestoreSink::AsyncProcessMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CrossContextChannel::ContextRestoreSink*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};

@@ -25,22 +25,22 @@ namespace System::Security::Principal {
     ::Il2CppString* get_Name();
   }; // System.Security.Principal.IIdentity
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IIdentity::get_AuthenticationType
-  // Il2CppName: get_AuthenticationType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IIdentity::*)()>(&IIdentity::get_AuthenticationType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IIdentity::get_Name
-  // Il2CppName: get_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IIdentity::*)()>(&IIdentity::get_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::IIdentity*, "System.Security.Principal", "IIdentity");
+// Writing MetadataGetter for method: IIdentity::get_AuthenticationType
+// Il2CppName: get_AuthenticationType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IIdentity::*)()>(&IIdentity::get_AuthenticationType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IIdentity::get_Name
+// Il2CppName: get_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IIdentity::*)()>(&IIdentity::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

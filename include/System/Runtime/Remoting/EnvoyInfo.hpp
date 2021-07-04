@@ -55,27 +55,27 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
   static check_size<sizeof(EnvoyInfo), 16 + sizeof(System::Runtime::Remoting::Messaging::IMessageSink*)> __System_Runtime_Remoting_EnvoyInfoSizeCheck;
   static_assert(sizeof(EnvoyInfo) == 0x18);
-  // Writing MetadataGetter for method: EnvoyInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvoyInfo::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&EnvoyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnvoyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvoyInfo::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&EnvoyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnvoyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EnvoyInfo::get_EnvoySinks
-  // Il2CppName: get_EnvoySinks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (EnvoyInfo::*)()>(&EnvoyInfo::get_EnvoySinks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnvoyInfo*), "get_EnvoySinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::EnvoyInfo*, "System.Runtime.Remoting", "EnvoyInfo");
+// Writing MetadataGetter for method: EnvoyInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvoyInfo::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&EnvoyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnvoyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvoyInfo::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&EnvoyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnvoyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};
+// Writing MetadataGetter for method: EnvoyInfo::get_EnvoySinks
+// Il2CppName: get_EnvoySinks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (EnvoyInfo::*)()>(&EnvoyInfo::get_EnvoySinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnvoyInfo*), "get_EnvoySinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

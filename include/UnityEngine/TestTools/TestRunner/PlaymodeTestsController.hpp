@@ -165,91 +165,91 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
   static check_size<sizeof(PlaymodeTestsController), 80 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSizeCheck;
   static_assert(sizeof(PlaymodeTestsController) == 0x58);
-  // Writing MetadataGetter for method: PlaymodeTestsController::get_AssembliesWithTests
-  // Il2CppName: get_AssembliesWithTests
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::get_AssembliesWithTests)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "get_AssembliesWithTests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::set_AssembliesWithTests
-  // Il2CppName: set_AssembliesWithTests
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&PlaymodeTestsController::set_AssembliesWithTests)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "set_AssembliesWithTests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::IsControllerOnScene
-  // Il2CppName: IsControllerOnScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&PlaymodeTestsController::IsControllerOnScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "IsControllerOnScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::GetController
-  // Il2CppName: GetController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::TestRunner::PlaymodeTestsController* (*)()>(&PlaymodeTestsController::GetController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "GetController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::TestRunnerCoroutine
-  // Il2CppName: TestRunnerCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::TestRunnerCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "TestRunnerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::Run
-  // Il2CppName: Run
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::Run)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::Cleanup
-  // Il2CppName: Cleanup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)()>(&PlaymodeTestsController::Cleanup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::TryCleanup
-  // Il2CppName: TryCleanup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlaymodeTestsController::TryCleanup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "TryCleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlaymodeTestsController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)()>(&PlaymodeTestsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)()>(&PlaymodeTestsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController");
+// Writing MetadataGetter for method: PlaymodeTestsController::get_AssembliesWithTests
+// Il2CppName: get_AssembliesWithTests
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::get_AssembliesWithTests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "get_AssembliesWithTests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::set_AssembliesWithTests
+// Il2CppName: set_AssembliesWithTests
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&PlaymodeTestsController::set_AssembliesWithTests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "set_AssembliesWithTests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::IsControllerOnScene
+// Il2CppName: IsControllerOnScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&PlaymodeTestsController::IsControllerOnScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "IsControllerOnScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::GetController
+// Il2CppName: GetController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::TestRunner::PlaymodeTestsController* (*)()>(&PlaymodeTestsController::GetController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "GetController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::TestRunnerCoroutine
+// Il2CppName: TestRunnerCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::TestRunnerCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "TestRunnerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::Run
+// Il2CppName: Run
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PlaymodeTestsController::*)()>(&PlaymodeTestsController::Run)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::Cleanup
+// Il2CppName: Cleanup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)()>(&PlaymodeTestsController::Cleanup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::TryCleanup
+// Il2CppName: TryCleanup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlaymodeTestsController::TryCleanup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), "TryCleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlaymodeTestsController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)()>(&PlaymodeTestsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::*)()>(&PlaymodeTestsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -54,27 +54,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0), 16 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_PlayersSpecificSettingsAtGameStartModel_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0) == 0x18);
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0
-  // Il2CppName: <SaveFromNetSerializable>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::*)(GlobalNamespace::IConnectedPlayer*)>(&PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), "<SaveFromNetSerializable>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::*)()>(&PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::*)()>(&PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*, "", "PlayersSpecificSettingsAtGameStartModel/<>c__DisplayClass13_0");
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0
+// Il2CppName: <SaveFromNetSerializable>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::*)(GlobalNamespace::IConnectedPlayer*)>(&PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), "<SaveFromNetSerializable>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::*)()>(&PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::*)()>(&PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

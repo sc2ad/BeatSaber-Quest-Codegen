@@ -83,51 +83,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ToggleableCanvasGroup), 40 + sizeof(bool)> __GlobalNamespace_ToggleableCanvasGroupSizeCheck;
   static_assert(sizeof(ToggleableCanvasGroup) == 0x29);
-  // Writing MetadataGetter for method: ToggleableCanvasGroup::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ToggleableCanvasGroup::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ToggleableCanvasGroup::HandleToggleValueChanged
-  // Il2CppName: HandleToggleValueChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)(bool)>(&ToggleableCanvasGroup::HandleToggleValueChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "HandleToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ToggleableCanvasGroup::SetCanvasGroupData
-  // Il2CppName: SetCanvasGroupData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)(bool)>(&ToggleableCanvasGroup::SetCanvasGroupData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "SetCanvasGroupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ToggleableCanvasGroup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToggleableCanvasGroup*, "", "ToggleableCanvasGroup");
+// Writing MetadataGetter for method: ToggleableCanvasGroup::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ToggleableCanvasGroup::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ToggleableCanvasGroup::HandleToggleValueChanged
+// Il2CppName: HandleToggleValueChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)(bool)>(&ToggleableCanvasGroup::HandleToggleValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "HandleToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ToggleableCanvasGroup::SetCanvasGroupData
+// Il2CppName: SetCanvasGroupData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)(bool)>(&ToggleableCanvasGroup::SetCanvasGroupData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), "SetCanvasGroupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ToggleableCanvasGroup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleableCanvasGroup::*)()>(&ToggleableCanvasGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ToggleableCanvasGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

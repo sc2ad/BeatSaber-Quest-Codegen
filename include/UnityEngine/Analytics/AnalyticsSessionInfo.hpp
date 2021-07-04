@@ -48,22 +48,22 @@ namespace UnityEngine::Analytics {
     static void CallIdentityTokenChanged(::Il2CppString* token);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AnalyticsSessionInfo::CallSessionStateChanged
-  // Il2CppName: CallSessionStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool)>(&AnalyticsSessionInfo::CallSessionStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo*), "CallSessionStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Analytics::AnalyticsSessionState>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnalyticsSessionInfo::CallIdentityTokenChanged
-  // Il2CppName: CallIdentityTokenChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&AnalyticsSessionInfo::CallIdentityTokenChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo*), "CallIdentityTokenChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo*, "UnityEngine.Analytics", "AnalyticsSessionInfo");
+// Writing MetadataGetter for method: AnalyticsSessionInfo::CallSessionStateChanged
+// Il2CppName: CallSessionStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool)>(&AnalyticsSessionInfo::CallSessionStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo*), "CallSessionStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Analytics::AnalyticsSessionState>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AnalyticsSessionInfo::CallIdentityTokenChanged
+// Il2CppName: CallIdentityTokenChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&AnalyticsSessionInfo::CallIdentityTokenChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnalyticsSessionInfo*), "CallIdentityTokenChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

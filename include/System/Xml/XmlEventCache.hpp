@@ -303,94 +303,6 @@ namespace System::Xml {
     #pragma pack(pop)
     static check_size<sizeof(XmlEventCache::XmlEvent), 32 + sizeof(::Il2CppObject*)> __System_Xml_XmlEventCache_XmlEventSizeCheck;
     static_assert(sizeof(XmlEventCache::XmlEvent) == 0x28);
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::InitEvent
-    // Il2CppName: InitEvent
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::XmlEvent::*)(System::Xml::XmlEventCache::XmlEventType)>(&XmlEventCache::XmlEvent::InitEvent)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "InitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>()});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::InitEvent
-    // Il2CppName: InitEvent
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::XmlEvent::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*)>(&XmlEventCache::XmlEvent::InitEvent)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "InitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::InitEvent
-    // Il2CppName: InitEvent
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::XmlEvent::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::XmlEvent::InitEvent)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "InitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::InitEvent
-    // Il2CppName: InitEvent
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::XmlEvent::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::XmlEvent::InitEvent)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "InitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::InitEvent
-    // Il2CppName: InitEvent
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::XmlEvent::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppObject*)>(&XmlEventCache::XmlEvent::InitEvent)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "InitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::InitEvent
-    // Il2CppName: InitEvent
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::XmlEvent::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppObject*)>(&XmlEventCache::XmlEvent::InitEvent)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "InitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::get_EventType
-    // Il2CppName: get_EventType
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlEventCache::XmlEventType (XmlEventCache::XmlEvent::*)()>(&XmlEventCache::XmlEvent::get_EventType)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "get_EventType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::get_String1
-    // Il2CppName: get_String1
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlEventCache::XmlEvent::*)()>(&XmlEventCache::XmlEvent::get_String1)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "get_String1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::get_String2
-    // Il2CppName: get_String2
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlEventCache::XmlEvent::*)()>(&XmlEventCache::XmlEvent::get_String2)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "get_String2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::get_String3
-    // Il2CppName: get_String3
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlEventCache::XmlEvent::*)()>(&XmlEventCache::XmlEvent::get_String3)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "get_String3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
-    // Writing MetadataGetter for method: XmlEventCache::XmlEvent::get_Object
-    // Il2CppName: get_Object
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (XmlEventCache::XmlEvent::*)()>(&XmlEventCache::XmlEvent::get_Object)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(XmlEventCache::XmlEvent), "get_Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-      }
-    };
     // private System.Collections.Generic.List`1<System.Xml.XmlEventCache/XmlEvent[]> pages
     // Size: 0x8
     // Offset: 0x20
@@ -614,325 +526,325 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(XmlEventCache), 112 + sizeof(::Il2CppString*)> __System_Xml_XmlEventCacheSizeCheck;
   static_assert(sizeof(XmlEventCache) == 0x78);
-  // Writing MetadataGetter for method: XmlEventCache::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, bool)>(&XmlEventCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, bool)>(&XmlEventCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::EndEvents
-  // Il2CppName: EndEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::EndEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "EndEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::EventsToWriter
-  // Il2CppName: EventsToWriter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlWriter*)>(&XmlEventCache::EventsToWriter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "EventsToWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::AddEvent
-  // Il2CppName: AddEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType)>(&XmlEventCache::AddEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::AddEvent
-  // Il2CppName: AddEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*)>(&XmlEventCache::AddEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::AddEvent
-  // Il2CppName: AddEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::AddEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::AddEvent
-  // Il2CppName: AddEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::AddEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::AddEvent
-  // Il2CppName: AddEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppObject*)>(&XmlEventCache::AddEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::AddEvent
-  // Il2CppName: AddEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppObject*)>(&XmlEventCache::AddEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::NewEvent
-  // Il2CppName: NewEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlEventCache::*)()>(&XmlEventCache::NewEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "NewEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::ToBytes
-  // Il2CppName: ToBytes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int, int)>(&XmlEventCache::ToBytes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteDocType
-  // Il2CppName: WriteDocType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteDocType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteStartElement
-  // Il2CppName: WriteStartElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteStartElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteStartAttribute
-  // Il2CppName: WriteStartAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteStartAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteEndAttribute
-  // Il2CppName: WriteEndAttribute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::WriteEndAttribute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteCData
-  // Il2CppName: WriteCData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteCData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteComment
-  // Il2CppName: WriteComment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteComment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteProcessingInstruction
-  // Il2CppName: WriteProcessingInstruction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteProcessingInstruction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteWhitespace
-  // Il2CppName: WriteWhitespace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteWhitespace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteString
-  // Il2CppName: WriteString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteChars
-  // Il2CppName: WriteChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<::Il2CppChar>*, int, int)>(&XmlEventCache::WriteChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteRaw
-  // Il2CppName: WriteRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<::Il2CppChar>*, int, int)>(&XmlEventCache::WriteRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteRaw
-  // Il2CppName: WriteRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteEntityRef
-  // Il2CppName: WriteEntityRef
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteEntityRef)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteCharEntity
-  // Il2CppName: WriteCharEntity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppChar)>(&XmlEventCache::WriteCharEntity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteSurrogateCharEntity
-  // Il2CppName: WriteSurrogateCharEntity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppChar, ::Il2CppChar)>(&XmlEventCache::WriteSurrogateCharEntity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteBase64
-  // Il2CppName: WriteBase64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<uint8_t>*, int, int)>(&XmlEventCache::WriteBase64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteBinHex
-  // Il2CppName: WriteBinHex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<uint8_t>*, int, int)>(&XmlEventCache::WriteBinHex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::Close
-  // Il2CppName: Close
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::Close)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::Flush
-  // Il2CppName: Flush
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::Flush)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteValue
-  // Il2CppName: WriteValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::Dispose
-  // Il2CppName: Dispose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(bool)>(&XmlEventCache::Dispose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteXmlDeclaration
-  // Il2CppName: WriteXmlDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlStandalone)>(&XmlEventCache::WriteXmlDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlStandalone>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteXmlDeclaration
-  // Il2CppName: WriteXmlDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteXmlDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::StartElementContent
-  // Il2CppName: StartElementContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::StartElementContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteEndElement
-  // Il2CppName: WriteEndElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteEndElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteFullEndElement
-  // Il2CppName: WriteFullEndElement
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteFullEndElement)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteNamespaceDeclaration
-  // Il2CppName: WriteNamespaceDeclaration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteNamespaceDeclaration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XmlEventCache::WriteEndBase64
-  // Il2CppName: WriteEndBase64
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::WriteEndBase64)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEndBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache*, "System.Xml", "XmlEventCache");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");
+// Writing MetadataGetter for method: XmlEventCache::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, bool)>(&XmlEventCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, bool)>(&XmlEventCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::EndEvents
+// Il2CppName: EndEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::EndEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "EndEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::EventsToWriter
+// Il2CppName: EventsToWriter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlWriter*)>(&XmlEventCache::EventsToWriter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "EventsToWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::AddEvent
+// Il2CppName: AddEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType)>(&XmlEventCache::AddEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::AddEvent
+// Il2CppName: AddEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*)>(&XmlEventCache::AddEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::AddEvent
+// Il2CppName: AddEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::AddEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::AddEvent
+// Il2CppName: AddEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::AddEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::AddEvent
+// Il2CppName: AddEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppObject*)>(&XmlEventCache::AddEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::AddEvent
+// Il2CppName: AddEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlEventCache::XmlEventType, ::Il2CppObject*)>(&XmlEventCache::AddEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlEventCache::XmlEventType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::NewEvent
+// Il2CppName: NewEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlEventCache::*)()>(&XmlEventCache::NewEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "NewEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::ToBytes
+// Il2CppName: ToBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int, int)>(&XmlEventCache::ToBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteDocType
+// Il2CppName: WriteDocType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteDocType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteStartElement
+// Il2CppName: WriteStartElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteStartElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteStartAttribute
+// Il2CppName: WriteStartAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteStartAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteEndAttribute
+// Il2CppName: WriteEndAttribute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::WriteEndAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteCData
+// Il2CppName: WriteCData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteCData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteComment
+// Il2CppName: WriteComment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteComment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteProcessingInstruction
+// Il2CppName: WriteProcessingInstruction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteProcessingInstruction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteWhitespace
+// Il2CppName: WriteWhitespace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteWhitespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteString
+// Il2CppName: WriteString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteChars
+// Il2CppName: WriteChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<::Il2CppChar>*, int, int)>(&XmlEventCache::WriteChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteRaw
+// Il2CppName: WriteRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<::Il2CppChar>*, int, int)>(&XmlEventCache::WriteRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteRaw
+// Il2CppName: WriteRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteEntityRef
+// Il2CppName: WriteEntityRef
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteEntityRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteCharEntity
+// Il2CppName: WriteCharEntity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppChar)>(&XmlEventCache::WriteCharEntity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteSurrogateCharEntity
+// Il2CppName: WriteSurrogateCharEntity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppChar, ::Il2CppChar)>(&XmlEventCache::WriteSurrogateCharEntity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteBase64
+// Il2CppName: WriteBase64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<uint8_t>*, int, int)>(&XmlEventCache::WriteBase64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteBinHex
+// Il2CppName: WriteBinHex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Array<uint8_t>*, int, int)>(&XmlEventCache::WriteBinHex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::Close
+// Il2CppName: Close
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::Flush
+// Il2CppName: Flush
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteValue
+// Il2CppName: WriteValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(bool)>(&XmlEventCache::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteXmlDeclaration
+// Il2CppName: WriteXmlDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(System::Xml::XmlStandalone)>(&XmlEventCache::WriteXmlDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlStandalone>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteXmlDeclaration
+// Il2CppName: WriteXmlDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*)>(&XmlEventCache::WriteXmlDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::StartElementContent
+// Il2CppName: StartElementContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::StartElementContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteEndElement
+// Il2CppName: WriteEndElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteEndElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteFullEndElement
+// Il2CppName: WriteFullEndElement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteFullEndElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteNamespaceDeclaration
+// Il2CppName: WriteNamespaceDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)(::Il2CppString*, ::Il2CppString*)>(&XmlEventCache::WriteNamespaceDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XmlEventCache::WriteEndBase64
+// Il2CppName: WriteEndBase64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlEventCache::*)()>(&XmlEventCache::WriteEndBase64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XmlEventCache*), "WriteEndBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -74,27 +74,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformUserModel::$$c__DisplayClass3_0), 24 + sizeof(GlobalNamespace::OculusPlatformUserModel*)> __GlobalNamespace_OculusPlatformUserModel_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OculusPlatformUserModel::$$c__DisplayClass3_0) == 0x20);
-  // Writing MetadataGetter for method: OculusPlatformUserModel::$$c__DisplayClass3_0::$GetUserFriendsUserIds$b__0
-  // Il2CppName: <GetUserFriendsUserIds>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::$$c__DisplayClass3_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>*)>(&OculusPlatformUserModel::$$c__DisplayClass3_0::$GetUserFriendsUserIds$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel::$$c__DisplayClass3_0*), "<GetUserFriendsUserIds>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformUserModel::$$c__DisplayClass3_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::$$c__DisplayClass3_0::*)()>(&OculusPlatformUserModel::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::$$c__DisplayClass3_0::*)()>(&OculusPlatformUserModel::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass3_0*, "", "OculusPlatformUserModel/<>c__DisplayClass3_0");
+// Writing MetadataGetter for method: OculusPlatformUserModel::$$c__DisplayClass3_0::$GetUserFriendsUserIds$b__0
+// Il2CppName: <GetUserFriendsUserIds>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::$$c__DisplayClass3_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>*)>(&OculusPlatformUserModel::$$c__DisplayClass3_0::$GetUserFriendsUserIds$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel::$$c__DisplayClass3_0*), "<GetUserFriendsUserIds>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformUserModel::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::$$c__DisplayClass3_0::*)()>(&OculusPlatformUserModel::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::$$c__DisplayClass3_0::*)()>(&OculusPlatformUserModel::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

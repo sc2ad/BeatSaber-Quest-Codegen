@@ -70,94 +70,94 @@ namespace Microsoft::Win32 {
     static bool CloseProcess(System::IntPtr handle);
   }; // Microsoft.Win32.NativeMethods
   #pragma pack(pop)
-  // Writing MetadataGetter for method: NativeMethods::DuplicateHandle
-  // Il2CppName: DuplicateHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::SafeHandle*, System::Runtime::InteropServices::HandleRef, Microsoft::Win32::SafeHandles::SafeWaitHandle*&, int, bool, int)>(&NativeMethods::DuplicateHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::DuplicateHandle
-  // Il2CppName: DuplicateHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::HandleRef, Microsoft::Win32::SafeHandles::SafeProcessHandle*&, int, bool, int)>(&NativeMethods::DuplicateHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::GetCurrentProcess
-  // Il2CppName: GetCurrentProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&NativeMethods::GetCurrentProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetCurrentProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::GetExitCodeProcess
-  // Il2CppName: GetExitCodeProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int&)>(&NativeMethods::GetExitCodeProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::GetExitCodeProcess
-  // Il2CppName: GetExitCodeProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int&)>(&NativeMethods::GetExitCodeProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::TerminateProcess
-  // Il2CppName: TerminateProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int)>(&NativeMethods::TerminateProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::TerminateProcess
-  // Il2CppName: TerminateProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int)>(&NativeMethods::TerminateProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::GetProcessTimes
-  // Il2CppName: GetProcessTimes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int64_t&, int64_t&, int64_t&, int64_t&)>(&NativeMethods::GetProcessTimes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::GetProcessTimes
-  // Il2CppName: GetProcessTimes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int64_t&, int64_t&, int64_t&, int64_t&)>(&NativeMethods::GetProcessTimes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::GetCurrentProcessId
-  // Il2CppName: GetCurrentProcessId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&NativeMethods::GetCurrentProcessId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetCurrentProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NativeMethods::CloseProcess
-  // Il2CppName: CloseProcess
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&NativeMethods::CloseProcess)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "CloseProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::NativeMethods*, "Microsoft.Win32", "NativeMethods");
+// Writing MetadataGetter for method: NativeMethods::DuplicateHandle
+// Il2CppName: DuplicateHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::SafeHandle*, System::Runtime::InteropServices::HandleRef, Microsoft::Win32::SafeHandles::SafeWaitHandle*&, int, bool, int)>(&NativeMethods::DuplicateHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::DuplicateHandle
+// Il2CppName: DuplicateHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::HandleRef, Microsoft::Win32::SafeHandles::SafeProcessHandle*&, int, bool, int)>(&NativeMethods::DuplicateHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::GetCurrentProcess
+// Il2CppName: GetCurrentProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&NativeMethods::GetCurrentProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetCurrentProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::GetExitCodeProcess
+// Il2CppName: GetExitCodeProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int&)>(&NativeMethods::GetExitCodeProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::GetExitCodeProcess
+// Il2CppName: GetExitCodeProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int&)>(&NativeMethods::GetExitCodeProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::TerminateProcess
+// Il2CppName: TerminateProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int)>(&NativeMethods::TerminateProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::TerminateProcess
+// Il2CppName: TerminateProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int)>(&NativeMethods::TerminateProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::GetProcessTimes
+// Il2CppName: GetProcessTimes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int64_t&, int64_t&, int64_t&, int64_t&)>(&NativeMethods::GetProcessTimes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::GetProcessTimes
+// Il2CppName: GetProcessTimes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int64_t&, int64_t&, int64_t&, int64_t&)>(&NativeMethods::GetProcessTimes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::GetCurrentProcessId
+// Il2CppName: GetCurrentProcessId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&NativeMethods::GetCurrentProcessId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "GetCurrentProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NativeMethods::CloseProcess
+// Il2CppName: CloseProcess
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&NativeMethods::CloseProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NativeMethods*), "CloseProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};

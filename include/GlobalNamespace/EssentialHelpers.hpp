@@ -47,24 +47,24 @@ namespace GlobalNamespace {
     }
   }; // EssentialHelpers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: EssentialHelpers::get_CurrentTimeStamp
-  // Il2CppName: get_CurrentTimeStamp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&EssentialHelpers::get_CurrentTimeStamp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "get_CurrentTimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EssentialHelpers::SafeDestroy
-  // Il2CppName: SafeDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&EssentialHelpers::SafeDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EssentialHelpers::GetOrAddComponent
-  // Il2CppName: GetOrAddComponent
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EssentialHelpers*, "", "EssentialHelpers");
+// Writing MetadataGetter for method: EssentialHelpers::get_CurrentTimeStamp
+// Il2CppName: get_CurrentTimeStamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&EssentialHelpers::get_CurrentTimeStamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "get_CurrentTimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EssentialHelpers::SafeDestroy
+// Il2CppName: SafeDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&EssentialHelpers::SafeDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
+// Writing MetadataGetter for method: EssentialHelpers::GetOrAddComponent
+// Il2CppName: GetOrAddComponent
+// Cannot write MetadataGetter for generic methods!

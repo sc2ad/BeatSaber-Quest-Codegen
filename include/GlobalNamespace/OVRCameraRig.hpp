@@ -324,283 +324,283 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRCameraRig), 200 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_OVRCameraRigSizeCheck;
   static_assert(sizeof(OVRCameraRig) == 0xD0);
-  // Writing MetadataGetter for method: OVRCameraRig::get_leftEyeCamera
-  // Il2CppName: get_leftEyeCamera
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftEyeCamera)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftEyeCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_rightEyeCamera
-  // Il2CppName: get_rightEyeCamera
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightEyeCamera)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightEyeCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_trackingSpace
-  // Il2CppName: get_trackingSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_trackingSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_trackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_trackingSpace
-  // Il2CppName: set_trackingSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_trackingSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_trackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_leftEyeAnchor
-  // Il2CppName: get_leftEyeAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftEyeAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_leftEyeAnchor
-  // Il2CppName: set_leftEyeAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_leftEyeAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_leftEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_centerEyeAnchor
-  // Il2CppName: get_centerEyeAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_centerEyeAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_centerEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_centerEyeAnchor
-  // Il2CppName: set_centerEyeAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_centerEyeAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_centerEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_rightEyeAnchor
-  // Il2CppName: get_rightEyeAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightEyeAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_rightEyeAnchor
-  // Il2CppName: set_rightEyeAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_rightEyeAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_rightEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_leftHandAnchor
-  // Il2CppName: get_leftHandAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftHandAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_leftHandAnchor
-  // Il2CppName: set_leftHandAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_leftHandAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_leftHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_rightHandAnchor
-  // Il2CppName: get_rightHandAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightHandAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_rightHandAnchor
-  // Il2CppName: set_rightHandAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_rightHandAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_rightHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_leftControllerAnchor
-  // Il2CppName: get_leftControllerAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftControllerAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_leftControllerAnchor
-  // Il2CppName: set_leftControllerAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_leftControllerAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_leftControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_rightControllerAnchor
-  // Il2CppName: get_rightControllerAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightControllerAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_rightControllerAnchor
-  // Il2CppName: set_rightControllerAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_rightControllerAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_rightControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::get_trackerAnchor
-  // Il2CppName: get_trackerAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_trackerAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_trackerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::set_trackerAnchor
-  // Il2CppName: set_trackerAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_trackerAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_trackerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::add_UpdatedAnchors
-  // Il2CppName: add_UpdatedAnchors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(System::Action_1<GlobalNamespace::OVRCameraRig*>*)>(&OVRCameraRig::add_UpdatedAnchors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "add_UpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OVRCameraRig*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::remove_UpdatedAnchors
-  // Il2CppName: remove_UpdatedAnchors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(System::Action_1<GlobalNamespace::OVRCameraRig*>*)>(&OVRCameraRig::remove_UpdatedAnchors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "remove_UpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OVRCameraRig*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::FixedUpdate
-  // Il2CppName: FixedUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::FixedUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::UpdateAnchors
-  // Il2CppName: UpdateAnchors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(bool, bool)>(&OVRCameraRig::UpdateAnchors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "UpdateAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::OnBeforeRenderCallback
-  // Il2CppName: OnBeforeRenderCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::OnBeforeRenderCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "OnBeforeRenderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::RaiseUpdatedAnchorsEvent
-  // Il2CppName: RaiseUpdatedAnchorsEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::RaiseUpdatedAnchorsEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "RaiseUpdatedAnchorsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::EnsureGameObjectIntegrity
-  // Il2CppName: EnsureGameObjectIntegrity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::EnsureGameObjectIntegrity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "EnsureGameObjectIntegrity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::ConfigureAnchor
-  // Il2CppName: ConfigureAnchor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)(UnityEngine::Transform*, ::Il2CppString*)>(&OVRCameraRig::ConfigureAnchor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "ConfigureAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::ComputeTrackReferenceMatrix
-  // Il2CppName: ComputeTrackReferenceMatrix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (OVRCameraRig::*)()>(&OVRCameraRig::ComputeTrackReferenceMatrix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "ComputeTrackReferenceMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCameraRig::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCameraRig*, "", "OVRCameraRig");
+// Writing MetadataGetter for method: OVRCameraRig::get_leftEyeCamera
+// Il2CppName: get_leftEyeCamera
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftEyeCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftEyeCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_rightEyeCamera
+// Il2CppName: get_rightEyeCamera
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightEyeCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightEyeCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_trackingSpace
+// Il2CppName: get_trackingSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_trackingSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_trackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_trackingSpace
+// Il2CppName: set_trackingSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_trackingSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_trackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_leftEyeAnchor
+// Il2CppName: get_leftEyeAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_leftEyeAnchor
+// Il2CppName: set_leftEyeAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_leftEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_leftEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_centerEyeAnchor
+// Il2CppName: get_centerEyeAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_centerEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_centerEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_centerEyeAnchor
+// Il2CppName: set_centerEyeAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_centerEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_centerEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_rightEyeAnchor
+// Il2CppName: get_rightEyeAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_rightEyeAnchor
+// Il2CppName: set_rightEyeAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_rightEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_rightEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_leftHandAnchor
+// Il2CppName: get_leftHandAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_leftHandAnchor
+// Il2CppName: set_leftHandAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_leftHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_leftHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_rightHandAnchor
+// Il2CppName: get_rightHandAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_rightHandAnchor
+// Il2CppName: set_rightHandAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_rightHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_rightHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_leftControllerAnchor
+// Il2CppName: get_leftControllerAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_leftControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_leftControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_leftControllerAnchor
+// Il2CppName: set_leftControllerAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_leftControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_leftControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_rightControllerAnchor
+// Il2CppName: get_rightControllerAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_rightControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_rightControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_rightControllerAnchor
+// Il2CppName: set_rightControllerAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_rightControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_rightControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::get_trackerAnchor
+// Il2CppName: get_trackerAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)()>(&OVRCameraRig::get_trackerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "get_trackerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::set_trackerAnchor
+// Il2CppName: set_trackerAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(UnityEngine::Transform*)>(&OVRCameraRig::set_trackerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "set_trackerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::add_UpdatedAnchors
+// Il2CppName: add_UpdatedAnchors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(System::Action_1<GlobalNamespace::OVRCameraRig*>*)>(&OVRCameraRig::add_UpdatedAnchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "add_UpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OVRCameraRig*>*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::remove_UpdatedAnchors
+// Il2CppName: remove_UpdatedAnchors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(System::Action_1<GlobalNamespace::OVRCameraRig*>*)>(&OVRCameraRig::remove_UpdatedAnchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "remove_UpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OVRCameraRig*>*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::FixedUpdate
+// Il2CppName: FixedUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::UpdateAnchors
+// Il2CppName: UpdateAnchors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)(bool, bool)>(&OVRCameraRig::UpdateAnchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "UpdateAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::OnBeforeRenderCallback
+// Il2CppName: OnBeforeRenderCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::OnBeforeRenderCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "OnBeforeRenderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::RaiseUpdatedAnchorsEvent
+// Il2CppName: RaiseUpdatedAnchorsEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::RaiseUpdatedAnchorsEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "RaiseUpdatedAnchorsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::EnsureGameObjectIntegrity
+// Il2CppName: EnsureGameObjectIntegrity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::EnsureGameObjectIntegrity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "EnsureGameObjectIntegrity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::ConfigureAnchor
+// Il2CppName: ConfigureAnchor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRCameraRig::*)(UnityEngine::Transform*, ::Il2CppString*)>(&OVRCameraRig::ConfigureAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "ConfigureAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::ComputeTrackReferenceMatrix
+// Il2CppName: ComputeTrackReferenceMatrix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (OVRCameraRig::*)()>(&OVRCameraRig::ComputeTrackReferenceMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), "ComputeTrackReferenceMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCameraRig::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCameraRig::*)()>(&OVRCameraRig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCameraRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -78,81 +78,81 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_GlyphPairAdjustmentRecord), 56 + sizeof(TMPro::FontFeatureLookupFlags)> __TMPro_TMP_GlyphPairAdjustmentRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphPairAdjustmentRecord) == 0x3C);
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
-  // Il2CppName: get_firstAdjustmentRecord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphAdjustmentRecord (TMP_GlyphPairAdjustmentRecord::*)()>(&TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "get_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord
-  // Il2CppName: set_firstAdjustmentRecord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "set_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord
-  // Il2CppName: get_secondAdjustmentRecord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphAdjustmentRecord (TMP_GlyphPairAdjustmentRecord::*)()>(&TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "get_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord
-  // Il2CppName: set_secondAdjustmentRecord
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "set_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags
-  // Il2CppName: get_featureLookupFlags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::FontFeatureLookupFlags (TMP_GlyphPairAdjustmentRecord::*)()>(&TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "get_featureLookupFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags
-  // Il2CppName: set_featureLookupFlags
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::FontFeatureLookupFlags)>(&TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "set_featureLookupFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontFeatureLookupFlags>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-    }
-  };
-  // Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
+// Il2CppName: get_firstAdjustmentRecord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphAdjustmentRecord (TMP_GlyphPairAdjustmentRecord::*)()>(&TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "get_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord
+// Il2CppName: set_firstAdjustmentRecord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "set_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord
+// Il2CppName: get_secondAdjustmentRecord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphAdjustmentRecord (TMP_GlyphPairAdjustmentRecord::*)()>(&TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "get_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord
+// Il2CppName: set_secondAdjustmentRecord
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "set_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags
+// Il2CppName: get_featureLookupFlags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::FontFeatureLookupFlags (TMP_GlyphPairAdjustmentRecord::*)()>(&TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "get_featureLookupFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags
+// Il2CppName: set_featureLookupFlags
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::FontFeatureLookupFlags)>(&TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), "set_featureLookupFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontFeatureLookupFlags>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
+  }
+};
+// Writing MetadataGetter for method: TMP_GlyphPairAdjustmentRecord::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphPairAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>()});
+  }
+};

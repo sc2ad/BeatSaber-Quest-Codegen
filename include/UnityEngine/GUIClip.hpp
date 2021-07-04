@@ -49,62 +49,62 @@ namespace UnityEngine {
     static void Internal_Push_Injected(UnityEngine::Rect& screenRect, UnityEngine::Vector2& scrollOffset, UnityEngine::Vector2& renderOffset, bool resetOffset);
   }; // UnityEngine.GUIClip
   #pragma pack(pop)
-  // Writing MetadataGetter for method: GUIClip::get_visibleRect
-  // Il2CppName: get_visibleRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)()>(&GUIClip::get_visibleRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIClip*), "get_visibleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUIClip::Internal_Push
-  // Il2CppName: Internal_Push
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Vector2, UnityEngine::Vector2, bool)>(&GUIClip::Internal_Push)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Internal_Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUIClip::Internal_Pop
-  // Il2CppName: Internal_Pop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIClip::Internal_Pop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Internal_Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUIClip::Push
-  // Il2CppName: Push
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Vector2, UnityEngine::Vector2, bool)>(&GUIClip::Push)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUIClip::Pop
-  // Il2CppName: Pop
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIClip::Pop)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUIClip::get_visibleRect_Injected
-  // Il2CppName: get_visibleRect_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect&)>(&GUIClip::get_visibleRect_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIClip*), "get_visibleRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUIClip::Internal_Push_Injected
-  // Il2CppName: Internal_Push_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect&, UnityEngine::Vector2&, UnityEngine::Vector2&, bool)>(&GUIClip::Internal_Push_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Internal_Push_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIClip*, "UnityEngine", "GUIClip");
+// Writing MetadataGetter for method: GUIClip::get_visibleRect
+// Il2CppName: get_visibleRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)()>(&GUIClip::get_visibleRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIClip*), "get_visibleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUIClip::Internal_Push
+// Il2CppName: Internal_Push
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Vector2, UnityEngine::Vector2, bool)>(&GUIClip::Internal_Push)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Internal_Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GUIClip::Internal_Pop
+// Il2CppName: Internal_Pop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIClip::Internal_Pop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Internal_Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUIClip::Push
+// Il2CppName: Push
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Vector2, UnityEngine::Vector2, bool)>(&GUIClip::Push)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GUIClip::Pop
+// Il2CppName: Pop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIClip::Pop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUIClip::get_visibleRect_Injected
+// Il2CppName: get_visibleRect_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect&)>(&GUIClip::get_visibleRect_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIClip*), "get_visibleRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+  }
+};
+// Writing MetadataGetter for method: GUIClip::Internal_Push_Injected
+// Il2CppName: Internal_Push_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect&, UnityEngine::Vector2&, UnityEngine::Vector2&, bool)>(&GUIClip::Internal_Push_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIClip*), "Internal_Push_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

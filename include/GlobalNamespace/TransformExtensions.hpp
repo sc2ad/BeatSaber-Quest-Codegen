@@ -29,14 +29,14 @@ namespace GlobalNamespace {
     static UnityEngine::Quaternion InverseTransformRotation(UnityEngine::Transform* trans, UnityEngine::Quaternion worldRotation);
   }; // TransformExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TransformExtensions::InverseTransformRotation
-  // Il2CppName: InverseTransformRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Transform*, UnityEngine::Quaternion)>(&TransformExtensions::InverseTransformRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TransformExtensions*), "InverseTransformRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransformExtensions*, "", "TransformExtensions");
+// Writing MetadataGetter for method: TransformExtensions::InverseTransformRotation
+// Il2CppName: InverseTransformRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Transform*, UnityEngine::Quaternion)>(&TransformExtensions::InverseTransformRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TransformExtensions*), "InverseTransformRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};

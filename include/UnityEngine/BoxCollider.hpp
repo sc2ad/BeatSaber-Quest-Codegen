@@ -44,54 +44,54 @@ namespace UnityEngine {
     void set_size_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.BoxCollider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BoxCollider::set_center
-  // Il2CppName: set_center
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3)>(&BoxCollider::set_center)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: BoxCollider::get_size
-  // Il2CppName: get_size
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BoxCollider::*)()>(&BoxCollider::get_size)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BoxCollider::set_size
-  // Il2CppName: set_size
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3)>(&BoxCollider::set_size)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: BoxCollider::set_center_Injected
-  // Il2CppName: set_center_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3&)>(&BoxCollider::set_center_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-    }
-  };
-  // Writing MetadataGetter for method: BoxCollider::get_size_Injected
-  // Il2CppName: get_size_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3&)>(&BoxCollider::get_size_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "get_size_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-    }
-  };
-  // Writing MetadataGetter for method: BoxCollider::set_size_Injected
-  // Il2CppName: set_size_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3&)>(&BoxCollider::set_size_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_size_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoxCollider*, "UnityEngine", "BoxCollider");
+// Writing MetadataGetter for method: BoxCollider::set_center
+// Il2CppName: set_center
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3)>(&BoxCollider::set_center)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: BoxCollider::get_size
+// Il2CppName: get_size
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BoxCollider::*)()>(&BoxCollider::get_size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BoxCollider::set_size
+// Il2CppName: set_size
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3)>(&BoxCollider::set_size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: BoxCollider::set_center_Injected
+// Il2CppName: set_center_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3&)>(&BoxCollider::set_center_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
+// Writing MetadataGetter for method: BoxCollider::get_size_Injected
+// Il2CppName: get_size_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3&)>(&BoxCollider::get_size_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "get_size_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
+// Writing MetadataGetter for method: BoxCollider::set_size_Injected
+// Il2CppName: set_size_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCollider::*)(UnityEngine::Vector3&)>(&BoxCollider::set_size_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BoxCollider*), "set_size_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};

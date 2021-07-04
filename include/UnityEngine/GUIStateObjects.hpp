@@ -39,22 +39,22 @@ namespace UnityEngine {
     static void _cctor();
   }; // UnityEngine.GUIStateObjects
   #pragma pack(pop)
-  // Writing MetadataGetter for method: GUIStateObjects::GetStateObject
-  // Il2CppName: GetStateObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int)>(&GUIStateObjects::GetStateObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIStateObjects*), "GetStateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUIStateObjects::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIStateObjects::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUIStateObjects*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStateObjects*, "UnityEngine", "GUIStateObjects");
+// Writing MetadataGetter for method: GUIStateObjects::GetStateObject
+// Il2CppName: GetStateObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int)>(&GUIStateObjects::GetStateObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIStateObjects*), "GetStateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GUIStateObjects::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIStateObjects::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUIStateObjects*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

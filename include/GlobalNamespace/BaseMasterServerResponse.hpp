@@ -81,83 +81,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BaseMasterServerResponse), 16 + sizeof(uint)> __GlobalNamespace_BaseMasterServerResponseSizeCheck;
   static_assert(sizeof(BaseMasterServerResponse) == 0x14);
-  // Writing MetadataGetter for method: BaseMasterServerResponse::get_responseId
-  // Il2CppName: get_responseId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_responseId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::set_responseId
-  // Il2CppName: set_responseId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(uint)>(&BaseMasterServerResponse::set_responseId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "set_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::get_resultCode
-  // Il2CppName: get_resultCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_resultCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::get_resultCodeString
-  // Il2CppName: get_resultCodeString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_resultCodeString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&BaseMasterServerResponse::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&BaseMasterServerResponse::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId
-  // Il2CppName: MasterServer.IMasterServerResponse.WithResponseId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (BaseMasterServerResponse::*)(uint)>(&BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "MasterServer.IMasterServerResponse.WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: BaseMasterServerResponse::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerResponse*, "", "BaseMasterServerResponse");
+// Writing MetadataGetter for method: BaseMasterServerResponse::get_responseId
+// Il2CppName: get_responseId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_responseId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::set_responseId
+// Il2CppName: set_responseId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(uint)>(&BaseMasterServerResponse::set_responseId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "set_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::get_resultCode
+// Il2CppName: get_resultCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_resultCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::get_resultCodeString
+// Il2CppName: get_resultCodeString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_resultCodeString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&BaseMasterServerResponse::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&BaseMasterServerResponse::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId
+// Il2CppName: MasterServer.IMasterServerResponse.WithResponseId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (BaseMasterServerResponse::*)(uint)>(&BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "MasterServer.IMasterServerResponse.WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: BaseMasterServerResponse::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

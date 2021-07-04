@@ -158,83 +158,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AudioManagerSO), 52 + sizeof(bool)> __GlobalNamespace_AudioManagerSOSizeCheck;
   static_assert(sizeof(AudioManagerSO) == 0x35);
-  // Writing MetadataGetter for method: AudioManagerSO::get_sfxLatency
-  // Il2CppName: get_sfxLatency
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioManagerSO::*)()>(&AudioManagerSO::get_sfxLatency)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "get_sfxLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)()>(&AudioManagerSO::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::set_mainVolume
-  // Il2CppName: set_mainVolume
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_mainVolume)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_mainVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::set_musicVolume
-  // Il2CppName: set_musicVolume
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_musicVolume)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_musicVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::set_sfxVolume
-  // Il2CppName: set_sfxVolume
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_sfxVolume)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_sfxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::get_sfxEnabled
-  // Il2CppName: get_sfxEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioManagerSO::*)()>(&AudioManagerSO::get_sfxEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "get_sfxEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::set_sfxEnabled
-  // Il2CppName: set_sfxEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(bool)>(&AudioManagerSO::set_sfxEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_sfxEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::set_musicPitch
-  // Il2CppName: set_musicPitch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_musicPitch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_musicPitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: AudioManagerSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)()>(&AudioManagerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)()>(&AudioManagerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO*, "", "AudioManagerSO");
+// Writing MetadataGetter for method: AudioManagerSO::get_sfxLatency
+// Il2CppName: get_sfxLatency
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioManagerSO::*)()>(&AudioManagerSO::get_sfxLatency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "get_sfxLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)()>(&AudioManagerSO::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::set_mainVolume
+// Il2CppName: set_mainVolume
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_mainVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_mainVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::set_musicVolume
+// Il2CppName: set_musicVolume
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_musicVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_musicVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::set_sfxVolume
+// Il2CppName: set_sfxVolume
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_sfxVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_sfxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::get_sfxEnabled
+// Il2CppName: get_sfxEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioManagerSO::*)()>(&AudioManagerSO::get_sfxEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "get_sfxEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::set_sfxEnabled
+// Il2CppName: set_sfxEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(bool)>(&AudioManagerSO::set_sfxEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_sfxEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::set_musicPitch
+// Il2CppName: set_musicPitch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)(float)>(&AudioManagerSO::set_musicPitch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), "set_musicPitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: AudioManagerSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)()>(&AudioManagerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioManagerSO::*)()>(&AudioManagerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

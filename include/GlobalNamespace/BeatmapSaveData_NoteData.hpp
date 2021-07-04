@@ -91,67 +91,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::NoteData), 32 + sizeof(GlobalNamespace::NoteCutDirection)> __GlobalNamespace_BeatmapSaveData_NoteDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::NoteData) == 0x24);
-  // Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_time
-  // Il2CppName: get_time
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_time)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_lineIndex
-  // Il2CppName: get_lineIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_lineIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_lineLayer
-  // Il2CppName: get_lineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_lineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_lineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_type
-  // Il2CppName: get_type
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData::NoteType (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_type)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_cutDirection
-  // Il2CppName: get_cutDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_cutDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapSaveData::NoteData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::BeatmapSaveData::NoteType, GlobalNamespace::NoteCutDirection)>(&BeatmapSaveData::NoteData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapSaveData::NoteType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::BeatmapSaveData::NoteType, GlobalNamespace::NoteCutDirection)>(&BeatmapSaveData::NoteData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapSaveData::NoteType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapSaveData::NoteData::MoveTime
-  // Il2CppName: MoveTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::NoteData::*)(float)>(&BeatmapSaveData::NoteData::MoveTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "MoveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::NoteData*, "", "BeatmapSaveData/NoteData");
+// Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_time
+// Il2CppName: get_time
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_lineIndex
+// Il2CppName: get_lineIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_lineIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_lineLayer
+// Il2CppName: get_lineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_lineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_lineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_type
+// Il2CppName: get_type
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData::NoteType (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapSaveData::NoteData::get_cutDirection
+// Il2CppName: get_cutDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (BeatmapSaveData::NoteData::*)()>(&BeatmapSaveData::NoteData::get_cutDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "get_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapSaveData::NoteData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::BeatmapSaveData::NoteType, GlobalNamespace::NoteCutDirection)>(&BeatmapSaveData::NoteData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapSaveData::NoteType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::BeatmapSaveData::NoteType, GlobalNamespace::NoteCutDirection)>(&BeatmapSaveData::NoteData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapSaveData::NoteType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+  }
+};
+// Writing MetadataGetter for method: BeatmapSaveData::NoteData::MoveTime
+// Il2CppName: MoveTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::NoteData::*)(float)>(&BeatmapSaveData::NoteData::MoveTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::NoteData*), "MoveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

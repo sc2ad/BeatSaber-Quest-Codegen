@@ -31,30 +31,30 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.ECLookupTable
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ECLookupTable::get_Size
-  // Il2CppName: get_Size
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ECLookupTable::*)()>(&ECLookupTable::get_Size)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECLookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ECLookupTable::Lookup
-  // Il2CppName: Lookup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (ECLookupTable::*)(int)>(&ECLookupTable::Lookup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECLookupTable::LookupVar
-  // Il2CppName: LookupVar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (ECLookupTable::*)(int)>(&ECLookupTable::LookupVar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECLookupTable*, "Org.BouncyCastle.Math.EC", "ECLookupTable");
+// Writing MetadataGetter for method: ECLookupTable::get_Size
+// Il2CppName: get_Size
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ECLookupTable::*)()>(&ECLookupTable::get_Size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECLookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ECLookupTable::Lookup
+// Il2CppName: Lookup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (ECLookupTable::*)(int)>(&ECLookupTable::Lookup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ECLookupTable::LookupVar
+// Il2CppName: LookupVar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (ECLookupTable::*)(int)>(&ECLookupTable::LookupVar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -135,262 +135,262 @@ namespace UnityEngine {
     void set_pivot_Injected(UnityEngine::Vector2& value);
   }; // UnityEngine.RectTransform
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RectTransform::add_reapplyDrivenProperties
-  // Il2CppName: add_reapplyDrivenProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform::ReapplyDrivenProperties*)>(&RectTransform::add_reapplyDrivenProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "add_reapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform::ReapplyDrivenProperties*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::remove_reapplyDrivenProperties
-  // Il2CppName: remove_reapplyDrivenProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform::ReapplyDrivenProperties*)>(&RectTransform::remove_reapplyDrivenProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "remove_reapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform::ReapplyDrivenProperties*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_rect
-  // Il2CppName: get_rect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (RectTransform::*)()>(&RectTransform::get_rect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_anchorMin
-  // Il2CppName: get_anchorMin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_anchorMin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_anchorMin
-  // Il2CppName: set_anchorMin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_anchorMin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_anchorMax
-  // Il2CppName: get_anchorMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_anchorMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_anchorMax
-  // Il2CppName: set_anchorMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_anchorMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_anchoredPosition
-  // Il2CppName: get_anchoredPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_anchoredPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchoredPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_anchoredPosition
-  // Il2CppName: set_anchoredPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_anchoredPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchoredPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_sizeDelta
-  // Il2CppName: get_sizeDelta
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_sizeDelta)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_sizeDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_sizeDelta
-  // Il2CppName: set_sizeDelta
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_sizeDelta)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_sizeDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_pivot
-  // Il2CppName: get_pivot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_pivot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_pivot
-  // Il2CppName: set_pivot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_pivot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_anchoredPosition3D
-  // Il2CppName: set_anchoredPosition3D
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector3)>(&RectTransform::set_anchoredPosition3D)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchoredPosition3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_offsetMin
-  // Il2CppName: set_offsetMin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_offsetMin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_offsetMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_offsetMax
-  // Il2CppName: set_offsetMax
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_offsetMax)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_offsetMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::GetLocalCorners
-  // Il2CppName: GetLocalCorners
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(::Array<UnityEngine::Vector3>*)>(&RectTransform::GetLocalCorners)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "GetLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::GetWorldCorners
-  // Il2CppName: GetWorldCorners
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(::Array<UnityEngine::Vector3>*)>(&RectTransform::GetWorldCorners)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::SetSizeWithCurrentAnchors
-  // Il2CppName: SetSizeWithCurrentAnchors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::RectTransform::Axis, float)>(&RectTransform::SetSizeWithCurrentAnchors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "SetSizeWithCurrentAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform::Axis>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::SendReapplyDrivenProperties
-  // Il2CppName: SendReapplyDrivenProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&RectTransform::SendReapplyDrivenProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "SendReapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::GetParentSize
-  // Il2CppName: GetParentSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::GetParentSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "GetParentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_rect_Injected
-  // Il2CppName: get_rect_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Rect&)>(&RectTransform::get_rect_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_anchorMin_Injected
-  // Il2CppName: get_anchorMin_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_anchorMin_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMin_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_anchorMin_Injected
-  // Il2CppName: set_anchorMin_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_anchorMin_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMin_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_anchorMax_Injected
-  // Il2CppName: get_anchorMax_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_anchorMax_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMax_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_anchorMax_Injected
-  // Il2CppName: set_anchorMax_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_anchorMax_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMax_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_anchoredPosition_Injected
-  // Il2CppName: get_anchoredPosition_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_anchoredPosition_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchoredPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_anchoredPosition_Injected
-  // Il2CppName: set_anchoredPosition_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_anchoredPosition_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchoredPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_sizeDelta_Injected
-  // Il2CppName: get_sizeDelta_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_sizeDelta_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_sizeDelta_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_sizeDelta_Injected
-  // Il2CppName: set_sizeDelta_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_sizeDelta_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_sizeDelta_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::get_pivot_Injected
-  // Il2CppName: get_pivot_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_pivot_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_pivot_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
-  // Writing MetadataGetter for method: RectTransform::set_pivot_Injected
-  // Il2CppName: set_pivot_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_pivot_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_pivot_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform*, "UnityEngine", "RectTransform");
+// Writing MetadataGetter for method: RectTransform::add_reapplyDrivenProperties
+// Il2CppName: add_reapplyDrivenProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform::ReapplyDrivenProperties*)>(&RectTransform::add_reapplyDrivenProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "add_reapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform::ReapplyDrivenProperties*>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::remove_reapplyDrivenProperties
+// Il2CppName: remove_reapplyDrivenProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform::ReapplyDrivenProperties*)>(&RectTransform::remove_reapplyDrivenProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "remove_reapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform::ReapplyDrivenProperties*>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_rect
+// Il2CppName: get_rect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (RectTransform::*)()>(&RectTransform::get_rect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_anchorMin
+// Il2CppName: get_anchorMin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_anchorMin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_anchorMin
+// Il2CppName: set_anchorMin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_anchorMin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_anchorMax
+// Il2CppName: get_anchorMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_anchorMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_anchorMax
+// Il2CppName: set_anchorMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_anchorMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_anchoredPosition
+// Il2CppName: get_anchoredPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_anchoredPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchoredPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_anchoredPosition
+// Il2CppName: set_anchoredPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_anchoredPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchoredPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_sizeDelta
+// Il2CppName: get_sizeDelta
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_sizeDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_sizeDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_sizeDelta
+// Il2CppName: set_sizeDelta
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_sizeDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_sizeDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_pivot
+// Il2CppName: get_pivot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::get_pivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_pivot
+// Il2CppName: set_pivot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_pivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_anchoredPosition3D
+// Il2CppName: set_anchoredPosition3D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector3)>(&RectTransform::set_anchoredPosition3D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchoredPosition3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_offsetMin
+// Il2CppName: set_offsetMin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_offsetMin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_offsetMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_offsetMax
+// Il2CppName: set_offsetMax
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2)>(&RectTransform::set_offsetMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_offsetMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::GetLocalCorners
+// Il2CppName: GetLocalCorners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(::Array<UnityEngine::Vector3>*)>(&RectTransform::GetLocalCorners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "GetLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::GetWorldCorners
+// Il2CppName: GetWorldCorners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(::Array<UnityEngine::Vector3>*)>(&RectTransform::GetWorldCorners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::SetSizeWithCurrentAnchors
+// Il2CppName: SetSizeWithCurrentAnchors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::RectTransform::Axis, float)>(&RectTransform::SetSizeWithCurrentAnchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "SetSizeWithCurrentAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform::Axis>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::SendReapplyDrivenProperties
+// Il2CppName: SendReapplyDrivenProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&RectTransform::SendReapplyDrivenProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "SendReapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::GetParentSize
+// Il2CppName: GetParentSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (RectTransform::*)()>(&RectTransform::GetParentSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "GetParentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_rect_Injected
+// Il2CppName: get_rect_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Rect&)>(&RectTransform::get_rect_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_anchorMin_Injected
+// Il2CppName: get_anchorMin_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_anchorMin_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMin_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_anchorMin_Injected
+// Il2CppName: set_anchorMin_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_anchorMin_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMin_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_anchorMax_Injected
+// Il2CppName: get_anchorMax_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_anchorMax_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchorMax_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_anchorMax_Injected
+// Il2CppName: set_anchorMax_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_anchorMax_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchorMax_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_anchoredPosition_Injected
+// Il2CppName: get_anchoredPosition_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_anchoredPosition_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_anchoredPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_anchoredPosition_Injected
+// Il2CppName: set_anchoredPosition_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_anchoredPosition_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_anchoredPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_sizeDelta_Injected
+// Il2CppName: get_sizeDelta_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_sizeDelta_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_sizeDelta_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_sizeDelta_Injected
+// Il2CppName: set_sizeDelta_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_sizeDelta_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_sizeDelta_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::get_pivot_Injected
+// Il2CppName: get_pivot_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::get_pivot_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "get_pivot_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
+// Writing MetadataGetter for method: RectTransform::set_pivot_Injected
+// Il2CppName: set_pivot_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectTransform::*)(UnityEngine::Vector2&)>(&RectTransform::set_pivot_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RectTransform*), "set_pivot_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};

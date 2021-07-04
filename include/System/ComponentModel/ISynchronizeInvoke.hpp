@@ -35,22 +35,22 @@ namespace System::ComponentModel {
     System::IAsyncResult* BeginInvoke(System::Delegate* method, ::Array<::Il2CppObject*>* args);
   }; // System.ComponentModel.ISynchronizeInvoke
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ISynchronizeInvoke::get_InvokeRequired
-  // Il2CppName: get_InvokeRequired
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ISynchronizeInvoke::*)()>(&ISynchronizeInvoke::get_InvokeRequired)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ISynchronizeInvoke*), "get_InvokeRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ISynchronizeInvoke::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (ISynchronizeInvoke::*)(System::Delegate*, ::Array<::Il2CppObject*>*)>(&ISynchronizeInvoke::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ISynchronizeInvoke*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ISynchronizeInvoke*, "System.ComponentModel", "ISynchronizeInvoke");
+// Writing MetadataGetter for method: ISynchronizeInvoke::get_InvokeRequired
+// Il2CppName: get_InvokeRequired
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ISynchronizeInvoke::*)()>(&ISynchronizeInvoke::get_InvokeRequired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ISynchronizeInvoke*), "get_InvokeRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ISynchronizeInvoke::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (ISynchronizeInvoke::*)(System::Delegate*, ::Array<::Il2CppObject*>*)>(&ISynchronizeInvoke::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ISynchronizeInvoke*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};

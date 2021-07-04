@@ -113,107 +113,107 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(DirectorControlPlayable), 32 + sizeof(double)> __UnityEngine_Timeline_DirectorControlPlayableSizeCheck;
   static_assert(sizeof(DirectorControlPlayable) == 0x28);
-  // Writing MetadataGetter for method: DirectorControlPlayable::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::DirectorControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableDirector*)>(&DirectorControlPlayable::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::SyncSpeed
-  // Il2CppName: SyncSpeed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(double)>(&DirectorControlPlayable::SyncSpeed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "SyncSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::SyncPlayState
-  // Il2CppName: SyncPlayState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::PlayableGraph, double)>(&DirectorControlPlayable::SyncPlayState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "SyncPlayState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::DetectDiscontinuity
-  // Il2CppName: DetectDiscontinuity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::DetectDiscontinuity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "DetectDiscontinuity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::DetectOutOfSync
-  // Il2CppName: DetectOutOfSync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&DirectorControlPlayable::DetectOutOfSync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "DetectOutOfSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::UpdateTime
-  // Il2CppName: UpdateTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&DirectorControlPlayable::UpdateTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "UpdateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::OnPlayableDestroy
-  // Il2CppName: OnPlayableDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&DirectorControlPlayable::OnPlayableDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::PrepareFrame
-  // Il2CppName: PrepareFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::PrepareFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::OnBehaviourPlay
-  // Il2CppName: OnBehaviourPlay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::OnBehaviourPlay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::OnBehaviourPause
-  // Il2CppName: OnBehaviourPause
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::OnBehaviourPause)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::ProcessFrame
-  // Il2CppName: ProcessFrame
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&DirectorControlPlayable::ProcessFrame)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DirectorControlPlayable::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)()>(&DirectorControlPlayable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)()>(&DirectorControlPlayable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");
+// Writing MetadataGetter for method: DirectorControlPlayable::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::DirectorControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableDirector*)>(&DirectorControlPlayable::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::SyncSpeed
+// Il2CppName: SyncSpeed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(double)>(&DirectorControlPlayable::SyncSpeed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "SyncSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::SyncPlayState
+// Il2CppName: SyncPlayState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::PlayableGraph, double)>(&DirectorControlPlayable::SyncPlayState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "SyncPlayState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::DetectDiscontinuity
+// Il2CppName: DetectDiscontinuity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::DetectDiscontinuity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "DetectDiscontinuity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::DetectOutOfSync
+// Il2CppName: DetectOutOfSync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&DirectorControlPlayable::DetectOutOfSync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "DetectOutOfSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::UpdateTime
+// Il2CppName: UpdateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&DirectorControlPlayable::UpdateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "UpdateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::OnPlayableDestroy
+// Il2CppName: OnPlayableDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&DirectorControlPlayable::OnPlayableDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::PrepareFrame
+// Il2CppName: PrepareFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::PrepareFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::OnBehaviourPlay
+// Il2CppName: OnBehaviourPlay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::OnBehaviourPlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::OnBehaviourPause
+// Il2CppName: OnBehaviourPause
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&DirectorControlPlayable::OnBehaviourPause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::ProcessFrame
+// Il2CppName: ProcessFrame
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&DirectorControlPlayable::ProcessFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: DirectorControlPlayable::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)()>(&DirectorControlPlayable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectorControlPlayable::*)()>(&DirectorControlPlayable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DirectorControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -38,14 +38,14 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(SortingLayer), 0 + sizeof(int)> __UnityEngine_SortingLayerSizeCheck;
   static_assert(sizeof(SortingLayer) == 0x4);
-  // Writing MetadataGetter for method: SortingLayer::GetLayerValueFromID
-  // Il2CppName: GetLayerValueFromID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&SortingLayer::GetLayerValueFromID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SortingLayer), "GetLayerValueFromID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");
+// Writing MetadataGetter for method: SortingLayer::GetLayerValueFromID
+// Il2CppName: GetLayerValueFromID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&SortingLayer::GetLayerValueFromID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SortingLayer), "GetLayerValueFromID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

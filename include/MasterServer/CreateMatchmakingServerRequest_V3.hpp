@@ -51,35 +51,35 @@ namespace MasterServer {
     }
   }; // MasterServer.CreateMatchmakingServerRequest/V3
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CreateMatchmakingServerRequest::V3::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataWriter*)>(&CreateMatchmakingServerRequest::V3::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateMatchmakingServerRequest::V3::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataReader*)>(&CreateMatchmakingServerRequest::V3::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CreateMatchmakingServerRequest::V3::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)()>(&CreateMatchmakingServerRequest::V3::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)()>(&CreateMatchmakingServerRequest::V3::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateMatchmakingServerRequest::V3*, "MasterServer", "CreateMatchmakingServerRequest/V3");
+// Writing MetadataGetter for method: CreateMatchmakingServerRequest::V3::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataWriter*)>(&CreateMatchmakingServerRequest::V3::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: CreateMatchmakingServerRequest::V3::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataReader*)>(&CreateMatchmakingServerRequest::V3::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: CreateMatchmakingServerRequest::V3::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)()>(&CreateMatchmakingServerRequest::V3::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateMatchmakingServerRequest::V3::*)()>(&CreateMatchmakingServerRequest::V3::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CreateMatchmakingServerRequest::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

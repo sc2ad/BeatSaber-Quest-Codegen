@@ -69,27 +69,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MockMasterServerAvailabilityModel), 16 + sizeof(GlobalNamespace::MasterServerAvailabilityData*)> __GlobalNamespace_MockMasterServerAvailabilityModelSizeCheck;
   static_assert(sizeof(MockMasterServerAvailabilityModel) == 0x18);
-  // Writing MetadataGetter for method: MockMasterServerAvailabilityModel::GetAvailabilityAsync
-  // Il2CppName: GetAvailabilityAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* (MockMasterServerAvailabilityModel::*)(System::Threading::CancellationToken)>(&MockMasterServerAvailabilityModel::GetAvailabilityAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockMasterServerAvailabilityModel*), "GetAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
-  // Writing MetadataGetter for method: MockMasterServerAvailabilityModel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMasterServerAvailabilityModel::*)()>(&MockMasterServerAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockMasterServerAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMasterServerAvailabilityModel::*)()>(&MockMasterServerAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MockMasterServerAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerAvailabilityModel*, "", "MockMasterServerAvailabilityModel");
+// Writing MetadataGetter for method: MockMasterServerAvailabilityModel::GetAvailabilityAsync
+// Il2CppName: GetAvailabilityAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* (MockMasterServerAvailabilityModel::*)(System::Threading::CancellationToken)>(&MockMasterServerAvailabilityModel::GetAvailabilityAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockMasterServerAvailabilityModel*), "GetAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
+// Writing MetadataGetter for method: MockMasterServerAvailabilityModel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMasterServerAvailabilityModel::*)()>(&MockMasterServerAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockMasterServerAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMasterServerAvailabilityModel::*)()>(&MockMasterServerAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MockMasterServerAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

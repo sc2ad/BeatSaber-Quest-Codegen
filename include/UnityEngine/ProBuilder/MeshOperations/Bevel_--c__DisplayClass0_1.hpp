@@ -56,27 +56,27 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
   static check_size<sizeof(Bevel::$$c__DisplayClass0_1), 16 + sizeof(UnityEngine::ProBuilder::EdgeLookup)> __UnityEngine_ProBuilder_MeshOperations_Bevel_$$c__DisplayClass0_1SizeCheck;
   static_assert(sizeof(Bevel::$$c__DisplayClass0_1) == 0x20);
-  // Writing MetadataGetter for method: Bevel::$$c__DisplayClass0_1::$BevelEdges$b__4
-  // Il2CppName: <BevelEdges>b__4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bevel::$$c__DisplayClass0_1::*)(UnityEngine::ProBuilder::WingedEdge*)>(&Bevel::$$c__DisplayClass0_1::$BevelEdges$b__4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bevel::$$c__DisplayClass0_1*), "<BevelEdges>b__4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Bevel::$$c__DisplayClass0_1::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bevel::$$c__DisplayClass0_1::*)()>(&Bevel::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bevel::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bevel::$$c__DisplayClass0_1::*)()>(&Bevel::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Bevel::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_1");
+// Writing MetadataGetter for method: Bevel::$$c__DisplayClass0_1::$BevelEdges$b__4
+// Il2CppName: <BevelEdges>b__4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Bevel::$$c__DisplayClass0_1::*)(UnityEngine::ProBuilder::WingedEdge*)>(&Bevel::$$c__DisplayClass0_1::$BevelEdges$b__4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c__DisplayClass0_1*), "<BevelEdges>b__4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+  }
+};
+// Writing MetadataGetter for method: Bevel::$$c__DisplayClass0_1::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bevel::$$c__DisplayClass0_1::*)()>(&Bevel::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bevel::$$c__DisplayClass0_1::*)()>(&Bevel::$$c__DisplayClass0_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c__DisplayClass0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -67,43 +67,43 @@ namespace NUnit::Framework::Internal::Commands {
   #pragma pack(pop)
   static check_size<sizeof(TestMethodCommand), 32 + sizeof(::Array<::Il2CppObject*>*)> __NUnit_Framework_Internal_Commands_TestMethodCommandSizeCheck;
   static_assert(sizeof(TestMethodCommand) == 0x28);
-  // Writing MetadataGetter for method: TestMethodCommand::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestMethodCommand::*)(NUnit::Framework::Internal::TestMethod*)>(&TestMethodCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestMethodCommand::*)(NUnit::Framework::Internal::TestMethod*)>(&TestMethodCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestMethodCommand::RunTestMethod
-  // Il2CppName: RunTestMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::RunTestMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "RunTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestMethodCommand::RunNonAsyncTestMethod
-  // Il2CppName: RunNonAsyncTestMethod
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::RunNonAsyncTestMethod)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "RunNonAsyncTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TestMethodCommand::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestMethodCommand*, "NUnit.Framework.Internal.Commands", "TestMethodCommand");
+// Writing MetadataGetter for method: TestMethodCommand::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestMethodCommand::*)(NUnit::Framework::Internal::TestMethod*)>(&TestMethodCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestMethodCommand::*)(NUnit::Framework::Internal::TestMethod*)>(&TestMethodCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+  }
+};
+// Writing MetadataGetter for method: TestMethodCommand::RunTestMethod
+// Il2CppName: RunTestMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::RunTestMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "RunTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
+// Writing MetadataGetter for method: TestMethodCommand::RunNonAsyncTestMethod
+// Il2CppName: RunNonAsyncTestMethod
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::RunNonAsyncTestMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "RunNonAsyncTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
+// Writing MetadataGetter for method: TestMethodCommand::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

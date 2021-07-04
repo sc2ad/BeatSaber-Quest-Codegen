@@ -148,60 +148,60 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TextFadeTransitions), 56 + sizeof(float)> __GlobalNamespace_TextFadeTransitionsSizeCheck;
   static_assert(sizeof(TextFadeTransitions) == 0x3C);
-  // Writing MetadataGetter for method: TextFadeTransitions::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextFadeTransitions::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextFadeTransitions::RefreshState
-  // Il2CppName: RefreshState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::RefreshState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "RefreshState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextFadeTransitions::RefreshTextAlpha
-  // Il2CppName: RefreshTextAlpha
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::RefreshTextAlpha)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "RefreshTextAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TextFadeTransitions::ShowText
-  // Il2CppName: ShowText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)(::Il2CppString*)>(&TextFadeTransitions::ShowText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "ShowText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TextFadeTransitions::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");
+// Writing MetadataGetter for method: TextFadeTransitions::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextFadeTransitions::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextFadeTransitions::RefreshState
+// Il2CppName: RefreshState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::RefreshState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "RefreshState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextFadeTransitions::RefreshTextAlpha
+// Il2CppName: RefreshTextAlpha
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::RefreshTextAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "RefreshTextAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TextFadeTransitions::ShowText
+// Il2CppName: ShowText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)(::Il2CppString*)>(&TextFadeTransitions::ShowText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), "ShowText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TextFadeTransitions::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextFadeTransitions::*)()>(&TextFadeTransitions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TextFadeTransitions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -46,43 +46,43 @@ namespace System::Security::Cryptography {
     }
   }; // System.Security.Cryptography.AsymmetricSignatureDeformatter
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AsymmetricSignatureDeformatter::SetKey
-  // Il2CppName: SetKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&AsymmetricSignatureDeformatter::SetKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsymmetricAlgorithm*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsymmetricSignatureDeformatter::SetHashAlgorithm
-  // Il2CppName: SetHashAlgorithm
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)(::Il2CppString*)>(&AsymmetricSignatureDeformatter::SetHashAlgorithm)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), "SetHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsymmetricSignatureDeformatter::VerifySignature
-  // Il2CppName: VerifySignature
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsymmetricSignatureDeformatter::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&AsymmetricSignatureDeformatter::VerifySignature)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AsymmetricSignatureDeformatter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)()>(&AsymmetricSignatureDeformatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)()>(&AsymmetricSignatureDeformatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricSignatureDeformatter*, "System.Security.Cryptography", "AsymmetricSignatureDeformatter");
+// Writing MetadataGetter for method: AsymmetricSignatureDeformatter::SetKey
+// Il2CppName: SetKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&AsymmetricSignatureDeformatter::SetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsymmetricAlgorithm*>()});
+  }
+};
+// Writing MetadataGetter for method: AsymmetricSignatureDeformatter::SetHashAlgorithm
+// Il2CppName: SetHashAlgorithm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)(::Il2CppString*)>(&AsymmetricSignatureDeformatter::SetHashAlgorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), "SetHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: AsymmetricSignatureDeformatter::VerifySignature
+// Il2CppName: VerifySignature
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsymmetricSignatureDeformatter::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&AsymmetricSignatureDeformatter::VerifySignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: AsymmetricSignatureDeformatter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)()>(&AsymmetricSignatureDeformatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricSignatureDeformatter::*)()>(&AsymmetricSignatureDeformatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsymmetricSignatureDeformatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

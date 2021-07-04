@@ -72,35 +72,35 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
   static check_size<sizeof(EnumerableRepeatedTestCommand), 32 + sizeof(int)> __UnityEngine_TestTools_EnumerableRepeatedTestCommandSizeCheck;
   static_assert(sizeof(EnumerableRepeatedTestCommand) == 0x24);
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::*)(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*)>(&EnumerableRepeatedTestCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::RepeatAttribute::RepeatedTestCommand*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::*)(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*)>(&EnumerableRepeatedTestCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::RepeatAttribute::RepeatedTestCommand*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::ExecuteEnumerable
-  // Il2CppName: ExecuteEnumerable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (EnumerableRepeatedTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&EnumerableRepeatedTestCommand::ExecuteEnumerable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
-    }
-  };
-  // Writing MetadataGetter for method: EnumerableRepeatedTestCommand::Execute
-  // Il2CppName: Execute
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (EnumerableRepeatedTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&EnumerableRepeatedTestCommand::Execute)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRepeatedTestCommand*, "UnityEngine.TestTools", "EnumerableRepeatedTestCommand");
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::*)(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*)>(&EnumerableRepeatedTestCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::RepeatAttribute::RepeatedTestCommand*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableRepeatedTestCommand::*)(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*)>(&EnumerableRepeatedTestCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::RepeatAttribute::RepeatedTestCommand*>()});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::ExecuteEnumerable
+// Il2CppName: ExecuteEnumerable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (EnumerableRepeatedTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&EnumerableRepeatedTestCommand::ExecuteEnumerable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
+// Writing MetadataGetter for method: EnumerableRepeatedTestCommand::Execute
+// Il2CppName: Execute
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (EnumerableRepeatedTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&EnumerableRepeatedTestCommand::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumerableRepeatedTestCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

@@ -103,19 +103,19 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
   static check_size<sizeof(CachedCodeEntry), 80 + sizeof(System::Text::RegularExpressions::SharedReference*)> __System_Text_RegularExpressions_CachedCodeEntrySizeCheck;
   static_assert(sizeof(CachedCodeEntry) == 0x58);
-  // Writing MetadataGetter for method: CachedCodeEntry::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedCodeEntry::*)(::Il2CppString*, System::Collections::Hashtable*, ::Array<::Il2CppString*>*, System::Text::RegularExpressions::RegexCode*, System::Collections::Hashtable*, int, System::Text::RegularExpressions::ExclusiveReference*, System::Text::RegularExpressions::SharedReference*)>(&CachedCodeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CachedCodeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::ExclusiveReference*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::SharedReference*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedCodeEntry::*)(::Il2CppString*, System::Collections::Hashtable*, ::Array<::Il2CppString*>*, System::Text::RegularExpressions::RegexCode*, System::Collections::Hashtable*, int, System::Text::RegularExpressions::ExclusiveReference*, System::Text::RegularExpressions::SharedReference*)>(&CachedCodeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CachedCodeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::ExclusiveReference*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::SharedReference*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::CachedCodeEntry*, "System.Text.RegularExpressions", "CachedCodeEntry");
+// Writing MetadataGetter for method: CachedCodeEntry::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedCodeEntry::*)(::Il2CppString*, System::Collections::Hashtable*, ::Array<::Il2CppString*>*, System::Text::RegularExpressions::RegexCode*, System::Collections::Hashtable*, int, System::Text::RegularExpressions::ExclusiveReference*, System::Text::RegularExpressions::SharedReference*)>(&CachedCodeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CachedCodeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::ExclusiveReference*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::SharedReference*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedCodeEntry::*)(::Il2CppString*, System::Collections::Hashtable*, ::Array<::Il2CppString*>*, System::Text::RegularExpressions::RegexCode*, System::Collections::Hashtable*, int, System::Text::RegularExpressions::ExclusiveReference*, System::Text::RegularExpressions::SharedReference*)>(&CachedCodeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CachedCodeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::ExclusiveReference*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::SharedReference*>()});
+  }
+};

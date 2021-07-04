@@ -56,32 +56,32 @@ namespace System::Threading::Tasks {
     static void InvokeCallbackWhenTaskCompletes(System::Threading::Tasks::Task* antecedent, System::AsyncCallback* callback, System::IAsyncResult* asyncResult);
   }; // System.Threading.Tasks.TaskToApm
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TaskToApm::Begin
-  // Il2CppName: Begin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, ::Il2CppObject*)>(&TaskToApm::Begin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TaskToApm*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TaskToApm::End
-  // Il2CppName: End
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&TaskToApm::End)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TaskToApm*), "End", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TaskToApm::End
-  // Il2CppName: End
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TaskToApm::InvokeCallbackWhenTaskCompletes
-  // Il2CppName: InvokeCallbackWhenTaskCompletes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, System::IAsyncResult*)>(&TaskToApm::InvokeCallbackWhenTaskCompletes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TaskToApm*), "InvokeCallbackWhenTaskCompletes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm*, "System.Threading.Tasks", "TaskToApm");
+// Writing MetadataGetter for method: TaskToApm::Begin
+// Il2CppName: Begin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, ::Il2CppObject*)>(&TaskToApm::Begin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TaskToApm*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: TaskToApm::End
+// Il2CppName: End
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&TaskToApm::End)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TaskToApm*), "End", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
+// Writing MetadataGetter for method: TaskToApm::End
+// Il2CppName: End
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TaskToApm::InvokeCallbackWhenTaskCompletes
+// Il2CppName: InvokeCallbackWhenTaskCompletes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, System::IAsyncResult*)>(&TaskToApm::InvokeCallbackWhenTaskCompletes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TaskToApm*), "InvokeCallbackWhenTaskCompletes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

@@ -225,99 +225,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroAnimationController), 140 + sizeof(bool)> __GlobalNamespace_MultiplayerIntroAnimationControllerSizeCheck;
   static_assert(sizeof(MultiplayerIntroAnimationController) == 0x8D);
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::SetBeforeIntroValue
-  // Il2CppName: SetBeforeIntroValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::SetBeforeIntroValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "SetBeforeIntroValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::PlayIntroAnimation
-  // Il2CppName: PlayIntroAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)(float, System::Action*)>(&MultiplayerIntroAnimationController::PlayIntroAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "PlayIntroAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::GetFullIntroAnimationTime
-  // Il2CppName: GetFullIntroAnimationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::GetFullIntroAnimationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "GetFullIntroAnimationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::BindTimeline
-  // Il2CppName: BindTimeline
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::BindTimeline)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "BindTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::BindRingsAndSetTiming
-  // Il2CppName: BindRingsAndSetTiming
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)(int, ::Array<UnityEngine::GameObject*>*, UnityEngine::GameObject*)>(&MultiplayerIntroAnimationController::BindRingsAndSetTiming)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "BindRingsAndSetTiming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GameObject*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::TransitionToAfterIntroAnimationState
-  // Il2CppName: TransitionToAfterIntroAnimationState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::TransitionToAfterIntroAnimationState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "TransitionToAfterIntroAnimationState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::CalculatePlayerIndexSequence
-  // Il2CppName: CalculatePlayerIndexSequence
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Queue_1<int>* (MultiplayerIntroAnimationController::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)>(&MultiplayerIntroAnimationController::CalculatePlayerIndexSequence)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "CalculatePlayerIndexSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::SetTimelineMock
-  // Il2CppName: SetTimelineMock
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)(GlobalNamespace::MultiplayerTimelineMock*, bool)>(&MultiplayerIntroAnimationController::SetTimelineMock)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "SetTimelineMock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerTimelineMock*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::Completed
-  // Il2CppName: Completed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::Completed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MultiplayerIntroAnimationController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroAnimationController*, "", "MultiplayerIntroAnimationController");
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::SetBeforeIntroValue
+// Il2CppName: SetBeforeIntroValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::SetBeforeIntroValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "SetBeforeIntroValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::PlayIntroAnimation
+// Il2CppName: PlayIntroAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)(float, System::Action*)>(&MultiplayerIntroAnimationController::PlayIntroAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "PlayIntroAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::GetFullIntroAnimationTime
+// Il2CppName: GetFullIntroAnimationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::GetFullIntroAnimationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "GetFullIntroAnimationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::BindTimeline
+// Il2CppName: BindTimeline
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::BindTimeline)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "BindTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::BindRingsAndSetTiming
+// Il2CppName: BindRingsAndSetTiming
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)(int, ::Array<UnityEngine::GameObject*>*, UnityEngine::GameObject*)>(&MultiplayerIntroAnimationController::BindRingsAndSetTiming)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "BindRingsAndSetTiming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GameObject*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::TransitionToAfterIntroAnimationState
+// Il2CppName: TransitionToAfterIntroAnimationState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::TransitionToAfterIntroAnimationState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "TransitionToAfterIntroAnimationState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::CalculatePlayerIndexSequence
+// Il2CppName: CalculatePlayerIndexSequence
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Queue_1<int>* (MultiplayerIntroAnimationController::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)>(&MultiplayerIntroAnimationController::CalculatePlayerIndexSequence)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "CalculatePlayerIndexSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::SetTimelineMock
+// Il2CppName: SetTimelineMock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)(GlobalNamespace::MultiplayerTimelineMock*, bool)>(&MultiplayerIntroAnimationController::SetTimelineMock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "SetTimelineMock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerTimelineMock*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::Completed
+// Il2CppName: Completed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::Completed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), "Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MultiplayerIntroAnimationController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroAnimationController::*)()>(&MultiplayerIntroAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -159,150 +159,6 @@ bool UnityEngine::Animation::get_animatePhysics() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_animatePhysics", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: Animation::get_clip
-// Il2CppName: get_clip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (Animation::*)()>(&Animation::get_clip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::Rewind
-// Il2CppName: Rewind
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::*)(::Il2CppString*)>(&Animation::Rewind)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "Rewind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::Internal_RewindByName
-// Il2CppName: Internal_RewindByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::*)(::Il2CppString*)>(&Animation::Internal_RewindByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "Internal_RewindByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::Rewind
-// Il2CppName: Rewind
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::*)()>(&Animation::Rewind)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "Rewind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::INTERNAL_CALL_Rewind
-// Il2CppName: INTERNAL_CALL_Rewind
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Animation*)>(&Animation::INTERNAL_CALL_Rewind)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "INTERNAL_CALL_Rewind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animation*>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::Sample
-// Il2CppName: Sample
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::*)()>(&Animation::Sample)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "Sample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::INTERNAL_CALL_Sample
-// Il2CppName: INTERNAL_CALL_Sample
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Animation*)>(&Animation::INTERNAL_CALL_Sample)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "INTERNAL_CALL_Sample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animation*>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::get_Item
-// Il2CppName: get_Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (Animation::*)(::Il2CppString*)>(&Animation::get_Item)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::Play
-// Il2CppName: Play
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animation::*)()>(&Animation::Play)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::Play
-// Il2CppName: Play
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animation::*)(UnityEngine::PlayMode)>(&Animation::Play)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PlayMode>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::CrossFade
-// Il2CppName: CrossFade
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::*)(::Il2CppString*, float, UnityEngine::PlayMode)>(&Animation::CrossFade)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::PlayMode>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::CrossFade
-// Il2CppName: CrossFade
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::*)(::Il2CppString*, float)>(&Animation::CrossFade)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::PlayDefaultAnimation
-// Il2CppName: PlayDefaultAnimation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animation::*)(UnityEngine::PlayMode)>(&Animation::PlayDefaultAnimation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "PlayDefaultAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PlayMode>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::GetEnumerator
-// Il2CppName: GetEnumerator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Animation::*)()>(&Animation::GetEnumerator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::GetState
-// Il2CppName: GetState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (Animation::*)(::Il2CppString*)>(&Animation::GetState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::GetStateAtIndex
-// Il2CppName: GetStateAtIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (Animation::*)(int)>(&Animation::GetStateAtIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "GetStateAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::GetStateCount
-// Il2CppName: GetStateCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animation::*)()>(&Animation::GetStateCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "GetStateCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::get_animatePhysics
-// Il2CppName: get_animatePhysics
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animation::*)()>(&Animation::get_animatePhysics)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -331,44 +187,6 @@ void UnityEngine::Animation::Enumerator::Reset() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: Animation::Enumerator::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::Enumerator::*)(UnityEngine::Animation*)>(&Animation::Enumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation::Enumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animation*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::Enumerator::*)(UnityEngine::Animation*)>(&Animation::Enumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation::Enumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animation*>()});
-  }
-};
-// Writing MetadataGetter for method: Animation::Enumerator::get_Current
-// Il2CppName: get_Current
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Animation::Enumerator::*)()>(&Animation::Enumerator::get_Current)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation::Enumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::Enumerator::MoveNext
-// Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animation::Enumerator::*)()>(&Animation::Enumerator::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation::Enumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Animation::Enumerator::Reset
-// Il2CppName: Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animation::Enumerator::*)()>(&Animation::Enumerator::Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animation::Enumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -402,52 +220,6 @@ void UnityEngine::AnimationState::set_layer(int value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_layer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: AnimationState::set_time
-// Il2CppName: set_time
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationState::*)(float)>(&AnimationState::set_time)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationState*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationState::set_normalizedTime
-// Il2CppName: set_normalizedTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationState::*)(float)>(&AnimationState::set_normalizedTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationState*), "set_normalizedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationState::set_speed
-// Il2CppName: set_speed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationState::*)(float)>(&AnimationState::set_speed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationState*), "set_speed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationState::set_layer
-// Il2CppName: set_layer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationState::*)(int)>(&AnimationState::set_layer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationState*), "set_layer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationState::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationState::*)()>(&AnimationState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationState::*)()>(&AnimationState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -465,14 +237,6 @@ void UnityEngine::Experimental::Animations::IAnimationWindowPreview::UpdatePrevi
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdatePreviewGraph", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, graph);
 }
-// Writing MetadataGetter for method: IAnimationWindowPreview::UpdatePreviewGraph
-// Il2CppName: UpdatePreviewGraph
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnimationWindowPreview::*)(UnityEngine::Playables::PlayableGraph)>(&IAnimationWindowPreview::UpdatePreviewGraph)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAnimationWindowPreview*), "UpdatePreviewGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -503,22 +267,6 @@ UnityEngine::Playables::PlayableOutput UnityEngine::Animations::AnimationPlayabl
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationPlayableBinding", "CreateAnimationOutput", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(name)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableOutput, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, name);
 }
-// Writing MetadataGetter for method: AnimationPlayableBinding::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::Il2CppString*, UnityEngine::Object*)>(&AnimationPlayableBinding::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableBinding*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableBinding::CreateAnimationOutput
-// Il2CppName: CreateAnimationOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*)>(&AnimationPlayableBinding::CreateAnimationOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableBinding*), "CreateAnimationOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -618,132 +366,6 @@ bool UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Inject
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationClipPlayable", "CreateHandleInternal_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(clip), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, clip, handle);
 }
-// Writing MetadataGetter for method: AnimationClipPlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationClipPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*)>(&AnimationClipPlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*)>(&AnimationClipPlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::AnimationClipPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationClipPlayable::AnimationClipPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationClipPlayable::AnimationClipPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationClipPlayable::*)()>(&AnimationClipPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationClipPlayable::*)(UnityEngine::Animations::AnimationClipPlayable)>(&AnimationClipPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationClipPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetApplyFootIK
-// Il2CppName: SetApplyFootIK
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetApplyFootIK)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetApplyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetRemoveStartOffset
-// Il2CppName: SetRemoveStartOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetRemoveStartOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetRemoveStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetOverrideLoopTime
-// Il2CppName: SetOverrideLoopTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetOverrideLoopTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetOverrideLoopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetLoopTime
-// Il2CppName: SetLoopTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetLoopTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetLoopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::CreateHandleInternal
-// Il2CppName: CreateHandleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*, UnityEngine::Playables::PlayableHandle&)>(&AnimationClipPlayable::CreateHandleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetApplyFootIKInternal
-// Il2CppName: SetApplyFootIKInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetApplyFootIKInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetApplyFootIKInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetRemoveStartOffsetInternal
-// Il2CppName: SetRemoveStartOffsetInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetRemoveStartOffsetInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetRemoveStartOffsetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetOverrideLoopTimeInternal
-// Il2CppName: SetOverrideLoopTimeInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetOverrideLoopTimeInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetOverrideLoopTimeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::SetLoopTimeInternal
-// Il2CppName: SetLoopTimeInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetLoopTimeInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetLoopTimeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationClipPlayable::CreateHandleInternal_Injected
-// Il2CppName: CreateHandleInternal_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::AnimationClip*, UnityEngine::Playables::PlayableHandle&)>(&AnimationClipPlayable::CreateHandleInternal_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -825,92 +447,6 @@ bool UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationLayerMixerPlayable", "CreateHandleInternal_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, handle);
 }
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationLayerMixerPlayable (*)(UnityEngine::Playables::PlayableGraph, int)>(&AnimationLayerMixerPlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int)>(&AnimationLayerMixerPlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::AnimationLayerMixerPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationLayerMixerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationLayerMixerPlayable::AnimationLayerMixerPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationLayerMixerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationLayerMixerPlayable::AnimationLayerMixerPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationLayerMixerPlayable::*)()>(&AnimationLayerMixerPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationLayerMixerPlayable::*)(UnityEngine::Animations::AnimationLayerMixerPlayable)>(&AnimationLayerMixerPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationLayerMixerPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMask
-// Il2CppName: SetLayerMaskFromAvatarMask
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationLayerMixerPlayable::*)(uint, UnityEngine::AvatarMask*)>(&AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMask)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "SetLayerMaskFromAvatarMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarMask*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::CreateHandleInternal
-// Il2CppName: CreateHandleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableHandle&)>(&AnimationLayerMixerPlayable::CreateHandleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal
-// Il2CppName: SetLayerMaskFromAvatarMaskInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, uint, UnityEngine::AvatarMask*)>(&AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "SetLayerMaskFromAvatarMaskInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarMask*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationLayerMixerPlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationLayerMixerPlayable::CreateHandleInternal_Injected
-// Il2CppName: CreateHandleInternal_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&AnimationLayerMixerPlayable::CreateHandleInternal_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationLayerMixerPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -978,76 +514,6 @@ bool UnityEngine::Animations::AnimationMixerPlayable::CreateHandleInternal_Injec
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationMixerPlayable", "CreateHandleInternal_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(normalizeWeights), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, normalizeWeights, handle);
 }
-// Writing MetadataGetter for method: AnimationMixerPlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationMixerPlayable (*)(UnityEngine::Playables::PlayableGraph, int, bool)>(&AnimationMixerPlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMixerPlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int, bool)>(&AnimationMixerPlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMixerPlayable::AnimationMixerPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMixerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationMixerPlayable::AnimationMixerPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMixerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationMixerPlayable::AnimationMixerPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMixerPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationMixerPlayable::*)()>(&AnimationMixerPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationMixerPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationMixerPlayable::*)(UnityEngine::Animations::AnimationMixerPlayable)>(&AnimationMixerPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationMixerPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMixerPlayable::CreateHandleInternal
-// Il2CppName: CreateHandleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, bool, UnityEngine::Playables::PlayableHandle&)>(&AnimationMixerPlayable::CreateHandleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMixerPlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationMixerPlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationMixerPlayable::CreateHandleInternal_Injected
-// Il2CppName: CreateHandleInternal_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, bool, UnityEngine::Playables::PlayableHandle&)>(&AnimationMixerPlayable::CreateHandleInternal_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMixerPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1127,92 +593,6 @@ bool UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandleInter
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationMotionXToDeltaPlayable", "CreateHandleInternal_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, handle);
 }
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationMotionXToDeltaPlayable (*)(UnityEngine::Playables::PlayableGraph)>(&AnimationMotionXToDeltaPlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph)>(&AnimationMotionXToDeltaPlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMotionXToDeltaPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMotionXToDeltaPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationMotionXToDeltaPlayable::*)()>(&AnimationMotionXToDeltaPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationMotionXToDeltaPlayable::*)(UnityEngine::Animations::AnimationMotionXToDeltaPlayable)>(&AnimationMotionXToDeltaPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationMotionXToDeltaPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::SetAbsoluteMotion
-// Il2CppName: SetAbsoluteMotion
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMotionXToDeltaPlayable::*)(bool)>(&AnimationMotionXToDeltaPlayable::SetAbsoluteMotion)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "SetAbsoluteMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::CreateHandleInternal
-// Il2CppName: CreateHandleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableHandle&)>(&AnimationMotionXToDeltaPlayable::CreateHandleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::SetAbsoluteMotionInternal
-// Il2CppName: SetAbsoluteMotionInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationMotionXToDeltaPlayable::SetAbsoluteMotionInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "SetAbsoluteMotionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationMotionXToDeltaPlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::CreateHandleInternal_Injected
-// Il2CppName: CreateHandleInternal_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&AnimationMotionXToDeltaPlayable::CreateHandleInternal_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1284,76 +664,6 @@ bool UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Inje
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationOffsetPlayable", "CreateHandleInternal_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, position, rotation, handle);
 }
-// Writing MetadataGetter for method: AnimationOffsetPlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationOffsetPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, int)>(&AnimationOffsetPlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationOffsetPlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, int)>(&AnimationOffsetPlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationOffsetPlayable::AnimationOffsetPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOffsetPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationOffsetPlayable::AnimationOffsetPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOffsetPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationOffsetPlayable::AnimationOffsetPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationOffsetPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationOffsetPlayable::*)()>(&AnimationOffsetPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationOffsetPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationOffsetPlayable::*)(UnityEngine::Animations::AnimationOffsetPlayable)>(&AnimationOffsetPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationOffsetPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationOffsetPlayable::CreateHandleInternal
-// Il2CppName: CreateHandleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Playables::PlayableHandle&)>(&AnimationOffsetPlayable::CreateHandleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationOffsetPlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationOffsetPlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationOffsetPlayable::CreateHandleInternal_Injected
-// Il2CppName: CreateHandleInternal_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Vector3&, UnityEngine::Quaternion&, UnityEngine::Playables::PlayableHandle&)>(&AnimationOffsetPlayable::CreateHandleInternal_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1377,17 +687,6 @@ void UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedProperties
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationPlayableExtensions", "SetAnimatedPropertiesInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(animatedProperties)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, animatedProperties);
 }
-// Writing MetadataGetter for method: AnimationPlayableExtensions::SetAnimatedProperties
-// Il2CppName: SetAnimatedProperties
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: AnimationPlayableExtensions::SetAnimatedPropertiesInternal
-// Il2CppName: SetAnimatedPropertiesInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::AnimationClip*)>(&AnimationPlayableExtensions::SetAnimatedPropertiesInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableExtensions*), "SetAnimatedPropertiesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1408,14 +707,6 @@ bool UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAn
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationPlayableGraphExtensions", "InternalCreateAnimationOutput", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, name, handle);
 }
-// Writing MetadataGetter for method: AnimationPlayableGraphExtensions::InternalCreateAnimationOutput
-// Il2CppName: InternalCreateAnimationOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableGraphExtensions*), "InternalCreateAnimationOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1480,84 +771,6 @@ void UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget(UnityEn
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationPlayableOutput", "InternalSetTarget", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(handle), ::il2cpp_utils::ExtractType(target)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, handle, target);
 }
-// Writing MetadataGetter for method: AnimationPlayableOutput::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationPlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*, UnityEngine::Animator*)>(&AnimationPlayableOutput::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::AnimationPlayableOutput
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&AnimationPlayableOutput::AnimationPlayableOutput<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&AnimationPlayableOutput::AnimationPlayableOutput<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::get_Null
-// Il2CppName: get_Null
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationPlayableOutput (*)()>(&AnimationPlayableOutput::get_Null)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (AnimationPlayableOutput::*)()>(&AnimationPlayableOutput::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::AnimationPlayableOutput
-// Il2CppName: op_Explicit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationPlayableOutput (*)(UnityEngine::Playables::PlayableOutput&)>(&AnimationPlayableOutput::AnimationPlayableOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::GetTarget
-// Il2CppName: GetTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (AnimationPlayableOutput::*)()>(&AnimationPlayableOutput::GetTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "GetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::SetTarget
-// Il2CppName: SetTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPlayableOutput::*)(UnityEngine::Animator*)>(&AnimationPlayableOutput::SetTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::InternalGetTarget
-// Il2CppName: InternalGetTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&AnimationPlayableOutput::InternalGetTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "InternalGetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPlayableOutput::InternalSetTarget
-// Il2CppName: InternalSetTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Animator*)>(&AnimationPlayableOutput::InternalSetTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableOutput), "InternalSetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1597,44 +810,6 @@ void UnityEngine::Animations::AnimationPosePlayable::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationPosePlayable", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: AnimationPosePlayable::AnimationPosePlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPosePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationPosePlayable::AnimationPosePlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPosePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationPosePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationPosePlayable::AnimationPosePlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPosePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPosePlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationPosePlayable::*)()>(&AnimationPosePlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPosePlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationPosePlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationPosePlayable::*)(UnityEngine::Animations::AnimationPosePlayable)>(&AnimationPosePlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPosePlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationPosePlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationPosePlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationPosePlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPosePlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1702,76 +877,6 @@ bool UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationRemoveScalePlayable", "CreateHandleInternal_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, handle);
 }
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationRemoveScalePlayable (*)(UnityEngine::Playables::PlayableGraph, int)>(&AnimationRemoveScalePlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int)>(&AnimationRemoveScalePlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::AnimationRemoveScalePlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationRemoveScalePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationRemoveScalePlayable::AnimationRemoveScalePlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationRemoveScalePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationRemoveScalePlayable::AnimationRemoveScalePlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationRemoveScalePlayable::*)()>(&AnimationRemoveScalePlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationRemoveScalePlayable::*)(UnityEngine::Animations::AnimationRemoveScalePlayable)>(&AnimationRemoveScalePlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationRemoveScalePlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::CreateHandleInternal
-// Il2CppName: CreateHandleInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableHandle&)>(&AnimationRemoveScalePlayable::CreateHandleInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationRemoveScalePlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::CreateHandleInternal_Injected
-// Il2CppName: CreateHandleInternal_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&AnimationRemoveScalePlayable::CreateHandleInternal_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1811,44 +916,6 @@ void UnityEngine::Animations::AnimationScriptPlayable::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationScriptPlayable", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: AnimationScriptPlayable::AnimationScriptPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationScriptPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationScriptPlayable::AnimationScriptPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationScriptPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationScriptPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationScriptPlayable::AnimationScriptPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationScriptPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationScriptPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationScriptPlayable::*)()>(&AnimationScriptPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationScriptPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationScriptPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationScriptPlayable::*)(UnityEngine::Animations::AnimationScriptPlayable)>(&AnimationScriptPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationScriptPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationScriptPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationScriptPlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationScriptPlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationScriptPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1894,52 +961,6 @@ void UnityEngine::Animations::AnimatorControllerPlayable::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimatorControllerPlayable", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: AnimatorControllerPlayable::AnimatorControllerPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorControllerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimatorControllerPlayable::AnimatorControllerPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatorControllerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorControllerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimatorControllerPlayable::AnimatorControllerPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatorControllerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimatorControllerPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimatorControllerPlayable::*)()>(&AnimatorControllerPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatorControllerPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimatorControllerPlayable::SetHandle
-// Il2CppName: SetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorControllerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimatorControllerPlayable::SetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatorControllerPlayable), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AnimatorControllerPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimatorControllerPlayable::*)(UnityEngine::Animations::AnimatorControllerPlayable)>(&AnimatorControllerPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatorControllerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AnimatorControllerPlayable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimatorControllerPlayable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatorControllerPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2052,157 +1073,6 @@ UnityEngine::AssetBundleRequest* UnityEngine::AssetBundle::LoadAssetWithSubAsset
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAssetWithSubAssetsAsync_Internal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(type)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundleRequest*, false>(this, ___internal__method, name, type);
 }
-// Writing MetadataGetter for method: AssetBundle::LoadFromFileAsync_Internal
-// Il2CppName: LoadFromFileAsync_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::Il2CppString*, uint, uint64_t)>(&AssetBundle::LoadFromFileAsync_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadFromFileAsync_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadFromFileAsync
-// Il2CppName: LoadFromFileAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::Il2CppString*)>(&AssetBundle::LoadFromFileAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadFromFileAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadFromFileAsync
-// Il2CppName: LoadFromFileAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::Il2CppString*, uint)>(&AssetBundle::LoadFromFileAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadFromFileAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadFromFile_Internal
-// Il2CppName: LoadFromFile_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (*)(::Il2CppString*, uint, uint64_t)>(&AssetBundle::LoadFromFile_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadFromFile_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadFromFile
-// Il2CppName: LoadFromFile
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (*)(::Il2CppString*)>(&AssetBundle::LoadFromFile)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAsset
-// Il2CppName: LoadAsset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (AssetBundle::*)(::Il2CppString*)>(&AssetBundle::LoadAsset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAsset
-// Il2CppName: LoadAsset
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: AssetBundle::LoadAsset
-// Il2CppName: LoadAsset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (AssetBundle::*)(::Il2CppString*, System::Type*)>(&AssetBundle::LoadAsset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAsset_Internal
-// Il2CppName: LoadAsset_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (AssetBundle::*)(::Il2CppString*, System::Type*)>(&AssetBundle::LoadAsset_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAsset_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAssetAsync
-// Il2CppName: LoadAssetAsync
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: AssetBundle::LoadAssetAsync
-// Il2CppName: LoadAssetAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (AssetBundle::*)(::Il2CppString*, System::Type*)>(&AssetBundle::LoadAssetAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAssetAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAssetWithSubAssetsAsync
-// Il2CppName: LoadAssetWithSubAssetsAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (AssetBundle::*)(::Il2CppString*, System::Type*)>(&AssetBundle::LoadAssetWithSubAssetsAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAssetWithSubAssetsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAllAssetsAsync
-// Il2CppName: LoadAllAssetsAsync
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: AssetBundle::LoadAllAssetsAsync
-// Il2CppName: LoadAllAssetsAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (AssetBundle::*)(System::Type*)>(&AssetBundle::LoadAllAssetsAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAllAssetsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAssetAsync_Internal
-// Il2CppName: LoadAssetAsync_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (AssetBundle::*)(::Il2CppString*, System::Type*)>(&AssetBundle::LoadAssetAsync_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAssetAsync_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::Unload
-// Il2CppName: Unload
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundle::*)(bool)>(&AssetBundle::Unload)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::GetAllAssetNames
-// Il2CppName: GetAllAssetNames
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (AssetBundle::*)()>(&AssetBundle::GetAllAssetNames)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "GetAllAssetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::GetAllScenePaths
-// Il2CppName: GetAllScenePaths
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (AssetBundle::*)()>(&AssetBundle::GetAllScenePaths)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "GetAllScenePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::LoadAssetWithSubAssetsAsync_Internal
-// Il2CppName: LoadAssetWithSubAssetsAsync_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (AssetBundle::*)(::Il2CppString*, System::Type*)>(&AssetBundle::LoadAssetWithSubAssetsAsync_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), "LoadAssetWithSubAssetsAsync_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: AssetBundle::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundle::*)()>(&AssetBundle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundle::*)()>(&AssetBundle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2220,28 +1090,6 @@ UnityEngine::AssetBundle* UnityEngine::AssetBundleCreateRequest::get_assetBundle
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_assetBundle", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundle*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: AssetBundleCreateRequest::get_assetBundle
-// Il2CppName: get_assetBundle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (AssetBundleCreateRequest::*)()>(&AssetBundleCreateRequest::get_assetBundle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundleCreateRequest*), "get_assetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AssetBundleCreateRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleCreateRequest::*)()>(&AssetBundleCreateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundleCreateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleCreateRequest::*)()>(&AssetBundleCreateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundleCreateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2266,36 +1114,6 @@ UnityEngine::Object* UnityEngine::AssetBundleRequest::get_asset() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_allAssets", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Array<UnityEngine::Object*>*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: AssetBundleRequest::get_asset
-// Il2CppName: get_asset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (AssetBundleRequest::*)()>(&AssetBundleRequest::get_asset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequest*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AssetBundleRequest::get_allAssets
-// Il2CppName: get_allAssets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (AssetBundleRequest::*)()>(&AssetBundleRequest::get_allAssets)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequest*), "get_allAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AssetBundleRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequest::*)()>(&AssetBundleRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleRequest::*)()>(&AssetBundleRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetBundleRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2624,78 +1442,6 @@ void UnityEngine::AudioSettings::GetConfiguration_Injected(UnityEngine::AudioCon
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "AudioSettings", "GetConfiguration_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioConfiguration&>()})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, ret);
 }
-// Writing MetadataGetter for method: AudioSettings::GetSampleRate
-// Il2CppName: GetSampleRate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&AudioSettings::GetSampleRate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::get_dspTime
-// Il2CppName: get_dspTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&AudioSettings::get_dspTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "get_dspTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::get_outputSampleRate
-// Il2CppName: get_outputSampleRate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&AudioSettings::get_outputSampleRate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "get_outputSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::GetSpatializerPluginName
-// Il2CppName: GetSpatializerPluginName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&AudioSettings::GetSpatializerPluginName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetSpatializerPluginName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::GetConfiguration
-// Il2CppName: GetConfiguration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioConfiguration (*)()>(&AudioSettings::GetConfiguration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::InvokeOnAudioConfigurationChanged
-// Il2CppName: InvokeOnAudioConfigurationChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::InvokeOnAudioConfigurationChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "InvokeOnAudioConfigurationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::StartAudioOutput
-// Il2CppName: StartAudioOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::StartAudioOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "StartAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::StopAudioOutput
-// Il2CppName: StopAudioOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::StopAudioOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "StopAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::GetConfiguration_Injected
-// Il2CppName: GetConfiguration_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioConfiguration&)>(&AudioSettings::GetConfiguration_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetConfiguration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioConfiguration&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2728,44 +1474,6 @@ void UnityEngine::AudioSettings::AudioConfigurationChangeHandler::EndInvoke(Syst
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(::Il2CppObject*, System::IntPtr)>(&AudioSettings::AudioConfigurationChangeHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(::Il2CppObject*, System::IntPtr)>(&AudioSettings::AudioConfigurationChangeHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(bool)>(&AudioSettings::AudioConfigurationChangeHandler::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AudioSettings::AudioConfigurationChangeHandler::*)(bool, System::AsyncCallback*, ::Il2CppObject*)>(&AudioSettings::AudioConfigurationChangeHandler::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(System::IAsyncResult*)>(&AudioSettings::AudioConfigurationChangeHandler::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2859,62 +1567,6 @@ void UnityEngine::AudioSettings::Mobile::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "AudioSettings/Mobile", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: AudioSettings::Mobile::get_muteState
-// Il2CppName: get_muteState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::Mobile::get_muteState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "get_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::Mobile::set_muteState
-// Il2CppName: set_muteState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::Mobile::set_muteState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "set_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::Mobile::get_stopAudioOutputOnMute
-// Il2CppName: get_stopAudioOutputOnMute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::Mobile::get_stopAudioOutputOnMute)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "get_stopAudioOutputOnMute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::Mobile::InvokeOnMuteStateChanged
-// Il2CppName: InvokeOnMuteStateChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::Mobile::InvokeOnMuteStateChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "InvokeOnMuteStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::Mobile::StartAudioOutput
-// Il2CppName: StartAudioOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::StartAudioOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "StartAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::Mobile::StopAudioOutput
-// Il2CppName: StopAudioOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::StopAudioOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "StopAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSettings::Mobile::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3057,188 +1709,6 @@ void UnityEngine::AudioClip::InvokePCMSetPositionCallback_Internal(int position)
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InvokePCMSetPositionCallback_Internal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(position)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, position);
 }
-// Writing MetadataGetter for method: AudioClip::GetData
-// Il2CppName: GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::Array<float>*&, int, int)>(&AudioClip::GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::SetData
-// Il2CppName: SetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::Array<float>*, int, int)>(&AudioClip::SetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::Construct_Internal
-// Il2CppName: Construct_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)()>(&AudioClip::Construct_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "Construct_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::GetName
-// Il2CppName: GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AudioClip::*)()>(&AudioClip::GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::CreateUserSound
-// Il2CppName: CreateUserSound
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(::Il2CppString*, int, int, int, bool)>(&AudioClip::CreateUserSound)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "CreateUserSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::get_length
-// Il2CppName: get_length
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioClip::*)()>(&AudioClip::get_length)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::get_samples
-// Il2CppName: get_samples
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AudioClip::*)()>(&AudioClip::get_samples)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_samples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::get_channels
-// Il2CppName: get_channels
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AudioClip::*)()>(&AudioClip::get_channels)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_channels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::get_frequency
-// Il2CppName: get_frequency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AudioClip::*)()>(&AudioClip::get_frequency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_frequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::LoadAudioData
-// Il2CppName: LoadAudioData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioClip::*)()>(&AudioClip::LoadAudioData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "LoadAudioData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::get_loadState
-// Il2CppName: get_loadState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioDataLoadState (AudioClip::*)()>(&AudioClip::get_loadState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_loadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::GetData
-// Il2CppName: GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioClip::*)(::Array<float>*, int)>(&AudioClip::GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::SetData
-// Il2CppName: SetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioClip::*)(::Array<float>*, int)>(&AudioClip::SetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::Il2CppString*, int, int, int, bool)>(&AudioClip::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::Il2CppString*, int, int, int, bool, UnityEngine::AudioClip::PCMReaderCallback*, UnityEngine::AudioClip::PCMSetPositionCallback*)>(&AudioClip::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::add_m_PCMReaderCallback
-// Il2CppName: add_m_PCMReaderCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&AudioClip::add_m_PCMReaderCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "add_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::remove_m_PCMReaderCallback
-// Il2CppName: remove_m_PCMReaderCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&AudioClip::remove_m_PCMReaderCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "remove_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::add_m_PCMSetPositionCallback
-// Il2CppName: add_m_PCMSetPositionCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&AudioClip::add_m_PCMSetPositionCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "add_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::remove_m_PCMSetPositionCallback
-// Il2CppName: remove_m_PCMSetPositionCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&AudioClip::remove_m_PCMSetPositionCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "remove_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::InvokePCMReaderCallback_Internal
-// Il2CppName: InvokePCMReaderCallback_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(::Array<float>*)>(&AudioClip::InvokePCMReaderCallback_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "InvokePCMReaderCallback_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::InvokePCMSetPositionCallback_Internal
-// Il2CppName: InvokePCMSetPositionCallback_Internal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(int)>(&AudioClip::InvokePCMSetPositionCallback_Internal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "InvokePCMSetPositionCallback_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)()>(&AudioClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)()>(&AudioClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3271,44 +1741,6 @@ void UnityEngine::AudioClip::PCMReaderCallback::EndInvoke(System::IAsyncResult* 
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: AudioClip::PCMReaderCallback::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMReaderCallback::*)(::Il2CppObject*, System::IntPtr)>(&AudioClip::PCMReaderCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMReaderCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMReaderCallback::*)(::Il2CppObject*, System::IntPtr)>(&AudioClip::PCMReaderCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMReaderCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::PCMReaderCallback::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMReaderCallback::*)(::Array<float>*)>(&AudioClip::PCMReaderCallback::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMReaderCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::PCMReaderCallback::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AudioClip::PCMReaderCallback::*)(::Array<float>*, System::AsyncCallback*, ::Il2CppObject*)>(&AudioClip::PCMReaderCallback::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMReaderCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::PCMReaderCallback::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMReaderCallback::*)(System::IAsyncResult*)>(&AudioClip::PCMReaderCallback::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMReaderCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3341,44 +1773,6 @@ void UnityEngine::AudioClip::PCMSetPositionCallback::EndInvoke(System::IAsyncRes
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: AudioClip::PCMSetPositionCallback::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMSetPositionCallback::*)(::Il2CppObject*, System::IntPtr)>(&AudioClip::PCMSetPositionCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMSetPositionCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMSetPositionCallback::*)(::Il2CppObject*, System::IntPtr)>(&AudioClip::PCMSetPositionCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMSetPositionCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::PCMSetPositionCallback::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMSetPositionCallback::*)(int)>(&AudioClip::PCMSetPositionCallback::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMSetPositionCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::PCMSetPositionCallback::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AudioClip::PCMSetPositionCallback::*)(int, System::AsyncCallback*, ::Il2CppObject*)>(&AudioClip::PCMSetPositionCallback::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMSetPositionCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClip::PCMSetPositionCallback::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::PCMSetPositionCallback::*)(System::IAsyncResult*)>(&AudioClip::PCMSetPositionCallback::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip::PCMSetPositionCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3400,22 +1794,6 @@ void UnityEngine::AudioListener::set_pause(bool value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "AudioListener", "set_pause", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
 }
-// Writing MetadataGetter for method: AudioListener::get_pause
-// Il2CppName: get_pause
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioListener::get_pause)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioListener*), "get_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioListener::set_pause
-// Il2CppName: set_pause
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioListener::set_pause)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioListener*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3652,302 +2030,6 @@ void UnityEngine::AudioSource::GetSpectrumData(::Array<float>* samples, int chan
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSpectrumData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(samples), ::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(window)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, samples, channel, window);
 }
-// Writing MetadataGetter for method: AudioSource::GetPitch
-// Il2CppName: GetPitch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::AudioSource*)>(&AudioSource::GetPitch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "GetPitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::SetPitch
-// Il2CppName: SetPitch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, float)>(&AudioSource::SetPitch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "SetPitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::PlayHelper
-// Il2CppName: PlayHelper
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, uint64_t)>(&AudioSource::PlayHelper)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "PlayHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::Play
-// Il2CppName: Play
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(double)>(&AudioSource::Play)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::PlayOneShotHelper
-// Il2CppName: PlayOneShotHelper
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, UnityEngine::AudioClip*, float)>(&AudioSource::PlayOneShotHelper)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "PlayOneShotHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::Stop
-// Il2CppName: Stop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(bool)>(&AudioSource::Stop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::GetSpectrumDataHelper
-// Il2CppName: GetSpectrumDataHelper
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, ::Array<float>*&, int, UnityEngine::FFTWindow)>(&AudioSource::GetSpectrumDataHelper)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "GetSpectrumDataHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FFTWindow>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::get_volume
-// Il2CppName: get_volume
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioSource::*)()>(&AudioSource::get_volume)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "get_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_volume
-// Il2CppName: set_volume
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_volume)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::get_pitch
-// Il2CppName: get_pitch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioSource::*)()>(&AudioSource::get_pitch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "get_pitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_pitch
-// Il2CppName: set_pitch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_pitch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_pitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::get_time
-// Il2CppName: get_time
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioSource::*)()>(&AudioSource::get_time)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_time
-// Il2CppName: set_time
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_time)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::get_timeSamples
-// Il2CppName: get_timeSamples
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AudioSource::*)()>(&AudioSource::get_timeSamples)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "get_timeSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::get_clip
-// Il2CppName: get_clip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (AudioSource::*)()>(&AudioSource::get_clip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_clip
-// Il2CppName: set_clip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(UnityEngine::AudioClip*)>(&AudioSource::set_clip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::Play
-// Il2CppName: Play
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)()>(&AudioSource::Play)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::PlayScheduled
-// Il2CppName: PlayScheduled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(double)>(&AudioSource::PlayScheduled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "PlayScheduled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::PlayOneShot
-// Il2CppName: PlayOneShot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(UnityEngine::AudioClip*)>(&AudioSource::PlayOneShot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "PlayOneShot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::PlayOneShot
-// Il2CppName: PlayOneShot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(UnityEngine::AudioClip*, float)>(&AudioSource::PlayOneShot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "PlayOneShot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::Stop
-// Il2CppName: Stop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)()>(&AudioSource::Stop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::Pause
-// Il2CppName: Pause
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)()>(&AudioSource::Pause)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::UnPause
-// Il2CppName: UnPause
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)()>(&AudioSource::UnPause)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "UnPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::get_isPlaying
-// Il2CppName: get_isPlaying
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioSource::*)()>(&AudioSource::get_isPlaying)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "get_isPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_loop
-// Il2CppName: set_loop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(bool)>(&AudioSource::set_loop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::get_playOnAwake
-// Il2CppName: get_playOnAwake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioSource::*)()>(&AudioSource::get_playOnAwake)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "get_playOnAwake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_playOnAwake
-// Il2CppName: set_playOnAwake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(bool)>(&AudioSource::set_playOnAwake)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_playOnAwake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_ignoreListenerPause
-// Il2CppName: set_ignoreListenerPause
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(bool)>(&AudioSource::set_ignoreListenerPause)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_ignoreListenerPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_spatialBlend
-// Il2CppName: set_spatialBlend
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_spatialBlend)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_spatialBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_reverbZoneMix
-// Il2CppName: set_reverbZoneMix
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_reverbZoneMix)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_reverbZoneMix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_bypassEffects
-// Il2CppName: set_bypassEffects
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(bool)>(&AudioSource::set_bypassEffects)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_bypassEffects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_bypassReverbZones
-// Il2CppName: set_bypassReverbZones
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(bool)>(&AudioSource::set_bypassReverbZones)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_bypassReverbZones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_dopplerLevel
-// Il2CppName: set_dopplerLevel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_dopplerLevel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_dopplerLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_spread
-// Il2CppName: set_spread
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_spread)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_spread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_priority
-// Il2CppName: set_priority
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(int)>(&AudioSource::set_priority)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::set_minDistance
-// Il2CppName: set_minDistance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(float)>(&AudioSource::set_minDistance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "set_minDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSource::GetSpectrumData
-// Il2CppName: GetSpectrumData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSource::*)(::Array<float>*, int, UnityEngine::FFTWindow)>(&AudioSource::GetSpectrumData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSource*), "GetSpectrumData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FFTWindow>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3969,22 +2051,6 @@ void UnityEngine::AudioLowPassFilter::set_cutoffFrequency(float value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_cutoffFrequency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: AudioLowPassFilter::get_cutoffFrequency
-// Il2CppName: get_cutoffFrequency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioLowPassFilter::*)()>(&AudioLowPassFilter::get_cutoffFrequency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioLowPassFilter*), "get_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioLowPassFilter::set_cutoffFrequency
-// Il2CppName: set_cutoffFrequency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioLowPassFilter::*)(float)>(&AudioLowPassFilter::set_cutoffFrequency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioLowPassFilter*), "set_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4090,140 +2156,6 @@ bool UnityEngine::Audio::AudioClipPlayable::InternalCreateAudioClipPlayable(Unit
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Audio", "AudioClipPlayable", "InternalCreateAudioClipPlayable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(clip), ::il2cpp_utils::ExtractType(looping), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, clip, looping, handle);
 }
-// Writing MetadataGetter for method: AudioClipPlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioClipPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AudioClip*, bool)>(&AudioClipPlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AudioClip*, bool)>(&AudioClipPlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::AudioClipPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AudioClipPlayable::AudioClipPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AudioClipPlayable::AudioClipPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AudioClipPlayable::*)()>(&AudioClipPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::AudioClipPlayable
-// Il2CppName: op_Explicit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioClipPlayable (*)(UnityEngine::Playables::Playable&)>(&AudioClipPlayable::AudioClipPlayable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable&>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioClipPlayable::*)(UnityEngine::Audio::AudioClipPlayable)>(&AudioClipPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Audio::AudioClipPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetVolume
-// Il2CppName: SetVolume
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipPlayable::*)(float)>(&AudioClipPlayable::SetVolume)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetStereoPan
-// Il2CppName: SetStereoPan
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipPlayable::*)(float)>(&AudioClipPlayable::SetStereoPan)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetStereoPan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetSpatialBlend
-// Il2CppName: SetSpatialBlend
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipPlayable::*)(float)>(&AudioClipPlayable::SetSpatialBlend)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetSpatialBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::Seek
-// Il2CppName: Seek
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipPlayable::*)(double, double, double)>(&AudioClipPlayable::Seek)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetVolumeInternal
-// Il2CppName: SetVolumeInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, float)>(&AudioClipPlayable::SetVolumeInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetVolumeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetStereoPanInternal
-// Il2CppName: SetStereoPanInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, float)>(&AudioClipPlayable::SetStereoPanInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetStereoPanInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetSpatialBlendInternal
-// Il2CppName: SetSpatialBlendInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, float)>(&AudioClipPlayable::SetSpatialBlendInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetSpatialBlendInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetStartDelayInternal
-// Il2CppName: SetStartDelayInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&AudioClipPlayable::SetStartDelayInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetStartDelayInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::SetPauseDelayInternal
-// Il2CppName: SetPauseDelayInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&AudioClipPlayable::SetPauseDelayInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "SetPauseDelayInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
-// Writing MetadataGetter for method: AudioClipPlayable::InternalCreateAudioClipPlayable
-// Il2CppName: InternalCreateAudioClipPlayable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::AudioClip*, bool, UnityEngine::Playables::PlayableHandle&)>(&AudioClipPlayable::InternalCreateAudioClipPlayable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipPlayable), "InternalCreateAudioClipPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4287,30 +2219,6 @@ bool UnityEngine::Audio::AudioMixer::GetFloat(::Il2CppString* name, float& value
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetFloat", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractIndependentType<float&>()})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, name, value);
 }
-// Writing MetadataGetter for method: AudioMixer::set_updateMode
-// Il2CppName: set_updateMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioMixer::*)(UnityEngine::Audio::AudioMixerUpdateMode)>(&AudioMixer::set_updateMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixer*), "set_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Audio::AudioMixerUpdateMode>()});
-  }
-};
-// Writing MetadataGetter for method: AudioMixer::SetFloat
-// Il2CppName: SetFloat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioMixer::*)(::Il2CppString*, float)>(&AudioMixer::SetFloat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixer*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AudioMixer::GetFloat
-// Il2CppName: GetFloat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioMixer::*)(::Il2CppString*, float&)>(&AudioMixer::GetFloat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixer*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4354,60 +2262,6 @@ bool UnityEngine::Audio::AudioMixerPlayable::CreateAudioMixerPlayableInternal(Un
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Audio", "AudioMixerPlayable", "CreateAudioMixerPlayableInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(normalizeInputVolumes), ::il2cpp_utils::ExtractType(handle)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, normalizeInputVolumes, handle);
 }
-// Writing MetadataGetter for method: AudioMixerPlayable::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioMixerPlayable (*)(UnityEngine::Playables::PlayableGraph, int, bool)>(&AudioMixerPlayable::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixerPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioMixerPlayable::CreateHandle
-// Il2CppName: CreateHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int, bool)>(&AudioMixerPlayable::CreateHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixerPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioMixerPlayable::AudioMixerPlayable
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioMixerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AudioMixerPlayable::AudioMixerPlayable<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioMixerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AudioMixerPlayable::AudioMixerPlayable<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixerPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AudioMixerPlayable::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AudioMixerPlayable::*)()>(&AudioMixerPlayable::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixerPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioMixerPlayable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioMixerPlayable::*)(UnityEngine::Audio::AudioMixerPlayable)>(&AudioMixerPlayable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Audio::AudioMixerPlayable>()});
-  }
-};
-// Writing MetadataGetter for method: AudioMixerPlayable::CreateAudioMixerPlayableInternal
-// Il2CppName: CreateAudioMixerPlayableInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, bool, UnityEngine::Playables::PlayableHandle&)>(&AudioMixerPlayable::CreateAudioMixerPlayableInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioMixerPlayable), "CreateAudioMixerPlayableInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4438,22 +2292,6 @@ UnityEngine::Playables::PlayableOutput UnityEngine::Audio::AudioPlayableBinding:
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Audio", "AudioPlayableBinding", "CreateAudioOutput", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(name)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Playables::PlayableOutput, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, name);
 }
-// Writing MetadataGetter for method: AudioPlayableBinding::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::Il2CppString*, UnityEngine::Object*)>(&AudioPlayableBinding::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableBinding*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableBinding::CreateAudioOutput
-// Il2CppName: CreateAudioOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*)>(&AudioPlayableBinding::CreateAudioOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableBinding*), "CreateAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4474,14 +2312,6 @@ bool UnityEngine::Audio::AudioPlayableGraphExtensions::InternalCreateAudioOutput
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Audio", "AudioPlayableGraphExtensions", "InternalCreateAudioOutput", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, graph, name, handle);
 }
-// Writing MetadataGetter for method: AudioPlayableGraphExtensions::InternalCreateAudioOutput
-// Il2CppName: InternalCreateAudioOutput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&AudioPlayableGraphExtensions::InternalCreateAudioOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableGraphExtensions*), "InternalCreateAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4546,84 +2376,6 @@ void UnityEngine::Audio::AudioPlayableOutput::InternalSetEvaluateOnSeek(UnityEng
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Audio", "AudioPlayableOutput", "InternalSetEvaluateOnSeek", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(output), ::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, output, value);
 }
-// Writing MetadataGetter for method: AudioPlayableOutput::Create
-// Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*, UnityEngine::AudioSource*)>(&AudioPlayableOutput::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::AudioPlayableOutput
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&AudioPlayableOutput::AudioPlayableOutput<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&AudioPlayableOutput::AudioPlayableOutput<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::get_Null
-// Il2CppName: get_Null
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)()>(&AudioPlayableOutput::get_Null)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::GetHandle
-// Il2CppName: GetHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (AudioPlayableOutput::*)()>(&AudioPlayableOutput::GetHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::AudioPlayableOutput
-// Il2CppName: op_Explicit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)(UnityEngine::Playables::PlayableOutput&)>(&AudioPlayableOutput::AudioPlayableOutput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput&>()});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::SetTarget
-// Il2CppName: SetTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(UnityEngine::AudioSource*)>(&AudioPlayableOutput::SetTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::SetEvaluateOnSeek
-// Il2CppName: SetEvaluateOnSeek
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(bool)>(&AudioPlayableOutput::SetEvaluateOnSeek)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "SetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::InternalSetTarget
-// Il2CppName: InternalSetTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::AudioSource*)>(&AudioPlayableOutput::InternalSetTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "InternalSetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioPlayableOutput::InternalSetEvaluateOnSeek
-// Il2CppName: InternalSetEvaluateOnSeek
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, bool)>(&AudioPlayableOutput::InternalSetEvaluateOnSeek)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "InternalSetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4647,22 +2399,6 @@ void UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesOv
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InvokeSampleFramesOverflow", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(droppedSampleFrameCount)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, droppedSampleFrameCount);
 }
-// Writing MetadataGetter for method: AudioSampleProvider::InvokeSampleFramesAvailable
-// Il2CppName: InvokeSampleFramesAvailable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::*)(int)>(&AudioSampleProvider::InvokeSampleFramesAvailable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider*), "InvokeSampleFramesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSampleProvider::InvokeSampleFramesOverflow
-// Il2CppName: InvokeSampleFramesOverflow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::*)(int)>(&AudioSampleProvider::InvokeSampleFramesOverflow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider*), "InvokeSampleFramesOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4695,44 +2431,6 @@ void UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler:
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: AudioSampleProvider::SampleFramesHandler::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::SampleFramesHandler::*)(::Il2CppObject*, System::IntPtr)>(&AudioSampleProvider::SampleFramesHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider::SampleFramesHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::SampleFramesHandler::*)(::Il2CppObject*, System::IntPtr)>(&AudioSampleProvider::SampleFramesHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider::SampleFramesHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSampleProvider::SampleFramesHandler::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::SampleFramesHandler::*)(UnityEngine::Experimental::Audio::AudioSampleProvider*, uint)>(&AudioSampleProvider::SampleFramesHandler::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider::SampleFramesHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Audio::AudioSampleProvider*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSampleProvider::SampleFramesHandler::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AudioSampleProvider::SampleFramesHandler::*)(UnityEngine::Experimental::Audio::AudioSampleProvider*, uint, System::AsyncCallback*, ::Il2CppObject*)>(&AudioSampleProvider::SampleFramesHandler::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider::SampleFramesHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Audio::AudioSampleProvider*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AudioSampleProvider::SampleFramesHandler::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSampleProvider::SampleFramesHandler::*)(System::IAsyncResult*)>(&AudioSampleProvider::SampleFramesHandler::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSampleProvider::SampleFramesHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4756,22 +2454,6 @@ void UnityEngine::Cloth::set_externalAcceleration_Injected(UnityEngine::Vector3&
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_externalAcceleration_Injected", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: Cloth::set_externalAcceleration
-// Il2CppName: set_externalAcceleration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cloth::*)(UnityEngine::Vector3)>(&Cloth::set_externalAcceleration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cloth*), "set_externalAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-  }
-};
-// Writing MetadataGetter for method: Cloth::set_externalAcceleration_Injected
-// Il2CppName: set_externalAcceleration_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cloth::*)(UnityEngine::Vector3&)>(&Cloth::set_externalAcceleration_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cloth*), "set_externalAcceleration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4823,14 +2505,6 @@ void UnityEngineInternal::MathfInternal::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngineInternal", "MathfInternal", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: MathfInternal::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MathfInternal::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MathfInternal), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4904,42 +2578,6 @@ void UnityEngineInternal::TypeInferenceRules::_set_TypeOfFirstArgument(UnityEngi
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: TypeInferenceRuleAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeInferenceRuleAttribute::*)(UnityEngineInternal::TypeInferenceRules)>(&TypeInferenceRuleAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeInferenceRuleAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::TypeInferenceRules>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeInferenceRuleAttribute::*)(UnityEngineInternal::TypeInferenceRules)>(&TypeInferenceRuleAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeInferenceRuleAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::TypeInferenceRules>()});
-  }
-};
-// Writing MetadataGetter for method: TypeInferenceRuleAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeInferenceRuleAttribute::*)(::Il2CppString*)>(&TypeInferenceRuleAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeInferenceRuleAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeInferenceRuleAttribute::*)(::Il2CppString*)>(&TypeInferenceRuleAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeInferenceRuleAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: TypeInferenceRuleAttribute::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeInferenceRuleAttribute::*)()>(&TypeInferenceRuleAttribute::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeInferenceRuleAttribute*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4949,20 +2587,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: GenericStack::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericStack::*)()>(&GenericStack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericStack::*)()>(&GenericStack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4978,14 +2602,6 @@ void Unity::Jobs::JobHandle::ScheduleBatchedJobs() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Jobs", "JobHandle", "ScheduleBatchedJobs", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: JobHandle::ScheduleBatchedJobs
-// Il2CppName: ScheduleBatchedJobs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&JobHandle::ScheduleBatchedJobs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JobHandle), "ScheduleBatchedJobs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5094,14 +2710,6 @@ void Unity::Collections::NativeLeakDetection::Initialize() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections", "NativeLeakDetection", "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: NativeLeakDetection::Initialize
-// Il2CppName: Initialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NativeLeakDetection::Initialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeLeakDetection*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5111,20 +2719,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: NativeContainerAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerAttribute::*)()>(&NativeContainerAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerAttribute::*)()>(&NativeContainerAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5134,20 +2728,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Nativ
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: NativeContainerSupportsMinMaxWriteRestrictionAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerSupportsMinMaxWriteRestrictionAttribute::*)()>(&NativeContainerSupportsMinMaxWriteRestrictionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerSupportsMinMaxWriteRestrictionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerSupportsMinMaxWriteRestrictionAttribute::*)()>(&NativeContainerSupportsMinMaxWriteRestrictionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerSupportsMinMaxWriteRestrictionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5157,20 +2737,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Nativ
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: NativeContainerSupportsDeallocateOnJobCompletionAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerSupportsDeallocateOnJobCompletionAttribute::*)()>(&NativeContainerSupportsDeallocateOnJobCompletionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerSupportsDeallocateOnJobCompletionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerSupportsDeallocateOnJobCompletionAttribute::*)()>(&NativeContainerSupportsDeallocateOnJobCompletionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerSupportsDeallocateOnJobCompletionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5180,20 +2746,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Nativ
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: NativeContainerSupportsDeferredConvertListToArray::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerSupportsDeferredConvertListToArray::*)()>(&NativeContainerSupportsDeferredConvertListToArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerSupportsDeferredConvertListToArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeContainerSupportsDeferredConvertListToArray::*)()>(&NativeContainerSupportsDeferredConvertListToArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeContainerSupportsDeferredConvertListToArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5203,20 +2755,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Nativ
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: WriteAccessRequiredAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WriteAccessRequiredAttribute::*)()>(&WriteAccessRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WriteAccessRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WriteAccessRequiredAttribute::*)()>(&WriteAccessRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WriteAccessRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5226,20 +2764,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Write
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: NativeDisableUnsafePtrRestrictionAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeDisableUnsafePtrRestrictionAttribute::*)()>(&NativeDisableUnsafePtrRestrictionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeDisableUnsafePtrRestrictionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeDisableUnsafePtrRestrictionAttribute::*)()>(&NativeDisableUnsafePtrRestrictionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeDisableUnsafePtrRestrictionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5249,12 +2773,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Nativ
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray
-// Il2CppName: ConvertExistingDataToNativeArray
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr
-// Il2CppName: GetUnsafeReadOnlyPtr
-// Cannot write MetadataGetter for generic methods!
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5309,72 +2827,6 @@ bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable(Syste
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "GetReasonForArrayNonBlittable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr)})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, arr);
 }
-// Writing MetadataGetter for method: UnsafeUtility::IsBlittable
-// Il2CppName: IsBlittable
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::Free
-// Il2CppName: Free
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, Unity::Collections::Allocator)>(&UnsafeUtility::Free)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "Free", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::Allocator>()});
-  }
-};
-// Writing MetadataGetter for method: UnsafeUtility::IsBlittable
-// Il2CppName: IsBlittable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&UnsafeUtility::IsBlittable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "IsBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: UnsafeUtility::IsBlittableValueType
-// Il2CppName: IsBlittableValueType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&UnsafeUtility::IsBlittableValueType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "IsBlittableValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-// Writing MetadataGetter for method: UnsafeUtility::GetReasonForTypeNonBlittableImpl
-// Il2CppName: GetReasonForTypeNonBlittableImpl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::Il2CppString*)>(&UnsafeUtility::GetReasonForTypeNonBlittableImpl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "GetReasonForTypeNonBlittableImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: UnsafeUtility::IsArrayBlittable
-// Il2CppName: IsArrayBlittable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Array*)>(&UnsafeUtility::IsArrayBlittable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "IsArrayBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-  }
-};
-// Writing MetadataGetter for method: UnsafeUtility::IsGenericListBlittable
-// Il2CppName: IsGenericListBlittable
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::GetReasonForArrayNonBlittable
-// Il2CppName: GetReasonForArrayNonBlittable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Array*)>(&UnsafeUtility::GetReasonForArrayNonBlittable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "GetReasonForArrayNonBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-  }
-};
-// Writing MetadataGetter for method: UnsafeUtility::GetReasonForGenericListNonBlittable
-// Il2CppName: GetReasonForGenericListNonBlittable
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::ReadArrayElement
-// Il2CppName: ReadArrayElement
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::WriteArrayElement
-// Il2CppName: WriteArrayElement
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::SizeOf
-// Il2CppName: SizeOf
-// Cannot write MetadataGetter for generic methods!
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5384,20 +2836,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: NotNullAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotNullAttribute::*)()>(&NotNullAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotNullAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotNullAttribute::*)()>(&NotNullAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotNullAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5407,34 +2845,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotNu
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: UsedImplicitlyAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
-  }
-};
-// Writing MetadataGetter for method: UsedImplicitlyAttribute::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)()>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)()>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6865,14 +4275,6 @@ int UnityEngine::SortingLayer::GetLayerValueFromID(int id) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "SortingLayer", "GetLayerValueFromID", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, id);
 }
-// Writing MetadataGetter for method: SortingLayer::GetLayerValueFromID
-// Il2CppName: GetLayerValueFromID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&SortingLayer::GetLayerValueFromID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortingLayer), "GetLayerValueFromID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6930,98 +4332,6 @@ void UnityEngine::Keyframe::set_outTangent(float value) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_outTangent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
 }
-// Writing MetadataGetter for method: Keyframe::Keyframe
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float, float)>(&Keyframe::Keyframe<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float, float)>(&Keyframe::Keyframe<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::Keyframe
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float, float, float, float)>(&Keyframe::Keyframe<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float, float, float, float)>(&Keyframe::Keyframe<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::get_time
-// Il2CppName: get_time
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Keyframe::*)()>(&Keyframe::get_time)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::set_time
-// Il2CppName: set_time
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float)>(&Keyframe::set_time)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::get_value
-// Il2CppName: get_value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Keyframe::*)()>(&Keyframe::get_value)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::set_value
-// Il2CppName: set_value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float)>(&Keyframe::set_value)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::get_inTangent
-// Il2CppName: get_inTangent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Keyframe::*)()>(&Keyframe::get_inTangent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "get_inTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::set_inTangent
-// Il2CppName: set_inTangent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float)>(&Keyframe::set_inTangent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "set_inTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::get_outTangent
-// Il2CppName: get_outTangent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Keyframe::*)()>(&Keyframe::get_outTangent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "get_outTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Keyframe::set_outTangent
-// Il2CppName: set_outTangent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Keyframe::*)(float)>(&Keyframe::set_outTangent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Keyframe), "set_outTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7209,162 +4519,6 @@ int UnityEngine::AnimationCurve::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: AnimationCurve::Internal_Destroy
-// Il2CppName: Internal_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&AnimationCurve::Internal_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::Internal_Create
-// Il2CppName: Internal_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Array<UnityEngine::Keyframe>*)>(&AnimationCurve::Internal_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Keyframe>*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::Internal_Equals
-// Il2CppName: Internal_Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationCurve::*)(System::IntPtr)>(&AnimationCurve::Internal_Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Internal_Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::Evaluate
-// Il2CppName: Evaluate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AnimationCurve::*)(float)>(&AnimationCurve::Evaluate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::get_keys
-// Il2CppName: get_keys
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Keyframe>* (AnimationCurve::*)()>(&AnimationCurve::get_keys)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "get_keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::set_keys
-// Il2CppName: set_keys
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationCurve::*)(::Array<UnityEngine::Keyframe>*)>(&AnimationCurve::set_keys)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "set_keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Keyframe>*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::AddKey
-// Il2CppName: AddKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnimationCurve::*)(float, float)>(&AnimationCurve::AddKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "AddKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::get_length
-// Il2CppName: get_length
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnimationCurve::*)()>(&AnimationCurve::get_length)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::SetKeys
-// Il2CppName: SetKeys
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationCurve::*)(::Array<UnityEngine::Keyframe>*)>(&AnimationCurve::SetKeys)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "SetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Keyframe>*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::GetKeys
-// Il2CppName: GetKeys
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Keyframe>* (AnimationCurve::*)()>(&AnimationCurve::GetKeys)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::Linear
-// Il2CppName: Linear
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)(float, float, float, float)>(&AnimationCurve::Linear)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Linear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::EaseInOut
-// Il2CppName: EaseInOut
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)(float, float, float, float)>(&AnimationCurve::EaseInOut)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "EaseInOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationCurve::*)(::Array<UnityEngine::Keyframe>*)>(&AnimationCurve::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Keyframe>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationCurve::*)(::Array<UnityEngine::Keyframe>*)>(&AnimationCurve::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Keyframe>*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationCurve::*)(UnityEngine::AnimationCurve*)>(&AnimationCurve::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::Finalize
-// Il2CppName: Finalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationCurve::*)()>(&AnimationCurve::Finalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationCurve::*)()>(&AnimationCurve::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationCurve::*)()>(&AnimationCurve::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationCurve::*)(::Il2CppObject*)>(&AnimationCurve::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AnimationCurve::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnimationCurve::*)()>(&AnimationCurve::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationCurve*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7707,294 +4861,6 @@ bool UnityEngine::Application::get_isEditor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Application", "get_isEditor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: Application::Quit
-// Il2CppName: Quit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Application::Quit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Quit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: Application::Quit
-// Il2CppName: Quit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::Quit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Quit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::CanStreamedLevelBeLoaded
-// Il2CppName: CanStreamedLevelBeLoaded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Application::CanStreamedLevelBeLoaded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CanStreamedLevelBeLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: Application::CanStreamedLevelBeLoaded
-// Il2CppName: CanStreamedLevelBeLoaded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Application::CanStreamedLevelBeLoaded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CanStreamedLevelBeLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::get_isPlaying
-// Il2CppName: get_isPlaying
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::get_isPlaying)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_isPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::set_runInBackground
-// Il2CppName: set_runInBackground
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Application::set_runInBackground)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "set_runInBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: Application::get_dataPath
-// Il2CppName: get_dataPath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_dataPath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_dataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_streamingAssetsPath
-// Il2CppName: get_streamingAssetsPath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_streamingAssetsPath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_streamingAssetsPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_persistentDataPath
-// Il2CppName: get_persistentDataPath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_persistentDataPath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_persistentDataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_unityVersion
-// Il2CppName: get_unityVersion
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_unityVersion)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_unityVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_version
-// Il2CppName: get_version
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_version)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_identifier
-// Il2CppName: get_identifier
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_identifier)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_productName
-// Il2CppName: get_productName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_productName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_productName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_companyName
-// Il2CppName: get_companyName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_companyName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_companyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::OpenURL
-// Il2CppName: OpenURL
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Application::OpenURL)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "OpenURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::set_targetFrameRate
-// Il2CppName: set_targetFrameRate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Application::set_targetFrameRate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "set_targetFrameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: Application::SetLogCallbackDefined
-// Il2CppName: SetLogCallbackDefined
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Application::SetLogCallbackDefined)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "SetLogCallbackDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: Application::set_backgroundLoadingPriority
-// Il2CppName: set_backgroundLoadingPriority
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ThreadPriority)>(&Application::set_backgroundLoadingPriority)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "set_backgroundLoadingPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ThreadPriority>()});
-  }
-};
-// Writing MetadataGetter for method: Application::get_platform
-// Il2CppName: get_platform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RuntimePlatform (*)()>(&Application::get_platform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_platform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_isMobilePlatform
-// Il2CppName: get_isMobilePlatform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::get_isMobilePlatform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_isMobilePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_systemLanguage
-// Il2CppName: get_systemLanguage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SystemLanguage (*)()>(&Application::get_systemLanguage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_systemLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::get_internetReachability
-// Il2CppName: get_internetReachability
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::NetworkReachability (*)()>(&Application::get_internetReachability)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_internetReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::CallLowMemory
-// Il2CppName: CallLowMemory
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::CallLowMemory)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CallLowMemory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::add_logMessageReceived
-// Il2CppName: add_logMessageReceived
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::add_logMessageReceived)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "add_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::remove_logMessageReceived
-// Il2CppName: remove_logMessageReceived
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::remove_logMessageReceived)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "remove_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::add_logMessageReceivedThreaded
-// Il2CppName: add_logMessageReceivedThreaded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::add_logMessageReceivedThreaded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "add_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::remove_logMessageReceivedThreaded
-// Il2CppName: remove_logMessageReceivedThreaded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::remove_logMessageReceivedThreaded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "remove_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::CallLogCallback
-// Il2CppName: CallLogCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType, bool)>(&Application::CallLogCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CallLogCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: Application::add_onBeforeRender
-// Il2CppName: add_onBeforeRender
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&Application::add_onBeforeRender)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "add_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::remove_onBeforeRender
-// Il2CppName: remove_onBeforeRender
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&Application::remove_onBeforeRender)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "remove_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::Internal_ApplicationWantsToQuit
-// Il2CppName: Internal_ApplicationWantsToQuit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::Internal_ApplicationWantsToQuit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Internal_ApplicationWantsToQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::Internal_ApplicationQuit
-// Il2CppName: Internal_ApplicationQuit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::Internal_ApplicationQuit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Internal_ApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::InvokeOnBeforeRender
-// Il2CppName: InvokeOnBeforeRender
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::InvokeOnBeforeRender)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "InvokeOnBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::InvokeFocusChanged
-// Il2CppName: InvokeFocusChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Application::InvokeFocusChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "InvokeFocusChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: Application::InvokeDeepLinkActivated
-// Il2CppName: InvokeDeepLinkActivated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Application::InvokeDeepLinkActivated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "InvokeDeepLinkActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::get_isEditor
-// Il2CppName: get_isEditor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::get_isEditor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_isEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8027,41 +4893,3 @@ void UnityEngine::Application::LowMemoryCallback::EndInvoke(System::IAsyncResult
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
-// Writing MetadataGetter for method: Application::LowMemoryCallback::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Application::LowMemoryCallback::*)(::Il2CppObject*, System::IntPtr)>(&Application::LowMemoryCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application::LowMemoryCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Application::LowMemoryCallback::*)(::Il2CppObject*, System::IntPtr)>(&Application::LowMemoryCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application::LowMemoryCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-// Writing MetadataGetter for method: Application::LowMemoryCallback::Invoke
-// Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Application::LowMemoryCallback::*)()>(&Application::LowMemoryCallback::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application::LowMemoryCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Application::LowMemoryCallback::BeginInvoke
-// Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Application::LowMemoryCallback::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Application::LowMemoryCallback::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application::LowMemoryCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Application::LowMemoryCallback::EndInvoke
-// Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Application::LowMemoryCallback::*)(System::IAsyncResult*)>(&Application::LowMemoryCallback::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application::LowMemoryCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};

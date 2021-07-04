@@ -62,54 +62,54 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::Vector3 SnapValueOnRay(UnityEngine::Ray ray, float distance, float snap, UnityEngine::ProBuilder::Vector3Mask mask);
   }; // UnityEngine.ProBuilder.ProBuilderSnapping
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ProBuilderSnapping::SnapValue
-  // Il2CppName: SnapValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, float)>(&ProBuilderSnapping::SnapValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderSnapping::SnapValue
-  // Il2CppName: SnapValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&ProBuilderSnapping::SnapValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderSnapping::SnapValue
-  // Il2CppName: SnapValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&ProBuilderSnapping::SnapValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderSnapping::SnapVertices
-  // Il2CppName: SnapVertices
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, UnityEngine::Vector3)>(&ProBuilderSnapping::SnapVertices)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector
-  // Il2CppName: GetSnappingMaskBasedOnNormalVector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "GetSnappingMaskBasedOnNormalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: ProBuilderSnapping::SnapValueOnRay
-  // Il2CppName: SnapValueOnRay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Ray, float, float, UnityEngine::ProBuilder::Vector3Mask)>(&ProBuilderSnapping::SnapValueOnRay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValueOnRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vector3Mask>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderSnapping*, "UnityEngine.ProBuilder", "ProBuilderSnapping");
+// Writing MetadataGetter for method: ProBuilderSnapping::SnapValue
+// Il2CppName: SnapValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, float)>(&ProBuilderSnapping::SnapValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderSnapping::SnapValue
+// Il2CppName: SnapValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&ProBuilderSnapping::SnapValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderSnapping::SnapValue
+// Il2CppName: SnapValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&ProBuilderSnapping::SnapValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderSnapping::SnapVertices
+// Il2CppName: SnapVertices
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, UnityEngine::Vector3)>(&ProBuilderSnapping::SnapVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector
+// Il2CppName: GetSnappingMaskBasedOnNormalVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "GetSnappingMaskBasedOnNormalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: ProBuilderSnapping::SnapValueOnRay
+// Il2CppName: SnapValueOnRay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Ray, float, float, UnityEngine::ProBuilder::Vector3Mask)>(&ProBuilderSnapping::SnapValueOnRay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProBuilderSnapping*), "SnapValueOnRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vector3Mask>()});
+  }
+};

@@ -70,51 +70,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DifficultyBeatmapSet), 24 + sizeof(::Array<GlobalNamespace::IDifficultyBeatmap*>*)> __GlobalNamespace_DifficultyBeatmapSetSizeCheck;
   static_assert(sizeof(DifficultyBeatmapSet) == 0x20);
-  // Writing MetadataGetter for method: DifficultyBeatmapSet::get_beatmapCharacteristic
-  // Il2CppName: get_beatmapCharacteristic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (DifficultyBeatmapSet::*)()>(&DifficultyBeatmapSet::get_beatmapCharacteristic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "get_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyBeatmapSet::set_beatmapCharacteristic
-  // Il2CppName: set_beatmapCharacteristic
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&DifficultyBeatmapSet::set_beatmapCharacteristic)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "set_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyBeatmapSet::get_difficultyBeatmaps
-  // Il2CppName: get_difficultyBeatmaps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmap*>* (DifficultyBeatmapSet::*)()>(&DifficultyBeatmapSet::get_difficultyBeatmaps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyBeatmapSet::set_difficultyBeatmaps
-  // Il2CppName: set_difficultyBeatmaps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyBeatmapSet::set_difficultyBeatmaps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "set_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyBeatmapSet::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(GlobalNamespace::BeatmapCharacteristicSO*, ::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyBeatmapSet::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(GlobalNamespace::BeatmapCharacteristicSO*, ::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyBeatmapSet::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSet*, "", "DifficultyBeatmapSet");
+// Writing MetadataGetter for method: DifficultyBeatmapSet::get_beatmapCharacteristic
+// Il2CppName: get_beatmapCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (DifficultyBeatmapSet::*)()>(&DifficultyBeatmapSet::get_beatmapCharacteristic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "get_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DifficultyBeatmapSet::set_beatmapCharacteristic
+// Il2CppName: set_beatmapCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&DifficultyBeatmapSet::set_beatmapCharacteristic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "set_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+  }
+};
+// Writing MetadataGetter for method: DifficultyBeatmapSet::get_difficultyBeatmaps
+// Il2CppName: get_difficultyBeatmaps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmap*>* (DifficultyBeatmapSet::*)()>(&DifficultyBeatmapSet::get_difficultyBeatmaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DifficultyBeatmapSet::set_difficultyBeatmaps
+// Il2CppName: set_difficultyBeatmaps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyBeatmapSet::set_difficultyBeatmaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), "set_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
+  }
+};
+// Writing MetadataGetter for method: DifficultyBeatmapSet::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(GlobalNamespace::BeatmapCharacteristicSO*, ::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyBeatmapSet::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyBeatmapSet::*)(GlobalNamespace::BeatmapCharacteristicSO*, ::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyBeatmapSet::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyBeatmapSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
+  }
+};

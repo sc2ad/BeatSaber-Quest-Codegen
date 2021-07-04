@@ -92,75 +92,75 @@ namespace UnityEngine::Networking {
   #pragma pack(pop)
   static check_size<sizeof(DownloadHandlerTexture), 33 + sizeof(bool)> __UnityEngine_Networking_DownloadHandlerTextureSizeCheck;
   static_assert(sizeof(DownloadHandlerTexture) == 0x22);
-  // Writing MetadataGetter for method: DownloadHandlerTexture::Create
-  // Il2CppName: Create
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerTexture*, bool)>(&DownloadHandlerTexture::Create)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerTexture*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DownloadHandlerTexture::InternalCreateTexture
-  // Il2CppName: InternalCreateTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::InternalCreateTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalCreateTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DownloadHandlerTexture::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: DownloadHandlerTexture::get_texture
-  // Il2CppName: get_texture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::get_texture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DownloadHandlerTexture::InternalGetTexture
-  // Il2CppName: InternalGetTexture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::InternalGetTexture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalGetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DownloadHandlerTexture::InternalGetTextureNative
-  // Il2CppName: InternalGetTextureNative
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::InternalGetTextureNative)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalGetTextureNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DownloadHandlerTexture::GetContent
-  // Il2CppName: GetContent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Networking::UnityWebRequest*)>(&DownloadHandlerTexture::GetContent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "GetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DownloadHandlerTexture::GetData
-  // Il2CppName: GetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::GetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");
+// Writing MetadataGetter for method: DownloadHandlerTexture::Create
+// Il2CppName: Create
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerTexture*, bool)>(&DownloadHandlerTexture::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerTexture*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DownloadHandlerTexture::InternalCreateTexture
+// Il2CppName: InternalCreateTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::InternalCreateTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalCreateTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DownloadHandlerTexture::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandlerTexture::*)(bool)>(&DownloadHandlerTexture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: DownloadHandlerTexture::get_texture
+// Il2CppName: get_texture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::get_texture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DownloadHandlerTexture::InternalGetTexture
+// Il2CppName: InternalGetTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::InternalGetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalGetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DownloadHandlerTexture::InternalGetTextureNative
+// Il2CppName: InternalGetTextureNative
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::InternalGetTextureNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "InternalGetTextureNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DownloadHandlerTexture::GetContent
+// Il2CppName: GetContent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Networking::UnityWebRequest*)>(&DownloadHandlerTexture::GetContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "GetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
+  }
+};
+// Writing MetadataGetter for method: DownloadHandlerTexture::GetData
+// Il2CppName: GetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandlerTexture::*)()>(&DownloadHandlerTexture::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DownloadHandlerTexture*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

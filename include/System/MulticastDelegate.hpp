@@ -90,78 +90,78 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(MulticastDelegate), 104 + sizeof(::Array<System::Delegate*>*)> __System_MulticastDelegateSizeCheck;
   static_assert(sizeof(MulticastDelegate) == 0x70);
-  // Writing MetadataGetter for method: MulticastDelegate::LastIndexOf
-  // Il2CppName: LastIndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MulticastDelegate::*)(::Array<System::Delegate*>*, ::Array<System::Delegate*>*)>(&MulticastDelegate::LastIndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Delegate*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Delegate*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::GetObjectData
-  // Il2CppName: GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticastDelegate::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&MulticastDelegate::GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::DynamicInvokeImpl
-  // Il2CppName: DynamicInvokeImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MulticastDelegate::*)(::Array<::Il2CppObject*>*)>(&MulticastDelegate::DynamicInvokeImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "DynamicInvokeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MulticastDelegate::*)(::Il2CppObject*)>(&MulticastDelegate::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MulticastDelegate::*)()>(&MulticastDelegate::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::GetMethodImpl
-  // Il2CppName: GetMethodImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MulticastDelegate::*)()>(&MulticastDelegate::GetMethodImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::GetInvocationList
-  // Il2CppName: GetInvocationList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Delegate*>* (MulticastDelegate::*)()>(&MulticastDelegate::GetInvocationList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetInvocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::CombineImpl
-  // Il2CppName: CombineImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (MulticastDelegate::*)(System::Delegate*)>(&MulticastDelegate::CombineImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "CombineImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MulticastDelegate::RemoveImpl
-  // Il2CppName: RemoveImpl
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (MulticastDelegate::*)(System::Delegate*)>(&MulticastDelegate::RemoveImpl)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "RemoveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate");
+// Writing MetadataGetter for method: MulticastDelegate::LastIndexOf
+// Il2CppName: LastIndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MulticastDelegate::*)(::Array<System::Delegate*>*, ::Array<System::Delegate*>*)>(&MulticastDelegate::LastIndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Delegate*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Delegate*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::GetObjectData
+// Il2CppName: GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticastDelegate::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&MulticastDelegate::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::DynamicInvokeImpl
+// Il2CppName: DynamicInvokeImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MulticastDelegate::*)(::Array<::Il2CppObject*>*)>(&MulticastDelegate::DynamicInvokeImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "DynamicInvokeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MulticastDelegate::*)(::Il2CppObject*)>(&MulticastDelegate::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MulticastDelegate::*)()>(&MulticastDelegate::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::GetMethodImpl
+// Il2CppName: GetMethodImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MulticastDelegate::*)()>(&MulticastDelegate::GetMethodImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::GetInvocationList
+// Il2CppName: GetInvocationList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Delegate*>* (MulticastDelegate::*)()>(&MulticastDelegate::GetInvocationList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "GetInvocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::CombineImpl
+// Il2CppName: CombineImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (MulticastDelegate::*)(System::Delegate*)>(&MulticastDelegate::CombineImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "CombineImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+  }
+};
+// Writing MetadataGetter for method: MulticastDelegate::RemoveImpl
+// Il2CppName: RemoveImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (MulticastDelegate::*)(System::Delegate*)>(&MulticastDelegate::RemoveImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MulticastDelegate*), "RemoveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+  }
+};

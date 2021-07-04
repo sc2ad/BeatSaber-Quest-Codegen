@@ -55,35 +55,35 @@ namespace UnityEngine {
     }
   }; // UnityEngine.UnhandledExceptionHandler/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: UnhandledExceptionHandler::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnhandledExceptionHandler::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0
-  // Il2CppName: <RegisterUECatcher>b__0_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledExceptionHandler::$$c::*)(::Il2CppObject*, System::UnhandledExceptionEventArgs*)>(&UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), "<RegisterUECatcher>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::UnhandledExceptionEventArgs*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnhandledExceptionHandler::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledExceptionHandler::$$c::*)()>(&UnhandledExceptionHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledExceptionHandler::$$c::*)()>(&UnhandledExceptionHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler::$$c*, "UnityEngine", "UnhandledExceptionHandler/<>c");
+// Writing MetadataGetter for method: UnhandledExceptionHandler::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnhandledExceptionHandler::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0
+// Il2CppName: <RegisterUECatcher>b__0_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledExceptionHandler::$$c::*)(::Il2CppObject*, System::UnhandledExceptionEventArgs*)>(&UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), "<RegisterUECatcher>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::UnhandledExceptionEventArgs*>()});
+  }
+};
+// Writing MetadataGetter for method: UnhandledExceptionHandler::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledExceptionHandler::$$c::*)()>(&UnhandledExceptionHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledExceptionHandler::$$c::*)()>(&UnhandledExceptionHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnhandledExceptionHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

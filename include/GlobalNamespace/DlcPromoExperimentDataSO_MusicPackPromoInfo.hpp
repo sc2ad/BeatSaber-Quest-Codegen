@@ -63,35 +63,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DlcPromoExperimentDataSO::MusicPackPromoInfo), 24 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_DlcPromoExperimentDataSO_MusicPackPromoInfoSizeCheck;
   static_assert(sizeof(DlcPromoExperimentDataSO::MusicPackPromoInfo) == 0x20);
-  // Writing MetadataGetter for method: DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack
-  // Il2CppName: get_previewBeatmapLevelPack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PreviewBeatmapLevelPackSO* (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), "get_previewBeatmapLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DlcPromoExperimentDataSO::MusicPackPromoInfo::get_bannerImage
-  // Il2CppName: get_bannerImage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::get_bannerImage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), "get_bannerImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DlcPromoExperimentDataSO::MusicPackPromoInfo::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, "", "DlcPromoExperimentDataSO/MusicPackPromoInfo");
+// Writing MetadataGetter for method: DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack
+// Il2CppName: get_previewBeatmapLevelPack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PreviewBeatmapLevelPackSO* (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), "get_previewBeatmapLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DlcPromoExperimentDataSO::MusicPackPromoInfo::get_bannerImage
+// Il2CppName: get_bannerImage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::get_bannerImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), "get_bannerImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DlcPromoExperimentDataSO::MusicPackPromoInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&DlcPromoExperimentDataSO::MusicPackPromoInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO::MusicPackPromoInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

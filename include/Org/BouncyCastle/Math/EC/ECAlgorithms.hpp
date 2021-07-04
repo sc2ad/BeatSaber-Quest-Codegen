@@ -81,110 +81,110 @@ namespace Org::BouncyCastle::Math::EC {
     static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickFixedPoint(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::EC::ECPoint* q, Org::BouncyCastle::Math::BigInteger* l);
   }; // Org.BouncyCastle.Math.EC.ECAlgorithms
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ECAlgorithms::IsF2mCurve
-  // Il2CppName: IsF2mCurve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&ECAlgorithms::IsF2mCurve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsF2mCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::IsF2mField
-  // Il2CppName: IsF2mField
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::Field::IFiniteField*)>(&ECAlgorithms::IsF2mField)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsF2mField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::IsFpCurve
-  // Il2CppName: IsFpCurve
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&ECAlgorithms::IsFpCurve)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsFpCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::IsFpField
-  // Il2CppName: IsFpField
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::Field::IFiniteField*)>(&ECAlgorithms::IsFpField)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsFpField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::ImportPoint
-  // Il2CppName: ImportPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::EC::ECPoint*)>(&ECAlgorithms::ImportPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImportPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::MontgomeryTrick
-  // Il2CppName: MontgomeryTrick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>*, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&ECAlgorithms::MontgomeryTrick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "MontgomeryTrick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::ReferenceMultiply
-  // Il2CppName: ReferenceMultiply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ReferenceMultiply)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ReferenceMultiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::CleanPoint
-  // Il2CppName: CleanPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::EC::ECPoint*)>(&ECAlgorithms::CleanPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "CleanPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::ImplCheckResult
-  // Il2CppName: ImplCheckResult
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&ECAlgorithms::ImplCheckResult)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplCheckResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickWNaf
-  // Il2CppName: ImplShamirsTrickWNaf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ImplShamirsTrickWNaf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickWNaf
-  // Il2CppName: ImplShamirsTrickWNaf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ImplShamirsTrickWNaf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickWNaf
-  // Il2CppName: ImplShamirsTrickWNaf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<uint8_t>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<uint8_t>*)>(&ECAlgorithms::ImplShamirsTrickWNaf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickFixedPoint
-  // Il2CppName: ImplShamirsTrickFixedPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ImplShamirsTrickFixedPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickFixedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECAlgorithms*, "Org.BouncyCastle.Math.EC", "ECAlgorithms");
+// Writing MetadataGetter for method: ECAlgorithms::IsF2mCurve
+// Il2CppName: IsF2mCurve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&ECAlgorithms::IsF2mCurve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsF2mCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::IsF2mField
+// Il2CppName: IsF2mField
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::Field::IFiniteField*)>(&ECAlgorithms::IsF2mField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsF2mField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::IsFpCurve
+// Il2CppName: IsFpCurve
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&ECAlgorithms::IsFpCurve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsFpCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::IsFpField
+// Il2CppName: IsFpField
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Math::Field::IFiniteField*)>(&ECAlgorithms::IsFpField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "IsFpField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::ImportPoint
+// Il2CppName: ImportPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::EC::ECPoint*)>(&ECAlgorithms::ImportPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImportPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::MontgomeryTrick
+// Il2CppName: MontgomeryTrick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>*, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&ECAlgorithms::MontgomeryTrick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "MontgomeryTrick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::ReferenceMultiply
+// Il2CppName: ReferenceMultiply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ReferenceMultiply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ReferenceMultiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::CleanPoint
+// Il2CppName: CleanPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::EC::ECPoint*)>(&ECAlgorithms::CleanPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "CleanPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::ImplCheckResult
+// Il2CppName: ImplCheckResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&ECAlgorithms::ImplCheckResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplCheckResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickWNaf
+// Il2CppName: ImplShamirsTrickWNaf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ImplShamirsTrickWNaf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickWNaf
+// Il2CppName: ImplShamirsTrickWNaf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ImplShamirsTrickWNaf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickWNaf
+// Il2CppName: ImplShamirsTrickWNaf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<uint8_t>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<uint8_t>*)>(&ECAlgorithms::ImplShamirsTrickWNaf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: ECAlgorithms::ImplShamirsTrickFixedPoint
+// Il2CppName: ImplShamirsTrickFixedPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&ECAlgorithms::ImplShamirsTrickFixedPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ECAlgorithms*), "ImplShamirsTrickFixedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};

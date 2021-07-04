@@ -64,70 +64,70 @@ namespace GlobalNamespace {
     }
   }; // FileHelpers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: FileHelpers::GetEscapedURLForFilePath
-  // Il2CppName: GetEscapedURLForFilePath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&FileHelpers::GetEscapedURLForFilePath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetEscapedURLForFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileHelpers::GetUniqueDirectoryNameByAppendingNumber
-  // Il2CppName: GetUniqueDirectoryNameByAppendingNumber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&FileHelpers::GetUniqueDirectoryNameByAppendingNumber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetUniqueDirectoryNameByAppendingNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileHelpers::GetFilePaths
-  // Il2CppName: GetFilePaths
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&FileHelpers::GetFilePaths)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileHelpers::GetFileNamesFromFilePaths
-  // Il2CppName: GetFileNamesFromFilePaths
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*)>(&FileHelpers::GetFileNamesFromFilePaths)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetFileNamesFromFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileHelpers::SaveToJSONFile
-  // Il2CppName: SaveToJSONFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&FileHelpers::SaveToJSONFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "SaveToJSONFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileHelpers::LoadFromJSONFile
-  // Il2CppName: LoadFromJSONFile
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: FileHelpers::LoadJSONFile
-  // Il2CppName: LoadJSONFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&FileHelpers::LoadJSONFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "LoadJSONFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FileHelpers::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileHelpers::*)()>(&FileHelpers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileHelpers::*)()>(&FileHelpers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FileHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileHelpers*, "", "FileHelpers");
+// Writing MetadataGetter for method: FileHelpers::GetEscapedURLForFilePath
+// Il2CppName: GetEscapedURLForFilePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&FileHelpers::GetEscapedURLForFilePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetEscapedURLForFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::GetUniqueDirectoryNameByAppendingNumber
+// Il2CppName: GetUniqueDirectoryNameByAppendingNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&FileHelpers::GetUniqueDirectoryNameByAppendingNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetUniqueDirectoryNameByAppendingNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::GetFilePaths
+// Il2CppName: GetFilePaths
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&FileHelpers::GetFilePaths)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::GetFileNamesFromFilePaths
+// Il2CppName: GetFileNamesFromFilePaths
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*)>(&FileHelpers::GetFileNamesFromFilePaths)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetFileNamesFromFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::SaveToJSONFile
+// Il2CppName: SaveToJSONFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&FileHelpers::SaveToJSONFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "SaveToJSONFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::LoadFromJSONFile
+// Il2CppName: LoadFromJSONFile
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FileHelpers::LoadJSONFile
+// Il2CppName: LoadJSONFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&FileHelpers::LoadJSONFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "LoadJSONFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileHelpers::*)()>(&FileHelpers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileHelpers::*)()>(&FileHelpers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

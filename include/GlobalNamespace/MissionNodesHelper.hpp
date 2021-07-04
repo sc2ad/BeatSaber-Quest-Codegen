@@ -63,67 +63,67 @@ namespace GlobalNamespace {
     }
   }; // MissionNodesHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MissionNodesHelper::GetAllNodesFromRoot
-  // Il2CppName: GetAllNodesFromRoot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* (*)(GlobalNamespace::MissionNode*)>(&MissionNodesHelper::GetAllNodesFromRoot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "GetAllNodesFromRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionNodesHelper::VisitAllTree
-  // Il2CppName: VisitAllTree
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MissionNode*, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*)>(&MissionNodesHelper::VisitAllTree)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "VisitAllTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionNodesHelper::CycleDetection
-  // Il2CppName: CycleDetection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*)>(&MissionNodesHelper::CycleDetection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "CycleDetection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionNodesHelper::CycleDetection
-  // Il2CppName: CycleDetection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*, int, System::Collections::Generic::Dictionary_2<GlobalNamespace::MissionNode*, int>*)>(&MissionNodesHelper::CycleDetection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "CycleDetection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::MissionNode*, int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionNodesHelper::FinalNodeIsFinal
-  // Il2CppName: FinalNodeIsFinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionNode*)>(&MissionNodesHelper::FinalNodeIsFinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "FinalNodeIsFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionNodesHelper::FinalNodeIsFinal
-  // Il2CppName: FinalNodeIsFinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionNode*, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*)>(&MissionNodesHelper::FinalNodeIsFinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "FinalNodeIsFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionNodesHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesHelper::*)()>(&MissionNodesHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesHelper::*)()>(&MissionNodesHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesHelper*, "", "MissionNodesHelper");
+// Writing MetadataGetter for method: MissionNodesHelper::GetAllNodesFromRoot
+// Il2CppName: GetAllNodesFromRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* (*)(GlobalNamespace::MissionNode*)>(&MissionNodesHelper::GetAllNodesFromRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "GetAllNodesFromRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionNodesHelper::VisitAllTree
+// Il2CppName: VisitAllTree
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MissionNode*, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*)>(&MissionNodesHelper::VisitAllTree)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "VisitAllTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionNodesHelper::CycleDetection
+// Il2CppName: CycleDetection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*)>(&MissionNodesHelper::CycleDetection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "CycleDetection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionNodesHelper::CycleDetection
+// Il2CppName: CycleDetection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*, int, System::Collections::Generic::Dictionary_2<GlobalNamespace::MissionNode*, int>*)>(&MissionNodesHelper::CycleDetection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "CycleDetection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::MissionNode*, int>*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionNodesHelper::FinalNodeIsFinal
+// Il2CppName: FinalNodeIsFinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionNode*)>(&MissionNodesHelper::FinalNodeIsFinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "FinalNodeIsFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionNodesHelper::FinalNodeIsFinal
+// Il2CppName: FinalNodeIsFinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionNode*, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*)>(&MissionNodesHelper::FinalNodeIsFinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), "FinalNodeIsFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionNodesHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesHelper::*)()>(&MissionNodesHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesHelper::*)()>(&MissionNodesHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionNodesHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

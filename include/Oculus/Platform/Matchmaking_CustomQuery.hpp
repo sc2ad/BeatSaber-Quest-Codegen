@@ -81,20 +81,6 @@ namespace Oculus::Platform {
     #pragma pack(pop)
     static check_size<sizeof(Matchmaking::CustomQuery::Criterion), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*)> __Oculus_Platform_Matchmaking_CustomQuery_CriterionSizeCheck;
     static_assert(sizeof(Matchmaking::CustomQuery::Criterion) == 0x18);
-    // Writing MetadataGetter for method: Matchmaking::CustomQuery::Criterion::Criterion
-    // Il2CppName: .ctor
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Matchmaking::CustomQuery::Criterion::*)(::Il2CppString*, Oculus::Platform::MatchmakingCriterionImportance)>(&Matchmaking::CustomQuery::Criterion::Criterion<::il2cpp_utils::CreationType::Temporary>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery::Criterion), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingCriterionImportance>()});
-      }
-    };
-    template<>
-    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Matchmaking::CustomQuery::Criterion::*)(::Il2CppString*, Oculus::Platform::MatchmakingCriterionImportance)>(&Matchmaking::CustomQuery::Criterion::Criterion<::il2cpp_utils::CreationType::Manual>)> {
-      const MethodInfo* get() {
-        return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery::Criterion), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingCriterionImportance>()});
-      }
-    };
     // public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
     // Size: 0x8
     // Offset: 0x10
@@ -125,28 +111,28 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(Matchmaking::CustomQuery), 24 + sizeof(::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>*)> __Oculus_Platform_Matchmaking_CustomQuerySizeCheck;
   static_assert(sizeof(Matchmaking::CustomQuery) == 0x20);
-  // Writing MetadataGetter for method: Matchmaking::CustomQuery::ToUnmanaged
-  // Il2CppName: ToUnmanaged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Matchmaking::CustomQuery::*)()>(&Matchmaking::CustomQuery::ToUnmanaged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery*), "ToUnmanaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Matchmaking::CustomQuery::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Matchmaking::CustomQuery::*)()>(&Matchmaking::CustomQuery::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Matchmaking::CustomQuery::*)()>(&Matchmaking::CustomQuery::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery::Criterion, "Oculus.Platform", "Matchmaking/CustomQuery/Criterion");
+// Writing MetadataGetter for method: Matchmaking::CustomQuery::ToUnmanaged
+// Il2CppName: ToUnmanaged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Matchmaking::CustomQuery::*)()>(&Matchmaking::CustomQuery::ToUnmanaged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery*), "ToUnmanaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Matchmaking::CustomQuery::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Matchmaking::CustomQuery::*)()>(&Matchmaking::CustomQuery::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Matchmaking::CustomQuery::*)()>(&Matchmaking::CustomQuery::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Matchmaking::CustomQuery*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -115,75 +115,75 @@ namespace UnityEngine::Events {
   #pragma pack(pop)
   static check_size<sizeof(PersistentCall), 48 + sizeof(UnityEngine::Events::UnityEventCallState)> __UnityEngine_Events_PersistentCallSizeCheck;
   static_assert(sizeof(PersistentCall) == 0x34);
-  // Writing MetadataGetter for method: PersistentCall::get_target
-  // Il2CppName: get_target
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PersistentCall::*)()>(&PersistentCall::get_target)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PersistentCall::get_methodName
-  // Il2CppName: get_methodName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PersistentCall::*)()>(&PersistentCall::get_methodName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_methodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PersistentCall::get_mode
-  // Il2CppName: get_mode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::PersistentListenerMode (PersistentCall::*)()>(&PersistentCall::get_mode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PersistentCall::get_arguments
-  // Il2CppName: get_arguments
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::ArgumentCache* (PersistentCall::*)()>(&PersistentCall::get_arguments)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PersistentCall::IsValid
-  // Il2CppName: IsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PersistentCall::*)()>(&PersistentCall::IsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PersistentCall::GetRuntimeCall
-  // Il2CppName: GetRuntimeCall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (PersistentCall::*)(UnityEngine::Events::UnityEventBase*)>(&PersistentCall::GetRuntimeCall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "GetRuntimeCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEventBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PersistentCall::GetObjectCall
-  // Il2CppName: GetObjectCall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (*)(UnityEngine::Object*, System::Reflection::MethodInfo*, UnityEngine::Events::ArgumentCache*)>(&PersistentCall::GetObjectCall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "GetObjectCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::ArgumentCache*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PersistentCall::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentCall::*)()>(&PersistentCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentCall::*)()>(&PersistentCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PersistentCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");
+// Writing MetadataGetter for method: PersistentCall::get_target
+// Il2CppName: get_target
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PersistentCall::*)()>(&PersistentCall::get_target)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PersistentCall::get_methodName
+// Il2CppName: get_methodName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PersistentCall::*)()>(&PersistentCall::get_methodName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_methodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PersistentCall::get_mode
+// Il2CppName: get_mode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::PersistentListenerMode (PersistentCall::*)()>(&PersistentCall::get_mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PersistentCall::get_arguments
+// Il2CppName: get_arguments
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::ArgumentCache* (PersistentCall::*)()>(&PersistentCall::get_arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "get_arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PersistentCall::IsValid
+// Il2CppName: IsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PersistentCall::*)()>(&PersistentCall::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PersistentCall::GetRuntimeCall
+// Il2CppName: GetRuntimeCall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (PersistentCall::*)(UnityEngine::Events::UnityEventBase*)>(&PersistentCall::GetRuntimeCall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "GetRuntimeCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEventBase*>()});
+  }
+};
+// Writing MetadataGetter for method: PersistentCall::GetObjectCall
+// Il2CppName: GetObjectCall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (*)(UnityEngine::Object*, System::Reflection::MethodInfo*, UnityEngine::Events::ArgumentCache*)>(&PersistentCall::GetObjectCall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), "GetObjectCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::ArgumentCache*>()});
+  }
+};
+// Writing MetadataGetter for method: PersistentCall::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentCall::*)()>(&PersistentCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentCall::*)()>(&PersistentCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

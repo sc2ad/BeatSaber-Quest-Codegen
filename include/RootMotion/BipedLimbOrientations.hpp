@@ -66,35 +66,35 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(BipedLimbOrientations), 40 + sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*)> __RootMotion_BipedLimbOrientationsSizeCheck;
   static_assert(sizeof(BipedLimbOrientations) == 0x30);
-  // Writing MetadataGetter for method: BipedLimbOrientations::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedLimbOrientations::*)(RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*)>(&BipedLimbOrientations::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedLimbOrientations::*)(RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*)>(&BipedLimbOrientations::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedLimbOrientations::get_UMA
-  // Il2CppName: get_UMA
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&BipedLimbOrientations::get_UMA)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), "get_UMA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedLimbOrientations::get_MaxBiped
-  // Il2CppName: get_MaxBiped
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&BipedLimbOrientations::get_MaxBiped)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), "get_MaxBiped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");
+// Writing MetadataGetter for method: BipedLimbOrientations::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedLimbOrientations::*)(RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*)>(&BipedLimbOrientations::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedLimbOrientations::*)(RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*)>(&BipedLimbOrientations::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>()});
+  }
+};
+// Writing MetadataGetter for method: BipedLimbOrientations::get_UMA
+// Il2CppName: get_UMA
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&BipedLimbOrientations::get_UMA)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), "get_UMA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedLimbOrientations::get_MaxBiped
+// Il2CppName: get_MaxBiped
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&BipedLimbOrientations::get_MaxBiped)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), "get_MaxBiped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

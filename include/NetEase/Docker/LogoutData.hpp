@@ -39,14 +39,14 @@ namespace NetEase::Docker {
   #pragma pack(pop)
   static check_size<sizeof(LogoutData), 0 + sizeof(int)> __NetEase_Docker_LogoutDataSizeCheck;
   static_assert(sizeof(LogoutData) == 0x4);
-  // Writing MetadataGetter for method: LogoutData::set_LogoutCode
-  // Il2CppName: set_LogoutCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogoutData::*)(int)>(&LogoutData::set_LogoutCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LogoutData), "set_LogoutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
+// Writing MetadataGetter for method: LogoutData::set_LogoutCode
+// Il2CppName: set_LogoutCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogoutData::*)(int)>(&LogoutData::set_LogoutCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LogoutData), "set_LogoutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

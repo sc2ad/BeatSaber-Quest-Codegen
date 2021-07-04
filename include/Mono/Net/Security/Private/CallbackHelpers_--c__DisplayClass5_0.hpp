@@ -66,27 +66,27 @@ namespace Mono::Net::Security::Private {
   #pragma pack(pop)
   static check_size<sizeof(CallbackHelpers::$$c__DisplayClass5_0), 16 + sizeof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(CallbackHelpers::$$c__DisplayClass5_0) == 0x18);
-  // Writing MetadataGetter for method: CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0
-  // Il2CppName: <MonoToPublic>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CallbackHelpers::$$c__DisplayClass5_0::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CallbackHelpers::$$c__DisplayClass5_0*), "<MonoToPublic>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
-    }
-  };
-  // Writing MetadataGetter for method: CallbackHelpers::$$c__DisplayClass5_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackHelpers::$$c__DisplayClass5_0::*)()>(&CallbackHelpers::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CallbackHelpers::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackHelpers::$$c__DisplayClass5_0::*)()>(&CallbackHelpers::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CallbackHelpers::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass5_0");
+// Writing MetadataGetter for method: CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0
+// Il2CppName: <MonoToPublic>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CallbackHelpers::$$c__DisplayClass5_0::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CallbackHelpers::$$c__DisplayClass5_0*), "<MonoToPublic>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
+  }
+};
+// Writing MetadataGetter for method: CallbackHelpers::$$c__DisplayClass5_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackHelpers::$$c__DisplayClass5_0::*)()>(&CallbackHelpers::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CallbackHelpers::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackHelpers::$$c__DisplayClass5_0::*)()>(&CallbackHelpers::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CallbackHelpers::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

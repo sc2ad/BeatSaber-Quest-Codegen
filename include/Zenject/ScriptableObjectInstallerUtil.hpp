@@ -49,11 +49,11 @@ namespace Zenject {
     }
   }; // Zenject.ScriptableObjectInstallerUtil
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ScriptableObjectInstallerUtil::GetDefaultResourcePath
-  // Il2CppName: GetDefaultResourcePath
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: ScriptableObjectInstallerUtil::CreateInstaller
-  // Il2CppName: CreateInstaller
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstallerUtil*, "Zenject", "ScriptableObjectInstallerUtil");
+// Writing MetadataGetter for method: ScriptableObjectInstallerUtil::GetDefaultResourcePath
+// Il2CppName: GetDefaultResourcePath
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ScriptableObjectInstallerUtil::CreateInstaller
+// Il2CppName: CreateInstaller
+// Cannot write MetadataGetter for generic methods!

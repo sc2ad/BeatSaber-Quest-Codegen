@@ -88,51 +88,51 @@ namespace System::Security::Util {
   #pragma pack(pop)
   static check_size<sizeof(Tokenizer::StringMaker), 48 + sizeof(int)> __System_Security_Util_Tokenizer_StringMakerSizeCheck;
   static_assert(sizeof(Tokenizer::StringMaker) == 0x34);
-  // Writing MetadataGetter for method: Tokenizer::StringMaker::HashString
-  // Il2CppName: HashString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&Tokenizer::StringMaker::HashString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "HashString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Tokenizer::StringMaker::HashCharArray
-  // Il2CppName: HashCharArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<::Il2CppChar>*, int)>(&Tokenizer::StringMaker::HashCharArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "HashCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Tokenizer::StringMaker::CompareStringAndChars
-  // Il2CppName: CompareStringAndChars
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tokenizer::StringMaker::*)(::Il2CppString*, ::Array<::Il2CppChar>*, int)>(&Tokenizer::StringMaker::CompareStringAndChars)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "CompareStringAndChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: Tokenizer::StringMaker::MakeString
-  // Il2CppName: MakeString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Tokenizer::StringMaker::*)()>(&Tokenizer::StringMaker::MakeString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "MakeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Tokenizer::StringMaker::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::StringMaker::*)()>(&Tokenizer::StringMaker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::StringMaker::*)()>(&Tokenizer::StringMaker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");
+// Writing MetadataGetter for method: Tokenizer::StringMaker::HashString
+// Il2CppName: HashString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&Tokenizer::StringMaker::HashString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "HashString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Tokenizer::StringMaker::HashCharArray
+// Il2CppName: HashCharArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<::Il2CppChar>*, int)>(&Tokenizer::StringMaker::HashCharArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "HashCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Tokenizer::StringMaker::CompareStringAndChars
+// Il2CppName: CompareStringAndChars
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tokenizer::StringMaker::*)(::Il2CppString*, ::Array<::Il2CppChar>*, int)>(&Tokenizer::StringMaker::CompareStringAndChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "CompareStringAndChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: Tokenizer::StringMaker::MakeString
+// Il2CppName: MakeString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Tokenizer::StringMaker::*)()>(&Tokenizer::StringMaker::MakeString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), "MakeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Tokenizer::StringMaker::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::StringMaker::*)()>(&Tokenizer::StringMaker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::StringMaker::*)()>(&Tokenizer::StringMaker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StringMaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

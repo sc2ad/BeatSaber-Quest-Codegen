@@ -437,205 +437,205 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DynamicBone), 256 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>*)> __GlobalNamespace_DynamicBoneSizeCheck;
   static_assert(sizeof(DynamicBone) == 0x108);
-  // Writing MetadataGetter for method: DynamicBone::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::FixedUpdate
-  // Il2CppName: FixedUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::FixedUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::LateUpdate
-  // Il2CppName: LateUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::LateUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::PreUpdate
-  // Il2CppName: PreUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::PreUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "PreUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::CheckDistance
-  // Il2CppName: CheckDistance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::CheckDistance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "CheckDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::OnDrawGizmosSelected
-  // Il2CppName: OnDrawGizmosSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnDrawGizmosSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::SetWeight
-  // Il2CppName: SetWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)(float)>(&DynamicBone::SetWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "SetWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::GetWeight
-  // Il2CppName: GetWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DynamicBone::*)()>(&DynamicBone::GetWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "GetWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::UpdateDynamicBones
-  // Il2CppName: UpdateDynamicBones
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)(float)>(&DynamicBone::UpdateDynamicBones)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateDynamicBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::SetupParticles
-  // Il2CppName: SetupParticles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::SetupParticles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "SetupParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::AppendParticles
-  // Il2CppName: AppendParticles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)(UnityEngine::Transform*, int, float)>(&DynamicBone::AppendParticles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "AppendParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::UpdateParameters
-  // Il2CppName: UpdateParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::UpdateParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::InitTransforms
-  // Il2CppName: InitTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::InitTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "InitTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::ResetParticlesPosition
-  // Il2CppName: ResetParticlesPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::ResetParticlesPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "ResetParticlesPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::UpdateParticles1
-  // Il2CppName: UpdateParticles1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::UpdateParticles1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateParticles1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::UpdateParticles2
-  // Il2CppName: UpdateParticles2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::UpdateParticles2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateParticles2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::SkipUpdateParticles
-  // Il2CppName: SkipUpdateParticles
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::SkipUpdateParticles)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "SkipUpdateParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::MirrorVector
-  // Il2CppName: MirrorVector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&DynamicBone::MirrorVector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "MirrorVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::ApplyParticlesToTransforms
-  // Il2CppName: ApplyParticlesToTransforms
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::ApplyParticlesToTransforms)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "ApplyParticlesToTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DynamicBone::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DynamicBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone*, "", "DynamicBone");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::UpdateMode, "", "DynamicBone/UpdateMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::FreezeAxis, "", "DynamicBone/FreezeAxis");
+// Writing MetadataGetter for method: DynamicBone::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::FixedUpdate
+// Il2CppName: FixedUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::PreUpdate
+// Il2CppName: PreUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::PreUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "PreUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::CheckDistance
+// Il2CppName: CheckDistance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::CheckDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "CheckDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::OnDrawGizmosSelected
+// Il2CppName: OnDrawGizmosSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::OnDrawGizmosSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::SetWeight
+// Il2CppName: SetWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)(float)>(&DynamicBone::SetWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "SetWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::GetWeight
+// Il2CppName: GetWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DynamicBone::*)()>(&DynamicBone::GetWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "GetWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::UpdateDynamicBones
+// Il2CppName: UpdateDynamicBones
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)(float)>(&DynamicBone::UpdateDynamicBones)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateDynamicBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::SetupParticles
+// Il2CppName: SetupParticles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::SetupParticles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "SetupParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::AppendParticles
+// Il2CppName: AppendParticles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)(UnityEngine::Transform*, int, float)>(&DynamicBone::AppendParticles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "AppendParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::UpdateParameters
+// Il2CppName: UpdateParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::UpdateParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::InitTransforms
+// Il2CppName: InitTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::InitTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "InitTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::ResetParticlesPosition
+// Il2CppName: ResetParticlesPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::ResetParticlesPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "ResetParticlesPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::UpdateParticles1
+// Il2CppName: UpdateParticles1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::UpdateParticles1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateParticles1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::UpdateParticles2
+// Il2CppName: UpdateParticles2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::UpdateParticles2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "UpdateParticles2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::SkipUpdateParticles
+// Il2CppName: SkipUpdateParticles
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::SkipUpdateParticles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "SkipUpdateParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::MirrorVector
+// Il2CppName: MirrorVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&DynamicBone::MirrorVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "MirrorVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::ApplyParticlesToTransforms
+// Il2CppName: ApplyParticlesToTransforms
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::ApplyParticlesToTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), "ApplyParticlesToTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DynamicBone::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicBone::*)()>(&DynamicBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DynamicBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

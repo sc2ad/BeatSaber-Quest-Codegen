@@ -281,387 +281,387 @@ namespace Mono::Globalization::Unicode {
   #pragma pack(pop)
   static check_size<sizeof(SimpleCollator), 92 + sizeof(bool)> __Mono_Globalization_Unicode_SimpleCollatorSizeCheck;
   static_assert(sizeof(SimpleCollator) == 0x5D);
-  // Writing MetadataGetter for method: SimpleCollator::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(System::Globalization::CultureInfo*)>(&SimpleCollator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(System::Globalization::CultureInfo*)>(&SimpleCollator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::SetCJKTable
-  // Il2CppName: SetCJKTable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&SimpleCollator::SetCJKTable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "SetCJKTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetNeutralCulture
-  // Il2CppName: GetNeutralCulture
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Globalization::CultureInfo*)>(&SimpleCollator::GetNeutralCulture)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetNeutralCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::Category
-  // Il2CppName: Category
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (SimpleCollator::*)(int)>(&SimpleCollator::Category)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::Level1
-  // Il2CppName: Level1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (SimpleCollator::*)(int)>(&SimpleCollator::Level1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::Level2
-  // Il2CppName: Level2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType)>(&SimpleCollator::Level2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsHalfKana
-  // Il2CppName: IsHalfKana
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&SimpleCollator::IsHalfKana)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsHalfKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetContraction
-  // Il2CppName: GetContraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int)>(&SimpleCollator::GetContraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetContraction
-  // Il2CppName: GetContraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&SimpleCollator::GetContraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetTailContraction
-  // Il2CppName: GetTailContraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int)>(&SimpleCollator::GetTailContraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetTailContraction
-  // Il2CppName: GetTailContraction
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&SimpleCollator::GetTailContraction)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::FilterOptions
-  // Il2CppName: FilterOptions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(int, System::Globalization::CompareOptions)>(&SimpleCollator::FilterOptions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FilterOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetExtenderType
-  // Il2CppName: GetExtenderType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::SimpleCollator::ExtenderType (SimpleCollator::*)(int)>(&SimpleCollator::GetExtenderType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetExtenderType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::ToDashTypeValue
-  // Il2CppName: ToDashTypeValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&SimpleCollator::ToDashTypeValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "ToDashTypeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::FilterExtender
-  // Il2CppName: FilterExtender
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&SimpleCollator::FilterExtender)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FilterExtender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsIgnorable
-  // Il2CppName: IsIgnorable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&SimpleCollator::IsIgnorable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsSafe
-  // Il2CppName: IsSafe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(int)>(&SimpleCollator::IsSafe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetSortKey
-  // Il2CppName: GetSortKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (SimpleCollator::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&SimpleCollator::GetSortKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetSortKey
-  // Il2CppName: GetSortKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (SimpleCollator::*)(::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::GetSortKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::GetSortKey
-  // Il2CppName: GetSortKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(::Il2CppString*, int, int, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&SimpleCollator::GetSortKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::FillSortKeyRaw
-  // Il2CppName: FillSortKeyRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&SimpleCollator::FillSortKeyRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FillSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::FillSurrogateSortKeyRaw
-  // Il2CppName: FillSurrogateSortKeyRaw
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(int, Mono::Globalization::Unicode::SortKeyBuffer*)>(&SimpleCollator::FillSurrogateSortKeyRaw)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FillSurrogateSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::Compare
-  // Il2CppName: Compare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::Compare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::ClearBuffer
-  // Il2CppName: ClearBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(uint8_t*, int)>(&SimpleCollator::ClearBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "ClearBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::CompareInternal
-  // Il2CppName: CompareInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, bool&, bool&, bool, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::CompareInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "CompareInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::CompareFlagPair
-  // Il2CppName: CompareFlagPair
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(bool, bool)>(&SimpleCollator::CompareFlagPair)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "CompareFlagPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsPrefix
-  // Il2CppName: IsPrefix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&SimpleCollator::IsPrefix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsPrefix
-  // Il2CppName: IsPrefix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::IsPrefix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsPrefix
-  // Il2CppName: IsPrefix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::IsPrefix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsSuffix
-  // Il2CppName: IsSuffix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&SimpleCollator::IsSuffix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IsSuffix
-  // Il2CppName: IsSuffix
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::IsSuffix)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::QuickIndexOf
-  // Il2CppName: QuickIndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool&)>(&SimpleCollator::QuickIndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "QuickIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IndexOf
-  // Il2CppName: IndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::IndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IndexOfOrdinal
-  // Il2CppName: IndexOfOrdinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&SimpleCollator::IndexOfOrdinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IndexOfOrdinal
-  // Il2CppName: IndexOfOrdinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppChar, int, int)>(&SimpleCollator::IndexOfOrdinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IndexOfSortKey
-  // Il2CppName: IndexOfSortKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, uint8_t*, ::Il2CppChar, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::IndexOfSortKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::IndexOf
-  // Il2CppName: IndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::IndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::LastIndexOf
-  // Il2CppName: LastIndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::LastIndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::LastIndexOfOrdinal
-  // Il2CppName: LastIndexOfOrdinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&SimpleCollator::LastIndexOfOrdinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::LastIndexOfSortKey
-  // Il2CppName: LastIndexOfSortKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, int, uint8_t*, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::LastIndexOfSortKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::LastIndexOf
-  // Il2CppName: LastIndexOf
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::LastIndexOf)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::MatchesForward
-  // Il2CppName: MatchesForward
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesForward)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::MatchesForwardCore
-  // Il2CppName: MatchesForwardCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesForwardCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesForwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Contraction*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::MatchesPrimitive
-  // Il2CppName: MatchesPrimitive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(System::Globalization::CompareOptions, uint8_t*, int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, uint8_t*, int, bool)>(&SimpleCollator::MatchesPrimitive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::MatchesBackward
-  // Il2CppName: MatchesBackward
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesBackward)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::MatchesBackwardCore
-  // Il2CppName: MatchesBackwardCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesBackwardCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesBackwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Contraction*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SimpleCollator::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SimpleCollator::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Globalization.Unicode", "SimpleCollator");
+// Writing MetadataGetter for method: SimpleCollator::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(System::Globalization::CultureInfo*)>(&SimpleCollator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(System::Globalization::CultureInfo*)>(&SimpleCollator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::SetCJKTable
+// Il2CppName: SetCJKTable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&SimpleCollator::SetCJKTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "SetCJKTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetNeutralCulture
+// Il2CppName: GetNeutralCulture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Globalization::CultureInfo*)>(&SimpleCollator::GetNeutralCulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetNeutralCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::Category
+// Il2CppName: Category
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (SimpleCollator::*)(int)>(&SimpleCollator::Category)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::Level1
+// Il2CppName: Level1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (SimpleCollator::*)(int)>(&SimpleCollator::Level1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::Level2
+// Il2CppName: Level2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType)>(&SimpleCollator::Level2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsHalfKana
+// Il2CppName: IsHalfKana
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&SimpleCollator::IsHalfKana)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsHalfKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetContraction
+// Il2CppName: GetContraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int)>(&SimpleCollator::GetContraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetContraction
+// Il2CppName: GetContraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&SimpleCollator::GetContraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetTailContraction
+// Il2CppName: GetTailContraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int)>(&SimpleCollator::GetTailContraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetTailContraction
+// Il2CppName: GetTailContraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&SimpleCollator::GetTailContraction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::FilterOptions
+// Il2CppName: FilterOptions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(int, System::Globalization::CompareOptions)>(&SimpleCollator::FilterOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FilterOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetExtenderType
+// Il2CppName: GetExtenderType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::SimpleCollator::ExtenderType (SimpleCollator::*)(int)>(&SimpleCollator::GetExtenderType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetExtenderType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::ToDashTypeValue
+// Il2CppName: ToDashTypeValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&SimpleCollator::ToDashTypeValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "ToDashTypeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::FilterExtender
+// Il2CppName: FilterExtender
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&SimpleCollator::FilterExtender)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FilterExtender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsIgnorable
+// Il2CppName: IsIgnorable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&SimpleCollator::IsIgnorable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsSafe
+// Il2CppName: IsSafe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(int)>(&SimpleCollator::IsSafe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetSortKey
+// Il2CppName: GetSortKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (SimpleCollator::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&SimpleCollator::GetSortKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetSortKey
+// Il2CppName: GetSortKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (SimpleCollator::*)(::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::GetSortKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::GetSortKey
+// Il2CppName: GetSortKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(::Il2CppString*, int, int, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&SimpleCollator::GetSortKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::FillSortKeyRaw
+// Il2CppName: FillSortKeyRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&SimpleCollator::FillSortKeyRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FillSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::FillSurrogateSortKeyRaw
+// Il2CppName: FillSurrogateSortKeyRaw
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(int, Mono::Globalization::Unicode::SortKeyBuffer*)>(&SimpleCollator::FillSurrogateSortKeyRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "FillSurrogateSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::Compare
+// Il2CppName: Compare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::ClearBuffer
+// Il2CppName: ClearBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleCollator::*)(uint8_t*, int)>(&SimpleCollator::ClearBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "ClearBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::CompareInternal
+// Il2CppName: CompareInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, bool&, bool&, bool, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::CompareInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "CompareInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::CompareFlagPair
+// Il2CppName: CompareFlagPair
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(bool, bool)>(&SimpleCollator::CompareFlagPair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "CompareFlagPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsPrefix
+// Il2CppName: IsPrefix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&SimpleCollator::IsPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsPrefix
+// Il2CppName: IsPrefix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::IsPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsPrefix
+// Il2CppName: IsPrefix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::IsPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsSuffix
+// Il2CppName: IsSuffix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&SimpleCollator::IsSuffix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IsSuffix
+// Il2CppName: IsSuffix
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::IsSuffix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::QuickIndexOf
+// Il2CppName: QuickIndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool&)>(&SimpleCollator::QuickIndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "QuickIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IndexOf
+// Il2CppName: IndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IndexOfOrdinal
+// Il2CppName: IndexOfOrdinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&SimpleCollator::IndexOfOrdinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IndexOfOrdinal
+// Il2CppName: IndexOfOrdinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppChar, int, int)>(&SimpleCollator::IndexOfOrdinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IndexOfSortKey
+// Il2CppName: IndexOfSortKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, uint8_t*, ::Il2CppChar, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::IndexOfSortKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::IndexOf
+// Il2CppName: IndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::LastIndexOf
+// Il2CppName: LastIndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&SimpleCollator::LastIndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::LastIndexOfOrdinal
+// Il2CppName: LastIndexOfOrdinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&SimpleCollator::LastIndexOfOrdinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::LastIndexOfSortKey
+// Il2CppName: LastIndexOfSortKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, int, int, int, uint8_t*, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::LastIndexOfSortKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::LastIndexOf
+// Il2CppName: LastIndexOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::LastIndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::MatchesForward
+// Il2CppName: MatchesForward
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesForward)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::MatchesForwardCore
+// Il2CppName: MatchesForwardCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesForwardCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesForwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Contraction*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::MatchesPrimitive
+// Il2CppName: MatchesPrimitive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(System::Globalization::CompareOptions, uint8_t*, int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, uint8_t*, int, bool)>(&SimpleCollator::MatchesPrimitive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::MatchesBackward
+// Il2CppName: MatchesBackward
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesBackward)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::MatchesBackwardCore
+// Il2CppName: MatchesBackwardCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&SimpleCollator::MatchesBackwardCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), "MatchesBackwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Contraction*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+  }
+};
+// Writing MetadataGetter for method: SimpleCollator::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SimpleCollator::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SimpleCollator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -219,291 +219,291 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Controller::Device), 245 + sizeof(bool)> __GlobalNamespace_SteamVR_Controller_DeviceSizeCheck;
   static_assert(sizeof(SteamVR_Controller::Device) == 0xF6);
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint)>(&SteamVR_Controller::Device::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint)>(&SteamVR_Controller::Device::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_index
-  // Il2CppName: get_index
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_index)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::set_index
-  // Il2CppName: set_index
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint)>(&SteamVR_Controller::Device::set_index)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "set_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_valid
-  // Il2CppName: get_valid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_valid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::set_valid
-  // Il2CppName: set_valid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(bool)>(&SteamVR_Controller::Device::set_valid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "set_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_connected
-  // Il2CppName: get_connected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_connected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_hasTracking
-  // Il2CppName: get_hasTracking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_hasTracking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_hasTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_outOfRange
-  // Il2CppName: get_outOfRange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_outOfRange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_outOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_calibrating
-  // Il2CppName: get_calibrating
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_calibrating)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_calibrating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_uninitialized
-  // Il2CppName: get_uninitialized
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_uninitialized)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_uninitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_transform
-  // Il2CppName: get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_velocity
-  // Il2CppName: get_velocity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_velocity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::get_angularVelocity
-  // Il2CppName: get_angularVelocity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_angularVelocity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetState
-  // Il2CppName: GetState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPrevState
-  // Il2CppName: GetPrevState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetPrevState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPrevState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPose
-  // Il2CppName: GetPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::TrackedDevicePose_t (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPress
-  // Il2CppName: GetPress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetPress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressDown
-  // Il2CppName: GetPressDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetPressDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressUp
-  // Il2CppName: GetPressUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetPressUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPress
-  // Il2CppName: GetPress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetPress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressDown
-  // Il2CppName: GetPressDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetPressDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressUp
-  // Il2CppName: GetPressUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetPressUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouch
-  // Il2CppName: GetTouch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetTouch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchDown
-  // Il2CppName: GetTouchDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetTouchDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchUp
-  // Il2CppName: GetTouchUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetTouchUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouch
-  // Il2CppName: GetTouch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetTouch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchDown
-  // Il2CppName: GetTouchDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetTouchDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchUp
-  // Il2CppName: GetTouchUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetTouchUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetAxis
-  // Il2CppName: GetAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::TriggerHapticPulse
-  // Il2CppName: TriggerHapticPulse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint16_t, Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::TriggerHapticPulse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::UpdateHairTrigger
-  // Il2CppName: UpdateHairTrigger
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::UpdateHairTrigger)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "UpdateHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetHairTrigger
-  // Il2CppName: GetHairTrigger
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetHairTrigger)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetHairTriggerDown
-  // Il2CppName: GetHairTriggerDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetHairTriggerDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetHairTriggerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SteamVR_Controller::Device::GetHairTriggerUp
-  // Il2CppName: GetHairTriggerUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetHairTriggerUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetHairTriggerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::Device*, "", "SteamVR_Controller/Device");
+// Writing MetadataGetter for method: SteamVR_Controller::Device::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint)>(&SteamVR_Controller::Device::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint)>(&SteamVR_Controller::Device::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_index
+// Il2CppName: get_index
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_index)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::set_index
+// Il2CppName: set_index
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint)>(&SteamVR_Controller::Device::set_index)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "set_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_valid
+// Il2CppName: get_valid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_valid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::set_valid
+// Il2CppName: set_valid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(bool)>(&SteamVR_Controller::Device::set_valid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "set_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_connected
+// Il2CppName: get_connected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_connected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_hasTracking
+// Il2CppName: get_hasTracking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_hasTracking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_hasTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_outOfRange
+// Il2CppName: get_outOfRange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_outOfRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_outOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_calibrating
+// Il2CppName: get_calibrating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_calibrating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_calibrating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_uninitialized
+// Il2CppName: get_uninitialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_uninitialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_uninitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_transform
+// Il2CppName: get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_velocity
+// Il2CppName: get_velocity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_velocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::get_angularVelocity
+// Il2CppName: get_angularVelocity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::get_angularVelocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetState
+// Il2CppName: GetState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPrevState
+// Il2CppName: GetPrevState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetPrevState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPrevState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPose
+// Il2CppName: GetPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::TrackedDevicePose_t (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPress
+// Il2CppName: GetPress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetPress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressDown
+// Il2CppName: GetPressDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetPressDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressUp
+// Il2CppName: GetPressUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetPressUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPress
+// Il2CppName: GetPress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetPress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressDown
+// Il2CppName: GetPressDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetPressDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetPressUp
+// Il2CppName: GetPressUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetPressUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouch
+// Il2CppName: GetTouch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetTouch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchDown
+// Il2CppName: GetTouchDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetTouchDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchUp
+// Il2CppName: GetTouchUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(uint64_t)>(&SteamVR_Controller::Device::GetTouchUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouch
+// Il2CppName: GetTouch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetTouch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchDown
+// Il2CppName: GetTouchDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetTouchDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetTouchUp
+// Il2CppName: GetTouchUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetTouchUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetAxis
+// Il2CppName: GetAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::GetAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::TriggerHapticPulse
+// Il2CppName: TriggerHapticPulse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)(uint16_t, Valve::VR::EVRButtonId)>(&SteamVR_Controller::Device::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::UpdateHairTrigger
+// Il2CppName: UpdateHairTrigger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::UpdateHairTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "UpdateHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetHairTrigger
+// Il2CppName: GetHairTrigger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetHairTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetHairTriggerDown
+// Il2CppName: GetHairTriggerDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetHairTriggerDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetHairTriggerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SteamVR_Controller::Device::GetHairTriggerUp
+// Il2CppName: GetHairTriggerUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_Controller::Device::*)()>(&SteamVR_Controller::Device::GetHairTriggerUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SteamVR_Controller::Device*), "GetHairTriggerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -54,27 +54,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AssetObjectListSO), 24 + sizeof(::Array<UnityEngine::Object*>*)> __GlobalNamespace_AssetObjectListSOSizeCheck;
   static_assert(sizeof(AssetObjectListSO) == 0x20);
-  // Writing MetadataGetter for method: AssetObjectListSO::get_objects
-  // Il2CppName: get_objects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (AssetObjectListSO::*)()>(&AssetObjectListSO::get_objects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetObjectListSO*), "get_objects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AssetObjectListSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetObjectListSO::*)()>(&AssetObjectListSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetObjectListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetObjectListSO::*)()>(&AssetObjectListSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AssetObjectListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectListSO");
+// Writing MetadataGetter for method: AssetObjectListSO::get_objects
+// Il2CppName: get_objects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (AssetObjectListSO::*)()>(&AssetObjectListSO::get_objects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetObjectListSO*), "get_objects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AssetObjectListSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetObjectListSO::*)()>(&AssetObjectListSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetObjectListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetObjectListSO::*)()>(&AssetObjectListSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AssetObjectListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -26,14 +26,14 @@ namespace Zenject {
     static System::Type* GetTypeToInstantiate(System::Type* contractType, System::Type* concreteType);
   }; // Zenject.ProviderUtil
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ProviderUtil::GetTypeToInstantiate
-  // Il2CppName: GetTypeToInstantiate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, System::Type*)>(&ProviderUtil::GetTypeToInstantiate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ProviderUtil*), "GetTypeToInstantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderUtil*, "Zenject", "ProviderUtil");
+// Writing MetadataGetter for method: ProviderUtil::GetTypeToInstantiate
+// Il2CppName: GetTypeToInstantiate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, System::Type*)>(&ProviderUtil::GetTypeToInstantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ProviderUtil*), "GetTypeToInstantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

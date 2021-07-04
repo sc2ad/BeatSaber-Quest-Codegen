@@ -153,163 +153,163 @@ namespace Zenject {
   // static public System.Boolean op_Inequality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
   // Offset: 0x163D964
   bool operator !=(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);
-  // Writing MetadataGetter for method: GameObjectCreationParameters::get_Name
-  // Il2CppName: get_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::set_Name
-  // Il2CppName: set_Name
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(::Il2CppString*)>(&GameObjectCreationParameters::set_Name)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::get_GroupName
-  // Il2CppName: get_GroupName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_GroupName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_GroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::set_GroupName
-  // Il2CppName: set_GroupName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(::Il2CppString*)>(&GameObjectCreationParameters::set_GroupName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_GroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::get_ParentTransform
-  // Il2CppName: get_ParentTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_ParentTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_ParentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::set_ParentTransform
-  // Il2CppName: set_ParentTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(UnityEngine::Transform*)>(&GameObjectCreationParameters::set_ParentTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_ParentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::get_ParentTransformGetter
-  // Il2CppName: get_ParentTransformGetter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_ParentTransformGetter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_ParentTransformGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::set_ParentTransformGetter
-  // Il2CppName: set_ParentTransformGetter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*)>(&GameObjectCreationParameters::set_ParentTransformGetter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_ParentTransformGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::get_Position
-  // Il2CppName: get_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<UnityEngine::Vector3> (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::set_Position
-  // Il2CppName: set_Position
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(System::Nullable_1<UnityEngine::Vector3>)>(&GameObjectCreationParameters::set_Position)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<UnityEngine::Vector3>>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::get_Rotation
-  // Il2CppName: get_Rotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<UnityEngine::Quaternion> (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_Rotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::set_Rotation
-  // Il2CppName: set_Rotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(System::Nullable_1<UnityEngine::Quaternion>)>(&GameObjectCreationParameters::set_Rotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<UnityEngine::Quaternion>>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObjectCreationParameters::*)(Zenject::GameObjectCreationParameters*)>(&GameObjectCreationParameters::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GameObjectCreationParameters::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObjectCreationParameters::*)(::Il2CppObject*)>(&GameObjectCreationParameters::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::operator ==
-  // Il2CppName: op_Equality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Zenject::GameObjectCreationParameters*, Zenject::GameObjectCreationParameters&)>(&GameObjectCreationParameters::operator ==)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters&>()});
-    }
-  };
-  // Writing MetadataGetter for method: GameObjectCreationParameters::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Zenject::GameObjectCreationParameters*, Zenject::GameObjectCreationParameters&)>(&GameObjectCreationParameters::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectCreationParameters*, "Zenject", "GameObjectCreationParameters");
+// Writing MetadataGetter for method: GameObjectCreationParameters::get_Name
+// Il2CppName: get_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::set_Name
+// Il2CppName: set_Name
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(::Il2CppString*)>(&GameObjectCreationParameters::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::get_GroupName
+// Il2CppName: get_GroupName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_GroupName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_GroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::set_GroupName
+// Il2CppName: set_GroupName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(::Il2CppString*)>(&GameObjectCreationParameters::set_GroupName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_GroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::get_ParentTransform
+// Il2CppName: get_ParentTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_ParentTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_ParentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::set_ParentTransform
+// Il2CppName: set_ParentTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(UnityEngine::Transform*)>(&GameObjectCreationParameters::set_ParentTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_ParentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::get_ParentTransformGetter
+// Il2CppName: get_ParentTransformGetter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_ParentTransformGetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_ParentTransformGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::set_ParentTransformGetter
+// Il2CppName: set_ParentTransformGetter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*)>(&GameObjectCreationParameters::set_ParentTransformGetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_ParentTransformGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::get_Position
+// Il2CppName: get_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<UnityEngine::Vector3> (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::set_Position
+// Il2CppName: set_Position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(System::Nullable_1<UnityEngine::Vector3>)>(&GameObjectCreationParameters::set_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<UnityEngine::Vector3>>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::get_Rotation
+// Il2CppName: get_Rotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<UnityEngine::Quaternion> (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::get_Rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "get_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::set_Rotation
+// Il2CppName: set_Rotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)(System::Nullable_1<UnityEngine::Quaternion>)>(&GameObjectCreationParameters::set_Rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "set_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<UnityEngine::Quaternion>>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObjectCreationParameters::*)(Zenject::GameObjectCreationParameters*)>(&GameObjectCreationParameters::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GameObjectCreationParameters::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameObjectCreationParameters::*)(::Il2CppObject*)>(&GameObjectCreationParameters::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectCreationParameters::*)()>(&GameObjectCreationParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Zenject::GameObjectCreationParameters*, Zenject::GameObjectCreationParameters&)>(&GameObjectCreationParameters::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters&>()});
+  }
+};
+// Writing MetadataGetter for method: GameObjectCreationParameters::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Zenject::GameObjectCreationParameters*, Zenject::GameObjectCreationParameters&)>(&GameObjectCreationParameters::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GameObjectCreationParameters*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters&>()});
+  }
+};

@@ -49,35 +49,35 @@ namespace UnityEngine::EventSystems {
     }
   }; // UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: PhysicsRaycaster::RaycastHitComparer::Compare
-  // Il2CppName: Compare
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::RaycastHitComparer::*)(UnityEngine::RaycastHit, UnityEngine::RaycastHit)>(&PhysicsRaycaster::RaycastHitComparer::Compare)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>()});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::RaycastHitComparer::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PhysicsRaycaster::RaycastHitComparer::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PhysicsRaycaster::RaycastHitComparer::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::RaycastHitComparer::*)()>(&PhysicsRaycaster::RaycastHitComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::RaycastHitComparer::*)()>(&PhysicsRaycaster::RaycastHitComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
+// Writing MetadataGetter for method: PhysicsRaycaster::RaycastHitComparer::Compare
+// Il2CppName: Compare
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PhysicsRaycaster::RaycastHitComparer::*)(UnityEngine::RaycastHit, UnityEngine::RaycastHit)>(&PhysicsRaycaster::RaycastHitComparer::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>()});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::RaycastHitComparer::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PhysicsRaycaster::RaycastHitComparer::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsRaycaster::RaycastHitComparer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::RaycastHitComparer::*)()>(&PhysicsRaycaster::RaycastHitComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsRaycaster::RaycastHitComparer::*)()>(&PhysicsRaycaster::RaycastHitComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsRaycaster::RaycastHitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

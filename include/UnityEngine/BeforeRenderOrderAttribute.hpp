@@ -36,14 +36,14 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(BeforeRenderOrderAttribute), 16 + sizeof(int)> __UnityEngine_BeforeRenderOrderAttributeSizeCheck;
   static_assert(sizeof(BeforeRenderOrderAttribute) == 0x14);
-  // Writing MetadataGetter for method: BeforeRenderOrderAttribute::get_order
-  // Il2CppName: get_order
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeforeRenderOrderAttribute::*)()>(&BeforeRenderOrderAttribute::get_order)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeforeRenderOrderAttribute*), "get_order", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderOrderAttribute*, "UnityEngine", "BeforeRenderOrderAttribute");
+// Writing MetadataGetter for method: BeforeRenderOrderAttribute::get_order
+// Il2CppName: get_order
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeforeRenderOrderAttribute::*)()>(&BeforeRenderOrderAttribute::get_order)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeforeRenderOrderAttribute*), "get_order", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -63,43 +63,43 @@ namespace GlobalNamespace {
     }
   }; // SelectLevelCategoryViewController/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SelectLevelCategoryViewController::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::$Setup$b__11_1
-  // Il2CppName: <Setup>b__11_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconSegmentedControl::DataItem* (SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&SelectLevelCategoryViewController::$$c::$Setup$b__11_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), "<Setup>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::$Setup$b__11_2
-  // Il2CppName: <Setup>b__11_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&SelectLevelCategoryViewController::$$c::$Setup$b__11_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), "<Setup>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLevelCategoryViewController::$$c::*)()>(&SelectLevelCategoryViewController::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLevelCategoryViewController::$$c::*)()>(&SelectLevelCategoryViewController::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c*, "", "SelectLevelCategoryViewController/<>c");
+// Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SelectLevelCategoryViewController::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::$Setup$b__11_1
+// Il2CppName: <Setup>b__11_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconSegmentedControl::DataItem* (SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&SelectLevelCategoryViewController::$$c::$Setup$b__11_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), "<Setup>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::$Setup$b__11_2
+// Il2CppName: <Setup>b__11_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&SelectLevelCategoryViewController::$$c::$Setup$b__11_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), "<Setup>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>()});
+  }
+};
+// Writing MetadataGetter for method: SelectLevelCategoryViewController::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLevelCategoryViewController::$$c::*)()>(&SelectLevelCategoryViewController::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLevelCategoryViewController::$$c::*)()>(&SelectLevelCategoryViewController::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -63,43 +63,43 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
   static check_size<sizeof(LegacyResourcesProvider::InternalOp), 24 + sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)> __UnityEngine_ResourceManagement_ResourceProviders_LegacyResourcesProvider_InternalOpSizeCheck;
   static_assert(sizeof(LegacyResourcesProvider::InternalOp) == 0x30);
-  // Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&LegacyResourcesProvider::InternalOp::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::AsyncOperationCompleted
-  // Il2CppName: AsyncOperationCompleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&LegacyResourcesProvider::InternalOp::AsyncOperationCompleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), "AsyncOperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::PercentComplete
-  // Il2CppName: PercentComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LegacyResourcesProvider::InternalOp::*)()>(&LegacyResourcesProvider::InternalOp::PercentComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), "PercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)()>(&LegacyResourcesProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)()>(&LegacyResourcesProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider/InternalOp");
+// Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&LegacyResourcesProvider::InternalOp::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
+  }
+};
+// Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::AsyncOperationCompleted
+// Il2CppName: AsyncOperationCompleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&LegacyResourcesProvider::InternalOp::AsyncOperationCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), "AsyncOperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::PercentComplete
+// Il2CppName: PercentComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LegacyResourcesProvider::InternalOp::*)()>(&LegacyResourcesProvider::InternalOp::PercentComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), "PercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LegacyResourcesProvider::InternalOp::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)()>(&LegacyResourcesProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesProvider::InternalOp::*)()>(&LegacyResourcesProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LegacyResourcesProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

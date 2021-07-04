@@ -54,19 +54,19 @@ namespace HMUI {
     }
   }; // HMUI.SetPropertyUtility
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SetPropertyUtility::SetColor
-  // Il2CppName: SetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&SetPropertyUtility::SetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: SetPropertyUtility::SetStruct
-  // Il2CppName: SetStruct
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: SetPropertyUtility::SetClass
-  // Il2CppName: SetClass
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
+// Writing MetadataGetter for method: SetPropertyUtility::SetColor
+// Il2CppName: SetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&SetPropertyUtility::SetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: SetPropertyUtility::SetStruct
+// Il2CppName: SetStruct
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: SetPropertyUtility::SetClass
+// Il2CppName: SetClass
+// Cannot write MetadataGetter for generic methods!

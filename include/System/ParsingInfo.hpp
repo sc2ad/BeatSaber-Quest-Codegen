@@ -93,14 +93,14 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(ParsingInfo), 24 + sizeof(System::DateTimeParse::MatchNumberDelegate*)> __System_ParsingInfoSizeCheck;
   static_assert(sizeof(ParsingInfo) == 0x20);
-  // Writing MetadataGetter for method: ParsingInfo::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParsingInfo::*)()>(&ParsingInfo::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParsingInfo), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParsingInfo, "System", "ParsingInfo");
+// Writing MetadataGetter for method: ParsingInfo::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParsingInfo::*)()>(&ParsingInfo::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParsingInfo), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

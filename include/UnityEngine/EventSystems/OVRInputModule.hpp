@@ -388,339 +388,339 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
   static check_size<sizeof(OVRInputModule), 224 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*)> __UnityEngine_EventSystems_OVRInputModuleSizeCheck;
   static_assert(sizeof(OVRInputModule) == 0xE8);
-  // Writing MetadataGetter for method: OVRInputModule::get_inputMode
-  // Il2CppName: get_inputMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::OVRInputModule::InputMode (OVRInputModule::*)()>(&OVRInputModule::get_inputMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_inputMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::get_allowActivationOnMobileDevice
-  // Il2CppName: get_allowActivationOnMobileDevice
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::get_allowActivationOnMobileDevice)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::set_allowActivationOnMobileDevice
-  // Il2CppName: set_allowActivationOnMobileDevice
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(bool)>(&OVRInputModule::set_allowActivationOnMobileDevice)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::get_inputActionsPerSecond
-  // Il2CppName: get_inputActionsPerSecond
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRInputModule::*)()>(&OVRInputModule::get_inputActionsPerSecond)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::set_inputActionsPerSecond
-  // Il2CppName: set_inputActionsPerSecond
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(float)>(&OVRInputModule::set_inputActionsPerSecond)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::get_horizontalAxis
-  // Il2CppName: get_horizontalAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_horizontalAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::set_horizontalAxis
-  // Il2CppName: set_horizontalAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_horizontalAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::get_verticalAxis
-  // Il2CppName: get_verticalAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_verticalAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::set_verticalAxis
-  // Il2CppName: set_verticalAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_verticalAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::get_submitButton
-  // Il2CppName: get_submitButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_submitButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::set_submitButton
-  // Il2CppName: set_submitButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_submitButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::get_cancelButton
-  // Il2CppName: get_cancelButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_cancelButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::set_cancelButton
-  // Il2CppName: set_cancelButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_cancelButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::SendSubmitEventToSelectedObject
-  // Il2CppName: SendSubmitEventToSelectedObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::SendSubmitEventToSelectedObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SendSubmitEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::AllowMoveEventProcessing
-  // Il2CppName: AllowMoveEventProcessing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)(float)>(&OVRInputModule::AllowMoveEventProcessing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "AllowMoveEventProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::GetRawMoveVector
-  // Il2CppName: GetRawMoveVector
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (OVRInputModule::*)()>(&OVRInputModule::GetRawMoveVector)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetRawMoveVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::SendMoveEventToSelectedObject
-  // Il2CppName: SendMoveEventToSelectedObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::SendMoveEventToSelectedObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SendMoveEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::SendUpdateEventToSelectedObject
-  // Il2CppName: SendUpdateEventToSelectedObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::SendUpdateEventToSelectedObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SendUpdateEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::ProcessMousePress
-  // Il2CppName: ProcessMousePress
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*)>(&OVRInputModule::ProcessMousePress)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::ProcessMouseEvent
-  // Il2CppName: ProcessMouseEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseState*)>(&OVRInputModule::ProcessMouseEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ProcessMouseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerInputModule::MouseState*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::UseMouse
-  // Il2CppName: UseMouse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, bool, UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::UseMouse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "UseMouse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::CopyFromTo
-  // Il2CppName: CopyFromTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::OVRPointerEventData*, UnityEngine::EventSystems::OVRPointerEventData*)>(&OVRInputModule::CopyFromTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::GetPointerData
-  // Il2CppName: GetPointerData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)(int, UnityEngine::EventSystems::OVRPointerEventData*&, bool)>(&OVRInputModule::GetPointerData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::GetRectTransformNormal
-  // Il2CppName: GetRectTransformNormal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::RectTransform*)>(&OVRInputModule::GetRectTransformNormal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetRectTransformNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::GetGazePointerData
-  // Il2CppName: GetGazePointerData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (OVRInputModule::*)()>(&OVRInputModule::GetGazePointerData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetGazePointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::GetCanvasPointerData
-  // Il2CppName: GetCanvasPointerData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (OVRInputModule::*)()>(&OVRInputModule::GetCanvasPointerData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetCanvasPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::ShouldStartDrag
-  // Il2CppName: ShouldStartDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::ShouldStartDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::IsPointerMoving
-  // Il2CppName: IsPointerMoving
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::IsPointerMoving)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "IsPointerMoving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::SwipeAdjustedPosition
-  // Il2CppName: SwipeAdjustedPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (OVRInputModule::*)(UnityEngine::Vector2, UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::SwipeAdjustedPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SwipeAdjustedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::GetGazeButtonState
-  // Il2CppName: GetGazeButtonState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::FramePressState (OVRInputModule::*)()>(&OVRInputModule::GetGazeButtonState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetGazeButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::GetExtraScrollDelta
-  // Il2CppName: GetExtraScrollDelta
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (OVRInputModule::*)()>(&OVRInputModule::GetExtraScrollDelta)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetExtraScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::UpdateModule
-  // Il2CppName: UpdateModule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::UpdateModule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "UpdateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::IsModuleSupported
-  // Il2CppName: IsModuleSupported
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::IsModuleSupported)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "IsModuleSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::ShouldActivateModule
-  // Il2CppName: ShouldActivateModule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::ShouldActivateModule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ShouldActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::ActivateModule
-  // Il2CppName: ActivateModule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::ActivateModule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::DeactivateModule
-  // Il2CppName: DeactivateModule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::DeactivateModule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "DeactivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::Process
-  // Il2CppName: Process
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::Process)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::CopyFromTo
-  // Il2CppName: CopyFromTo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::CopyFromTo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::ClearSelection
-  // Il2CppName: ClearSelection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::ClearSelection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRInputModule::ProcessDrag
-  // Il2CppName: ProcessDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::ProcessDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
+// Writing MetadataGetter for method: OVRInputModule::get_inputMode
+// Il2CppName: get_inputMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::OVRInputModule::InputMode (OVRInputModule::*)()>(&OVRInputModule::get_inputMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_inputMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::get_allowActivationOnMobileDevice
+// Il2CppName: get_allowActivationOnMobileDevice
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::get_allowActivationOnMobileDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::set_allowActivationOnMobileDevice
+// Il2CppName: set_allowActivationOnMobileDevice
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(bool)>(&OVRInputModule::set_allowActivationOnMobileDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::get_inputActionsPerSecond
+// Il2CppName: get_inputActionsPerSecond
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRInputModule::*)()>(&OVRInputModule::get_inputActionsPerSecond)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::set_inputActionsPerSecond
+// Il2CppName: set_inputActionsPerSecond
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(float)>(&OVRInputModule::set_inputActionsPerSecond)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::get_horizontalAxis
+// Il2CppName: get_horizontalAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_horizontalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::set_horizontalAxis
+// Il2CppName: set_horizontalAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_horizontalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::get_verticalAxis
+// Il2CppName: get_verticalAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_verticalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::set_verticalAxis
+// Il2CppName: set_verticalAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_verticalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::get_submitButton
+// Il2CppName: get_submitButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_submitButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::set_submitButton
+// Il2CppName: set_submitButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_submitButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::get_cancelButton
+// Il2CppName: get_cancelButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRInputModule::*)()>(&OVRInputModule::get_cancelButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "get_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::set_cancelButton
+// Il2CppName: set_cancelButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(::Il2CppString*)>(&OVRInputModule::set_cancelButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "set_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::SendSubmitEventToSelectedObject
+// Il2CppName: SendSubmitEventToSelectedObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::SendSubmitEventToSelectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SendSubmitEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::AllowMoveEventProcessing
+// Il2CppName: AllowMoveEventProcessing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)(float)>(&OVRInputModule::AllowMoveEventProcessing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "AllowMoveEventProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::GetRawMoveVector
+// Il2CppName: GetRawMoveVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (OVRInputModule::*)()>(&OVRInputModule::GetRawMoveVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetRawMoveVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::SendMoveEventToSelectedObject
+// Il2CppName: SendMoveEventToSelectedObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::SendMoveEventToSelectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SendMoveEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::SendUpdateEventToSelectedObject
+// Il2CppName: SendUpdateEventToSelectedObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::SendUpdateEventToSelectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SendUpdateEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::ProcessMousePress
+// Il2CppName: ProcessMousePress
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*)>(&OVRInputModule::ProcessMousePress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::ProcessMouseEvent
+// Il2CppName: ProcessMouseEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseState*)>(&OVRInputModule::ProcessMouseEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ProcessMouseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerInputModule::MouseState*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::UseMouse
+// Il2CppName: UseMouse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, bool, UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::UseMouse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "UseMouse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::CopyFromTo
+// Il2CppName: CopyFromTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::OVRPointerEventData*, UnityEngine::EventSystems::OVRPointerEventData*)>(&OVRInputModule::CopyFromTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::GetPointerData
+// Il2CppName: GetPointerData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)(int, UnityEngine::EventSystems::OVRPointerEventData*&, bool)>(&OVRInputModule::GetPointerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::GetRectTransformNormal
+// Il2CppName: GetRectTransformNormal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::RectTransform*)>(&OVRInputModule::GetRectTransformNormal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetRectTransformNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::GetGazePointerData
+// Il2CppName: GetGazePointerData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (OVRInputModule::*)()>(&OVRInputModule::GetGazePointerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetGazePointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::GetCanvasPointerData
+// Il2CppName: GetCanvasPointerData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (OVRInputModule::*)()>(&OVRInputModule::GetCanvasPointerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetCanvasPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::ShouldStartDrag
+// Il2CppName: ShouldStartDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::ShouldStartDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::IsPointerMoving
+// Il2CppName: IsPointerMoving
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::IsPointerMoving)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "IsPointerMoving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::SwipeAdjustedPosition
+// Il2CppName: SwipeAdjustedPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (OVRInputModule::*)(UnityEngine::Vector2, UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::SwipeAdjustedPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "SwipeAdjustedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::GetGazeButtonState
+// Il2CppName: GetGazeButtonState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::FramePressState (OVRInputModule::*)()>(&OVRInputModule::GetGazeButtonState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetGazeButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::GetExtraScrollDelta
+// Il2CppName: GetExtraScrollDelta
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (OVRInputModule::*)()>(&OVRInputModule::GetExtraScrollDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "GetExtraScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::UpdateModule
+// Il2CppName: UpdateModule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::UpdateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "UpdateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::IsModuleSupported
+// Il2CppName: IsModuleSupported
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::IsModuleSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "IsModuleSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::ShouldActivateModule
+// Il2CppName: ShouldActivateModule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRInputModule::*)()>(&OVRInputModule::ShouldActivateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ShouldActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::ActivateModule
+// Il2CppName: ActivateModule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::ActivateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::DeactivateModule
+// Il2CppName: DeactivateModule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::DeactivateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "DeactivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::Process
+// Il2CppName: Process
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::Process)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::CopyFromTo
+// Il2CppName: CopyFromTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::CopyFromTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::ClearSelection
+// Il2CppName: ClearSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)()>(&OVRInputModule::ClearSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRInputModule::ProcessDrag
+// Il2CppName: ProcessDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&OVRInputModule::ProcessDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};

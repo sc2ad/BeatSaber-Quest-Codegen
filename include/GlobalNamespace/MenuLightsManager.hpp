@@ -114,91 +114,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MenuLightsManager), 48 + sizeof(GlobalNamespace::MenuLightsPresetSO*)> __GlobalNamespace_MenuLightsManagerSizeCheck;
   static_assert(sizeof(MenuLightsManager) == 0x38);
-  // Writing MetadataGetter for method: MenuLightsManager::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MenuLightsManager::*)()>(&MenuLightsManager::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::IsColorVeryCloseToColor
-  // Il2CppName: IsColorVeryCloseToColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MenuLightsManager::*)(UnityEngine::Color, UnityEngine::Color)>(&MenuLightsManager::IsColorVeryCloseToColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "IsColorVeryCloseToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::SetColor
-  // Il2CppName: SetColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)(int, UnityEngine::Color)>(&MenuLightsManager::SetColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::CurrentColorForID
-  // Il2CppName: CurrentColorForID
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MenuLightsManager::*)(int)>(&MenuLightsManager::CurrentColorForID)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "CurrentColorForID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::SetColorsFromPreset
-  // Il2CppName: SetColorsFromPreset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MenuLightsManager::*)(GlobalNamespace::MenuLightsPresetSO*, float)>(&MenuLightsManager::SetColorsFromPreset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "SetColorsFromPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuLightsPresetSO*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::RefreshLightsDictForPreset
-  // Il2CppName: RefreshLightsDictForPreset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)(GlobalNamespace::MenuLightsPresetSO*)>(&MenuLightsManager::RefreshLightsDictForPreset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "RefreshLightsDictForPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuLightsPresetSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::SetColorPreset
-  // Il2CppName: SetColorPreset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)(GlobalNamespace::MenuLightsPresetSO*, bool)>(&MenuLightsManager::SetColorPreset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "SetColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuLightsPresetSO*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::RefreshColors
-  // Il2CppName: RefreshColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::RefreshColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "RefreshColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MenuLightsManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager*, "", "MenuLightsManager");
+// Writing MetadataGetter for method: MenuLightsManager::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MenuLightsManager::*)()>(&MenuLightsManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::IsColorVeryCloseToColor
+// Il2CppName: IsColorVeryCloseToColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MenuLightsManager::*)(UnityEngine::Color, UnityEngine::Color)>(&MenuLightsManager::IsColorVeryCloseToColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "IsColorVeryCloseToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::SetColor
+// Il2CppName: SetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)(int, UnityEngine::Color)>(&MenuLightsManager::SetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::CurrentColorForID
+// Il2CppName: CurrentColorForID
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MenuLightsManager::*)(int)>(&MenuLightsManager::CurrentColorForID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "CurrentColorForID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::SetColorsFromPreset
+// Il2CppName: SetColorsFromPreset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MenuLightsManager::*)(GlobalNamespace::MenuLightsPresetSO*, float)>(&MenuLightsManager::SetColorsFromPreset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "SetColorsFromPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuLightsPresetSO*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::RefreshLightsDictForPreset
+// Il2CppName: RefreshLightsDictForPreset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)(GlobalNamespace::MenuLightsPresetSO*)>(&MenuLightsManager::RefreshLightsDictForPreset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "RefreshLightsDictForPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuLightsPresetSO*>()});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::SetColorPreset
+// Il2CppName: SetColorPreset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)(GlobalNamespace::MenuLightsPresetSO*, bool)>(&MenuLightsManager::SetColorPreset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "SetColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuLightsPresetSO*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::RefreshColors
+// Il2CppName: RefreshColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::RefreshColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), "RefreshColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MenuLightsManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuLightsManager::*)()>(&MenuLightsManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuLightsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

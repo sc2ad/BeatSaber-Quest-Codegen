@@ -66,59 +66,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(Signal), 24 + sizeof(System::Action*)> __GlobalNamespace_SignalSizeCheck;
   static_assert(sizeof(Signal) == 0x20);
-  // Writing MetadataGetter for method: Signal::add__event
-  // Il2CppName: add__event
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::add__event)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Signal*), "add__event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Signal::remove__event
-  // Il2CppName: remove__event
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::remove__event)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Signal*), "remove__event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Signal::Raise
-  // Il2CppName: Raise
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)()>(&Signal::Raise)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Signal*), "Raise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Signal::Subscribe
-  // Il2CppName: Subscribe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::Subscribe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Signal*), "Subscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Signal::Unsubscribe
-  // Il2CppName: Unsubscribe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::Unsubscribe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Signal*), "Unsubscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Signal::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)()>(&Signal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Signal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)()>(&Signal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Signal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Signal*, "", "Signal");
+// Writing MetadataGetter for method: Signal::add__event
+// Il2CppName: add__event
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::add__event)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Signal*), "add__event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: Signal::remove__event
+// Il2CppName: remove__event
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::remove__event)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Signal*), "remove__event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: Signal::Raise
+// Il2CppName: Raise
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)()>(&Signal::Raise)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Signal*), "Raise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Signal::Subscribe
+// Il2CppName: Subscribe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::Subscribe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Signal*), "Subscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: Signal::Unsubscribe
+// Il2CppName: Unsubscribe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)(System::Action*)>(&Signal::Unsubscribe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Signal*), "Unsubscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: Signal::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)()>(&Signal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Signal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Signal::*)()>(&Signal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Signal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

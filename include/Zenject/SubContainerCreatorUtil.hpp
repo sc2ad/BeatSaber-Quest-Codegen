@@ -28,14 +28,14 @@ namespace Zenject {
     static void ApplyBindSettings(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::DiContainer* subContainer);
   }; // Zenject.SubContainerCreatorUtil
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SubContainerCreatorUtil::ApplyBindSettings
-  // Il2CppName: ApplyBindSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::SubContainerCreatorBindInfo*, Zenject::DiContainer*)>(&SubContainerCreatorUtil::ApplyBindSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorUtil*), "ApplyBindSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorUtil*, "Zenject", "SubContainerCreatorUtil");
+// Writing MetadataGetter for method: SubContainerCreatorUtil::ApplyBindSettings
+// Il2CppName: ApplyBindSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::SubContainerCreatorBindInfo*, Zenject::DiContainer*)>(&SubContainerCreatorUtil::ApplyBindSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorUtil*), "ApplyBindSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};

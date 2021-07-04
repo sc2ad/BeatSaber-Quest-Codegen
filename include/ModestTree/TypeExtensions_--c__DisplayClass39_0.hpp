@@ -56,27 +56,27 @@ namespace ModestTree {
   #pragma pack(pop)
   static check_size<sizeof(TypeExtensions::$$c__DisplayClass39_0), 16 + sizeof(::Array<System::Type*>*)> __ModestTree_TypeExtensions_$$c__DisplayClass39_0SizeCheck;
   static_assert(sizeof(TypeExtensions::$$c__DisplayClass39_0) == 0x18);
-  // Writing MetadataGetter for method: TypeExtensions::$$c__DisplayClass39_0::$AllAttributes$b__0
-  // Il2CppName: <AllAttributes>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeExtensions::$$c__DisplayClass39_0::*)(System::Attribute*)>(&TypeExtensions::$$c__DisplayClass39_0::$AllAttributes$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeExtensions::$$c__DisplayClass39_0*), "<AllAttributes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Attribute*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TypeExtensions::$$c__DisplayClass39_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeExtensions::$$c__DisplayClass39_0::*)()>(&TypeExtensions::$$c__DisplayClass39_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeExtensions::$$c__DisplayClass39_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeExtensions::$$c__DisplayClass39_0::*)()>(&TypeExtensions::$$c__DisplayClass39_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TypeExtensions::$$c__DisplayClass39_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass39_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass39_0");
+// Writing MetadataGetter for method: TypeExtensions::$$c__DisplayClass39_0::$AllAttributes$b__0
+// Il2CppName: <AllAttributes>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeExtensions::$$c__DisplayClass39_0::*)(System::Attribute*)>(&TypeExtensions::$$c__DisplayClass39_0::$AllAttributes$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeExtensions::$$c__DisplayClass39_0*), "<AllAttributes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Attribute*>()});
+  }
+};
+// Writing MetadataGetter for method: TypeExtensions::$$c__DisplayClass39_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeExtensions::$$c__DisplayClass39_0::*)()>(&TypeExtensions::$$c__DisplayClass39_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeExtensions::$$c__DisplayClass39_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeExtensions::$$c__DisplayClass39_0::*)()>(&TypeExtensions::$$c__DisplayClass39_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TypeExtensions::$$c__DisplayClass39_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

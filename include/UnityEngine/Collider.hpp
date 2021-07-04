@@ -61,86 +61,86 @@ namespace UnityEngine {
     void Internal_ClosestPointOnBounds_Injected(UnityEngine::Vector3& point, UnityEngine::Vector3& outPos, float& distance);
   }; // UnityEngine.Collider
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Collider::get_enabled
-  // Il2CppName: get_enabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Collider::*)()>(&Collider::get_enabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::set_enabled
-  // Il2CppName: set_enabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(bool)>(&Collider::set_enabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::get_attachedRigidbody
-  // Il2CppName: get_attachedRigidbody
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (Collider::*)()>(&Collider::get_attachedRigidbody)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "get_attachedRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::get_isTrigger
-  // Il2CppName: get_isTrigger
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Collider::*)()>(&Collider::get_isTrigger)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "get_isTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::set_isTrigger
-  // Il2CppName: set_isTrigger
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(bool)>(&Collider::set_isTrigger)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "set_isTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::get_bounds
-  // Il2CppName: get_bounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (Collider::*)()>(&Collider::get_bounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::Internal_ClosestPointOnBounds
-  // Il2CppName: Internal_ClosestPointOnBounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(UnityEngine::Vector3, UnityEngine::Vector3&, float&)>(&Collider::Internal_ClosestPointOnBounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "Internal_ClosestPointOnBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::ClosestPointOnBounds
-  // Il2CppName: ClosestPointOnBounds
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Collider::*)(UnityEngine::Vector3)>(&Collider::ClosestPointOnBounds)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "ClosestPointOnBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::get_bounds_Injected
-  // Il2CppName: get_bounds_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(UnityEngine::Bounds&)>(&Collider::get_bounds_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Collider::Internal_ClosestPointOnBounds_Injected
-  // Il2CppName: Internal_ClosestPointOnBounds_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, float&)>(&Collider::Internal_ClosestPointOnBounds_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Collider*), "Internal_ClosestPointOnBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider*, "UnityEngine", "Collider");
+// Writing MetadataGetter for method: Collider::get_enabled
+// Il2CppName: get_enabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Collider::*)()>(&Collider::get_enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Collider::set_enabled
+// Il2CppName: set_enabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(bool)>(&Collider::set_enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Collider::get_attachedRigidbody
+// Il2CppName: get_attachedRigidbody
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (Collider::*)()>(&Collider::get_attachedRigidbody)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "get_attachedRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Collider::get_isTrigger
+// Il2CppName: get_isTrigger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Collider::*)()>(&Collider::get_isTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "get_isTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Collider::set_isTrigger
+// Il2CppName: set_isTrigger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(bool)>(&Collider::set_isTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "set_isTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: Collider::get_bounds
+// Il2CppName: get_bounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (Collider::*)()>(&Collider::get_bounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Collider::Internal_ClosestPointOnBounds
+// Il2CppName: Internal_ClosestPointOnBounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(UnityEngine::Vector3, UnityEngine::Vector3&, float&)>(&Collider::Internal_ClosestPointOnBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "Internal_ClosestPointOnBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: Collider::ClosestPointOnBounds
+// Il2CppName: ClosestPointOnBounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Collider::*)(UnityEngine::Vector3)>(&Collider::ClosestPointOnBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "ClosestPointOnBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Collider::get_bounds_Injected
+// Il2CppName: get_bounds_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(UnityEngine::Bounds&)>(&Collider::get_bounds_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
+  }
+};
+// Writing MetadataGetter for method: Collider::Internal_ClosestPointOnBounds_Injected
+// Il2CppName: Internal_ClosestPointOnBounds_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Collider::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, float&)>(&Collider::Internal_ClosestPointOnBounds_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Collider*), "Internal_ClosestPointOnBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};

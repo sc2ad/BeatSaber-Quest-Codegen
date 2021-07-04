@@ -67,46 +67,46 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Crypto::IBlockCipher* CreateBlockCipher(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm cipherAlgorithm);
   }; // Org.BouncyCastle.Security.CipherUtilities
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CipherUtilities::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CipherUtilities::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CipherUtilities::GetCipher
-  // Il2CppName: GetCipher
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBufferedCipher* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&CipherUtilities::GetCipher)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "GetCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CipherUtilities::GetCipher
-  // Il2CppName: GetCipher
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBufferedCipher* (*)(::Il2CppString*)>(&CipherUtilities::GetCipher)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "GetCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CipherUtilities::GetDigitIndex
-  // Il2CppName: GetDigitIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&CipherUtilities::GetDigitIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "GetDigitIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CipherUtilities::CreateBlockCipher
-  // Il2CppName: CreateBlockCipher
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBlockCipher* (*)(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm)>(&CipherUtilities::CreateBlockCipher)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "CreateBlockCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities*, "Org.BouncyCastle.Security", "CipherUtilities");
+// Writing MetadataGetter for method: CipherUtilities::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CipherUtilities::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CipherUtilities::GetCipher
+// Il2CppName: GetCipher
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBufferedCipher* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&CipherUtilities::GetCipher)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "GetCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+  }
+};
+// Writing MetadataGetter for method: CipherUtilities::GetCipher
+// Il2CppName: GetCipher
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBufferedCipher* (*)(::Il2CppString*)>(&CipherUtilities::GetCipher)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "GetCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CipherUtilities::GetDigitIndex
+// Il2CppName: GetDigitIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&CipherUtilities::GetDigitIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "GetDigitIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CipherUtilities::CreateBlockCipher
+// Il2CppName: CreateBlockCipher
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBlockCipher* (*)(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm)>(&CipherUtilities::CreateBlockCipher)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CipherUtilities*), "CreateBlockCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm>()});
+  }
+};

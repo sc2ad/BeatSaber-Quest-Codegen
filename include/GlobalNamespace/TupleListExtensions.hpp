@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     }
   }; // TupleListExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: TupleListExtensions::Add
-  // Il2CppName: Add
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TupleListExtensions::Add
-  // Il2CppName: Add
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TupleListExtensions::Add
-  // Il2CppName: Add
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TupleListExtensions*, "", "TupleListExtensions");
+// Writing MetadataGetter for method: TupleListExtensions::Add
+// Il2CppName: Add
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TupleListExtensions::Add
+// Il2CppName: Add
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TupleListExtensions::Add
+// Il2CppName: Add
+// Cannot write MetadataGetter for generic methods!

@@ -104,115 +104,115 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(RIPEMD160Managed), 64 + sizeof(::Array<uint>*)> __System_Security_Cryptography_RIPEMD160ManagedSizeCheck;
   static_assert(sizeof(RIPEMD160Managed) == 0x48);
-  // Writing MetadataGetter for method: RIPEMD160Managed::InitializeState
-  // Il2CppName: InitializeState
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::InitializeState)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "InitializeState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::_HashData
-  // Il2CppName: _HashData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)(::Array<uint8_t>*, int, int)>(&RIPEMD160Managed::_HashData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::_EndHash
-  // Il2CppName: _EndHash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RIPEMD160Managed::*)()>(&RIPEMD160Managed::_EndHash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::MDTransform
-  // Il2CppName: MDTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, uint*, uint8_t*)>(&RIPEMD160Managed::MDTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "MDTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::F
-  // Il2CppName: F
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::F)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "F", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::G
-  // Il2CppName: G
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::G)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::H
-  // Il2CppName: H
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::H)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "H", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::I
-  // Il2CppName: I
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::I)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "I", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::J
-  // Il2CppName: J
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::J)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "J", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::Initialize
-  // Il2CppName: Initialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::Initialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::HashCore
-  // Il2CppName: HashCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)(::Array<uint8_t>*, int, int)>(&RIPEMD160Managed::HashCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RIPEMD160Managed::HashFinal
-  // Il2CppName: HashFinal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RIPEMD160Managed::*)()>(&RIPEMD160Managed::HashFinal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160Managed*, "System.Security.Cryptography", "RIPEMD160Managed");
+// Writing MetadataGetter for method: RIPEMD160Managed::InitializeState
+// Il2CppName: InitializeState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::InitializeState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "InitializeState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::_HashData
+// Il2CppName: _HashData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)(::Array<uint8_t>*, int, int)>(&RIPEMD160Managed::_HashData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::_EndHash
+// Il2CppName: _EndHash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RIPEMD160Managed::*)()>(&RIPEMD160Managed::_EndHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::MDTransform
+// Il2CppName: MDTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, uint*, uint8_t*)>(&RIPEMD160Managed::MDTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "MDTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::F
+// Il2CppName: F
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::F)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "F", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::G
+// Il2CppName: G
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::G)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::H
+// Il2CppName: H
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::H)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "H", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::I
+// Il2CppName: I
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::I)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "I", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::J
+// Il2CppName: J
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&RIPEMD160Managed::J)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "J", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::Initialize
+// Il2CppName: Initialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)()>(&RIPEMD160Managed::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::HashCore
+// Il2CppName: HashCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RIPEMD160Managed::*)(::Array<uint8_t>*, int, int)>(&RIPEMD160Managed::HashCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RIPEMD160Managed::HashFinal
+// Il2CppName: HashFinal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RIPEMD160Managed::*)()>(&RIPEMD160Managed::HashFinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RIPEMD160Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -59,35 +59,35 @@ namespace GlobalNamespace {
     }
   }; // BeatmapDifficultyDropdown/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BeatmapDifficultyDropdown::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BeatmapDifficultyDropdown::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapDifficultyDropdown::$$c::$Start$b__11_0
-  // Il2CppName: <Start>b__11_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapDifficultyDropdown::$$c::*)(System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*)>(&BeatmapDifficultyDropdown::$$c::$Start$b__11_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BeatmapDifficultyDropdown::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultyDropdown::$$c::*)()>(&BeatmapDifficultyDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultyDropdown::$$c::*)()>(&BeatmapDifficultyDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyDropdown::$$c*, "", "BeatmapDifficultyDropdown/<>c");
+// Writing MetadataGetter for method: BeatmapDifficultyDropdown::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BeatmapDifficultyDropdown::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BeatmapDifficultyDropdown::$$c::$Start$b__11_0
+// Il2CppName: <Start>b__11_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapDifficultyDropdown::$$c::*)(System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*)>(&BeatmapDifficultyDropdown::$$c::$Start$b__11_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: BeatmapDifficultyDropdown::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultyDropdown::$$c::*)()>(&BeatmapDifficultyDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultyDropdown::$$c::*)()>(&BeatmapDifficultyDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultyDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

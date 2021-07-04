@@ -113,42 +113,42 @@ namespace Zenject {
     static bool PopValueWithType(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgMap, System::Type* injectedFieldType, ::Il2CppObject*& value);
   }; // Zenject.InjectUtil
   #pragma pack(pop)
-  // Writing MetadataGetter for method: InjectUtil::CreateArgList
-  // Il2CppName: CreateArgList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&InjectUtil::CreateArgList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectUtil*), "CreateArgList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InjectUtil::CreateTypePair
-  // Il2CppName: CreateTypePair
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
-  // Il2CppName: CreateArgListExplicit
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
-  // Il2CppName: CreateArgListExplicit
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
-  // Il2CppName: CreateArgListExplicit
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
-  // Il2CppName: CreateArgListExplicit
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
-  // Il2CppName: CreateArgListExplicit
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
-  // Il2CppName: CreateArgListExplicit
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: InjectUtil::PopValueWithType
-  // Il2CppName: PopValueWithType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Type*, ::Il2CppObject*&)>(&InjectUtil::PopValueWithType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InjectUtil*), "PopValueWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil*, "Zenject", "InjectUtil");
+// Writing MetadataGetter for method: InjectUtil::CreateArgList
+// Il2CppName: CreateArgList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&InjectUtil::CreateArgList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectUtil*), "CreateArgList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: InjectUtil::CreateTypePair
+// Il2CppName: CreateTypePair
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
+// Il2CppName: CreateArgListExplicit
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
+// Il2CppName: CreateArgListExplicit
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
+// Il2CppName: CreateArgListExplicit
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
+// Il2CppName: CreateArgListExplicit
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
+// Il2CppName: CreateArgListExplicit
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: InjectUtil::CreateArgListExplicit
+// Il2CppName: CreateArgListExplicit
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: InjectUtil::PopValueWithType
+// Il2CppName: PopValueWithType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Type*, ::Il2CppObject*&)>(&InjectUtil::PopValueWithType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InjectUtil*), "PopValueWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+  }
+};

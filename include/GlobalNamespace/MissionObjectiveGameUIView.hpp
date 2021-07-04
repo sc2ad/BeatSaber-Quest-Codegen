@@ -167,59 +167,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveGameUIView), 152 + sizeof(GlobalNamespace::MissionObjectiveChecker*)> __GlobalNamespace_MissionObjectiveGameUIViewSizeCheck;
   static_assert(sizeof(MissionObjectiveGameUIView) == 0xA0);
-  // Writing MetadataGetter for method: MissionObjectiveGameUIView::SetMissionObjectiveChecker
-  // Il2CppName: SetMissionObjectiveChecker
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::SetMissionObjectiveChecker)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "SetMissionObjectiveChecker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange
-  // Il2CppName: HandleMissionObjectiveStatusDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "HandleMissionObjectiveStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange
-  // Il2CppName: HandleMissionObjectiveCheckedValueDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "HandleMissionObjectiveCheckedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveGameUIView::RefreshIcon
-  // Il2CppName: RefreshIcon
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::RefreshIcon)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "RefreshIcon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveGameUIView::RefreshValue
-  // Il2CppName: RefreshValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::RefreshValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "RefreshValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MissionObjectiveGameUIView::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");
+// Writing MetadataGetter for method: MissionObjectiveGameUIView::SetMissionObjectiveChecker
+// Il2CppName: SetMissionObjectiveChecker
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::SetMissionObjectiveChecker)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "SetMissionObjectiveChecker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange
+// Il2CppName: HandleMissionObjectiveStatusDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "HandleMissionObjectiveStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange
+// Il2CppName: HandleMissionObjectiveCheckedValueDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "HandleMissionObjectiveCheckedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveGameUIView::RefreshIcon
+// Il2CppName: RefreshIcon
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::RefreshIcon)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "RefreshIcon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveGameUIView::RefreshValue
+// Il2CppName: RefreshValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::RefreshValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "RefreshValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MissionObjectiveGameUIView::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

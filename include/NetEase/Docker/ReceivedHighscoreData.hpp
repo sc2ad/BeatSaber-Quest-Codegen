@@ -92,62 +92,62 @@ namespace NetEase::Docker {
   #pragma pack(pop)
   static check_size<sizeof(ReceivedHighscoreData), 16 + sizeof(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*)> __NetEase_Docker_ReceivedHighscoreDataSizeCheck;
   static_assert(sizeof(ReceivedHighscoreData) == 0x18);
-  // Writing MetadataGetter for method: ReceivedHighscoreData::get_FetchingSuccessful
-  // Il2CppName: get_FetchingSuccessful
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_FetchingSuccessful)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReceivedHighscoreData::set_FetchingSuccessful
-  // Il2CppName: set_FetchingSuccessful
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(bool)>(&ReceivedHighscoreData::set_FetchingSuccessful)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReceivedHighscoreData::set_HighscoreCode
-  // Il2CppName: set_HighscoreCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(int)>(&ReceivedHighscoreData::set_HighscoreCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_HighscoreCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReceivedHighscoreData::get_Track
-  // Il2CppName: get_Track
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_Track)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReceivedHighscoreData::set_Track
-  // Il2CppName: set_Track
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(::Il2CppString*)>(&ReceivedHighscoreData::set_Track)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ReceivedHighscoreData::get_Scores
-  // Il2CppName: get_Scores
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_Scores)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ReceivedHighscoreData::set_Scores
-  // Il2CppName: set_Scores
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*)>(&ReceivedHighscoreData::set_Scores)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ReceivedHighscoreData, "NetEase.Docker", "ReceivedHighscoreData");
+// Writing MetadataGetter for method: ReceivedHighscoreData::get_FetchingSuccessful
+// Il2CppName: get_FetchingSuccessful
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_FetchingSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReceivedHighscoreData::set_FetchingSuccessful
+// Il2CppName: set_FetchingSuccessful
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(bool)>(&ReceivedHighscoreData::set_FetchingSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ReceivedHighscoreData::set_HighscoreCode
+// Il2CppName: set_HighscoreCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(int)>(&ReceivedHighscoreData::set_HighscoreCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_HighscoreCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ReceivedHighscoreData::get_Track
+// Il2CppName: get_Track
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_Track)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReceivedHighscoreData::set_Track
+// Il2CppName: set_Track
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(::Il2CppString*)>(&ReceivedHighscoreData::set_Track)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ReceivedHighscoreData::get_Scores
+// Il2CppName: get_Scores
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* (ReceivedHighscoreData::*)()>(&ReceivedHighscoreData::get_Scores)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "get_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ReceivedHighscoreData::set_Scores
+// Il2CppName: set_Scores
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReceivedHighscoreData::*)(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*)>(&ReceivedHighscoreData::set_Scores)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ReceivedHighscoreData), "set_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*>()});
+  }
+};

@@ -66,35 +66,35 @@ namespace UnityEngine::Networking::PlayerConnection {
   #pragma pack(pop)
   static check_size<sizeof(PlayerEditorConnectionEvents::MessageTypeSubscribers), 32 + sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*)> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEvents_MessageTypeSubscribersSizeCheck;
   static_assert(sizeof(PlayerEditorConnectionEvents::MessageTypeSubscribers) == 0x28);
-  // Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::get_MessageTypeId
-  // Il2CppName: get_MessageTypeId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::get_MessageTypeId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), "get_MessageTypeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::set_MessageTypeId
-  // Il2CppName: set_MessageTypeId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)(System::Guid)>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::set_MessageTypeId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), "set_MessageTypeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageTypeSubscribers");
+// Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::get_MessageTypeId
+// Il2CppName: get_MessageTypeId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::get_MessageTypeId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), "get_MessageTypeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::set_MessageTypeId
+// Il2CppName: set_MessageTypeId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)(System::Guid)>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::set_MessageTypeId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), "set_MessageTypeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+  }
+};
+// Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

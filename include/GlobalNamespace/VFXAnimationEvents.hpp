@@ -123,107 +123,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VFXAnimationEvents), 56 + sizeof(System::Action*)> __GlobalNamespace_VFXAnimationEventsSizeCheck;
   static_assert(sizeof(VFXAnimationEvents) == 0x40);
-  // Writing MetadataGetter for method: VFXAnimationEvents::add_animationDidPauseEvent
-  // Il2CppName: add_animationDidPauseEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::add_animationDidPauseEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "add_animationDidPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::remove_animationDidPauseEvent
-  // Il2CppName: remove_animationDidPauseEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::remove_animationDidPauseEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "remove_animationDidPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::add_spawnCharacterEvent
-  // Il2CppName: add_spawnCharacterEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::add_spawnCharacterEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "add_spawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::remove_spawnCharacterEvent
-  // Il2CppName: remove_spawnCharacterEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::remove_spawnCharacterEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "remove_spawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::add_despawnCharacterEvent
-  // Il2CppName: add_despawnCharacterEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::add_despawnCharacterEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "add_despawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::remove_despawnCharacterEvent
-  // Il2CppName: remove_despawnCharacterEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::remove_despawnCharacterEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "remove_despawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::PlayEvent
-  // Il2CppName: PlayEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(::Il2CppString*)>(&VFXAnimationEvents::PlayEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "PlayEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::PauseAnimation
-  // Il2CppName: PauseAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::PauseAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "PauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::SpawnCharacterEvent
-  // Il2CppName: SpawnCharacterEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::SpawnCharacterEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "SpawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::DeSpawnCharacterEvent
-  // Il2CppName: DeSpawnCharacterEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::DeSpawnCharacterEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "DeSpawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::ResumeAnimation
-  // Il2CppName: ResumeAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::ResumeAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "ResumeAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VFXAnimationEvents::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents*, "", "VFXAnimationEvents");
+// Writing MetadataGetter for method: VFXAnimationEvents::add_animationDidPauseEvent
+// Il2CppName: add_animationDidPauseEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::add_animationDidPauseEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "add_animationDidPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::remove_animationDidPauseEvent
+// Il2CppName: remove_animationDidPauseEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::remove_animationDidPauseEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "remove_animationDidPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::add_spawnCharacterEvent
+// Il2CppName: add_spawnCharacterEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::add_spawnCharacterEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "add_spawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::remove_spawnCharacterEvent
+// Il2CppName: remove_spawnCharacterEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::remove_spawnCharacterEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "remove_spawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::add_despawnCharacterEvent
+// Il2CppName: add_despawnCharacterEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::add_despawnCharacterEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "add_despawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::remove_despawnCharacterEvent
+// Il2CppName: remove_despawnCharacterEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(System::Action*)>(&VFXAnimationEvents::remove_despawnCharacterEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "remove_despawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::PlayEvent
+// Il2CppName: PlayEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)(::Il2CppString*)>(&VFXAnimationEvents::PlayEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "PlayEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::PauseAnimation
+// Il2CppName: PauseAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::PauseAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "PauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::SpawnCharacterEvent
+// Il2CppName: SpawnCharacterEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::SpawnCharacterEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "SpawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::DeSpawnCharacterEvent
+// Il2CppName: DeSpawnCharacterEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::DeSpawnCharacterEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "DeSpawnCharacterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::ResumeAnimation
+// Il2CppName: ResumeAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::ResumeAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), "ResumeAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VFXAnimationEvents::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXAnimationEvents::*)()>(&VFXAnimationEvents::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VFXAnimationEvents*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

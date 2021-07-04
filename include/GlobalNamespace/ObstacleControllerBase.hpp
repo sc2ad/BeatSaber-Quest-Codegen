@@ -82,67 +82,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ObstacleControllerBase), 32 + sizeof(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)> __GlobalNamespace_ObstacleControllerBaseSizeCheck;
   static_assert(sizeof(ObstacleControllerBase) == 0x28);
-  // Writing MetadataGetter for method: ObstacleControllerBase::add_didInitEvent
-  // Il2CppName: add_didInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_1<GlobalNamespace::ObstacleControllerBase*>*)>(&ObstacleControllerBase::add_didInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ObstacleControllerBase*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleControllerBase::remove_didInitEvent
-  // Il2CppName: remove_didInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_1<GlobalNamespace::ObstacleControllerBase*>*)>(&ObstacleControllerBase::remove_didInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ObstacleControllerBase*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleControllerBase::add_didStartDissolvingEvent
-  // Il2CppName: add_didStartDissolvingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)>(&ObstacleControllerBase::add_didStartDissolvingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "add_didStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleControllerBase::remove_didStartDissolvingEvent
-  // Il2CppName: remove_didStartDissolvingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)>(&ObstacleControllerBase::remove_didStartDissolvingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "remove_didStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleControllerBase::InvokeDidInitEvent
-  // Il2CppName: InvokeDidInitEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(GlobalNamespace::ObstacleControllerBase*)>(&ObstacleControllerBase::InvokeDidInitEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "InvokeDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleControllerBase::InvokeDidStartDissolvingEvent
-  // Il2CppName: InvokeDidStartDissolvingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(GlobalNamespace::ObstacleControllerBase*, float)>(&ObstacleControllerBase::InvokeDidStartDissolvingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "InvokeDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ObstacleControllerBase::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)()>(&ObstacleControllerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)()>(&ObstacleControllerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleControllerBase*, "", "ObstacleControllerBase");
+// Writing MetadataGetter for method: ObstacleControllerBase::add_didInitEvent
+// Il2CppName: add_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_1<GlobalNamespace::ObstacleControllerBase*>*)>(&ObstacleControllerBase::add_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ObstacleControllerBase*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleControllerBase::remove_didInitEvent
+// Il2CppName: remove_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_1<GlobalNamespace::ObstacleControllerBase*>*)>(&ObstacleControllerBase::remove_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ObstacleControllerBase*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleControllerBase::add_didStartDissolvingEvent
+// Il2CppName: add_didStartDissolvingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)>(&ObstacleControllerBase::add_didStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "add_didStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleControllerBase::remove_didStartDissolvingEvent
+// Il2CppName: remove_didStartDissolvingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)>(&ObstacleControllerBase::remove_didStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "remove_didStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleControllerBase::InvokeDidInitEvent
+// Il2CppName: InvokeDidInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(GlobalNamespace::ObstacleControllerBase*)>(&ObstacleControllerBase::InvokeDidInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "InvokeDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleControllerBase::InvokeDidStartDissolvingEvent
+// Il2CppName: InvokeDidStartDissolvingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)(GlobalNamespace::ObstacleControllerBase*, float)>(&ObstacleControllerBase::InvokeDidStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), "InvokeDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ObstacleControllerBase::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)()>(&ObstacleControllerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleControllerBase::*)()>(&ObstacleControllerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ObstacleControllerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

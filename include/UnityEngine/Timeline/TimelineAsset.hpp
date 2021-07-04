@@ -386,357 +386,357 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(TimelineAsset), 88 + sizeof(UnityEngine::Timeline::MarkerTrack*)> __UnityEngine_Timeline_TimelineAssetSizeCheck;
   static_assert(sizeof(TimelineAsset) == 0x60);
-  // Writing MetadataGetter for method: TimelineAsset::UpgradeToLatestVersion
-  // Il2CppName: UpgradeToLatestVersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpgradeToLatestVersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_editorSettings
-  // Il2CppName: get_editorSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset::EditorSettings* (TimelineAsset::*)()>(&TimelineAsset::get_editorSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_editorSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_fixedDuration
-  // Il2CppName: get_fixedDuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineAsset::*)()>(&TimelineAsset::get_fixedDuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_fixedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::set_fixedDuration
-  // Il2CppName: set_fixedDuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(double)>(&TimelineAsset::set_fixedDuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "set_fixedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_durationMode
-  // Il2CppName: get_durationMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset::DurationMode (TimelineAsset::*)()>(&TimelineAsset::get_durationMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_durationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::set_durationMode
-  // Il2CppName: set_durationMode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TimelineAsset::DurationMode)>(&TimelineAsset::set_durationMode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "set_durationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineAsset::DurationMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_clipCaps
-  // Il2CppName: get_clipCaps
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (TimelineAsset::*)()>(&TimelineAsset::get_clipCaps)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_outputTrackCount
-  // Il2CppName: get_outputTrackCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimelineAsset::*)()>(&TimelineAsset::get_outputTrackCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_outputTrackCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_rootTrackCount
-  // Il2CppName: get_rootTrackCount
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimelineAsset::*)()>(&TimelineAsset::get_rootTrackCount)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_rootTrackCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::OnValidate
-  // Il2CppName: OnValidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::OnValidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::GetValidFramerate
-  // Il2CppName: GetValidFramerate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&TimelineAsset::GetValidFramerate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetValidFramerate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::GetRootTrack
-  // Il2CppName: GetRootTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(int)>(&TimelineAsset::GetRootTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetRootTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::GetRootTracks
-  // Il2CppName: GetRootTracks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (TimelineAsset::*)()>(&TimelineAsset::GetRootTracks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetRootTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::GetOutputTrack
-  // Il2CppName: GetOutputTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(int)>(&TimelineAsset::GetOutputTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetOutputTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::GetOutputTracks
-  // Il2CppName: GetOutputTracks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (TimelineAsset::*)()>(&TimelineAsset::GetOutputTracks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetOutputTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::UpdateRootTrackCache
-  // Il2CppName: UpdateRootTrackCache
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpdateRootTrackCache)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpdateRootTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::UpdateOutputTrackCache
-  // Il2CppName: UpdateOutputTrackCache
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpdateOutputTrackCache)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpdateOutputTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_flattenedTracks
-  // Il2CppName: get_flattenedTracks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (TimelineAsset::*)()>(&TimelineAsset::get_flattenedTracks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_flattenedTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_markerTrack
-  // Il2CppName: get_markerTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MarkerTrack* (TimelineAsset::*)()>(&TimelineAsset::get_markerTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_markerTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_trackObjects
-  // Il2CppName: get_trackObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* (TimelineAsset::*)()>(&TimelineAsset::get_trackObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_trackObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::AddTrackInternal
-  // Il2CppName: AddTrackInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::AddTrackInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "AddTrackInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::RemoveTrack
-  // Il2CppName: RemoveTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::RemoveTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "RemoveTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
-  // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
-  // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::__internalAwake
-  // Il2CppName: __internalAwake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::__internalAwake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "__internalAwake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::GatherProperties
-  // Il2CppName: GatherProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&TimelineAsset::GatherProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::CreateMarkerTrack
-  // Il2CppName: CreateMarkerTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::CreateMarkerTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CreateMarkerTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::Invalidate
-  // Il2CppName: Invalidate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::Invalidate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "Invalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::UpdateFixedDurationWithItemsDuration
-  // Il2CppName: UpdateFixedDurationWithItemsDuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpdateFixedDurationWithItemsDuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpdateFixedDurationWithItemsDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::CalculateItemsDuration
-  // Il2CppName: CalculateItemsDuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (TimelineAsset::*)()>(&TimelineAsset::CalculateItemsDuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CalculateItemsDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::AddSubTracksRecursive
-  // Il2CppName: AddSubTracksRecursive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*, System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*&)>(&TimelineAsset::AddSubTracksRecursive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "AddSubTracksRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::CreateTrack
-  // Il2CppName: CreateTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(System::Type*, UnityEngine::Timeline::TrackAsset*, ::Il2CppString*)>(&TimelineAsset::CreateTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CreateTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::CreateTrack
-  // Il2CppName: CreateTrack
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TimelineAsset::CreateTrack
-  // Il2CppName: CreateTrack
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TimelineAsset::CreateTrack
-  // Il2CppName: CreateTrack
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: TimelineAsset::DeleteClip
-  // Il2CppName: DeleteClip
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TimelineAsset::DeleteClip)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::DeleteTrack
-  // Il2CppName: DeleteTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::DeleteTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::MoveLastTrackBefore
-  // Il2CppName: MoveLastTrackBefore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::MoveLastTrackBefore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "MoveLastTrackBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::AllocateTrack
-  // Il2CppName: AllocateTrack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*, ::Il2CppString*, System::Type*)>(&TimelineAsset::AllocateTrack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "AllocateTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::DeleteRecordedAnimation
-  // Il2CppName: DeleteRecordedAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::DeleteRecordedAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteRecordedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::DeleteRecordedAnimation
-  // Il2CppName: DeleteRecordedAnimation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TimelineAsset::DeleteRecordedAnimation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteRecordedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_duration
-  // Il2CppName: get_duration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineAsset::*)()>(&TimelineAsset::get_duration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::get_outputs
-  // Il2CppName: get_outputs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (TimelineAsset::*)()>(&TimelineAsset::get_outputs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::CreatePlayable
-  // Il2CppName: CreatePlayable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TimelineAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&TimelineAsset::CreatePlayable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimelineAsset::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timeline", "TimelineAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");
+// Writing MetadataGetter for method: TimelineAsset::UpgradeToLatestVersion
+// Il2CppName: UpgradeToLatestVersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpgradeToLatestVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_editorSettings
+// Il2CppName: get_editorSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset::EditorSettings* (TimelineAsset::*)()>(&TimelineAsset::get_editorSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_editorSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_fixedDuration
+// Il2CppName: get_fixedDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineAsset::*)()>(&TimelineAsset::get_fixedDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_fixedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::set_fixedDuration
+// Il2CppName: set_fixedDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(double)>(&TimelineAsset::set_fixedDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "set_fixedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_durationMode
+// Il2CppName: get_durationMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset::DurationMode (TimelineAsset::*)()>(&TimelineAsset::get_durationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_durationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::set_durationMode
+// Il2CppName: set_durationMode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TimelineAsset::DurationMode)>(&TimelineAsset::set_durationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "set_durationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineAsset::DurationMode>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_clipCaps
+// Il2CppName: get_clipCaps
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (TimelineAsset::*)()>(&TimelineAsset::get_clipCaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_outputTrackCount
+// Il2CppName: get_outputTrackCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimelineAsset::*)()>(&TimelineAsset::get_outputTrackCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_outputTrackCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_rootTrackCount
+// Il2CppName: get_rootTrackCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimelineAsset::*)()>(&TimelineAsset::get_rootTrackCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_rootTrackCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::OnValidate
+// Il2CppName: OnValidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::GetValidFramerate
+// Il2CppName: GetValidFramerate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&TimelineAsset::GetValidFramerate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetValidFramerate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::GetRootTrack
+// Il2CppName: GetRootTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(int)>(&TimelineAsset::GetRootTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetRootTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::GetRootTracks
+// Il2CppName: GetRootTracks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (TimelineAsset::*)()>(&TimelineAsset::GetRootTracks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetRootTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::GetOutputTrack
+// Il2CppName: GetOutputTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(int)>(&TimelineAsset::GetOutputTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetOutputTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::GetOutputTracks
+// Il2CppName: GetOutputTracks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (TimelineAsset::*)()>(&TimelineAsset::GetOutputTracks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GetOutputTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::UpdateRootTrackCache
+// Il2CppName: UpdateRootTrackCache
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpdateRootTrackCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpdateRootTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::UpdateOutputTrackCache
+// Il2CppName: UpdateOutputTrackCache
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpdateOutputTrackCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpdateOutputTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_flattenedTracks
+// Il2CppName: get_flattenedTracks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (TimelineAsset::*)()>(&TimelineAsset::get_flattenedTracks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_flattenedTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_markerTrack
+// Il2CppName: get_markerTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MarkerTrack* (TimelineAsset::*)()>(&TimelineAsset::get_markerTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_markerTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_trackObjects
+// Il2CppName: get_trackObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* (TimelineAsset::*)()>(&TimelineAsset::get_trackObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_trackObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::AddTrackInternal
+// Il2CppName: AddTrackInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::AddTrackInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "AddTrackInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::RemoveTrack
+// Il2CppName: RemoveTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::RemoveTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "RemoveTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
+// Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
+// Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::__internalAwake
+// Il2CppName: __internalAwake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::__internalAwake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "__internalAwake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::GatherProperties
+// Il2CppName: GatherProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&TimelineAsset::GatherProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::CreateMarkerTrack
+// Il2CppName: CreateMarkerTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::CreateMarkerTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CreateMarkerTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::Invalidate
+// Il2CppName: Invalidate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::Invalidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "Invalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::UpdateFixedDurationWithItemsDuration
+// Il2CppName: UpdateFixedDurationWithItemsDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::UpdateFixedDurationWithItemsDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "UpdateFixedDurationWithItemsDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::CalculateItemsDuration
+// Il2CppName: CalculateItemsDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (TimelineAsset::*)()>(&TimelineAsset::CalculateItemsDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CalculateItemsDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::AddSubTracksRecursive
+// Il2CppName: AddSubTracksRecursive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*, System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*&)>(&TimelineAsset::AddSubTracksRecursive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "AddSubTracksRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::CreateTrack
+// Il2CppName: CreateTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(System::Type*, UnityEngine::Timeline::TrackAsset*, ::Il2CppString*)>(&TimelineAsset::CreateTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CreateTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::CreateTrack
+// Il2CppName: CreateTrack
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TimelineAsset::CreateTrack
+// Il2CppName: CreateTrack
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TimelineAsset::CreateTrack
+// Il2CppName: CreateTrack
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: TimelineAsset::DeleteClip
+// Il2CppName: DeleteClip
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TimelineAsset::DeleteClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::DeleteTrack
+// Il2CppName: DeleteTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::DeleteTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::MoveLastTrackBefore
+// Il2CppName: MoveLastTrackBefore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::MoveLastTrackBefore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "MoveLastTrackBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::AllocateTrack
+// Il2CppName: AllocateTrack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*, ::Il2CppString*, System::Type*)>(&TimelineAsset::AllocateTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "AllocateTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::DeleteRecordedAnimation
+// Il2CppName: DeleteRecordedAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineAsset::DeleteRecordedAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteRecordedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::DeleteRecordedAnimation
+// Il2CppName: DeleteRecordedAnimation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TimelineAsset::DeleteRecordedAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "DeleteRecordedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_duration
+// Il2CppName: get_duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineAsset::*)()>(&TimelineAsset::get_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::get_outputs
+// Il2CppName: get_outputs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (TimelineAsset::*)()>(&TimelineAsset::get_outputs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::CreatePlayable
+// Il2CppName: CreatePlayable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TimelineAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&TimelineAsset::CreatePlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: TimelineAsset::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::*)()>(&TimelineAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimelineAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

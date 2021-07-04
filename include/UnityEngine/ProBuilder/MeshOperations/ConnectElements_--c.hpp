@@ -174,139 +174,139 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ConnectElements::$$c::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ConnectElements::$$c::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__0_0
-  // Il2CppName: <Connect>b__0_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ConnectElements::$$c::$Connect$b__0_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__2_1
-  // Il2CppName: <Connect>b__2_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ConnectElements::$$c::$Connect$b__2_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__2_2
-  // Il2CppName: <Connect>b__2_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&ConnectElements::$$c::$Connect$b__2_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_0
-  // Il2CppName: <Connect>b__3_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ConnectElements::$$c::$Connect$b__3_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_1
-  // Il2CppName: <Connect>b__3_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&ConnectElements::$$c::$Connect$b__3_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_2
-  // Il2CppName: <Connect>b__3_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&ConnectElements::$$c::$Connect$b__3_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_4
-  // Il2CppName: <Connect>b__3_4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ConnectElements::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&ConnectElements::$$c::$Connect$b__3_4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$ConnectEdgesInFace$b__5_0
-  // Il2CppName: <ConnectEdgesInFace>b__5_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectEdgesInFace$b__5_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$ConnectEdgesInFace$b__5_1
-  // Il2CppName: <ConnectEdgesInFace>b__5_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectEdgesInFace$b__5_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$ConnectEdgesInFace$b__5_2
-  // Il2CppName: <ConnectEdgesInFace>b__5_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ConnectElements::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ConnectElements::$$c::$ConnectEdgesInFace$b__5_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$InsertVertices$b__6_0
-  // Il2CppName: <InsertVertices>b__6_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ConnectElements::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ConnectElements::$$c::$InsertVertices$b__6_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<InsertVertices>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$ConnectIndexesPerFace$b__8_0
-  // Il2CppName: <ConnectIndexesPerFace>b__8_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectIndexesPerFace$b__8_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$ConnectIndexesPerFace$b__8_1
-  // Il2CppName: <ConnectIndexesPerFace>b__8_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectIndexesPerFace$b__8_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::$ConnectIndexesPerFace$b__8_2
-  // Il2CppName: <ConnectIndexesPerFace>b__8_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectIndexesPerFace$b__8_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConnectElements::$$c::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectElements::$$c::*)()>(&ConnectElements::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectElements::$$c::*)()>(&ConnectElements::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c");
+// Writing MetadataGetter for method: ConnectElements::$$c::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ConnectElements::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__0_0
+// Il2CppName: <Connect>b__0_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ConnectElements::$$c::$Connect$b__0_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__2_1
+// Il2CppName: <Connect>b__2_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ConnectElements::$$c::$Connect$b__2_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__2_2
+// Il2CppName: <Connect>b__2_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&ConnectElements::$$c::$Connect$b__2_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_0
+// Il2CppName: <Connect>b__3_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ConnectElements::$$c::$Connect$b__3_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_1
+// Il2CppName: <Connect>b__3_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&ConnectElements::$$c::$Connect$b__3_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_2
+// Il2CppName: <Connect>b__3_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&ConnectElements::$$c::$Connect$b__3_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$Connect$b__3_4
+// Il2CppName: <Connect>b__3_4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ConnectElements::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&ConnectElements::$$c::$Connect$b__3_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<Connect>b__3_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$ConnectEdgesInFace$b__5_0
+// Il2CppName: <ConnectEdgesInFace>b__5_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectEdgesInFace$b__5_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$ConnectEdgesInFace$b__5_1
+// Il2CppName: <ConnectEdgesInFace>b__5_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectEdgesInFace$b__5_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$ConnectEdgesInFace$b__5_2
+// Il2CppName: <ConnectEdgesInFace>b__5_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ConnectElements::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ConnectElements::$$c::$ConnectEdgesInFace$b__5_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$InsertVertices$b__6_0
+// Il2CppName: <InsertVertices>b__6_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ConnectElements::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ConnectElements::$$c::$InsertVertices$b__6_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<InsertVertices>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$ConnectIndexesPerFace$b__8_0
+// Il2CppName: <ConnectIndexesPerFace>b__8_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectIndexesPerFace$b__8_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$ConnectIndexesPerFace$b__8_1
+// Il2CppName: <ConnectIndexesPerFace>b__8_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectIndexesPerFace$b__8_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::$ConnectIndexesPerFace$b__8_2
+// Il2CppName: <ConnectIndexesPerFace>b__8_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (ConnectElements::$$c::*)(int)>(&ConnectElements::$$c::$ConnectIndexesPerFace$b__8_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ConnectElements::$$c::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectElements::$$c::*)()>(&ConnectElements::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectElements::$$c::*)()>(&ConnectElements::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

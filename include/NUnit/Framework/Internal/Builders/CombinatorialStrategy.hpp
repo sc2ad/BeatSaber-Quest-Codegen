@@ -56,27 +56,27 @@ namespace NUnit::Framework::Internal::Builders {
     }
   }; // NUnit.Framework.Internal.Builders.CombinatorialStrategy
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CombinatorialStrategy::GetTestCases
-  // Il2CppName: GetTestCases
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (CombinatorialStrategy::*)(::Array<System::Collections::IEnumerable*>*)>(&CombinatorialStrategy::GetTestCases)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CombinatorialStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Collections::IEnumerable*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CombinatorialStrategy::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombinatorialStrategy::*)()>(&CombinatorialStrategy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CombinatorialStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombinatorialStrategy::*)()>(&CombinatorialStrategy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CombinatorialStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::CombinatorialStrategy*, "NUnit.Framework.Internal.Builders", "CombinatorialStrategy");
+// Writing MetadataGetter for method: CombinatorialStrategy::GetTestCases
+// Il2CppName: GetTestCases
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (CombinatorialStrategy::*)(::Array<System::Collections::IEnumerable*>*)>(&CombinatorialStrategy::GetTestCases)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CombinatorialStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Collections::IEnumerable*>*>()});
+  }
+};
+// Writing MetadataGetter for method: CombinatorialStrategy::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombinatorialStrategy::*)()>(&CombinatorialStrategy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CombinatorialStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CombinatorialStrategy::*)()>(&CombinatorialStrategy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CombinatorialStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

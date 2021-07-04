@@ -67,19 +67,19 @@ namespace System::Runtime::InteropServices {
   #pragma pack(pop)
   static check_size<sizeof(UnmanagedFunctionPointerAttribute), 26 + sizeof(bool)> __System_Runtime_InteropServices_UnmanagedFunctionPointerAttributeSizeCheck;
   static_assert(sizeof(UnmanagedFunctionPointerAttribute) == 0x1B);
-  // Writing MetadataGetter for method: UnmanagedFunctionPointerAttribute::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnmanagedFunctionPointerAttribute::*)(System::Runtime::InteropServices::CallingConvention)>(&UnmanagedFunctionPointerAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnmanagedFunctionPointerAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::CallingConvention>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnmanagedFunctionPointerAttribute::*)(System::Runtime::InteropServices::CallingConvention)>(&UnmanagedFunctionPointerAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnmanagedFunctionPointerAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::CallingConvention>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
+// Writing MetadataGetter for method: UnmanagedFunctionPointerAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnmanagedFunctionPointerAttribute::*)(System::Runtime::InteropServices::CallingConvention)>(&UnmanagedFunctionPointerAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnmanagedFunctionPointerAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::CallingConvention>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnmanagedFunctionPointerAttribute::*)(System::Runtime::InteropServices::CallingConvention)>(&UnmanagedFunctionPointerAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnmanagedFunctionPointerAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::CallingConvention>()});
+  }
+};

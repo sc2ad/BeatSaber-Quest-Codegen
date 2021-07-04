@@ -71,59 +71,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayingDifficultyBeatmapRichPresenceData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingDifficultyBeatmapRichPresenceDataSizeCheck;
   static_assert(sizeof(PlayingDifficultyBeatmapRichPresenceData) == 0x20);
-  // Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::get_apiName
-  // Il2CppName: get_apiName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingDifficultyBeatmapRichPresenceData::*)()>(&PlayingDifficultyBeatmapRichPresenceData::get_apiName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::set_apiName
-  // Il2CppName: set_apiName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(::Il2CppString*)>(&PlayingDifficultyBeatmapRichPresenceData::set_apiName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "set_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription
-  // Il2CppName: get_localizedDescription
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingDifficultyBeatmapRichPresenceData::*)()>(&PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::set_localizedDescription
-  // Il2CppName: set_localizedDescription
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(::Il2CppString*)>(&PlayingDifficultyBeatmapRichPresenceData::set_localizedDescription)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&PlayingDifficultyBeatmapRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&PlayingDifficultyBeatmapRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
-  // Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString
-  // Il2CppName: GetDestinationLocalizedString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "GetDestinationLocalizedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*, "", "PlayingDifficultyBeatmapRichPresenceData");
+// Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::get_apiName
+// Il2CppName: get_apiName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingDifficultyBeatmapRichPresenceData::*)()>(&PlayingDifficultyBeatmapRichPresenceData::get_apiName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::set_apiName
+// Il2CppName: set_apiName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(::Il2CppString*)>(&PlayingDifficultyBeatmapRichPresenceData::set_apiName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "set_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription
+// Il2CppName: get_localizedDescription
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingDifficultyBeatmapRichPresenceData::*)()>(&PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::set_localizedDescription
+// Il2CppName: set_localizedDescription
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(::Il2CppString*)>(&PlayingDifficultyBeatmapRichPresenceData::set_localizedDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&PlayingDifficultyBeatmapRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingDifficultyBeatmapRichPresenceData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&PlayingDifficultyBeatmapRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
+// Writing MetadataGetter for method: PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString
+// Il2CppName: GetDestinationLocalizedString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayingDifficultyBeatmapRichPresenceData*), "GetDestinationLocalizedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};

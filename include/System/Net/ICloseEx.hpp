@@ -25,14 +25,14 @@ namespace System::Net {
     void CloseEx(System::Net::CloseExState closeState);
   }; // System.Net.ICloseEx
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ICloseEx::CloseEx
-  // Il2CppName: CloseEx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICloseEx::*)(System::Net::CloseExState)>(&ICloseEx::CloseEx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ICloseEx*), "CloseEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CloseExState>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICloseEx*, "System.Net", "ICloseEx");
+// Writing MetadataGetter for method: ICloseEx::CloseEx
+// Il2CppName: CloseEx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICloseEx::*)(System::Net::CloseExState)>(&ICloseEx::CloseEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ICloseEx*), "CloseEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CloseExState>()});
+  }
+};

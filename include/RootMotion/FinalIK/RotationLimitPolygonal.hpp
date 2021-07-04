@@ -135,139 +135,139 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(RotationLimitPolygonal), 80 + sizeof(::Array<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>*)> __RootMotion_FinalIK_RotationLimitPolygonalSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal) == 0x58);
-  // Writing MetadataGetter for method: RotationLimitPolygonal::OpenUserManual
-  // Il2CppName: OpenUserManual
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::OpenUserManual)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::OpenScriptReference
-  // Il2CppName: OpenScriptReference
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::OpenScriptReference)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::SupportGroup
-  // Il2CppName: SupportGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::SupportGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::ASThread
-  // Il2CppName: ASThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::ASThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::SetLimitPoints
-  // Il2CppName: SetLimitPoints
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)(::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>*)>(&RotationLimitPolygonal::SetLimitPoints)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "SetLimitPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::ResetToDefault
-  // Il2CppName: ResetToDefault
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::ResetToDefault)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "ResetToDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::BuildReachCones
-  // Il2CppName: BuildReachCones
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::BuildReachCones)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "BuildReachCones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::SmoothPoints
-  // Il2CppName: SmoothPoints
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::SmoothPoints)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "SmoothPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::GetScalar
-  // Il2CppName: GetScalar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RotationLimitPolygonal::*)(int)>(&RotationLimitPolygonal::GetScalar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "GetScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::PointToTangentPlane
-  // Il2CppName: PointToTangentPlane
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::*)(UnityEngine::Vector3, float)>(&RotationLimitPolygonal::PointToTangentPlane)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "PointToTangentPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::TangentPointToSphere
-  // Il2CppName: TangentPointToSphere
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::*)(UnityEngine::Vector3, float)>(&RotationLimitPolygonal::TangentPointToSphere)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "TangentPointToSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::LimitSwing
-  // Il2CppName: LimitSwing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitPolygonal::*)(UnityEngine::Quaternion)>(&RotationLimitPolygonal::LimitSwing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "LimitSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::GetReachCone
-  // Il2CppName: GetReachCone
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RotationLimitPolygonal::*)(UnityEngine::Vector3)>(&RotationLimitPolygonal::GetReachCone)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "GetReachCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::LimitRotation
-  // Il2CppName: LimitRotation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitPolygonal::*)(UnityEngine::Quaternion)>(&RotationLimitPolygonal::LimitRotation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-    }
-  };
-  // Writing MetadataGetter for method: RotationLimitPolygonal::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal*, "RootMotion.FinalIK", "RotationLimitPolygonal");
+// Writing MetadataGetter for method: RotationLimitPolygonal::OpenUserManual
+// Il2CppName: OpenUserManual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::OpenUserManual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::OpenScriptReference
+// Il2CppName: OpenScriptReference
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::OpenScriptReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::SupportGroup
+// Il2CppName: SupportGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::SupportGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::ASThread
+// Il2CppName: ASThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::ASThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::SetLimitPoints
+// Il2CppName: SetLimitPoints
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)(::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>*)>(&RotationLimitPolygonal::SetLimitPoints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "SetLimitPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>*>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::ResetToDefault
+// Il2CppName: ResetToDefault
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::ResetToDefault)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "ResetToDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::BuildReachCones
+// Il2CppName: BuildReachCones
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::BuildReachCones)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "BuildReachCones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::SmoothPoints
+// Il2CppName: SmoothPoints
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::SmoothPoints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "SmoothPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::GetScalar
+// Il2CppName: GetScalar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RotationLimitPolygonal::*)(int)>(&RotationLimitPolygonal::GetScalar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "GetScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::PointToTangentPlane
+// Il2CppName: PointToTangentPlane
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::*)(UnityEngine::Vector3, float)>(&RotationLimitPolygonal::PointToTangentPlane)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "PointToTangentPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::TangentPointToSphere
+// Il2CppName: TangentPointToSphere
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::*)(UnityEngine::Vector3, float)>(&RotationLimitPolygonal::TangentPointToSphere)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "TangentPointToSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::LimitSwing
+// Il2CppName: LimitSwing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitPolygonal::*)(UnityEngine::Quaternion)>(&RotationLimitPolygonal::LimitSwing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "LimitSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::GetReachCone
+// Il2CppName: GetReachCone
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RotationLimitPolygonal::*)(UnityEngine::Vector3)>(&RotationLimitPolygonal::GetReachCone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "GetReachCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::LimitRotation
+// Il2CppName: LimitRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitPolygonal::*)(UnityEngine::Quaternion)>(&RotationLimitPolygonal::LimitRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: RotationLimitPolygonal::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::*)()>(&RotationLimitPolygonal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

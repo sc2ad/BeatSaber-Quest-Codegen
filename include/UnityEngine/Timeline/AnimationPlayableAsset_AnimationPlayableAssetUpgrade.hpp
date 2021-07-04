@@ -21,14 +21,14 @@ namespace UnityEngine::Timeline {
     static void ConvertRotationToEuler(UnityEngine::Timeline::AnimationPlayableAsset* asset);
   }; // UnityEngine.Timeline.AnimationPlayableAsset/AnimationPlayableAssetUpgrade
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler
-  // Il2CppName: ConvertRotationToEuler
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationPlayableAsset*)>(&AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimationPlayableAsset::AnimationPlayableAssetUpgrade*), "ConvertRotationToEuler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationPlayableAsset*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*, "UnityEngine.Timeline", "AnimationPlayableAsset/AnimationPlayableAssetUpgrade");
+// Writing MetadataGetter for method: AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler
+// Il2CppName: ConvertRotationToEuler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationPlayableAsset*)>(&AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableAsset::AnimationPlayableAssetUpgrade*), "ConvertRotationToEuler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationPlayableAsset*>()});
+  }
+};

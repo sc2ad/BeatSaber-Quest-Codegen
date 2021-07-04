@@ -130,166 +130,166 @@ namespace System::Runtime::Serialization {
     static ::Il2CppString* GetClrTypeFullNameForNonArrayTypes(System::Type* type);
   }; // System.Runtime.Serialization.FormatterServices
   #pragma pack(pop)
-  // Writing MetadataGetter for method: FormatterServices::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FormatterServices::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetSerializableMembers
-  // Il2CppName: GetSerializableMembers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (*)(System::RuntimeType*)>(&FormatterServices::GetSerializableMembers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::CheckSerializable
-  // Il2CppName: CheckSerializable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*)>(&FormatterServices::CheckSerializable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "CheckSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::InternalGetSerializableMembers
-  // Il2CppName: InternalGetSerializableMembers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (*)(System::RuntimeType*)>(&FormatterServices::InternalGetSerializableMembers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "InternalGetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetParentTypes
-  // Il2CppName: GetParentTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ::Array<System::RuntimeType*>*&, int&)>(&FormatterServices::GetParentTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetParentTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::RuntimeType*>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetSerializableMembers
-  // Il2CppName: GetSerializableMembers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (*)(System::Type*, System::Runtime::Serialization::StreamingContext)>(&FormatterServices::GetSerializableMembers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetUninitializedObject
-  // Il2CppName: GetUninitializedObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&FormatterServices::GetUninitializedObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetUninitializedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::nativeGetUninitializedObject
-  // Il2CppName: nativeGetUninitializedObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::RuntimeType*)>(&FormatterServices::nativeGetUninitializedObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "nativeGetUninitializedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetEnableUnsafeTypeForwarders
-  // Il2CppName: GetEnableUnsafeTypeForwarders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&FormatterServices::GetEnableUnsafeTypeForwarders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetEnableUnsafeTypeForwarders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::UnsafeTypeForwardersIsEnabled
-  // Il2CppName: UnsafeTypeForwardersIsEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&FormatterServices::UnsafeTypeForwardersIsEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "UnsafeTypeForwardersIsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::SerializationSetValue
-  // Il2CppName: SerializationSetValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MemberInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&FormatterServices::SerializationSetValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "SerializationSetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::PopulateObjectMembers
-  // Il2CppName: PopulateObjectMembers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Array<System::Reflection::MemberInfo*>*, ::Array<::Il2CppObject*>*)>(&FormatterServices::PopulateObjectMembers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "PopulateObjectMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MemberInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetObjectData
-  // Il2CppName: GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(::Il2CppObject*, ::Array<System::Reflection::MemberInfo*>*)>(&FormatterServices::GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MemberInfo*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetTypeFromAssembly
-  // Il2CppName: GetTypeFromAssembly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Reflection::Assembly*, ::Il2CppString*)>(&FormatterServices::GetTypeFromAssembly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetTypeFromAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::LoadAssemblyFromString
-  // Il2CppName: LoadAssemblyFromString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::Il2CppString*)>(&FormatterServices::LoadAssemblyFromString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "LoadAssemblyFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::LoadAssemblyFromStringNoThrow
-  // Il2CppName: LoadAssemblyFromStringNoThrow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::Il2CppString*)>(&FormatterServices::LoadAssemblyFromStringNoThrow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "LoadAssemblyFromStringNoThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetClrAssemblyName
-  // Il2CppName: GetClrAssemblyName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, bool&)>(&FormatterServices::GetClrAssemblyName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetClrTypeFullName
-  // Il2CppName: GetClrTypeFullName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&FormatterServices::GetClrTypeFullName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrTypeFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetClrTypeFullNameForArray
-  // Il2CppName: GetClrTypeFullNameForArray
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&FormatterServices::GetClrTypeFullNameForArray)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrTypeFullNameForArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FormatterServices::GetClrTypeFullNameForNonArrayTypes
-  // Il2CppName: GetClrTypeFullNameForNonArrayTypes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&FormatterServices::GetClrTypeFullNameForNonArrayTypes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrTypeFullNameForNonArrayTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices*, "System.Runtime.Serialization", "FormatterServices");
+// Writing MetadataGetter for method: FormatterServices::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FormatterServices::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetSerializableMembers
+// Il2CppName: GetSerializableMembers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (*)(System::RuntimeType*)>(&FormatterServices::GetSerializableMembers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::CheckSerializable
+// Il2CppName: CheckSerializable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*)>(&FormatterServices::CheckSerializable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "CheckSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::InternalGetSerializableMembers
+// Il2CppName: InternalGetSerializableMembers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (*)(System::RuntimeType*)>(&FormatterServices::InternalGetSerializableMembers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "InternalGetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetParentTypes
+// Il2CppName: GetParentTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ::Array<System::RuntimeType*>*&, int&)>(&FormatterServices::GetParentTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetParentTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::RuntimeType*>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetSerializableMembers
+// Il2CppName: GetSerializableMembers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (*)(System::Type*, System::Runtime::Serialization::StreamingContext)>(&FormatterServices::GetSerializableMembers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetUninitializedObject
+// Il2CppName: GetUninitializedObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&FormatterServices::GetUninitializedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetUninitializedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::nativeGetUninitializedObject
+// Il2CppName: nativeGetUninitializedObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::RuntimeType*)>(&FormatterServices::nativeGetUninitializedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "nativeGetUninitializedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetEnableUnsafeTypeForwarders
+// Il2CppName: GetEnableUnsafeTypeForwarders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&FormatterServices::GetEnableUnsafeTypeForwarders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetEnableUnsafeTypeForwarders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::UnsafeTypeForwardersIsEnabled
+// Il2CppName: UnsafeTypeForwardersIsEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&FormatterServices::UnsafeTypeForwardersIsEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "UnsafeTypeForwardersIsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::SerializationSetValue
+// Il2CppName: SerializationSetValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MemberInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&FormatterServices::SerializationSetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "SerializationSetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::PopulateObjectMembers
+// Il2CppName: PopulateObjectMembers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Array<System::Reflection::MemberInfo*>*, ::Array<::Il2CppObject*>*)>(&FormatterServices::PopulateObjectMembers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "PopulateObjectMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MemberInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetObjectData
+// Il2CppName: GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)(::Il2CppObject*, ::Array<System::Reflection::MemberInfo*>*)>(&FormatterServices::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MemberInfo*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetTypeFromAssembly
+// Il2CppName: GetTypeFromAssembly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Reflection::Assembly*, ::Il2CppString*)>(&FormatterServices::GetTypeFromAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetTypeFromAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::LoadAssemblyFromString
+// Il2CppName: LoadAssemblyFromString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::Il2CppString*)>(&FormatterServices::LoadAssemblyFromString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "LoadAssemblyFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::LoadAssemblyFromStringNoThrow
+// Il2CppName: LoadAssemblyFromStringNoThrow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::Il2CppString*)>(&FormatterServices::LoadAssemblyFromStringNoThrow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "LoadAssemblyFromStringNoThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetClrAssemblyName
+// Il2CppName: GetClrAssemblyName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, bool&)>(&FormatterServices::GetClrAssemblyName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetClrTypeFullName
+// Il2CppName: GetClrTypeFullName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&FormatterServices::GetClrTypeFullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrTypeFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetClrTypeFullNameForArray
+// Il2CppName: GetClrTypeFullNameForArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&FormatterServices::GetClrTypeFullNameForArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrTypeFullNameForArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FormatterServices::GetClrTypeFullNameForNonArrayTypes
+// Il2CppName: GetClrTypeFullNameForNonArrayTypes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&FormatterServices::GetClrTypeFullNameForNonArrayTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FormatterServices*), "GetClrTypeFullNameForNonArrayTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

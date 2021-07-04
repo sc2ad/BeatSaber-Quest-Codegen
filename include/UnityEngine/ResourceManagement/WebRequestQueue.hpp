@@ -71,46 +71,46 @@ namespace UnityEngine::ResourceManagement {
     static void _cctor();
   }; // UnityEngine.ResourceManagement.WebRequestQueue
   #pragma pack(pop)
-  // Writing MetadataGetter for method: WebRequestQueue::SetMaxConcurrentRequests
-  // Il2CppName: SetMaxConcurrentRequests
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&WebRequestQueue::SetMaxConcurrentRequests)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "SetMaxConcurrentRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebRequestQueue::get_ShouldQueueNextRequest
-  // Il2CppName: get_ShouldQueueNextRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&WebRequestQueue::get_ShouldQueueNextRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "get_ShouldQueueNextRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WebRequestQueue::QueueRequest
-  // Il2CppName: QueueRequest
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::WebRequestQueueOperation* (*)(UnityEngine::Networking::UnityWebRequest*)>(&WebRequestQueue::QueueRequest)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "QueueRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebRequestQueue::OnWebAsyncOpComplete
-  // Il2CppName: OnWebAsyncOpComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AsyncOperation*)>(&WebRequestQueue::OnWebAsyncOpComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "OnWebAsyncOpComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
-    }
-  };
-  // Writing MetadataGetter for method: WebRequestQueue::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebRequestQueue::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueue*, "UnityEngine.ResourceManagement", "WebRequestQueue");
+// Writing MetadataGetter for method: WebRequestQueue::SetMaxConcurrentRequests
+// Il2CppName: SetMaxConcurrentRequests
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&WebRequestQueue::SetMaxConcurrentRequests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "SetMaxConcurrentRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: WebRequestQueue::get_ShouldQueueNextRequest
+// Il2CppName: get_ShouldQueueNextRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&WebRequestQueue::get_ShouldQueueNextRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "get_ShouldQueueNextRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WebRequestQueue::QueueRequest
+// Il2CppName: QueueRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::WebRequestQueueOperation* (*)(UnityEngine::Networking::UnityWebRequest*)>(&WebRequestQueue::QueueRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "QueueRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
+  }
+};
+// Writing MetadataGetter for method: WebRequestQueue::OnWebAsyncOpComplete
+// Il2CppName: OnWebAsyncOpComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AsyncOperation*)>(&WebRequestQueue::OnWebAsyncOpComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "OnWebAsyncOpComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+  }
+};
+// Writing MetadataGetter for method: WebRequestQueue::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebRequestQueue::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

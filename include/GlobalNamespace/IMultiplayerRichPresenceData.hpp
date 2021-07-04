@@ -33,30 +33,30 @@ namespace GlobalNamespace {
     bool get_isJoinable();
   }; // IMultiplayerRichPresenceData
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IMultiplayerRichPresenceData::get_multiplayerLobbyCode
-  // Il2CppName: get_multiplayerLobbyCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IMultiplayerRichPresenceData::*)()>(&IMultiplayerRichPresenceData::get_multiplayerLobbyCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerRichPresenceData*), "get_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerRichPresenceData::set_multiplayerLobbyCode
-  // Il2CppName: set_multiplayerLobbyCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerRichPresenceData::*)(::Il2CppString*)>(&IMultiplayerRichPresenceData::set_multiplayerLobbyCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerRichPresenceData*), "set_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IMultiplayerRichPresenceData::get_isJoinable
-  // Il2CppName: get_isJoinable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerRichPresenceData::*)()>(&IMultiplayerRichPresenceData::get_isJoinable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMultiplayerRichPresenceData*), "get_isJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerRichPresenceData*, "", "IMultiplayerRichPresenceData");
+// Writing MetadataGetter for method: IMultiplayerRichPresenceData::get_multiplayerLobbyCode
+// Il2CppName: get_multiplayerLobbyCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IMultiplayerRichPresenceData::*)()>(&IMultiplayerRichPresenceData::get_multiplayerLobbyCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerRichPresenceData*), "get_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerRichPresenceData::set_multiplayerLobbyCode
+// Il2CppName: set_multiplayerLobbyCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerRichPresenceData::*)(::Il2CppString*)>(&IMultiplayerRichPresenceData::set_multiplayerLobbyCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerRichPresenceData*), "set_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IMultiplayerRichPresenceData::get_isJoinable
+// Il2CppName: get_isJoinable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerRichPresenceData::*)()>(&IMultiplayerRichPresenceData::get_isJoinable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMultiplayerRichPresenceData*), "get_isJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

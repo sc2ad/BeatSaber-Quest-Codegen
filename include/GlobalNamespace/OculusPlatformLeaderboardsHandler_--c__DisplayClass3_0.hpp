@@ -61,27 +61,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0), 24 + sizeof(Oculus::Platform::Request*)> __GlobalNamespace_OculusPlatformLeaderboardsHandler_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0) == 0x20);
-  // Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::$AddOculusRequest$b__0
-  // Il2CppName: <AddOculusRequest>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::*)(GlobalNamespace::HMAsyncRequest*)>(&OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::$AddOculusRequest$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*), "<AddOculusRequest>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::*)()>(&OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::*)()>(&OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass3_0");
+// Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::$AddOculusRequest$b__0
+// Il2CppName: <AddOculusRequest>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::*)(GlobalNamespace::HMAsyncRequest*)>(&OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::$AddOculusRequest$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*), "<AddOculusRequest>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest*>()});
+  }
+};
+// Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::*)()>(&OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::*)()>(&OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

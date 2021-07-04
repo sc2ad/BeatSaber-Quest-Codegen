@@ -196,179 +196,179 @@ namespace UnityEngine::AddressableAssets::Initialization {
   #pragma pack(pop)
   static check_size<sizeof(ResourceManagerRuntimeData), 104 + sizeof(int)> __UnityEngine_AddressableAssets_Initialization_ResourceManagerRuntimeDataSizeCheck;
   static_assert(sizeof(ResourceManagerRuntimeData) == 0x6C);
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_BuildTarget
-  // Il2CppName: get_BuildTarget
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_BuildTarget)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_BuildTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_BuildTarget
-  // Il2CppName: set_BuildTarget
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(::Il2CppString*)>(&ResourceManagerRuntimeData::set_BuildTarget)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_BuildTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_SettingsHash
-  // Il2CppName: get_SettingsHash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_SettingsHash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_SettingsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_SettingsHash
-  // Il2CppName: set_SettingsHash
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(::Il2CppString*)>(&ResourceManagerRuntimeData::set_SettingsHash)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_SettingsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_CatalogLocations
-  // Il2CppName: get_CatalogLocations
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_CatalogLocations)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_CatalogLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_ProfileEvents
-  // Il2CppName: get_ProfileEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_ProfileEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_ProfileEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_ProfileEvents
-  // Il2CppName: set_ProfileEvents
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_ProfileEvents)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_ProfileEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_LogResourceManagerExceptions
-  // Il2CppName: get_LogResourceManagerExceptions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_LogResourceManagerExceptions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_LogResourceManagerExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_LogResourceManagerExceptions
-  // Il2CppName: set_LogResourceManagerExceptions
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_LogResourceManagerExceptions)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_LogResourceManagerExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_InitializationObjects
-  // Il2CppName: get_InitializationObjects
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_InitializationObjects)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_InitializationObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_DisableCatalogUpdateOnStartup
-  // Il2CppName: get_DisableCatalogUpdateOnStartup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_DisableCatalogUpdateOnStartup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_DisableCatalogUpdateOnStartup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_DisableCatalogUpdateOnStartup
-  // Il2CppName: set_DisableCatalogUpdateOnStartup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_DisableCatalogUpdateOnStartup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_DisableCatalogUpdateOnStartup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_IsLocalCatalogInBundle
-  // Il2CppName: get_IsLocalCatalogInBundle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_IsLocalCatalogInBundle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_IsLocalCatalogInBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_IsLocalCatalogInBundle
-  // Il2CppName: set_IsLocalCatalogInBundle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_IsLocalCatalogInBundle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_IsLocalCatalogInBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_CertificateHandlerType
-  // Il2CppName: get_CertificateHandlerType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_CertificateHandlerType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_CertificateHandlerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_CertificateHandlerType
-  // Il2CppName: set_CertificateHandlerType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(System::Type*)>(&ResourceManagerRuntimeData::set_CertificateHandlerType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_CertificateHandlerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_AddressablesVersion
-  // Il2CppName: get_AddressablesVersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_AddressablesVersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_AddressablesVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_AddressablesVersion
-  // Il2CppName: set_AddressablesVersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(::Il2CppString*)>(&ResourceManagerRuntimeData::set_AddressablesVersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_AddressablesVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::get_MaxConcurrentWebRequests
-  // Il2CppName: get_MaxConcurrentWebRequests
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_MaxConcurrentWebRequests)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_MaxConcurrentWebRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::set_MaxConcurrentWebRequests
-  // Il2CppName: set_MaxConcurrentWebRequests
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(int)>(&ResourceManagerRuntimeData::set_MaxConcurrentWebRequests)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_MaxConcurrentWebRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ResourceManagerRuntimeData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*, "UnityEngine.AddressableAssets.Initialization", "ResourceManagerRuntimeData");
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_BuildTarget
+// Il2CppName: get_BuildTarget
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_BuildTarget)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_BuildTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_BuildTarget
+// Il2CppName: set_BuildTarget
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(::Il2CppString*)>(&ResourceManagerRuntimeData::set_BuildTarget)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_BuildTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_SettingsHash
+// Il2CppName: get_SettingsHash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_SettingsHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_SettingsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_SettingsHash
+// Il2CppName: set_SettingsHash
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(::Il2CppString*)>(&ResourceManagerRuntimeData::set_SettingsHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_SettingsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_CatalogLocations
+// Il2CppName: get_CatalogLocations
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_CatalogLocations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_CatalogLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_ProfileEvents
+// Il2CppName: get_ProfileEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_ProfileEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_ProfileEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_ProfileEvents
+// Il2CppName: set_ProfileEvents
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_ProfileEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_ProfileEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_LogResourceManagerExceptions
+// Il2CppName: get_LogResourceManagerExceptions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_LogResourceManagerExceptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_LogResourceManagerExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_LogResourceManagerExceptions
+// Il2CppName: set_LogResourceManagerExceptions
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_LogResourceManagerExceptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_LogResourceManagerExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_InitializationObjects
+// Il2CppName: get_InitializationObjects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_InitializationObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_InitializationObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_DisableCatalogUpdateOnStartup
+// Il2CppName: get_DisableCatalogUpdateOnStartup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_DisableCatalogUpdateOnStartup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_DisableCatalogUpdateOnStartup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_DisableCatalogUpdateOnStartup
+// Il2CppName: set_DisableCatalogUpdateOnStartup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_DisableCatalogUpdateOnStartup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_DisableCatalogUpdateOnStartup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_IsLocalCatalogInBundle
+// Il2CppName: get_IsLocalCatalogInBundle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_IsLocalCatalogInBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_IsLocalCatalogInBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_IsLocalCatalogInBundle
+// Il2CppName: set_IsLocalCatalogInBundle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(bool)>(&ResourceManagerRuntimeData::set_IsLocalCatalogInBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_IsLocalCatalogInBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_CertificateHandlerType
+// Il2CppName: get_CertificateHandlerType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_CertificateHandlerType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_CertificateHandlerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_CertificateHandlerType
+// Il2CppName: set_CertificateHandlerType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(System::Type*)>(&ResourceManagerRuntimeData::set_CertificateHandlerType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_CertificateHandlerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_AddressablesVersion
+// Il2CppName: get_AddressablesVersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_AddressablesVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_AddressablesVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_AddressablesVersion
+// Il2CppName: set_AddressablesVersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(::Il2CppString*)>(&ResourceManagerRuntimeData::set_AddressablesVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_AddressablesVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::get_MaxConcurrentWebRequests
+// Il2CppName: get_MaxConcurrentWebRequests
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::get_MaxConcurrentWebRequests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "get_MaxConcurrentWebRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::set_MaxConcurrentWebRequests
+// Il2CppName: set_MaxConcurrentWebRequests
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)(int)>(&ResourceManagerRuntimeData::set_MaxConcurrentWebRequests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), "set_MaxConcurrentWebRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ResourceManagerRuntimeData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManagerRuntimeData::*)()>(&ResourceManagerRuntimeData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResourceManagerRuntimeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

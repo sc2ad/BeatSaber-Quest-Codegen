@@ -125,99 +125,99 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   #pragma pack(pop)
   static check_size<sizeof(RsaPrivateKeyStructure), 72 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Asn1_Pkcs_RsaPrivateKeyStructureSizeCheck;
   static_assert(sizeof(RsaPrivateKeyStructure) == 0x50);
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::GetInstance
-  // Il2CppName: GetInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* (*)(::Il2CppObject*)>(&RsaPrivateKeyStructure::GetInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsaPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsaPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsaPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsaPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Modulus
-  // Il2CppName: get_Modulus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Modulus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Modulus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_PublicExponent
-  // Il2CppName: get_PublicExponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_PublicExponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_PublicExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_PrivateExponent
-  // Il2CppName: get_PrivateExponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_PrivateExponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_PrivateExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Prime1
-  // Il2CppName: get_Prime1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Prime1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Prime1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Prime2
-  // Il2CppName: get_Prime2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Prime2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Prime2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Exponent1
-  // Il2CppName: get_Exponent1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Exponent1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Exponent1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Exponent2
-  // Il2CppName: get_Exponent2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Exponent2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Exponent2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Coefficient
-  // Il2CppName: get_Coefficient
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Coefficient)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Coefficient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RsaPrivateKeyStructure::ToAsn1Object
-  // Il2CppName: ToAsn1Object
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::ToAsn1Object)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*, "Org.BouncyCastle.Asn1.Pkcs", "RsaPrivateKeyStructure");
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::GetInstance
+// Il2CppName: GetInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* (*)(::Il2CppObject*)>(&RsaPrivateKeyStructure::GetInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsaPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsaPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsaPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsaPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Modulus
+// Il2CppName: get_Modulus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Modulus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Modulus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_PublicExponent
+// Il2CppName: get_PublicExponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_PublicExponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_PublicExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_PrivateExponent
+// Il2CppName: get_PrivateExponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_PrivateExponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_PrivateExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Prime1
+// Il2CppName: get_Prime1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Prime1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Prime1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Prime2
+// Il2CppName: get_Prime2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Prime2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Prime2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Exponent1
+// Il2CppName: get_Exponent1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Exponent1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Exponent1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Exponent2
+// Il2CppName: get_Exponent2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Exponent2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Exponent2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Coefficient
+// Il2CppName: get_Coefficient
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Coefficient)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Coefficient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RsaPrivateKeyStructure::ToAsn1Object
+// Il2CppName: ToAsn1Object
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::ToAsn1Object)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

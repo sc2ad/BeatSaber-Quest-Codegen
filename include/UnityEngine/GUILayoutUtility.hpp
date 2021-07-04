@@ -143,174 +143,174 @@ namespace UnityEngine {
     static void Internal_MoveWindow_Injected(int windowID, UnityEngine::Rect& r);
   }; // UnityEngine.GUILayoutUtility
   #pragma pack(pop)
-  // Writing MetadataGetter for method: GUILayoutUtility::Internal_GetWindowRect
-  // Il2CppName: Internal_GetWindowRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(int)>(&GUILayoutUtility::Internal_GetWindowRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_GetWindowRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::Internal_MoveWindow
-  // Il2CppName: Internal_MoveWindow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Rect)>(&GUILayoutUtility::Internal_MoveWindow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_MoveWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::SelectIDList
-  // Il2CppName: SelectIDList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutUtility::LayoutCache* (*)(int, bool)>(&GUILayoutUtility::SelectIDList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "SelectIDList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::Begin
-  // Il2CppName: Begin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GUILayoutUtility::Begin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::BeginWindow
-  // Il2CppName: BeginWindow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::BeginWindow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "BeginWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::Layout
-  // Il2CppName: Layout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::Layout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::LayoutFromEditorWindow
-  // Il2CppName: LayoutFromEditorWindow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::LayoutFromEditorWindow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "LayoutFromEditorWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::LayoutFreeGroup
-  // Il2CppName: LayoutFreeGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUILayoutGroup*)>(&GUILayoutUtility::LayoutFreeGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "LayoutFreeGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUILayoutGroup*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::LayoutSingleGroup
-  // Il2CppName: LayoutSingleGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUILayoutGroup*)>(&GUILayoutUtility::LayoutSingleGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "LayoutSingleGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUILayoutGroup*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::CreateGUILayoutGroupInstanceOfType
-  // Il2CppName: CreateGUILayoutGroupInstanceOfType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(System::Type*)>(&GUILayoutUtility::CreateGUILayoutGroupInstanceOfType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "CreateGUILayoutGroupInstanceOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::BeginLayoutGroup
-  // Il2CppName: BeginLayoutGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*, System::Type*)>(&GUILayoutUtility::BeginLayoutGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "BeginLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::EndLayoutGroup
-  // Il2CppName: EndLayoutGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::EndLayoutGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "EndLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::BeginLayoutArea
-  // Il2CppName: BeginLayoutArea
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(UnityEngine::GUIStyle*, System::Type*)>(&GUILayoutUtility::BeginLayoutArea)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "BeginLayoutArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::GetRect
-  // Il2CppName: GetRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::GetRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "GetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::DoGetRect
-  // Il2CppName: DoGetRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::DoGetRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "DoGetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::GetRect
-  // Il2CppName: GetRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::GetRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "GetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::DoGetRect
-  // Il2CppName: DoGetRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, float, float, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::DoGetRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "DoGetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::get_spaceStyle
-  // Il2CppName: get_spaceStyle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (*)()>(&GUILayoutUtility::get_spaceStyle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "get_spaceStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::Internal_GetWindowRect_Injected
-  // Il2CppName: Internal_GetWindowRect_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Rect&)>(&GUILayoutUtility::Internal_GetWindowRect_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_GetWindowRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
-    }
-  };
-  // Writing MetadataGetter for method: GUILayoutUtility::Internal_MoveWindow_Injected
-  // Il2CppName: Internal_MoveWindow_Injected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Rect&)>(&GUILayoutUtility::Internal_MoveWindow_Injected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_MoveWindow_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility*, "UnityEngine", "GUILayoutUtility");
+// Writing MetadataGetter for method: GUILayoutUtility::Internal_GetWindowRect
+// Il2CppName: Internal_GetWindowRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(int)>(&GUILayoutUtility::Internal_GetWindowRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_GetWindowRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::Internal_MoveWindow
+// Il2CppName: Internal_MoveWindow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Rect)>(&GUILayoutUtility::Internal_MoveWindow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_MoveWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::SelectIDList
+// Il2CppName: SelectIDList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutUtility::LayoutCache* (*)(int, bool)>(&GUILayoutUtility::SelectIDList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "SelectIDList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::Begin
+// Il2CppName: Begin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GUILayoutUtility::Begin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::BeginWindow
+// Il2CppName: BeginWindow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::BeginWindow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "BeginWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::Layout
+// Il2CppName: Layout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::Layout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::LayoutFromEditorWindow
+// Il2CppName: LayoutFromEditorWindow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::LayoutFromEditorWindow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "LayoutFromEditorWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::LayoutFreeGroup
+// Il2CppName: LayoutFreeGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUILayoutGroup*)>(&GUILayoutUtility::LayoutFreeGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "LayoutFreeGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUILayoutGroup*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::LayoutSingleGroup
+// Il2CppName: LayoutSingleGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUILayoutGroup*)>(&GUILayoutUtility::LayoutSingleGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "LayoutSingleGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUILayoutGroup*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::CreateGUILayoutGroupInstanceOfType
+// Il2CppName: CreateGUILayoutGroupInstanceOfType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(System::Type*)>(&GUILayoutUtility::CreateGUILayoutGroupInstanceOfType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "CreateGUILayoutGroupInstanceOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::BeginLayoutGroup
+// Il2CppName: BeginLayoutGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*, System::Type*)>(&GUILayoutUtility::BeginLayoutGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "BeginLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::EndLayoutGroup
+// Il2CppName: EndLayoutGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::EndLayoutGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "EndLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::BeginLayoutArea
+// Il2CppName: BeginLayoutArea
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(UnityEngine::GUIStyle*, System::Type*)>(&GUILayoutUtility::BeginLayoutArea)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "BeginLayoutArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::GetRect
+// Il2CppName: GetRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::GetRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "GetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::DoGetRect
+// Il2CppName: DoGetRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::DoGetRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "DoGetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::GetRect
+// Il2CppName: GetRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::GetRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "GetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::DoGetRect
+// Il2CppName: DoGetRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, float, float, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayoutUtility::DoGetRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "DoGetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::get_spaceStyle
+// Il2CppName: get_spaceStyle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (*)()>(&GUILayoutUtility::get_spaceStyle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "get_spaceStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayoutUtility::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::Internal_GetWindowRect_Injected
+// Il2CppName: Internal_GetWindowRect_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Rect&)>(&GUILayoutUtility::Internal_GetWindowRect_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_GetWindowRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+  }
+};
+// Writing MetadataGetter for method: GUILayoutUtility::Internal_MoveWindow_Injected
+// Il2CppName: Internal_MoveWindow_Injected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Rect&)>(&GUILayoutUtility::Internal_MoveWindow_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility*), "Internal_MoveWindow_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+  }
+};

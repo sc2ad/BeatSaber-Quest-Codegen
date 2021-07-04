@@ -243,107 +243,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FireworkItemController), 144 + sizeof(System::Action_1<GlobalNamespace::FireworkItemController*>*)> __GlobalNamespace_FireworkItemControllerSizeCheck;
   static_assert(sizeof(FireworkItemController) == 0x98);
-  // Writing MetadataGetter for method: FireworkItemController::set_directionalLight
-  // Il2CppName: set_directionalLight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(GlobalNamespace::DirectionalLight*)>(&FireworkItemController::set_directionalLight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "set_directionalLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DirectionalLight*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::set_directionalLightIntensity
-  // Il2CppName: set_directionalLightIntensity
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(float)>(&FireworkItemController::set_directionalLightIntensity)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "set_directionalLightIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::add_didFinishEvent
-  // Il2CppName: add_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&FireworkItemController::add_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::remove_didFinishEvent
-  // Il2CppName: remove_didFinishEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&FireworkItemController::remove_didFinishEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::Fire
-  // Il2CppName: Fire
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::Fire)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "Fire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::FireCoroutine
-  // Il2CppName: FireCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FireworkItemController::*)()>(&FireworkItemController::FireCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "FireCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::SetLightsColor
-  // Il2CppName: SetLightsColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(float)>(&FireworkItemController::SetLightsColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "SetLightsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::PlayExplosionSound
-  // Il2CppName: PlayExplosionSound
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::PlayExplosionSound)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "PlayExplosionSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::InitializeParticleSystem
-  // Il2CppName: InitializeParticleSystem
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::InitializeParticleSystem)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "InitializeParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: FireworkItemController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController*, "", "FireworkItemController");
+// Writing MetadataGetter for method: FireworkItemController::set_directionalLight
+// Il2CppName: set_directionalLight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(GlobalNamespace::DirectionalLight*)>(&FireworkItemController::set_directionalLight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "set_directionalLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DirectionalLight*>()});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::set_directionalLightIntensity
+// Il2CppName: set_directionalLightIntensity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(float)>(&FireworkItemController::set_directionalLightIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "set_directionalLightIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&FireworkItemController::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&FireworkItemController::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::Fire
+// Il2CppName: Fire
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::Fire)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "Fire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::FireCoroutine
+// Il2CppName: FireCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FireworkItemController::*)()>(&FireworkItemController::FireCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "FireCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::SetLightsColor
+// Il2CppName: SetLightsColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(float)>(&FireworkItemController::SetLightsColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "SetLightsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::PlayExplosionSound
+// Il2CppName: PlayExplosionSound
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::PlayExplosionSound)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "PlayExplosionSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::InitializeParticleSystem
+// Il2CppName: InitializeParticleSystem
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::InitializeParticleSystem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "InitializeParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FireworkItemController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

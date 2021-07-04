@@ -73,35 +73,35 @@ namespace UnityEngine::AddressableAssets {
   #pragma pack(pop)
   static check_size<sizeof(AddressablesImpl::$$c__DisplayClass124_0), 24 + sizeof(bool)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass124_0SizeCheck;
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass124_0) == 0x19);
-  // Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__0
-  // Il2CppName: <UpdateCatalogs>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> (AddressablesImpl::$$c__DisplayClass124_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*>)>(&AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), "<UpdateCatalogs>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*>>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__1
-  // Il2CppName: <UpdateCatalogs>b__1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass124_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), "<UpdateCatalogs>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
-    }
-  };
-  // Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass124_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass124_0::*)()>(&AddressablesImpl::$$c__DisplayClass124_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass124_0::*)()>(&AddressablesImpl::$$c__DisplayClass124_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass124_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass124_0");
+// Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__0
+// Il2CppName: <UpdateCatalogs>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> (AddressablesImpl::$$c__DisplayClass124_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*>)>(&AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), "<UpdateCatalogs>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*>>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__1
+// Il2CppName: <UpdateCatalogs>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass124_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), "<UpdateCatalogs>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+  }
+};
+// Writing MetadataGetter for method: AddressablesImpl::$$c__DisplayClass124_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass124_0::*)()>(&AddressablesImpl::$$c__DisplayClass124_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::$$c__DisplayClass124_0::*)()>(&AddressablesImpl::$$c__DisplayClass124_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::$$c__DisplayClass124_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

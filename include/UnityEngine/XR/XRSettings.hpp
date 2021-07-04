@@ -57,102 +57,102 @@ namespace UnityEngine::XR {
     static ::Il2CppString* get_loadedDeviceName();
   }; // UnityEngine.XR.XRSettings
   #pragma pack(pop)
-  // Writing MetadataGetter for method: XRSettings::get_enabled
-  // Il2CppName: get_enabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRSettings::get_enabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::get_showDeviceView
-  // Il2CppName: get_showDeviceView
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRSettings::get_showDeviceView)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_showDeviceView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::set_showDeviceView
-  // Il2CppName: set_showDeviceView
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&XRSettings::set_showDeviceView)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_showDeviceView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::get_eyeTextureResolutionScale
-  // Il2CppName: get_eyeTextureResolutionScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_eyeTextureResolutionScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureResolutionScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::set_eyeTextureResolutionScale
-  // Il2CppName: set_eyeTextureResolutionScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_eyeTextureResolutionScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_eyeTextureResolutionScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::get_eyeTextureWidth
-  // Il2CppName: get_eyeTextureWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&XRSettings::get_eyeTextureWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::get_eyeTextureHeight
-  // Il2CppName: get_eyeTextureHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&XRSettings::get_eyeTextureHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::get_renderViewportScale
-  // Il2CppName: get_renderViewportScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_renderViewportScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_renderViewportScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::set_renderViewportScale
-  // Il2CppName: set_renderViewportScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_renderViewportScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_renderViewportScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::get_renderViewportScaleInternal
-  // Il2CppName: get_renderViewportScaleInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_renderViewportScaleInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_renderViewportScaleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::set_renderViewportScaleInternal
-  // Il2CppName: set_renderViewportScaleInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_renderViewportScaleInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_renderViewportScaleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: XRSettings::get_loadedDeviceName
-  // Il2CppName: get_loadedDeviceName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&XRSettings::get_loadedDeviceName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_loadedDeviceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRSettings*, "UnityEngine.XR", "XRSettings");
+// Writing MetadataGetter for method: XRSettings::get_enabled
+// Il2CppName: get_enabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRSettings::get_enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::get_showDeviceView
+// Il2CppName: get_showDeviceView
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRSettings::get_showDeviceView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_showDeviceView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::set_showDeviceView
+// Il2CppName: set_showDeviceView
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&XRSettings::set_showDeviceView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_showDeviceView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::get_eyeTextureResolutionScale
+// Il2CppName: get_eyeTextureResolutionScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_eyeTextureResolutionScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureResolutionScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::set_eyeTextureResolutionScale
+// Il2CppName: set_eyeTextureResolutionScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_eyeTextureResolutionScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_eyeTextureResolutionScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::get_eyeTextureWidth
+// Il2CppName: get_eyeTextureWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&XRSettings::get_eyeTextureWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::get_eyeTextureHeight
+// Il2CppName: get_eyeTextureHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&XRSettings::get_eyeTextureHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_eyeTextureHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::get_renderViewportScale
+// Il2CppName: get_renderViewportScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_renderViewportScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_renderViewportScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::set_renderViewportScale
+// Il2CppName: set_renderViewportScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_renderViewportScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_renderViewportScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::get_renderViewportScaleInternal
+// Il2CppName: get_renderViewportScaleInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&XRSettings::get_renderViewportScaleInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_renderViewportScaleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::set_renderViewportScaleInternal
+// Il2CppName: set_renderViewportScaleInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&XRSettings::set_renderViewportScaleInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "set_renderViewportScaleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: XRSettings::get_loadedDeviceName
+// Il2CppName: get_loadedDeviceName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&XRSettings::get_loadedDeviceName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRSettings*), "get_loadedDeviceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

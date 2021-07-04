@@ -73,51 +73,51 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
   static check_size<sizeof(WellKnownServiceTypeEntry), 48 + sizeof(System::Runtime::Remoting::WellKnownObjectMode)> __System_Runtime_Remoting_WellKnownServiceTypeEntrySizeCheck;
   static_assert(sizeof(WellKnownServiceTypeEntry) == 0x34);
-  // Writing MetadataGetter for method: WellKnownServiceTypeEntry::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WellKnownServiceTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Runtime::Remoting::WellKnownObjectMode)>(&WellKnownServiceTypeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownObjectMode>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WellKnownServiceTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Runtime::Remoting::WellKnownObjectMode)>(&WellKnownServiceTypeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownObjectMode>()});
-    }
-  };
-  // Writing MetadataGetter for method: WellKnownServiceTypeEntry::get_Mode
-  // Il2CppName: get_Mode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::WellKnownObjectMode (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::get_Mode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WellKnownServiceTypeEntry::get_ObjectType
-  // Il2CppName: get_ObjectType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::get_ObjectType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WellKnownServiceTypeEntry::get_ObjectUri
-  // Il2CppName: get_ObjectUri
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::get_ObjectUri)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "get_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WellKnownServiceTypeEntry::ToString
-  // Il2CppName: ToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::ToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownServiceTypeEntry*, "System.Runtime.Remoting", "WellKnownServiceTypeEntry");
+// Writing MetadataGetter for method: WellKnownServiceTypeEntry::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WellKnownServiceTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Runtime::Remoting::WellKnownObjectMode)>(&WellKnownServiceTypeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownObjectMode>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WellKnownServiceTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Runtime::Remoting::WellKnownObjectMode)>(&WellKnownServiceTypeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownObjectMode>()});
+  }
+};
+// Writing MetadataGetter for method: WellKnownServiceTypeEntry::get_Mode
+// Il2CppName: get_Mode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::WellKnownObjectMode (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::get_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WellKnownServiceTypeEntry::get_ObjectType
+// Il2CppName: get_ObjectType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::get_ObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WellKnownServiceTypeEntry::get_ObjectUri
+// Il2CppName: get_ObjectUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::get_ObjectUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "get_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WellKnownServiceTypeEntry::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WellKnownServiceTypeEntry::*)()>(&WellKnownServiceTypeEntry::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WellKnownServiceTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

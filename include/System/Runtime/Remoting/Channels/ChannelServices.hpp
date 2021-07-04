@@ -113,110 +113,110 @@ namespace System::Runtime::Remoting::Channels {
     static void _cctor();
   }; // System.Runtime.Remoting.Channels.ChannelServices
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ChannelServices::get_CrossContextChannel
-  // Il2CppName: get_CrossContextChannel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::CrossContextChannel* (*)()>(&ChannelServices::get_CrossContextChannel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "get_CrossContextChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::CreateClientChannelSinkChain
-  // Il2CppName: CreateClientChannelSinkChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&ChannelServices::CreateClientChannelSinkChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CreateClientChannelSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::CreateClientChannelSinkChain
-  // Il2CppName: CreateClientChannelSinkChain
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(System::Runtime::Remoting::Channels::IChannelSender*, ::Il2CppString*, ::Array<::Il2CppObject*>*, ::Il2CppString*&)>(&ChannelServices::CreateClientChannelSinkChain)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CreateClientChannelSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IChannelSender*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::RegisterChannel
-  // Il2CppName: RegisterChannel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Channels::IChannel*)>(&ChannelServices::RegisterChannel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "RegisterChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IChannel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::RegisterChannel
-  // Il2CppName: RegisterChannel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Channels::IChannel*, bool)>(&ChannelServices::RegisterChannel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "RegisterChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IChannel*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::RegisterChannelConfig
-  // Il2CppName: RegisterChannelConfig
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ChannelData*)>(&ChannelServices::RegisterChannelConfig)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "RegisterChannelConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ChannelData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::CreateProvider
-  // Il2CppName: CreateProvider
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ProviderData*)>(&ChannelServices::CreateProvider)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CreateProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ProviderData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::SyncDispatchMessage
-  // Il2CppName: SyncDispatchMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::SyncDispatchMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "SyncDispatchMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::CheckIncomingMessage
-  // Il2CppName: CheckIncomingMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::ReturnMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::CheckIncomingMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CheckIncomingMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::CheckReturnMessage
-  // Il2CppName: CheckReturnMessage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::CheckReturnMessage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CheckReturnMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::IsLocalCall
-  // Il2CppName: IsLocalCall
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::IsLocalCall)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "IsLocalCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::GetCurrentChannelInfo
-  // Il2CppName: GetCurrentChannelInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)()>(&ChannelServices::GetCurrentChannelInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "GetCurrentChannelInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ChannelServices::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ChannelServices::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ChannelServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ChannelServices*, "System.Runtime.Remoting.Channels", "ChannelServices");
+// Writing MetadataGetter for method: ChannelServices::get_CrossContextChannel
+// Il2CppName: get_CrossContextChannel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::CrossContextChannel* (*)()>(&ChannelServices::get_CrossContextChannel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "get_CrossContextChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::CreateClientChannelSinkChain
+// Il2CppName: CreateClientChannelSinkChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&ChannelServices::CreateClientChannelSinkChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CreateClientChannelSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::CreateClientChannelSinkChain
+// Il2CppName: CreateClientChannelSinkChain
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(System::Runtime::Remoting::Channels::IChannelSender*, ::Il2CppString*, ::Array<::Il2CppObject*>*, ::Il2CppString*&)>(&ChannelServices::CreateClientChannelSinkChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CreateClientChannelSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IChannelSender*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::RegisterChannel
+// Il2CppName: RegisterChannel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Channels::IChannel*)>(&ChannelServices::RegisterChannel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "RegisterChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IChannel*>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::RegisterChannel
+// Il2CppName: RegisterChannel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Channels::IChannel*, bool)>(&ChannelServices::RegisterChannel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "RegisterChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IChannel*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::RegisterChannelConfig
+// Il2CppName: RegisterChannelConfig
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ChannelData*)>(&ChannelServices::RegisterChannelConfig)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "RegisterChannelConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ChannelData*>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::CreateProvider
+// Il2CppName: CreateProvider
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ProviderData*)>(&ChannelServices::CreateProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CreateProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ProviderData*>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::SyncDispatchMessage
+// Il2CppName: SyncDispatchMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::SyncDispatchMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "SyncDispatchMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::CheckIncomingMessage
+// Il2CppName: CheckIncomingMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::ReturnMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::CheckIncomingMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CheckIncomingMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::CheckReturnMessage
+// Il2CppName: CheckReturnMessage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::CheckReturnMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "CheckReturnMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::IsLocalCall
+// Il2CppName: IsLocalCall
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ChannelServices::IsLocalCall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "IsLocalCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::GetCurrentChannelInfo
+// Il2CppName: GetCurrentChannelInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (*)()>(&ChannelServices::GetCurrentChannelInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), "GetCurrentChannelInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ChannelServices::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ChannelServices::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ChannelServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

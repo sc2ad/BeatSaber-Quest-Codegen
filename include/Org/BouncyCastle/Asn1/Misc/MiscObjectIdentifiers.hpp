@@ -182,14 +182,14 @@ namespace Org::BouncyCastle::Asn1::Misc {
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Misc.MiscObjectIdentifiers
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MiscObjectIdentifiers::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MiscObjectIdentifiers::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MiscObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::MiscObjectIdentifiers*, "Org.BouncyCastle.Asn1.Misc", "MiscObjectIdentifiers");
+// Writing MetadataGetter for method: MiscObjectIdentifiers::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MiscObjectIdentifiers::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MiscObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

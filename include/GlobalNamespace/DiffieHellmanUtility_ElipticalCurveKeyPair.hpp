@@ -81,43 +81,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_DiffieHellmanUtility_ElipticalCurveKeyPairSizeCheck;
   static_assert(sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair) == 0x20);
-  // Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey
-  // Il2CppName: get_publicKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DiffieHellmanUtility::ElipticalCurveKeyPair::*)()>(&DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), "get_publicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync
-  // Il2CppName: GetPreMasterSecretAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<uint8_t>*>* (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret
-  // Il2CppName: GetPreMasterSecret
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*, "", "DiffieHellmanUtility/ElipticalCurveKeyPair");
+// Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey
+// Il2CppName: get_publicKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DiffieHellmanUtility::ElipticalCurveKeyPair::*)()>(&DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), "get_publicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync
+// Il2CppName: GetPreMasterSecretAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<uint8_t>*>* (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret
+// Il2CppName: GetPreMasterSecret
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::Array<uint8_t>*)>(&DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};

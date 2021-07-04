@@ -25,14 +25,14 @@ namespace NUnit::Framework::Interfaces {
     void ApplyToContext(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Interfaces.IApplyToContext
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IApplyToContext::ApplyToContext
-  // Il2CppName: ApplyToContext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IApplyToContext::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&IApplyToContext::ApplyToContext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IApplyToContext*), "ApplyToContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IApplyToContext*, "NUnit.Framework.Interfaces", "IApplyToContext");
+// Writing MetadataGetter for method: IApplyToContext::ApplyToContext
+// Il2CppName: ApplyToContext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IApplyToContext::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&IApplyToContext::ApplyToContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IApplyToContext*), "ApplyToContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

@@ -24,22 +24,22 @@ namespace UnityEngine::AddressableAssets {
     bool RuntimeKeyIsValid();
   }; // UnityEngine.AddressableAssets.IKeyEvaluator
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IKeyEvaluator::get_RuntimeKey
-  // Il2CppName: get_RuntimeKey
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IKeyEvaluator::*)()>(&IKeyEvaluator::get_RuntimeKey)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKeyEvaluator*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IKeyEvaluator::RuntimeKeyIsValid
-  // Il2CppName: RuntimeKeyIsValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKeyEvaluator::*)()>(&IKeyEvaluator::RuntimeKeyIsValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IKeyEvaluator*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
+// Writing MetadataGetter for method: IKeyEvaluator::get_RuntimeKey
+// Il2CppName: get_RuntimeKey
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IKeyEvaluator::*)()>(&IKeyEvaluator::get_RuntimeKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKeyEvaluator*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IKeyEvaluator::RuntimeKeyIsValid
+// Il2CppName: RuntimeKeyIsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKeyEvaluator::*)()>(&IKeyEvaluator::RuntimeKeyIsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IKeyEvaluator*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

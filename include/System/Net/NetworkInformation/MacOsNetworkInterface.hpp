@@ -60,35 +60,35 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
   static check_size<sizeof(MacOsNetworkInterface), 52 + sizeof(uint)> __System_Net_NetworkInformation_MacOsNetworkInterfaceSizeCheck;
   static_assert(sizeof(MacOsNetworkInterface) == 0x38);
-  // Writing MetadataGetter for method: MacOsNetworkInterface::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsNetworkInterface::*)(::Il2CppString*, uint)>(&MacOsNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsNetworkInterface::*)(::Il2CppString*, uint)>(&MacOsNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: MacOsNetworkInterface::GetIPProperties
-  // Il2CppName: GetIPProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (MacOsNetworkInterface::*)()>(&MacOsNetworkInterface::GetIPProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MacOsNetworkInterface::get_OperationalStatus
-  // Il2CppName: get_OperationalStatus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (MacOsNetworkInterface::*)()>(&MacOsNetworkInterface::get_OperationalStatus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterface*, "System.Net.NetworkInformation", "MacOsNetworkInterface");
+// Writing MetadataGetter for method: MacOsNetworkInterface::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsNetworkInterface::*)(::Il2CppString*, uint)>(&MacOsNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsNetworkInterface::*)(::Il2CppString*, uint)>(&MacOsNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: MacOsNetworkInterface::GetIPProperties
+// Il2CppName: GetIPProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (MacOsNetworkInterface::*)()>(&MacOsNetworkInterface::GetIPProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MacOsNetworkInterface::get_OperationalStatus
+// Il2CppName: get_OperationalStatus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (MacOsNetworkInterface::*)()>(&MacOsNetworkInterface::get_OperationalStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

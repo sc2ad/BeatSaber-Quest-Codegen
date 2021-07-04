@@ -43,19 +43,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FlyingScoreSpawner::InitData), 16 + sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)> __GlobalNamespace_FlyingScoreSpawner_InitDataSizeCheck;
   static_assert(sizeof(FlyingScoreSpawner::InitData) == 0x14);
-  // Writing MetadataGetter for method: FlyingScoreSpawner::InitData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::InitData::*)(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)>(&FlyingScoreSpawner::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingScoreSpawner::SpawnPosition>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::InitData::*)(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)>(&FlyingScoreSpawner::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingScoreSpawner::SpawnPosition>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner::InitData*, "", "FlyingScoreSpawner/InitData");
+// Writing MetadataGetter for method: FlyingScoreSpawner::InitData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::InitData::*)(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)>(&FlyingScoreSpawner::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingScoreSpawner::SpawnPosition>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::InitData::*)(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)>(&FlyingScoreSpawner::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingScoreSpawner::SpawnPosition>()});
+  }
+};

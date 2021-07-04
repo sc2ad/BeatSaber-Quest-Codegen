@@ -55,24 +55,24 @@ namespace System::Runtime::CompilerServices {
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskCache
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AsyncTaskCache::CreateInt32Tasks
-  // Il2CppName: CreateInt32Tasks
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Threading::Tasks::Task_1<int>*>* (*)()>(&AsyncTaskCache::CreateInt32Tasks)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), "CreateInt32Tasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AsyncTaskCache::CreateCacheableTask
-  // Il2CppName: CreateCacheableTask
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: AsyncTaskCache::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncTaskCache::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskCache*, "System.Runtime.CompilerServices", "AsyncTaskCache");
+// Writing MetadataGetter for method: AsyncTaskCache::CreateInt32Tasks
+// Il2CppName: CreateInt32Tasks
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Threading::Tasks::Task_1<int>*>* (*)()>(&AsyncTaskCache::CreateInt32Tasks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), "CreateInt32Tasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncTaskCache::CreateCacheableTask
+// Il2CppName: CreateCacheableTask
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AsyncTaskCache::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncTaskCache::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -183,107 +183,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorsOverrideSettingsPanelController), 104 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_ColorsOverrideSettingsPanelControllerSizeCheck;
   static_assert(sizeof(ColorsOverrideSettingsPanelController) == 0x70);
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::get_colorSchemesSettings
-  // Il2CppName: get_colorSchemesSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemesSettings* (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::get_colorSchemesSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::SetData
-  // Il2CppName: SetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(GlobalNamespace::ColorSchemesSettings*)>(&ColorsOverrideSettingsPanelController::SetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::Refresh
-  // Il2CppName: Refresh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::Refresh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx
-  // Il2CppName: HandleDropDownDidSelectCellWithIdx
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(HMUI::DropdownWithTableView*, int)>(&ColorsOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleDropDownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged
-  // Il2CppName: HandleOverrideColorsToggleValueChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(bool)>(&ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleOverrideColorsToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleEditColorSchemeButtonWasPressed
-  // Il2CppName: HandleEditColorSchemeButtonWasPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::HandleEditColorSchemeButtonWasPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidFinish
-  // Il2CppName: HandleEditColorSchemeControllerDidFinish
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidFinish)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidChangeColorScheme
-  // Il2CppName: HandleEditColorSchemeControllerDidChangeColorScheme
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(GlobalNamespace::ColorScheme*)>(&ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidChangeColorScheme)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeControllerDidChangeColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::$HandleOverrideColorsToggleValueChanged$b__18_0
-  // Il2CppName: <HandleOverrideColorsToggleValueChanged>b__18_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::$HandleOverrideColorsToggleValueChanged$b__18_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "<HandleOverrideColorsToggleValueChanged>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorsOverrideSettingsPanelController*, "", "ColorsOverrideSettingsPanelController");
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::get_colorSchemesSettings
+// Il2CppName: get_colorSchemesSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemesSettings* (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::get_colorSchemesSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::SetData
+// Il2CppName: SetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(GlobalNamespace::ColorSchemesSettings*)>(&ColorsOverrideSettingsPanelController::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::Refresh
+// Il2CppName: Refresh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx
+// Il2CppName: HandleDropDownDidSelectCellWithIdx
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(HMUI::DropdownWithTableView*, int)>(&ColorsOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleDropDownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged
+// Il2CppName: HandleOverrideColorsToggleValueChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(bool)>(&ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleOverrideColorsToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleEditColorSchemeButtonWasPressed
+// Il2CppName: HandleEditColorSchemeButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::HandleEditColorSchemeButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidFinish
+// Il2CppName: HandleEditColorSchemeControllerDidFinish
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidChangeColorScheme
+// Il2CppName: HandleEditColorSchemeControllerDidChangeColorScheme
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)(GlobalNamespace::ColorScheme*)>(&ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidChangeColorScheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeControllerDidChangeColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::$HandleOverrideColorsToggleValueChanged$b__18_0
+// Il2CppName: <HandleOverrideColorsToggleValueChanged>b__18_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::$HandleOverrideColorsToggleValueChanged$b__18_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), "<HandleOverrideColorsToggleValueChanged>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorsOverrideSettingsPanelController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorsOverrideSettingsPanelController::*)()>(&ColorsOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorsOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

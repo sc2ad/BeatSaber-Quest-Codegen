@@ -262,71 +262,71 @@ namespace UnityEngine::Playables {
     }
   }; // UnityEngine.Playables.PlayableExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: PlayableExtensions::IsValid
-  // Il2CppName: IsValid
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetGraph
-  // Il2CppName: GetGraph
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetPlayState
-  // Il2CppName: GetPlayState
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::Play
-  // Il2CppName: Play
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::Pause
-  // Il2CppName: Pause
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetSpeed
-  // Il2CppName: SetSpeed
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetDuration
-  // Il2CppName: SetDuration
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetDuration
-  // Il2CppName: GetDuration
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetTime
-  // Il2CppName: SetTime
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetTime
-  // Il2CppName: GetTime
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetPreviousTime
-  // Il2CppName: GetPreviousTime
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::IsDone
-  // Il2CppName: IsDone
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetPropagateSetTime
-  // Il2CppName: SetPropagateSetTime
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetInputCount
-  // Il2CppName: SetInputCount
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetInputCount
-  // Il2CppName: GetInputCount
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetInput
-  // Il2CppName: GetInput
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetInputWeight
-  // Il2CppName: SetInputWeight
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetInputWeight
-  // Il2CppName: SetInputWeight
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetInputWeight
-  // Il2CppName: GetInputWeight
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetTraversalMode
-  // Il2CppName: SetTraversalMode
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::GetTimeWrapMode
-  // Il2CppName: GetTimeWrapMode
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: PlayableExtensions::SetTimeWrapMode
-  // Il2CppName: SetTimeWrapMode
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableExtensions*, "UnityEngine.Playables", "PlayableExtensions");
+// Writing MetadataGetter for method: PlayableExtensions::IsValid
+// Il2CppName: IsValid
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetGraph
+// Il2CppName: GetGraph
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetPlayState
+// Il2CppName: GetPlayState
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::Play
+// Il2CppName: Play
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::Pause
+// Il2CppName: Pause
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetSpeed
+// Il2CppName: SetSpeed
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetDuration
+// Il2CppName: SetDuration
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetDuration
+// Il2CppName: GetDuration
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetTime
+// Il2CppName: SetTime
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetTime
+// Il2CppName: GetTime
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetPreviousTime
+// Il2CppName: GetPreviousTime
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::IsDone
+// Il2CppName: IsDone
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetPropagateSetTime
+// Il2CppName: SetPropagateSetTime
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetInputCount
+// Il2CppName: SetInputCount
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetInputCount
+// Il2CppName: GetInputCount
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetInput
+// Il2CppName: GetInput
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetInputWeight
+// Il2CppName: SetInputWeight
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetInputWeight
+// Il2CppName: SetInputWeight
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetInputWeight
+// Il2CppName: GetInputWeight
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetTraversalMode
+// Il2CppName: SetTraversalMode
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::GetTimeWrapMode
+// Il2CppName: GetTimeWrapMode
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: PlayableExtensions::SetTimeWrapMode
+// Il2CppName: SetTimeWrapMode
+// Cannot write MetadataGetter for generic methods!

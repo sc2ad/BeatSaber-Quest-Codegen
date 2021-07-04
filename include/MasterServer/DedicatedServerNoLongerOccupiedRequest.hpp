@@ -112,91 +112,91 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(DedicatedServerNoLongerOccupiedRequest), 40 + sizeof(::Il2CppString*)> __MasterServer_DedicatedServerNoLongerOccupiedRequestSizeCheck;
   static_assert(sizeof(DedicatedServerNoLongerOccupiedRequest) == 0x30);
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::get_pool
-  // Il2CppName: get_pool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerNoLongerOccupiedRequest*>* (*)()>(&DedicatedServerNoLongerOccupiedRequest::get_pool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerId
-  // Il2CppName: get_dedicatedServerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerId
-  // Il2CppName: set_dedicatedServerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(::Il2CppString*)>(&DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerCreationTime
-  // Il2CppName: get_dedicatedServerCreationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerCreationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerCreationTime
-  // Il2CppName: set_dedicatedServerCreationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(int64_t)>(&DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerCreationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerNoLongerOccupiedRequest* (DedicatedServerNoLongerOccupiedRequest::*)(::Il2CppString*, ::Il2CppString*)>(&DedicatedServerNoLongerOccupiedRequest::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&DedicatedServerNoLongerOccupiedRequest::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&DedicatedServerNoLongerOccupiedRequest::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerNoLongerOccupiedRequest*, "MasterServer", "DedicatedServerNoLongerOccupiedRequest");
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::get_pool
+// Il2CppName: get_pool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerNoLongerOccupiedRequest*>* (*)()>(&DedicatedServerNoLongerOccupiedRequest::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerId
+// Il2CppName: get_dedicatedServerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerId
+// Il2CppName: set_dedicatedServerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(::Il2CppString*)>(&DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerCreationTime
+// Il2CppName: get_dedicatedServerCreationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::get_dedicatedServerCreationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerCreationTime
+// Il2CppName: set_dedicatedServerCreationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(int64_t)>(&DedicatedServerNoLongerOccupiedRequest::set_dedicatedServerCreationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerNoLongerOccupiedRequest* (DedicatedServerNoLongerOccupiedRequest::*)(::Il2CppString*, ::Il2CppString*)>(&DedicatedServerNoLongerOccupiedRequest::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&DedicatedServerNoLongerOccupiedRequest::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&DedicatedServerNoLongerOccupiedRequest::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DedicatedServerNoLongerOccupiedRequest::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DedicatedServerNoLongerOccupiedRequest::*)()>(&DedicatedServerNoLongerOccupiedRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DedicatedServerNoLongerOccupiedRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

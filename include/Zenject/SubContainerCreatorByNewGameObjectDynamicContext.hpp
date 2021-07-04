@@ -59,27 +59,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorByNewGameObjectDynamicContext), 24 + sizeof(Zenject::GameObjectCreationParameters*)> __Zenject_SubContainerCreatorByNewGameObjectDynamicContextSizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewGameObjectDynamicContext) == 0x20);
-  // Writing MetadataGetter for method: SubContainerCreatorByNewGameObjectDynamicContext::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewGameObjectDynamicContext::*)(Zenject::DiContainer*, Zenject::GameObjectCreationParameters*)>(&SubContainerCreatorByNewGameObjectDynamicContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewGameObjectDynamicContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewGameObjectDynamicContext::*)(Zenject::DiContainer*, Zenject::GameObjectCreationParameters*)>(&SubContainerCreatorByNewGameObjectDynamicContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewGameObjectDynamicContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SubContainerCreatorByNewGameObjectDynamicContext::CreateGameObject
-  // Il2CppName: CreateGameObject
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (SubContainerCreatorByNewGameObjectDynamicContext::*)(bool&)>(&SubContainerCreatorByNewGameObjectDynamicContext::CreateGameObject)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewGameObjectDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectDynamicContext*, "Zenject", "SubContainerCreatorByNewGameObjectDynamicContext");
+// Writing MetadataGetter for method: SubContainerCreatorByNewGameObjectDynamicContext::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewGameObjectDynamicContext::*)(Zenject::DiContainer*, Zenject::GameObjectCreationParameters*)>(&SubContainerCreatorByNewGameObjectDynamicContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewGameObjectDynamicContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByNewGameObjectDynamicContext::*)(Zenject::DiContainer*, Zenject::GameObjectCreationParameters*)>(&SubContainerCreatorByNewGameObjectDynamicContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewGameObjectDynamicContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: SubContainerCreatorByNewGameObjectDynamicContext::CreateGameObject
+// Il2CppName: CreateGameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (SubContainerCreatorByNewGameObjectDynamicContext::*)(bool&)>(&SubContainerCreatorByNewGameObjectDynamicContext::CreateGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByNewGameObjectDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};

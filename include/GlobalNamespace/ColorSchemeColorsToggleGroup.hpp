@@ -158,131 +158,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorSchemeColorsToggleGroup), 88 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorSchemeColorsToggleGroupSizeCheck;
   static_assert(sizeof(ColorSchemeColorsToggleGroup) == 0x60);
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent
-  // Il2CppName: add_selectedColorDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(System::Action_1<UnityEngine::Color>*)>(&ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "add_selectedColorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::remove_selectedColorDidChangeEvent
-  // Il2CppName: remove_selectedColorDidChangeEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(System::Action_1<UnityEngine::Color>*)>(&ColorSchemeColorsToggleGroup::remove_selectedColorDidChangeEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "remove_selectedColorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::get_color
-  // Il2CppName: get_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::get_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::set_color
-  // Il2CppName: set_color
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(UnityEngine::Color)>(&ColorSchemeColorsToggleGroup::set_color)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::SetColorScheme
-  // Il2CppName: SetColorScheme
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(GlobalNamespace::ColorScheme*)>(&ColorSchemeColorsToggleGroup::SetColorScheme)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "SetColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::Awake
-  // Il2CppName: Awake
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::Awake)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::OnDestroy
-  // Il2CppName: OnDestroy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::OnDestroy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::HandleToggleWasSelected
-  // Il2CppName: HandleToggleWasSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(GlobalNamespace::ColorSchemeColorToggleController*, bool)>(&ColorSchemeColorsToggleGroup::HandleToggleWasSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "HandleToggleWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeColorToggleController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::CreateColorSchemeFromEditedColors
-  // Il2CppName: CreateColorSchemeFromEditedColors
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::CreateColorSchemeFromEditedColors)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "CreateColorSchemeFromEditedColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_0
-  // Il2CppName: <Awake>b__15_0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_1
-  // Il2CppName: <Awake>b__15_1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_2
-  // Il2CppName: <Awake>b__15_2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_3
-  // Il2CppName: <Awake>b__15_3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_4
-  // Il2CppName: <Awake>b__15_4
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_4)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorsToggleGroup*, "", "ColorSchemeColorsToggleGroup");
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent
+// Il2CppName: add_selectedColorDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(System::Action_1<UnityEngine::Color>*)>(&ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "add_selectedColorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::remove_selectedColorDidChangeEvent
+// Il2CppName: remove_selectedColorDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(System::Action_1<UnityEngine::Color>*)>(&ColorSchemeColorsToggleGroup::remove_selectedColorDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "remove_selectedColorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::get_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(UnityEngine::Color)>(&ColorSchemeColorsToggleGroup::set_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::SetColorScheme
+// Il2CppName: SetColorScheme
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(GlobalNamespace::ColorScheme*)>(&ColorSchemeColorsToggleGroup::SetColorScheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "SetColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::HandleToggleWasSelected
+// Il2CppName: HandleToggleWasSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(GlobalNamespace::ColorSchemeColorToggleController*, bool)>(&ColorSchemeColorsToggleGroup::HandleToggleWasSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "HandleToggleWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeColorToggleController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::CreateColorSchemeFromEditedColors
+// Il2CppName: CreateColorSchemeFromEditedColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::CreateColorSchemeFromEditedColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "CreateColorSchemeFromEditedColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_0
+// Il2CppName: <Awake>b__15_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_1
+// Il2CppName: <Awake>b__15_1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_2
+// Il2CppName: <Awake>b__15_2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_3
+// Il2CppName: <Awake>b__15_3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::$Awake$b__15_4
+// Il2CppName: <Awake>b__15_4
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)(bool)>(&ColorSchemeColorsToggleGroup::$Awake$b__15_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), "<Awake>b__15_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSchemeColorsToggleGroup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeColorsToggleGroup::*)()>(&ColorSchemeColorsToggleGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSchemeColorsToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

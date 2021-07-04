@@ -85,14 +85,14 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Keyboard_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Keyboard_tSizeCheck;
   static_assert(sizeof(VREvent_Keyboard_t) == 0x10);
-  // Writing MetadataGetter for method: VREvent_Keyboard_t::get_cNewInput
-  // Il2CppName: get_cNewInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VREvent_Keyboard_t::*)()>(&VREvent_Keyboard_t::get_cNewInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VREvent_Keyboard_t), "get_cNewInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Keyboard_t, "OVR.OpenVR", "VREvent_Keyboard_t");
+// Writing MetadataGetter for method: VREvent_Keyboard_t::get_cNewInput
+// Il2CppName: get_cNewInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VREvent_Keyboard_t::*)()>(&VREvent_Keyboard_t::get_cNewInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VREvent_Keyboard_t), "get_cNewInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

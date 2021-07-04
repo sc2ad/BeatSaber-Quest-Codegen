@@ -171,131 +171,131 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
   static check_size<sizeof(RegexWriter), 80 + sizeof(System::Collections::Hashtable*)> __System_Text_RegularExpressions_RegexWriterSizeCheck;
   static_assert(sizeof(RegexWriter) == 0x58);
-  // Writing MetadataGetter for method: RegexWriter::Write
-  // Il2CppName: Write
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCode* (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexWriter::Write)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::PushInt
-  // Il2CppName: PushInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int)>(&RegexWriter::PushInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "PushInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::EmptyStack
-  // Il2CppName: EmptyStack
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexWriter::*)()>(&RegexWriter::EmptyStack)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "EmptyStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::PopInt
-  // Il2CppName: PopInt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)()>(&RegexWriter::PopInt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "PopInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::CurPos
-  // Il2CppName: CurPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)()>(&RegexWriter::CurPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "CurPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::PatchJump
-  // Il2CppName: PatchJump
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, int)>(&RegexWriter::PatchJump)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "PatchJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::Emit
-  // Il2CppName: Emit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int)>(&RegexWriter::Emit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::Emit
-  // Il2CppName: Emit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, int)>(&RegexWriter::Emit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::Emit
-  // Il2CppName: Emit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, int, int)>(&RegexWriter::Emit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::StringCode
-  // Il2CppName: StringCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)(::Il2CppString*)>(&RegexWriter::StringCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "StringCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::MakeException
-  // Il2CppName: MakeException
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (RegexWriter::*)(::Il2CppString*)>(&RegexWriter::MakeException)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "MakeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::MapCapnum
-  // Il2CppName: MapCapnum
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)(int)>(&RegexWriter::MapCapnum)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "MapCapnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::RegexCodeFromRegexTree
-  // Il2CppName: RegexCodeFromRegexTree
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCode* (RegexWriter::*)(System::Text::RegularExpressions::RegexTree*)>(&RegexWriter::RegexCodeFromRegexTree)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "RegexCodeFromRegexTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::EmitFragment
-  // Il2CppName: EmitFragment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, System::Text::RegularExpressions::RegexNode*, int)>(&RegexWriter::EmitFragment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "EmitFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexNode*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: RegexWriter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)()>(&RegexWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)()>(&RegexWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexWriter*, "System.Text.RegularExpressions", "RegexWriter");
+// Writing MetadataGetter for method: RegexWriter::Write
+// Il2CppName: Write
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCode* (*)(System::Text::RegularExpressions::RegexTree*)>(&RegexWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::PushInt
+// Il2CppName: PushInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int)>(&RegexWriter::PushInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "PushInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::EmptyStack
+// Il2CppName: EmptyStack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexWriter::*)()>(&RegexWriter::EmptyStack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "EmptyStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::PopInt
+// Il2CppName: PopInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)()>(&RegexWriter::PopInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "PopInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::CurPos
+// Il2CppName: CurPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)()>(&RegexWriter::CurPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "CurPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::PatchJump
+// Il2CppName: PatchJump
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, int)>(&RegexWriter::PatchJump)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "PatchJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::Emit
+// Il2CppName: Emit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int)>(&RegexWriter::Emit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::Emit
+// Il2CppName: Emit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, int)>(&RegexWriter::Emit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::Emit
+// Il2CppName: Emit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, int, int)>(&RegexWriter::Emit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::StringCode
+// Il2CppName: StringCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)(::Il2CppString*)>(&RegexWriter::StringCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "StringCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::MakeException
+// Il2CppName: MakeException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (RegexWriter::*)(::Il2CppString*)>(&RegexWriter::MakeException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "MakeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::MapCapnum
+// Il2CppName: MapCapnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexWriter::*)(int)>(&RegexWriter::MapCapnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "MapCapnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::RegexCodeFromRegexTree
+// Il2CppName: RegexCodeFromRegexTree
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCode* (RegexWriter::*)(System::Text::RegularExpressions::RegexTree*)>(&RegexWriter::RegexCodeFromRegexTree)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "RegexCodeFromRegexTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexTree*>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::EmitFragment
+// Il2CppName: EmitFragment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)(int, System::Text::RegularExpressions::RegexNode*, int)>(&RegexWriter::EmitFragment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), "EmitFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexNode*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RegexWriter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)()>(&RegexWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexWriter::*)()>(&RegexWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

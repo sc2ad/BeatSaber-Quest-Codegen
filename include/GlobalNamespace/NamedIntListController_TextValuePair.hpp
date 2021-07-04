@@ -48,27 +48,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NamedIntListController::TextValuePair), 24 + sizeof(int)> __GlobalNamespace_NamedIntListController_TextValuePairSizeCheck;
   static_assert(sizeof(NamedIntListController::TextValuePair) == 0x1C);
-  // Writing MetadataGetter for method: NamedIntListController::TextValuePair::get_localizedText
-  // Il2CppName: get_localizedText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NamedIntListController::TextValuePair::*)()>(&NamedIntListController::TextValuePair::get_localizedText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NamedIntListController::TextValuePair*), "get_localizedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NamedIntListController::TextValuePair::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListController::TextValuePair::*)()>(&NamedIntListController::TextValuePair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NamedIntListController::TextValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListController::TextValuePair::*)()>(&NamedIntListController::TextValuePair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NamedIntListController::TextValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListController::TextValuePair*, "", "NamedIntListController/TextValuePair");
+// Writing MetadataGetter for method: NamedIntListController::TextValuePair::get_localizedText
+// Il2CppName: get_localizedText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NamedIntListController::TextValuePair::*)()>(&NamedIntListController::TextValuePair::get_localizedText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NamedIntListController::TextValuePair*), "get_localizedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NamedIntListController::TextValuePair::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListController::TextValuePair::*)()>(&NamedIntListController::TextValuePair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NamedIntListController::TextValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListController::TextValuePair::*)()>(&NamedIntListController::TextValuePair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NamedIntListController::TextValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

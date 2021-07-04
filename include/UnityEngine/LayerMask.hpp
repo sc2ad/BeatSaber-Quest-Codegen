@@ -54,38 +54,38 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(LayerMask), 0 + sizeof(int)> __UnityEngine_LayerMaskSizeCheck;
   static_assert(sizeof(LayerMask) == 0x4);
-  // Writing MetadataGetter for method: LayerMask::get_value
-  // Il2CppName: get_value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LayerMask::*)()>(&LayerMask::get_value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMask), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMask::set_value
-  // Il2CppName: set_value
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayerMask::*)(int)>(&LayerMask::set_value)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMask), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMask::LayerToName
-  // Il2CppName: LayerToName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&LayerMask::LayerToName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMask), "LayerToName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayerMask::NameToLayer
-  // Il2CppName: NameToLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&LayerMask::NameToLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayerMask), "NameToLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LayerMask, "UnityEngine", "LayerMask");
+// Writing MetadataGetter for method: LayerMask::get_value
+// Il2CppName: get_value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LayerMask::*)()>(&LayerMask::get_value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMask), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayerMask::set_value
+// Il2CppName: set_value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayerMask::*)(int)>(&LayerMask::set_value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMask), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMask::LayerToName
+// Il2CppName: LayerToName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&LayerMask::LayerToName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMask), "LayerToName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayerMask::NameToLayer
+// Il2CppName: NameToLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&LayerMask::NameToLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayerMask), "NameToLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

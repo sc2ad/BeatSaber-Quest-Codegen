@@ -81,25 +81,25 @@ namespace GlobalNamespace {
     }
   }; // BloomFilterUtil
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BloomFilterUtil::MurmurHash2
-  // Il2CppName: MurmurHash2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&BloomFilterUtil::MurmurHash2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomFilterUtil*), "MurmurHash2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomFilterUtil::ToBloomFilter
-  // Il2CppName: ToBloomFilter
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: BloomFilterUtil::ToBloomFilter
-  // Il2CppName: ToBloomFilter
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: BloomFilterUtil::AddBloomFilterEntry
-  // Il2CppName: AddBloomFilterEntry
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: BloomFilterUtil::ContainsBloomFilterEntry
-  // Il2CppName: ContainsBloomFilterEntry
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFilterUtil*, "", "BloomFilterUtil");
+// Writing MetadataGetter for method: BloomFilterUtil::MurmurHash2
+// Il2CppName: MurmurHash2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&BloomFilterUtil::MurmurHash2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomFilterUtil*), "MurmurHash2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: BloomFilterUtil::ToBloomFilter
+// Il2CppName: ToBloomFilter
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: BloomFilterUtil::ToBloomFilter
+// Il2CppName: ToBloomFilter
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: BloomFilterUtil::AddBloomFilterEntry
+// Il2CppName: AddBloomFilterEntry
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: BloomFilterUtil::ContainsBloomFilterEntry
+// Il2CppName: ContainsBloomFilterEntry
+// Cannot write MetadataGetter for generic methods!

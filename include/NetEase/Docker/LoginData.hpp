@@ -68,46 +68,46 @@ namespace NetEase::Docker {
   #pragma pack(pop)
   static check_size<sizeof(LoginData), 8 + sizeof(::Il2CppString*)> __NetEase_Docker_LoginDataSizeCheck;
   static_assert(sizeof(LoginData) == 0x10);
-  // Writing MetadataGetter for method: LoginData::get_LoginSuccessful
-  // Il2CppName: get_LoginSuccessful
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LoginData::*)()>(&LoginData::get_LoginSuccessful)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LoginData), "get_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LoginData::set_LoginSuccessful
-  // Il2CppName: set_LoginSuccessful
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(bool)>(&LoginData::set_LoginSuccessful)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LoginData), "set_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: LoginData::set_LoginCode
-  // Il2CppName: set_LoginCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(int)>(&LoginData::set_LoginCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LoginData), "set_LoginCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LoginData::get_UserName
-  // Il2CppName: get_UserName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LoginData::*)()>(&LoginData::get_UserName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LoginData), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LoginData::set_UserName
-  // Il2CppName: set_UserName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(::Il2CppString*)>(&LoginData::set_UserName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LoginData), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LoginData, "NetEase.Docker", "LoginData");
+// Writing MetadataGetter for method: LoginData::get_LoginSuccessful
+// Il2CppName: get_LoginSuccessful
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LoginData::*)()>(&LoginData::get_LoginSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LoginData), "get_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LoginData::set_LoginSuccessful
+// Il2CppName: set_LoginSuccessful
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(bool)>(&LoginData::set_LoginSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LoginData), "set_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: LoginData::set_LoginCode
+// Il2CppName: set_LoginCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(int)>(&LoginData::set_LoginCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LoginData), "set_LoginCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LoginData::get_UserName
+// Il2CppName: get_UserName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LoginData::*)()>(&LoginData::get_UserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LoginData), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LoginData::set_UserName
+// Il2CppName: set_UserName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoginData::*)(::Il2CppString*)>(&LoginData::set_UserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LoginData), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

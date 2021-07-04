@@ -262,302 +262,302 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(LayoutGroup), 80 + sizeof(System::Collections::Generic::List_1<UnityEngine::RectTransform*>*)> __UnityEngine_UI_LayoutGroupSizeCheck;
   static_assert(sizeof(LayoutGroup) == 0x58);
-  // Writing MetadataGetter for method: LayoutGroup::get_padding
-  // Il2CppName: get_padding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (LayoutGroup::*)()>(&LayoutGroup::get_padding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::set_padding
-  // Il2CppName: set_padding
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectOffset*)>(&LayoutGroup::set_padding)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectOffset*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_childAlignment
-  // Il2CppName: get_childAlignment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAnchor (LayoutGroup::*)()>(&LayoutGroup::get_childAlignment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::set_childAlignment
-  // Il2CppName: set_childAlignment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::TextAnchor)>(&LayoutGroup::set_childAlignment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "set_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_rectTransform
-  // Il2CppName: get_rectTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (LayoutGroup::*)()>(&LayoutGroup::get_rectTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_rectChildren
-  // Il2CppName: get_rectChildren
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::RectTransform*>* (LayoutGroup::*)()>(&LayoutGroup::get_rectChildren)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_rectChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::CalculateLayoutInputHorizontal
-  // Il2CppName: CalculateLayoutInputHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::CalculateLayoutInputHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::CalculateLayoutInputVertical
-  // Il2CppName: CalculateLayoutInputVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::CalculateLayoutInputVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_minWidth
-  // Il2CppName: get_minWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_minWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_preferredWidth
-  // Il2CppName: get_preferredWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_preferredWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_flexibleWidth
-  // Il2CppName: get_flexibleWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_flexibleWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_minHeight
-  // Il2CppName: get_minHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_minHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_preferredHeight
-  // Il2CppName: get_preferredHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_preferredHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_flexibleHeight
-  // Il2CppName: get_flexibleHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_flexibleHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_layoutPriority
-  // Il2CppName: get_layoutPriority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LayoutGroup::*)()>(&LayoutGroup::get_layoutPriority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetLayoutHorizontal
-  // Il2CppName: SetLayoutHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::SetLayoutHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetLayoutVertical
-  // Il2CppName: SetLayoutVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::SetLayoutVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::GetTotalMinSize
-  // Il2CppName: GetTotalMinSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetTotalMinSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetTotalMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::GetTotalPreferredSize
-  // Il2CppName: GetTotalPreferredSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetTotalPreferredSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetTotalPreferredSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::GetTotalFlexibleSize
-  // Il2CppName: GetTotalFlexibleSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetTotalFlexibleSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetTotalFlexibleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::GetStartOffset
-  // Il2CppName: GetStartOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int, float)>(&LayoutGroup::GetStartOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::GetAlignmentOnAxis
-  // Il2CppName: GetAlignmentOnAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetAlignmentOnAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetAlignmentOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetLayoutInputForAxis
-  // Il2CppName: SetLayoutInputForAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(float, float, float, int)>(&LayoutGroup::SetLayoutInputForAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetLayoutInputForAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxis
-  // Il2CppName: SetChildAlongAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float)>(&LayoutGroup::SetChildAlongAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxisWithScale
-  // Il2CppName: SetChildAlongAxisWithScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&LayoutGroup::SetChildAlongAxisWithScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxis
-  // Il2CppName: SetChildAlongAxis
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&LayoutGroup::SetChildAlongAxis)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxisWithScale
-  // Il2CppName: SetChildAlongAxisWithScale
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float, float)>(&LayoutGroup::SetChildAlongAxisWithScale)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::get_isRootLayoutGroup
-  // Il2CppName: get_isRootLayoutGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LayoutGroup::*)()>(&LayoutGroup::get_isRootLayoutGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_isRootLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::OnTransformChildrenChanged
-  // Il2CppName: OnTransformChildrenChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnTransformChildrenChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnTransformChildrenChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::SetProperty
-  // Il2CppName: SetProperty
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: LayoutGroup::SetDirty
-  // Il2CppName: SetDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::SetDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::DelayedSetDirty
-  // Il2CppName: DelayedSetDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (LayoutGroup::*)(UnityEngine::RectTransform*)>(&LayoutGroup::DelayedSetDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "DelayedSetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::OnDidApplyAnimationProperties
-  // Il2CppName: OnDidApplyAnimationProperties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnDidApplyAnimationProperties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LayoutGroup::OnRectTransformDimensionsChange
-  // Il2CppName: OnRectTransformDimensionsChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnRectTransformDimensionsChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
+// Writing MetadataGetter for method: LayoutGroup::get_padding
+// Il2CppName: get_padding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (LayoutGroup::*)()>(&LayoutGroup::get_padding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::set_padding
+// Il2CppName: set_padding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectOffset*)>(&LayoutGroup::set_padding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectOffset*>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_childAlignment
+// Il2CppName: get_childAlignment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAnchor (LayoutGroup::*)()>(&LayoutGroup::get_childAlignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::set_childAlignment
+// Il2CppName: set_childAlignment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::TextAnchor)>(&LayoutGroup::set_childAlignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "set_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_rectTransform
+// Il2CppName: get_rectTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (LayoutGroup::*)()>(&LayoutGroup::get_rectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_rectChildren
+// Il2CppName: get_rectChildren
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::RectTransform*>* (LayoutGroup::*)()>(&LayoutGroup::get_rectChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_rectChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::CalculateLayoutInputHorizontal
+// Il2CppName: CalculateLayoutInputHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::CalculateLayoutInputVertical
+// Il2CppName: CalculateLayoutInputVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_minWidth
+// Il2CppName: get_minWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_minWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_preferredWidth
+// Il2CppName: get_preferredWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_preferredWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_flexibleWidth
+// Il2CppName: get_flexibleWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_flexibleWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_minHeight
+// Il2CppName: get_minHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_minHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_preferredHeight
+// Il2CppName: get_preferredHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_preferredHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_flexibleHeight
+// Il2CppName: get_flexibleHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)()>(&LayoutGroup::get_flexibleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_layoutPriority
+// Il2CppName: get_layoutPriority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LayoutGroup::*)()>(&LayoutGroup::get_layoutPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetLayoutHorizontal
+// Il2CppName: SetLayoutHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetLayoutVertical
+// Il2CppName: SetLayoutVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::GetTotalMinSize
+// Il2CppName: GetTotalMinSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetTotalMinSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetTotalMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::GetTotalPreferredSize
+// Il2CppName: GetTotalPreferredSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetTotalPreferredSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetTotalPreferredSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::GetTotalFlexibleSize
+// Il2CppName: GetTotalFlexibleSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetTotalFlexibleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetTotalFlexibleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::GetStartOffset
+// Il2CppName: GetStartOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int, float)>(&LayoutGroup::GetStartOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::GetAlignmentOnAxis
+// Il2CppName: GetAlignmentOnAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LayoutGroup::*)(int)>(&LayoutGroup::GetAlignmentOnAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "GetAlignmentOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetLayoutInputForAxis
+// Il2CppName: SetLayoutInputForAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(float, float, float, int)>(&LayoutGroup::SetLayoutInputForAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetLayoutInputForAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxis
+// Il2CppName: SetChildAlongAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float)>(&LayoutGroup::SetChildAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxisWithScale
+// Il2CppName: SetChildAlongAxisWithScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&LayoutGroup::SetChildAlongAxisWithScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxis
+// Il2CppName: SetChildAlongAxis
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&LayoutGroup::SetChildAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetChildAlongAxisWithScale
+// Il2CppName: SetChildAlongAxisWithScale
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float, float)>(&LayoutGroup::SetChildAlongAxisWithScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::get_isRootLayoutGroup
+// Il2CppName: get_isRootLayoutGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LayoutGroup::*)()>(&LayoutGroup::get_isRootLayoutGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "get_isRootLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::OnTransformChildrenChanged
+// Il2CppName: OnTransformChildrenChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnTransformChildrenChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnTransformChildrenChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::SetProperty
+// Il2CppName: SetProperty
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: LayoutGroup::SetDirty
+// Il2CppName: SetDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::SetDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::DelayedSetDirty
+// Il2CppName: DelayedSetDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (LayoutGroup::*)(UnityEngine::RectTransform*)>(&LayoutGroup::DelayedSetDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "DelayedSetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::OnDidApplyAnimationProperties
+// Il2CppName: OnDidApplyAnimationProperties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnDidApplyAnimationProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LayoutGroup::OnRectTransformDimensionsChange
+// Il2CppName: OnRectTransformDimensionsChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LayoutGroup::*)()>(&LayoutGroup::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LayoutGroup*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

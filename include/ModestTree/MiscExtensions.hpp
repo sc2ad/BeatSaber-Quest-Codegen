@@ -118,42 +118,42 @@ namespace ModestTree {
     }
   }; // ModestTree.MiscExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MiscExtensions::Fmt
-  // Il2CppName: Fmt
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&MiscExtensions::Fmt)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MiscExtensions*), "Fmt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MiscExtensions::IndexOf
-  // Il2CppName: IndexOf
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: MiscExtensions::Join
-  // Il2CppName: Join
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, ::Il2CppString*)>(&MiscExtensions::Join)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MiscExtensions*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MiscExtensions::AllocFreeAddRange
-  // Il2CppName: AllocFreeAddRange
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
-  // Il2CppName: RemoveWithConfirm
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
-  // Il2CppName: RemoveWithConfirm
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
-  // Il2CppName: RemoveWithConfirm
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
-  // Il2CppName: RemoveWithConfirm
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: MiscExtensions::GetValueAndRemove
-  // Il2CppName: GetValueAndRemove
-  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
+// Writing MetadataGetter for method: MiscExtensions::Fmt
+// Il2CppName: Fmt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&MiscExtensions::Fmt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MiscExtensions*), "Fmt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: MiscExtensions::IndexOf
+// Il2CppName: IndexOf
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: MiscExtensions::Join
+// Il2CppName: Join
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, ::Il2CppString*)>(&MiscExtensions::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MiscExtensions*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MiscExtensions::AllocFreeAddRange
+// Il2CppName: AllocFreeAddRange
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
+// Il2CppName: RemoveWithConfirm
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
+// Il2CppName: RemoveWithConfirm
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
+// Il2CppName: RemoveWithConfirm
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: MiscExtensions::RemoveWithConfirm
+// Il2CppName: RemoveWithConfirm
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: MiscExtensions::GetValueAndRemove
+// Il2CppName: GetValueAndRemove
+// Cannot write MetadataGetter for generic methods!

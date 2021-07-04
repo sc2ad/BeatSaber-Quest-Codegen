@@ -29,14 +29,14 @@ namespace GlobalNamespace {
     static UnityEngine::Texture2D* GetTexture2D(UnityEngine::RenderTexture* rt);
   }; // RenderTextureExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RenderTextureExtensions::GetTexture2D
-  // Il2CppName: GetTexture2D
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*)>(&RenderTextureExtensions::GetTexture2D)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RenderTextureExtensions*), "GetTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureExtensions*, "", "RenderTextureExtensions");
+// Writing MetadataGetter for method: RenderTextureExtensions::GetTexture2D
+// Il2CppName: GetTexture2D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*)>(&RenderTextureExtensions::GetTexture2D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderTextureExtensions*), "GetTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+  }
+};

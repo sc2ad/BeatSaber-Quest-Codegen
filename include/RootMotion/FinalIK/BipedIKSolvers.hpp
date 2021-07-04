@@ -122,43 +122,43 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(BipedIKSolvers), 88 + sizeof(::Array<RootMotion::FinalIK::IKSolver*>*)> __RootMotion_FinalIK_BipedIKSolversSizeCheck;
   static_assert(sizeof(BipedIKSolvers) == 0x60);
-  // Writing MetadataGetter for method: BipedIKSolvers::get_limbs
-  // Il2CppName: get_limbs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolverLimb*>* (BipedIKSolvers::*)()>(&BipedIKSolvers::get_limbs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), "get_limbs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIKSolvers::get_ikSolvers
-  // Il2CppName: get_ikSolvers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver*>* (BipedIKSolvers::*)()>(&BipedIKSolvers::get_ikSolvers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), "get_ikSolvers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIKSolvers::AssignReferences
-  // Il2CppName: AssignReferences
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIKSolvers::*)(RootMotion::BipedReferences*)>(&BipedIKSolvers::AssignReferences)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), "AssignReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BipedIKSolvers::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIKSolvers::*)()>(&BipedIKSolvers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIKSolvers::*)()>(&BipedIKSolvers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIKSolvers*, "RootMotion.FinalIK", "BipedIKSolvers");
+// Writing MetadataGetter for method: BipedIKSolvers::get_limbs
+// Il2CppName: get_limbs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolverLimb*>* (BipedIKSolvers::*)()>(&BipedIKSolvers::get_limbs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), "get_limbs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIKSolvers::get_ikSolvers
+// Il2CppName: get_ikSolvers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver*>* (BipedIKSolvers::*)()>(&BipedIKSolvers::get_ikSolvers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), "get_ikSolvers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BipedIKSolvers::AssignReferences
+// Il2CppName: AssignReferences
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIKSolvers::*)(RootMotion::BipedReferences*)>(&BipedIKSolvers::AssignReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), "AssignReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>()});
+  }
+};
+// Writing MetadataGetter for method: BipedIKSolvers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIKSolvers::*)()>(&BipedIKSolvers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedIKSolvers::*)()>(&BipedIKSolvers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BipedIKSolvers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

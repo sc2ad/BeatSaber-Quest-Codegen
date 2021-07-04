@@ -21,14 +21,14 @@ namespace UnityEngine {
     void PreloadDataDontStripMe();
   }; // UnityEngine.PreloadData
   #pragma pack(pop)
-  // Writing MetadataGetter for method: PreloadData::PreloadDataDontStripMe
-  // Il2CppName: PreloadDataDontStripMe
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreloadData::*)()>(&PreloadData::PreloadDataDontStripMe)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PreloadData*), "PreloadDataDontStripMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PreloadData*, "UnityEngine", "PreloadData");
+// Writing MetadataGetter for method: PreloadData::PreloadDataDontStripMe
+// Il2CppName: PreloadDataDontStripMe
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreloadData::*)()>(&PreloadData::PreloadDataDontStripMe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PreloadData*), "PreloadDataDontStripMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

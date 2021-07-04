@@ -174,158 +174,158 @@ namespace UnityEngine::ProBuilder {
     static void _cctor();
   }; // UnityEngine.ProBuilder.Log
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Log::PushLogLevel
-  // Il2CppName: PushLogLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::LogLevel)>(&Log::PushLogLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "PushLogLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::LogLevel>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::PopLogLevel
-  // Il2CppName: PopLogLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Log::PopLogLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "PopLogLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Log::SetLogLevel
-  // Il2CppName: SetLogLevel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::LogLevel)>(&Log::SetLogLevel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "SetLogLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::LogLevel>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::SetOutput
-  // Il2CppName: SetOutput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::LogOutput)>(&Log::SetOutput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "SetOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::LogOutput>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::SetLogFile
-  // Il2CppName: SetLogFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::SetLogFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "SetLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Debug
-  // Il2CppName: Debug
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Log::Debug
-  // Il2CppName: Debug
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Debug)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Debug
-  // Il2CppName: Debug
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Debug)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Info
-  // Il2CppName: Info
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Info)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Info
-  // Il2CppName: Info
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Info)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Warning
-  // Il2CppName: Warning
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Warning)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Warning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Warning
-  // Il2CppName: Warning
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Warning)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Warning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Error
-  // Il2CppName: Error
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Error)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Error
-  // Il2CppName: Error
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Error)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::Watch
-  // Il2CppName: Watch
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Log::DoPrint
-  // Il2CppName: DoPrint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType)>(&Log::DoPrint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "DoPrint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::PrintToFile
-  // Il2CppName: PrintToFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&Log::PrintToFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "PrintToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::ClearLogFile
-  // Il2CppName: ClearLogFile
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Log::ClearLogFile)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "ClearLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Log::PrintToConsole
-  // Il2CppName: PrintToConsole
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType)>(&Log::PrintToConsole)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), "PrintToConsole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
-    }
-  };
-  // Writing MetadataGetter for method: Log::NotNull
-  // Il2CppName: NotNull
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: Log::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Log::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Log*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Log*, "UnityEngine.ProBuilder", "Log");
+// Writing MetadataGetter for method: Log::PushLogLevel
+// Il2CppName: PushLogLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::LogLevel)>(&Log::PushLogLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "PushLogLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::LogLevel>()});
+  }
+};
+// Writing MetadataGetter for method: Log::PopLogLevel
+// Il2CppName: PopLogLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Log::PopLogLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "PopLogLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Log::SetLogLevel
+// Il2CppName: SetLogLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::LogLevel)>(&Log::SetLogLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "SetLogLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::LogLevel>()});
+  }
+};
+// Writing MetadataGetter for method: Log::SetOutput
+// Il2CppName: SetOutput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::LogOutput)>(&Log::SetOutput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "SetOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::LogOutput>()});
+  }
+};
+// Writing MetadataGetter for method: Log::SetLogFile
+// Il2CppName: SetLogFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::SetLogFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "SetLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Debug
+// Il2CppName: Debug
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Log::Debug
+// Il2CppName: Debug
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Debug)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Debug
+// Il2CppName: Debug
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Debug)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Info
+// Il2CppName: Info
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Info)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Info
+// Il2CppName: Info
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Info)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Warning
+// Il2CppName: Warning
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Warning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Warning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Warning
+// Il2CppName: Warning
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Warning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Warning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Error
+// Il2CppName: Error
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Error
+// Il2CppName: Error
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Log::Error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::Watch
+// Il2CppName: Watch
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Log::DoPrint
+// Il2CppName: DoPrint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType)>(&Log::DoPrint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "DoPrint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+  }
+};
+// Writing MetadataGetter for method: Log::PrintToFile
+// Il2CppName: PrintToFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&Log::PrintToFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "PrintToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: Log::ClearLogFile
+// Il2CppName: ClearLogFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Log::ClearLogFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "ClearLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Log::PrintToConsole
+// Il2CppName: PrintToConsole
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType)>(&Log::PrintToConsole)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), "PrintToConsole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+  }
+};
+// Writing MetadataGetter for method: Log::NotNull
+// Il2CppName: NotNull
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: Log::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Log::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Log*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -41,14 +41,14 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(GUITargetAttribute), 16 + sizeof(int)> __UnityEngine_GUITargetAttributeSizeCheck;
   static_assert(sizeof(GUITargetAttribute) == 0x14);
-  // Writing MetadataGetter for method: GUITargetAttribute::GetGUITargetAttrValue
-  // Il2CppName: GetGUITargetAttrValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, ::Il2CppString*)>(&GUITargetAttribute::GetGUITargetAttrValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(GUITargetAttribute*), "GetGUITargetAttrValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUITargetAttribute*, "UnityEngine", "GUITargetAttribute");
+// Writing MetadataGetter for method: GUITargetAttribute::GetGUITargetAttrValue
+// Il2CppName: GetGUITargetAttrValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, ::Il2CppString*)>(&GUITargetAttribute::GetGUITargetAttrValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GUITargetAttribute*), "GetGUITargetAttrValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

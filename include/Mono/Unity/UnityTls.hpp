@@ -81,30 +81,30 @@ namespace Mono::Unity {
     static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
   }; // Mono.Unity.UnityTls
   #pragma pack(pop)
-  // Writing MetadataGetter for method: UnityTls::GetUnityTlsInterface
-  // Il2CppName: GetUnityTlsInterface
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityTls::GetUnityTlsInterface)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTls*), "GetUnityTlsInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTls::get_IsSupported
-  // Il2CppName: get_IsSupported
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityTls::get_IsSupported)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTls*), "get_IsSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTls::get_NativeInterface
-  // Il2CppName: get_NativeInterface
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_interface_struct* (*)()>(&UnityTls::get_NativeInterface)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTls*), "get_NativeInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
+// Writing MetadataGetter for method: UnityTls::GetUnityTlsInterface
+// Il2CppName: GetUnityTlsInterface
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityTls::GetUnityTlsInterface)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTls*), "GetUnityTlsInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTls::get_IsSupported
+// Il2CppName: get_IsSupported
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityTls::get_IsSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTls*), "get_IsSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityTls::get_NativeInterface
+// Il2CppName: get_NativeInterface
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_interface_struct* (*)()>(&UnityTls::get_NativeInterface)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTls*), "get_NativeInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

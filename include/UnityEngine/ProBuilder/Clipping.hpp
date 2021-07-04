@@ -34,22 +34,22 @@ namespace UnityEngine::ProBuilder {
     static bool RectContainsLineSegment(UnityEngine::Rect rect, float x0, float y0, float x1, float y1);
   }; // UnityEngine.ProBuilder.Clipping
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Clipping::ComputeOutCode
-  // Il2CppName: ComputeOutCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Clipping::OutCode (*)(UnityEngine::Rect, float, float)>(&Clipping::ComputeOutCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Clipping*), "ComputeOutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: Clipping::RectContainsLineSegment
-  // Il2CppName: RectContainsLineSegment
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, float, float, float, float)>(&Clipping::RectContainsLineSegment)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Clipping*), "RectContainsLineSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Clipping*, "UnityEngine.ProBuilder", "Clipping");
+// Writing MetadataGetter for method: Clipping::ComputeOutCode
+// Il2CppName: ComputeOutCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Clipping::OutCode (*)(UnityEngine::Rect, float, float)>(&Clipping::ComputeOutCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Clipping*), "ComputeOutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Clipping::RectContainsLineSegment
+// Il2CppName: RectContainsLineSegment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, float, float, float, float)>(&Clipping::RectContainsLineSegment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Clipping*), "RectContainsLineSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

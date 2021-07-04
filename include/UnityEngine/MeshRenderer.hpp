@@ -32,22 +32,22 @@ namespace UnityEngine {
     UnityEngine::Mesh* get_additionalVertexStreams();
   }; // UnityEngine.MeshRenderer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MeshRenderer::DontStripMeshRenderer
-  // Il2CppName: DontStripMeshRenderer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshRenderer::*)()>(&MeshRenderer::DontStripMeshRenderer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshRenderer*), "DontStripMeshRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MeshRenderer::get_additionalVertexStreams
-  // Il2CppName: get_additionalVertexStreams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshRenderer::*)()>(&MeshRenderer::get_additionalVertexStreams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MeshRenderer*), "get_additionalVertexStreams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshRenderer*, "UnityEngine", "MeshRenderer");
+// Writing MetadataGetter for method: MeshRenderer::DontStripMeshRenderer
+// Il2CppName: DontStripMeshRenderer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshRenderer::*)()>(&MeshRenderer::DontStripMeshRenderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshRenderer*), "DontStripMeshRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MeshRenderer::get_additionalVertexStreams
+// Il2CppName: get_additionalVertexStreams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (MeshRenderer::*)()>(&MeshRenderer::get_additionalVertexStreams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MeshRenderer*), "get_additionalVertexStreams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

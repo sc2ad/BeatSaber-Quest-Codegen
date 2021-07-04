@@ -29,14 +29,14 @@ namespace GlobalNamespace {
     static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::Array<float>* distances);
   }; // Ray2DExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: Ray2DExtensions::CircleIntersections
-  // Il2CppName: CircleIntersections
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::Array<float>*)>(&Ray2DExtensions::CircleIntersections)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Ray2DExtensions*), "CircleIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions");
+// Writing MetadataGetter for method: Ray2DExtensions::CircleIntersections
+// Il2CppName: CircleIntersections
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::Array<float>*)>(&Ray2DExtensions::CircleIntersections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ray2DExtensions*), "CircleIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};

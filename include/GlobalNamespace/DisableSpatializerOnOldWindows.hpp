@@ -52,19 +52,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DisableSpatializerOnOldWindows), 24 + sizeof(UnityEngine::AudioSource*)> __GlobalNamespace_DisableSpatializerOnOldWindowsSizeCheck;
   static_assert(sizeof(DisableSpatializerOnOldWindows) == 0x20);
-  // Writing MetadataGetter for method: DisableSpatializerOnOldWindows::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableSpatializerOnOldWindows::*)()>(&DisableSpatializerOnOldWindows::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisableSpatializerOnOldWindows*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableSpatializerOnOldWindows::*)()>(&DisableSpatializerOnOldWindows::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DisableSpatializerOnOldWindows*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableSpatializerOnOldWindows*, "", "DisableSpatializerOnOldWindows");
+// Writing MetadataGetter for method: DisableSpatializerOnOldWindows::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableSpatializerOnOldWindows::*)()>(&DisableSpatializerOnOldWindows::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableSpatializerOnOldWindows*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableSpatializerOnOldWindows::*)()>(&DisableSpatializerOnOldWindows::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableSpatializerOnOldWindows*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

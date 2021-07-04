@@ -86,83 +86,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(WaypointData), 28 + sizeof(GlobalNamespace::NoteLineLayer)> __GlobalNamespace_WaypointDataSizeCheck;
   static_assert(sizeof(WaypointData) == 0x20);
-  // Writing MetadataGetter for method: WaypointData::get_offsetDirection
-  // Il2CppName: get_offsetDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OffsetDirection (WaypointData::*)()>(&WaypointData::get_offsetDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "get_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::set_offsetDirection
-  // Il2CppName: set_offsetDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(GlobalNamespace::OffsetDirection)>(&WaypointData::set_offsetDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "set_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::get_noteLineLayer
-  // Il2CppName: get_noteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (WaypointData::*)()>(&WaypointData::get_noteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::set_noteLineLayer
-  // Il2CppName: set_noteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(GlobalNamespace::NoteLineLayer)>(&WaypointData::set_noteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&WaypointData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&WaypointData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::MirrorTransformOffsetDirection
-  // Il2CppName: MirrorTransformOffsetDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)()>(&WaypointData::MirrorTransformOffsetDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "MirrorTransformOffsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::get_beatmapObjectType
-  // Il2CppName: get_beatmapObjectType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectType (WaypointData::*)()>(&WaypointData::get_beatmapObjectType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "get_beatmapObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::GetCopy
-  // Il2CppName: GetCopy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectData* (WaypointData::*)()>(&WaypointData::GetCopy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: WaypointData::MirrorLineIndex
-  // Il2CppName: MirrorLineIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(int)>(&WaypointData::MirrorLineIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(WaypointData*), "MirrorLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointData*, "", "WaypointData");
+// Writing MetadataGetter for method: WaypointData::get_offsetDirection
+// Il2CppName: get_offsetDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OffsetDirection (WaypointData::*)()>(&WaypointData::get_offsetDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "get_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::set_offsetDirection
+// Il2CppName: set_offsetDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(GlobalNamespace::OffsetDirection)>(&WaypointData::set_offsetDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "set_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::get_noteLineLayer
+// Il2CppName: get_noteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (WaypointData::*)()>(&WaypointData::get_noteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::set_noteLineLayer
+// Il2CppName: set_noteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(GlobalNamespace::NoteLineLayer)>(&WaypointData::set_noteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&WaypointData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&WaypointData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::MirrorTransformOffsetDirection
+// Il2CppName: MirrorTransformOffsetDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)()>(&WaypointData::MirrorTransformOffsetDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "MirrorTransformOffsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::get_beatmapObjectType
+// Il2CppName: get_beatmapObjectType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectType (WaypointData::*)()>(&WaypointData::get_beatmapObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "get_beatmapObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::GetCopy
+// Il2CppName: GetCopy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectData* (WaypointData::*)()>(&WaypointData::GetCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: WaypointData::MirrorLineIndex
+// Il2CppName: MirrorLineIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointData::*)(int)>(&WaypointData::MirrorLineIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(WaypointData*), "MirrorLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

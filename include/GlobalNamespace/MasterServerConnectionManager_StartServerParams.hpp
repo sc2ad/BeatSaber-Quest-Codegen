@@ -88,19 +88,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MasterServerConnectionManager::StartServerParams), 88 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_MasterServerConnectionManager_StartServerParamsSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager::StartServerParams) == 0x70);
-  // Writing MetadataGetter for method: MasterServerConnectionManager::StartServerParams::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerConnectionManager::StartServerParams::*)()>(&MasterServerConnectionManager::StartServerParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MasterServerConnectionManager::StartServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerConnectionManager::StartServerParams::*)()>(&MasterServerConnectionManager::StartServerParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MasterServerConnectionManager::StartServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::StartServerParams*, "", "MasterServerConnectionManager/StartServerParams");
+// Writing MetadataGetter for method: MasterServerConnectionManager::StartServerParams::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerConnectionManager::StartServerParams::*)()>(&MasterServerConnectionManager::StartServerParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServerConnectionManager::StartServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerConnectionManager::StartServerParams::*)()>(&MasterServerConnectionManager::StartServerParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServerConnectionManager::StartServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

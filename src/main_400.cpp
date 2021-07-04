@@ -62,84 +62,6 @@ void MasterServer::BaseConnectToServerRequest::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: BaseConnectToServerRequest::get_userId
-// Il2CppName: get_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::get_userId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::set_userId
-// Il2CppName: set_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(::Il2CppString*)>(&BaseConnectToServerRequest::set_userId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::get_userName
-// Il2CppName: get_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::get_userName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::set_userName
-// Il2CppName: set_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(::Il2CppString*)>(&BaseConnectToServerRequest::set_userName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::WithEncryptionParams
-// Il2CppName: WithEncryptionParams
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseConnectToServerRequest* (BaseConnectToServerRequest::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&BaseConnectToServerRequest::WithEncryptionParams)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "WithEncryptionParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&BaseConnectToServerRequest::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&BaseConnectToServerRequest::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: BaseConnectToServerRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -186,60 +108,6 @@ void MasterServer::ConnectToUserServerRequest::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: ConnectToUserServerRequest::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::ConnectToUserServerRequest*>* (*)()>(&ConnectToUserServerRequest::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToUserServerRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToUserServerRequest::Init
-// Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToUserServerRequest* (ConnectToUserServerRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool)>(&ConnectToUserServerRequest::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToUserServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToUserServerRequest::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToUserServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectToUserServerRequest::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToUserServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToUserServerRequest::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToUserServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectToUserServerRequest::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToUserServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToUserServerRequest::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToUserServerRequest::*)()>(&ConnectToUserServerRequest::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToUserServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToUserServerRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToUserServerRequest::*)()>(&ConnectToUserServerRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToUserServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToUserServerRequest::*)()>(&ConnectToUserServerRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToUserServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -310,84 +178,6 @@ void MasterServer::ConnectToServerResponse::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: ConnectToServerResponse::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IVersionedPacketPool_1<MasterServer::ConnectToServerResponse*>* (*)()>(&ConnectToServerResponse::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::InitForFailure
-// Il2CppName: InitForFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerResponse* (ConnectToServerResponse::*)(MasterServer::ConnectToServerResponse::Result)>(&ConnectToServerResponse::InitForFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ConnectToServerResponse::Result>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::InitForSuccess
-// Il2CppName: InitForSuccess
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerResponse* (ConnectToServerResponse::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration, bool, bool, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&ConnectToServerResponse::InitForSuccess)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::get_resultCode
-// Il2CppName: get_resultCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (ConnectToServerResponse::*)()>(&ConnectToServerResponse::get_resultCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::get_resultCodeString
-// Il2CppName: get_resultCodeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConnectToServerResponse::*)()>(&ConnectToServerResponse::get_resultCodeString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectToServerResponse::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectToServerResponse::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::*)()>(&ConnectToServerResponse::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::*)()>(&ConnectToServerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::*)()>(&ConnectToServerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -530,36 +320,6 @@ void MasterServer::ConnectToServerResponse::V3::Deserialize(LiteNetLib::Utils::N
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Deserialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader);
 }
-// Writing MetadataGetter for method: ConnectToServerResponse::V3::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::V3::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectToServerResponse::V3::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse::V3*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::V3::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::V3::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectToServerResponse::V3::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse::V3*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToServerResponse::V3::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::V3::*)()>(&ConnectToServerResponse::V3::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToServerResponse::V3::*)()>(&ConnectToServerResponse::V3::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToServerResponse::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -608,60 +368,6 @@ void MasterServer::ConnectToMatchmakingServerRequest::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IVersionedPacketPool_1<MasterServer::ConnectToMatchmakingServerRequest*>* (*)()>(&ConnectToMatchmakingServerRequest::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Init
-// Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToMatchmakingServerRequest* (ConnectToMatchmakingServerRequest::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&ConnectToMatchmakingServerRequest::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectToMatchmakingServerRequest::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectToMatchmakingServerRequest::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)()>(&ConnectToMatchmakingServerRequest::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)()>(&ConnectToMatchmakingServerRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)()>(&ConnectToMatchmakingServerRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -687,36 +393,6 @@ void MasterServer::ConnectToMatchmakingServerRequest::V3::Deserialize(LiteNetLib
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Deserialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader);
 }
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::V3::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectToMatchmakingServerRequest::V3::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest::V3*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::V3::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectToMatchmakingServerRequest::V3::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest::V3*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::V3::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::V3::*)()>(&ConnectToMatchmakingServerRequest::V3::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::V3::*)()>(&ConnectToMatchmakingServerRequest::V3::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest::V3*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -767,60 +443,6 @@ void MasterServer::PrepareForConnectionRequest::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: PrepareForConnectionRequest::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::PrepareForConnectionRequest*>* (*)()>(&PrepareForConnectionRequest::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Init
-// Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::PrepareForConnectionRequest* (PrepareForConnectionRequest::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&PrepareForConnectionRequest::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&PrepareForConnectionRequest::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&PrepareForConnectionRequest::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)()>(&PrepareForConnectionRequest::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PrepareForConnectionRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)()>(&PrepareForConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)()>(&PrepareForConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -891,92 +513,6 @@ void MasterServer::GetPublicUserServersRequest::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: GetPublicUserServersRequest::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::GetPublicUserServersRequest*>* (*)()>(&GetPublicUserServersRequest::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::get_userId
-// Il2CppName: get_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GetPublicUserServersRequest::*)()>(&GetPublicUserServersRequest::get_userId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::set_userId
-// Il2CppName: set_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersRequest::*)(::Il2CppString*)>(&GetPublicUserServersRequest::set_userId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::get_userName
-// Il2CppName: get_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GetPublicUserServersRequest::*)()>(&GetPublicUserServersRequest::get_userName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::set_userName
-// Il2CppName: set_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersRequest::*)(::Il2CppString*)>(&GetPublicUserServersRequest::set_userName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::Init
-// Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::GetPublicUserServersRequest* (GetPublicUserServersRequest::*)(::Il2CppString*, ::Il2CppString*, int, int, GlobalNamespace::GameplayServerFilter)>(&GetPublicUserServersRequest::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFilter>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&GetPublicUserServersRequest::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&GetPublicUserServersRequest::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersRequest::*)()>(&GetPublicUserServersRequest::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersRequest::*)()>(&GetPublicUserServersRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersRequest::*)()>(&GetPublicUserServersRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1045,84 +581,6 @@ void MasterServer::GetPublicUserServersResponse::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: GetPublicUserServersResponse::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::GetPublicUserServersResponse*>* (*)()>(&GetPublicUserServersResponse::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::InitForFailure
-// Il2CppName: InitForFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::GetPublicUserServersResponse* (GetPublicUserServersResponse::*)(MasterServer::GetPublicUserServersResponse::Result)>(&GetPublicUserServersResponse::InitForFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::GetPublicUserServersResponse::Result>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::InitForSuccess
-// Il2CppName: InitForSuccess
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::GetPublicUserServersResponse* (GetPublicUserServersResponse::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::PublicServerInfo>*)>(&GetPublicUserServersResponse::InitForSuccess)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<GlobalNamespace::PublicServerInfo>*>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::get_resultCode
-// Il2CppName: get_resultCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GetPublicUserServersResponse::*)()>(&GetPublicUserServersResponse::get_resultCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::get_resultCodeString
-// Il2CppName: get_resultCodeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GetPublicUserServersResponse::*)()>(&GetPublicUserServersResponse::get_resultCodeString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&GetPublicUserServersResponse::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&GetPublicUserServersResponse::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersResponse::*)()>(&GetPublicUserServersResponse::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GetPublicUserServersResponse::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersResponse::*)()>(&GetPublicUserServersResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetPublicUserServersResponse::*)()>(&GetPublicUserServersResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetPublicUserServersResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1179,36 +637,6 @@ void MasterServer::UserMessageReceivedAcknowledge::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: UserMessageReceivedAcknowledge::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserMessageReceivedAcknowledge*>* (*)()>(&UserMessageReceivedAcknowledge::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMessageReceivedAcknowledge*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UserMessageReceivedAcknowledge::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageReceivedAcknowledge::*)()>(&UserMessageReceivedAcknowledge::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMessageReceivedAcknowledge*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UserMessageReceivedAcknowledge::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageReceivedAcknowledge::*)()>(&UserMessageReceivedAcknowledge::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMessageReceivedAcknowledge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageReceivedAcknowledge::*)()>(&UserMessageReceivedAcknowledge::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMessageReceivedAcknowledge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1232,36 +660,6 @@ void MasterServer::UserMultipartMessage::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: UserMultipartMessage::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserMultipartMessage*>* (*)()>(&UserMultipartMessage::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UserMultipartMessage::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMultipartMessage::*)()>(&UserMultipartMessage::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: UserMultipartMessage::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMultipartMessage::*)()>(&UserMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMultipartMessage::*)()>(&UserMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1301,52 +699,6 @@ void MasterServer::SessionKeepaliveMessage::Release() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SessionKeepaliveMessage::get_pool
-// Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::SessionKeepaliveMessage*>* (*)()>(&SessionKeepaliveMessage::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SessionKeepaliveMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SessionKeepaliveMessage::Serialize
-// Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SessionKeepaliveMessage::*)(LiteNetLib::Utils::NetDataWriter*)>(&SessionKeepaliveMessage::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SessionKeepaliveMessage*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
-// Writing MetadataGetter for method: SessionKeepaliveMessage::Deserialize
-// Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SessionKeepaliveMessage::*)(LiteNetLib::Utils::NetDataReader*)>(&SessionKeepaliveMessage::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SessionKeepaliveMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
-// Writing MetadataGetter for method: SessionKeepaliveMessage::Release
-// Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SessionKeepaliveMessage::*)()>(&SessionKeepaliveMessage::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SessionKeepaliveMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SessionKeepaliveMessage::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SessionKeepaliveMessage::*)()>(&SessionKeepaliveMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SessionKeepaliveMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SessionKeepaliveMessage::*)()>(&SessionKeepaliveMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SessionKeepaliveMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1375,30 +727,6 @@ void Microsoft::Extensions::Logging::ILogger::LogWarning(::Il2CppString* message
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LogWarning", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
 }
-// Writing MetadataGetter for method: ILogger::LogError
-// Il2CppName: LogError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILogger::*)(::Il2CppString*)>(&ILogger::LogError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ILogger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: ILogger::LogInformation
-// Il2CppName: LogInformation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILogger::*)(::Il2CppString*)>(&ILogger::LogInformation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ILogger*), "LogInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: ILogger::LogWarning
-// Il2CppName: LogWarning
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILogger::*)(::Il2CppString*)>(&ILogger::LogWarning)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ILogger*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1509,70 +837,6 @@ Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Anssi::An
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Anssi", "AnssiNamedCurves", "GetOid", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::DerObjectIdentifier*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name);
 }
-// Writing MetadataGetter for method: AnssiNamedCurves::ConfigureBasepoint
-// Il2CppName: ConfigureBasepoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Il2CppString*)>(&AnssiNamedCurves::ConfigureBasepoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), "ConfigureBasepoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::ConfigureCurve
-// Il2CppName: ConfigureCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&AnssiNamedCurves::ConfigureCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::FromHex
-// Il2CppName: FromHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&AnssiNamedCurves::FromHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::DefineCurve
-// Il2CppName: DefineCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&AnssiNamedCurves::DefineCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), "DefineCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>()});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnssiNamedCurves::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::GetByName
-// Il2CppName: GetByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&AnssiNamedCurves::GetByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::GetByOid
-// Il2CppName: GetByOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&AnssiNamedCurves::GetByOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::GetOid
-// Il2CppName: GetOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&AnssiNamedCurves::GetOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1608,36 +872,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Anssi::Ans
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: AnssiNamedCurves::Frp256v1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnssiNamedCurves::Frp256v1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::Frp256v1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnssiNamedCurves::Frp256v1Holder::*)()>(&AnssiNamedCurves::Frp256v1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnssiNamedCurves::Frp256v1Holder::*)()>(&AnssiNamedCurves::Frp256v1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AnssiNamedCurves::Frp256v1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (AnssiNamedCurves::Frp256v1Holder::*)()>(&AnssiNamedCurves::Frp256v1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1661,36 +895,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X9ECPa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: X9ECParametersHolder::get_Parameters
-// Il2CppName: get_Parameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (X9ECParametersHolder::*)()>(&X9ECParametersHolder::get_Parameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: X9ECParametersHolder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (X9ECParametersHolder::*)()>(&X9ECParametersHolder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: X9ECParametersHolder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X9ECParametersHolder::*)()>(&X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X9ECParametersHolder::*)()>(&X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1720,14 +924,6 @@ void Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Anssi", "AnssiObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: AnssiObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnssiObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnssiObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2177,14 +1373,6 @@ void Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.BC", "BCObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: BCObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BCObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BCObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2202,14 +1390,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::IAsn1Convertible::
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: IAsn1Convertible::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (IAsn1Convertible::*)()>(&IAsn1Convertible::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAsn1Convertible*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2258,68 +1438,6 @@ bool Org::BouncyCastle::Asn1::Asn1Encodable::Equals(::Il2CppObject* obj) {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
 }
-// Writing MetadataGetter for method: Asn1Encodable::GetEncoded
-// Il2CppName: GetEncoded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Asn1Encodable::*)()>(&Asn1Encodable::GetEncoded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Asn1Encodable::GetEncoded
-// Il2CppName: GetEncoded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Asn1Encodable::*)(::Il2CppString*)>(&Asn1Encodable::GetEncoded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: Asn1Encodable::GetDerEncoded
-// Il2CppName: GetDerEncoded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Asn1Encodable::*)()>(&Asn1Encodable::GetDerEncoded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), "GetDerEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Asn1Encodable::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Asn1Encodable::*)()>(&Asn1Encodable::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Asn1Encodable::GetHashCode
-// Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Asn1Encodable::*)()>(&Asn1Encodable::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Asn1Encodable::Equals
-// Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Asn1Encodable::*)(::Il2CppObject*)>(&Asn1Encodable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Asn1Encodable::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1Encodable::*)()>(&Asn1Encodable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1Encodable::*)()>(&Asn1Encodable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Encodable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2613,14 +1731,6 @@ void Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Bsi", "BsiObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: BsiObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BsiObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BsiObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2683,84 +1793,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Asn1Object::ToAsn1
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: Asn1Object::FromByteArray
-// Il2CppName: FromByteArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(::Array<uint8_t>*)>(&Asn1Object::FromByteArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::FromStream
-// Il2CppName: FromStream
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(System::IO::Stream*)>(&Asn1Object::FromStream)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "FromStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::Encode
-// Il2CppName: Encode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1Object::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&Asn1Object::Encode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::Asn1Equals
-// Il2CppName: Asn1Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Asn1Object::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&Asn1Object::Asn1Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::Asn1GetHashCode
-// Il2CppName: Asn1GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Asn1Object::*)()>(&Asn1Object::Asn1GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::CallAsn1Equals
-// Il2CppName: CallAsn1Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Asn1Object::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&Asn1Object::CallAsn1Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "CallAsn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::CallAsn1GetHashCode
-// Il2CppName: CallAsn1GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Asn1Object::*)()>(&Asn1Object::CallAsn1GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "CallAsn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Asn1Object::*)()>(&Asn1Object::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Asn1Object::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1Object::*)()>(&Asn1Object::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1Object::*)()>(&Asn1Object::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1Object*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2777,14 +1809,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1O
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: IAsn1String::GetString
-// Il2CppName: GetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAsn1String::*)()>(&IAsn1String::GetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAsn1String*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2813,44 +1837,6 @@ int Org::BouncyCastle::Asn1::DerStringBase::Asn1GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Asn1GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DerStringBase::GetString
-// Il2CppName: GetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerStringBase::*)()>(&DerStringBase::GetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerStringBase*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerStringBase::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerStringBase::*)()>(&DerStringBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerStringBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerStringBase::*)()>(&DerStringBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerStringBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerStringBase::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerStringBase::*)()>(&DerStringBase::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerStringBase*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerStringBase::Asn1GetHashCode
-// Il2CppName: Asn1GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerStringBase::*)()>(&DerStringBase::Asn1GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerStringBase*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2943,122 +1929,6 @@ bool Org::BouncyCastle::Asn1::DerBitString::Asn1Equals(Org::BouncyCastle::Asn1::
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DerBitString::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (*)(::Il2CppObject*)>(&DerBitString::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&DerBitString::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBitString::*)(::Array<uint8_t>*, int)>(&DerBitString::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBitString::*)(::Array<uint8_t>*, int)>(&DerBitString::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBitString::*)(::Array<uint8_t>*)>(&DerBitString::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBitString::*)(::Array<uint8_t>*)>(&DerBitString::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::GetOctets
-// Il2CppName: GetOctets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DerBitString::*)()>(&DerBitString::GetOctets)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::GetBytes
-// Il2CppName: GetBytes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DerBitString::*)()>(&DerBitString::GetBytes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::get_PadBits
-// Il2CppName: get_PadBits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerBitString::*)()>(&DerBitString::get_PadBits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "get_PadBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::FromAsn1Octets
-// Il2CppName: FromAsn1Octets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (*)(::Array<uint8_t>*)>(&DerBitString::FromAsn1Octets)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "FromAsn1Octets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DerBitString::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::Encode
-// Il2CppName: Encode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBitString::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerBitString::Encode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::Asn1GetHashCode
-// Il2CppName: Asn1GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerBitString::*)()>(&DerBitString::Asn1GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::Asn1Equals
-// Il2CppName: Asn1Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerBitString::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerBitString::Asn1Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
-  }
-};
-// Writing MetadataGetter for method: DerBitString::GetString
-// Il2CppName: GetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerBitString::*)()>(&DerBitString::GetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerBitString*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3087,36 +1957,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::ContentInfo::
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: ContentInfo::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Cms::ContentInfo* (*)(::Il2CppObject*)>(&ContentInfo::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: ContentInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: ContentInfo::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (ContentInfo::*)()>(&ContentInfo::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3211,166 +2051,6 @@ bool Org::BouncyCastle::Asn1::DerInteger::Asn1Equals(Org::BouncyCastle::Asn1::As
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DerInteger::AllowUnsafe
-// Il2CppName: AllowUnsafe
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&DerInteger::AllowUnsafe)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "AllowUnsafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (*)(::Il2CppObject*)>(&DerInteger::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&DerInteger::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(int)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(int)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(Org::BouncyCastle::Math::BigInteger*)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(Org::BouncyCastle::Math::BigInteger*)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(::Array<uint8_t>*)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(::Array<uint8_t>*)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(::Array<uint8_t>*, bool)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(::Array<uint8_t>*, bool)>(&DerInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::get_PositiveValue
-// Il2CppName: get_PositiveValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DerInteger::*)()>(&DerInteger::get_PositiveValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "get_PositiveValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::get_Value
-// Il2CppName: get_Value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DerInteger::*)()>(&DerInteger::get_Value)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::get_IntValueExact
-// Il2CppName: get_IntValueExact
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerInteger::*)()>(&DerInteger::get_IntValueExact)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "get_IntValueExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::IntValue
-// Il2CppName: IntValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int)>(&DerInteger::IntValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "IntValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::IsMalformed
-// Il2CppName: IsMalformed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*)>(&DerInteger::IsMalformed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "IsMalformed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::SignBytesToSkip
-// Il2CppName: SignBytesToSkip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*)>(&DerInteger::SignBytesToSkip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "SignBytesToSkip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::Encode
-// Il2CppName: Encode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerInteger::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerInteger::Encode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::Asn1GetHashCode
-// Il2CppName: Asn1GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerInteger::*)()>(&DerInteger::Asn1GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::Asn1Equals
-// Il2CppName: Asn1Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerInteger::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerInteger::Asn1Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
-  }
-};
-// Writing MetadataGetter for method: DerInteger::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerInteger::*)()>(&DerInteger::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3664,14 +2344,6 @@ void Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.CryptoPro", "CryptoProObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: CryptoProObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CryptoProObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoProObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3760,46 +2432,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::CryptoPro:
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.CryptoPro", "ECGost3410NamedCurves", "GetByNameX9", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name);
 }
-// Writing MetadataGetter for method: ECGost3410NamedCurves::ConfigureBasepoint
-// Il2CppName: ConfigureBasepoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&ECGost3410NamedCurves::ConfigureBasepoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECGost3410NamedCurves*), "ConfigureBasepoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
-// Writing MetadataGetter for method: ECGost3410NamedCurves::ConfigureCurve
-// Il2CppName: ConfigureCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&ECGost3410NamedCurves::ConfigureCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECGost3410NamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
-  }
-};
-// Writing MetadataGetter for method: ECGost3410NamedCurves::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ECGost3410NamedCurves::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECGost3410NamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ECGost3410NamedCurves::GetByOidX9
-// Il2CppName: GetByOidX9
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&ECGost3410NamedCurves::GetByOidX9)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECGost3410NamedCurves*), "GetByOidX9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-  }
-};
-// Writing MetadataGetter for method: ECGost3410NamedCurves::GetByNameX9
-// Il2CppName: GetByNameX9
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&ECGost3410NamedCurves::GetByNameX9)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECGost3410NamedCurves*), "GetByNameX9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3887,22 +2519,6 @@ Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* Org::BouncyCastl
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.CryptoPro", "Gost3410NamedParameters", "GetByOid", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(oid)})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, oid);
 }
-// Writing MetadataGetter for method: Gost3410NamedParameters::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Gost3410NamedParameters::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410NamedParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Gost3410NamedParameters::GetByOid
-// Il2CppName: GetByOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Gost3410NamedParameters::GetByOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410NamedParameters*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3942,52 +2558,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::CryptoPro::Gost341
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: Gost3410ParamSetParameters::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3410ParamSetParameters::*)(int, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&Gost3410ParamSetParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410ParamSetParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3410ParamSetParameters::*)(int, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&Gost3410ParamSetParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410ParamSetParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
-// Writing MetadataGetter for method: Gost3410ParamSetParameters::get_P
-// Il2CppName: get_P
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Gost3410ParamSetParameters::*)()>(&Gost3410ParamSetParameters::get_P)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410ParamSetParameters*), "get_P", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Gost3410ParamSetParameters::get_Q
-// Il2CppName: get_Q
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Gost3410ParamSetParameters::*)()>(&Gost3410ParamSetParameters::get_Q)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410ParamSetParameters*), "get_Q", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Gost3410ParamSetParameters::get_A
-// Il2CppName: get_A
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Gost3410ParamSetParameters::*)()>(&Gost3410ParamSetParameters::get_A)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410ParamSetParameters*), "get_A", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Gost3410ParamSetParameters::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Gost3410ParamSetParameters::*)()>(&Gost3410ParamSetParameters::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410ParamSetParameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4034,60 +2604,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::CryptoPro::Gost341
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* (*)(::Il2CppObject*)>(&Gost3410PublicKeyAlgParameters::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3410PublicKeyAlgParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Gost3410PublicKeyAlgParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3410PublicKeyAlgParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Gost3410PublicKeyAlgParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::get_PublicKeyParamSet
-// Il2CppName: get_PublicKeyParamSet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::get_PublicKeyParamSet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "get_PublicKeyParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::get_DigestParamSet
-// Il2CppName: get_DigestParamSet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::get_DigestParamSet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "get_DigestParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::get_EncryptionParamSet
-// Il2CppName: get_EncryptionParamSet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::get_EncryptionParamSet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "get_EncryptionParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4357,14 +2873,6 @@ void Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Eac", "EacObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: EacObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&EacObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EacObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4442,14 +2950,6 @@ void Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.EdEC", "EdECObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: EdECObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&EdECObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdECObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4562,70 +3062,6 @@ Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::GM::GMNam
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.GM", "GMNamedCurves", "GetOid", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::DerObjectIdentifier*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name);
 }
-// Writing MetadataGetter for method: GMNamedCurves::ConfigureBasepoint
-// Il2CppName: ConfigureBasepoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Il2CppString*)>(&GMNamedCurves::ConfigureBasepoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), "ConfigureBasepoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::ConfigureCurve
-// Il2CppName: ConfigureCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&GMNamedCurves::ConfigureCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::FromHex
-// Il2CppName: FromHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&GMNamedCurves::FromHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::DefineCurve
-// Il2CppName: DefineCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&GMNamedCurves::DefineCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), "DefineCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>()});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GMNamedCurves::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::GetByName
-// Il2CppName: GetByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&GMNamedCurves::GetByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::GetByOid
-// Il2CppName: GetByOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&GMNamedCurves::GetByOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::GetOid
-// Il2CppName: GetOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&GMNamedCurves::GetOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4661,36 +3097,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::GM::GMName
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: GMNamedCurves::SM2P256V1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GMNamedCurves::SM2P256V1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::SM2P256V1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::SM2P256V1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GMNamedCurves::SM2P256V1Holder::*)()>(&GMNamedCurves::SM2P256V1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::SM2P256V1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GMNamedCurves::SM2P256V1Holder::*)()>(&GMNamedCurves::SM2P256V1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::SM2P256V1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::SM2P256V1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (GMNamedCurves::SM2P256V1Holder::*)()>(&GMNamedCurves::SM2P256V1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::SM2P256V1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -4726,36 +3132,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::GM::GMName
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: GMNamedCurves::WapiP192V1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GMNamedCurves::WapiP192V1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::WapiP192V1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::WapiP192V1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GMNamedCurves::WapiP192V1Holder::*)()>(&GMNamedCurves::WapiP192V1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::WapiP192V1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GMNamedCurves::WapiP192V1Holder::*)()>(&GMNamedCurves::WapiP192V1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::WapiP192V1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GMNamedCurves::WapiP192V1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (GMNamedCurves::WapiP192V1Holder::*)()>(&GMNamedCurves::WapiP192V1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMNamedCurves::WapiP192V1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5553,14 +3929,6 @@ void Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.GM", "GMObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: GMObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GMObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GMObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5638,14 +4006,6 @@ void Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Iana", "IanaObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: IanaObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&IanaObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IanaObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -5687,14 +4047,6 @@ void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Kisa", "KisaObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: KisaObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KisaObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KisaObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6181,14 +4533,6 @@ void Org::BouncyCastle::Asn1::Misc::MiscObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Misc", "MiscObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: MiscObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MiscObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MiscObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6205,28 +4549,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: NetscapeCertType::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetscapeCertType::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&NetscapeCertType::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeCertType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetscapeCertType::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&NetscapeCertType::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeCertType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
-  }
-};
-// Writing MetadataGetter for method: NetscapeCertType::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetscapeCertType::*)()>(&NetscapeCertType::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeCertType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6289,112 +4611,6 @@ bool Org::BouncyCastle::Asn1::DerIA5String::Asn1Equals(Org::BouncyCastle::Asn1::
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Asn1Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(asn1Object)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, asn1Object);
 }
-// Writing MetadataGetter for method: DerIA5String::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerIA5String* (*)(::Il2CppObject*)>(&DerIA5String::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerIA5String* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&DerIA5String::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerIA5String::*)(::Array<uint8_t>*)>(&DerIA5String::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerIA5String::*)(::Array<uint8_t>*)>(&DerIA5String::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerIA5String::*)(::Il2CppString*)>(&DerIA5String::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerIA5String::*)(::Il2CppString*)>(&DerIA5String::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerIA5String::*)(::Il2CppString*, bool)>(&DerIA5String::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerIA5String::*)(::Il2CppString*, bool)>(&DerIA5String::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::GetOctets
-// Il2CppName: GetOctets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DerIA5String::*)()>(&DerIA5String::GetOctets)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::IsIA5String
-// Il2CppName: IsIA5String
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&DerIA5String::IsIA5String)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "IsIA5String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::GetString
-// Il2CppName: GetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerIA5String::*)()>(&DerIA5String::GetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::Encode
-// Il2CppName: Encode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerIA5String::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerIA5String::Encode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::Asn1GetHashCode
-// Il2CppName: Asn1GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerIA5String::*)()>(&DerIA5String::Asn1GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerIA5String::Asn1Equals
-// Il2CppName: Asn1Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerIA5String::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerIA5String::Asn1Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerIA5String*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6411,28 +4627,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerIA
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: NetscapeRevocationUrl::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetscapeRevocationUrl::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&NetscapeRevocationUrl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeRevocationUrl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetscapeRevocationUrl::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&NetscapeRevocationUrl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeRevocationUrl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
-  }
-};
-// Writing MetadataGetter for method: NetscapeRevocationUrl::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetscapeRevocationUrl::*)()>(&NetscapeRevocationUrl::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeRevocationUrl*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6449,28 +4643,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: VerisignCzagExtension::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
-  }
-};
-// Writing MetadataGetter for method: VerisignCzagExtension::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VerisignCzagExtension::*)()>(&VerisignCzagExtension::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6541,46 +4713,6 @@ Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Nist::Nis
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Nist", "NistNamedCurves", "GetOid", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::DerObjectIdentifier*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name);
 }
-// Writing MetadataGetter for method: NistNamedCurves::DefineCurveAlias
-// Il2CppName: DefineCurveAlias
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&NistNamedCurves::DefineCurveAlias)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "DefineCurveAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-  }
-};
-// Writing MetadataGetter for method: NistNamedCurves::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NistNamedCurves::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: NistNamedCurves::GetByName
-// Il2CppName: GetByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&NistNamedCurves::GetByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: NistNamedCurves::GetByOid
-// Il2CppName: GetByOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&NistNamedCurves::GetByOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-  }
-};
-// Writing MetadataGetter for method: NistNamedCurves::GetOid
-// Il2CppName: GetOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&NistNamedCurves::GetOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7330,14 +5462,6 @@ void Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Nist", "NistObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: NistObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NistObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7427,14 +5551,6 @@ void Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Ntt", "NttObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: NttObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NttObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NttObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7509,98 +5625,6 @@ int Org::BouncyCastle::Asn1::DerEnumerated::Asn1GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Asn1GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DerEnumerated::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::Il2CppObject*)>(&DerEnumerated::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(int)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(int)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(::Array<uint8_t>*)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(::Array<uint8_t>*)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::get_Value
-// Il2CppName: get_Value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DerEnumerated::*)()>(&DerEnumerated::get_Value)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::get_IntValueExact
-// Il2CppName: get_IntValueExact
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerEnumerated::*)()>(&DerEnumerated::get_IntValueExact)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "get_IntValueExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::FromOctetString
-// Il2CppName: FromOctetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::Array<uint8_t>*)>(&DerEnumerated::FromOctetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DerEnumerated::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::Encode
-// Il2CppName: Encode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerEnumerated::Encode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::Asn1Equals
-// Il2CppName: Asn1Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerEnumerated::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerEnumerated::Asn1Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
-  }
-};
-// Writing MetadataGetter for method: DerEnumerated::Asn1GetHashCode
-// Il2CppName: Asn1GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerEnumerated::*)()>(&DerEnumerated::Asn1GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7636,44 +5660,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Oiw::ElGamalParame
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: ElGamalParameter::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ElGamalParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ElGamalParameter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElGamalParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ElGamalParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ElGamalParameter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElGamalParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: ElGamalParameter::get_P
-// Il2CppName: get_P
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ElGamalParameter::*)()>(&ElGamalParameter::get_P)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElGamalParameter*), "get_P", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ElGamalParameter::get_G
-// Il2CppName: get_G
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ElGamalParameter::*)()>(&ElGamalParameter::get_G)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElGamalParameter*), "get_G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ElGamalParameter::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (ElGamalParameter::*)()>(&ElGamalParameter::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElGamalParameter*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7835,14 +5821,6 @@ void Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Oiw", "OiwObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: OiwObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OiwObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OiwObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7885,52 +5863,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::AttributePkc
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: AttributePkcs::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* (*)(::Il2CppObject*)>(&AttributePkcs::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AttributePkcs*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AttributePkcs::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributePkcs::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&AttributePkcs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AttributePkcs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AttributePkcs::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&AttributePkcs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AttributePkcs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: AttributePkcs::get_AttrType
-// Il2CppName: get_AttrType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (AttributePkcs::*)()>(&AttributePkcs::get_AttrType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AttributePkcs*), "get_AttrType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AttributePkcs::get_AttrValues
-// Il2CppName: get_AttrValues
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Set* (AttributePkcs::*)()>(&AttributePkcs::get_AttrValues)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AttributePkcs*), "get_AttrValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AttributePkcs::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (AttributePkcs::*)()>(&AttributePkcs::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AttributePkcs*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -7956,28 +5888,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Certificatio
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: CertificationRequest::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificationRequest::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificationRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificationRequest::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificationRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: CertificationRequest::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (CertificationRequest::*)()>(&CertificationRequest::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequest*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8018,44 +5928,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Certificatio
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: CertificationRequestInfo::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* (*)(::Il2CppObject*)>(&CertificationRequestInfo::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequestInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: CertificationRequestInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificationRequestInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificationRequestInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequestInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificationRequestInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&CertificationRequestInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequestInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: CertificationRequestInfo::ValidateAttributes
-// Il2CppName: ValidateAttributes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Asn1::Asn1Set*)>(&CertificationRequestInfo::ValidateAttributes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequestInfo*), "ValidateAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Set*>()});
-  }
-};
-// Writing MetadataGetter for method: CertificationRequestInfo::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (CertificationRequestInfo::*)()>(&CertificationRequestInfo::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificationRequestInfo*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8084,36 +5956,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::ContentInfo:
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: ContentInfo::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::ContentInfo* (*)(::Il2CppObject*)>(&ContentInfo::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: ContentInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ContentInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ContentInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: ContentInfo::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (ContentInfo::*)()>(&ContentInfo::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentInfo*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8155,52 +5997,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::DHParameter:
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: DHParameter::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&DHParameter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&DHParameter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: DHParameter::get_P
-// Il2CppName: get_P
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DHParameter::*)()>(&DHParameter::get_P)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHParameter*), "get_P", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DHParameter::get_G
-// Il2CppName: get_G
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DHParameter::*)()>(&DHParameter::get_G)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHParameter*), "get_G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DHParameter::get_L
-// Il2CppName: get_L
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DHParameter::*)()>(&DHParameter::get_L)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHParameter*), "get_L", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: DHParameter::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (DHParameter::*)()>(&DHParameter::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHParameter*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8243,52 +6039,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::EncryptedPri
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: EncryptedPrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptedPrivateKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&EncryptedPrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptedPrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptedPrivateKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&EncryptedPrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptedPrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: EncryptedPrivateKeyInfo::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* (*)(::Il2CppObject*)>(&EncryptedPrivateKeyInfo::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptedPrivateKeyInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: EncryptedPrivateKeyInfo::get_EncryptionAlgorithm
-// Il2CppName: get_EncryptionAlgorithm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (EncryptedPrivateKeyInfo::*)()>(&EncryptedPrivateKeyInfo::get_EncryptionAlgorithm)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptedPrivateKeyInfo*), "get_EncryptionAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: EncryptedPrivateKeyInfo::GetEncryptedData
-// Il2CppName: GetEncryptedData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (EncryptedPrivateKeyInfo::*)()>(&EncryptedPrivateKeyInfo::GetEncryptedData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptedPrivateKeyInfo*), "GetEncryptedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: EncryptedPrivateKeyInfo::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (EncryptedPrivateKeyInfo::*)()>(&EncryptedPrivateKeyInfo::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptedPrivateKeyInfo*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8337,74 +6087,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::AlgorithmIde
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: AlgorithmIdentifier::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&AlgorithmIdentifier::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-// Writing MetadataGetter for method: AlgorithmIdentifier::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::Il2CppObject*)>(&AlgorithmIdentifier::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: AlgorithmIdentifier::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlgorithmIdentifier::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&AlgorithmIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlgorithmIdentifier::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&AlgorithmIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-// Writing MetadataGetter for method: AlgorithmIdentifier::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlgorithmIdentifier::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&AlgorithmIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlgorithmIdentifier::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&AlgorithmIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: AlgorithmIdentifier::get_Algorithm
-// Il2CppName: get_Algorithm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (AlgorithmIdentifier::*)()>(&AlgorithmIdentifier::get_Algorithm)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AlgorithmIdentifier::get_Parameters
-// Il2CppName: get_Parameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Encodable* (AlgorithmIdentifier::*)()>(&AlgorithmIdentifier::get_Parameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: AlgorithmIdentifier::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (AlgorithmIdentifier::*)()>(&AlgorithmIdentifier::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlgorithmIdentifier*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8433,50 +6115,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::EncryptionSc
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: EncryptionScheme::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* (*)(::Il2CppObject*)>(&EncryptionScheme::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptionScheme*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: EncryptionScheme::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionScheme::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&EncryptionScheme::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptionScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionScheme::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&EncryptionScheme::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptionScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-// Writing MetadataGetter for method: EncryptionScheme::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionScheme::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&EncryptionScheme::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptionScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionScheme::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&EncryptionScheme::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptionScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: EncryptionScheme::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (EncryptionScheme::*)()>(&EncryptionScheme::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncryptionScheme*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8490,34 +6128,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Writing MetadataGetter for method: KeyDerivationFunc::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyDerivationFunc::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&KeyDerivationFunc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KeyDerivationFunc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyDerivationFunc::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&KeyDerivationFunc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KeyDerivationFunc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: KeyDerivationFunc::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyDerivationFunc::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&KeyDerivationFunc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KeyDerivationFunc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyDerivationFunc::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&KeyDerivationFunc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KeyDerivationFunc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8562,52 +6172,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::PbeParameter
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: PbeParameter::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PbeParameter* (*)(::Il2CppObject*)>(&PbeParameter::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeParameter*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: PbeParameter::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeParameter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeParameter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: PbeParameter::GetSalt
-// Il2CppName: GetSalt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PbeParameter::*)()>(&PbeParameter::GetSalt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeParameter*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PbeParameter::get_IterationCount
-// Il2CppName: get_IterationCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (PbeParameter::*)()>(&PbeParameter::get_IterationCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeParameter*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PbeParameter::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (PbeParameter::*)()>(&PbeParameter::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeParameter*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8650,52 +6214,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::PbeS2Paramet
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: PbeS2Parameters::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* (*)(::Il2CppObject*)>(&PbeS2Parameters::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: PbeS2Parameters::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeS2Parameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeS2Parameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PbeS2Parameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PbeS2Parameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: PbeS2Parameters::get_KeyDerivationFunc
-// Il2CppName: get_KeyDerivationFunc
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* (PbeS2Parameters::*)()>(&PbeS2Parameters::get_KeyDerivationFunc)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "get_KeyDerivationFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PbeS2Parameters::get_EncryptionScheme
-// Il2CppName: get_EncryptionScheme
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* (PbeS2Parameters::*)()>(&PbeS2Parameters::get_EncryptionScheme)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "get_EncryptionScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PbeS2Parameters::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (PbeS2Parameters::*)()>(&PbeS2Parameters::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PbeS2Parameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8778,84 +6296,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: Pbkdf2Params::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* (*)(::Il2CppObject*)>(&Pbkdf2Params::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::GetSalt
-// Il2CppName: GetSalt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Pbkdf2Params::*)()>(&Pbkdf2Params::GetSalt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::get_IterationCount
-// Il2CppName: get_IterationCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_IterationCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::get_KeyLength
-// Il2CppName: get_KeyLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_KeyLength)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_KeyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::get_IsDefaultPrf
-// Il2CppName: get_IsDefaultPrf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Pbkdf2Params::*)()>(&Pbkdf2Params::get_IsDefaultPrf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_IsDefaultPrf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::get_Prf
-// Il2CppName: get_Prf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_Prf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_Prf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Pbkdf2Params::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pbkdf2Params::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Pbkdf2Params::*)()>(&Pbkdf2Params::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -8900,52 +6340,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbePar
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: Pkcs12PbeParams::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs12PbeParams::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pkcs12PbeParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs12PbeParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs12PbeParams::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pkcs12PbeParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs12PbeParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: Pkcs12PbeParams::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* (*)(::Il2CppObject*)>(&Pkcs12PbeParams::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs12PbeParams*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: Pkcs12PbeParams::get_Iterations
-// Il2CppName: get_Iterations
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Pkcs12PbeParams::*)()>(&Pkcs12PbeParams::get_Iterations)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs12PbeParams*), "get_Iterations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pkcs12PbeParams::GetIV
-// Il2CppName: GetIV
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Pkcs12PbeParams::*)()>(&Pkcs12PbeParams::GetIV)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs12PbeParams*), "GetIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Pkcs12PbeParams::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Pkcs12PbeParams::*)()>(&Pkcs12PbeParams::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs12PbeParams*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -10528,14 +7922,6 @@ void Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::_cctor() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Pkcs", "PkcsObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: PkcsObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PkcsObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PkcsObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -10596,96 +7982,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::PrivateKeyIn
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: PrivateKeyInfo::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::Il2CppObject*)>(&PrivateKeyInfo::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::GetVersionValue
-// Il2CppName: GetVersionValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Asn1::DerInteger*)>(&PrivateKeyInfo::GetVersionValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), "GetVersionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerInteger*>()});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&PrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&PrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*, Org::BouncyCastle::Asn1::Asn1Set*, ::Array<uint8_t>*)>(&PrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Set*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::Asn1Encodable*, Org::BouncyCastle::Asn1::Asn1Set*, ::Array<uint8_t>*)>(&PrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Set*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&PrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::get_PrivateKeyAlgorithm
-// Il2CppName: get_PrivateKeyAlgorithm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (PrivateKeyInfo::*)()>(&PrivateKeyInfo::get_PrivateKeyAlgorithm)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), "get_PrivateKeyAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::get_PrivateKeyData
-// Il2CppName: get_PrivateKeyData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (PrivateKeyInfo::*)()>(&PrivateKeyInfo::get_PrivateKeyData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), "get_PrivateKeyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::ParsePrivateKey
-// Il2CppName: ParsePrivateKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (PrivateKeyInfo::*)()>(&PrivateKeyInfo::ParsePrivateKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), "ParsePrivateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: PrivateKeyInfo::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (PrivateKeyInfo::*)()>(&PrivateKeyInfo::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfo*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -10722,44 +8018,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::RC2CbcParame
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: RC2CbcParameter::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* (*)(::Il2CppObject*)>(&RC2CbcParameter::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CbcParameter*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: RC2CbcParameter::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC2CbcParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RC2CbcParameter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CbcParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC2CbcParameter::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RC2CbcParameter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CbcParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: RC2CbcParameter::GetIV
-// Il2CppName: GetIV
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RC2CbcParameter::*)()>(&RC2CbcParameter::GetIV)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CbcParameter*), "GetIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RC2CbcParameter::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (RC2CbcParameter::*)()>(&RC2CbcParameter::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CbcParameter*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -10836,100 +8094,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKe
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* (*)(::Il2CppObject*)>(&RsaPrivateKeyStructure::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsaPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsaPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsaPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsaPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Modulus
-// Il2CppName: get_Modulus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Modulus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Modulus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_PublicExponent
-// Il2CppName: get_PublicExponent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_PublicExponent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_PublicExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_PrivateExponent
-// Il2CppName: get_PrivateExponent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_PrivateExponent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_PrivateExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Prime1
-// Il2CppName: get_Prime1
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Prime1)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Prime1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Prime2
-// Il2CppName: get_Prime2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Prime2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Prime2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Exponent1
-// Il2CppName: get_Exponent1
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Exponent1)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Exponent1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Exponent2
-// Il2CppName: get_Exponent2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Exponent2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Exponent2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::get_Coefficient
-// Il2CppName: get_Coefficient
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::get_Coefficient)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "get_Coefficient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsaPrivateKeyStructure::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (RsaPrivateKeyStructure::*)()>(&RsaPrivateKeyStructure::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsaPrivateKeyStructure*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -11020,66 +8184,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::RsassaPssPar
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: RsassaPssParameters::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* (*)(::Il2CppObject*)>(&RsassaPssParameters::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: RsassaPssParameters::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsassaPssParameters::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::DerInteger*, Org::BouncyCastle::Asn1::DerInteger*)>(&RsassaPssParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerInteger*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsassaPssParameters::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, Org::BouncyCastle::Asn1::DerInteger*, Org::BouncyCastle::Asn1::DerInteger*)>(&RsassaPssParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerInteger*>()});
-  }
-};
-// Writing MetadataGetter for method: RsassaPssParameters::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsassaPssParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsassaPssParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RsassaPssParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&RsassaPssParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: RsassaPssParameters::get_HashAlgorithm
-// Il2CppName: get_HashAlgorithm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (RsassaPssParameters::*)()>(&RsassaPssParameters::get_HashAlgorithm)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), "get_HashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsassaPssParameters::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RsassaPssParameters::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: RsassaPssParameters::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (RsassaPssParameters::*)()>(&RsassaPssParameters::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RsassaPssParameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -11124,52 +8228,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::SignedData::
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SignedData::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::SignedData* (*)(::Il2CppObject*)>(&SignedData::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignedData*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: SignedData::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignedData::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&SignedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignedData::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&SignedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: SignedData::get_Certificates
-// Il2CppName: get_Certificates
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Set* (SignedData::*)()>(&SignedData::get_Certificates)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignedData*), "get_Certificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SignedData::get_Crls
-// Il2CppName: get_Crls
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Set* (SignedData::*)()>(&SignedData::get_Crls)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignedData*), "get_Crls", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SignedData::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (SignedData::*)()>(&SignedData::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignedData*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -11427,14 +8485,6 @@ void Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::_cctor(
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Rosstandart", "RosstandartObjectIdentifiers", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Writing MetadataGetter for method: RosstandartObjectIdentifiers::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RosstandartObjectIdentifiers::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RosstandartObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -11489,110 +8539,6 @@ Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyS
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToAsn1Object", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: ECPrivateKeyStructure::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* (*)(::Il2CppObject*)>(&ECPrivateKeyStructure::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(int, Org::BouncyCastle::Math::BigInteger*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(int, Org::BouncyCastle::Math::BigInteger*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(int, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(int, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(int, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Asn1::DerBitString*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPrivateKeyStructure::*)(int, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Asn1::DerBitString*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&ECPrivateKeyStructure::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::GetKey
-// Il2CppName: GetKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ECPrivateKeyStructure::*)()>(&ECPrivateKeyStructure::GetKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::GetPublicKey
-// Il2CppName: GetPublicKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (ECPrivateKeyStructure::*)()>(&ECPrivateKeyStructure::GetPublicKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), "GetPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::GetParameters
-// Il2CppName: GetParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (ECPrivateKeyStructure::*)()>(&ECPrivateKeyStructure::GetParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::GetObjectInTag
-// Il2CppName: GetObjectInTag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (ECPrivateKeyStructure::*)(int)>(&ECPrivateKeyStructure::GetObjectInTag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), "GetObjectInTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-// Writing MetadataGetter for method: ECPrivateKeyStructure::ToAsn1Object
-// Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (ECPrivateKeyStructure::*)()>(&ECPrivateKeyStructure::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPrivateKeyStructure*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -11775,78 +8721,6 @@ Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Sec::SecN
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Org.BouncyCastle.Asn1.Sec", "SecNamedCurves", "GetOid", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::DerObjectIdentifier*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name);
 }
-// Writing MetadataGetter for method: SecNamedCurves::ConfigureBasepoint
-// Il2CppName: ConfigureBasepoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Il2CppString*)>(&SecNamedCurves::ConfigureBasepoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "ConfigureBasepoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::ConfigureCurve
-// Il2CppName: ConfigureCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&SecNamedCurves::ConfigureCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::ConfigureCurveGlv
-// Il2CppName: ConfigureCurveGlv
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*)>(&SecNamedCurves::ConfigureCurveGlv)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "ConfigureCurveGlv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>()});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::FromHex
-// Il2CppName: FromHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&SecNamedCurves::FromHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::DefineCurve
-// Il2CppName: DefineCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&SecNamedCurves::DefineCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "DefineCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>()});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::GetByName
-// Il2CppName: GetByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&SecNamedCurves::GetByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::GetByOid
-// Il2CppName: GetByOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&SecNamedCurves::GetByOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::GetOid
-// Il2CppName: GetOid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&SecNamedCurves::GetOid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -11882,36 +8756,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp112r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp112r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp112r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp112r1Holder::*)()>(&SecNamedCurves::Secp112r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp112r1Holder::*)()>(&SecNamedCurves::Secp112r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp112r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp112r1Holder::*)()>(&SecNamedCurves::Secp112r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -11947,36 +8791,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp112r2Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp112r2Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r2Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp112r2Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp112r2Holder::*)()>(&SecNamedCurves::Secp112r2Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp112r2Holder::*)()>(&SecNamedCurves::Secp112r2Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp112r2Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp112r2Holder::*)()>(&SecNamedCurves::Secp112r2Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp112r2Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12012,36 +8826,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp128r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp128r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp128r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp128r1Holder::*)()>(&SecNamedCurves::Secp128r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp128r1Holder::*)()>(&SecNamedCurves::Secp128r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp128r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp128r1Holder::*)()>(&SecNamedCurves::Secp128r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12077,36 +8861,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp128r2Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp128r2Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r2Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp128r2Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp128r2Holder::*)()>(&SecNamedCurves::Secp128r2Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp128r2Holder::*)()>(&SecNamedCurves::Secp128r2Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp128r2Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp128r2Holder::*)()>(&SecNamedCurves::Secp128r2Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp128r2Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12142,36 +8896,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp160k1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12207,36 +8931,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp160r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp160r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp160r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160r1Holder::*)()>(&SecNamedCurves::Secp160r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160r1Holder::*)()>(&SecNamedCurves::Secp160r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp160r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp160r1Holder::*)()>(&SecNamedCurves::Secp160r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12272,36 +8966,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp160r2Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp160r2Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r2Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp160r2Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160r2Holder::*)()>(&SecNamedCurves::Secp160r2Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160r2Holder::*)()>(&SecNamedCurves::Secp160r2Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp160r2Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp160r2Holder::*)()>(&SecNamedCurves::Secp160r2Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160r2Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12337,36 +9001,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp192k1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp192k1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192k1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp192k1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp192k1Holder::*)()>(&SecNamedCurves::Secp192k1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp192k1Holder::*)()>(&SecNamedCurves::Secp192k1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp192k1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp192k1Holder::*)()>(&SecNamedCurves::Secp192k1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192k1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12402,36 +9036,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp192r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp192r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp192r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp192r1Holder::*)()>(&SecNamedCurves::Secp192r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp192r1Holder::*)()>(&SecNamedCurves::Secp192r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp192r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp192r1Holder::*)()>(&SecNamedCurves::Secp192r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp192r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12467,36 +9071,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp224k1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp224k1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224k1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp224k1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp224k1Holder::*)()>(&SecNamedCurves::Secp224k1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp224k1Holder::*)()>(&SecNamedCurves::Secp224k1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp224k1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp224k1Holder::*)()>(&SecNamedCurves::Secp224k1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224k1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12532,36 +9106,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp224r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp224r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp224r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp224r1Holder::*)()>(&SecNamedCurves::Secp224r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp224r1Holder::*)()>(&SecNamedCurves::Secp224r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp224r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp224r1Holder::*)()>(&SecNamedCurves::Secp224r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp224r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12597,36 +9141,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp256k1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp256k1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256k1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp256k1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp256k1Holder::*)()>(&SecNamedCurves::Secp256k1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp256k1Holder::*)()>(&SecNamedCurves::Secp256k1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp256k1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp256k1Holder::*)()>(&SecNamedCurves::Secp256k1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256k1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12662,36 +9176,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp256r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp256r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp256r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp256r1Holder::*)()>(&SecNamedCurves::Secp256r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp256r1Holder::*)()>(&SecNamedCurves::Secp256r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp256r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp256r1Holder::*)()>(&SecNamedCurves::Secp256r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp256r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12727,36 +9211,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp384r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp384r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp384r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp384r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp384r1Holder::*)()>(&SecNamedCurves::Secp384r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp384r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp384r1Holder::*)()>(&SecNamedCurves::Secp384r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp384r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp384r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp384r1Holder::*)()>(&SecNamedCurves::Secp384r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp384r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12792,36 +9246,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Secp521r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp521r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp521r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp521r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp521r1Holder::*)()>(&SecNamedCurves::Secp521r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp521r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp521r1Holder::*)()>(&SecNamedCurves::Secp521r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp521r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Secp521r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp521r1Holder::*)()>(&SecNamedCurves::Secp521r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp521r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12857,36 +9281,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect113r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect113r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect113r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect113r1Holder::*)()>(&SecNamedCurves::Sect113r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect113r1Holder::*)()>(&SecNamedCurves::Sect113r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect113r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect113r1Holder::*)()>(&SecNamedCurves::Sect113r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12922,36 +9316,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect113r2Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect113r2Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r2Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect113r2Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect113r2Holder::*)()>(&SecNamedCurves::Sect113r2Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect113r2Holder::*)()>(&SecNamedCurves::Sect113r2Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect113r2Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect113r2Holder::*)()>(&SecNamedCurves::Sect113r2Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect113r2Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -12987,36 +9351,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect131r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect131r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect131r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect131r1Holder::*)()>(&SecNamedCurves::Sect131r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect131r1Holder::*)()>(&SecNamedCurves::Sect131r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect131r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect131r1Holder::*)()>(&SecNamedCurves::Sect131r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -13052,36 +9386,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect131r2Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect131r2Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r2Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect131r2Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect131r2Holder::*)()>(&SecNamedCurves::Sect131r2Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect131r2Holder::*)()>(&SecNamedCurves::Sect131r2Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect131r2Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect131r2Holder::*)()>(&SecNamedCurves::Sect131r2Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect131r2Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -13117,36 +9421,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect163k1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect163k1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163k1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect163k1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect163k1Holder::*)()>(&SecNamedCurves::Sect163k1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect163k1Holder::*)()>(&SecNamedCurves::Sect163k1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect163k1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect163k1Holder::*)()>(&SecNamedCurves::Sect163k1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163k1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -13182,36 +9456,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect163r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect163r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect163r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect163r1Holder::*)()>(&SecNamedCurves::Sect163r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect163r1Holder::*)()>(&SecNamedCurves::Sect163r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect163r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect163r1Holder::*)()>(&SecNamedCurves::Sect163r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -13247,36 +9491,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect163r2Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect163r2Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r2Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect163r2Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect163r2Holder::*)()>(&SecNamedCurves::Sect163r2Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect163r2Holder::*)()>(&SecNamedCurves::Sect163r2Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect163r2Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect163r2Holder::*)()>(&SecNamedCurves::Sect163r2Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect163r2Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -13312,36 +9526,6 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect193r1Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect193r1Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect193r1Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect193r1Holder::*)()>(&SecNamedCurves::Sect193r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect193r1Holder::*)()>(&SecNamedCurves::Sect193r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect193r1Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect193r1Holder::*)()>(&SecNamedCurves::Sect193r1Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -13377,33 +9561,3 @@ Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Sec::SecNa
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateParameters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal__method);
 }
-// Writing MetadataGetter for method: SecNamedCurves::Sect193r2Holder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Sect193r2Holder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r2Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect193r2Holder::New_ctor
-// Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect193r2Holder::*)()>(&SecNamedCurves::Sect193r2Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Sect193r2Holder::*)()>(&SecNamedCurves::Sect193r2Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r2Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: SecNamedCurves::Sect193r2Holder::CreateParameters
-// Il2CppName: CreateParameters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Sect193r2Holder::*)()>(&SecNamedCurves::Sect193r2Holder::CreateParameters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Sect193r2Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};

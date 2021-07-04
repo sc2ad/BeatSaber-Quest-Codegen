@@ -109,59 +109,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EditableBeatmapSelectionView), 72 + sizeof(bool)> __GlobalNamespace_EditableBeatmapSelectionViewSizeCheck;
   static_assert(sizeof(EditableBeatmapSelectionView) == 0x49);
-  // Writing MetadataGetter for method: EditableBeatmapSelectionView::get_editButton
-  // Il2CppName: get_editButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::get_editButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "get_editButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EditableBeatmapSelectionView::get_clearButton
-  // Il2CppName: get_clearButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::get_clearButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "get_clearButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EditableBeatmapSelectionView::get_interactable
-  // Il2CppName: get_interactable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::get_interactable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: EditableBeatmapSelectionView::set_interactable
-  // Il2CppName: set_interactable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)(bool)>(&EditableBeatmapSelectionView::set_interactable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditableBeatmapSelectionView::SetBeatmap
-  // Il2CppName: SetBeatmap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)(GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&EditableBeatmapSelectionView::SetBeatmap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "SetBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
-    }
-  };
-  // Writing MetadataGetter for method: EditableBeatmapSelectionView::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableBeatmapSelectionView*, "", "EditableBeatmapSelectionView");
+// Writing MetadataGetter for method: EditableBeatmapSelectionView::get_editButton
+// Il2CppName: get_editButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::get_editButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "get_editButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EditableBeatmapSelectionView::get_clearButton
+// Il2CppName: get_clearButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::get_clearButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "get_clearButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EditableBeatmapSelectionView::get_interactable
+// Il2CppName: get_interactable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::get_interactable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EditableBeatmapSelectionView::set_interactable
+// Il2CppName: set_interactable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)(bool)>(&EditableBeatmapSelectionView::set_interactable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: EditableBeatmapSelectionView::SetBeatmap
+// Il2CppName: SetBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)(GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&EditableBeatmapSelectionView::SetBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), "SetBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+  }
+};
+// Writing MetadataGetter for method: EditableBeatmapSelectionView::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableBeatmapSelectionView::*)()>(&EditableBeatmapSelectionView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EditableBeatmapSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

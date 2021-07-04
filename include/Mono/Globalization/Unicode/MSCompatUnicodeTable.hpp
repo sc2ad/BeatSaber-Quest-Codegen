@@ -180,174 +180,174 @@ namespace Mono::Globalization::Unicode {
     static void FillCJKCore(::Il2CppString* culture, Mono::Globalization::Unicode::CodePointIndexer*& cjkIndexer, uint8_t*& catTable, uint8_t*& lv1Table, Mono::Globalization::Unicode::CodePointIndexer*& cjkLv2Indexer, uint8_t*& lv2Table);
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable
   #pragma pack(pop)
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::GetTailoringInfo
-  // Il2CppName: GetTailoringInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::TailoringInfo* (*)(int)>(&MSCompatUnicodeTable::GetTailoringInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "GetTailoringInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::BuildTailoringTables
-  // Il2CppName: BuildTailoringTables
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::TailoringInfo*, ::Array<Mono::Globalization::Unicode::Contraction*>*&, ::Array<Mono::Globalization::Unicode::Level2Map*>*&)>(&MSCompatUnicodeTable::BuildTailoringTables)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "BuildTailoringTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::TailoringInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Level2Map*>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::SetCJKReferences
-  // Il2CppName: SetCJKReferences
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&MSCompatUnicodeTable::SetCJKReferences)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "SetCJKReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::Category
-  // Il2CppName: Category
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Category)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::Level1
-  // Il2CppName: Level1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Level1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::Level2
-  // Il2CppName: Level2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Level2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::Level3
-  // Il2CppName: Level3
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Level3)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Level3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::IsIgnorable
-  // Il2CppName: IsIgnorable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, uint8_t)>(&MSCompatUnicodeTable::IsIgnorable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::IsIgnorableNonSpacing
-  // Il2CppName: IsIgnorableNonSpacing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&MSCompatUnicodeTable::IsIgnorableNonSpacing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsIgnorableNonSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::ToKanaTypeInsensitive
-  // Il2CppName: ToKanaTypeInsensitive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&MSCompatUnicodeTable::ToKanaTypeInsensitive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "ToKanaTypeInsensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::ToWidthCompat
-  // Il2CppName: ToWidthCompat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&MSCompatUnicodeTable::ToWidthCompat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "ToWidthCompat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::HasSpecialWeight
-  // Il2CppName: HasSpecialWeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::HasSpecialWeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "HasSpecialWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::IsHalfWidthKana
-  // Il2CppName: IsHalfWidthKana
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::IsHalfWidthKana)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsHalfWidthKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::IsHiragana
-  // Il2CppName: IsHiragana
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::IsHiragana)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsHiragana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::IsJapaneseSmallLetter
-  // Il2CppName: IsJapaneseSmallLetter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::IsJapaneseSmallLetter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsJapaneseSmallLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::get_IsReady
-  // Il2CppName: get_IsReady
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&MSCompatUnicodeTable::get_IsReady)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "get_IsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::GetResource
-  // Il2CppName: GetResource
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&MSCompatUnicodeTable::GetResource)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "GetResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::UInt32FromBytePtr
-  // Il2CppName: UInt32FromBytePtr
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint8_t*, uint)>(&MSCompatUnicodeTable::UInt32FromBytePtr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "UInt32FromBytePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MSCompatUnicodeTable::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::FillCJK
-  // Il2CppName: FillCJK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&MSCompatUnicodeTable::FillCJK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "FillCJK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: MSCompatUnicodeTable::FillCJKCore
-  // Il2CppName: FillCJKCore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&MSCompatUnicodeTable::FillCJKCore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "FillCJKCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
+// Writing MetadataGetter for method: MSCompatUnicodeTable::GetTailoringInfo
+// Il2CppName: GetTailoringInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::TailoringInfo* (*)(int)>(&MSCompatUnicodeTable::GetTailoringInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "GetTailoringInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::BuildTailoringTables
+// Il2CppName: BuildTailoringTables
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::TailoringInfo*, ::Array<Mono::Globalization::Unicode::Contraction*>*&, ::Array<Mono::Globalization::Unicode::Level2Map*>*&)>(&MSCompatUnicodeTable::BuildTailoringTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "BuildTailoringTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::TailoringInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Level2Map*>*&>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::SetCJKReferences
+// Il2CppName: SetCJKReferences
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&MSCompatUnicodeTable::SetCJKReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "SetCJKReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::Category
+// Il2CppName: Category
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Category)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::Level1
+// Il2CppName: Level1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Level1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::Level2
+// Il2CppName: Level2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Level2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::Level3
+// Il2CppName: Level3
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&MSCompatUnicodeTable::Level3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "Level3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::IsIgnorable
+// Il2CppName: IsIgnorable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, uint8_t)>(&MSCompatUnicodeTable::IsIgnorable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::IsIgnorableNonSpacing
+// Il2CppName: IsIgnorableNonSpacing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&MSCompatUnicodeTable::IsIgnorableNonSpacing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsIgnorableNonSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::ToKanaTypeInsensitive
+// Il2CppName: ToKanaTypeInsensitive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&MSCompatUnicodeTable::ToKanaTypeInsensitive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "ToKanaTypeInsensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::ToWidthCompat
+// Il2CppName: ToWidthCompat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&MSCompatUnicodeTable::ToWidthCompat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "ToWidthCompat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::HasSpecialWeight
+// Il2CppName: HasSpecialWeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::HasSpecialWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "HasSpecialWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::IsHalfWidthKana
+// Il2CppName: IsHalfWidthKana
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::IsHalfWidthKana)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsHalfWidthKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::IsHiragana
+// Il2CppName: IsHiragana
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::IsHiragana)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsHiragana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::IsJapaneseSmallLetter
+// Il2CppName: IsJapaneseSmallLetter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&MSCompatUnicodeTable::IsJapaneseSmallLetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "IsJapaneseSmallLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::get_IsReady
+// Il2CppName: get_IsReady
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&MSCompatUnicodeTable::get_IsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "get_IsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::GetResource
+// Il2CppName: GetResource
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&MSCompatUnicodeTable::GetResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "GetResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::UInt32FromBytePtr
+// Il2CppName: UInt32FromBytePtr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint8_t*, uint)>(&MSCompatUnicodeTable::UInt32FromBytePtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "UInt32FromBytePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MSCompatUnicodeTable::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::FillCJK
+// Il2CppName: FillCJK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&MSCompatUnicodeTable::FillCJK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "FillCJK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};
+// Writing MetadataGetter for method: MSCompatUnicodeTable::FillCJKCore
+// Il2CppName: FillCJKCore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&MSCompatUnicodeTable::FillCJKCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MSCompatUnicodeTable*), "FillCJKCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};

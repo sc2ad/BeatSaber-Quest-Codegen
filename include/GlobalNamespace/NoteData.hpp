@@ -203,259 +203,259 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteData), 56 + sizeof(float)> __GlobalNamespace_NoteDataSizeCheck;
   static_assert(sizeof(NoteData) == 0x3C);
-  // Writing MetadataGetter for method: NoteData::get_colorType
-  // Il2CppName: get_colorType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (NoteData::*)()>(&NoteData::get_colorType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_colorType
-  // Il2CppName: set_colorType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::ColorType)>(&NoteData::set_colorType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_cutDirection
-  // Il2CppName: get_cutDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (NoteData::*)()>(&NoteData::get_cutDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_cutDirection
-  // Il2CppName: set_cutDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteCutDirection)>(&NoteData::set_cutDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_timeToNextColorNote
-  // Il2CppName: get_timeToNextColorNote
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_timeToNextColorNote)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_timeToNextColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_timeToNextColorNote
-  // Il2CppName: set_timeToNextColorNote
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_timeToNextColorNote)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_timeToNextColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_timeToPrevColorNote
-  // Il2CppName: get_timeToPrevColorNote
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_timeToPrevColorNote)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_timeToPrevColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_timeToPrevColorNote
-  // Il2CppName: set_timeToPrevColorNote
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_timeToPrevColorNote)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_timeToPrevColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_noteLineLayer
-  // Il2CppName: get_noteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (NoteData::*)()>(&NoteData::get_noteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_noteLineLayer
-  // Il2CppName: set_noteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteLineLayer)>(&NoteData::set_noteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_startNoteLineLayer
-  // Il2CppName: get_startNoteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (NoteData::*)()>(&NoteData::get_startNoteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_startNoteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_startNoteLineLayer
-  // Il2CppName: set_startNoteLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteLineLayer)>(&NoteData::set_startNoteLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_startNoteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_flipLineIndex
-  // Il2CppName: get_flipLineIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteData::*)()>(&NoteData::get_flipLineIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_flipLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_flipLineIndex
-  // Il2CppName: set_flipLineIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(int)>(&NoteData::set_flipLineIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_flipLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_flipYSide
-  // Il2CppName: get_flipYSide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_flipYSide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_flipYSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_flipYSide
-  // Il2CppName: set_flipYSide
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_flipYSide)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_flipYSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_duration
-  // Il2CppName: get_duration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_duration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::set_duration
-  // Il2CppName: set_duration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_duration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, float, float, int, float, float)>(&NoteData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, float, float, int, float, float)>(&NoteData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::CreateBombNoteData
-  // Il2CppName: CreateBombNoteData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (*)(float, int, GlobalNamespace::NoteLineLayer)>(&NoteData::CreateBombNoteData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "CreateBombNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::CreateBasicNoteData
-  // Il2CppName: CreateBasicNoteData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection)>(&NoteData::CreateBasicNoteData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "CreateBasicNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::SetNoteStartLineLayer
-  // Il2CppName: SetNoteStartLineLayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteLineLayer)>(&NoteData::SetNoteStartLineLayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "SetNoteStartLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::SetNoteFlipToNote
-  // Il2CppName: SetNoteFlipToNote
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteData*)>(&NoteData::SetNoteFlipToNote)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "SetNoteFlipToNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::SwitchNoteColorType
-  // Il2CppName: SwitchNoteColorType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::SwitchNoteColorType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "SwitchNoteColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::MirrorTransformCutDirection
-  // Il2CppName: MirrorTransformCutDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::MirrorTransformCutDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "MirrorTransformCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::SetNoteToAnyCutDirection
-  // Il2CppName: SetNoteToAnyCutDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::SetNoteToAnyCutDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "SetNoteToAnyCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::ChangeNoteCutDirection
-  // Il2CppName: ChangeNoteCutDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteCutDirection)>(&NoteData::ChangeNoteCutDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "ChangeNoteCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::TransformNoteAOrBToRandomType
-  // Il2CppName: TransformNoteAOrBToRandomType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::TransformNoteAOrBToRandomType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "TransformNoteAOrBToRandomType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::get_beatmapObjectType
-  // Il2CppName: get_beatmapObjectType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectType (NoteData::*)()>(&NoteData::get_beatmapObjectType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_beatmapObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::GetCopy
-  // Il2CppName: GetCopy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectData* (NoteData::*)()>(&NoteData::GetCopy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoteData::MirrorLineIndex
-  // Il2CppName: MirrorLineIndex
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(int)>(&NoteData::MirrorLineIndex)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoteData*), "MirrorLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteData*, "", "NoteData");
+// Writing MetadataGetter for method: NoteData::get_colorType
+// Il2CppName: get_colorType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (NoteData::*)()>(&NoteData::get_colorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_colorType
+// Il2CppName: set_colorType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::ColorType)>(&NoteData::set_colorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_cutDirection
+// Il2CppName: get_cutDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (NoteData::*)()>(&NoteData::get_cutDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_cutDirection
+// Il2CppName: set_cutDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteCutDirection)>(&NoteData::set_cutDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_timeToNextColorNote
+// Il2CppName: get_timeToNextColorNote
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_timeToNextColorNote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_timeToNextColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_timeToNextColorNote
+// Il2CppName: set_timeToNextColorNote
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_timeToNextColorNote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_timeToNextColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_timeToPrevColorNote
+// Il2CppName: get_timeToPrevColorNote
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_timeToPrevColorNote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_timeToPrevColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_timeToPrevColorNote
+// Il2CppName: set_timeToPrevColorNote
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_timeToPrevColorNote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_timeToPrevColorNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_noteLineLayer
+// Il2CppName: get_noteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (NoteData::*)()>(&NoteData::get_noteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_noteLineLayer
+// Il2CppName: set_noteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteLineLayer)>(&NoteData::set_noteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_startNoteLineLayer
+// Il2CppName: get_startNoteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (NoteData::*)()>(&NoteData::get_startNoteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_startNoteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_startNoteLineLayer
+// Il2CppName: set_startNoteLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteLineLayer)>(&NoteData::set_startNoteLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_startNoteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_flipLineIndex
+// Il2CppName: get_flipLineIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteData::*)()>(&NoteData::get_flipLineIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_flipLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_flipLineIndex
+// Il2CppName: set_flipLineIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(int)>(&NoteData::set_flipLineIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_flipLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_flipYSide
+// Il2CppName: get_flipYSide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_flipYSide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_flipYSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_flipYSide
+// Il2CppName: set_flipYSide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_flipYSide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_flipYSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_duration
+// Il2CppName: get_duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteData::*)()>(&NoteData::get_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::set_duration
+// Il2CppName: set_duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float)>(&NoteData::set_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, float, float, int, float, float)>(&NoteData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, float, float, int, float, float)>(&NoteData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::CreateBombNoteData
+// Il2CppName: CreateBombNoteData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (*)(float, int, GlobalNamespace::NoteLineLayer)>(&NoteData::CreateBombNoteData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "CreateBombNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::CreateBasicNoteData
+// Il2CppName: CreateBasicNoteData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection)>(&NoteData::CreateBasicNoteData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "CreateBasicNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::SetNoteStartLineLayer
+// Il2CppName: SetNoteStartLineLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteLineLayer)>(&NoteData::SetNoteStartLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "SetNoteStartLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::SetNoteFlipToNote
+// Il2CppName: SetNoteFlipToNote
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteData*)>(&NoteData::SetNoteFlipToNote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "SetNoteFlipToNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::SwitchNoteColorType
+// Il2CppName: SwitchNoteColorType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::SwitchNoteColorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "SwitchNoteColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::MirrorTransformCutDirection
+// Il2CppName: MirrorTransformCutDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::MirrorTransformCutDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "MirrorTransformCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::SetNoteToAnyCutDirection
+// Il2CppName: SetNoteToAnyCutDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::SetNoteToAnyCutDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "SetNoteToAnyCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::ChangeNoteCutDirection
+// Il2CppName: ChangeNoteCutDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(GlobalNamespace::NoteCutDirection)>(&NoteData::ChangeNoteCutDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "ChangeNoteCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+  }
+};
+// Writing MetadataGetter for method: NoteData::TransformNoteAOrBToRandomType
+// Il2CppName: TransformNoteAOrBToRandomType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)()>(&NoteData::TransformNoteAOrBToRandomType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "TransformNoteAOrBToRandomType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::get_beatmapObjectType
+// Il2CppName: get_beatmapObjectType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectType (NoteData::*)()>(&NoteData::get_beatmapObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "get_beatmapObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::GetCopy
+// Il2CppName: GetCopy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectData* (NoteData::*)()>(&NoteData::GetCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoteData::MirrorLineIndex
+// Il2CppName: MirrorLineIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteData::*)(int)>(&NoteData::MirrorLineIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoteData*), "MirrorLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

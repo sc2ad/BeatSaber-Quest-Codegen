@@ -123,70 +123,70 @@ namespace System::Net {
     static void CloseConnectionGroup(::Il2CppString* connectionGroupName);
   }; // System.Net.ServicePointManager
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ServicePointManager::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ServicePointManager::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ServicePointManager::GetLegacyCertificatePolicy
-  // Il2CppName: GetLegacyCertificatePolicy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICertificatePolicy* (*)()>(&ServicePointManager::GetLegacyCertificatePolicy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "GetLegacyCertificatePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ServicePointManager::get_CheckCertificateRevocationList
-  // Il2CppName: get_CheckCertificateRevocationList
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ServicePointManager::get_CheckCertificateRevocationList)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_CheckCertificateRevocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ServicePointManager::get_DnsRefreshTimeout
-  // Il2CppName: get_DnsRefreshTimeout
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&ServicePointManager::get_DnsRefreshTimeout)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_DnsRefreshTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ServicePointManager::get_SecurityProtocol
-  // Il2CppName: get_SecurityProtocol
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SecurityProtocolType (*)()>(&ServicePointManager::get_SecurityProtocol)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_SecurityProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ServicePointManager::get_ServerCertValidationCallback
-  // Il2CppName: get_ServerCertValidationCallback
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServerCertValidationCallback* (*)()>(&ServicePointManager::get_ServerCertValidationCallback)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_ServerCertValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ServicePointManager::FindServicePoint
-  // Il2CppName: FindServicePoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (*)(System::Uri*, System::Net::IWebProxy*)>(&ServicePointManager::FindServicePoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "FindServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IWebProxy*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ServicePointManager::CloseConnectionGroup
-  // Il2CppName: CloseConnectionGroup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ServicePointManager::CloseConnectionGroup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "CloseConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager*, "System.Net", "ServicePointManager");
+// Writing MetadataGetter for method: ServicePointManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ServicePointManager::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ServicePointManager::GetLegacyCertificatePolicy
+// Il2CppName: GetLegacyCertificatePolicy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICertificatePolicy* (*)()>(&ServicePointManager::GetLegacyCertificatePolicy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "GetLegacyCertificatePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ServicePointManager::get_CheckCertificateRevocationList
+// Il2CppName: get_CheckCertificateRevocationList
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ServicePointManager::get_CheckCertificateRevocationList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_CheckCertificateRevocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ServicePointManager::get_DnsRefreshTimeout
+// Il2CppName: get_DnsRefreshTimeout
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&ServicePointManager::get_DnsRefreshTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_DnsRefreshTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ServicePointManager::get_SecurityProtocol
+// Il2CppName: get_SecurityProtocol
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SecurityProtocolType (*)()>(&ServicePointManager::get_SecurityProtocol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_SecurityProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ServicePointManager::get_ServerCertValidationCallback
+// Il2CppName: get_ServerCertValidationCallback
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServerCertValidationCallback* (*)()>(&ServicePointManager::get_ServerCertValidationCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_ServerCertValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ServicePointManager::FindServicePoint
+// Il2CppName: FindServicePoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (*)(System::Uri*, System::Net::IWebProxy*)>(&ServicePointManager::FindServicePoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "FindServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IWebProxy*>()});
+  }
+};
+// Writing MetadataGetter for method: ServicePointManager::CloseConnectionGroup
+// Il2CppName: CloseConnectionGroup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ServicePointManager::CloseConnectionGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "CloseConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

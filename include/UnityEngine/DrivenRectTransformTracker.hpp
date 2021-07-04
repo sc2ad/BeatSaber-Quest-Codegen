@@ -39,22 +39,22 @@ namespace UnityEngine {
     void Clear();
   }; // UnityEngine.DrivenRectTransformTracker
   #pragma pack(pop)
-  // Writing MetadataGetter for method: DrivenRectTransformTracker::Add
-  // Il2CppName: Add
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrivenRectTransformTracker::*)(UnityEngine::Object*, UnityEngine::RectTransform*, UnityEngine::DrivenTransformProperties)>(&DrivenRectTransformTracker::Add)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DrivenRectTransformTracker), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::DrivenTransformProperties>()});
-    }
-  };
-  // Writing MetadataGetter for method: DrivenRectTransformTracker::Clear
-  // Il2CppName: Clear
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrivenRectTransformTracker::*)()>(&DrivenRectTransformTracker::Clear)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DrivenRectTransformTracker), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");
+// Writing MetadataGetter for method: DrivenRectTransformTracker::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrivenRectTransformTracker::*)(UnityEngine::Object*, UnityEngine::RectTransform*, UnityEngine::DrivenTransformProperties)>(&DrivenRectTransformTracker::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrivenRectTransformTracker), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::DrivenTransformProperties>()});
+  }
+};
+// Writing MetadataGetter for method: DrivenRectTransformTracker::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrivenRectTransformTracker::*)()>(&DrivenRectTransformTracker::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrivenRectTransformTracker), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

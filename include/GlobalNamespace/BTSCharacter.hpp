@@ -105,59 +105,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacter), 56 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BTSCharacterSizeCheck;
   static_assert(sizeof(BTSCharacter) == 0x40);
-  // Writing MetadataGetter for method: BTSCharacter::get_characterName
-  // Il2CppName: get_characterName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BTSCharacter::*)()>(&BTSCharacter::get_characterName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_characterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacter::get_materialPropertyBlockController
-  // Il2CppName: get_materialPropertyBlockController
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MaterialPropertyBlockController* (BTSCharacter::*)()>(&BTSCharacter::get_materialPropertyBlockController)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacter::get_animator
-  // Il2CppName: get_animator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (BTSCharacter::*)()>(&BTSCharacter::get_animator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_animator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacter::get_headTransform
-  // Il2CppName: get_headTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (BTSCharacter::*)()>(&BTSCharacter::get_headTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_headTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacter::SetAlternativeAnimationAndMaterial
-  // Il2CppName: SetAlternativeAnimationAndMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacter::*)(UnityEngine::AnimationClip*, bool)>(&BTSCharacter::SetAlternativeAnimationAndMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "SetAlternativeAnimationAndMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: BTSCharacter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacter::*)()>(&BTSCharacter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacter::*)()>(&BTSCharacter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
+// Writing MetadataGetter for method: BTSCharacter::get_characterName
+// Il2CppName: get_characterName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BTSCharacter::*)()>(&BTSCharacter::get_characterName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_characterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacter::get_materialPropertyBlockController
+// Il2CppName: get_materialPropertyBlockController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MaterialPropertyBlockController* (BTSCharacter::*)()>(&BTSCharacter::get_materialPropertyBlockController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacter::get_animator
+// Il2CppName: get_animator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (BTSCharacter::*)()>(&BTSCharacter::get_animator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_animator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacter::get_headTransform
+// Il2CppName: get_headTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (BTSCharacter::*)()>(&BTSCharacter::get_headTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "get_headTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacter::SetAlternativeAnimationAndMaterial
+// Il2CppName: SetAlternativeAnimationAndMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacter::*)(UnityEngine::AnimationClip*, bool)>(&BTSCharacter::SetAlternativeAnimationAndMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), "SetAlternativeAnimationAndMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: BTSCharacter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacter::*)()>(&BTSCharacter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacter::*)()>(&BTSCharacter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BTSCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

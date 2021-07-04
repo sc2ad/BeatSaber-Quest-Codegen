@@ -217,219 +217,219 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DevicelessVRHelper), 89 + sizeof(bool)> __GlobalNamespace_DevicelessVRHelperSizeCheck;
   static_assert(sizeof(DevicelessVRHelper) == 0x5A);
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_inputFocusWasCapturedEvent
-  // Il2CppName: add_inputFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_inputFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_inputFocusWasCapturedEvent
-  // Il2CppName: remove_inputFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_inputFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_inputFocusWasReleasedEvent
-  // Il2CppName: add_inputFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_inputFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_inputFocusWasReleasedEvent
-  // Il2CppName: remove_inputFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_inputFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_vrFocusWasCapturedEvent
-  // Il2CppName: add_vrFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_vrFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_vrFocusWasCapturedEvent
-  // Il2CppName: remove_vrFocusWasCapturedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_vrFocusWasCapturedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_vrFocusWasReleasedEvent
-  // Il2CppName: add_vrFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_vrFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_vrFocusWasReleasedEvent
-  // Il2CppName: remove_vrFocusWasReleasedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_vrFocusWasReleasedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_hmdUnmountedEvent
-  // Il2CppName: add_hmdUnmountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_hmdUnmountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_hmdUnmountedEvent
-  // Il2CppName: remove_hmdUnmountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_hmdUnmountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_hmdMountedEvent
-  // Il2CppName: add_hmdMountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_hmdMountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_hmdMountedEvent
-  // Il2CppName: remove_hmdMountedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_hmdMountedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_joystickWasCenteredThisFrameEvent
-  // Il2CppName: add_joystickWasCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_joystickWasCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_joystickWasCenteredThisFrameEvent
-  // Il2CppName: remove_joystickWasCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_joystickWasCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::add_joystickWasNotCenteredThisFrameEvent
-  // Il2CppName: add_joystickWasNotCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&DevicelessVRHelper::add_joystickWasNotCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::remove_joystickWasNotCenteredThisFrameEvent
-  // Il2CppName: remove_joystickWasNotCenteredThisFrameEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&DevicelessVRHelper::remove_joystickWasNotCenteredThisFrameEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::get_hasInputFocus
-  // Il2CppName: get_hasInputFocus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_hasInputFocus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::get_isAlwaysWireless
-  // Il2CppName: get_isAlwaysWireless
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_isAlwaysWireless)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_isAlwaysWireless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::get_vrPlatformSDK
-  // Il2CppName: get_vrPlatformSDK
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_vrPlatformSDK)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::get_currentXRDeviceModel
-  // Il2CppName: get_currentXRDeviceModel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_currentXRDeviceModel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)()>(&DevicelessVRHelper::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::TriggerHapticPulse
-  // Il2CppName: TriggerHapticPulse
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(UnityEngine::XR::XRNode, float, float, float)>(&DevicelessVRHelper::TriggerHapticPulse)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::StopHaptics
-  // Il2CppName: StopHaptics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(UnityEngine::XR::XRNode)>(&DevicelessVRHelper::StopHaptics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "StopHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::AdjustControllerTransform
-  // Il2CppName: AdjustControllerTransform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(UnityEngine::XR::XRNode, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3)>(&DevicelessVRHelper::AdjustControllerTransform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "AdjustControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::GetNodePose
-  // Il2CppName: GetNodePose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DevicelessVRHelper::*)(UnityEngine::XR::XRNode, int, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&DevicelessVRHelper::GetNodePose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "GetNodePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
-    }
-  };
-  // Writing MetadataGetter for method: DevicelessVRHelper::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)()>(&DevicelessVRHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)()>(&DevicelessVRHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DevicelessVRHelper*, "", "DevicelessVRHelper");
+// Writing MetadataGetter for method: DevicelessVRHelper::add_inputFocusWasCapturedEvent
+// Il2CppName: add_inputFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_inputFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_inputFocusWasCapturedEvent
+// Il2CppName: remove_inputFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_inputFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::add_inputFocusWasReleasedEvent
+// Il2CppName: add_inputFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_inputFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_inputFocusWasReleasedEvent
+// Il2CppName: remove_inputFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_inputFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::add_vrFocusWasCapturedEvent
+// Il2CppName: add_vrFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_vrFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_vrFocusWasCapturedEvent
+// Il2CppName: remove_vrFocusWasCapturedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_vrFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::add_vrFocusWasReleasedEvent
+// Il2CppName: add_vrFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_vrFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_vrFocusWasReleasedEvent
+// Il2CppName: remove_vrFocusWasReleasedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_vrFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::add_hmdUnmountedEvent
+// Il2CppName: add_hmdUnmountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_hmdUnmountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_hmdUnmountedEvent
+// Il2CppName: remove_hmdUnmountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_hmdUnmountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::add_hmdMountedEvent
+// Il2CppName: add_hmdMountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_hmdMountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_hmdMountedEvent
+// Il2CppName: remove_hmdMountedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_hmdMountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::add_joystickWasCenteredThisFrameEvent
+// Il2CppName: add_joystickWasCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::add_joystickWasCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_joystickWasCenteredThisFrameEvent
+// Il2CppName: remove_joystickWasCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action*)>(&DevicelessVRHelper::remove_joystickWasCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::add_joystickWasNotCenteredThisFrameEvent
+// Il2CppName: add_joystickWasNotCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&DevicelessVRHelper::add_joystickWasNotCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "add_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::remove_joystickWasNotCenteredThisFrameEvent
+// Il2CppName: remove_joystickWasNotCenteredThisFrameEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&DevicelessVRHelper::remove_joystickWasNotCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::get_hasInputFocus
+// Il2CppName: get_hasInputFocus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_hasInputFocus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::get_isAlwaysWireless
+// Il2CppName: get_isAlwaysWireless
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_isAlwaysWireless)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_isAlwaysWireless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::get_vrPlatformSDK
+// Il2CppName: get_vrPlatformSDK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_vrPlatformSDK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::get_currentXRDeviceModel
+// Il2CppName: get_currentXRDeviceModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (DevicelessVRHelper::*)()>(&DevicelessVRHelper::get_currentXRDeviceModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)()>(&DevicelessVRHelper::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::TriggerHapticPulse
+// Il2CppName: TriggerHapticPulse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(UnityEngine::XR::XRNode, float, float, float)>(&DevicelessVRHelper::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::StopHaptics
+// Il2CppName: StopHaptics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(UnityEngine::XR::XRNode)>(&DevicelessVRHelper::StopHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "StopHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::AdjustControllerTransform
+// Il2CppName: AdjustControllerTransform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)(UnityEngine::XR::XRNode, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3)>(&DevicelessVRHelper::AdjustControllerTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "AdjustControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::GetNodePose
+// Il2CppName: GetNodePose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DevicelessVRHelper::*)(UnityEngine::XR::XRNode, int, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&DevicelessVRHelper::GetNodePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), "GetNodePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
+// Writing MetadataGetter for method: DevicelessVRHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)()>(&DevicelessVRHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DevicelessVRHelper::*)()>(&DevicelessVRHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DevicelessVRHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

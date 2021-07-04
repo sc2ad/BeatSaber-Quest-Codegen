@@ -100,59 +100,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DifficultyTableCell), 104 + sizeof(GlobalNamespace::FillIndicator*)> __GlobalNamespace_DifficultyTableCellSizeCheck;
   static_assert(sizeof(DifficultyTableCell) == 0x70);
-  // Writing MetadataGetter for method: DifficultyTableCell::set_difficultyText
-  // Il2CppName: set_difficultyText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(::Il2CppString*)>(&DifficultyTableCell::set_difficultyText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "set_difficultyText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyTableCell::get_difficultyText
-  // Il2CppName: get_difficultyText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DifficultyTableCell::*)()>(&DifficultyTableCell::get_difficultyText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "get_difficultyText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyTableCell::set_difficultyValue
-  // Il2CppName: set_difficultyValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(int)>(&DifficultyTableCell::set_difficultyValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "set_difficultyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyTableCell::SelectionDidChange
-  // Il2CppName: SelectionDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&DifficultyTableCell::SelectionDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyTableCell::HighlightDidChange
-  // Il2CppName: HighlightDidChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&DifficultyTableCell::HighlightDidChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
-    }
-  };
-  // Writing MetadataGetter for method: DifficultyTableCell::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)()>(&DifficultyTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)()>(&DifficultyTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableCell*, "", "DifficultyTableCell");
+// Writing MetadataGetter for method: DifficultyTableCell::set_difficultyText
+// Il2CppName: set_difficultyText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(::Il2CppString*)>(&DifficultyTableCell::set_difficultyText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "set_difficultyText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: DifficultyTableCell::get_difficultyText
+// Il2CppName: get_difficultyText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DifficultyTableCell::*)()>(&DifficultyTableCell::get_difficultyText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "get_difficultyText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DifficultyTableCell::set_difficultyValue
+// Il2CppName: set_difficultyValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(int)>(&DifficultyTableCell::set_difficultyValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "set_difficultyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: DifficultyTableCell::SelectionDidChange
+// Il2CppName: SelectionDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&DifficultyTableCell::SelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: DifficultyTableCell::HighlightDidChange
+// Il2CppName: HighlightDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)(HMUI::SelectableCell::TransitionType)>(&DifficultyTableCell::HighlightDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
+// Writing MetadataGetter for method: DifficultyTableCell::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)()>(&DifficultyTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableCell::*)()>(&DifficultyTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DifficultyTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -43,14 +43,14 @@ namespace Unity::Jobs {
   #pragma pack(pop)
   static check_size<sizeof(JobHandle), 8 + sizeof(int)> __Unity_Jobs_JobHandleSizeCheck;
   static_assert(sizeof(JobHandle) == 0xC);
-  // Writing MetadataGetter for method: JobHandle::ScheduleBatchedJobs
-  // Il2CppName: ScheduleBatchedJobs
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&JobHandle::ScheduleBatchedJobs)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(JobHandle), "ScheduleBatchedJobs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
+// Writing MetadataGetter for method: JobHandle::ScheduleBatchedJobs
+// Il2CppName: ScheduleBatchedJobs
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&JobHandle::ScheduleBatchedJobs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JobHandle), "ScheduleBatchedJobs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

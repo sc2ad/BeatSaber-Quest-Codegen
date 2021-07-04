@@ -139,51 +139,51 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ScrollViewItemsVisibilityController), 92 + sizeof(float)> __HMUI_ScrollViewItemsVisibilityControllerSizeCheck;
   static_assert(sizeof(ScrollViewItemsVisibilityController) == 0x60);
-  // Writing MetadataGetter for method: ScrollViewItemsVisibilityController::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScrollViewItemsVisibilityController::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScrollViewItemsVisibilityController::UpdateVisibilityUpDirection
-  // Il2CppName: UpdateVisibilityUpDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)(float)>(&ScrollViewItemsVisibilityController::UpdateVisibilityUpDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "UpdateVisibilityUpDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScrollViewItemsVisibilityController::UpdateVisibilityDownDirection
-  // Il2CppName: UpdateVisibilityDownDirection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)(float)>(&ScrollViewItemsVisibilityController::UpdateVisibilityDownDirection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "UpdateVisibilityDownDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: ScrollViewItemsVisibilityController::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController*, "HMUI", "ScrollViewItemsVisibilityController");
+// Writing MetadataGetter for method: ScrollViewItemsVisibilityController::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScrollViewItemsVisibilityController::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScrollViewItemsVisibilityController::UpdateVisibilityUpDirection
+// Il2CppName: UpdateVisibilityUpDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)(float)>(&ScrollViewItemsVisibilityController::UpdateVisibilityUpDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "UpdateVisibilityUpDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ScrollViewItemsVisibilityController::UpdateVisibilityDownDirection
+// Il2CppName: UpdateVisibilityDownDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)(float)>(&ScrollViewItemsVisibilityController::UpdateVisibilityDownDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), "UpdateVisibilityDownDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ScrollViewItemsVisibilityController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemsVisibilityController::*)()>(&ScrollViewItemsVisibilityController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemsVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

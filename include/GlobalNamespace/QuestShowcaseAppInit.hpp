@@ -116,51 +116,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(QuestShowcaseAppInit), 104 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_QuestShowcaseAppInitSizeCheck;
   static_assert(sizeof(QuestShowcaseAppInit) == 0x70);
-  // Writing MetadataGetter for method: QuestShowcaseAppInit::AppStartAndMultiSceneEditorSetup
-  // Il2CppName: AppStartAndMultiSceneEditorSetup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::AppStartAndMultiSceneEditorSetup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QuestShowcaseAppInit::RepeatableSetup
-  // Il2CppName: RepeatableSetup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::RepeatableSetup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QuestShowcaseAppInit::TransitionToNextScene
-  // Il2CppName: TransitionToNextScene
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::TransitionToNextScene)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QuestShowcaseAppInit::InstallBindings
-  // Il2CppName: InstallBindings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::InstallBindings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: QuestShowcaseAppInit::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestShowcaseAppInit*, "", "QuestShowcaseAppInit");
+// Writing MetadataGetter for method: QuestShowcaseAppInit::AppStartAndMultiSceneEditorSetup
+// Il2CppName: AppStartAndMultiSceneEditorSetup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::AppStartAndMultiSceneEditorSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuestShowcaseAppInit::RepeatableSetup
+// Il2CppName: RepeatableSetup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::RepeatableSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuestShowcaseAppInit::TransitionToNextScene
+// Il2CppName: TransitionToNextScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::TransitionToNextScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuestShowcaseAppInit::InstallBindings
+// Il2CppName: InstallBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuestShowcaseAppInit::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuestShowcaseAppInit::*)()>(&QuestShowcaseAppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuestShowcaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -19,14 +19,14 @@ namespace System::Collections::Generic {
     static ::Il2CppString* PairToString(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.Generic.KeyValuePair
   #pragma pack(pop)
-  // Writing MetadataGetter for method: KeyValuePair::PairToString
-  // Il2CppName: PairToString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, ::Il2CppObject*)>(&KeyValuePair::PairToString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyValuePair*), "PairToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::KeyValuePair*, "System.Collections.Generic", "KeyValuePair");
+// Writing MetadataGetter for method: KeyValuePair::PairToString
+// Il2CppName: PairToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, ::Il2CppObject*)>(&KeyValuePair::PairToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyValuePair*), "PairToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

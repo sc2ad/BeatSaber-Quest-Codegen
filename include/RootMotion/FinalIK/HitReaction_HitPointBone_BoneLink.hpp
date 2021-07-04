@@ -80,35 +80,35 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(HitReaction::HitPointBone::BoneLink), 44 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReaction_HitPointBone_BoneLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointBone::BoneLink) == 0x3C);
-  // Writing MetadataGetter for method: HitReaction::HitPointBone::BoneLink::Apply
-  // Il2CppName: Apply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, UnityEngine::Quaternion, float)>(&HitReaction::HitPointBone::BoneLink::Apply)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReaction::HitPointBone::BoneLink::CrossFadeStart
-  // Il2CppName: CrossFadeStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)()>(&HitReaction::HitPointBone::BoneLink::CrossFadeStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReaction::HitPointBone::BoneLink::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)()>(&HitReaction::HitPointBone::BoneLink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)()>(&HitReaction::HitPointBone::BoneLink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*, "RootMotion.FinalIK", "HitReaction/HitPointBone/BoneLink");
+// Writing MetadataGetter for method: HitReaction::HitPointBone::BoneLink::Apply
+// Il2CppName: Apply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, UnityEngine::Quaternion, float)>(&HitReaction::HitPointBone::BoneLink::Apply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: HitReaction::HitPointBone::BoneLink::CrossFadeStart
+// Il2CppName: CrossFadeStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)()>(&HitReaction::HitPointBone::BoneLink::CrossFadeStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReaction::HitPointBone::BoneLink::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)()>(&HitReaction::HitPointBone::BoneLink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::BoneLink::*)()>(&HitReaction::HitPointBone::BoneLink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone::BoneLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

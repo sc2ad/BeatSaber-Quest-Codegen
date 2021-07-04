@@ -165,241 +165,241 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(KeyPairPersistence), 40 + sizeof(::Il2CppString*)> __Mono_Security_Cryptography_KeyPairPersistenceSizeCheck;
   static_assert(sizeof(KeyPairPersistence) == 0x30);
-  // Writing MetadataGetter for method: KeyPairPersistence::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*, ::Il2CppString*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*, ::Il2CppString*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_Filename
-  // Il2CppName: get_Filename
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::get_Filename)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_Filename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_KeyValue
-  // Il2CppName: get_KeyValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::get_KeyValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_KeyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::set_KeyValue
-  // Il2CppName: set_KeyValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(::Il2CppString*)>(&KeyPairPersistence::set_KeyValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "set_KeyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::Load
-  // Il2CppName: Load
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::Load)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::Save
-  // Il2CppName: Save
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)()>(&KeyPairPersistence::Save)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::Remove
-  // Il2CppName: Remove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)()>(&KeyPairPersistence::Remove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_UserPath
-  // Il2CppName: get_UserPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&KeyPairPersistence::get_UserPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_UserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_MachinePath
-  // Il2CppName: get_MachinePath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&KeyPairPersistence::get_MachinePath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_MachinePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::_CanSecure
-  // Il2CppName: _CanSecure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_CanSecure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_CanSecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::_ProtectUser
-  // Il2CppName: _ProtectUser
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_ProtectUser)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_ProtectUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::_ProtectMachine
-  // Il2CppName: _ProtectMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_ProtectMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_ProtectMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::_IsUserProtected
-  // Il2CppName: _IsUserProtected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_IsUserProtected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_IsUserProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::_IsMachineProtected
-  // Il2CppName: _IsMachineProtected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_IsMachineProtected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_IsMachineProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::CanSecure
-  // Il2CppName: CanSecure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::CanSecure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "CanSecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::ProtectUser
-  // Il2CppName: ProtectUser
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::ProtectUser)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "ProtectUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::ProtectMachine
-  // Il2CppName: ProtectMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::ProtectMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "ProtectMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::IsUserProtected
-  // Il2CppName: IsUserProtected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::IsUserProtected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "IsUserProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::IsMachineProtected
-  // Il2CppName: IsMachineProtected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::IsMachineProtected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "IsMachineProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_CanChange
-  // Il2CppName: get_CanChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::get_CanChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_CanChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_UseDefaultKeyContainer
-  // Il2CppName: get_UseDefaultKeyContainer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::get_UseDefaultKeyContainer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_UseDefaultKeyContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_UseMachineKeyStore
-  // Il2CppName: get_UseMachineKeyStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::get_UseMachineKeyStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_UseMachineKeyStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::get_ContainerName
-  // Il2CppName: get_ContainerName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::get_ContainerName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_ContainerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::Copy
-  // Il2CppName: Copy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CspParameters* (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*)>(&KeyPairPersistence::Copy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::FromXml
-  // Il2CppName: FromXml
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(::Il2CppString*)>(&KeyPairPersistence::FromXml)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "FromXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::ToXml
-  // Il2CppName: ToXml
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::ToXml)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: KeyPairPersistence::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KeyPairPersistence::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyPairPersistence*, "Mono.Security.Cryptography", "KeyPairPersistence");
+// Writing MetadataGetter for method: KeyPairPersistence::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*, ::Il2CppString*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*, ::Il2CppString*)>(&KeyPairPersistence::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_Filename
+// Il2CppName: get_Filename
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::get_Filename)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_Filename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_KeyValue
+// Il2CppName: get_KeyValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::get_KeyValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_KeyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::set_KeyValue
+// Il2CppName: set_KeyValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(::Il2CppString*)>(&KeyPairPersistence::set_KeyValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "set_KeyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::Load
+// Il2CppName: Load
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::Load)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::Save
+// Il2CppName: Save
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)()>(&KeyPairPersistence::Save)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::Remove
+// Il2CppName: Remove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)()>(&KeyPairPersistence::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_UserPath
+// Il2CppName: get_UserPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&KeyPairPersistence::get_UserPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_UserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_MachinePath
+// Il2CppName: get_MachinePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&KeyPairPersistence::get_MachinePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_MachinePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::_CanSecure
+// Il2CppName: _CanSecure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_CanSecure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_CanSecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::_ProtectUser
+// Il2CppName: _ProtectUser
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_ProtectUser)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_ProtectUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::_ProtectMachine
+// Il2CppName: _ProtectMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_ProtectMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_ProtectMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::_IsUserProtected
+// Il2CppName: _IsUserProtected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_IsUserProtected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_IsUserProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::_IsMachineProtected
+// Il2CppName: _IsMachineProtected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::_IsMachineProtected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "_IsMachineProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::CanSecure
+// Il2CppName: CanSecure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::CanSecure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "CanSecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::ProtectUser
+// Il2CppName: ProtectUser
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::ProtectUser)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "ProtectUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::ProtectMachine
+// Il2CppName: ProtectMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::ProtectMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "ProtectMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::IsUserProtected
+// Il2CppName: IsUserProtected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::IsUserProtected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "IsUserProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::IsMachineProtected
+// Il2CppName: IsMachineProtected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyPairPersistence::IsMachineProtected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "IsMachineProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_CanChange
+// Il2CppName: get_CanChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::get_CanChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_CanChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_UseDefaultKeyContainer
+// Il2CppName: get_UseDefaultKeyContainer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::get_UseDefaultKeyContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_UseDefaultKeyContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_UseMachineKeyStore
+// Il2CppName: get_UseMachineKeyStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyPairPersistence::*)()>(&KeyPairPersistence::get_UseMachineKeyStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_UseMachineKeyStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::get_ContainerName
+// Il2CppName: get_ContainerName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::get_ContainerName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "get_ContainerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::Copy
+// Il2CppName: Copy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CspParameters* (KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*)>(&KeyPairPersistence::Copy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::FromXml
+// Il2CppName: FromXml
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyPairPersistence::*)(::Il2CppString*)>(&KeyPairPersistence::FromXml)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "FromXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::ToXml
+// Il2CppName: ToXml
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyPairPersistence::*)()>(&KeyPairPersistence::ToXml)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyPairPersistence::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KeyPairPersistence::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyPairPersistence*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

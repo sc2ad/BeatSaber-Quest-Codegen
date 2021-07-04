@@ -29,14 +29,14 @@ namespace GlobalNamespace {
     static GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfo(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // BeatmapEnvironmentHelper
   #pragma pack(pop)
-  // Writing MetadataGetter for method: BeatmapEnvironmentHelper::GetEnvironmentInfo
-  // Il2CppName: GetEnvironmentInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&BeatmapEnvironmentHelper::GetEnvironmentInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BeatmapEnvironmentHelper*), "GetEnvironmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEnvironmentHelper*, "", "BeatmapEnvironmentHelper");
+// Writing MetadataGetter for method: BeatmapEnvironmentHelper::GetEnvironmentInfo
+// Il2CppName: GetEnvironmentInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&BeatmapEnvironmentHelper::GetEnvironmentInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatmapEnvironmentHelper*), "GetEnvironmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};

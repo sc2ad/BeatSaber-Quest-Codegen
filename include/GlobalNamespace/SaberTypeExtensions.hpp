@@ -40,30 +40,30 @@ namespace GlobalNamespace {
     static GlobalNamespace::SaberType MainSaber(bool leftHanded);
   }; // SaberTypeExtensions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SaberTypeExtensions::MatchesColorType
-  // Il2CppName: MatchesColorType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SaberType, GlobalNamespace::ColorType)>(&SaberTypeExtensions::MatchesColorType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberTypeExtensions*), "MatchesColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SaberTypeExtensions::Node
-  // Il2CppName: Node
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (*)(GlobalNamespace::SaberType)>(&SaberTypeExtensions::Node)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberTypeExtensions*), "Node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
-    }
-  };
-  // Writing MetadataGetter for method: SaberTypeExtensions::MainSaber
-  // Il2CppName: MainSaber
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (*)(bool)>(&SaberTypeExtensions::MainSaber)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SaberTypeExtensions*), "MainSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeExtensions*, "", "SaberTypeExtensions");
+// Writing MetadataGetter for method: SaberTypeExtensions::MatchesColorType
+// Il2CppName: MatchesColorType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SaberType, GlobalNamespace::ColorType)>(&SaberTypeExtensions::MatchesColorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberTypeExtensions*), "MatchesColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+  }
+};
+// Writing MetadataGetter for method: SaberTypeExtensions::Node
+// Il2CppName: Node
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (*)(GlobalNamespace::SaberType)>(&SaberTypeExtensions::Node)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberTypeExtensions*), "Node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+  }
+};
+// Writing MetadataGetter for method: SaberTypeExtensions::MainSaber
+// Il2CppName: MainSaber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (*)(bool)>(&SaberTypeExtensions::MainSaber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SaberTypeExtensions*), "MainSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

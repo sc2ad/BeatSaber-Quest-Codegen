@@ -562,582 +562,582 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(UnifiedNetworkPlayerModel), 264 + sizeof(GlobalNamespace::GameplayServerFilter)> __GlobalNamespace_UnifiedNetworkPlayerModelSizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel) == 0x130);
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_partyRefreshingEvent
-  // Il2CppName: add_partyRefreshingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action*)>(&UnifiedNetworkPlayerModel::add_partyRefreshingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_partyRefreshingEvent
-  // Il2CppName: remove_partyRefreshingEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action*)>(&UnifiedNetworkPlayerModel::remove_partyRefreshingEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_hasNetworkingFailed
-  // Il2CppName: get_hasNetworkingFailed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_hasNetworkingFailed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_hasNetworkingFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_isMasterServerReachable
-  // Il2CppName: get_isMasterServerReachable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_isMasterServerReachable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_isMasterServerReachable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_masterServerConnectionManager
-  // Il2CppName: get_masterServerConnectionManager
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerConnectionManager* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_masterServerConnectionManager)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_masterServerConnectionManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_endPoint
-  // Il2CppName: get_endPoint
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_endPoint)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_userId
-  // Il2CppName: get_userId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_userId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_userName
-  // Il2CppName: get_userName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_userName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_secret
-  // Il2CppName: get_secret
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_secret)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_code
-  // Il2CppName: get_code
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_code)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverName
-  // Il2CppName: get_serverName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_password
-  // Il2CppName: get_password
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_password)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverUserId
-  // Il2CppName: get_serverUserId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverUserId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverUserName
-  // Il2CppName: get_serverUserName
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverUserName)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_discoveryPolicy
-  // Il2CppName: get_discoveryPolicy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_discoveryPolicy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_invitePolicy
-  // Il2CppName: get_invitePolicy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::InvitePolicy (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_invitePolicy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_invitePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverFilter
-  // Il2CppName: get_serverFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_publicServers
-  // Il2CppName: get_publicServers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_publicServers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_publicServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_friends
-  // Il2CppName: get_friends
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_friends)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_friends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_localNetworkPlayers
-  // Il2CppName: get_localNetworkPlayers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_localNetworkPlayers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_localNetworkPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_enableFriends
-  // Il2CppName: get_enableFriends
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_enableFriends)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_enableFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::set_enableFriends
-  // Il2CppName: set_enableFriends
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(bool)>(&UnifiedNetworkPlayerModel::set_enableFriends)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "set_enableFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_enableLocalNetwork
-  // Il2CppName: get_enableLocalNetwork
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_enableLocalNetwork)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::set_enableLocalNetwork
-  // Il2CppName: set_enableLocalNetwork
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(bool)>(&UnifiedNetworkPlayerModel::set_enableLocalNetwork)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "set_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::SetServerFilter
-  // Il2CppName: SetServerFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::GameplayServerFilter)>(&UnifiedNetworkPlayerModel::SetServerFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "SetServerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFilter>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Refresh
-  // Il2CppName: Refresh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Refresh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::RefreshParties
-  // Il2CppName: RefreshParties
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::RefreshParties)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "RefreshParties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandlePlayersChanged
-  // Il2CppName: HandlePlayersChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::HandlePlayersChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandlePlayersChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleInviteRequested
-  // Il2CppName: HandleInviteRequested
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayer*)>(&UnifiedNetworkPlayerModel::HandleInviteRequested)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleInviteRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleJoinRequested
-  // Il2CppName: HandleJoinRequested
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayer*)>(&UnifiedNetworkPlayerModel::HandleJoinRequested)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleJoinRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandlePartyChanged
-  // Il2CppName: HandlePartyChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayerModel*)>(&UnifiedNetworkPlayerModel::HandlePartyChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandlePartyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayerModel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleLocalPlayerConnnected
-  // Il2CppName: HandleLocalPlayerConnnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::HandleLocalPlayerConnnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleLocalPlayerConnnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleFriendConnected
-  // Il2CppName: HandleFriendConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::HandleFriendConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleFriendConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleLocalPlayerConnectToMasterServer
-  // Il2CppName: HandleLocalPlayerConnectToMasterServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&UnifiedNetworkPlayerModel::HandleLocalPlayerConnectToMasterServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleLocalPlayerConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer
-  // Il2CppName: HandleFriendConnectToMasterServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleFriendConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleServerStatusChanged
-  // Il2CppName: HandleServerStatusChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&UnifiedNetworkPlayerModel::HandleServerStatusChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleServerStatusChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerCreated
-  // Il2CppName: HandleConnectedPlayerManagerCreated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayerModel*)>(&UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerCreated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleConnectedPlayerManagerCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayerModel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerDestroyed
-  // Il2CppName: HandleConnectedPlayerManagerDestroyed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayerModel*)>(&UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerDestroyed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleConnectedPlayerManagerDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayerModel*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ResetMasterServerReachability
-  // Il2CppName: ResetMasterServerReachability
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::ResetMasterServerReachability)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ResetMasterServerReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectToServerWithCode
-  // Il2CppName: ConnectToServerWithCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(::Il2CppString*, ::Il2CppString*)>(&UnifiedNetworkPlayerModel::ConnectToServerWithCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectToServerWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectToServerWithSecret
-  // Il2CppName: ConnectToServerWithSecret
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&UnifiedNetworkPlayerModel::ConnectToServerWithSecret)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectToServerWithSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::JoinMatchmaking
-  // Il2CppName: JoinMatchmaking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&UnifiedNetworkPlayerModel::JoinMatchmaking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "JoinMatchmaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetPlayer
-  // Il2CppName: GetPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* (UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&UnifiedNetworkPlayerModel::GetPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetServer
-  // Il2CppName: GetServer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer* (UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&UnifiedNetworkPlayerModel::GetServer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_partySizeChangedEvent
-  // Il2CppName: add_partySizeChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<int>*)>(&UnifiedNetworkPlayerModel::add_partySizeChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_partySizeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_partySizeChangedEvent
-  // Il2CppName: remove_partySizeChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<int>*)>(&UnifiedNetworkPlayerModel::remove_partySizeChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_partySizeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_partyChangedEvent
-  // Il2CppName: add_partyChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&UnifiedNetworkPlayerModel::add_partyChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_partyChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayerModel*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_partyChangedEvent
-  // Il2CppName: remove_partyChangedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&UnifiedNetworkPlayerModel::remove_partyChangedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_partyChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayerModel*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_joinRequestedEvent
-  // Il2CppName: add_joinRequestedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::add_joinRequestedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_joinRequestedEvent
-  // Il2CppName: remove_joinRequestedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::remove_joinRequestedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_inviteRequestedEvent
-  // Il2CppName: add_inviteRequestedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::add_inviteRequestedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_inviteRequestedEvent
-  // Il2CppName: remove_inviteRequestedEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::remove_inviteRequestedEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_localPlayerIsPartyOwner
-  // Il2CppName: get_localPlayerIsPartyOwner
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_localPlayerIsPartyOwner)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_localPlayerIsPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_localPlayer
-  // Il2CppName: get_localPlayer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPlayer* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_localPlayer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_maxPartySize
-  // Il2CppName: get_maxPartySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_maxPartySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_configuration
-  // Il2CppName: get_configuration
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_configuration)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_currentPartySize
-  // Il2CppName: get_currentPartySize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_currentPartySize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Update
-  // Il2CppName: Update
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Update)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetPartyPlayers
-  // Il2CppName: GetPartyPlayers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::GetPartyPlayers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetPartyPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetOtherPlayers
-  // Il2CppName: GetOtherPlayers
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::GetOtherPlayers)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetOtherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Disconnect
-  // Il2CppName: Disconnect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Disconnect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Disconnected
-  // Il2CppName: Disconnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::DisconnectedReason)>(&UnifiedNetworkPlayerModel::Disconnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Disconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectionFailed
-  // Il2CppName: ConnectionFailed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::ConnectionFailedReason)>(&UnifiedNetworkPlayerModel::ConnectionFailed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectionFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectedPlayerManagerChanged
-  // Il2CppName: ConnectedPlayerManagerChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::ConnectedPlayerManagerChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectedPlayerManagerChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::CreateParty
-  // Il2CppName: CreateParty
-  // Cannot write MetadataGetter for generic methods!
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::DestroyParty
-  // Il2CppName: DestroyParty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::DestroyParty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "DestroyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerConnected
-  // Il2CppName: PlayerConnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerConnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerDisconnected
-  // Il2CppName: PlayerDisconnected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerDisconnected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerStateChanged
-  // Il2CppName: PlayerStateChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerStateChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerOrderChanged
-  // Il2CppName: PlayerOrderChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerOrderChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerOrderChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnifiedNetworkPlayerModel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel*, "", "UnifiedNetworkPlayerModel");
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_partyRefreshingEvent
+// Il2CppName: add_partyRefreshingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action*)>(&UnifiedNetworkPlayerModel::add_partyRefreshingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_partyRefreshingEvent
+// Il2CppName: remove_partyRefreshingEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action*)>(&UnifiedNetworkPlayerModel::remove_partyRefreshingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_hasNetworkingFailed
+// Il2CppName: get_hasNetworkingFailed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_hasNetworkingFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_hasNetworkingFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_isMasterServerReachable
+// Il2CppName: get_isMasterServerReachable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_isMasterServerReachable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_isMasterServerReachable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_masterServerConnectionManager
+// Il2CppName: get_masterServerConnectionManager
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerConnectionManager* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_masterServerConnectionManager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_masterServerConnectionManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_endPoint
+// Il2CppName: get_endPoint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_endPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_userId
+// Il2CppName: get_userId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_userId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_userName
+// Il2CppName: get_userName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_userName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_secret
+// Il2CppName: get_secret
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_secret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_code
+// Il2CppName: get_code
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_code)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverName
+// Il2CppName: get_serverName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_password
+// Il2CppName: get_password
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_password)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverUserId
+// Il2CppName: get_serverUserId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverUserId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverUserName
+// Il2CppName: get_serverUserName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverUserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_discoveryPolicy
+// Il2CppName: get_discoveryPolicy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_discoveryPolicy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_invitePolicy
+// Il2CppName: get_invitePolicy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::InvitePolicy (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_invitePolicy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_invitePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_serverFilter
+// Il2CppName: get_serverFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_serverFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_serverFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_publicServers
+// Il2CppName: get_publicServers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_publicServers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_publicServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_friends
+// Il2CppName: get_friends
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_friends)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_friends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_localNetworkPlayers
+// Il2CppName: get_localNetworkPlayers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_localNetworkPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_localNetworkPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_enableFriends
+// Il2CppName: get_enableFriends
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_enableFriends)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_enableFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::set_enableFriends
+// Il2CppName: set_enableFriends
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(bool)>(&UnifiedNetworkPlayerModel::set_enableFriends)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "set_enableFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_enableLocalNetwork
+// Il2CppName: get_enableLocalNetwork
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_enableLocalNetwork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::set_enableLocalNetwork
+// Il2CppName: set_enableLocalNetwork
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(bool)>(&UnifiedNetworkPlayerModel::set_enableLocalNetwork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "set_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::SetServerFilter
+// Il2CppName: SetServerFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::GameplayServerFilter)>(&UnifiedNetworkPlayerModel::SetServerFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "SetServerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFilter>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Refresh
+// Il2CppName: Refresh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::RefreshParties
+// Il2CppName: RefreshParties
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::RefreshParties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "RefreshParties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandlePlayersChanged
+// Il2CppName: HandlePlayersChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::HandlePlayersChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandlePlayersChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleInviteRequested
+// Il2CppName: HandleInviteRequested
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayer*)>(&UnifiedNetworkPlayerModel::HandleInviteRequested)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleInviteRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleJoinRequested
+// Il2CppName: HandleJoinRequested
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayer*)>(&UnifiedNetworkPlayerModel::HandleJoinRequested)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleJoinRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandlePartyChanged
+// Il2CppName: HandlePartyChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayerModel*)>(&UnifiedNetworkPlayerModel::HandlePartyChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandlePartyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayerModel*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleLocalPlayerConnnected
+// Il2CppName: HandleLocalPlayerConnnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::HandleLocalPlayerConnnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleLocalPlayerConnnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleFriendConnected
+// Il2CppName: HandleFriendConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::HandleFriendConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleFriendConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleLocalPlayerConnectToMasterServer
+// Il2CppName: HandleLocalPlayerConnectToMasterServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&UnifiedNetworkPlayerModel::HandleLocalPlayerConnectToMasterServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleLocalPlayerConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer
+// Il2CppName: HandleFriendConnectToMasterServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleFriendConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleServerStatusChanged
+// Il2CppName: HandleServerStatusChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&UnifiedNetworkPlayerModel::HandleServerStatusChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleServerStatusChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerCreated
+// Il2CppName: HandleConnectedPlayerManagerCreated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayerModel*)>(&UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerCreated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleConnectedPlayerManagerCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayerModel*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerDestroyed
+// Il2CppName: HandleConnectedPlayerManagerDestroyed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::INetworkPlayerModel*)>(&UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerDestroyed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "HandleConnectedPlayerManagerDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayerModel*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ResetMasterServerReachability
+// Il2CppName: ResetMasterServerReachability
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::ResetMasterServerReachability)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ResetMasterServerReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectToServerWithCode
+// Il2CppName: ConnectToServerWithCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(::Il2CppString*, ::Il2CppString*)>(&UnifiedNetworkPlayerModel::ConnectToServerWithCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectToServerWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectToServerWithSecret
+// Il2CppName: ConnectToServerWithSecret
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&UnifiedNetworkPlayerModel::ConnectToServerWithSecret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectToServerWithSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::JoinMatchmaking
+// Il2CppName: JoinMatchmaking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&UnifiedNetworkPlayerModel::JoinMatchmaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "JoinMatchmaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetPlayer
+// Il2CppName: GetPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* (UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&UnifiedNetworkPlayerModel::GetPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetServer
+// Il2CppName: GetServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer* (UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&UnifiedNetworkPlayerModel::GetServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_partySizeChangedEvent
+// Il2CppName: add_partySizeChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<int>*)>(&UnifiedNetworkPlayerModel::add_partySizeChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_partySizeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_partySizeChangedEvent
+// Il2CppName: remove_partySizeChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<int>*)>(&UnifiedNetworkPlayerModel::remove_partySizeChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_partySizeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_partyChangedEvent
+// Il2CppName: add_partyChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&UnifiedNetworkPlayerModel::add_partyChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_partyChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayerModel*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_partyChangedEvent
+// Il2CppName: remove_partyChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&UnifiedNetworkPlayerModel::remove_partyChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_partyChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayerModel*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_joinRequestedEvent
+// Il2CppName: add_joinRequestedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::add_joinRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_joinRequestedEvent
+// Il2CppName: remove_joinRequestedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::remove_joinRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::add_inviteRequestedEvent
+// Il2CppName: add_inviteRequestedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::add_inviteRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "add_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::remove_inviteRequestedEvent
+// Il2CppName: remove_inviteRequestedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&UnifiedNetworkPlayerModel::remove_inviteRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "remove_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::INetworkPlayer*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_localPlayerIsPartyOwner
+// Il2CppName: get_localPlayerIsPartyOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_localPlayerIsPartyOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_localPlayerIsPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_localPlayer
+// Il2CppName: get_localPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPlayer* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_localPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_maxPartySize
+// Il2CppName: get_maxPartySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_maxPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_configuration
+// Il2CppName: get_configuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_configuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::get_currentPartySize
+// Il2CppName: get_currentPartySize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::get_currentPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetPartyPlayers
+// Il2CppName: GetPartyPlayers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::GetPartyPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetPartyPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::GetOtherPlayers
+// Il2CppName: GetOtherPlayers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::GetOtherPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "GetOtherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Disconnect
+// Il2CppName: Disconnect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::Disconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::Disconnected
+// Il2CppName: Disconnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::DisconnectedReason)>(&UnifiedNetworkPlayerModel::Disconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "Disconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectionFailed
+// Il2CppName: ConnectionFailed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::ConnectionFailedReason)>(&UnifiedNetworkPlayerModel::ConnectionFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectionFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::ConnectedPlayerManagerChanged
+// Il2CppName: ConnectedPlayerManagerChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::ConnectedPlayerManagerChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "ConnectedPlayerManagerChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::CreateParty
+// Il2CppName: CreateParty
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::DestroyParty
+// Il2CppName: DestroyParty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::DestroyParty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "DestroyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerConnected
+// Il2CppName: PlayerConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerDisconnected
+// Il2CppName: PlayerDisconnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerDisconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerStateChanged
+// Il2CppName: PlayerStateChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::PlayerOrderChanged
+// Il2CppName: PlayerOrderChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)(GlobalNamespace::IConnectedPlayer*)>(&UnifiedNetworkPlayerModel::PlayerOrderChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), "PlayerOrderChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
+// Writing MetadataGetter for method: UnifiedNetworkPlayerModel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnifiedNetworkPlayerModel::*)()>(&UnifiedNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnifiedNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

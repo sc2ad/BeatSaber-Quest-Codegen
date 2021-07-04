@@ -55,35 +55,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ShaderWarmupSceneSetupData), 16 + sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_ShaderWarmupSceneSetupDataSizeCheck;
   static_assert(sizeof(ShaderWarmupSceneSetupData) == 0x18);
-  // Writing MetadataGetter for method: ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData
-  // Il2CppName: get_nextScenesTransitionSetupData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ScenesTransitionSetupDataSO* (ShaderWarmupSceneSetupData::*)()>(&ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), "get_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData
-  // Il2CppName: set_nextScenesTransitionSetupData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), "set_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ShaderWarmupSceneSetupData::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&ShaderWarmupSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&ShaderWarmupSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData*, "", "ShaderWarmupSceneSetupData");
+// Writing MetadataGetter for method: ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData
+// Il2CppName: get_nextScenesTransitionSetupData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ScenesTransitionSetupDataSO* (ShaderWarmupSceneSetupData::*)()>(&ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), "get_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData
+// Il2CppName: set_nextScenesTransitionSetupData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), "set_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
+  }
+};
+// Writing MetadataGetter for method: ShaderWarmupSceneSetupData::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&ShaderWarmupSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&ShaderWarmupSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
+  }
+};

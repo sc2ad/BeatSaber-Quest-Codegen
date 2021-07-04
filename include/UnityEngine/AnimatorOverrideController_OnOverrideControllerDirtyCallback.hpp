@@ -49,43 +49,43 @@ namespace UnityEngine {
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback
   #pragma pack(pop)
-  // Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(::Il2CppObject*, System::IntPtr)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(::Il2CppObject*, System::IntPtr)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::Invoke
-  // Il2CppName: Invoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)()>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::Invoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::BeginInvoke
-  // Il2CppName: BeginInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(System::AsyncCallback*, ::Il2CppObject*)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::BeginInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::EndInvoke
-  // Il2CppName: EndInvoke
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(System::IAsyncResult*)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::EndInvoke)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*, "UnityEngine", "AnimatorOverrideController/OnOverrideControllerDirtyCallback");
+// Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(::Il2CppObject*, System::IntPtr)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(::Il2CppObject*, System::IntPtr)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)()>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(System::AsyncCallback*, ::Il2CppObject*)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: AnimatorOverrideController::OnOverrideControllerDirtyCallback::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(System::IAsyncResult*)>(&AnimatorOverrideController::OnOverrideControllerDirtyCallback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

@@ -159,147 +159,147 @@ namespace System {
   // static public System.Boolean op_Inequality(System.TimeZoneInfo/TransitionTime t1, System.TimeZoneInfo/TransitionTime t2)
   // Offset: 0x18A237C
   bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2);
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_TimeOfDay
-  // Il2CppName: get_TimeOfDay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_TimeOfDay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_TimeOfDay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_Month
-  // Il2CppName: get_Month
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_Month)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_Month", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_Week
-  // Il2CppName: get_Week
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_Week)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_Week", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_Day
-  // Il2CppName: get_Day
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_Day)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_Day", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_DayOfWeek
-  // Il2CppName: get_DayOfWeek
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DayOfWeek (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_DayOfWeek)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_DayOfWeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_IsFixedDateRule
-  // Il2CppName: get_IsFixedDateRule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_IsFixedDateRule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_IsFixedDateRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::TransitionTime::*)(System::TimeZoneInfo::TransitionTime)>(&TimeZoneInfo::TransitionTime::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::CreateFixedDateRule
-  // Il2CppName: CreateFixedDateRule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::TransitionTime (*)(System::DateTime, int, int)>(&TimeZoneInfo::TransitionTime::CreateFixedDateRule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "CreateFixedDateRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::CreateFloatingDateRule
-  // Il2CppName: CreateFloatingDateRule
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::TransitionTime (*)(System::DateTime, int, int, System::DayOfWeek)>(&TimeZoneInfo::TransitionTime::CreateFloatingDateRule)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "CreateFloatingDateRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::CreateTransitionTime
-  // Il2CppName: CreateTransitionTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::TransitionTime (*)(System::DateTime, int, int, int, System::DayOfWeek, bool)>(&TimeZoneInfo::TransitionTime::CreateTransitionTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "CreateTransitionTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::ValidateTransitionTime
-  // Il2CppName: ValidateTransitionTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTime, int, int, int, System::DayOfWeek)>(&TimeZoneInfo::TransitionTime::ValidateTransitionTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "ValidateTransitionTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
-  // Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(::Il2CppObject*)>(&TimeZoneInfo::TransitionTime::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::System_Runtime_Serialization_ISerializable_GetObjectData
-  // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::TransitionTime::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::TransitionTime
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::TransitionTime::TransitionTime<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::TransitionTime::TransitionTime<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::TransitionTime::*)(::Il2CppObject*)>(&TimeZoneInfo::TransitionTime::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeZoneInfo::TransitionTime&, const System::TimeZoneInfo::TransitionTime&)>(&TimeZoneInfo::TransitionTime::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeZoneInfo::TransitionTime&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeZoneInfo::TransitionTime&>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TransitionTime, "System", "TimeZoneInfo/TransitionTime");
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_TimeOfDay
+// Il2CppName: get_TimeOfDay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_TimeOfDay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_TimeOfDay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_Month
+// Il2CppName: get_Month
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_Month)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_Month", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_Week
+// Il2CppName: get_Week
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_Week)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_Week", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_Day
+// Il2CppName: get_Day
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_Day)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_Day", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_DayOfWeek
+// Il2CppName: get_DayOfWeek
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DayOfWeek (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_DayOfWeek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_DayOfWeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::get_IsFixedDateRule
+// Il2CppName: get_IsFixedDateRule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::get_IsFixedDateRule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "get_IsFixedDateRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::TransitionTime::*)(System::TimeZoneInfo::TransitionTime)>(&TimeZoneInfo::TransitionTime::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::CreateFixedDateRule
+// Il2CppName: CreateFixedDateRule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::TransitionTime (*)(System::DateTime, int, int)>(&TimeZoneInfo::TransitionTime::CreateFixedDateRule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "CreateFixedDateRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::CreateFloatingDateRule
+// Il2CppName: CreateFloatingDateRule
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::TransitionTime (*)(System::DateTime, int, int, System::DayOfWeek)>(&TimeZoneInfo::TransitionTime::CreateFloatingDateRule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "CreateFloatingDateRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::CreateTransitionTime
+// Il2CppName: CreateTransitionTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::TransitionTime (*)(System::DateTime, int, int, int, System::DayOfWeek, bool)>(&TimeZoneInfo::TransitionTime::CreateTransitionTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "CreateTransitionTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::ValidateTransitionTime
+// Il2CppName: ValidateTransitionTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTime, int, int, int, System::DayOfWeek)>(&TimeZoneInfo::TransitionTime::ValidateTransitionTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "ValidateTransitionTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
+// Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(::Il2CppObject*)>(&TimeZoneInfo::TransitionTime::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::System_Runtime_Serialization_ISerializable_GetObjectData
+// Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::TransitionTime::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::TransitionTime
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::TransitionTime::TransitionTime<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeZoneInfo::TransitionTime::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&TimeZoneInfo::TransitionTime::TransitionTime<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeZoneInfo::TransitionTime::*)(::Il2CppObject*)>(&TimeZoneInfo::TransitionTime::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeZoneInfo::TransitionTime::*)()>(&TimeZoneInfo::TransitionTime::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeZoneInfo::TransitionTime::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeZoneInfo::TransitionTime&, const System::TimeZoneInfo::TransitionTime&)>(&TimeZoneInfo::TransitionTime::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeZoneInfo::TransitionTime), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeZoneInfo::TransitionTime&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeZoneInfo::TransitionTime&>()});
+  }
+};

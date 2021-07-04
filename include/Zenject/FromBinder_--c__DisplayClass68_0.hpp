@@ -72,27 +72,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(FromBinder::$$c__DisplayClass68_0), 16 + sizeof(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>*)> __Zenject_FromBinder_$$c__DisplayClass68_0SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass68_0) == 0x18);
-  // Writing MetadataGetter for method: FromBinder::$$c__DisplayClass68_0::$FromMethodMultipleUntyped$b__0
-  // Il2CppName: <FromMethodMultipleUntyped>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c__DisplayClass68_0::*)(Zenject::DiContainer*, System::Type*)>(&FromBinder::$$c__DisplayClass68_0::$FromMethodMultipleUntyped$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass68_0*), "<FromMethodMultipleUntyped>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: FromBinder::$$c__DisplayClass68_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass68_0::*)()>(&FromBinder::$$c__DisplayClass68_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass68_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass68_0::*)()>(&FromBinder::$$c__DisplayClass68_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass68_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass68_0*, "Zenject", "FromBinder/<>c__DisplayClass68_0");
+// Writing MetadataGetter for method: FromBinder::$$c__DisplayClass68_0::$FromMethodMultipleUntyped$b__0
+// Il2CppName: <FromMethodMultipleUntyped>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (FromBinder::$$c__DisplayClass68_0::*)(Zenject::DiContainer*, System::Type*)>(&FromBinder::$$c__DisplayClass68_0::$FromMethodMultipleUntyped$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass68_0*), "<FromMethodMultipleUntyped>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: FromBinder::$$c__DisplayClass68_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass68_0::*)()>(&FromBinder::$$c__DisplayClass68_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass68_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FromBinder::$$c__DisplayClass68_0::*)()>(&FromBinder::$$c__DisplayClass68_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FromBinder::$$c__DisplayClass68_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -54,43 +54,43 @@ namespace Zenject {
     }
   }; // Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached
-  // Il2CppName: AsCached
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::AsSingle
-  // Il2CppName: AsSingle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::AsSingle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::AsTransient
-  // Il2CppName: AsTransient
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::AsTransient)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsTransient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ScopeConcreteIdArgConditionCopyNonLazyBinder");
+// Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached
+// Il2CppName: AsCached
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::AsSingle
+// Il2CppName: AsSingle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::AsSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::AsTransient
+// Il2CppName: AsTransient
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::AsTransient)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsTransient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScopeConcreteIdArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScopeConcreteIdArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};

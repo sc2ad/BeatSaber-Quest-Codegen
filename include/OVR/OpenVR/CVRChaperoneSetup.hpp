@@ -119,179 +119,179 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
   static check_size<sizeof(CVRChaperoneSetup), 16 + sizeof(OVR::OpenVR::IVRChaperoneSetup)> __OVR_OpenVR_CVRChaperoneSetupSizeCheck;
   static_assert(sizeof(CVRChaperoneSetup) == 0xB0);
-  // Writing MetadataGetter for method: CVRChaperoneSetup::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(System::IntPtr)>(&CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(System::IntPtr)>(&CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::CommitWorkingCopy
-  // Il2CppName: CommitWorkingCopy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::EChaperoneConfigFile)>(&CVRChaperoneSetup::CommitWorkingCopy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "CommitWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::RevertWorkingCopy
-  // Il2CppName: RevertWorkingCopy
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)()>(&CVRChaperoneSetup::RevertWorkingCopy)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "RevertWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingPlayAreaSize
-  // Il2CppName: GetWorkingPlayAreaSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(float&, float&)>(&CVRChaperoneSetup::GetWorkingPlayAreaSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingPlayAreaRect
-  // Il2CppName: GetWorkingPlayAreaRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdQuad_t&)>(&CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdQuad_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingCollisionBoundsInfo
-  // Il2CppName: GetWorkingCollisionBoundsInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveCollisionBoundsInfo
-  // Il2CppName: GetLiveCollisionBoundsInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose
-  // Il2CppName: GetWorkingSeatedZeroPoseToRawTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose
-  // Il2CppName: GetWorkingStandingZeroPoseToRawTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingPlayAreaSize
-  // Il2CppName: SetWorkingPlayAreaSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(float, float)>(&CVRChaperoneSetup::SetWorkingPlayAreaSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingCollisionBoundsInfo
-  // Il2CppName: SetWorkingCollisionBoundsInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*)>(&CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose
-  // Il2CppName: SetWorkingSeatedZeroPoseToRawTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose
-  // Il2CppName: SetWorkingStandingZeroPoseToRawTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::ReloadFromDisk
-  // Il2CppName: ReloadFromDisk
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(OVR::OpenVR::EChaperoneConfigFile)>(&CVRChaperoneSetup::ReloadFromDisk)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ReloadFromDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose
-  // Il2CppName: GetLiveSeatedZeroPoseToRawTrackingPose
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo
-  // Il2CppName: SetWorkingCollisionBoundsTagsInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(::Array<uint8_t>*)>(&CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo
-  // Il2CppName: GetLiveCollisionBoundsTagsInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<uint8_t>*&)>(&CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo
-  // Il2CppName: SetWorkingPhysicalBoundsInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*)>(&CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingPhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::GetLivePhysicalBoundsInfo
-  // Il2CppName: GetLivePhysicalBoundsInfo
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLivePhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::ExportLiveToBuffer
-  // Il2CppName: ExportLiveToBuffer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(System::Text::StringBuilder*, uint&)>(&CVRChaperoneSetup::ExportLiveToBuffer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ExportLiveToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-    }
-  };
-  // Writing MetadataGetter for method: CVRChaperoneSetup::ImportFromBufferToWorking
-  // Il2CppName: ImportFromBufferToWorking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Il2CppString*, uint)>(&CVRChaperoneSetup::ImportFromBufferToWorking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ImportFromBufferToWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRChaperoneSetup*, "OVR.OpenVR", "CVRChaperoneSetup");
+// Writing MetadataGetter for method: CVRChaperoneSetup::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(System::IntPtr)>(&CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(System::IntPtr)>(&CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::CommitWorkingCopy
+// Il2CppName: CommitWorkingCopy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::EChaperoneConfigFile)>(&CVRChaperoneSetup::CommitWorkingCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "CommitWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::RevertWorkingCopy
+// Il2CppName: RevertWorkingCopy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)()>(&CVRChaperoneSetup::RevertWorkingCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "RevertWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingPlayAreaSize
+// Il2CppName: GetWorkingPlayAreaSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(float&, float&)>(&CVRChaperoneSetup::GetWorkingPlayAreaSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingPlayAreaRect
+// Il2CppName: GetWorkingPlayAreaRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdQuad_t&)>(&CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdQuad_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingCollisionBoundsInfo
+// Il2CppName: GetWorkingCollisionBoundsInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveCollisionBoundsInfo
+// Il2CppName: GetLiveCollisionBoundsInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose
+// Il2CppName: GetWorkingSeatedZeroPoseToRawTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose
+// Il2CppName: GetWorkingStandingZeroPoseToRawTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingPlayAreaSize
+// Il2CppName: SetWorkingPlayAreaSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(float, float)>(&CVRChaperoneSetup::SetWorkingPlayAreaSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingCollisionBoundsInfo
+// Il2CppName: SetWorkingCollisionBoundsInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*)>(&CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose
+// Il2CppName: SetWorkingSeatedZeroPoseToRawTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose
+// Il2CppName: SetWorkingStandingZeroPoseToRawTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::ReloadFromDisk
+// Il2CppName: ReloadFromDisk
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(OVR::OpenVR::EChaperoneConfigFile)>(&CVRChaperoneSetup::ReloadFromDisk)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ReloadFromDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose
+// Il2CppName: GetLiveSeatedZeroPoseToRawTrackingPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(OVR::OpenVR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo
+// Il2CppName: SetWorkingCollisionBoundsTagsInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(::Array<uint8_t>*)>(&CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo
+// Il2CppName: GetLiveCollisionBoundsTagsInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<uint8_t>*&)>(&CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo
+// Il2CppName: SetWorkingPhysicalBoundsInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*)>(&CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingPhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::GetLivePhysicalBoundsInfo
+// Il2CppName: GetLivePhysicalBoundsInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLivePhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::ExportLiveToBuffer
+// Il2CppName: ExportLiveToBuffer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(System::Text::StringBuilder*, uint&)>(&CVRChaperoneSetup::ExportLiveToBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ExportLiveToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: CVRChaperoneSetup::ImportFromBufferToWorking
+// Il2CppName: ImportFromBufferToWorking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Il2CppString*, uint)>(&CVRChaperoneSetup::ImportFromBufferToWorking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ImportFromBufferToWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};

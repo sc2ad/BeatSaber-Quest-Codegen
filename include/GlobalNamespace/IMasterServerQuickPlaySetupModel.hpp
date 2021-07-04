@@ -36,14 +36,14 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
   }; // IMasterServerQuickPlaySetupModel
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync
-  // Il2CppName: GetQuickPlaySetupAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (IMasterServerQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&IMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMasterServerQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMasterServerQuickPlaySetupModel*, "", "IMasterServerQuickPlaySetupModel");
+// Writing MetadataGetter for method: IMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync
+// Il2CppName: GetQuickPlaySetupAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (IMasterServerQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&IMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMasterServerQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};

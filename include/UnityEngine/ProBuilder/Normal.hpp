@@ -93,94 +93,94 @@ namespace UnityEngine::ProBuilder {
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
   // Offset: 0x171ABDC
   bool operator !=(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
-  // Writing MetadataGetter for method: Normal::get_normal
-  // Il2CppName: get_normal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Normal::*)()>(&Normal::get_normal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "get_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::set_normal
-  // Il2CppName: set_normal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Normal::*)(UnityEngine::Vector3)>(&Normal::set_normal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "set_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::get_tangent
-  // Il2CppName: get_tangent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Normal::*)()>(&Normal::get_tangent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "get_tangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::set_tangent
-  // Il2CppName: set_tangent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Normal::*)(UnityEngine::Vector4)>(&Normal::set_tangent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "set_tangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::get_bitangent
-  // Il2CppName: get_bitangent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Normal::*)()>(&Normal::get_bitangent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "get_bitangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::set_bitangent
-  // Il2CppName: set_bitangent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Normal::*)(UnityEngine::Vector3)>(&Normal::set_bitangent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "set_bitangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Normal::*)(UnityEngine::ProBuilder::Normal)>(&Normal::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Normal>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::Equals
-  // Il2CppName: Equals
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Normal::*)(::Il2CppObject*)>(&Normal::Equals)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::GetHashCode
-  // Il2CppName: GetHashCode
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Normal::*)()>(&Normal::GetHashCode)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::operator ==
-  // Il2CppName: op_Equality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Normal&, const UnityEngine::ProBuilder::Normal&)>(&Normal::operator ==)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>()});
-    }
-  };
-  // Writing MetadataGetter for method: Normal::operator !=
-  // Il2CppName: op_Inequality
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Normal&, const UnityEngine::ProBuilder::Normal&)>(&Normal::operator !=)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(Normal), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normal, "UnityEngine.ProBuilder", "Normal");
+// Writing MetadataGetter for method: Normal::get_normal
+// Il2CppName: get_normal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Normal::*)()>(&Normal::get_normal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "get_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Normal::set_normal
+// Il2CppName: set_normal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Normal::*)(UnityEngine::Vector3)>(&Normal::set_normal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "set_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Normal::get_tangent
+// Il2CppName: get_tangent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Normal::*)()>(&Normal::get_tangent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "get_tangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Normal::set_tangent
+// Il2CppName: set_tangent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Normal::*)(UnityEngine::Vector4)>(&Normal::set_tangent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "set_tangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: Normal::get_bitangent
+// Il2CppName: get_bitangent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Normal::*)()>(&Normal::get_bitangent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "get_bitangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Normal::set_bitangent
+// Il2CppName: set_bitangent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Normal::*)(UnityEngine::Vector3)>(&Normal::set_bitangent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "set_bitangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Normal::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Normal::*)(UnityEngine::ProBuilder::Normal)>(&Normal::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Normal>()});
+  }
+};
+// Writing MetadataGetter for method: Normal::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Normal::*)(::Il2CppObject*)>(&Normal::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Normal::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Normal::*)()>(&Normal::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Normal::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Normal&, const UnityEngine::ProBuilder::Normal&)>(&Normal::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>()});
+  }
+};
+// Writing MetadataGetter for method: Normal::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Normal&, const UnityEngine::ProBuilder::Normal&)>(&Normal::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Normal), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Normal&>()});
+  }
+};

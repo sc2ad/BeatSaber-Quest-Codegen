@@ -1231,1263 +1231,1263 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(InputField), 520 + sizeof(UnityEngine::Event*)> __UnityEngine_UI_InputFieldSizeCheck;
   static_assert(sizeof(InputField) == 0x210);
-  // Writing MetadataGetter for method: InputField::get_input
-  // Il2CppName: get_input
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseInput* (InputField::*)()>(&InputField::get_input)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_input", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_compositionString
-  // Il2CppName: get_compositionString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputField::*)()>(&InputField::get_compositionString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_mesh
-  // Il2CppName: get_mesh
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (InputField::*)()>(&InputField::get_mesh)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_cachedInputTextGenerator
-  // Il2CppName: get_cachedInputTextGenerator
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerator* (InputField::*)()>(&InputField::get_cachedInputTextGenerator)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_cachedInputTextGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_shouldHideMobileInput
-  // Il2CppName: set_shouldHideMobileInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::set_shouldHideMobileInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_shouldHideMobileInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_shouldHideMobileInput
-  // Il2CppName: get_shouldHideMobileInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_shouldHideMobileInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_shouldHideMobileInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_shouldActivateOnSelect
-  // Il2CppName: get_shouldActivateOnSelect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_shouldActivateOnSelect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_shouldActivateOnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_text
-  // Il2CppName: get_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputField::*)()>(&InputField::get_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_text
-  // Il2CppName: set_text
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*)>(&InputField::set_text)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SetTextWithoutNotify
-  // Il2CppName: SetTextWithoutNotify
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*)>(&InputField::SetTextWithoutNotify)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SetTextWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SetText
-  // Il2CppName: SetText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*, bool)>(&InputField::SetText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_isFocused
-  // Il2CppName: get_isFocused
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_isFocused)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_isFocused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_caretBlinkRate
-  // Il2CppName: get_caretBlinkRate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_caretBlinkRate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretBlinkRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_caretBlinkRate
-  // Il2CppName: set_caretBlinkRate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(float)>(&InputField::set_caretBlinkRate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretBlinkRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_caretWidth
-  // Il2CppName: get_caretWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_caretWidth
-  // Il2CppName: set_caretWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_textComponent
-  // Il2CppName: get_textComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Text* (InputField::*)()>(&InputField::get_textComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_textComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_textComponent
-  // Il2CppName: set_textComponent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::Text*)>(&InputField::set_textComponent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_textComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_placeholder
-  // Il2CppName: get_placeholder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (InputField::*)()>(&InputField::get_placeholder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_placeholder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_placeholder
-  // Il2CppName: set_placeholder
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::Graphic*)>(&InputField::set_placeholder)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_placeholder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_caretColor
-  // Il2CppName: get_caretColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (InputField::*)()>(&InputField::get_caretColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_caretColor
-  // Il2CppName: set_caretColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Color)>(&InputField::set_caretColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_customCaretColor
-  // Il2CppName: get_customCaretColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_customCaretColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_customCaretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_customCaretColor
-  // Il2CppName: set_customCaretColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::set_customCaretColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_customCaretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_selectionColor
-  // Il2CppName: get_selectionColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (InputField::*)()>(&InputField::get_selectionColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_selectionColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_selectionColor
-  // Il2CppName: set_selectionColor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Color)>(&InputField::set_selectionColor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_selectionColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_onEndEdit
-  // Il2CppName: get_onEndEdit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::SubmitEvent* (InputField::*)()>(&InputField::get_onEndEdit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onEndEdit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_onEndEdit
-  // Il2CppName: set_onEndEdit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::SubmitEvent*)>(&InputField::set_onEndEdit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onEndEdit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::SubmitEvent*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_onValueChange
-  // Il2CppName: get_onValueChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::OnChangeEvent* (InputField::*)()>(&InputField::get_onValueChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onValueChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_onValueChange
-  // Il2CppName: set_onValueChange
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::OnChangeEvent*)>(&InputField::set_onValueChange)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onValueChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::OnChangeEvent*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_onValueChanged
-  // Il2CppName: get_onValueChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::OnChangeEvent* (InputField::*)()>(&InputField::get_onValueChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_onValueChanged
-  // Il2CppName: set_onValueChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::OnChangeEvent*)>(&InputField::set_onValueChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::OnChangeEvent*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_onValidateInput
-  // Il2CppName: get_onValidateInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::OnValidateInput* (InputField::*)()>(&InputField::get_onValidateInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onValidateInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_onValidateInput
-  // Il2CppName: set_onValidateInput
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::OnValidateInput*)>(&InputField::set_onValidateInput)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onValidateInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::OnValidateInput*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_characterLimit
-  // Il2CppName: get_characterLimit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_characterLimit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_characterLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_characterLimit
-  // Il2CppName: set_characterLimit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_characterLimit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_characterLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_contentType
-  // Il2CppName: get_contentType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::ContentType (InputField::*)()>(&InputField::get_contentType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_contentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_contentType
-  // Il2CppName: set_contentType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::ContentType)>(&InputField::set_contentType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_contentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::ContentType>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_lineType
-  // Il2CppName: get_lineType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::LineType (InputField::*)()>(&InputField::get_lineType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_lineType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_lineType
-  // Il2CppName: set_lineType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::LineType)>(&InputField::set_lineType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_lineType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::LineType>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_inputType
-  // Il2CppName: get_inputType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::InputType (InputField::*)()>(&InputField::get_inputType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_inputType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_inputType
-  // Il2CppName: set_inputType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::InputType)>(&InputField::set_inputType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_inputType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::InputType>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_touchScreenKeyboard
-  // Il2CppName: get_touchScreenKeyboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (InputField::*)()>(&InputField::get_touchScreenKeyboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_touchScreenKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_keyboardType
-  // Il2CppName: get_keyboardType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboardType (InputField::*)()>(&InputField::get_keyboardType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_keyboardType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_keyboardType
-  // Il2CppName: set_keyboardType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::TouchScreenKeyboardType)>(&InputField::set_keyboardType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_keyboardType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_characterValidation
-  // Il2CppName: get_characterValidation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::CharacterValidation (InputField::*)()>(&InputField::get_characterValidation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_characterValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_characterValidation
-  // Il2CppName: set_characterValidation
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::CharacterValidation)>(&InputField::set_characterValidation)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_characterValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::CharacterValidation>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_readOnly
-  // Il2CppName: get_readOnly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_readOnly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_readOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_readOnly
-  // Il2CppName: set_readOnly
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::set_readOnly)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_readOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_multiLine
-  // Il2CppName: get_multiLine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_multiLine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_multiLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_asteriskChar
-  // Il2CppName: get_asteriskChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InputField::*)()>(&InputField::get_asteriskChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_asteriskChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_asteriskChar
-  // Il2CppName: set_asteriskChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppChar)>(&InputField::set_asteriskChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_asteriskChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_wasCanceled
-  // Il2CppName: get_wasCanceled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_wasCanceled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_wasCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::ClampPos
-  // Il2CppName: ClampPos
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int&)>(&InputField::ClampPos)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "ClampPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_caretPositionInternal
-  // Il2CppName: get_caretPositionInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretPositionInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_caretPositionInternal
-  // Il2CppName: set_caretPositionInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretPositionInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_caretSelectPositionInternal
-  // Il2CppName: get_caretSelectPositionInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretSelectPositionInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretSelectPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_caretSelectPositionInternal
-  // Il2CppName: set_caretSelectPositionInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretSelectPositionInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretSelectPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_caretPosition
-  // Il2CppName: get_caretPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_caretPosition
-  // Il2CppName: set_caretPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_selectionAnchorPosition
-  // Il2CppName: get_selectionAnchorPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_selectionAnchorPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_selectionAnchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_selectionAnchorPosition
-  // Il2CppName: set_selectionAnchorPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_selectionAnchorPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_selectionAnchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_selectionFocusPosition
-  // Il2CppName: get_selectionFocusPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_selectionFocusPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_selectionFocusPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_selectionFocusPosition
-  // Il2CppName: set_selectionFocusPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_selectionFocusPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_selectionFocusPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::CaretBlink
-  // Il2CppName: CaretBlink
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (InputField::*)()>(&InputField::CaretBlink)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "CaretBlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SetCaretVisible
-  // Il2CppName: SetCaretVisible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SetCaretVisible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SetCaretVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SetCaretActive
-  // Il2CppName: SetCaretActive
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SetCaretActive)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SetCaretActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::UpdateCaretMaterial
-  // Il2CppName: UpdateCaretMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateCaretMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateCaretMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnFocus
-  // Il2CppName: OnFocus
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::OnFocus)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SelectAll
-  // Il2CppName: SelectAll
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SelectAll)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SelectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveTextEnd
-  // Il2CppName: MoveTextEnd
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveTextEnd)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveTextEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveTextStart
-  // Il2CppName: MoveTextStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveTextStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveTextStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_clipboard
-  // Il2CppName: get_clipboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&InputField::get_clipboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::set_clipboard
-  // Il2CppName: set_clipboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&InputField::set_clipboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "set_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::InPlaceEditing
-  // Il2CppName: InPlaceEditing
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::InPlaceEditing)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "InPlaceEditing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::UpdateCaretFromKeyboard
-  // Il2CppName: UpdateCaretFromKeyboard
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateCaretFromKeyboard)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateCaretFromKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::LateUpdate
-  // Il2CppName: LateUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::LateUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::ScreenToLocal
-  // Il2CppName: ScreenToLocal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (InputField::*)(UnityEngine::Vector2)>(&InputField::ScreenToLocal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "ScreenToLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GetUnclampedCharacterLineFromPosition
-  // Il2CppName: GetUnclampedCharacterLineFromPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(UnityEngine::Vector2, UnityEngine::TextGenerator*)>(&InputField::GetUnclampedCharacterLineFromPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GetUnclampedCharacterLineFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GetCharacterIndexFromPosition
-  // Il2CppName: GetCharacterIndexFromPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(UnityEngine::Vector2)>(&InputField::GetCharacterIndexFromPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GetCharacterIndexFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MayDrag
-  // Il2CppName: MayDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::MayDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnBeginDrag
-  // Il2CppName: OnBeginDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnBeginDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnDrag
-  // Il2CppName: OnDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MouseDragOutsideRect
-  // Il2CppName: MouseDragOutsideRect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::MouseDragOutsideRect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MouseDragOutsideRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnEndDrag
-  // Il2CppName: OnEndDrag
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnEndDrag)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnEndDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::KeyPressed
-  // Il2CppName: KeyPressed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::EditState (InputField::*)(UnityEngine::Event*)>(&InputField::KeyPressed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "KeyPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::IsValidChar
-  // Il2CppName: IsValidChar
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)(::Il2CppChar)>(&InputField::IsValidChar)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "IsValidChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::ProcessEvent
-  // Il2CppName: ProcessEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Event*)>(&InputField::ProcessEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "ProcessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnUpdateSelected
-  // Il2CppName: OnUpdateSelected
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnUpdateSelected)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnUpdateSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GetSelectedString
-  // Il2CppName: GetSelectedString
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputField::*)()>(&InputField::GetSelectedString)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GetSelectedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::FindtNextWordBegin
-  // Il2CppName: FindtNextWordBegin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::FindtNextWordBegin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "FindtNextWordBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveRight
-  // Il2CppName: MoveRight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveRight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::FindtPrevWordBegin
-  // Il2CppName: FindtPrevWordBegin
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::FindtPrevWordBegin)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "FindtPrevWordBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveLeft
-  // Il2CppName: MoveLeft
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveLeft)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::DetermineCharacterLine
-  // Il2CppName: DetermineCharacterLine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(int, UnityEngine::TextGenerator*)>(&InputField::DetermineCharacterLine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "DetermineCharacterLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::LineUpCharacterPosition
-  // Il2CppName: LineUpCharacterPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(int, bool)>(&InputField::LineUpCharacterPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "LineUpCharacterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::LineDownCharacterPosition
-  // Il2CppName: LineDownCharacterPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(int, bool)>(&InputField::LineDownCharacterPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "LineDownCharacterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveDown
-  // Il2CppName: MoveDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveDown
-  // Il2CppName: MoveDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveUp
-  // Il2CppName: MoveUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MoveUp
-  // Il2CppName: MoveUp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveUp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::Delete
-  // Il2CppName: Delete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::Delete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::ForwardSpace
-  // Il2CppName: ForwardSpace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ForwardSpace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "ForwardSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::Backspace
-  // Il2CppName: Backspace
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::Backspace)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "Backspace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::Insert
-  // Il2CppName: Insert
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppChar)>(&InputField::Insert)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::UpdateTouchKeyboardFromEditChanges
-  // Il2CppName: UpdateTouchKeyboardFromEditChanges
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateTouchKeyboardFromEditChanges)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateTouchKeyboardFromEditChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SendOnValueChangedAndUpdateLabel
-  // Il2CppName: SendOnValueChangedAndUpdateLabel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SendOnValueChangedAndUpdateLabel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SendOnValueChangedAndUpdateLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SendOnValueChanged
-  // Il2CppName: SendOnValueChanged
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SendOnValueChanged)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SendOnValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SendOnSubmit
-  // Il2CppName: SendOnSubmit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SendOnSubmit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SendOnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::Append
-  // Il2CppName: Append
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*)>(&InputField::Append)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::Append
-  // Il2CppName: Append
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppChar)>(&InputField::Append)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::UpdateLabel
-  // Il2CppName: UpdateLabel
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateLabel)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::IsSelectionVisible
-  // Il2CppName: IsSelectionVisible
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::IsSelectionVisible)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "IsSelectionVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GetLineStartPosition
-  // Il2CppName: GetLineStartPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TextGenerator*, int)>(&InputField::GetLineStartPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GetLineStartPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GetLineEndPosition
-  // Il2CppName: GetLineEndPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TextGenerator*, int)>(&InputField::GetLineEndPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GetLineEndPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SetDrawRangeToContainCaretPosition
-  // Il2CppName: SetDrawRangeToContainCaretPosition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::SetDrawRangeToContainCaretPosition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SetDrawRangeToContainCaretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::ForceLabelUpdate
-  // Il2CppName: ForceLabelUpdate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ForceLabelUpdate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "ForceLabelUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::MarkGeometryAsDirty
-  // Il2CppName: MarkGeometryAsDirty
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::MarkGeometryAsDirty)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "MarkGeometryAsDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::Rebuild
-  // Il2CppName: Rebuild
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::CanvasUpdate)>(&InputField::Rebuild)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::LayoutComplete
-  // Il2CppName: LayoutComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::LayoutComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GraphicUpdateComplete
-  // Il2CppName: GraphicUpdateComplete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::GraphicUpdateComplete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::UpdateGeometry
-  // Il2CppName: UpdateGeometry
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateGeometry)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::AssignPositioningIfNeeded
-  // Il2CppName: AssignPositioningIfNeeded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::AssignPositioningIfNeeded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "AssignPositioningIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnFillVBO
-  // Il2CppName: OnFillVBO
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Mesh*)>(&InputField::OnFillVBO)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnFillVBO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GenerateCaret
-  // Il2CppName: GenerateCaret
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2)>(&InputField::GenerateCaret)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GenerateCaret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::CreateCursorVerts
-  // Il2CppName: CreateCursorVerts
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::CreateCursorVerts)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "CreateCursorVerts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::GenerateHighlight
-  // Il2CppName: GenerateHighlight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2)>(&InputField::GenerateHighlight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "GenerateHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::Validate
-  // Il2CppName: Validate
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InputField::*)(::Il2CppString*, int, ::Il2CppChar)>(&InputField::Validate)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::ActivateInputField
-  // Il2CppName: ActivateInputField
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ActivateInputField)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "ActivateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::ActivateInputFieldInternal
-  // Il2CppName: ActivateInputFieldInternal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ActivateInputFieldInternal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "ActivateInputFieldInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnPointerClick
-  // Il2CppName: OnPointerClick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnPointerClick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::DeactivateInputField
-  // Il2CppName: DeactivateInputField
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::DeactivateInputField)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "DeactivateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnSubmit
-  // Il2CppName: OnSubmit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnSubmit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::EnforceContentType
-  // Il2CppName: EnforceContentType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::EnforceContentType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "EnforceContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::EnforceTextHOverflow
-  // Il2CppName: EnforceTextHOverflow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::EnforceTextHOverflow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "EnforceTextHOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SetToCustomIfContentTypeIsNot
-  // Il2CppName: SetToCustomIfContentTypeIsNot
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Array<UnityEngine::UI::InputField::ContentType>*)>(&InputField::SetToCustomIfContentTypeIsNot)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SetToCustomIfContentTypeIsNot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::UI::InputField::ContentType>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::SetToCustom
-  // Il2CppName: SetToCustom
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SetToCustom)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "SetToCustom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::CalculateLayoutInputHorizontal
-  // Il2CppName: CalculateLayoutInputHorizontal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::CalculateLayoutInputHorizontal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::CalculateLayoutInputVertical
-  // Il2CppName: CalculateLayoutInputVertical
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::CalculateLayoutInputVertical)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_minWidth
-  // Il2CppName: get_minWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_minWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_preferredWidth
-  // Il2CppName: get_preferredWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_preferredWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_flexibleWidth
-  // Il2CppName: get_flexibleWidth
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_flexibleWidth)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_minHeight
-  // Il2CppName: get_minHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_minHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_preferredHeight
-  // Il2CppName: get_preferredHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_preferredHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_flexibleHeight
-  // Il2CppName: get_flexibleHeight
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_flexibleHeight)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_layoutPriority
-  // Il2CppName: get_layoutPriority
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_layoutPriority)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::UnityEngine_UI_ICanvasElement_get_transform
-  // Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (InputField::*)()>(&InputField::UnityEngine_UI_ICanvasElement_get_transform)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::get_hasSelection
-  // Il2CppName: get_hasSelection
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_hasSelection)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "get_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnPointerDown
-  // Il2CppName: OnPointerDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnPointerDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnSelect
-  // Il2CppName: OnSelect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnSelect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::OnDeselect
-  // Il2CppName: OnDeselect
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnDeselect)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::DoStateTransition
-  // Il2CppName: DoStateTransition
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&InputField::DoStateTransition)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: InputField::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InputField::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(InputField*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField*, "UnityEngine.UI", "InputField");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::ContentType, "UnityEngine.UI", "InputField/ContentType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::InputType, "UnityEngine.UI", "InputField/InputType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::CharacterValidation, "UnityEngine.UI", "InputField/CharacterValidation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::LineType, "UnityEngine.UI", "InputField/LineType");
+// Writing MetadataGetter for method: InputField::get_input
+// Il2CppName: get_input
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseInput* (InputField::*)()>(&InputField::get_input)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_input", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_compositionString
+// Il2CppName: get_compositionString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputField::*)()>(&InputField::get_compositionString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_mesh
+// Il2CppName: get_mesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (InputField::*)()>(&InputField::get_mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_cachedInputTextGenerator
+// Il2CppName: get_cachedInputTextGenerator
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerator* (InputField::*)()>(&InputField::get_cachedInputTextGenerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_cachedInputTextGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_shouldHideMobileInput
+// Il2CppName: set_shouldHideMobileInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::set_shouldHideMobileInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_shouldHideMobileInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_shouldHideMobileInput
+// Il2CppName: get_shouldHideMobileInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_shouldHideMobileInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_shouldHideMobileInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_shouldActivateOnSelect
+// Il2CppName: get_shouldActivateOnSelect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_shouldActivateOnSelect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_shouldActivateOnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputField::*)()>(&InputField::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*)>(&InputField::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::SetTextWithoutNotify
+// Il2CppName: SetTextWithoutNotify
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*)>(&InputField::SetTextWithoutNotify)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SetTextWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::SetText
+// Il2CppName: SetText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*, bool)>(&InputField::SetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_isFocused
+// Il2CppName: get_isFocused
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_isFocused)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_isFocused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_caretBlinkRate
+// Il2CppName: get_caretBlinkRate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_caretBlinkRate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretBlinkRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_caretBlinkRate
+// Il2CppName: set_caretBlinkRate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(float)>(&InputField::set_caretBlinkRate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretBlinkRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_caretWidth
+// Il2CppName: get_caretWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_caretWidth
+// Il2CppName: set_caretWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_textComponent
+// Il2CppName: get_textComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Text* (InputField::*)()>(&InputField::get_textComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_textComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_textComponent
+// Il2CppName: set_textComponent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::Text*)>(&InputField::set_textComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_textComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_placeholder
+// Il2CppName: get_placeholder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (InputField::*)()>(&InputField::get_placeholder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_placeholder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_placeholder
+// Il2CppName: set_placeholder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::Graphic*)>(&InputField::set_placeholder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_placeholder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_caretColor
+// Il2CppName: get_caretColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (InputField::*)()>(&InputField::get_caretColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_caretColor
+// Il2CppName: set_caretColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Color)>(&InputField::set_caretColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_customCaretColor
+// Il2CppName: get_customCaretColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_customCaretColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_customCaretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_customCaretColor
+// Il2CppName: set_customCaretColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::set_customCaretColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_customCaretColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_selectionColor
+// Il2CppName: get_selectionColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (InputField::*)()>(&InputField::get_selectionColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_selectionColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_selectionColor
+// Il2CppName: set_selectionColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Color)>(&InputField::set_selectionColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_selectionColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_onEndEdit
+// Il2CppName: get_onEndEdit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::SubmitEvent* (InputField::*)()>(&InputField::get_onEndEdit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onEndEdit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_onEndEdit
+// Il2CppName: set_onEndEdit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::SubmitEvent*)>(&InputField::set_onEndEdit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onEndEdit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::SubmitEvent*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_onValueChange
+// Il2CppName: get_onValueChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::OnChangeEvent* (InputField::*)()>(&InputField::get_onValueChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onValueChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_onValueChange
+// Il2CppName: set_onValueChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::OnChangeEvent*)>(&InputField::set_onValueChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onValueChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::OnChangeEvent*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_onValueChanged
+// Il2CppName: get_onValueChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::OnChangeEvent* (InputField::*)()>(&InputField::get_onValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_onValueChanged
+// Il2CppName: set_onValueChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::OnChangeEvent*)>(&InputField::set_onValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::OnChangeEvent*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_onValidateInput
+// Il2CppName: get_onValidateInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::OnValidateInput* (InputField::*)()>(&InputField::get_onValidateInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_onValidateInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_onValidateInput
+// Il2CppName: set_onValidateInput
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::OnValidateInput*)>(&InputField::set_onValidateInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_onValidateInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::OnValidateInput*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_characterLimit
+// Il2CppName: get_characterLimit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_characterLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_characterLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_characterLimit
+// Il2CppName: set_characterLimit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_characterLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_characterLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_contentType
+// Il2CppName: get_contentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::ContentType (InputField::*)()>(&InputField::get_contentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_contentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_contentType
+// Il2CppName: set_contentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::ContentType)>(&InputField::set_contentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_contentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::ContentType>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_lineType
+// Il2CppName: get_lineType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::LineType (InputField::*)()>(&InputField::get_lineType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_lineType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_lineType
+// Il2CppName: set_lineType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::LineType)>(&InputField::set_lineType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_lineType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::LineType>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_inputType
+// Il2CppName: get_inputType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::InputType (InputField::*)()>(&InputField::get_inputType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_inputType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_inputType
+// Il2CppName: set_inputType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::InputType)>(&InputField::set_inputType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_inputType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::InputType>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_touchScreenKeyboard
+// Il2CppName: get_touchScreenKeyboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (InputField::*)()>(&InputField::get_touchScreenKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_touchScreenKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_keyboardType
+// Il2CppName: get_keyboardType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboardType (InputField::*)()>(&InputField::get_keyboardType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_keyboardType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_keyboardType
+// Il2CppName: set_keyboardType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::TouchScreenKeyboardType)>(&InputField::set_keyboardType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_keyboardType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_characterValidation
+// Il2CppName: get_characterValidation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::CharacterValidation (InputField::*)()>(&InputField::get_characterValidation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_characterValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_characterValidation
+// Il2CppName: set_characterValidation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::InputField::CharacterValidation)>(&InputField::set_characterValidation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_characterValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::InputField::CharacterValidation>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_readOnly
+// Il2CppName: get_readOnly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_readOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_readOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_readOnly
+// Il2CppName: set_readOnly
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::set_readOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_readOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_multiLine
+// Il2CppName: get_multiLine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_multiLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_multiLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_asteriskChar
+// Il2CppName: get_asteriskChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InputField::*)()>(&InputField::get_asteriskChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_asteriskChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_asteriskChar
+// Il2CppName: set_asteriskChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppChar)>(&InputField::set_asteriskChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_asteriskChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_wasCanceled
+// Il2CppName: get_wasCanceled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_wasCanceled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_wasCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::ClampPos
+// Il2CppName: ClampPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int&)>(&InputField::ClampPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "ClampPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_caretPositionInternal
+// Il2CppName: get_caretPositionInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretPositionInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_caretPositionInternal
+// Il2CppName: set_caretPositionInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretPositionInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_caretSelectPositionInternal
+// Il2CppName: get_caretSelectPositionInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretSelectPositionInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretSelectPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_caretSelectPositionInternal
+// Il2CppName: set_caretSelectPositionInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretSelectPositionInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretSelectPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_caretPosition
+// Il2CppName: get_caretPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_caretPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_caretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_caretPosition
+// Il2CppName: set_caretPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_caretPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_caretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_selectionAnchorPosition
+// Il2CppName: get_selectionAnchorPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_selectionAnchorPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_selectionAnchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_selectionAnchorPosition
+// Il2CppName: set_selectionAnchorPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_selectionAnchorPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_selectionAnchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_selectionFocusPosition
+// Il2CppName: get_selectionFocusPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_selectionFocusPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_selectionFocusPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_selectionFocusPosition
+// Il2CppName: set_selectionFocusPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::set_selectionFocusPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_selectionFocusPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::CaretBlink
+// Il2CppName: CaretBlink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (InputField::*)()>(&InputField::CaretBlink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "CaretBlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::SetCaretVisible
+// Il2CppName: SetCaretVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SetCaretVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SetCaretVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::SetCaretActive
+// Il2CppName: SetCaretActive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SetCaretActive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SetCaretActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::UpdateCaretMaterial
+// Il2CppName: UpdateCaretMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateCaretMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateCaretMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnFocus
+// Il2CppName: OnFocus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::OnFocus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::SelectAll
+// Il2CppName: SelectAll
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SelectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SelectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveTextEnd
+// Il2CppName: MoveTextEnd
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveTextEnd)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveTextEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveTextStart
+// Il2CppName: MoveTextStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveTextStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveTextStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_clipboard
+// Il2CppName: get_clipboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&InputField::get_clipboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::set_clipboard
+// Il2CppName: set_clipboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&InputField::set_clipboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "set_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::InPlaceEditing
+// Il2CppName: InPlaceEditing
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::InPlaceEditing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "InPlaceEditing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::UpdateCaretFromKeyboard
+// Il2CppName: UpdateCaretFromKeyboard
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateCaretFromKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateCaretFromKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::ScreenToLocal
+// Il2CppName: ScreenToLocal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (InputField::*)(UnityEngine::Vector2)>(&InputField::ScreenToLocal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "ScreenToLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::GetUnclampedCharacterLineFromPosition
+// Il2CppName: GetUnclampedCharacterLineFromPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(UnityEngine::Vector2, UnityEngine::TextGenerator*)>(&InputField::GetUnclampedCharacterLineFromPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GetUnclampedCharacterLineFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::GetCharacterIndexFromPosition
+// Il2CppName: GetCharacterIndexFromPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(UnityEngine::Vector2)>(&InputField::GetCharacterIndexFromPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GetCharacterIndexFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::MayDrag
+// Il2CppName: MayDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::MayDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnBeginDrag
+// Il2CppName: OnBeginDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnBeginDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnDrag
+// Il2CppName: OnDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::MouseDragOutsideRect
+// Il2CppName: MouseDragOutsideRect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::MouseDragOutsideRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MouseDragOutsideRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnEndDrag
+// Il2CppName: OnEndDrag
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnEndDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnEndDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::KeyPressed
+// Il2CppName: KeyPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::InputField::EditState (InputField::*)(UnityEngine::Event*)>(&InputField::KeyPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "KeyPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::IsValidChar
+// Il2CppName: IsValidChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)(::Il2CppChar)>(&InputField::IsValidChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "IsValidChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::ProcessEvent
+// Il2CppName: ProcessEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Event*)>(&InputField::ProcessEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "ProcessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnUpdateSelected
+// Il2CppName: OnUpdateSelected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnUpdateSelected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnUpdateSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::GetSelectedString
+// Il2CppName: GetSelectedString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputField::*)()>(&InputField::GetSelectedString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GetSelectedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::FindtNextWordBegin
+// Il2CppName: FindtNextWordBegin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::FindtNextWordBegin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "FindtNextWordBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveRight
+// Il2CppName: MoveRight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveRight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::FindtPrevWordBegin
+// Il2CppName: FindtPrevWordBegin
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::FindtPrevWordBegin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "FindtPrevWordBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveLeft
+// Il2CppName: MoveLeft
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::DetermineCharacterLine
+// Il2CppName: DetermineCharacterLine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(int, UnityEngine::TextGenerator*)>(&InputField::DetermineCharacterLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "DetermineCharacterLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::LineUpCharacterPosition
+// Il2CppName: LineUpCharacterPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(int, bool)>(&InputField::LineUpCharacterPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "LineUpCharacterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::LineDownCharacterPosition
+// Il2CppName: LineDownCharacterPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)(int, bool)>(&InputField::LineDownCharacterPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "LineDownCharacterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveDown
+// Il2CppName: MoveDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveDown
+// Il2CppName: MoveDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveUp
+// Il2CppName: MoveUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool)>(&InputField::MoveUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::MoveUp
+// Il2CppName: MoveUp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(bool, bool)>(&InputField::MoveUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MoveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::Delete
+// Il2CppName: Delete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::Delete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::ForwardSpace
+// Il2CppName: ForwardSpace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ForwardSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "ForwardSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::Backspace
+// Il2CppName: Backspace
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::Backspace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "Backspace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::Insert
+// Il2CppName: Insert
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppChar)>(&InputField::Insert)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::UpdateTouchKeyboardFromEditChanges
+// Il2CppName: UpdateTouchKeyboardFromEditChanges
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateTouchKeyboardFromEditChanges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateTouchKeyboardFromEditChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::SendOnValueChangedAndUpdateLabel
+// Il2CppName: SendOnValueChangedAndUpdateLabel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SendOnValueChangedAndUpdateLabel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SendOnValueChangedAndUpdateLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::SendOnValueChanged
+// Il2CppName: SendOnValueChanged
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SendOnValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SendOnValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::SendOnSubmit
+// Il2CppName: SendOnSubmit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SendOnSubmit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SendOnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::Append
+// Il2CppName: Append
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppString*)>(&InputField::Append)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::Append
+// Il2CppName: Append
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Il2CppChar)>(&InputField::Append)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::UpdateLabel
+// Il2CppName: UpdateLabel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateLabel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::IsSelectionVisible
+// Il2CppName: IsSelectionVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::IsSelectionVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "IsSelectionVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::GetLineStartPosition
+// Il2CppName: GetLineStartPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TextGenerator*, int)>(&InputField::GetLineStartPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GetLineStartPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::GetLineEndPosition
+// Il2CppName: GetLineEndPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TextGenerator*, int)>(&InputField::GetLineEndPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GetLineEndPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::SetDrawRangeToContainCaretPosition
+// Il2CppName: SetDrawRangeToContainCaretPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(int)>(&InputField::SetDrawRangeToContainCaretPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SetDrawRangeToContainCaretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::ForceLabelUpdate
+// Il2CppName: ForceLabelUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ForceLabelUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "ForceLabelUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::MarkGeometryAsDirty
+// Il2CppName: MarkGeometryAsDirty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::MarkGeometryAsDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "MarkGeometryAsDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::Rebuild
+// Il2CppName: Rebuild
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::CanvasUpdate)>(&InputField::Rebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::LayoutComplete
+// Il2CppName: LayoutComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::LayoutComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::GraphicUpdateComplete
+// Il2CppName: GraphicUpdateComplete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::GraphicUpdateComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::UpdateGeometry
+// Il2CppName: UpdateGeometry
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::UpdateGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::AssignPositioningIfNeeded
+// Il2CppName: AssignPositioningIfNeeded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::AssignPositioningIfNeeded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "AssignPositioningIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnFillVBO
+// Il2CppName: OnFillVBO
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::Mesh*)>(&InputField::OnFillVBO)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnFillVBO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::GenerateCaret
+// Il2CppName: GenerateCaret
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2)>(&InputField::GenerateCaret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GenerateCaret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::CreateCursorVerts
+// Il2CppName: CreateCursorVerts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::CreateCursorVerts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "CreateCursorVerts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::GenerateHighlight
+// Il2CppName: GenerateHighlight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2)>(&InputField::GenerateHighlight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "GenerateHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::Validate
+// Il2CppName: Validate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (InputField::*)(::Il2CppString*, int, ::Il2CppChar)>(&InputField::Validate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::ActivateInputField
+// Il2CppName: ActivateInputField
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ActivateInputField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "ActivateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::ActivateInputFieldInternal
+// Il2CppName: ActivateInputFieldInternal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::ActivateInputFieldInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "ActivateInputFieldInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnPointerClick
+// Il2CppName: OnPointerClick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnPointerClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::DeactivateInputField
+// Il2CppName: DeactivateInputField
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::DeactivateInputField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "DeactivateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnSubmit
+// Il2CppName: OnSubmit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnSubmit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::EnforceContentType
+// Il2CppName: EnforceContentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::EnforceContentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "EnforceContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::EnforceTextHOverflow
+// Il2CppName: EnforceTextHOverflow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::EnforceTextHOverflow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "EnforceTextHOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::SetToCustomIfContentTypeIsNot
+// Il2CppName: SetToCustomIfContentTypeIsNot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(::Array<UnityEngine::UI::InputField::ContentType>*)>(&InputField::SetToCustomIfContentTypeIsNot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SetToCustomIfContentTypeIsNot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::UI::InputField::ContentType>*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::SetToCustom
+// Il2CppName: SetToCustom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::SetToCustom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "SetToCustom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::CalculateLayoutInputHorizontal
+// Il2CppName: CalculateLayoutInputHorizontal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::CalculateLayoutInputVertical
+// Il2CppName: CalculateLayoutInputVertical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_minWidth
+// Il2CppName: get_minWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_minWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_preferredWidth
+// Il2CppName: get_preferredWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_preferredWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_flexibleWidth
+// Il2CppName: get_flexibleWidth
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_flexibleWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_minHeight
+// Il2CppName: get_minHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_minHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_preferredHeight
+// Il2CppName: get_preferredHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_preferredHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_flexibleHeight
+// Il2CppName: get_flexibleHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InputField::*)()>(&InputField::get_flexibleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_layoutPriority
+// Il2CppName: get_layoutPriority
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InputField::*)()>(&InputField::get_layoutPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::UnityEngine_UI_ICanvasElement_get_transform
+// Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (InputField::*)()>(&InputField::UnityEngine_UI_ICanvasElement_get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::get_hasSelection
+// Il2CppName: get_hasSelection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputField::*)()>(&InputField::get_hasSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "get_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)()>(&InputField::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnPointerDown
+// Il2CppName: OnPointerDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::PointerEventData*)>(&InputField::OnPointerDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnSelect
+// Il2CppName: OnSelect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnSelect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::OnDeselect
+// Il2CppName: OnDeselect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::EventSystems::BaseEventData*)>(&InputField::OnDeselect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::DoStateTransition
+// Il2CppName: DoStateTransition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputField::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&InputField::DoStateTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: InputField::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InputField::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InputField*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

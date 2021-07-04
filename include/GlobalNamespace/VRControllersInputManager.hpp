@@ -140,59 +140,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRControllersInputManager), 16 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRControllersInputManagerSizeCheck;
   static_assert(sizeof(VRControllersInputManager) == 0x18);
-  // Writing MetadataGetter for method: VRControllersInputManager::TriggerValue
-  // Il2CppName: TriggerValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&VRControllersInputManager::TriggerValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "TriggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRControllersInputManager::VerticalAxisValue
-  // Il2CppName: VerticalAxisValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&VRControllersInputManager::VerticalAxisValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "VerticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRControllersInputManager::HorizontalAxisValue
-  // Il2CppName: HorizontalAxisValue
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&VRControllersInputManager::HorizontalAxisValue)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "HorizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-    }
-  };
-  // Writing MetadataGetter for method: VRControllersInputManager::MenuButtonDown
-  // Il2CppName: MenuButtonDown
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRControllersInputManager::*)()>(&VRControllersInputManager::MenuButtonDown)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "MenuButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRControllersInputManager::MenuButton
-  // Il2CppName: MenuButton
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRControllersInputManager::*)()>(&VRControllersInputManager::MenuButton)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "MenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: VRControllersInputManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersInputManager::*)()>(&VRControllersInputManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersInputManager::*)()>(&VRControllersInputManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");
+// Writing MetadataGetter for method: VRControllersInputManager::TriggerValue
+// Il2CppName: TriggerValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&VRControllersInputManager::TriggerValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "TriggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: VRControllersInputManager::VerticalAxisValue
+// Il2CppName: VerticalAxisValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&VRControllersInputManager::VerticalAxisValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "VerticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: VRControllersInputManager::HorizontalAxisValue
+// Il2CppName: HorizontalAxisValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&VRControllersInputManager::HorizontalAxisValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "HorizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
+// Writing MetadataGetter for method: VRControllersInputManager::MenuButtonDown
+// Il2CppName: MenuButtonDown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRControllersInputManager::*)()>(&VRControllersInputManager::MenuButtonDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "MenuButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRControllersInputManager::MenuButton
+// Il2CppName: MenuButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRControllersInputManager::*)()>(&VRControllersInputManager::MenuButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), "MenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: VRControllersInputManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersInputManager::*)()>(&VRControllersInputManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersInputManager::*)()>(&VRControllersInputManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRControllersInputManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -69,35 +69,35 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ZenjectStateMachineBehaviourAutoInjecter), 32 + sizeof(UnityEngine::Animator*)> __Zenject_ZenjectStateMachineBehaviourAutoInjecterSizeCheck;
   static_assert(sizeof(ZenjectStateMachineBehaviourAutoInjecter) == 0x28);
-  // Writing MetadataGetter for method: ZenjectStateMachineBehaviourAutoInjecter::Construct
-  // Il2CppName: Construct
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)(Zenject::DiContainer*)>(&ZenjectStateMachineBehaviourAutoInjecter::Construct)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectStateMachineBehaviourAutoInjecter::Start
-  // Il2CppName: Start
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)()>(&ZenjectStateMachineBehaviourAutoInjecter::Start)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: ZenjectStateMachineBehaviourAutoInjecter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)()>(&ZenjectStateMachineBehaviourAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)()>(&ZenjectStateMachineBehaviourAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectStateMachineBehaviourAutoInjecter*, "Zenject", "ZenjectStateMachineBehaviourAutoInjecter");
+// Writing MetadataGetter for method: ZenjectStateMachineBehaviourAutoInjecter::Construct
+// Il2CppName: Construct
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)(Zenject::DiContainer*)>(&ZenjectStateMachineBehaviourAutoInjecter::Construct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
+// Writing MetadataGetter for method: ZenjectStateMachineBehaviourAutoInjecter::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)()>(&ZenjectStateMachineBehaviourAutoInjecter::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ZenjectStateMachineBehaviourAutoInjecter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)()>(&ZenjectStateMachineBehaviourAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectStateMachineBehaviourAutoInjecter::*)()>(&ZenjectStateMachineBehaviourAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ZenjectStateMachineBehaviourAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

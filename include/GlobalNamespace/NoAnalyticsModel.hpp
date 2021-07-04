@@ -61,67 +61,67 @@ namespace GlobalNamespace {
     }
   }; // NoAnalyticsModel
   #pragma pack(pop)
-  // Writing MetadataGetter for method: NoAnalyticsModel::get_supportsOpenDataPrivacyPage
-  // Il2CppName: get_supportsOpenDataPrivacyPage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoAnalyticsModel::*)()>(&NoAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoAnalyticsModel::OpenDataPrivacyPage
-  // Il2CppName: OpenDataPrivacyPage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)()>(&NoAnalyticsModel::OpenDataPrivacyPage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NoAnalyticsModel::LogEvent
-  // Il2CppName: LogEvent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogEvent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoAnalyticsModel::LogClick
-  // Il2CppName: LogClick
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogClick)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoAnalyticsModel::LogImpression
-  // Il2CppName: LogImpression
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogImpression)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoAnalyticsModel::LogExposure
-  // Il2CppName: LogExposure
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogExposure)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NoAnalyticsModel::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)()>(&NoAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)()>(&NoAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoAnalyticsModel*, "", "NoAnalyticsModel");
+// Writing MetadataGetter for method: NoAnalyticsModel::get_supportsOpenDataPrivacyPage
+// Il2CppName: get_supportsOpenDataPrivacyPage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoAnalyticsModel::*)()>(&NoAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoAnalyticsModel::OpenDataPrivacyPage
+// Il2CppName: OpenDataPrivacyPage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)()>(&NoAnalyticsModel::OpenDataPrivacyPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NoAnalyticsModel::LogEvent
+// Il2CppName: LogEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: NoAnalyticsModel::LogClick
+// Il2CppName: LogClick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: NoAnalyticsModel::LogImpression
+// Il2CppName: LogImpression
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogImpression)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: NoAnalyticsModel::LogExposure
+// Il2CppName: LogExposure
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&NoAnalyticsModel::LogExposure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: NoAnalyticsModel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)()>(&NoAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoAnalyticsModel::*)()>(&NoAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NoAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

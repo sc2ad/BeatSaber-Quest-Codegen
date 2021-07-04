@@ -56,54 +56,54 @@ namespace UnityEngine::XR {
     static void _cctor();
   }; // UnityEngine.XR.XRDevice
   #pragma pack(pop)
-  // Writing MetadataGetter for method: XRDevice::get_isPresent
-  // Il2CppName: get_isPresent
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRDevice::get_isPresent)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRDevice*), "get_isPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRDevice::get_model
-  // Il2CppName: get_model
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&XRDevice::get_model)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRDevice*), "get_model", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRDevice::GetNativePtr
-  // Il2CppName: GetNativePtr
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&XRDevice::GetNativePtr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRDevice*), "GetNativePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: XRDevice::SetTrackingSpaceType
-  // Il2CppName: SetTrackingSpaceType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::TrackingSpaceType)>(&XRDevice::SetTrackingSpaceType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRDevice*), "SetTrackingSpaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::TrackingSpaceType>()});
-    }
-  };
-  // Writing MetadataGetter for method: XRDevice::InvokeDeviceLoaded
-  // Il2CppName: InvokeDeviceLoaded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&XRDevice::InvokeDeviceLoaded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRDevice*), "InvokeDeviceLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: XRDevice::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&XRDevice::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(XRDevice*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDevice*, "UnityEngine.XR", "XRDevice");
+// Writing MetadataGetter for method: XRDevice::get_isPresent
+// Il2CppName: get_isPresent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XRDevice::get_isPresent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "get_isPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRDevice::get_model
+// Il2CppName: get_model
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&XRDevice::get_model)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "get_model", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRDevice::GetNativePtr
+// Il2CppName: GetNativePtr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&XRDevice::GetNativePtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "GetNativePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: XRDevice::SetTrackingSpaceType
+// Il2CppName: SetTrackingSpaceType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::TrackingSpaceType)>(&XRDevice::SetTrackingSpaceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "SetTrackingSpaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::TrackingSpaceType>()});
+  }
+};
+// Writing MetadataGetter for method: XRDevice::InvokeDeviceLoaded
+// Il2CppName: InvokeDeviceLoaded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&XRDevice::InvokeDeviceLoaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRDevice*), "InvokeDeviceLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: XRDevice::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&XRDevice::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(XRDevice*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

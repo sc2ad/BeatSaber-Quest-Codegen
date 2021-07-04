@@ -85,22 +85,22 @@ namespace System::Net::Http {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClient/<GetStringAsync>d__52
   // WARNING Not writing size check since size may be invalid!
-  // Writing MetadataGetter for method: HttpClient::$GetStringAsync$d__52::MoveNext
-  // Il2CppName: MoveNext
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpClient::$GetStringAsync$d__52::*)()>(&HttpClient::$GetStringAsync$d__52::MoveNext)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpClient::$GetStringAsync$d__52), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HttpClient::$GetStringAsync$d__52::SetStateMachine
-  // Il2CppName: SetStateMachine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpClient::$GetStringAsync$d__52::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&HttpClient::$GetStringAsync$d__52::SetStateMachine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HttpClient::$GetStringAsync$d__52), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient::$GetStringAsync$d__52, "System.Net.Http", "HttpClient/<GetStringAsync>d__52");
+// Writing MetadataGetter for method: HttpClient::$GetStringAsync$d__52::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpClient::$GetStringAsync$d__52::*)()>(&HttpClient::$GetStringAsync$d__52::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpClient::$GetStringAsync$d__52), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HttpClient::$GetStringAsync$d__52::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpClient::$GetStringAsync$d__52::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&HttpClient::$GetStringAsync$d__52::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HttpClient::$GetStringAsync$d__52), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

@@ -82,43 +82,43 @@ namespace UnityEngine::TestTools::NUnitExtensions {
   #pragma pack(pop)
   static check_size<sizeof(UnityTestAssemblyBuilder), 24 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilderSizeCheck;
   static_assert(sizeof(UnityTestAssemblyBuilder) == 0x20);
-  // Writing MetadataGetter for method: UnityTestAssemblyBuilder::Build
-  // Il2CppName: Build
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityTestAssemblyBuilder::Build)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TestTools::TestPlatform>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestAssemblyBuilder::BuildAsync
-  // Il2CppName: BuildAsync
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* (UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityTestAssemblyBuilder::BuildAsync)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), "BuildAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TestTools::TestPlatform>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings
-  // Il2CppName: GetNUnitTestBuilderSettings
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* (*)(UnityEngine::TestTools::TestPlatform)>(&UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), "GetNUnitTestBuilderSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::TestPlatform>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTestAssemblyBuilder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyBuilder::*)()>(&UnityTestAssemblyBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyBuilder::*)()>(&UnityTestAssemblyBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*, "UnityEngine.TestTools.NUnitExtensions", "UnityTestAssemblyBuilder");
+// Writing MetadataGetter for method: UnityTestAssemblyBuilder::Build
+// Il2CppName: Build
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityTestAssemblyBuilder::Build)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TestTools::TestPlatform>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestAssemblyBuilder::BuildAsync
+// Il2CppName: BuildAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* (UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityTestAssemblyBuilder::BuildAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), "BuildAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TestTools::TestPlatform>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings
+// Il2CppName: GetNUnitTestBuilderSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* (*)(UnityEngine::TestTools::TestPlatform)>(&UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), "GetNUnitTestBuilderSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::TestPlatform>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTestAssemblyBuilder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyBuilder::*)()>(&UnityTestAssemblyBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyBuilder::*)()>(&UnityTestAssemblyBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -67,86 +67,86 @@ namespace Oculus::Platform {
     static Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* GetNextCloudStorageMetadataListPage(Oculus::Platform::Models::CloudStorageMetadataList* list);
   }; // Oculus.Platform.CloudStorage
   #pragma pack(pop)
-  // Writing MetadataGetter for method: CloudStorage::Delete
-  // Il2CppName: Delete
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::Delete)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::Load
-  // Il2CppName: Load
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageData*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::Load)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::LoadBucketMetadata
-  // Il2CppName: LoadBucketMetadata
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* (*)(::Il2CppString*)>(&CloudStorage::LoadBucketMetadata)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadBucketMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::LoadConflictMetadata
-  // Il2CppName: LoadConflictMetadata
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageConflictMetadata*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::LoadConflictMetadata)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::LoadHandle
-  // Il2CppName: LoadHandle
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageData*>* (*)(::Il2CppString*)>(&CloudStorage::LoadHandle)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::LoadMetadata
-  // Il2CppName: LoadMetadata
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadata*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::LoadMetadata)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::ResolveKeepLocal
-  // Il2CppName: ResolveKeepLocal
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CloudStorage::ResolveKeepLocal)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "ResolveKeepLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::ResolveKeepRemote
-  // Il2CppName: ResolveKeepRemote
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CloudStorage::ResolveKeepRemote)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "ResolveKeepRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::Save
-  // Il2CppName: Save
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, int64_t, ::Il2CppString*)>(&CloudStorage::Save)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: CloudStorage::GetNextCloudStorageMetadataListPage
-  // Il2CppName: GetNextCloudStorageMetadataListPage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* (*)(Oculus::Platform::Models::CloudStorageMetadataList*)>(&CloudStorage::GetNextCloudStorageMetadataListPage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "GetNextCloudStorageMetadataListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::CloudStorageMetadataList*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage*, "Oculus.Platform", "CloudStorage");
+// Writing MetadataGetter for method: CloudStorage::Delete
+// Il2CppName: Delete
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::Delete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::Load
+// Il2CppName: Load
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageData*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::Load)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::LoadBucketMetadata
+// Il2CppName: LoadBucketMetadata
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* (*)(::Il2CppString*)>(&CloudStorage::LoadBucketMetadata)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadBucketMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::LoadConflictMetadata
+// Il2CppName: LoadConflictMetadata
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageConflictMetadata*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::LoadConflictMetadata)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::LoadHandle
+// Il2CppName: LoadHandle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageData*>* (*)(::Il2CppString*)>(&CloudStorage::LoadHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::LoadMetadata
+// Il2CppName: LoadMetadata
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadata*>* (*)(::Il2CppString*, ::Il2CppString*)>(&CloudStorage::LoadMetadata)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "LoadMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::ResolveKeepLocal
+// Il2CppName: ResolveKeepLocal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CloudStorage::ResolveKeepLocal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "ResolveKeepLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::ResolveKeepRemote
+// Il2CppName: ResolveKeepRemote
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CloudStorage::ResolveKeepRemote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "ResolveKeepRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::Save
+// Il2CppName: Save
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, int64_t, ::Il2CppString*)>(&CloudStorage::Save)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CloudStorage::GetNextCloudStorageMetadataListPage
+// Il2CppName: GetNextCloudStorageMetadataListPage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* (*)(Oculus::Platform::Models::CloudStorageMetadataList*)>(&CloudStorage::GetNextCloudStorageMetadataListPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CloudStorage*), "GetNextCloudStorageMetadataListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::CloudStorageMetadataList*>()});
+  }
+};

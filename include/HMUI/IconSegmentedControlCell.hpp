@@ -93,59 +93,59 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(IconSegmentedControlCell), 88 + sizeof(UnityEngine::GameObject*)> __HMUI_IconSegmentedControlCellSizeCheck;
   static_assert(sizeof(IconSegmentedControlCell) == 0x60);
-  // Writing MetadataGetter for method: IconSegmentedControlCell::set_sprite
-  // Il2CppName: set_sprite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(UnityEngine::Sprite*)>(&IconSegmentedControlCell::set_sprite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IconSegmentedControlCell::get_sprite
-  // Il2CppName: get_sprite
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::get_sprite)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: IconSegmentedControlCell::set_hintText
-  // Il2CppName: set_hintText
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(::Il2CppString*)>(&IconSegmentedControlCell::set_hintText)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_hintText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: IconSegmentedControlCell::set_iconSize
-  // Il2CppName: set_iconSize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(float)>(&IconSegmentedControlCell::set_iconSize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_iconSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: IconSegmentedControlCell::set_hideBackgroundImage
-  // Il2CppName: set_hideBackgroundImage
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(bool)>(&IconSegmentedControlCell::set_hideBackgroundImage)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_hideBackgroundImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: IconSegmentedControlCell::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");
+// Writing MetadataGetter for method: IconSegmentedControlCell::set_sprite
+// Il2CppName: set_sprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(UnityEngine::Sprite*)>(&IconSegmentedControlCell::set_sprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+  }
+};
+// Writing MetadataGetter for method: IconSegmentedControlCell::get_sprite
+// Il2CppName: get_sprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::get_sprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: IconSegmentedControlCell::set_hintText
+// Il2CppName: set_hintText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(::Il2CppString*)>(&IconSegmentedControlCell::set_hintText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_hintText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: IconSegmentedControlCell::set_iconSize
+// Il2CppName: set_iconSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(float)>(&IconSegmentedControlCell::set_iconSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_iconSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: IconSegmentedControlCell::set_hideBackgroundImage
+// Il2CppName: set_hideBackgroundImage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(bool)>(&IconSegmentedControlCell::set_hideBackgroundImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_hideBackgroundImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: IconSegmentedControlCell::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

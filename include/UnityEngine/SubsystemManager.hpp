@@ -51,46 +51,46 @@ namespace UnityEngine {
     static void Internal_ReloadSubsystemsCompleted();
   }; // UnityEngine.SubsystemManager
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SubsystemManager::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SubsystemManager::ReportSingleSubsystemAnalytics
-  // Il2CppName: ReportSingleSubsystemAnalytics
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&SubsystemManager::ReportSingleSubsystemAnalytics)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "ReportSingleSubsystemAnalytics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: SubsystemManager::StaticConstructScriptingClassMap
-  // Il2CppName: StaticConstructScriptingClassMap
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::StaticConstructScriptingClassMap)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "StaticConstructScriptingClassMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SubsystemManager::Internal_ReloadSubsystemsStarted
-  // Il2CppName: Internal_ReloadSubsystemsStarted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::Internal_ReloadSubsystemsStarted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "Internal_ReloadSubsystemsStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SubsystemManager::Internal_ReloadSubsystemsCompleted
-  // Il2CppName: Internal_ReloadSubsystemsCompleted
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::Internal_ReloadSubsystemsCompleted)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "Internal_ReloadSubsystemsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemManager*, "UnityEngine", "SubsystemManager");
+// Writing MetadataGetter for method: SubsystemManager::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SubsystemManager::ReportSingleSubsystemAnalytics
+// Il2CppName: ReportSingleSubsystemAnalytics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&SubsystemManager::ReportSingleSubsystemAnalytics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "ReportSingleSubsystemAnalytics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SubsystemManager::StaticConstructScriptingClassMap
+// Il2CppName: StaticConstructScriptingClassMap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::StaticConstructScriptingClassMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "StaticConstructScriptingClassMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SubsystemManager::Internal_ReloadSubsystemsStarted
+// Il2CppName: Internal_ReloadSubsystemsStarted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::Internal_ReloadSubsystemsStarted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "Internal_ReloadSubsystemsStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SubsystemManager::Internal_ReloadSubsystemsCompleted
+// Il2CppName: Internal_ReloadSubsystemsCompleted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SubsystemManager::Internal_ReloadSubsystemsCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SubsystemManager*), "Internal_ReloadSubsystemsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

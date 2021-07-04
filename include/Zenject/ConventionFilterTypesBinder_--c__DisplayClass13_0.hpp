@@ -60,27 +60,27 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0) == 0x18);
-  // Writing MetadataGetter for method: ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0
-  // Il2CppName: <InNamespaces>b__0
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)(System::Type*)>(&ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionFilterTypesBinder::$$c__DisplayClass13_0*), "<InNamespaces>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ConventionFilterTypesBinder::$$c__DisplayClass13_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)()>(&ConventionFilterTypesBinder::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionFilterTypesBinder::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)()>(&ConventionFilterTypesBinder::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ConventionFilterTypesBinder::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass13_0");
+// Writing MetadataGetter for method: ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0
+// Il2CppName: <InNamespaces>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)(System::Type*)>(&ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionFilterTypesBinder::$$c__DisplayClass13_0*), "<InNamespaces>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
+// Writing MetadataGetter for method: ConventionFilterTypesBinder::$$c__DisplayClass13_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)()>(&ConventionFilterTypesBinder::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionFilterTypesBinder::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)()>(&ConventionFilterTypesBinder::$$c__DisplayClass13_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConventionFilterTypesBinder::$$c__DisplayClass13_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

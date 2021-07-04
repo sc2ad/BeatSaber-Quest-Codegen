@@ -65,54 +65,54 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRMeshRenderer::MeshRendererData), 2 + sizeof(bool)> __GlobalNamespace_OVRMeshRenderer_MeshRendererDataSizeCheck;
   static_assert(sizeof(OVRMeshRenderer::MeshRendererData) == 0x3);
-  // Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::get_IsDataValid
-  // Il2CppName: get_IsDataValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::MeshRendererData::*)()>(&OVRMeshRenderer::MeshRendererData::get_IsDataValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "get_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::set_IsDataValid
-  // Il2CppName: set_IsDataValid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::MeshRendererData::*)(bool)>(&OVRMeshRenderer::MeshRendererData::set_IsDataValid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::get_IsDataHighConfidence
-  // Il2CppName: get_IsDataHighConfidence
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::MeshRendererData::*)()>(&OVRMeshRenderer::MeshRendererData::get_IsDataHighConfidence)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "get_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::set_IsDataHighConfidence
-  // Il2CppName: set_IsDataHighConfidence
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::MeshRendererData::*)(bool)>(&OVRMeshRenderer::MeshRendererData::set_IsDataHighConfidence)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::get_ShouldUseSystemGestureMaterial
-  // Il2CppName: get_ShouldUseSystemGestureMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::MeshRendererData::*)()>(&OVRMeshRenderer::MeshRendererData::get_ShouldUseSystemGestureMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "get_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::set_ShouldUseSystemGestureMaterial
-  // Il2CppName: set_ShouldUseSystemGestureMaterial
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::MeshRendererData::*)(bool)>(&OVRMeshRenderer::MeshRendererData::set_ShouldUseSystemGestureMaterial)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::MeshRendererData, "", "OVRMeshRenderer/MeshRendererData");
+// Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::get_IsDataValid
+// Il2CppName: get_IsDataValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::MeshRendererData::*)()>(&OVRMeshRenderer::MeshRendererData::get_IsDataValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "get_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::set_IsDataValid
+// Il2CppName: set_IsDataValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::MeshRendererData::*)(bool)>(&OVRMeshRenderer::MeshRendererData::set_IsDataValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::get_IsDataHighConfidence
+// Il2CppName: get_IsDataHighConfidence
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::MeshRendererData::*)()>(&OVRMeshRenderer::MeshRendererData::get_IsDataHighConfidence)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "get_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::set_IsDataHighConfidence
+// Il2CppName: set_IsDataHighConfidence
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::MeshRendererData::*)(bool)>(&OVRMeshRenderer::MeshRendererData::set_IsDataHighConfidence)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::get_ShouldUseSystemGestureMaterial
+// Il2CppName: get_ShouldUseSystemGestureMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::MeshRendererData::*)()>(&OVRMeshRenderer::MeshRendererData::get_ShouldUseSystemGestureMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "get_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRMeshRenderer::MeshRendererData::set_ShouldUseSystemGestureMaterial
+// Il2CppName: set_ShouldUseSystemGestureMaterial
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::MeshRendererData::*)(bool)>(&OVRMeshRenderer::MeshRendererData::set_ShouldUseSystemGestureMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::MeshRendererData), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

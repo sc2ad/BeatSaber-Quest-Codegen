@@ -46,54 +46,54 @@ namespace Mono::Security {
     static System::DateTime ToDateTime(Mono::Security::ASN1* time);
   }; // Mono.Security.ASN1Convert
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ASN1Convert::FromInt32
-  // Il2CppName: FromInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(int)>(&ASN1Convert::FromInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "FromInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: ASN1Convert::FromOid
-  // Il2CppName: FromOid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Il2CppString*)>(&ASN1Convert::FromOid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "FromOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ASN1Convert::FromUnsignedBigInteger
-  // Il2CppName: FromUnsignedBigInteger
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Array<uint8_t>*)>(&ASN1Convert::FromUnsignedBigInteger)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "FromUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ASN1Convert::ToInt32
-  // Il2CppName: ToInt32
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Security::ASN1*)>(&ASN1Convert::ToInt32)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ASN1Convert::ToOid
-  // Il2CppName: ToOid
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*)>(&ASN1Convert::ToOid)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "ToOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
-  // Writing MetadataGetter for method: ASN1Convert::ToDateTime
-  // Il2CppName: ToDateTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(Mono::Security::ASN1*)>(&ASN1Convert::ToDateTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1Convert*, "Mono.Security", "ASN1Convert");
+// Writing MetadataGetter for method: ASN1Convert::FromInt32
+// Il2CppName: FromInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(int)>(&ASN1Convert::FromInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "FromInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ASN1Convert::FromOid
+// Il2CppName: FromOid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Il2CppString*)>(&ASN1Convert::FromOid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "FromOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ASN1Convert::FromUnsignedBigInteger
+// Il2CppName: FromUnsignedBigInteger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Array<uint8_t>*)>(&ASN1Convert::FromUnsignedBigInteger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "FromUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
+// Writing MetadataGetter for method: ASN1Convert::ToInt32
+// Il2CppName: ToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Security::ASN1*)>(&ASN1Convert::ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
+// Writing MetadataGetter for method: ASN1Convert::ToOid
+// Il2CppName: ToOid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*)>(&ASN1Convert::ToOid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "ToOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
+// Writing MetadataGetter for method: ASN1Convert::ToDateTime
+// Il2CppName: ToDateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(Mono::Security::ASN1*)>(&ASN1Convert::ToDateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ASN1Convert*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};

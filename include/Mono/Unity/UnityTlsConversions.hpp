@@ -49,46 +49,46 @@ namespace Mono::Unity {
     static Mono::Security::Interface::MonoSslPolicyErrors VerifyResultToPolicyErrror(Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult);
   }; // Mono.Unity.UnityTlsConversions
   #pragma pack(pop)
-  // Writing MetadataGetter for method: UnityTlsConversions::GetMinProtocol
-  // Il2CppName: GetMinProtocol
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_protocol (*)(System::Security::Authentication::SslProtocols)>(&UnityTlsConversions::GetMinProtocol)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "GetMinProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTlsConversions::GetMaxProtocol
-  // Il2CppName: GetMaxProtocol
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_protocol (*)(System::Security::Authentication::SslProtocols)>(&UnityTlsConversions::GetMaxProtocol)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "GetMaxProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTlsConversions::ConvertProtocolVersion
-  // Il2CppName: ConvertProtocolVersion
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::TlsProtocols (*)(Mono::Unity::UnityTls::unitytls_protocol)>(&UnityTlsConversions::ConvertProtocolVersion)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "ConvertProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_protocol>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTlsConversions::VerifyResultToAlertDescription
-  // Il2CppName: VerifyResultToAlertDescription
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::AlertDescription (*)(Mono::Unity::UnityTls::unitytls_x509verify_result, Mono::Security::Interface::AlertDescription)>(&UnityTlsConversions::VerifyResultToAlertDescription)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "VerifyResultToAlertDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
-    }
-  };
-  // Writing MetadataGetter for method: UnityTlsConversions::VerifyResultToPolicyErrror
-  // Il2CppName: VerifyResultToPolicyErrror
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoSslPolicyErrors (*)(Mono::Unity::UnityTls::unitytls_x509verify_result)>(&UnityTlsConversions::VerifyResultToPolicyErrror)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "VerifyResultToPolicyErrror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsConversions*, "Mono.Unity", "UnityTlsConversions");
+// Writing MetadataGetter for method: UnityTlsConversions::GetMinProtocol
+// Il2CppName: GetMinProtocol
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_protocol (*)(System::Security::Authentication::SslProtocols)>(&UnityTlsConversions::GetMinProtocol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "GetMinProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTlsConversions::GetMaxProtocol
+// Il2CppName: GetMaxProtocol
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_protocol (*)(System::Security::Authentication::SslProtocols)>(&UnityTlsConversions::GetMaxProtocol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "GetMaxProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTlsConversions::ConvertProtocolVersion
+// Il2CppName: ConvertProtocolVersion
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::TlsProtocols (*)(Mono::Unity::UnityTls::unitytls_protocol)>(&UnityTlsConversions::ConvertProtocolVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "ConvertProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_protocol>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTlsConversions::VerifyResultToAlertDescription
+// Il2CppName: VerifyResultToAlertDescription
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::AlertDescription (*)(Mono::Unity::UnityTls::unitytls_x509verify_result, Mono::Security::Interface::AlertDescription)>(&UnityTlsConversions::VerifyResultToAlertDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "VerifyResultToAlertDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+  }
+};
+// Writing MetadataGetter for method: UnityTlsConversions::VerifyResultToPolicyErrror
+// Il2CppName: VerifyResultToPolicyErrror
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoSslPolicyErrors (*)(Mono::Unity::UnityTls::unitytls_x509verify_result)>(&UnityTlsConversions::VerifyResultToPolicyErrror)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityTlsConversions*), "VerifyResultToPolicyErrror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>()});
+  }
+};

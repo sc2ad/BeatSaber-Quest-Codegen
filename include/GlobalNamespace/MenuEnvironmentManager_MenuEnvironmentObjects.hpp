@@ -60,35 +60,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentObjects), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentObjectsSizeCheck;
   static_assert(sizeof(MenuEnvironmentManager::MenuEnvironmentObjects) == 0x20);
-  // Writing MetadataGetter for method: MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType
-  // Il2CppName: get_menuEnvironmentType
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), "get_menuEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MenuEnvironmentManager::MenuEnvironmentObjects::get_wrapper
-  // Il2CppName: get_wrapper
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::get_wrapper)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), "get_wrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MenuEnvironmentManager::MenuEnvironmentObjects::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*, "", "MenuEnvironmentManager/MenuEnvironmentObjects");
+// Writing MetadataGetter for method: MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType
+// Il2CppName: get_menuEnvironmentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), "get_menuEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MenuEnvironmentManager::MenuEnvironmentObjects::get_wrapper
+// Il2CppName: get_wrapper
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::get_wrapper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), "get_wrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MenuEnvironmentManager::MenuEnvironmentObjects::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&MenuEnvironmentManager::MenuEnvironmentObjects::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager::MenuEnvironmentObjects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -155,123 +155,123 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(HitReactionVRIK::Offset), 76 + sizeof(float)> __RootMotion_FinalIK_HitReactionVRIK_OffsetSizeCheck;
   static_assert(sizeof(HitReactionVRIK::Offset) == 0x50);
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::get_crossFader
-  // Il2CppName: get_crossFader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_crossFader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_crossFader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::set_crossFader
-  // Il2CppName: set_crossFader
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(float)>(&HitReactionVRIK::Offset::set_crossFader)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_crossFader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::get_timer
-  // Il2CppName: get_timer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_timer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_timer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::set_timer
-  // Il2CppName: set_timer
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(float)>(&HitReactionVRIK::Offset::set_timer)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_timer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::get_force
-  // Il2CppName: get_force
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_force)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_force", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::set_force
-  // Il2CppName: set_force
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(UnityEngine::Vector3)>(&HitReactionVRIK::Offset::set_force)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_force", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::get_point
-  // Il2CppName: get_point
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_point)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::set_point
-  // Il2CppName: set_point
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(UnityEngine::Vector3)>(&HitReactionVRIK::Offset::set_point)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::Hit
-  // Il2CppName: Hit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(UnityEngine::Vector3, ::Array<UnityEngine::AnimationCurve*>*, UnityEngine::Vector3)>(&HitReactionVRIK::Offset::Hit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "Hit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::Apply
-  // Il2CppName: Apply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(RootMotion::FinalIK::VRIK*, ::Array<UnityEngine::AnimationCurve*>*, float)>(&HitReactionVRIK::Offset::Apply)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::GetLength
-  // Il2CppName: GetLength
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReactionVRIK::Offset::*)(::Array<UnityEngine::AnimationCurve*>*)>(&HitReactionVRIK::Offset::GetLength)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::CrossFadeStart
-  // Il2CppName: CrossFadeStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::CrossFadeStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::OnApply
-  // Il2CppName: OnApply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(RootMotion::FinalIK::VRIK*, ::Array<UnityEngine::AnimationCurve*>*, float)>(&HitReactionVRIK::Offset::OnApply)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::Offset::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::Offset*, "RootMotion.FinalIK", "HitReactionVRIK/Offset");
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::get_crossFader
+// Il2CppName: get_crossFader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_crossFader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_crossFader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::set_crossFader
+// Il2CppName: set_crossFader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(float)>(&HitReactionVRIK::Offset::set_crossFader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_crossFader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::get_timer
+// Il2CppName: get_timer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_timer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_timer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::set_timer
+// Il2CppName: set_timer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(float)>(&HitReactionVRIK::Offset::set_timer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_timer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::get_force
+// Il2CppName: get_force
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_force)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_force", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::set_force
+// Il2CppName: set_force
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(UnityEngine::Vector3)>(&HitReactionVRIK::Offset::set_force)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_force", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::get_point
+// Il2CppName: get_point
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::get_point)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "get_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::set_point
+// Il2CppName: set_point
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(UnityEngine::Vector3)>(&HitReactionVRIK::Offset::set_point)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "set_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::Hit
+// Il2CppName: Hit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(UnityEngine::Vector3, ::Array<UnityEngine::AnimationCurve*>*, UnityEngine::Vector3)>(&HitReactionVRIK::Offset::Hit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "Hit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::Apply
+// Il2CppName: Apply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(RootMotion::FinalIK::VRIK*, ::Array<UnityEngine::AnimationCurve*>*, float)>(&HitReactionVRIK::Offset::Apply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::GetLength
+// Il2CppName: GetLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReactionVRIK::Offset::*)(::Array<UnityEngine::AnimationCurve*>*)>(&HitReactionVRIK::Offset::GetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::CrossFadeStart
+// Il2CppName: CrossFadeStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::CrossFadeStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::OnApply
+// Il2CppName: OnApply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)(RootMotion::FinalIK::VRIK*, ::Array<UnityEngine::AnimationCurve*>*, float)>(&HitReactionVRIK::Offset::OnApply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationCurve*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::Offset::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::Offset::*)()>(&HitReactionVRIK::Offset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::Offset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

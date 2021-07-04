@@ -90,99 +90,99 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(SpinLock), 0 + sizeof(int)> __System_Threading_SpinLockSizeCheck;
   static_assert(sizeof(SpinLock) == 0x4);
-  // Writing MetadataGetter for method: SpinLock::SpinLock
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::SpinLock<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::SpinLock<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::Enter
-  // Il2CppName: Enter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool&)>(&SpinLock::Enter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::TryEnter
-  // Il2CppName: TryEnter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(int, bool&)>(&SpinLock::TryEnter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "TryEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::ContinueTryEnter
-  // Il2CppName: ContinueTryEnter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(int, bool&)>(&SpinLock::ContinueTryEnter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "ContinueTryEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::DecrementWaiters
-  // Il2CppName: DecrementWaiters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)()>(&SpinLock::DecrementWaiters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "DecrementWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::ContinueTryEnterWithThreadTracking
-  // Il2CppName: ContinueTryEnterWithThreadTracking
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(int, uint, bool&)>(&SpinLock::ContinueTryEnterWithThreadTracking)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "ContinueTryEnterWithThreadTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::Exit
-  // Il2CppName: Exit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::Exit)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "Exit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::ExitSlowPath
-  // Il2CppName: ExitSlowPath
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::ExitSlowPath)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "ExitSlowPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::get_IsHeldByCurrentThread
-  // Il2CppName: get_IsHeldByCurrentThread
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpinLock::*)()>(&SpinLock::get_IsHeldByCurrentThread)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "get_IsHeldByCurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::get_IsThreadOwnerTrackingEnabled
-  // Il2CppName: get_IsThreadOwnerTrackingEnabled
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpinLock::*)()>(&SpinLock::get_IsThreadOwnerTrackingEnabled)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), "get_IsThreadOwnerTrackingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SpinLock::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SpinLock::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SpinLock), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
+// Writing MetadataGetter for method: SpinLock::SpinLock
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::SpinLock<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::SpinLock<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::Enter
+// Il2CppName: Enter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool&)>(&SpinLock::Enter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::TryEnter
+// Il2CppName: TryEnter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(int, bool&)>(&SpinLock::TryEnter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "TryEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::ContinueTryEnter
+// Il2CppName: ContinueTryEnter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(int, bool&)>(&SpinLock::ContinueTryEnter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "ContinueTryEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::DecrementWaiters
+// Il2CppName: DecrementWaiters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)()>(&SpinLock::DecrementWaiters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "DecrementWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::ContinueTryEnterWithThreadTracking
+// Il2CppName: ContinueTryEnterWithThreadTracking
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(int, uint, bool&)>(&SpinLock::ContinueTryEnterWithThreadTracking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "ContinueTryEnterWithThreadTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::Exit
+// Il2CppName: Exit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::Exit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "Exit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::ExitSlowPath
+// Il2CppName: ExitSlowPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinLock::*)(bool)>(&SpinLock::ExitSlowPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "ExitSlowPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::get_IsHeldByCurrentThread
+// Il2CppName: get_IsHeldByCurrentThread
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpinLock::*)()>(&SpinLock::get_IsHeldByCurrentThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "get_IsHeldByCurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::get_IsThreadOwnerTrackingEnabled
+// Il2CppName: get_IsThreadOwnerTrackingEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpinLock::*)()>(&SpinLock::get_IsThreadOwnerTrackingEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), "get_IsThreadOwnerTrackingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SpinLock::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SpinLock::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SpinLock), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

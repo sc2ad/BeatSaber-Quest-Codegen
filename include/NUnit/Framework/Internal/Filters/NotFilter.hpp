@@ -78,67 +78,67 @@ namespace NUnit::Framework::Internal::Filters {
   #pragma pack(pop)
   static check_size<sizeof(NotFilter), 16 + sizeof(NUnit::Framework::Internal::TestFilter*)> __NUnit_Framework_Internal_Filters_NotFilterSizeCheck;
   static_assert(sizeof(NotFilter) == 0x18);
-  // Writing MetadataGetter for method: NotFilter::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotFilter::*)(NUnit::Framework::Internal::TestFilter*)>(&NotFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFilter*>()});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotFilter::*)(NUnit::Framework::Internal::TestFilter*)>(&NotFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFilter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NotFilter::get_BaseFilter
-  // Il2CppName: get_BaseFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestFilter* (NotFilter::*)()>(&NotFilter::get_BaseFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), "get_BaseFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: NotFilter::set_BaseFilter
-  // Il2CppName: set_BaseFilter
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotFilter::*)(NUnit::Framework::Internal::TestFilter*)>(&NotFilter::set_BaseFilter)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), "set_BaseFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFilter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NotFilter::Pass
-  // Il2CppName: Pass
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NotFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NotFilter::Pass)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NotFilter::Match
-  // Il2CppName: Match
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NotFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NotFilter::Match)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NotFilter::IsExplicitMatch
-  // Il2CppName: IsExplicitMatch
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NotFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NotFilter::IsExplicitMatch)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-    }
-  };
-  // Writing MetadataGetter for method: NotFilter::AddToXml
-  // Il2CppName: AddToXml
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NotFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&NotFilter::AddToXml)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(NotFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::NotFilter*, "NUnit.Framework.Internal.Filters", "NotFilter");
+// Writing MetadataGetter for method: NotFilter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotFilter::*)(NUnit::Framework::Internal::TestFilter*)>(&NotFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFilter*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotFilter::*)(NUnit::Framework::Internal::TestFilter*)>(&NotFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFilter*>()});
+  }
+};
+// Writing MetadataGetter for method: NotFilter::get_BaseFilter
+// Il2CppName: get_BaseFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestFilter* (NotFilter::*)()>(&NotFilter::get_BaseFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), "get_BaseFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NotFilter::set_BaseFilter
+// Il2CppName: set_BaseFilter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotFilter::*)(NUnit::Framework::Internal::TestFilter*)>(&NotFilter::set_BaseFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), "set_BaseFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFilter*>()});
+  }
+};
+// Writing MetadataGetter for method: NotFilter::Pass
+// Il2CppName: Pass
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NotFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NotFilter::Pass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: NotFilter::Match
+// Il2CppName: Match
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NotFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NotFilter::Match)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: NotFilter::IsExplicitMatch
+// Il2CppName: IsExplicitMatch
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NotFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NotFilter::IsExplicitMatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
+// Writing MetadataGetter for method: NotFilter::AddToXml
+// Il2CppName: AddToXml
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NotFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&NotFilter::AddToXml)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NotFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

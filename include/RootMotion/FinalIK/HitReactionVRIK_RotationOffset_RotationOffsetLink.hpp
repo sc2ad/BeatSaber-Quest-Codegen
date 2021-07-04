@@ -77,35 +77,35 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink), 40 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLinkSizeCheck;
   static_assert(sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink) == 0x38);
-  // Writing MetadataGetter for method: HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply
-  // Il2CppName: Apply
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)(RootMotion::FinalIK::VRIK*, UnityEngine::Quaternion, float)>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::RotationOffset::RotationOffsetLink::CrossFadeStart
-  // Il2CppName: CrossFadeStart
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)()>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::CrossFadeStart)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: HitReactionVRIK::RotationOffset::RotationOffsetLink::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)()>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)()>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset/RotationOffsetLink");
+// Writing MetadataGetter for method: HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply
+// Il2CppName: Apply
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)(RootMotion::FinalIK::VRIK*, UnityEngine::Quaternion, float)>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::RotationOffset::RotationOffsetLink::CrossFadeStart
+// Il2CppName: CrossFadeStart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)()>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::CrossFadeStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HitReactionVRIK::RotationOffset::RotationOffsetLink::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)()>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReactionVRIK::RotationOffset::RotationOffsetLink::*)()>(&HitReactionVRIK::RotationOffset::RotationOffsetLink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HitReactionVRIK::RotationOffset::RotationOffsetLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

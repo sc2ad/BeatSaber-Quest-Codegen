@@ -30,30 +30,30 @@ namespace UnityEngine::Rendering {
     static void _cctor();
   }; // UnityEngine.Rendering.OnDemandRendering
   #pragma pack(pop)
-  // Writing MetadataGetter for method: OnDemandRendering::get_renderFrameInterval
-  // Il2CppName: get_renderFrameInterval
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OnDemandRendering::get_renderFrameInterval)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OnDemandRendering*), "get_renderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OnDemandRendering::GetRenderFrameInterval
-  // Il2CppName: GetRenderFrameInterval
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&)>(&OnDemandRendering::GetRenderFrameInterval)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OnDemandRendering*), "GetRenderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
-    }
-  };
-  // Writing MetadataGetter for method: OnDemandRendering::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OnDemandRendering::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OnDemandRendering*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.Rendering", "OnDemandRendering");
+// Writing MetadataGetter for method: OnDemandRendering::get_renderFrameInterval
+// Il2CppName: get_renderFrameInterval
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OnDemandRendering::get_renderFrameInterval)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnDemandRendering*), "get_renderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OnDemandRendering::GetRenderFrameInterval
+// Il2CppName: GetRenderFrameInterval
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&)>(&OnDemandRendering::GetRenderFrameInterval)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnDemandRendering*), "GetRenderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: OnDemandRendering::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OnDemandRendering::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnDemandRendering*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -193,147 +193,147 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassRendererSO), 64 + sizeof(UnityEngine::Texture2D*)> __GlobalNamespace_BloomPrePassRendererSOSizeCheck;
   static_assert(sizeof(BloomPrePassRendererSO) == 0x48);
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::OnDisable
-  // Il2CppName: OnDisable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::OnDisable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::Cleanup
-  // Il2CppName: Cleanup
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::Cleanup)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::RenderAndSetData
-  // Il2CppName: RenderAndSetData
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(UnityEngine::Vector3, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float, GlobalNamespace::IBloomPrePassParams*, UnityEngine::RenderTexture*, UnityEngine::Vector2&, GlobalNamespace::ToneMapping&)>(&BloomPrePassRendererSO::RenderAndSetData)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "RenderAndSetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBloomPrePassParams*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ToneMapping&>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::SetDataToShaders
-  // Il2CppName: SetDataToShaders
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::Vector2, UnityEngine::Texture*, GlobalNamespace::ToneMapping)>(&BloomPrePassRendererSO::SetDataToShaders)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "SetDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ToneMapping>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::SetCustomStereoCameraEyeOffset
-  // Il2CppName: SetCustomStereoCameraEyeOffset
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(float)>(&BloomPrePassRendererSO::SetCustomStereoCameraEyeOffset)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "SetCustomStereoCameraEyeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::CreateBloomPrePassRenderTextureIfNeeded
-  // Il2CppName: CreateBloomPrePassRenderTextureIfNeeded
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (BloomPrePassRendererSO::*)(UnityEngine::RenderTexture*, GlobalNamespace::IBloomPrePassParams*)>(&BloomPrePassRendererSO::CreateBloomPrePassRenderTextureIfNeeded)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "CreateBloomPrePassRenderTextureIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBloomPrePassParams*>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::EnableBloomFog
-  // Il2CppName: EnableBloomFog
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::EnableBloomFog)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "EnableBloomFog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::DisableBloomFog
-  // Il2CppName: DisableBloomFog
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::DisableBloomFog)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "DisableBloomFog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::UpdateBloomFogParams
-  // Il2CppName: UpdateBloomFogParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::UpdateBloomFogParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "UpdateBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::GetCameraParams
-  // Il2CppName: GetCameraParams
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(UnityEngine::Camera*, UnityEngine::Matrix4x4&, UnityEngine::Matrix4x4&, float&)>(&BloomPrePassRendererSO::GetCameraParams)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "GetCameraParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::RenderAllLights
-  // Il2CppName: RenderAllLights
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&BloomPrePassRendererSO::RenderAllLights)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "RenderAllLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::PrepareLightsMeshRendering
-  // Il2CppName: PrepareLightsMeshRendering
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*, int)>(&BloomPrePassRendererSO::PrepareLightsMeshRendering)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "PrepareLightsMeshRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::MatrixLerp
-  // Il2CppName: MatrixLerp
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (BloomPrePassRendererSO::*)(UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&BloomPrePassRendererSO::MatrixLerp)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "MatrixLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: BloomPrePassRendererSO::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BloomPrePassRendererSO::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO*, "", "BloomPrePassRendererSO");
+// Writing MetadataGetter for method: BloomPrePassRendererSO::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::Cleanup
+// Il2CppName: Cleanup
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::Cleanup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::RenderAndSetData
+// Il2CppName: RenderAndSetData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(UnityEngine::Vector3, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float, GlobalNamespace::IBloomPrePassParams*, UnityEngine::RenderTexture*, UnityEngine::Vector2&, GlobalNamespace::ToneMapping&)>(&BloomPrePassRendererSO::RenderAndSetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "RenderAndSetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBloomPrePassParams*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ToneMapping&>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::SetDataToShaders
+// Il2CppName: SetDataToShaders
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::Vector2, UnityEngine::Texture*, GlobalNamespace::ToneMapping)>(&BloomPrePassRendererSO::SetDataToShaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "SetDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ToneMapping>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::SetCustomStereoCameraEyeOffset
+// Il2CppName: SetCustomStereoCameraEyeOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(float)>(&BloomPrePassRendererSO::SetCustomStereoCameraEyeOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "SetCustomStereoCameraEyeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::CreateBloomPrePassRenderTextureIfNeeded
+// Il2CppName: CreateBloomPrePassRenderTextureIfNeeded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (BloomPrePassRendererSO::*)(UnityEngine::RenderTexture*, GlobalNamespace::IBloomPrePassParams*)>(&BloomPrePassRendererSO::CreateBloomPrePassRenderTextureIfNeeded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "CreateBloomPrePassRenderTextureIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBloomPrePassParams*>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::EnableBloomFog
+// Il2CppName: EnableBloomFog
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::EnableBloomFog)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "EnableBloomFog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::DisableBloomFog
+// Il2CppName: DisableBloomFog
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::DisableBloomFog)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "DisableBloomFog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::UpdateBloomFogParams
+// Il2CppName: UpdateBloomFogParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::UpdateBloomFogParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "UpdateBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::GetCameraParams
+// Il2CppName: GetCameraParams
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(UnityEngine::Camera*, UnityEngine::Matrix4x4&, UnityEngine::Matrix4x4&, float&)>(&BloomPrePassRendererSO::GetCameraParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "GetCameraParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::RenderAllLights
+// Il2CppName: RenderAllLights
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&BloomPrePassRendererSO::RenderAllLights)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "RenderAllLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::PrepareLightsMeshRendering
+// Il2CppName: PrepareLightsMeshRendering
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*, int)>(&BloomPrePassRendererSO::PrepareLightsMeshRendering)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "PrepareLightsMeshRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::MatrixLerp
+// Il2CppName: MatrixLerp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (BloomPrePassRendererSO::*)(UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&BloomPrePassRendererSO::MatrixLerp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "MatrixLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::*)()>(&BloomPrePassRendererSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: BloomPrePassRendererSO::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BloomPrePassRendererSO::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

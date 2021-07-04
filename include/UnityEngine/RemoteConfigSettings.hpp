@@ -49,14 +49,14 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(RemoteConfigSettings), 24 + sizeof(System::Action_1<bool>*)> __UnityEngine_RemoteConfigSettingsSizeCheck;
   static_assert(sizeof(RemoteConfigSettings) == 0x20);
-  // Writing MetadataGetter for method: RemoteConfigSettings::RemoteConfigSettingsUpdated
-  // Il2CppName: RemoteConfigSettingsUpdated
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RemoteConfigSettings*, bool)>(&RemoteConfigSettings::RemoteConfigSettingsUpdated)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RemoteConfigSettings*), "RemoteConfigSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RemoteConfigSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettings*, "UnityEngine", "RemoteConfigSettings");
+// Writing MetadataGetter for method: RemoteConfigSettings::RemoteConfigSettingsUpdated
+// Il2CppName: RemoteConfigSettingsUpdated
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RemoteConfigSettings*, bool)>(&RemoteConfigSettings::RemoteConfigSettingsUpdated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RemoteConfigSettings*), "RemoteConfigSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RemoteConfigSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

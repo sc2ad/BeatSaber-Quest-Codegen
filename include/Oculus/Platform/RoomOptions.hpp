@@ -84,99 +84,99 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(RoomOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RoomOptionsSizeCheck;
   static_assert(sizeof(RoomOptions) == 0x18);
-  // Writing MetadataGetter for method: RoomOptions::SetDataStore
-  // Il2CppName: SetDataStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(::Il2CppString*, ::Il2CppString*)>(&RoomOptions::SetDataStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::ClearDataStore
-  // Il2CppName: ClearDataStore
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::ClearDataStore)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "ClearDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::SetExcludeRecentlyMet
-  // Il2CppName: SetExcludeRecentlyMet
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(bool)>(&RoomOptions::SetExcludeRecentlyMet)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetExcludeRecentlyMet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::SetMaxUserResults
-  // Il2CppName: SetMaxUserResults
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(uint)>(&RoomOptions::SetMaxUserResults)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetMaxUserResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::SetOrdering
-  // Il2CppName: SetOrdering
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(Oculus::Platform::UserOrdering)>(&RoomOptions::SetOrdering)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetOrdering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::UserOrdering>()});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::SetRecentlyMetTimeWindow
-  // Il2CppName: SetRecentlyMetTimeWindow
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(Oculus::Platform::TimeWindow)>(&RoomOptions::SetRecentlyMetTimeWindow)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetRecentlyMetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::SetRoomId
-  // Il2CppName: SetRoomId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(uint64_t)>(&RoomOptions::SetRoomId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetRoomId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::SetTurnOffUpdates
-  // Il2CppName: SetTurnOffUpdates
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(bool)>(&RoomOptions::SetTurnOffUpdates)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetTurnOffUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::operator System::IntPtr
-  // Il2CppName: op_Explicit
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&RoomOptions::operator System::IntPtr)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RoomOptions::Finalize
-  // Il2CppName: Finalize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::Finalize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");
+// Writing MetadataGetter for method: RoomOptions::SetDataStore
+// Il2CppName: SetDataStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(::Il2CppString*, ::Il2CppString*)>(&RoomOptions::SetDataStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::ClearDataStore
+// Il2CppName: ClearDataStore
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::ClearDataStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "ClearDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::SetExcludeRecentlyMet
+// Il2CppName: SetExcludeRecentlyMet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(bool)>(&RoomOptions::SetExcludeRecentlyMet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetExcludeRecentlyMet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::SetMaxUserResults
+// Il2CppName: SetMaxUserResults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(uint)>(&RoomOptions::SetMaxUserResults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetMaxUserResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::SetOrdering
+// Il2CppName: SetOrdering
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(Oculus::Platform::UserOrdering)>(&RoomOptions::SetOrdering)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetOrdering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::UserOrdering>()});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::SetRecentlyMetTimeWindow
+// Il2CppName: SetRecentlyMetTimeWindow
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(Oculus::Platform::TimeWindow)>(&RoomOptions::SetRecentlyMetTimeWindow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetRecentlyMetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::SetRoomId
+// Il2CppName: SetRoomId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(uint64_t)>(&RoomOptions::SetRoomId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetRoomId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::SetTurnOffUpdates
+// Il2CppName: SetTurnOffUpdates
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)(bool)>(&RoomOptions::SetTurnOffUpdates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "SetTurnOffUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::operator System::IntPtr
+// Il2CppName: op_Explicit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&RoomOptions::operator System::IntPtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RoomOptions::Finalize
+// Il2CppName: Finalize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomOptions::*)()>(&RoomOptions::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RoomOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

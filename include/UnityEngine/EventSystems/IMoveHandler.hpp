@@ -31,14 +31,14 @@ namespace UnityEngine::EventSystems {
     void OnMove(UnityEngine::EventSystems::AxisEventData* eventData);
   }; // UnityEngine.EventSystems.IMoveHandler
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IMoveHandler::OnMove
-  // Il2CppName: OnMove
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMoveHandler::*)(UnityEngine::EventSystems::AxisEventData*)>(&IMoveHandler::OnMove)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMoveHandler*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IMoveHandler*, "UnityEngine.EventSystems", "IMoveHandler");
+// Writing MetadataGetter for method: IMoveHandler::OnMove
+// Il2CppName: OnMove
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMoveHandler::*)(UnityEngine::EventSystems::AxisEventData*)>(&IMoveHandler::OnMove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMoveHandler*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
+  }
+};

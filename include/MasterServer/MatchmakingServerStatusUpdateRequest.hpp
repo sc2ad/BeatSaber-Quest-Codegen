@@ -126,91 +126,91 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(MatchmakingServerStatusUpdateRequest), 52 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType)> __MasterServer_MatchmakingServerStatusUpdateRequestSizeCheck;
   static_assert(sizeof(MatchmakingServerStatusUpdateRequest) == 0x38);
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::get_pool
-  // Il2CppName: get_pool
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::MatchmakingServerStatusUpdateRequest*>* (*)()>(&MatchmakingServerStatusUpdateRequest::get_pool)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::get_dedicatedServerId
-  // Il2CppName: get_dedicatedServerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::get_dedicatedServerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::set_dedicatedServerId
-  // Il2CppName: set_dedicatedServerId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(::Il2CppString*)>(&MatchmakingServerStatusUpdateRequest::set_dedicatedServerId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::get_dedicatedServerCreationTime
-  // Il2CppName: get_dedicatedServerCreationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::get_dedicatedServerCreationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::set_dedicatedServerCreationTime
-  // Il2CppName: set_dedicatedServerCreationTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(int64_t)>(&MatchmakingServerStatusUpdateRequest::set_dedicatedServerCreationTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Init
-  // Il2CppName: Init
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::MatchmakingServerStatusUpdateRequest* (MatchmakingServerStatusUpdateRequest::*)(::Il2CppString*, int64_t, ::Il2CppString*, GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType, int)>(&MatchmakingServerStatusUpdateRequest::Init)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Serialize
-  // Il2CppName: Serialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MatchmakingServerStatusUpdateRequest::Serialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Deserialize
-  // Il2CppName: Deserialize
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MatchmakingServerStatusUpdateRequest::Deserialize)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Release
-  // Il2CppName: Release
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::Release)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MatchmakingServerStatusUpdateRequest*, "MasterServer", "MatchmakingServerStatusUpdateRequest");
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::get_pool
+// Il2CppName: get_pool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::MatchmakingServerStatusUpdateRequest*>* (*)()>(&MatchmakingServerStatusUpdateRequest::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::get_dedicatedServerId
+// Il2CppName: get_dedicatedServerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::get_dedicatedServerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::set_dedicatedServerId
+// Il2CppName: set_dedicatedServerId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(::Il2CppString*)>(&MatchmakingServerStatusUpdateRequest::set_dedicatedServerId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::get_dedicatedServerCreationTime
+// Il2CppName: get_dedicatedServerCreationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::get_dedicatedServerCreationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::set_dedicatedServerCreationTime
+// Il2CppName: set_dedicatedServerCreationTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(int64_t)>(&MatchmakingServerStatusUpdateRequest::set_dedicatedServerCreationTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Init
+// Il2CppName: Init
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::MatchmakingServerStatusUpdateRequest* (MatchmakingServerStatusUpdateRequest::*)(::Il2CppString*, int64_t, ::Il2CppString*, GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType, int)>(&MatchmakingServerStatusUpdateRequest::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MatchmakingServerStatusUpdateRequest::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MatchmakingServerStatusUpdateRequest::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::Release
+// Il2CppName: Release
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MatchmakingServerStatusUpdateRequest::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingServerStatusUpdateRequest::*)()>(&MatchmakingServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MatchmakingServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

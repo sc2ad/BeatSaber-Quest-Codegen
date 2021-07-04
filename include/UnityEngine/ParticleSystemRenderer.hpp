@@ -32,14 +32,14 @@ namespace UnityEngine {
     int GetMeshes(::Array<UnityEngine::Mesh*>*& meshes);
   }; // UnityEngine.ParticleSystemRenderer
   #pragma pack(pop)
-  // Writing MetadataGetter for method: ParticleSystemRenderer::GetMeshes
-  // Il2CppName: GetMeshes
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ParticleSystemRenderer::*)(::Array<UnityEngine::Mesh*>*&)>(&ParticleSystemRenderer::GetMeshes)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(ParticleSystemRenderer*), "GetMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Mesh*>*&>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemRenderer*, "UnityEngine", "ParticleSystemRenderer");
+// Writing MetadataGetter for method: ParticleSystemRenderer::GetMeshes
+// Il2CppName: GetMeshes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ParticleSystemRenderer::*)(::Array<UnityEngine::Mesh*>*&)>(&ParticleSystemRenderer::GetMeshes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ParticleSystemRenderer*), "GetMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Mesh*>*&>()});
+  }
+};

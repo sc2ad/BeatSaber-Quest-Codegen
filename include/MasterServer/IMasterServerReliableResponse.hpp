@@ -30,14 +30,14 @@ namespace MasterServer {
     MasterServer::IMasterServerReliableResponse* WithRequestAndResponseId(uint requestId, uint responseId);
   }; // MasterServer.IMasterServerReliableResponse
   #pragma pack(pop)
-  // Writing MetadataGetter for method: IMasterServerReliableResponse::WithRequestAndResponseId
-  // Il2CppName: WithRequestAndResponseId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableResponse* (IMasterServerReliableResponse::*)(uint, uint)>(&IMasterServerReliableResponse::WithRequestAndResponseId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(IMasterServerReliableResponse*), "WithRequestAndResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableResponse*, "MasterServer", "IMasterServerReliableResponse");
+// Writing MetadataGetter for method: IMasterServerReliableResponse::WithRequestAndResponseId
+// Il2CppName: WithRequestAndResponseId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableResponse* (IMasterServerReliableResponse::*)(uint, uint)>(&IMasterServerReliableResponse::WithRequestAndResponseId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IMasterServerReliableResponse*), "WithRequestAndResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};

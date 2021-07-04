@@ -80,59 +80,59 @@ namespace System::Runtime::Remoting::Lifetime {
   #pragma pack(pop)
   static check_size<sizeof(LeaseManager), 24 + sizeof(System::Threading::Timer*)> __System_Runtime_Remoting_Lifetime_LeaseManagerSizeCheck;
   static_assert(sizeof(LeaseManager) == 0x20);
-  // Writing MetadataGetter for method: LeaseManager::SetPollTime
-  // Il2CppName: SetPollTime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)(System::TimeSpan)>(&LeaseManager::SetPollTime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "SetPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaseManager::TrackLifetime
-  // Il2CppName: TrackLifetime
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)(System::Runtime::Remoting::ServerIdentity*)>(&LeaseManager::TrackLifetime)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "TrackLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaseManager::StartManager
-  // Il2CppName: StartManager
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::StartManager)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "StartManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaseManager::StopManager
-  // Il2CppName: StopManager
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::StopManager)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "StopManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LeaseManager::ManageLeases
-  // Il2CppName: ManageLeases
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)(::Il2CppObject*)>(&LeaseManager::ManageLeases)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "ManageLeases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-    }
-  };
-  // Writing MetadataGetter for method: LeaseManager::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LeaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");
+// Writing MetadataGetter for method: LeaseManager::SetPollTime
+// Il2CppName: SetPollTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)(System::TimeSpan)>(&LeaseManager::SetPollTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "SetPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+  }
+};
+// Writing MetadataGetter for method: LeaseManager::TrackLifetime
+// Il2CppName: TrackLifetime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)(System::Runtime::Remoting::ServerIdentity*)>(&LeaseManager::TrackLifetime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "TrackLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaseManager::StartManager
+// Il2CppName: StartManager
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::StartManager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "StartManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaseManager::StopManager
+// Il2CppName: StopManager
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::StopManager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "StopManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LeaseManager::ManageLeases
+// Il2CppName: ManageLeases
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)(::Il2CppObject*)>(&LeaseManager::ManageLeases)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaseManager*), "ManageLeases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: LeaseManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaseManager::*)()>(&LeaseManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LeaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

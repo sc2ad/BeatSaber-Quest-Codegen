@@ -113,59 +113,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(RandomizedPitch), 48 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_RandomizedPitchSizeCheck;
   static_assert(sizeof(RandomizedPitch) == 0x38);
-  // Writing MetadataGetter for method: RandomizedPitch::OnEnable
-  // Il2CppName: OnEnable
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::OnEnable)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RandomizedPitch::Play
-  // Il2CppName: Play
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::Play)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: RandomizedPitch::PlayDelayed
-  // Il2CppName: PlayDelayed
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)(float)>(&RandomizedPitch::PlayDelayed)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "PlayDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: RandomizedPitch::PlayDelayedCoroutine
-  // Il2CppName: PlayDelayedCoroutine
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RandomizedPitch::*)(float)>(&RandomizedPitch::PlayDelayedCoroutine)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "PlayDelayedCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: RandomizedPitch::RestorePitchWithDelay
-  // Il2CppName: RestorePitchWithDelay
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RandomizedPitch::*)(float)>(&RandomizedPitch::RestorePitchWithDelay)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "RestorePitchWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-    }
-  };
-  // Writing MetadataGetter for method: RandomizedPitch::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch*, "", "RandomizedPitch");
+// Writing MetadataGetter for method: RandomizedPitch::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::Play
+// Il2CppName: Play
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::Play)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::PlayDelayed
+// Il2CppName: PlayDelayed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)(float)>(&RandomizedPitch::PlayDelayed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "PlayDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::PlayDelayedCoroutine
+// Il2CppName: PlayDelayedCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RandomizedPitch::*)(float)>(&RandomizedPitch::PlayDelayedCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "PlayDelayedCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::RestorePitchWithDelay
+// Il2CppName: RestorePitchWithDelay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RandomizedPitch::*)(float)>(&RandomizedPitch::RestorePitchWithDelay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "RestorePitchWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

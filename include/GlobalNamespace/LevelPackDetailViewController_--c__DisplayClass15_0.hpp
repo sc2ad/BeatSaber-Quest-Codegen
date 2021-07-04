@@ -59,35 +59,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelPackDetailViewController::$$c__DisplayClass15_0), 24 + sizeof(GlobalNamespace::LevelPackDetailViewController*)> __GlobalNamespace_LevelPackDetailViewController_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(LevelPackDetailViewController::$$c__DisplayClass15_0) == 0x20);
-  // Writing MetadataGetter for method: LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__1
-  // Il2CppName: <DidActivate>b__1
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__1)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), "<DidActivate>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__2
-  // Il2CppName: <DidActivate>b__2
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__2)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), "<DidActivate>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: LevelPackDetailViewController::$$c__DisplayClass15_0::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass15_0*, "", "LevelPackDetailViewController/<>c__DisplayClass15_0");
+// Writing MetadataGetter for method: LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__1
+// Il2CppName: <DidActivate>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), "<DidActivate>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__2
+// Il2CppName: <DidActivate>b__2
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), "<DidActivate>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: LevelPackDetailViewController::$$c__DisplayClass15_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$$c__DisplayClass15_0::*)()>(&LevelPackDetailViewController::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

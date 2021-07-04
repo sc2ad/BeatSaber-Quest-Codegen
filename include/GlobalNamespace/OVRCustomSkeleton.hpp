@@ -75,35 +75,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRCustomSkeleton), 184 + sizeof(System::Collections::Generic::List_1<UnityEngine::Transform*>*)> __GlobalNamespace_OVRCustomSkeletonSizeCheck;
   static_assert(sizeof(OVRCustomSkeleton) == 0xC0);
-  // Writing MetadataGetter for method: OVRCustomSkeleton::get_CustomBones
-  // Il2CppName: get_CustomBones
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Transform*>* (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::get_CustomBones)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), "get_CustomBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCustomSkeleton::InitializeBones
-  // Il2CppName: InitializeBones
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::InitializeBones)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), "InitializeBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: OVRCustomSkeleton::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCustomSkeleton*, "", "OVRCustomSkeleton");
+// Writing MetadataGetter for method: OVRCustomSkeleton::get_CustomBones
+// Il2CppName: get_CustomBones
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Transform*>* (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::get_CustomBones)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), "get_CustomBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCustomSkeleton::InitializeBones
+// Il2CppName: InitializeBones
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::InitializeBones)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), "InitializeBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: OVRCustomSkeleton::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCustomSkeleton::*)()>(&OVRCustomSkeleton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRCustomSkeleton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

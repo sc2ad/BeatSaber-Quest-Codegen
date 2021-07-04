@@ -53,35 +53,35 @@ namespace Org::BouncyCastle::Asn1::Sec {
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Asn1.Sec.SecNamedCurves/Secp160k1Holder
   #pragma pack(pop)
-  // Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::_cctor
-  // Il2CppName: .cctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp160k1Holder::_cctor)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::CreateParameters
-  // Il2CppName: CreateParameters
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::CreateParameters)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::SecNamedCurves::Secp160k1Holder*, "Org.BouncyCastle.Asn1.Sec", "SecNamedCurves/Secp160k1Holder");
+// Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecNamedCurves::Secp160k1Holder::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SecNamedCurves::Secp160k1Holder::CreateParameters
+// Il2CppName: CreateParameters
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (SecNamedCurves::Secp160k1Holder::*)()>(&SecNamedCurves::Secp160k1Holder::CreateParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SecNamedCurves::Secp160k1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

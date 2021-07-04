@@ -27,14 +27,14 @@ namespace System::Text::RegularExpressions {
     System::Text::RegularExpressions::RegexRunner* CreateInstance();
   }; // System.Text.RegularExpressions.RegexRunnerFactory
   #pragma pack(pop)
-  // Writing MetadataGetter for method: RegexRunnerFactory::CreateInstance
-  // Il2CppName: CreateInstance
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexRunner* (RegexRunnerFactory::*)()>(&RegexRunnerFactory::CreateInstance)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(RegexRunnerFactory*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunnerFactory*, "System.Text.RegularExpressions", "RegexRunnerFactory");
+// Writing MetadataGetter for method: RegexRunnerFactory::CreateInstance
+// Il2CppName: CreateInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexRunner* (RegexRunnerFactory::*)()>(&RegexRunnerFactory::CreateInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RegexRunnerFactory*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

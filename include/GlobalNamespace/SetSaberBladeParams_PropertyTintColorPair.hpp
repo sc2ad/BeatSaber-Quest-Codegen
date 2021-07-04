@@ -47,19 +47,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SetSaberBladeParams::PropertyTintColorPair), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_SetSaberBladeParams_PropertyTintColorPairSizeCheck;
   static_assert(sizeof(SetSaberBladeParams::PropertyTintColorPair) == 0x28);
-  // Writing MetadataGetter for method: SetSaberBladeParams::PropertyTintColorPair::New_ctor
-  // Il2CppName: .ctor
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberBladeParams::PropertyTintColorPair::*)()>(&SetSaberBladeParams::PropertyTintColorPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetSaberBladeParams::PropertyTintColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberBladeParams::PropertyTintColorPair::*)()>(&SetSaberBladeParams::PropertyTintColorPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(SetSaberBladeParams::PropertyTintColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*, "", "SetSaberBladeParams/PropertyTintColorPair");
+// Writing MetadataGetter for method: SetSaberBladeParams::PropertyTintColorPair::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberBladeParams::PropertyTintColorPair::*)()>(&SetSaberBladeParams::PropertyTintColorPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetSaberBladeParams::PropertyTintColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetSaberBladeParams::PropertyTintColorPair::*)()>(&SetSaberBladeParams::PropertyTintColorPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SetSaberBladeParams::PropertyTintColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

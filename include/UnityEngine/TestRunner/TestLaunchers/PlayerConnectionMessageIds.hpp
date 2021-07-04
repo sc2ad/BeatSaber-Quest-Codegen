@@ -41,54 +41,54 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     static System::Guid get_playerAliveHeartbeat();
   }; // UnityEngine.TestRunner.TestLaunchers.PlayerConnectionMessageIds
   #pragma pack(pop)
-  // Writing MetadataGetter for method: PlayerConnectionMessageIds::get_runStartedMessageId
-  // Il2CppName: get_runStartedMessageId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_runStartedMessageId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_runStartedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnectionMessageIds::get_runFinishedMessageId
-  // Il2CppName: get_runFinishedMessageId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_runFinishedMessageId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_runFinishedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnectionMessageIds::get_testStartedMessageId
-  // Il2CppName: get_testStartedMessageId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_testStartedMessageId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_testStartedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnectionMessageIds::get_testFinishedMessageId
-  // Il2CppName: get_testFinishedMessageId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_testFinishedMessageId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_testFinishedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnectionMessageIds::get_quitPlayerMessageId
-  // Il2CppName: get_quitPlayerMessageId
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_quitPlayerMessageId)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_quitPlayerMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
-  // Writing MetadataGetter for method: PlayerConnectionMessageIds::get_playerAliveHeartbeat
-  // Il2CppName: get_playerAliveHeartbeat
-  template<>
-  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_playerAliveHeartbeat)> {
-    const MethodInfo* get() {
-      return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_playerAliveHeartbeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-    }
-  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*, "UnityEngine.TestRunner.TestLaunchers", "PlayerConnectionMessageIds");
+// Writing MetadataGetter for method: PlayerConnectionMessageIds::get_runStartedMessageId
+// Il2CppName: get_runStartedMessageId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_runStartedMessageId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_runStartedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnectionMessageIds::get_runFinishedMessageId
+// Il2CppName: get_runFinishedMessageId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_runFinishedMessageId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_runFinishedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnectionMessageIds::get_testStartedMessageId
+// Il2CppName: get_testStartedMessageId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_testStartedMessageId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_testStartedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnectionMessageIds::get_testFinishedMessageId
+// Il2CppName: get_testFinishedMessageId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_testFinishedMessageId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_testFinishedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnectionMessageIds::get_quitPlayerMessageId
+// Il2CppName: get_quitPlayerMessageId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_quitPlayerMessageId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_quitPlayerMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PlayerConnectionMessageIds::get_playerAliveHeartbeat
+// Il2CppName: get_playerAliveHeartbeat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&PlayerConnectionMessageIds::get_playerAliveHeartbeat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionMessageIds*), "get_playerAliveHeartbeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
